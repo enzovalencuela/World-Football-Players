@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Futebol</title>
+  </head>
+  <body>
+    <header>
+      <h1>Atletas do Mundo</h1>
+    </header>
+    <main>
+      <!--MENU-BUSCA-->
+      <section>
+        <input
+          type="text"
+          placeholder="Digite uma informação do atleta"
+          id="campo-pesquisa"
+        />
+        <button onclick="pesquisar()">Pesquisar</button>
+      </section>
+      <!--RESULTADOS-->
+      <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+    <footer>
+      <p>2024 - Atletas do Mundo. todos direitos reservados</p>
+      <p>Entre em contato pelo email: esilvavalencuela@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
