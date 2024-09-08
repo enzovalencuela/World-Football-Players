@@ -438,6 +438,16 @@ let dados = [
     tags: "Brasil, Corinthians, Barcelona, meia-atacante",
     titulos: "Copa do Mundo, La Liga",
   },
+  // Rodrygo
+  {
+    nome: "Rodrygo",
+    descricao:
+      "Jovem talento do Real Madrid, Rodrygo é um atacante rápido e habilidoso, com grande potencial para o futuro.",
+    pagina: "https://www.instagram.com/rodrygogoes/",
+    link: "https://pt.wikipedia.org/wiki/Rodrygo_Silva_de_Goes",
+    tags: "Brasil, atacante, Real Madrid",
+    titulos: "La Liga, Champions League",
+  },
   //Ronaldinho Gaúcho
   {
     nome: "Ronaldinho Gaúcho",
@@ -574,16 +584,6 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Pedro_González_López",
     tags: "Espanha, meia, Barcelona",
     titulos: "La Liga",
-  },
-  // Rodrygo
-  {
-    nome: "Rodrygo",
-    descricao:
-      "Jovem talento do Real Madrid, Rodrygo é um atacante rápido e habilidoso, com grande potencial para o futuro.",
-    pagina: "https://www.instagram.com/rodrygogoes/",
-    link: "https://pt.wikipedia.org/wiki/Rodrygo_Silva_de_Goes",
-    tags: "Espanha, atacante, Real Madrid",
-    titulos: "La Liga, Champions League",
   },
   // Sergio Ramos
   {
