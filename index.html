@@ -7,22 +7,60 @@
     <title>Futebol</title>
   </head>
   <body>
-    <header>
-      <h1>Atletas do Mundo</h1>
-    </header>
-    <main>
-      <!--MENU-BUSCA-->
-      <section>
-        <input
-          type="text"
-          placeholder="Digite o atleta, time ou país"
-          id="campo-pesquisa"
-        />
-        <button onclick="pesquisar()">Pesquisar</button>
-      </section>
-      <!--RESULTADOS-->
-      <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
-    </main>
+    <div class="pagina">
+      <header>
+        <h1>Atletas do Mundo</h1>
+      </header>
+      <main>
+        <!--MENU-PESQUISA-->
+        <section>
+          <input
+            type="text"
+            placeholder="Digite o atleta, time ou país"
+            id="campo-pesquisa"
+          />
+          <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <!--RESULTADOS-->
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+      </main>
+    </div>
+    <!--SELEÇÃO DO ANO-->
+    <div class="informacoes">
+      <h1 id="titulo-informacoes">SELEÇÃO DO ANO</h1>
+      <div class="pagina1">
+        <img id="selecao-img" src="./imagens/selecao-do-ano.png" alt="" />
+        <div id="descricao-selecao">
+          <h2 class="subtitulos">Goleiro:</h2>
+          <p>Thibaut Courtois (Real Madrid)</p>
+          <h2 class="subtitulos">Defensores:</h2>
+          <p>
+            Trent Alexander-Arnold (Liverpool)
+            <br />
+            Virgil van Dijk (Liverpool) <br />
+            Rúben Dias (ManchesterCity) <br />
+            Alphonso Davies (Bayern de Munique)
+          </p>
+          <h2 class="subtitulos">Meio-campistas:</h2>
+          <p>
+            Kevin De Bruyne (Manchester City)<br />
+            Joshua Kimmich (Bayern de Munique)<br />
+            Pedri (Barcelona)
+          </p>
+          <h2 class="subtitulos">Atacantes:</h2>
+          <p>
+            Kylian Mbappé (PSG)<br />
+            Erling Haaland (Manchester City)<br />
+            Lionel Messi (PSG)
+          </p>
+        </div>
+      </div>
+
+      <p id="formacao">
+        Formação: 4-3-3 (Courtois; Alexander-Arnold, Van Dijk, Dias, Davies;
+        Kimmich, De Bruyne, Pedri; Mbappé, Haaland, Messi).
+      </p>
+    </div>
     <!--RODAPÉ-->
     <footer>
       <p>2024 - Atletas do Mundo. todos direitos reservados</p>
