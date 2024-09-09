@@ -14,6 +14,19 @@ let dados = [
     titulos: "Brasileirão",
   },
 
+  //BAHIA---------------------------------------------------
+
+  // Everton Ribeiro
+  {
+    nome: "Everton Ribeiro",
+    descricao:
+      "Meia armador talentoso, com excelente visão de jogo e passe, e grande capacidade de liderança.",
+    pagina: "https://www.instagram.com/evertonribeiro/",
+    link: "https://pt.wikipedia.org/wiki/Everton_Ribeiro",
+    tags: "Brasil, Bahia, meia",
+    titulos: "Brasileirão",
+  },
+
   //Botafogo------------------------------------------------
 
   // Lucas Perri
@@ -92,6 +105,16 @@ let dados = [
     tags: "Brasil, Flamengo, atacante",
     titulos: "Libertadores, Brasileirão",
   },
+  // Cebolinha
+  {
+    nome: "Cebolinha",
+    descricao:
+      "Atacante rápido e habilidoso, com grande capacidade de desmarque e finalização.",
+    pagina: "https://www.instagram.com/cebolinha/", // Substituir pela página oficial do Cebolinha
+    link: "https://pt.wikipedia.org/wiki/Everton_Soares",
+    tags: "Brasil, Flamengo, atacante",
+    titulos: "Brasileirão",
+  },
   //Gabriel Barbosa
   {
     nome: "Gabriel Barbosa (Gabigol)",
@@ -101,6 +124,16 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Gabriel_Barbosa_(futebolista)",
     tags: "Brasil, Gabigol, Flamengo, artilheiro",
     titulos: "Brasileirão, Libertadores",
+  },
+  // Gerson
+  {
+    nome: "Gerson",
+    descricao:
+      "Volante combativo e técnico, com excelente visão de jogo e passe.",
+    pagina: "https://www.instagram.com/gerson/", // Substituir pela página oficial do Gerson
+    link: "https://pt.wikipedia.org/wiki/Gerson_Santos_da_Silva",
+    tags: "Brasil, Flamengo, volante",
+    titulos: "Brasileirão",
   },
   // Giorgian De Arrascaeta
   {
@@ -146,7 +179,7 @@ let dados = [
     titulos: "Champions League, La Liga",
   },
 
-  //Palmeiras
+  //Palmeiras-------------------------------------------
 
   // Gabriel Menino
   {
@@ -177,6 +210,19 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Raphael_Veiga",
     tags: "Brasil, Palmeiras, meia",
     titulos: "Brasileirão",
+  },
+
+  //VASCO DA GAMA
+
+  // Philippe Coutinho
+  {
+    nome: "Philippe Coutinho",
+    descricao:
+      "Meia habilidoso e com grande visão de jogo, conhecido por seus passes precisos e chutes de longa distância.",
+    pagina: "https://www.instagram.com/philcoutinho/",
+    link: "https://pt.wikipedia.org/wiki/Philippe_Coutinho",
+    tags: "Brasil, Barcelona (ex), Liverpool (ex), meia",
+    titulos: "La Liga, Copa do Brasil",
   },
 
   //ALEMANHA--------------------------------------------------------------------------------------------------
@@ -321,6 +367,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Lionel_Messi",
     tags: "argentina, melhor do mundo, melhores da historia, ET, Alienigena",
     titulos: "copa do mundo, champions league, UEFA, la liga, copa america",
+    video: "https://youtu.be/b4_PA7GsLwA?si=S61jOuHgjFs1hynR",
   },
   // Sergio Agüero
   {
@@ -417,6 +464,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Neymar",
     tags: "Brasil, menino ney, melhor driblador, Al Hillal, cai cai",
     titulos: "champions league, UEFA",
+    video: "https://www.youtube.com/embed/40_R3lyMMRo?si=I2qmX5jG7B091N96",
   },
   //Pelé
   {
@@ -457,6 +505,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Ronaldinho",
     tags: "Brasil, sorriso, mágico, Barcelona, ronaldinho gaucho",
     titulos: "Champions League, Copa do Mundo",
+    video: "https://youtu.be/KW_2X10fSSk?si=CYFIrIZmbltFtN-w",
   },
   //Ronaldo Fenômeno
   {
@@ -768,6 +817,19 @@ let dados = [
     titulos: "Bundesliga, Premier League",
   },
 
+  //PAÍS DE GALES---------------------------------------------------------------------------------------------
+
+  // Gareth Bale
+  {
+    nome: "Gareth Bale",
+    descricao:
+      "Extremo veloz e habilidoso, conhecido por seus gols de falta e arrancadas impressionantes.",
+    pagina: "https://www.instagram.com/garethbale11/",
+    link: "https://pt.wikipedia.org/wiki/Gareth_Bale",
+    tags: "País de Gales, Real Madrid (ex), Tottenham (ex), extremo",
+    titulos: "Champions League, La Liga, Premier League",
+  },
+
   //POLÔNIA---------------------------------------------------------------------------------------------------
 
   // Arkadiusz Milik
@@ -832,6 +894,7 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Cristiano_Ronaldo",
     tags: "Portugal, melhor do mundo, melhores da historia, CR7, Papai Cris, Máquina, Al Nassr, SIUUUUU",
     titulos: "champions league, UEFA",
+    video: "https://youtu.be/E6bw0a6Mmx4?si=Zh3knWmROXG5PdDI",
   },
   //Eusébio
   {
@@ -855,5 +918,18 @@ let dados = [
     link: "https://pt.wikipedia.org/wiki/Zlatan_Ibrahimović",
     tags: "Suécia, Ibra, ego, PSG, Milan,",
     titulos: "Ligue 1, Serie A",
+  },
+
+  //URUGUAI---------------------------------------------------------------------------------------------------
+
+  // Edinson Cavani
+  {
+    nome: "Edinson Cavani",
+    descricao:
+      "Atacante forte e oportunista, conhecido por sua finalização precisa e cabeçadas poderosas.",
+    pagina: "https://www.instagram.com/edinsoncavani21/",
+    link: "https://pt.wikipedia.org/wiki/Edinson_Cavani",
+    tags: "Uruguai, Manchester United (ex), PSG (ex), atacante",
+    titulos: "Ligue 1, Copa da França",
   },
 ];

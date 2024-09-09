@@ -39,10 +39,8 @@ function pesquisar() {
           <a href="${dado.pagina}" target="_blank">${dado.nome}</a>
         </h2>
         <p class="descricao-meta">${dado.descricao}</p>
-        <a href="${dado.link}" target="_blank"
-          >Mais informações</a
-        >
-      </div>
+       <a href="${dado.link}" target="_blank">Mais informações</a>
+        </div>
     `;
     }
   }
