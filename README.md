@@ -1,7 +1,3 @@
-Aqui está o README ajustado:
-
----
-
 # Projeto de Pesquisa de Jogadores de Futebol - Imersão Alura
 
 ## Descrição
