@@ -6,37 +6,55 @@
   margin: 0;
   padding: 0;
 }
-.pagina {
-  background-image: url(./imagens/jogadores_10.png);
-  font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
-  align-items: center; /* Centraliza os itens horizontalmente */
-  justify-content: center; /* Centraliza os itens verticalmente */
-  height: 100vh; /* Preenche a altura total da viewport */
-  margin: 0;
-  padding: 0;
-}
 
-.pagina2 {
-  background-image: url(./imagens/selecao.png);
+.pagina {
+  background-color: #f2bb05;
   font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
   display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
+  flex-direction: row; /* Alinha os itens na vertical */
   align-items: center; /* Centraliza os itens horizontalmente */
   justify-content: center; /* Centraliza os itens verticalmente */
-  height: 100vh; /* Preenche a altura total da viewport */
   margin: 0;
   padding: 0;
 }
 
 /* Estiliza os títulos h1 */
 h1 {
-  padding-top: 100px;
+  margin-top: 20px;
+  padding-bottom: 20px;
   font-size: 2.5rem; /* Tamanho da fonte */
   color: #f6f6f6; /* Cor do texto */
   text-align: center; /* Alinha o texto ao centro */
   letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+.barra-pesquisa {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.barra-pesquisa::before {
+  content: "\f002"; /* Ícone de lupa do Font Awesome */
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.div-resultados {
+  background-image: url("./img/fundo.png");
+  font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: column; /* Alinha os itens na vertical */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  margin: 0;
+  padding: 0;
+  min-height: 700px;
 }
 
 /* Estiliza as seções da página */
@@ -51,8 +69,8 @@ section {
 section input {
   border: none; /* Remove a borda padrão */
   padding: 1rem; /* Espaçamento interno */
+  padding-right: 200px;
   border-radius: 1.5rem; /* Borda arredondada */
-  margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
   color: #45474b; /* Cor do texto */
   font-size: 1rem; /* Tamanho da fonte */
   box-sizing: border-box; /* Inclui padding e border na largura total */
@@ -71,64 +89,97 @@ section button {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-  height: 46vh; /* Altura máxima da caixa de resultados */
-  width: 130vh;
-  overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-  margin: 5% 5%; /* Espaçamento acima da caixa de resultados */
-  padding: 1rem; /* Espaçamento interno */
-  border-radius: 0.6rem; /* Borda arredondada */
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: column; /* Alinha os itens na vertical */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  margin: 2rem auto; /* Centraliza a seção horizontalmente */
+  padding: 1rem;
+  border-radius: 0.6rem;
 }
 
-.resultados-selecoes {
-  width: 60rem; /* Largura máxima da caixa de resultados */
-  height: 46vh; /* Altura máxima da caixa de resultados */
-  overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-  margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-  padding: 1rem; /* Espaçamento interno */
-  border-radius: 0.6rem; /* Borda arredondada */
+@media (max-width: 768px) {
+  .resultados-pesquisa {
+    height: 80vh;
+    margin: 1rem;
+  }
 }
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-  width: 800px;
   background: #ffffff; /* Cor de fundo dos itens */
   border-radius: 0.6rem; /* Borda arredondada */
   padding: 2rem; /* Espaçamento interno */
   margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
-}
 
-.item-resultado2 {
   display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
+  flex-direction: row; /* Alinha os itens na vertical */
+  align-items: start;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 20px 20px rgba(81, 81, 81, 0.458);
+}
+
+/* Para telas menores (celulares) */
+@media (max-width: 768px) {
+  .item-resultado {
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+/* A própria imagem */
+.dado-imagem {
+  width: 300px;
+  padding: 30px 30px 0px 0px;
+}
+
+.numero-nome-time {
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: row; /* Alinha os itens na vertical */
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+#numero {
+  font-size: 4rem;
+  color: #00ff26;
+}
+
+#nome {
+  font-size: 2.3rem;
+}
+
+.logo-time {
+  width: 40px;
+  height: 40px;
+}
+
+.link-pagina {
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: row; /* Alinha os itens na vertical */
   align-items: center;
-  background: #ffffff; /* Cor de fundo dos itens */
-  border-radius: 0.6rem; /* Borda arredondada */
-  padding: 1rem; /* Espaçamento interno */
-  margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
-/* Estiliza os títulos dentro dos itens de resultado */
-.item-resultado h2 {
-  font-size: 1.5rem; /* Tamanho da fonte */
-  color: #222831; /* Cor do texto */
+.div-info {
+  text-align: start;
+  padding-top: 30px;
+  font-size: 1rem;
+  flex: 1;
 }
 
-.item-resultado2 h2 {
-  font-size: 1.5rem; /* Tamanho da fonte */
-  color: #222831; /* Cor do texto */
+#info {
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding-bottom: 10px;
+  flex: 1;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
   text-decoration: none; /* Remove o sublinhado padrão dos links */
-  color: #30475e; /* Cor do texto dos links */
-}
-
-.item-resultado2 a {
-  text-decoration: none; /* Remove o sublinhado padrão dos links */
-  color: #30475e; /* Cor do texto dos links */
+  color: #fcfcfc; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -136,18 +187,8 @@ section button {
   text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
-.item-resultado2 a:hover {
-  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-}
-
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-  color: #45474b; /* Cor do texto */
-  margin: 0.5rem 0; /* Margem acima e abaixo */
-}
-
-.descricao-meta2 {
-  padding-top: 10px;
   color: #45474b; /* Cor do texto */
   margin: 0.5rem 0; /* Margem acima e abaixo */
 }
@@ -160,58 +201,8 @@ section button {
   align-items: center;
 }
 
-.titulo-video {
-  text-align: center;
-  font-family: "inter";
-  font-size: 2.5rem;
-}
-
 #video {
   padding: 50px;
-}
-
-.imagem-selecoes {
-  width: 600px;
-}
-
-.informacoes {
-  background-image: url("./imagens/fundo-bale-direita.png");
-}
-
-#titulo-informacoes {
-  font-size: 3rem;
-  color: white;
-}
-
-.pagina1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-#selecao-img {
-  margin: 130px 0px 0px 100px; /*topo-dir-embaixo-esq*/
-  width: 500px;
-}
-
-#descricao-selecao {
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 100px;
-  padding-left: 20px;
-  font-size: 1rem; /* Tamanho da fonte */
-  color: white; /* Cor do texto */
-  text-align: start; /* Alinha o texto ao centro */
-  letter-spacing: 0.2rem; /* Espaçamento entre letras */
-}
-
-.subtitulos {
-  margin: 10px 0px 10px 0px;
-}
-
-#formacao {
-  margin: 5px 0px 60px 110px;
-  font-size: 0.6rem;
-  color: white;
 }
 
 footer {
@@ -224,4 +215,13 @@ footer {
   width: 100%; /* Largura total da página */
   bottom: 0; /* Alinha ao fundo da página */
   font-size: 1rem; /* Tamanho da fonte */
+}
+
+.audio {
+  background-color: #f5f7f8;
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: column; /* Alinha os itens na vertical */
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
 }

@@ -23,23 +23,32 @@ function pesquisar() {
     nome = dado.nome.toLowerCase();
     descricao = dado.descricao.toLowerCase();
     tags = dado.tags.toLowerCase();
-    titulos = dado.titulos.toLowerCase();
 
     // se titulo includes campoPesquisa
     if (
       nome.includes(campoPesquisa) ||
       descricao.includes(campoPesquisa) ||
-      tags.includes(campoPesquisa) ||
-      titulos.includes(campoPesquisa)
+      tags.includes(campoPesquisa)
     ) {
       // Cria um novo elemento
       resultados += `
-      <div class="item-resultado">
-        <h2>
-          <a href="${dado.pagina}" target="_blank">${dado.nome}</a>
-        </h2>
-        <p class="descricao-meta">${dado.descricao}</p>
-       <a href="${dado.link}" target="_blank">Mais informações</a>
+        <div class="item-resultado">
+          <img class="dado-imagem" src="${dado.imagem}" alt="">
+            <div class="div-info">
+              <div class="numero-nome-time">
+                <h2 id="numero">${dado.numero}</h2>
+                <a class="link-pagina" href="${dado.pagina}" target="_blank"><h2 id="nome">${dado.nome}</h2></a>
+              </div>
+              <h3>Posição</h3>
+              <p id="info">${dado.posicao}</p>
+              <h3>Títulos</h3>
+              <p id="info">${dado.titulos}</p>
+              <h3>Nascimento</h3>
+              <p id="info">${dado.dataNascimento}</p>
+              <h3>Curiosidades</h3>
+              <p id="info">${dado.curiosidades}</p>
+            </div>
+          <p class="descricao-meta">${dado.descricao}</p>
         </div>
     `;
     }
