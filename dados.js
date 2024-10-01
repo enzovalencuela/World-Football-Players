@@ -190,7 +190,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o time atual
     tags: "futebol, argentina, real madrid, juventus, extremo, copa do mundo",
     imagem:
-      "https://media.gettyimages.com/id/1603898266/pt/foto/aveiro-portugal-angel-di-maria-of-sl-benfica-celebrates-after-scores-his-sides-first-goal.jpg?s=612x612&w=gi&k=20&c=54tXrSMYS-oLfjITMUxnBoPtYtdFwyPioYxiTFwsH9U=",
+      "https://conteudo.imguol.com.br/c/galeria/0f/2022/12/18/di-maria-celebra-seu-gol-sobre-a-franca-na-final-da-copa-1671379257343_v2_450x600.jpg",
     titulos: "Copa do Mundo, Champions League, Liga Espanhola, Ligue 1",
     numero: "11",
     posicao: "Extremo",
@@ -226,7 +226,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/SL_Benfica_logo.svg/1200px-SL_Benfica_logo.svg",
     tags: "futebol, argentina, benfica, meio-campista, visão de jogo",
     imagem:
-      "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2024-25/Fernandez_enzo_profile_2024-25_avatar-removebg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/d/df/Enzo_Fern%C3%A1ndez_WC2022.jpg",
     titulos: "Primeira Liga Portuguesa, Copa do Mundo",
     numero: "13",
     posicao: "Meio-campista",
@@ -242,7 +242,8 @@ let dados = [
     pagina: "https://www.instagram.com/javiermascherano/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/FC_Barcelona_logo.svg/1200px-FC_Barcelona_logo.svg",
     tags: "futebol, argentina, barcelona, liverpool, volante, seleção argentina",
-    imagem: "https://b.fssta.com/uploads/application/soccer/headshots/710.png",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c8/Mascherano_2017.png",
     titulos: "La Liga, Copa del Rey, Champions League, Premier League",
     numero: "14",
     posicao: "Volante",
@@ -260,7 +261,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/FC_Bayern_M%C3%BCnchen_logo.svg/1200px-FC_Bayern_M%C3%UNchen_logo.svg", // Adaptar para o Boca Juniors
     tags: "futebol, argentina, boca juniors, villa real, meia, ídolo",
     imagem:
-      "https://imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2013/02/08/241788/20130208235201725589o.jpg",
+      "https://images.ecestaticos.com/ONBP-O3SReLBO4HmbItj7pOAFsk=/0x0:991x1605/992x1606/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F796%2Fcc2%2F46f%2F796cc246fab342b516e75a02b8685972.jpg",
     titulos: "Libertadores, Campeonato Argentino",
     numero: "10",
     posicao: "Meia",
@@ -278,7 +279,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o Manchester City
     tags: "futebol, argentina, manchester city, atacante, copa do mundo",
     imagem:
-      "https://www.mancity.com/meta/media/ptfh0hca/julian-alvarez.png?width=560&height=560", // Trocar por uma imagem do Álvarez
+      "https://i3.wp.com/iansportalimages.s3.amazonaws.com/thumbnails/202409063217514.jpg?w=1200&resize=1200,0&ssl=1", // Trocar por uma imagem do Álvarez
     titulos: "Copa do Mundo, Premier League",
     numero: "19",
     posicao: "Atacante",
@@ -304,6 +305,24 @@ let dados = [
     dataNascimento: "24/06/1987",
     curiosidades:
       "Messi iniciou sua carreira profissional no Barcelona, onde se tornou um dos maiores ídolos da história do clube.",
+  },
+
+  // Paulo Dybala
+  {
+    nome: "Paulo Dybala",
+    descricao:
+      "Atacante argentino conhecido por sua habilidade com a bola, chutes precisos e visão de jogo. Seus dribles e gols espetaculares o tornaram um dos jogadores mais queridos pelos torcedores.",
+    pagina: "https://www.instagram.com/paulodybala/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/AS_Roma_logo.svg/1200px-AS_Roma_logo.svg",
+    tags: "futebol, argentina, roma, atacante, drible, gol",
+    imagem:
+      "https://www.directvsports.com/__export/1675283513194/sites/dsports/img/2023/02/01/20230201_053152207_ccafb83f-39b4-4dac-869c-b6f66237cb67.jpg_1301049368.jpg", // Trocar por uma imagem do Dybala
+    titulos: "Serie A, Copa da Itália",
+    numero: "21",
+    posicao: "Atacante",
+    dataNascimento: "15/11/1993",
+    curiosidades:
+      "Dybala é conhecido por sua comemoração característica, onde finge usar um relógio. Ele também é um grande fã de música e costuma compartilhar suas playlists com os fãs.",
   },
 
   // Sergio Agüero
@@ -335,7 +354,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o time atual
     tags: "futebol, bélgica, chelsea, real madrid, atacante, habilidade",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/%C3%81ngel_Di_Mar%C3%ADa_2022.jpg/220px-%C3%81ngel_Di_Mar%C3%ADa_2022.jpg", // Trocar por uma imagem do Hazard
+      "https://conteudo.imguol.com.br/c/esporte/4f/2022/12/07/eden-hazard-disputou-seu-ultimo-jogo-pela-belgica-em-partida-contra-a-croacia-na-copa-do-mundo-do-qatar-1670411702623_v2_3x4.jpg", // Trocar por uma imagem do Hazard
     titulos: "Premier League, Europa League",
     numero: "7",
     posicao: "Atacante",
@@ -353,7 +372,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o Manchester City
     tags: "futebol, bélgica, manchester city, meia, passe",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/%C3%81ngel_Di_Mar%C3%ADa_2022.jpg/220px-%C3%81ngel_Di_Mar%C3%ADa_2022.jpg", // Trocar por uma imagem do De Bruyne
+      "https://s2-ge.glbimg.com/9kJDOob3zGpMZRxxez8jkW6wQ68=/0x0:1415x1757/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/A/3/AXKKLjTPWAY8uL8XARPA/000-3242462.jpg", // Trocar por uma imagem do De Bruyne
     titulos: "Premier League",
     numero: "17",
     posicao: "Meia",
@@ -371,7 +390,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o time atual
     tags: "futebol, bélgica, chelsea, inter milão, atacante, força",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/%C3%81ngel_Di_Mar%C3%ADa_2022.jpg/220px-%C3%81ngel_Di_Mar%C3%ADa_2022.jpg", // Trocar por uma imagem do Lukaku
+      "https://conteudo.imguol.com.br/c/esporte/f1/2022/11/27/lukaku-em-acao-pela-belgica-durante-partida-contra-o-marrocos-na-copa-do-mundo-1669560569630_v2_720x1024.jpg", // Trocar por uma imagem do Lukaku
     titulos: "Premier League, Serie A",
     numero: "9",
     posicao: "Atacante",
@@ -388,7 +407,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o Real Madrid
     tags: "futebol, bélgica, real madrid, chelsea, goleiro, defesa",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/%C3%81ngel_Di_Mar%C3%ADa_2022.jpg/220px-%C3%81ngel_Di_Mar%C3%ADa_2022.jpg", // Trocar por uma imagem do Courtois
+      "https://africafootunited.com/wp-content/uploads/2024/08/IMG-20240822-WA0018-1-768x949.jpg", // Trocar por uma imagem do Courtois
     titulos: "Premier League, La Liga",
     numero: "1",
     posicao: "Goleiro",
@@ -408,12 +427,30 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/SL_Benfica_logo.svg/1200px-SL_Benfica_logo.svg", // Substituir pela logo do Manchester United
     tags: "futebol, brasil, manchester united, volante, marcação",
     imagem:
-      "https://l450v.alamy.com/450v/2d9a0cr/madrid-spain-03rd-nov-2020-madrid-spain-november-03-2020-casemiro-carlos-henrique-jose-francisco-venancio-casimiro-of-real-madrid-cf-in-action-during-the-champions-league-group-b-football-match-between-real-madrid-cf-and-fc-internazionale-real-madrid-cf-won-3-2-over-fc-internazionale-photo-by-nicol-camposipa-usa-credit-sipa-usaalamy-live-news-2d9a0cr.jpg",
+      "https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/PIKOJ4P6O5B33KOGSQL2BDHFXQ.jpg",
     titulos: "Premier League, Liga dos Campeões",
     numero: "18",
     posicao: "Volante",
     dataNascimento: "23/2/1992",
     curiosidades: "Campeão da Copa do Mundo de 2022.",
+  },
+
+  // Daniel Alves
+  {
+    nome: "Daniel Alves",
+    descricao:
+      "Lateral-direito conhecido por sua energia e experiência. Um dos maiores vencedores da história do futebol, com títulos importantes por clubes como Barcelona e Juventus.",
+    pagina: "https://www.instagram.com/danialves/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/FC_Barcelona_logo.svg/1200px-FC_Barcelona_logo.svg", // Adaptar para o time atual
+    tags: "futebol, brasil, lateral-direito, campeão, experiência",
+    imagem:
+      "https://i.pinimg.com/736x/f3/6d/2b/f36d2b620ba51444445e50f1849e7869.jpg", // Trocar por uma imagem do Daniel Alves
+    titulos: "La Liga, Copa do Rei, Champions League, Serie A, Copa América",
+    numero: "33", // Adaptar para o número atual
+    posicao: "Lateral-direito",
+    dataNascimento: "06/05/1983",
+    curiosidades:
+      "Conhecido por suas comemorações animadas e por ter jogado em diversos países, Daniel Alves é um verdadeiro embaixador do futebol brasileiro.",
   },
 
   //Endrick
@@ -451,6 +488,25 @@ let dados = [
     dataNascimento: "22/04/1982",
     curiosidades:
       "Kaká é conhecido por sua fé cristã e por seu trabalho filantrópico. Ele fundou a Fundação Kaká para ajudar crianças carentes.",
+  },
+
+  // Marquinhos
+  {
+    nome: "Marquinhos",
+    nomeCompleto: "Marcos Aoás Corrêa",
+    descricao:
+      "Um zagueiro sólido e elegante, conhecido por sua liderança e habilidade no jogo aéreo. Marquinhos é peça fundamental da defesa do Paris Saint-Germain e da Seleção Brasileira.",
+    pagina: "https://www.instagram.com/marquinhosm5/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg", // Adaptar para o PSG
+    tags: "futebol, brasil, psg, zagueiro, seleção brasileira",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/32/2024/02/19/marquinhos-joga-no-paris-saint-germain-desde-2013-e-tem-mais-4-anos-de-contrato-1708370727790_v2_3x4.jpg", // Trocar por uma imagem do Marquinhos
+    titulos: "Ligue 1, Copa da França, Supercopa da França", // Adaptar com os títulos conquistados
+    numero: "5",
+    posicao: "Zagueiro",
+    dataNascimento: "14/05/1994",
+    curiosidades:
+      "Marquinhos começou sua carreira no Corinthians e, aos 18 anos, já estava na Europa. Ele é conhecido por sua calma e concentração em campo, além de ser um ótimo cobrador de faltas.",
   },
 
   // Mané Garrincha
@@ -545,6 +601,25 @@ let dados = [
       "Rivaldo ficou marcado por um gol antológico na Copa do Mundo de 2002, contra a Turquia, onde simulou uma falta para enganar o árbitro.",
   },
 
+  // Roberto Firmino
+  {
+    nome: "Roberto Firmino",
+    descricao:
+      "Atacante brasileiro conhecido por sua versatilidade e habilidade de criar jogadas. Foi peça fundamental no sucesso do Liverpool nos últimos anos.",
+    pagina: "https://www.instagram.com/roberto_firmino9/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Al_Ahli_Jeddah_logo.svg/1200px-Al_Ahli_Jeddah_logo.svg",
+    tags: "futebol, brasil, liverpool, atacante, al-ahli",
+    imagem:
+      "https://i.pinimg.com/736x/3d/17/9b/3d179bc8920128870abc824f460f9542.jpg",
+    titulos:
+      "Premier League, Liga dos Campeões da UEFA, Copa da Inglaterra, Supercopa da UEFA",
+    numero: "9",
+    posicao: "Atacante",
+    dataNascimento: "02/10/1991",
+    curiosidades:
+      "Conhecido por sua celebração de 'calma', Firmino é um dos jogadores mais queridos da torcida do Liverpool.",
+  },
+
   // Rodrygo
   {
     nome: "Rodrygo Goes",
@@ -601,6 +676,24 @@ let dados = [
       "Ronaldo Fenômeno ficou marcado por sua recuperação de lesões graves, voltando a jogar em alto nível após diversas cirurgias.",
   },
 
+  // Thiago Silva
+  {
+    nome: "Thiago Silva",
+    descricao:
+      "Zagueiro experiente e líder nato, conhecido por sua habilidade no jogo aéreo, passes precisos e liderança dentro de campo. Um dos melhores defensores da sua geração.",
+    pagina: "https://www.instagram.com/thiagosilva/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o Fluminense
+    tags: "futebol, brasil, fluminense, zagueiro, seleção brasileira",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/26/2022/12/05/thiago-silva-durante-a-partida-do-brasil-contra-a-coreia-do-sul-1670294743840_v2_450x450.jpg", // Trocar por uma imagem do Thiago Silva
+    titulos: "Ligue 1, Copa da França, Supercopa da França, Champions League",
+    numero: "3",
+    posicao: "Zagueiro",
+    dataNascimento: "22/09/1984",
+    curiosidades:
+      "Começou sua carreira como volante, mas logo se destacou como zagueiro. É considerado um dos maiores ídolos do Paris Saint-Germain e da Seleção Brasileira.",
+  },
+
   // Vinícius Júnior
   {
     nome: "Vinícius Júnior",
@@ -635,6 +728,26 @@ let dados = [
     dataNascimento: "03/03/1953",
     curiosidades:
       "Zico era conhecido como o 'Galinho de Quintal' por sua habilidade de driblar e fazer gols de forma elegante. Ele também foi um dos maiores artilheiros da história do Flamengo.",
+  },
+
+  // CAMARÕES ---------------------------------------------------------------------------------------------------
+
+  // Eric Maxim Choupo-Moting
+  {
+    nome: "Choupo-Moting",
+    descricao:
+      "Atacante camaronês conhecido por sua força física e habilidade aérea. Apesar de não ser um titular absoluto, Choupo-Moting já provou seu valor em grandes jogos, como nas finais da Liga dos Campeões com o Bayern de Munique.",
+    pagina: "https://www.instagram.com/choupomoting/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FC_Bayern_München_logo.svg/1200px-FC_Bayern_München_logo.svg", // Adaptar para o time atual
+    tags: "futebol, camarões, bayern munique, atacante, liga dos campeões",
+    imagem:
+      "https://www.shutterstock.com/editorial/image-editorial/MeTdM433N4j2E1z6NTAwODA=/eric-maxim-choupo-moting-cameroon-during-fifa-world-440nw-13641138am.jpg", // Trocar por uma imagem do Choupo-Moting
+    titulos: "Bundesliga, Copa da Alemanha, Liga dos Campeões",
+    numero: "13",
+    posicao: "Atacante",
+    dataNascimento: "23/03/1989",
+    curiosidades:
+      "Choupo-Moting é conhecido por sua versatilidade, podendo atuar tanto como centroavante quanto como ponta de lança. Ele também é um grande fã de música.",
   },
 
   // COLÔMBIA ---------------------------------------------------------------------------------------------------
@@ -704,6 +817,26 @@ let dados = [
     curiosidades: "Conhecido por sua personalidade extrovertida.",
   },
 
+  // COSTA RICA ------------------------------------------------------------------------------------------------
+
+  // Keylor Navas
+  {
+    nome: "Keylor Navas",
+    descricao:
+      "Goleiro costarriquenho conhecido por suas defesas espetaculares e reflexos rápidos. Campeão da UEFA Champions League com o Real Madrid, Navas é um dos melhores goleiros da sua geração.",
+    pagina: "https://www.instagram.com/keylornavas/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nottingham_Forest_FC.svg/1200px-Nottingham_Forest_FC.svg", // Adaptar para o time atual de Navas
+    tags: "futebol, costa rica, goleiro, defesas, champions league",
+    imagem:
+      "https://media.gettyimages.com/id/1402932635/pt/foto/doha-qatar-keylor-navas-of-costa-rica-gives-their-team-instructions-during-the-2022-fifa-world.jpg?s=612x612&w=gi&k=20&c=7JkMKYl5-DPGVXUPrvNgrhcT1TWU6HBbS1309IfMAgk=", // Trocar por uma imagem mais recente de Navas
+    titulos: "UEFA Champions League, La Liga, Mundial de Clubes",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "15/12/1986",
+    curiosidades:
+      "Conhecido por sua concentração e liderança, Navas já foi eleito o melhor goleiro da La Liga e considerado um dos melhores do mundo na sua posição.",
+  },
+
   // CROÁCIA ---------------------------------------------------------------------------------------------------
 
   //Ivan Perišić
@@ -722,6 +855,25 @@ let dados = [
     dataNascimento: "02/02/1989",
     curiosidades:
       "Representou a Croácia em diversas Copas do Mundo e Eurocopas, sendo um dos principais jogadores da seleção.",
+  },
+
+  // Ivan Rakitic (Período Barcelona)
+  {
+    nome: "Ivan Rakitic",
+    descricao:
+      "Meia croata conhecido por sua visão de jogo, passes precisos e chutes de média distância. Foi peça fundamental nos títulos do Barcelona, incluindo a Liga dos Campeões de 2015.",
+    pagina: "https://www.instagram.com/ivanrakitic/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FC_Barcelona_logo.svg/1200px-FC_Barcelona_logo.svg",
+    tags: "futebol, croácia, barcelona, meia, liga dos campeões",
+    imagem:
+      "https://i.pinimg.com/736x/b6/26/44/b626446ced2fd5818fb00cf16a566692.jpg",
+    titulos:
+      "La Liga, Copa del Rey, Supercopa da Espanha, Liga dos Campeões, Mundial de Clubes",
+    numero: "4",
+    posicao: "Meia central",
+    dataNascimento: "10/03/1988",
+    curiosidades:
+      "Rakitic celebrou seus gols com um beijo no gramado, em homenagem à sua esposa. Ele também é conhecido por sua personalidade alegre e carismática.",
   },
 
   //Joško Gvardiol
@@ -749,7 +901,7 @@ let dados = [
       "Meia croata, conhecido por sua habilidade técnica, visão de jogo e passes precisos. Líder da seleção croata e peça fundamental no Real Madrid.",
     pagina: "https://www.instagram.com/lukamodric10/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg",
-    tags: "futebol, croácia, real madrid, meia, habilidade, líder",
+    tags: "futebol, croácia, real madrid, meia, habilidade, líder, Modric",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/11/2022/12/01/luka-modric-da-croacia-em-acao-contra-a-belgica-na-fase-de-grupos-da-copa-do-qatar-1669910441519_v2_450x600.jpg", // Trocar por uma imagem do Luka Modrić
     titulos: "Champions League, La Liga, Copa do Mundo (vice)",
@@ -870,40 +1022,65 @@ let dados = [
       "Começou sua carreira no Bayern de Munique e já atuou por clubes como Southampton e Tottenham Hotspur antes de chegar ao Marseille. É conhecido por sua liderança em campo e por sua versatilidade.",
   },
 
-  //ESPANHA---------------------------------------------------------------------------------------------------
+  // EGITO --------------------------------------------------------------------------------------------------
 
-  // 1. Iker Casillas
+  // Mohamed Salah
   {
-    nome: "Iker Casillas",
+    nome: "Mohamed Salah",
     descricao:
-      "Um dos maiores goleiros da história do futebol, conhecido por suas defesas espetaculares e liderança.",
-    pagina: "https://www.instagram.com/ikercasillasoficial/",
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg",
-    tags: "futebol, espanha, real madrid, goleiro, liderança",
+      "Atacante egípcio conhecido por sua velocidade, finalização precisa e dribles. Um dos principais jogadores do Liverpool, Salah é ídolo nacional no Egito.",
+    pagina: "https://www.instagram.com/mosalah/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg",
+    tags: "futebol, egito, liverpool, atacante, premier league",
     imagem:
-      "https://s.glbimg.com/es/ge/f/original/2012/09/12/iker_casillas_real_madrid_2.jpg",
-    titulos: "La Liga, Copa do Rei, Liga dos Campeões, Copa do Mundo, Eurocopa",
-    numero: "1",
-    posicao: "Goleiro",
-    dataNascimento: "20/05/1981",
-    curiosidades: "Considerado um dos maiores ídolos do Real Madrid.",
+      "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/03/10/477359654-salah-fbl-eur-c3-liverpool-lask-2048x1366.jpg", // Trocar por uma imagem do Salah
+    titulos: "Premier League, UEFA Champions League",
+    numero: "11",
+    posicao: "Atacante",
+    dataNascimento: "15/06/1992",
+    curiosidades:
+      "Salah é conhecido por sua comemoração característica, onde ele aponta para o céu em homenagem à sua filha. Ele também é um dos maiores artilheiros da história do Liverpool.",
   },
 
-  // 2. Xavi Hernández
+  // ESLOVÊNIA -----------------------------------------------------------------------------------------------
+
+  // Jan Oblak
   {
-    nome: "Xavi Hernández",
+    nome: "Jan Oblak",
     descricao:
-      "Um dos maiores meias da história do futebol, conhecido por sua visão de jogo e passes precisos.",
-    pagina: "https://www.instagram.com/xavi/",
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg", // Substituir pela logo do Barcelona
-    tags: "futebol, espanha, barcelona, meia, visão de jogo",
+      "Considerado um dos melhores goleiros do mundo, Oblak é conhecido por suas defesas espetaculares e reflexos rápidos. Fundamental para o sucesso do Atlético de Madrid, o goleiro esloveno é referência na posição.",
+    pagina: "https://www.instagram.com/oblakjan/", // Verificar o perfil oficial
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o Atlético de Madrid
+    tags: "futebol, eslovênia, atlético de madrid, goleiro, defesa",
     imagem:
-      "https://www.perfildosfamosos.com/xavi-hernandez/foto-perfil-xavi-hernandez.jpg?v=8447decbbe8be41435aa7d8e70f59fc8",
-    titulos: "La Liga, Copa do Rei, Liga dos Campeões, Copa do Mundo, Eurocopa",
-    numero: "6",
-    posicao: "Meia",
-    dataNascimento: "25/01/1980",
-    curiosidades: "Cérebro do meio-campo do Barcelona por muitos anos.",
+      "https://i.pinimg.com/736x/2c/81/69/2c8169b3ff4b81df38ddbc36e4e14634.jpg", // Trocar por uma imagem do Oblak
+    titulos: "La Liga, Supercopa da Espanha",
+    numero: "13",
+    posicao: "Goleiro",
+    dataNascimento: "07/01/1993",
+    curiosidades:
+      "Oblak já foi eleito o melhor goleiro da La Liga em diversas ocasiões e é conhecido por sua concentração e liderança dentro de campo.",
+  },
+
+  //ESPANHA---------------------------------------------------------------------------------------------------
+
+  // Álvaro Morata
+  {
+    nome: "Álvaro Morata",
+
+    descricao:
+      "Atacante forte e completo, Morata é conhecido por sua habilidade no jogo aéreo e por marcar gols decisivos. É um dos principais atacantes da seleção espanhola.",
+    pagina: "https://www.instagram.com/alvaromorata/", // Verificar o perfil oficial
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vasco_da_Gama_logo.svg/1200px-Vasco_da_Gama_logo.svg", // Adaptar para o time atual
+    tags: "futebol, espanha, atacante, gol, força",
+    imagem:
+      "https://s3.glbimg.com/v1/AUTH_35862ca5c6ab48b992baf1f1b4f7062e/m-extra-globo-com/incoming/15637430-648-d25/w367h550-PROP/2015-800289934-20150318183402915afp_20150318.jpg", // Trocar por uma imagem do Álvaro Morata
+    titulos: "La Liga, Champions League, Europa League",
+    numero: "9",
+    posicao: "Atacante",
+    dataNascimento: "23/10/1992",
+    curiosidades:
+      "Morata começou sua carreira no Real Madrid e já jogou em clubes como Juventus e Chelsea.",
   },
 
   // 3. Andrés Iniesta
@@ -923,7 +1100,42 @@ let dados = [
     curiosidades: "Marcou o gol do título da Copa do Mundo de 2010.",
   },
 
-  // 4. Raúl González
+  // Iker Casillas
+  {
+    nome: "Iker Casillas",
+    descricao:
+      "Um dos maiores goleiros da história do futebol, conhecido por suas defesas espetaculares e liderança.",
+    pagina: "https://www.instagram.com/ikercasillasoficial/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg",
+    tags: "futebol, espanha, real madrid, goleiro, liderança",
+    imagem:
+      "https://s.glbimg.com/es/ge/f/original/2012/09/12/iker_casillas_real_madrid_2.jpg",
+    titulos: "La Liga, Copa do Rei, Liga dos Campeões, Copa do Mundo, Eurocopa",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "20/05/1981",
+    curiosidades: "Considerado um dos maiores ídolos do Real Madrid.",
+  },
+
+  // Jordi Alba
+  {
+    nome: "Jordi Alba",
+    descricao:
+      "Lateral-esquerdo conhecido por sua velocidade, cruzamentos precisos e habilidade de apoiar o ataque. Campeão da Eurocopa e da Copa do Mundo com a Espanha, Alba é um dos melhores laterais do mundo.",
+    pagina: "https://www.instagram.com/jordialba/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Logo_Inter_Miami_CF.svg/1200px-Logo_Inter_Miami_CF.svg",
+    tags: "futebol, espanha, inter miami, lateral-esquerdo, campeão",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/ed/2023/02/05/jordi-alba-do-barcelona-comemora-gol-contra-o-sevilla-pelo-espanhol-1675632855082_v2_450x600.jpg", // Trocar por uma imagem do Jordi Alba
+    titulos: "Eurocopa, Copa do Mundo, La Liga, Copa del Rey",
+    numero: "18",
+    posicao: "Lateral-esquerdo",
+    dataNascimento: "21/03/1989",
+    curiosidades:
+      "Além de suas habilidades técnicas, Alba é conhecido por sua paixão pelo jogo e por sua liderança dentro de campo.",
+  },
+
+  // Raúl González
   {
     nome: "Raúl González",
     descricao:
@@ -940,23 +1152,41 @@ let dados = [
     curiosidades: "Um dos maiores artilheiros da história do Real Madrid.",
   },
 
-  // Álvaro Morata
+  // Sergio Busquets
   {
-    nome: "Álvaro Morata",
-
+    nome: "Sergio Busquets",
     descricao:
-      "Atacante forte e completo, Morata é conhecido por sua habilidade no jogo aéreo e por marcar gols decisivos. É um dos principais atacantes da seleção espanhola.",
-    pagina: "https://www.instagram.com/alvaromorata/", // Verificar o perfil oficial
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vasco_da_Gama_logo.svg/1200px-Vasco_da_Gama_logo.svg", // Adaptar para o time atual
-    tags: "futebol, espanha, atacante, gol, força",
+      "Volante conhecido por sua inteligência tática e passes precisos. Um dos pilares do Barcelona por muitos anos, Busquets é considerado um dos melhores volantes de sua geração.",
+    pagina: "https://www.instagram.com/5sergiobusquets/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Logo_of_Inter_Miami_CF.svg/1200px-Logo_of_Inter_Miami_CF.svg",
+    tags: "futebol, espanha, barcelona, volante, passes",
     imagem:
-      "https://s3.glbimg.com/v1/AUTH_35862ca5c6ab48b992baf1f1b4f7062e/m-extra-globo-com/incoming/15637430-648-d25/w367h550-PROP/2015-800289934-20150318183402915afp_20150318.jpg", // Trocar por uma imagem do Álvaro Morata
-    titulos: "La Liga, Champions League, Europa League",
-    numero: "9",
-    posicao: "Atacante",
-    dataNascimento: "23/10/1992",
+      "https://upload.wikimedia.org/wikipedia/commons/7/71/Sergio_Busquets_2018_%28cropped%29.jpg",
+    titulos:
+      "La Liga, Copa del Rey, UEFA Champions League, Copa do Mundo, Eurocopa",
+    numero: "5",
+    posicao: "Volante",
+    dataNascimento: "16/07/1988",
     curiosidades:
-      "Morata começou sua carreira no Real Madrid e já jogou em clubes como Juventus e Chelsea.",
+      "Busquets é conhecido por sua visão de jogo excepcional e capacidade de recuperar a bola. Ele é considerado um dos maiores volantes da história do futebol.",
+  },
+
+  // Isco
+  {
+    nome: "Isco",
+    descricao:
+      "Meia espanhol conhecido por sua habilidade técnica e visão de jogo. Passou por grandes clubes como Málaga e Real Madrid, onde conquistou diversos títulos.",
+    pagina: "https://www.instagram.com/iscoalarcon/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Real_Betis_logo.svg/1200px-Real_Betis_logo.svg",
+    tags: "futebol, espanha, real madrid, real betis, meia, habilidade técnica",
+    imagem: "https://s.hs-data.com/bilder/spieler/gross/177605.jpg", // Trocar por uma imagem do Isco
+    titulos:
+      "La Liga, Copa del Rey, UEFA Champions League, Supercopa da UEFA, Mundial de Clubes",
+    numero: "22",
+    posicao: "Meia-atacante",
+    dataNascimento: "21/04/1992",
+    curiosidades:
+      "Isco é conhecido por seus passes precisos e dribles elegantes. Ele também é um grande fã de música e costuma tocar violão.",
   },
 
   // Gavi
@@ -1013,23 +1243,60 @@ let dados = [
       "Sergio Ramos é um dos poucos jogadores a conquistar a Copa do Mundo, a Eurocopa e a Champions League.",
   },
 
+  // Xabi Alonso
+  {
+    nome: "Xabi Alonso",
+    descricao:
+      "Um dos maiores volantes de sua geração, conhecido por sua visão de jogo, passes precisos e elegância. Xabi Alonso conquistou títulos importantes em clubes como Real Madrid e Bayern de Munique.",
+    pagina: "https://www.instagram.com/xabi_alonso/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bayer_04_Leverkusen_logo.svg/1200px-Bayer_04_Leverkusen_logo.svg", // Atualmente como treinador do Bayer Leverkusen
+    tags: "futebol, espanha, real madrid, bayern de munique, volante",
+    imagem:
+      "https://media.gettyimages.com/id/147227841/de/foto/donetsk-ukraine-xabi-alonso-of-spain-in-action-during-the-uefa-euro-2012-semi-final-match.jpg?s=612x612&w=gi&k=20&c=p8Z2nYJt-0drSjsRyfy_RkkL_npRJSIf8Mclny_O79w=", // Trocar por uma imagem do Xabi Alonso
+    titulos:
+      "La Liga, Copa del Rey, Champions League, Bundesliga, Copa da Alemanha",
+    numero: "5", // Número icônico utilizado por Xabi Alonso
+    posicao: "Volante",
+    dataNascimento: "25/11/1981",
+    curiosidades:
+      "Além de sua habilidade com a bola, Xabi Alonso era conhecido por sua inteligência tática e por ser um líder dentro de campo. Atualmente, está trilhando uma promissora carreira como treinador.",
+  },
+
+  // Xavi Hernández
+  {
+    nome: "Xavi Hernández",
+    descricao:
+      "Um dos maiores meias da história do futebol, conhecido por sua visão de jogo e passes precisos.",
+    pagina: "https://www.instagram.com/xavi/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg", // Substituir pela logo do Barcelona
+    tags: "futebol, espanha, barcelona, meia, visão de jogo",
+    imagem:
+      "https://i.pinimg.com/736x/68/51/87/685187139f0d27413a67e2ac8947b448.jpg",
+    titulos: "La Liga, Copa do Rei, Liga dos Campeões, Copa do Mundo, Eurocopa",
+    numero: "6",
+    posicao: "Meia",
+    dataNascimento: "25/01/1980",
+    curiosidades: "Cérebro do meio-campo do Barcelona por muitos anos.",
+  },
+
   //FRANÇA----------------------------------------------------------------------------------------------------
 
-  // Kylian Mbappé
+  // Adrien Rabiot
   {
-    nome: "Kylian Mbappé",
+    nome: "Adrien Rabiot",
     descricao:
-      "Um dos jogadores mais rápidos e habilidosos do mundo, conhecido por seus dribles e gols espetaculares.",
-    pagina: "https://www.instagram.com/k.mbappe/",
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Paris_Saint-Germain_Logo.svg/1200px-Paris_Saint-Germain_Logo.svg",
-    tags: "futebol, frança, psg, atacante, velocidade, Mbappe",
+      "Meia de contenção conhecido por sua força física e habilidade de recuperar a bola. Rabiot é um jogador crucial na construção do jogo e tem se destacado em grandes clubes europeus.",
+    pagina: "https://www.instagram.com/adrien_rabiot/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o time atual de Rabiot
+    tags: "futebol, frança, juventus, meio-campo, contenção",
     imagem:
-      "https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--4f34dce2-57ed-43e6-960a-4cb4d12d3bee/POSE__16.app.webp?preferwebp=true&width=420",
-    titulos: "Ligue 1, Copa da França, Copa do Mundo",
-    numero: "7",
-    posicao: "Atacante",
-    dataNascimento: "20/12/1998",
-    curiosidades: "Considerado um dos maiores talentos da nova geração.",
+      "https://cdn.resfu.com/media/img_news/afp_fr_7090ad802572c880439e0e0b17c87af2e83df926.jpg",
+    titulos: "Ligue 1, Copa da França, Supercopa Italiana",
+    numero: "25",
+    posicao: "Meia de contenção",
+    dataNascimento: "03/04/1995",
+    curiosidades:
+      "Formado nas categorias de base do Paris Saint-Germain, Rabiot é conhecido por sua personalidade forte e já foi capitão de diversas seleções de base da França.",
   },
 
   // Antoine Griezmann
@@ -1049,6 +1316,24 @@ let dados = [
     curiosidades: "Conhecido por suas comemorações de gol únicas.",
   },
 
+  // Presnel Kimpembe
+  {
+    nome: "Presnel Kimpembe",
+    descricao:
+      "Zagueiro central francês conhecido por sua velocidade, força física e habilidade com a bola nos pés. É um dos pilares da defesa do Paris Saint-Germain.",
+    pagina: "https://www.instagram.com/kimpembe/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg", // Adaptar para o Paris Saint-Germain
+    tags: "futebol, frança, paris saint-germain, zagueiro, defesa",
+    imagem:
+      "https://tntsports.com.br/__export/1662910736253/sites/esporteinterativo/img/2022/09/11/gettyimages-1243099214.jpg_973455744.jpg",
+    titulos: "Ligue 1, Coupe de France, Coupe de la Ligue, Supercopa da França",
+    numero: "3",
+    posicao: "Zagueiro",
+    dataNascimento: "13/08/1995",
+    curiosidades:
+      "Formado nas categorias de base do Paris Saint-Germain, Kimpembe é um dos símbolos da nova geração de jogadores franceses.",
+  },
+
   // Karim Benzema
   {
     nome: "Karim Benzema",
@@ -1064,6 +1349,23 @@ let dados = [
     posicao: "Centroavante",
     dataNascimento: 19 / 12 / 1987,
     curiosidades: "Considerado um dos melhores centroavantes da atualidade.",
+  },
+
+  // Kylian Mbappé
+  {
+    nome: "Kylian Mbappé",
+    descricao:
+      "Um dos jogadores mais rápidos e habilidosos do mundo, conhecido por seus dribles e gols espetaculares.",
+    pagina: "https://www.instagram.com/k.mbappe/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Paris_Saint-Germain_Logo.svg/1200px-Paris_Saint-Germain_Logo.svg",
+    tags: "futebol, frança, psg, atacante, velocidade, Mbappe",
+    imagem:
+      "https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--4f34dce2-57ed-43e6-960a-4cb4d12d3bee/POSE__16.app.webp?preferwebp=true&width=420",
+    titulos: "Ligue 1, Copa da França, Copa do Mundo",
+    numero: "7",
+    posicao: "Atacante",
+    dataNascimento: "20/12/1998",
+    curiosidades: "Considerado um dos maiores talentos da nova geração.",
   },
 
   // Zinedine Zidane
@@ -1431,6 +1733,24 @@ let dados = [
       "Bonucci é conhecido por sua parceria de longa data com Giorgio Chiellini na defesa da Juventus.",
   },
 
+  // Marco Verratti
+  {
+    nome: "Marco Verratti",
+    descricao:
+      "Meia italiano conhecido por sua excelente visão de jogo, passes precisos e dribles rápidos. Fundamental para o PSG, Verratti é considerado um dos melhores meio-campistas do mundo.",
+    pagina: "https://www.instagram.com/marco_verratti/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Paris_Saint-Germain_FC.svg/1200px-Paris_Saint-Germain_FC.svg",
+    tags: "futebol, itália, psg, meio-campo, passe",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/79/2022/02/15/marco-verratti-recebeu-fortes-elogios-de-neymar-apos-vitoria-do-psg-sobre-o-real-madrid-1644965458522_v2_3x4.jpg",
+    titulos: "Ligue 1, Coupe de France, Coupe de la Ligue",
+    numero: "6",
+    posicao: "Meio-campo",
+    dataNascimento: "5/11/1992",
+    curiosidades:
+      "Apelidado de 'Petit Véron', Verratti é comparado ao lendário jogador italiano Marco Verratti por sua habilidade e estilo de jogo.",
+  },
+
   // Nicolo Barella
   {
     nome: "Nicolò Barella",
@@ -1622,6 +1942,27 @@ let dados = [
       "Eusébio era conhecido por sua humildade e carisma, além de ter sido um dos primeiros jogadores negros a alcançar fama mundial.",
   },
 
+  // SENEGAL -------------------------------------------------------------------------------------------------
+
+  // Sadio Mané
+  {
+    nome: "Sadio Mané",
+    descricao:
+      "Atacante senegalês conhecido por sua velocidade, finalização e habilidade em driblar. Campeão da África com o Senegal em 2022, Mané é um dos jogadores mais importantes do futebol africano.",
+    pagina: "https://www.instagram.com/sadiomaneofficial/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/FC_Bayern_München_logo.svg/1200px-FC_Bayern_München_logo.svg",
+    tags: "futebol, senegal, bayern munich, atacante, africa cup",
+    imagem:
+      "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/07/28/1258420502-fc-bayern-munchen-v-rb-leipzig-bundesligaeasy-resizecom.jpg",
+    titulos:
+      "Premier League, Copa da Liga Inglesa, Supercopa da Inglaterra, Champions League, Bundesliga",
+    numero: "17",
+    posicao: "Atacante",
+    dataNascimento: "10/04/1992",
+    curiosidades:
+      "Mané começou sua carreira na França e se destacou no Southampton antes de se transferir para o Liverpool, onde conquistou diversos títulos. É conhecido por sua humildade e por suas ações sociais.",
+  },
+
   //SUÉCIA----------------------------------------------------------------------------------------------------
 
   //Ibrahimović
@@ -1761,7 +2102,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o logo do Bahia
     tags: "futebol, brasil, bahia, flamengo, meia, habilidade",
     imagem:
-      "https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/07/everton_ribeiro-621x1000.png", // Trocar por uma imagem do Everton Ribeiro
+      "https://conteudo.imguol.com.br/c/esporte/72/2024/01/24/everton-ribeiro-comemora-primeiro-gol-pelo-bahia-1706143661502_v2_450x600.jpg", // Trocar por uma imagem do Everton Ribeiro
     titulos:
       "Brasileirão br Copa do Brasil br Campeonato Carioca br Copa Libertadores br Recopa Sul-Americana",
     numero: "10",
@@ -1783,7 +2124,8 @@ let dados = [
     pagina: "https://www.instagram.com/yurialberto/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o logo do Corinthians
     tags: "futebol, brasil, corinthians, atacante, jovem, gol",
-    imagem: "https://pbs.twimg.com/media/GMr30tDXIAAc-GW.jpg", // Trocar por uma imagem do Yuri Alberto
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Sulamericana_CUP_2023_Semifinal_-_Corinthians_x_Fortaleza-CE_%2853553783422%29_%28cropped%29.jpg/250px-Sulamericana_CUP_2023_Semifinal_-_Corinthians_x_Fortaleza-CE_%2853553783422%29_%28cropped%29.jpg", // Trocar por uma imagem do Yuri Alberto
     titulos: "Campeonato Brasileiro", // Adaptar conforme os títulos conquistados por Yuri
     numero: "9",
     posicao: "Atacante",
@@ -1802,7 +2144,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o logo do Corinthians
     tags: "futebol, brasil, corinthians, goleiro, ídolo",
     imagem:
-      "https://www.ogol.com.br/img/jogadores/new/14/50/31450_cassio_20240627125554.png", // Trocar por uma imagem do Cássio
+      "https://i.pinimg.com/736x/8a/12/a2/8a12a2fbb94de06eda7d951104f6ebd4.jpg", // Trocar por uma imagem do Cássio
     titulos:
       "Brasileirão br Copa Libertadores br Copa do Mundo de Clubes br Campeonato Paulista",
     numero: "12",
@@ -2261,7 +2603,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o logo do Palmeiras
     tags: "futebol, brasil, palmeiras, meia, força, jovem",
     imagem:
-      "https://www.ogol.com.br/img/jogadores/new/88/04/648804_gabriel_menino_20240426201218.png", // Trocar por uma imagem do Gabriel Menino
+      "https://conteudo.imguol.com.br/c/esporte/b7/2022/07/24/gabriel-menino-comemora-gol-marcado-com-a-camisa-do-palmeiras-no-duelo-contra-o-inter-valido-pelo-campeonato-brasileiro-1658696245714_v2_450x600.jpg", // Trocar por uma imagem do Gabriel Menino
     titulos: "Brasileirão br Copa do Brasil br Libertadores", // Adaptar conforme os títulos conquistados por Gabriel
     numero: "25", // Adaptar ao número atual da camisa
     posicao: "Meia",
@@ -2288,7 +2630,28 @@ let dados = [
       "Raphael Veiga é palmeirense desde criança e já foi convocado para a Seleção Brasileira.",
   },
 
-  //VASCO DA GAMA
+  // SANTOS --------------------------------------------------
+
+  // Marinho (Santos)
+  {
+    nome: "Marinho",
+    nomeCompleto: "Mário Sérgio Santos Costa",
+    descricao:
+      "Atacante veloz e habilidoso, conhecido por seus dribles e gols decisivos. Marinho se destacou no Santos e conquistou a torcida com sua alegria e carisma.",
+    pagina: "https://www.instagram.com/marinhooficial/", // Verificar perfil oficial
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Santos_FC.svg/1200px-Santos_FC.svg",
+    tags: "futebol, brasil, santos, atacante, drible, gol",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/7b/2021/01/17/marinho-do-santos-durante-partida-contra-o-botafogo-pelo-campeonato-brasileiro-1610920567202_v2_450x600.jpg", // Substituir por uma imagem do Marinho
+    titulos: "Campeonato Paulista",
+    numero: "11",
+    posicao: "Atacante",
+    dataNascimento: "29/05/1990",
+    curiosidades:
+      "Marinho é conhecido por sua comemoração característica, onde ele simula um avião. Ele também é um grande fã de pagode.",
+  },
+
+  //VASCO DA GAMA --------------------------------------------
 
   // Philippe Coutinho
   {
@@ -2300,7 +2663,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vasco_da_Gama_logo.svg/1200px-Vasco_da_Gama_logo.svg",
     tags: "futebol, brasil, vasco, meia, habilidade, drible, gol",
     imagem:
-      "https://s2-extra.glbimg.com/DLSAgP7J3rtMBRXWwOW37LV5LwU=/0x0:1080x1350/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2024/P/r/aczV0aSbmuOFeYlqKtgg/gsifp6sxmaaxkjx.jpg", // Trocar por uma imagem do Philippe Coutinho
+      "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2021/04/30/1758755973-coutinho.jpg", // Trocar por uma imagem do Philippe Coutinho
     titulos: "Campeão da Copa da Inglaterra", // Adaptar conforme os títulos conquistados
     numero: "10",
     posicao: "Meia-atacante",

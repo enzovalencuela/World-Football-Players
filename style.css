@@ -8,7 +8,7 @@
 }
 
 .pagina {
-  background-color: #f2bb05;
+  background-color: #232323;
   font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
   display: flex; /* Usa Flexbox para layout */
   flex-direction: row; /* Alinha os itens na vertical */
@@ -16,13 +16,13 @@
   justify-content: center; /* Centraliza os itens verticalmente */
   margin: 0;
   padding: 0;
+  gap: 50px;
 }
 
 /* Estiliza os títulos h1 */
 h1 {
-  margin-top: 20px;
-  padding-bottom: 20px;
-  font-size: 2.5rem; /* Tamanho da fonte */
+  margin-top: 30px;
+  font-size: 2.8rem; /* Tamanho da fonte */
   color: #f6f6f6; /* Cor do texto */
   text-align: center; /* Alinha o texto ao centro */
   letter-spacing: 0.4rem; /* Espaçamento entre letras */
@@ -33,6 +33,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 20px;
 }
 
 .barra-pesquisa::before {
@@ -46,7 +47,7 @@ h1 {
 }
 
 .div-resultados {
-  background-image: url("./img/fundo.png");
+  background-color: #202020;
   font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */
@@ -78,7 +79,7 @@ section input {
 
 /* Estiliza os botões dentro das seções */
 section button {
-  padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+  padding: 1rem 1.2rem; /* Espaçamento interno do botão */
   border: none; /* Remove a borda padrão */
   border-radius: 1.5rem; /* Borda arredondada */
   background-color: #018f08; /* Cor de fundo do botão */
@@ -96,37 +97,6 @@ section button {
   margin: 2rem auto; /* Centraliza a seção horizontalmente */
   padding: 1rem;
   border-radius: 0.6rem;
-}
-
-@media (max-width: 768px) {
-  .resultados-pesquisa {
-    height: 80vh;
-    margin: 1rem;
-  }
-}
-
-/* Estiliza cada item de resultado */
-.item-resultado {
-  background: #ffffff; /* Cor de fundo dos itens */
-  border-radius: 0.6rem; /* Borda arredondada */
-  padding: 2rem; /* Espaçamento interno */
-  margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: row; /* Alinha os itens na vertical */
-  align-items: start;
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-  box-shadow: 0 20px 20px rgba(81, 81, 81, 0.458);
-}
-
-/* Para telas menores (celulares) */
-@media (max-width: 768px) {
-  .item-resultado {
-    flex-direction: column;
-    width: 80%;
-  }
 }
 
 /* A própria imagem */
@@ -149,6 +119,7 @@ section button {
 
 #nome {
   font-size: 2.3rem;
+  color: #202020;
 }
 
 .logo-time {
@@ -206,8 +177,8 @@ section button {
 }
 
 footer {
-  background-color: #f5f7f8; /* Cor de fundo do rodapé */
-  color: #45474b; /* Cor do texto */
+  background-color: #202020; /* Cor de fundo do rodapé */
+  color: #c2c2c2; /* Cor do texto */
   align-items: center;
   text-align: center; /* Alinha o texto ao centro */
   padding-top: 40px; /* Espaçamento interno */
@@ -224,4 +195,94 @@ footer {
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+  background: #e6e6e6; /* Cor de fundo dos itens */
+  border-radius: 0.6rem; /* Borda arredondada */
+  padding: 2rem; /* Espaçamento interno */
+  margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: row; /* Alinha os itens na vertical */
+  align-items: start;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 20px 20px rgba(81, 81, 81, 0.458);
+}
+
+/* Para telas menores (celulares) */
+@media (max-width: 768px) {
+  .pagina {
+    display: flex;
+    flex-direction: column;
+
+    & h1 {
+      font-size: 30px;
+    }
+  }
+
+  .barra-pesquisa {
+    margin: 0 20px 15px 20px;
+    & input {
+      width: 250px;
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+
+    & button {
+      width: 100px;
+      font-size: 15px;
+      padding: 10px 20px;
+    }
+  }
+
+  .item-resultado {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    margin: 40px 0;
+    font-size: 10px;
+
+    & img {
+      width: 60%;
+    }
+  }
+
+  .resultados-pesquisa {
+    min-height: 80vh;
+    margin: 1rem;
+  }
+
+  .numero-nome-time {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: row; /* Alinha os itens na vertical */
+    align-items: start;
+    margin-bottom: 20px;
+    text-align: center;
+
+    & #numero {
+      font-size: 40px;
+    }
+
+    & #nome {
+      font-size: 30px;
+    }
+  }
+
+  .div-info {
+    text-align: start;
+    padding-top: 30px;
+    font-size: 0.6rem;
+    flex: 1;
+  }
+
+  #video {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 250px;
+  }
 }
