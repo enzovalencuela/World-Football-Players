@@ -32,7 +32,7 @@ Cada jogador tem uma página personalizada com as seguintes informações:
 ![Resultados da Pesquisa](https://github.com/user-attachments/assets/7ea32102-d423-424b-8cf0-a7fd5899038f)
 
 
-#### 📷 Página de Detalhes do Jogador
+#### 📷 Rodapé da Página
 ![Rodapé](https://github.com/user-attachments/assets/a0f221bf-67b7-452c-a820-012bbf8c3ce4)
 
 
@@ -81,6 +81,7 @@ O projeto segue a seguinte organização:
 
 - **index.html**: Página principal com a barra de pesquisa.
 - **dados.js**: Arquivo JavaScript contendo todos os dados dos jogadores e as funcionalidades de busca.
+- **app.js**: Arquivo JavaScript contendo a aplicação dos dados dos jogadores.
 - **style.css**: Estilos CSS para a aplicação.
 - **imagens/**: Pasta contendo as fotos dos jogadores.
 
