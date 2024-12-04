@@ -14,21 +14,15 @@ function pesquisar() {
   // Inicializa uma string vazia para armazenar os resultados formatados
   let resultados = "";
   let nome = "";
-  let descricao = "";
   let tags = "";
 
   // Itera sobre cada dado na lista de dados
   for (let dado of dados) {
     nome = dado.nome.toLowerCase();
-    descricao = dado.descricao.toLowerCase();
     tags = dado.tags.toLowerCase();
 
     // se titulo includes campoPesquisa
-    if (
-      nome.includes(campoPesquisa) ||
-      descricao.includes(campoPesquisa) ||
-      tags.includes(campoPesquisa)
-    ) {
+    if (nome.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
       // Cria um novo elemento
       resultados += `
         <div class="item-resultado">

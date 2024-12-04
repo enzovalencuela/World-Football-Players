@@ -633,6 +633,24 @@ let dados = [
       "Fernandinho foi peça fundamental nas conquistas do Manchester City nas últimas temporadas.",
   },
 
+  // Filipe Luís
+  {
+    nome: "Filipe Luís",
+    descricao:
+      "Lateral-esquerdo brasileiro conhecido por sua experiência e qualidade defensiva. Foi um dos principais jogadores do Atlético de Madrid e do Chelsea.",
+    pagina: "https://www.instagram.com/filipeluis/",
+    imagem:
+      "https://media.gettyimages.com/id/1148766587/pt/foto/porto-alegre-brazil-filipe-luis-of-brazil-controls-the-ball-during-the-international-friendly.jpg?s=612x612&w=gi&k=20&c=ChNTgB3M5x8MaaaerHnNqWn7Isbw2PwgRKYtQf82GxY=",
+    tags: "Brasil, Filipe Luís, lateral-esquerdo",
+    numero: "6",
+    posicao: "Lateral-esquerdo",
+    titulos:
+      "La Liga (Atlético de Madrid) <br> Liga dos Campeões da UEFA (Chelsea) <br> Copa América (Brasil) <br> Campeonato Brasileiro (Flamengo) <br> Libertadores (Flamengo) <br> Supercopa da Espanha (Atlético de Madrid) <br> Copa do Rei (Atlético de Madrid) <br> Além de outros menos importantes",
+    dataNascimento: "09/08/1985",
+    curiosidades:
+      "Conhecido por sua liderança dentro de campo e por sua identificação com a torcida do Flamengo.",
+  },
+
   // Gabriel Jesus
   {
     nome: "Gabriel Jesus",
@@ -751,7 +769,7 @@ let dados = [
       "Considerado um dos melhores jogadores de futebol do mundo, Neymar Jr. é famoso por seus dribles rápidos e habilidade em cobranças de faltas. Iniciou sua carreira no Santos FC e, após brilhar no Barcelona, atualmente defende as cores do Al-Hilal.",
     pagina: "https://www.instagram.com/neymarjr/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Al-Hilal_FC_logo.svg/1200px-Al-Hilal_FC_logo.svg.png",
-    tags: "brasil, santos, barcelona, al hilal, dribles, Neymar Jr.",
+    tags: "brasil, al hilal, atacante, ponta esquerda, seleção brasileira, Neymar Jr.",
     imagem:
       "https://cdn.esbrasil.com.br/wp-content/uploads/2024/09/6d2nqshw9lodueisju2k2bwyl.jpg",
     titulos:
@@ -908,24 +926,6 @@ let dados = [
     dataNascimento: "18 de setembro de 1976",
     curiosidades:
       "Ronaldo Fenômeno ficou marcado por sua recuperação de lesões graves, voltando a jogar em alto nível após diversas cirurgias.",
-  },
-
-  // Thiago Silva
-  {
-    nome: "Thiago Silva",
-    descricao:
-      "Zagueiro experiente e líder nato, conhecido por sua habilidade no jogo aéreo, passes precisos e liderança dentro de campo. Um dos melhores defensores da sua geração.",
-    pagina: "https://www.instagram.com/thiagosilva/",
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o Fluminense
-    tags: "futebol, brasil, fluminense, zagueiro, seleção brasileira",
-    imagem:
-      "https://conteudo.imguol.com.br/c/esporte/26/2022/12/05/thiago-silva-durante-a-partida-do-brasil-contra-a-coreia-do-sul-1670294743840_v2_450x450.jpg", // Trocar por uma imagem do Thiago Silva
-    titulos: "Ligue 1, Copa da França, Supercopa da França, Champions League",
-    numero: "3",
-    posicao: "Zagueiro",
-    dataNascimento: "22/09/1984",
-    curiosidades:
-      "Começou sua carreira como volante, mas logo se destacou como zagueiro. É considerado um dos maiores ídolos do Paris Saint-Germain e da Seleção Brasileira.",
   },
 
   // Vinícius Júnior
@@ -2483,11 +2483,11 @@ let dados = [
       "Meia habilidoso e com excelente visão de jogo, Everton Ribeiro é conhecido por suas assistências e gols decisivos. Atualmente, é um dos principais jogadores do futebol brasileiro.",
     pagina: "https://www.instagram.com/evertonribeiro/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o logo do Bahia
-    tags: "futebol, brasil, bahia, flamengo, meia, habilidade",
+    tags: "futebol, brasil, bahia, meia, habilidade",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/72/2024/01/24/everton-ribeiro-comemora-primeiro-gol-pelo-bahia-1706143661502_v2_450x600.jpg", // Trocar por uma imagem do Everton Ribeiro
     titulos:
-      "Brasileirão br Copa do Brasil br Campeonato Carioca br Copa Libertadores br Recopa Sul-Americana",
+      "Brasileirão <br> Copa do Brasil <br> Campeonato Carioca <br> Copa Libertadores <br> Recopa Sul-Americana",
     numero: "10",
     posicao: "Meia",
     dataNascimento: "10/4/1989",
@@ -2499,6 +2499,24 @@ let dados = [
 
   //Corinthians---------------------------------------------
 
+  // Memphis Depay
+  {
+    nome: "Memphis Depay",
+    descricao:
+      "Atacante holandês conhecido por sua habilidade técnica e chutes potentes. Destacou-se no PSV Eindhoven e Manchester United antes de se transferir para o Barcelona. Atualmente joga no Corinthians.",
+    pagina: "https://www.instagram.com/memphisdepay/",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/80/2024/09/21/memphis-depay-em-acao-durante-corinthians-x-atletico-go-duelo-do-campeonato-brasileiro-1726954580942_v2_3x4.jpg",
+    tags: "Holanda, Corinthians, Memphis Depay, atacante",
+    numero: "94",
+    posicao: "Atacante",
+    titulos:
+      "Eredivisie (PSV Eindhoven) <br> Copa dos Países Baixos (PSV Eindhoven)",
+    dataNascimento: "13/02/1994",
+    curiosidades:
+      "Representou a Holanda em diversas competições internacionais, como a Copa do Mundo.",
+  },
+
   //Yuri Alberto
   {
     nome: "Yuri Alberto",
@@ -2506,7 +2524,7 @@ let dados = [
       "Atacante promissor, Yuri Alberto é conhecido por sua finalização precisa e habilidade de se movimentar dentro da área. Atualmente, é um dos destaques do Corinthians.",
     pagina: "https://www.instagram.com/yurialberto/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o logo do Corinthians
-    tags: "futebol, brasil, corinthians, atacante, jovem, gol",
+    tags: "brasil, corinthians, atacante",
     imagem:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Sulamericana_CUP_2023_Semifinal_-_Corinthians_x_Fortaleza-CE_%2853553783422%29_%28cropped%29.jpg/250px-Sulamericana_CUP_2023_Semifinal_-_Corinthians_x_Fortaleza-CE_%2853553783422%29_%28cropped%29.jpg", // Trocar por uma imagem do Yuri Alberto
     titulos: "Campeonato Brasileiro", // Adaptar conforme os títulos conquistados por Yuri
@@ -2522,10 +2540,10 @@ let dados = [
   {
     nome: "Cássio",
     descricao:
-      "Ídolo da torcida corintiana, Cássio é um goleiro experiente e conhecido por suas defesas milagrosas. Atualmente, é um dos principais jogadores do Corinthians.",
+      "Ídolo da torcida corintiana, Cássio é um goleiro experiente e conhecido por suas defesas milagrosas. Recentemente, o jogador foi transferido ao Cruzeiro.",
     pagina: "https://www.instagram.com/cassio/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o logo do Corinthians
-    tags: "futebol, brasil, corinthians, goleiro, ídolo",
+    tags: "brasil, cruzeiro, goleiro",
     imagem:
       "https://i.pinimg.com/736x/8a/12/a2/8a12a2fbb94de06eda7d951104f6ebd4.jpg", // Trocar por uma imagem do Cássio
     titulos:
@@ -2722,7 +2740,7 @@ let dados = [
   },
   // Gerson Santos da Silva
   {
-    nome: "Gerson Santos",
+    nome: "Gerson",
     descricao:
       "Meia brasileiro conhecido por sua força física, desarmes e passes precisos. Um dos pilares do meio-campo do Flamengo que completa o time.",
     pagina: "https://www.instagram.com/gersonsantoss/",
@@ -2963,7 +2981,7 @@ let dados = [
       "Meia elegante e técnico, Renato Augusto é conhecido por sua visão de jogo e passes precisos. Atualmente, é um dos líderes do Corinthians.",
     pagina: "https://www.instagram.com/renatoaugusto/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o logo do Corinthians
-    tags: "futebol, brasil, corinthians, meia, tecnica, liderança",
+    tags: "brasil, fluminense, meia",
     imagem:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCCF4Uyr9Ts2eTx4VSWaxWXTMWBMg55SLI3krRTUSRouo2x3as0H-l_AVY2jio43Axhg&usqp=CAU", // Trocar por uma imagem do Renato Augusto
     titulos:
@@ -2973,6 +2991,24 @@ let dados = [
     dataNascimento: "08/02/1988",
     curiosidades:
       "Renato Augusto já jogou em grandes clubes europeus como Bayer Leverkusen e Beijing Guoan, e é conhecido por sua inteligência tática.",
+  },
+
+  // Thiago Silva
+  {
+    nome: "Thiago Silva",
+    descricao:
+      "Zagueiro experiente e líder nato, conhecido por sua habilidade no jogo aéreo, passes precisos e liderança dentro de campo. Um dos melhores defensores da sua geração.",
+    pagina: "https://www.instagram.com/thiagosilva/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Juventus_FC_logo.svg/1200px-Juventus_FC_logo.svg", // Adaptar para o Fluminense
+    tags: "brasil, zagueiro, fluminense, seleção brasileira",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/26/2022/12/05/thiago-silva-durante-a-partida-do-brasil-contra-a-coreia-do-sul-1670294743840_v2_450x450.jpg", // Trocar por uma imagem do Thiago Silva
+    titulos: "Ligue 1, Copa da França, Supercopa da França, Champions League",
+    numero: "3",
+    posicao: "Zagueiro",
+    dataNascimento: "22/09/1984",
+    curiosidades:
+      "Começou sua carreira como volante, mas logo se destacou como zagueiro. É considerado um dos maiores ídolos do Paris Saint-Germain e da Seleção Brasileira.",
   },
 
   //Palmeiras-------------------------------------------
