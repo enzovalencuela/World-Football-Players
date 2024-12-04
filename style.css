@@ -7,23 +7,19 @@
   padding: 0;
 }
 
-.content {
-  background-image: url(./img/fundos-site.png);
-  background-size: cover;
-  min-height: 100vh;
-}
-
 .pagina {
   font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column;
-
-  padding-block: 50px;
+  background-color: #202020;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 15px;
 }
 
 header {
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   text-align: center;
 }
 
@@ -38,11 +34,10 @@ h1 {
 /* Estiliza as seções da página */
 section {
   display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
+  flex-direction: row; /* Alinha os itens na vertical */
   align-items: center; /* Centraliza os itens horizontalmente */
   margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
   justify-content: center;
-
   margin-top: 40px;
 }
 
@@ -61,16 +56,25 @@ section input {
 }
 
 /* Estiliza os botões dentro das seções */
-section button {
-  padding: 1rem 1.2rem; /* Espaçamento interno do botão */
-  border: none; /* Remove a borda padrão */
-  border-radius: 1.5rem; /* Borda arredondada */
-  background-color: #018f08; /* Cor de fundo do botão */
-  color: #f5f7f8; /* Cor do texto do botão */
-  font-size: 1rem; /* Tamanho da fonte */
-  cursor: pointer; /* Muda o cursor para indicar que é clicável */
-  position: relative;
-  right: -200px;
+section {
+  & .pagina__btn {
+    padding: 1rem 1.2rem; /* Espaçamento interno do botão */
+    position: relative;
+    right: -200px;
+  }
+
+  & button {
+    padding: 1rem 2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #018f08; /* Cor de fundo do botão */
+    color: #f5f7f8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    z-index: 1;
+    position: relative;
+    right: 280px;
+  }
 }
 
 .div-resultados {
@@ -78,7 +82,9 @@ section button {
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */
   align-items: center; /* Centraliza os itens horizontalmente */
-  justify-content: center; /* Centraliza os itens verticalmente */
+  justify-content: start; /* Centraliza os itens verticalmente */
+  height: 600px;
+  overflow-y: auto;
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
@@ -117,7 +123,8 @@ section button {
 
 /* A própria imagem */
 .dado-imagem {
-  width: 300px;
+  max-width: 300px;
+  max-height: 450px;
   padding: 30px 30px 0px 0px;
 }
 
@@ -170,7 +177,7 @@ section button {
 }
 
 .video-sessao {
-  background-color: #45474b;
+  background-color: #2a2a2b;
   padding: 30px;
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */
@@ -182,7 +189,7 @@ section button {
 }
 
 footer {
-  background-color: #202020; /* Cor de fundo do rodapé */
+  background-color: #2a2a2b;
   color: #c2c2c2; /* Cor do texto */
   align-items: center;
   text-align: center; /* Alinha o texto ao centro */
@@ -226,14 +233,16 @@ footer {
       padding: 15px 20px;
       font-size: 15px;
       margin: 0;
-      min-width: 360px;
+      min-width: 80px;
     }
 
     & button {
       width: 100px;
       font-size: 15px;
-      right: -130px;
+      right: 0px;
+      bottom: -60px;
       padding: 15px 20px;
+      margin: 10px;
     }
   }
 
@@ -244,6 +253,8 @@ footer {
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
     padding-block: 50px;
+    height: max-content;
+    overflow-y: none;
   }
 
   .item-resultado {
@@ -258,7 +269,7 @@ footer {
 
   .dado-imagem {
     padding: 0;
-    width: 70%;
+    width: 50%;
     margin: 10px;
   }
 
@@ -289,7 +300,7 @@ footer {
     margin: 0;
     padding: 0;
     width: 360px;
-    height: 220px;
+    height: 200px;
   }
 
   footer {

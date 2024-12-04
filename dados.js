@@ -1,6 +1,24 @@
 let dados = [
   //ALEMANHA--------------------------------------------------------------------------------------------------
 
+  // Draxler
+  {
+    nome: "Julian Draxler",
+    descricao:
+      "Meia-atacante alemão conhecido por sua velocidade e habilidade nos dribles, Draxler já atuou por grandes clubes europeus como Schalke 04 e Paris Saint-Germain.",
+    pagina: "https://www.instagram.com/julian_draxler/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Saint-Germain_FC_logo.svg/1200px-Paris_Saint-Germain_FC_logo.svg", // Adaptar para o time atual do jogador
+    tags: "futebol, alemanha, psg, meia-atacante, velocidade, drible",
+    imagem:
+      "https://media.gettyimages.com/id/635328968/pt/foto/paris-france-julian-draxler-of-paris-saint-germain-in-action-during-the-uefa-champions-league.jpg?s=612x612&w=gi&k=20&c=GlhN8Lxecu_1ids6ttrNSNEnVCwaWgyXH1MgrNKjjYI=",
+    titulos: "Bundesliga, Copa da França, Copa da Alemanha",
+    numero: "7",
+    posicao: "Meia-atacante",
+    dataNascimento: "20/09/1993",
+    curiosidades:
+      "Draxler foi um dos destaques da seleção alemã na Copa do Mundo de 2014.",
+  },
+
   // Franz Beckenbauer
   {
     nome: "Franz Beckenbauer",
@@ -17,6 +35,24 @@ let dados = [
     dataNascimento: "11/09/1945",
     curiosidades:
       "Apelidado de 'Kaiser', Beckenbauer também teve uma brilhante carreira como treinador, conquistando a Copa do Mundo de 1990.",
+  },
+
+  // Marco Reus
+  {
+    nome: "Marco Reus",
+    descricao:
+      "Considerado um dos maiores jogadores da história do Borussia Dortmund, Reus é conhecido por sua velocidade, dribles e habilidade de finalização. É um dos principais jogadores da seleção alemã.",
+    pagina: "https://www.instagram.com/marcoreus/", // Verificar se existe
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg",
+    tags: "futebol, alemanha, borussia dortmund, meia-atacante, seleção alemã",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/3e/2021/01/16/marco-reus-do-borussia-dortmund-lamenta-apos-perder-penalti-na-partida-contra-o-mainz-1610815970730_v2_450x600.jpg",
+    titulos: "Bundesliga, Copa da Alemanha",
+    numero: "11",
+    posicao: "Meia-atacante",
+    dataNascimento: "31/05/1989",
+    curiosidades:
+      "Reus já foi convocado para diversas Copas do Mundo e Eurocopas, mas por diversas lesões, não conseguiu disputar todas as competições.",
   },
 
   // Oliver Kahn
@@ -46,7 +82,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/FC_Bayern_M%C3%BCnchen_logo.svg/1200px-FC_Bayern_M%C3%UNchen_logo.svg",
     tags: "futebol, alemanha, bayern munique, meio-campo, versatilidade",
     imagem:
-      "https://img.fcbayern.com/image/upload/t_cms-portrait/f_auto/w_900%2Cc_fill/q_auto/v1656614911/cms/public/images/fcbayern-com/players/spielerportraits/ganzkoerper/joshua_kimmich.png",
+      "https://learning.coachesvoice.com/wp-content/webpc-passthru.php?src=https://learning.coachesvoice.com/wp-content/uploads/2021/06/KimmichMobile.jpg&nocache=1",
     titulos: "Bundesliga, Copa da Alemanha, Liga dos Campeões da UEFA",
     numero: "6",
     posicao: "Meio-campista",
@@ -64,7 +100,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/FC_Bayern_M%C3%BCnchen_logo.svg/1200px-FC_Bayern_M%C3%UNchen_logo.svg",
     tags: "futebol, alemanha, bayern munique, atacante, inteligência tática",
     imagem:
-      "https://e7.pngegg.com/pngimages/247/43/png-clipart-thomas-muller-jersey-fc-bayern-munich-football-player-munich-germany-tshirt-team.png",
+      "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2014/07/14/04mullerjogadoresgtylaurence-griffiths.jpg",
     titulos:
       "Bundesliga, Copa da Alemanha, Liga dos Campeões da UEFA, Copa do Mundo",
     numero: "25",
@@ -161,25 +197,62 @@ let dados = [
       "É o segundo maior artilheiro da história das Copas do Mundo.",
   },
 
+  //Ter Stegen
+  {
+    nome: "Ter Stegen",
+    descricao:
+      "Goleiro alemão conhecido por suas defesas difíceis e habilidade com os pés, Ter Stegen foi um dos pilares do Barcelona por muitos anos.",
+    pagina: "https://www.instagram.com/mterstegen1/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Liverpool_FC.svg/1200px-Liverpool_FC.svg", // Adaptar para o time atual do jogador
+    tags: "futebol, alemanha, goleiro, defesas, pés",
+    imagem:
+      "https://i.pinimg.com/736x/f4/9a/20/f49a2060fb73e23484c5b708227fc1aa.jpg",
+    titulos: "La Liga, Copa do Rei",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "30/04/1992",
+    curiosidades:
+      "Ter Stegen iniciou sua carreira no Borussia Mönchengladbach antes de se transferir para o Barcelona.",
+  },
+
   // Toni Kroos
   {
     nome: "Toni Kroos",
     descricao:
-      "Meia elegante e preciso, Kroos é conhecido por seus passes longos e visão de jogo. Campeão mundial com a Alemanha em 2014.",
+      "Meia alemão conhecido por sua precisão nos passes e visão de jogo, Kroos foi um dos pilares do Real Madrid por muitos anos.",
     pagina: "https://www.instagram.com/toni.kroos/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/FC_Bayern_M%C3%BCnchen_logo.svg/1200px-FC_Bayern_M%C3%UNchen_logo.svg", // Considerando sua passagem pelo Bayern e Real Madrid
     tags: "futebol, alemanha, meia, passes precisos, copa do mundo",
-    imagem: "https://s.hs-data.com/bilder/spieler/gross/84724.jpg",
+    imagem:
+      "https://cdn-thegame.imago-images.com/wp-content/uploads/imago1045901715h-860x1149.jpg",
     titulos:
       "Bundesliga, Copa da Alemanha, Liga dos Campeões da UEFA, Copa do Mundo",
     numero: "8",
     posicao: "Meia",
-    dataNascimento: 4 / 1 / 1990,
+    dataNascimento: "04/01/1990",
     curiosidades:
-      "É conhecido por sua calma e precisão nos cobranças de falta.",
+      "Kroos começou sua carreira no Bayern de Munique e foi campeão da Copa do Mundo de 2014 com a Alemanha.",
   },
 
   //ARGENTINA-------------------------------------------------------------------------------------------------
+
+  //Alejandro Garnacho
+  {
+    nome: "Alejandro Garnacho",
+    descricao:
+      "Joia argentina do Manchester United, Garnacho é um dos jovens mais promissores do futebol mundial.",
+    pagina: "https://www.instagram.com/alegarnacho7/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Liverpool_FC.svg/1200px-Liverpool_FC.svg", // Substitua pela logo do Manchester United
+    tags: "futebol, argentina, jovem talento, Manchester United",
+    imagem:
+      "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/10/26/1729330721-00033yz2zr-scaled.jpg",
+    titulos: "Copa América, Copa da Inglaterra, FA Youth Cup",
+    numero: "17",
+    posicao: "Atacante",
+    dataNascimento: "01/07/2004",
+    curiosidades:
+      "Garnacho já foi comparado a Cristiano Ronaldo por sua habilidade e potencial.",
+  },
 
   // Ángel Di María
   {
@@ -232,6 +305,24 @@ let dados = [
     posicao: "Meio-campista",
     dataNascimento: "17/1/2001",
     curiosidades: "Foi eleito o melhor jovem jogador da Copa do Mundo de 2022.",
+  },
+
+  //Gonzalo Higuaín
+  {
+    nome: "Gonzalo Higuaín",
+    descricao:
+      "Atacante argentino conhecido por sua finalização precisa, Higuaín já atuou por grandes clubes como Real Madrid e Juventus.",
+    pagina: "https://www.instagram.com/ghiguain9/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Saint-Germain_FC_logo.svg/1200px-Paris_Saint-Germain_FC_logo.svg", // Adaptar para o time atual do jogador
+    tags: "futebol, argentina, atacante, higuain",
+    imagem:
+      "https://i.pinimg.com/736x/9f/45/07/9f4507e6faa726b496586221291608cc.jpg",
+    titulos: "La Liga, Serie A, Copa América",
+    numero: "9",
+    posicao: "Atacante",
+    dataNascimento: "10/12/1987",
+    curiosidades:
+      "Higuain é conhecido por ter marcado gols importantes em momentos decisivos de sua carreira.",
   },
 
   // Javier Mascherano
@@ -418,6 +509,42 @@ let dados = [
 
   //BRASIL----------------------------------------------------------------------------------------------------
 
+  //Antony
+  {
+    nome: "Antony",
+    descricao:
+      "Atacante brasileiro conhecido por sua habilidade nos dribles e velocidade, Antony é um dos principais jogadores do Manchester United.",
+    pagina: "https://www.instagram.com/antony00/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Liverpool_FC.svg/1200px-Liverpool_FC.svg", // Substitua pela logo do Manchester United
+    tags: "futebol, brasil, atacante, drible, velocidade",
+    imagem:
+      "https://tntsports.com.br/__export/1668559168377/sites/esporteinterativo/img/2022/10/21/whatsapp_image_2022-10-21_at_14_58_22_1.jpeg_639181608.jpeg",
+    titulos: "Eredivisie",
+    numero: "21",
+    posicao: "Atacante",
+    dataNascimento: "22/02/2000",
+    curiosidades:
+      "Antony se destacou no Ajax antes de se transferir para o Manchester United.",
+  },
+
+  //Arthur
+  {
+    nome: "Arthur",
+    descricao:
+      "Volante brasileiro conhecido por sua técnica e visão de jogo, Arthur já atuou por grandes clubes como Grêmio e Barcelona.",
+    pagina: "https://www.instagram.com/arthurgomes/", // Adaptar para o perfil oficial do jogador
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Liverpool_FC.svg/1200px-Liverpool_FC.svg", // Adaptar para o time atual do jogador
+    tags: "futebol, brasil, volante, tecnica, visão de jogo",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/FC_Zenit_Saint_Petersburg_vs._Juventus%2C_20_October_2021_52_%28Arthur_Melo%29.jpg/640px-FC_Zenit_Saint_Petersburg_vs._Juventus%2C_20_October_2021_52_%28Arthur_Melo%29.jpg",
+    titulos: "La Liga, Copa do Brasil",
+    numero: "8", // Adaptar para o número da camisa
+    posicao: "Volante",
+    dataNascimento: "12/05/1996",
+    curiosidades:
+      "Arthur foi um dos destaques do Grêmio na conquista da Libertadores de 2017.",
+  },
+
   // Casemiro
   {
     nome: "Casemiro",
@@ -453,6 +580,23 @@ let dados = [
       "Conhecido por suas comemorações animadas e por ter jogado em diversos países, Daniel Alves é um verdadeiro embaixador do futebol brasileiro.",
   },
 
+  // Éder Militão
+  {
+    nome: "Éder Militão",
+    descricao:
+      "Zagueiro brasileiro conhecido por sua velocidade e força física, Militão se destacou no Porto antes de se transferir para o Real Madrid.",
+    pagina: "https://www.instagram.com/edermilitao/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg",
+    tags: "futebol, brasil, real madrid, zagueiro, velocidade, eder",
+    imagem:
+      "https://es.coachesvoice.com/wp-content/uploads/2019/03/MilitaoMobile.jpg",
+    titulos: "La Liga, Champions League, Campeonato Português",
+    numero: "3",
+    posicao: "Zagueiro",
+    dataNascimento: "18/01/1998",
+    curiosidades: "Militão é uma das promessas da defesa do Real Madrid.",
+  },
+
   //Endrick
   {
     nome: "Endrick",
@@ -469,6 +613,42 @@ let dados = [
     dataNascimento: "21/07/2006",
     curiosidades:
       "Revelado pelo Palmeiras, Endrick foi comparado a grandes atacantes brasileiros por sua habilidade e potencial.",
+  },
+
+  // Fernandinho
+  {
+    nome: "Fernandinho",
+    descricao:
+      "Volante brasileiro conhecido por sua versatilidade e capacidade de marcação, Fernandinho se destacou no Shakhtar Donetsk e Manchester City, atualmente joga no Athletico-PR.",
+    pagina: "https://www.instagram.com/fernandinho/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg",
+    tags: "futebol, brasil, manchester city, volante, marcação, versatilidade",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/43/2018/10/20/fernandinho-comemora-gol-durante-manchester-city-x-burnley-neste-sabado-1540051315426_v2_450x600.jpg",
+    titulos: "Premier League, Copa da Inglaterra, Campeonato Ucraniano",
+    numero: "25",
+    posicao: "Volante",
+    dataNascimento: "4/05/1985",
+    curiosidades:
+      "Fernandinho foi peça fundamental nas conquistas do Manchester City nas últimas temporadas.",
+  },
+
+  // Gabriel Jesus
+  {
+    nome: "Gabriel Jesus",
+    descricao:
+      "Atacante brasileiro conhecido por sua velocidade, dribles e finalizações precisas, Gabriel Jesus se destacou no Palmeiras e Manchester City e atualmente joga no Asenal.",
+    pagina: "https://www.instagram.com/gabrieljesus/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg",
+    tags: "futebol, brasil, manchester city, atacante, velocidade, drible",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/69/2019/07/07/gabriel-jesus-comemora-gol-da-selecao-brasileira-na-final-da-copa-america-2019-no-maracana-rj-1562533448865_v2_3x4.jpg",
+    titulos: "Premier League, Copa da Inglaterra, Campeonato Brasileiro",
+    numero: "9",
+    posicao: "Atacante",
+    dataNascimento: "03/04/1997",
+    curiosidades:
+      "Gabriel Jesus fez parte da seleção brasileira campeã olímpica em 2016.",
   },
 
   //Kaká
@@ -488,6 +668,24 @@ let dados = [
     dataNascimento: "22/04/1982",
     curiosidades:
       "Kaká é conhecido por sua fé cristã e por seu trabalho filantrópico. Ele fundou a Fundação Kaká para ajudar crianças carentes.",
+  },
+
+  //Lucas Moura
+  {
+    nome: "Lucas Moura",
+    descricao:
+      "Meia-atacante brasileiro conhecido por sua velocidade e habilidade nos dribles, Lucas Moura já atuou por grandes clubes como São Paulo, Paris Saint-Germain e Tottenham.",
+    pagina: "https://www.instagram.com/lucasmoura/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sao_Paulo_FC_logo.svg/1200px-Sao_Paulo_FC_logo.svg", // Adaptar para o time atual do jogador
+    tags: "futebol, brasil, meia-atacante, velocidade, drible",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/d1/2023/02/06/lucas-moura-esta-no-tottenham-desde-janeiro-de-2018-1675718802147_v2_450x600.jpg",
+    titulos: "Ligue 1, Copa da França",
+    numero: "7",
+    posicao: "Meia-atacante",
+    dataNascimento: "13/08/1992",
+    curiosidades:
+      "Lucas Moura é conhecido por ter marcado três gols na final da Champions League de 2019 pelo Tottenham.",
   },
 
   // Marquinhos
@@ -528,6 +726,24 @@ let dados = [
       "Garrincha nasceu com uma deformidade nas pernas, mas isso não o impediu de se tornar um dos maiores jogadores da história. Ele era conhecido por sua vida simples e alegre, e sua história é um exemplo de superação.",
   },
 
+  //Miranda
+  {
+    nome: "Miranda",
+    descricao:
+      "Zagueiro brasileiro conhecido por sua liderança e experiência, Miranda já defendeu grandes clubes como Atlético de Madrid e Internazionale, além da Seleção Brasileira.",
+    pagina: "https://www.instagram.com/mirandaoficial/", // Adaptar para o perfil oficial do jogador
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sao_Paulo_FC_logo.svg/1200px-Sao_Paulo_FC_logo.svg", // Adaptar para o time atual do jogador
+    tags: "futebol, brasil, zagueiro, liderança, experiencia",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Miranda_850_1585.jpg/640px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Miranda_850_1585.jpg",
+    titulos: "La Liga, Copa do Mundo, Copa América",
+    numero: "4", // Adaptar para o número da camisa
+    posicao: "Zagueiro",
+    dataNascimento: "07/08/1984",
+    curiosidades:
+      "Miranda foi um dos pilares da defesa da Seleção Brasileira campeã da Copa das Confederações de 2013.",
+  },
+
   //Neymar Júnior
   {
     nome: "Neymar Júnior",
@@ -545,6 +761,24 @@ let dados = [
     dataNascimento: "05/02/1992",
     curiosidades:
       "Neymar Jr. é conhecido por sua paixão pelo futebol desde criança. Ele começou a jogar nas ruas de São Paulo e logo chamou a atenção de olheiros.",
+  },
+
+  //Paulinho
+  {
+    nome: "Paulinho",
+    descricao:
+      "Volante brasileiro conhecido por sua força física e habilidade na marcação, Paulinho já atuou por grandes clubes como Corinthians e Tottenham, além da Seleção Brasileira.",
+    pagina: "https://www.instagram.com/paulinho/", // Adaptar para o perfil oficial do jogador
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Al-Ahli_Saudi_FC_logo.svg/1200px-Al-Ahli_Saudi_FC_logo.svg", // Adaptar para o time atual do jogador
+    tags: "futebol, brasil, volante, força, marcação",
+    imagem:
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2018/06/27/5b340c97edaab.png",
+    titulos: "Brasileirão, Copa Libertadores, Copa das Confederações",
+    numero: "15", // Adaptar para o número da camisa
+    posicao: "Volante",
+    dataNascimento: "25/07/1988",
+    curiosidades:
+      "Paulinho foi um dos destaques da Seleção Brasileira na Copa do Mundo de 2018.",
   },
 
   //Pelé
@@ -750,6 +984,26 @@ let dados = [
       "Choupo-Moting é conhecido por sua versatilidade, podendo atuar tanto como centroavante quanto como ponta de lança. Ele também é um grande fã de música.",
   },
 
+  // CANADÁ -----------------------------------------------------------------------------------------------------
+
+  // Alphonso Davies
+  {
+    nome: "Alphonso Davies",
+    descricao:
+      "Lateral-esquerdo canadense conhecido por sua velocidade e habilidade nos dribles, Davies se destaca no Bayern de Munique.",
+    pagina: "https://www.instagram.com/alphonsodavies/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/FC_Bayern_M%C3%BCnchen_logo.svg/1200px-FC_Bayern_M%C3%UNchen_logo.svg",
+    tags: "futebol, canadá, bayern munique, lateral-esquerdo, velocidade, drible",
+    imagem:
+      "https://tntsports.com.br/__export/1694365196315/sites/esporteinterativo/img/2023/09/10/gettyimages-1643058731_1.jpg_742406227.jpg",
+    titulos: "Bundesliga, Champions League",
+    numero: "19",
+    posicao: "Lateral-esquerdo",
+    dataNascimento: "02/11/2000",
+    curiosidades:
+      "Davies é o jogador mais jovem a representar o Canadá em uma Copa do Mundo.",
+  },
+
   // COLÔMBIA ---------------------------------------------------------------------------------------------------
 
   {
@@ -815,6 +1069,26 @@ let dados = [
     posicao: "Atacante",
     dataNascimento: 10 / 11 / 1969,
     curiosidades: "Conhecido por sua personalidade extrovertida.",
+  },
+
+  //COREIA DO SUL
+
+  //Son
+  {
+    nome: "Son Heung-min",
+    descricao:
+      "Atacante sul-coreano conhecido por sua velocidade, habilidade e gol, Son é um dos principais jogadores do Tottenham Hotspur.",
+    pagina: "https://www.instagram.com/hm_son7/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Liverpool_FC.svg/1200px-Liverpool_FC.svg", // Adaptar para o time atual do jogador
+    tags: "futebol, coreia-do-sul, atacante, velocidade, gol",
+    imagem:
+      "https://cdn1-production-images-kly.akamaized.net/Vk_c5aMJUupK8TXYbbUKFt39XHc=/800x1066/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4621407/original/031600900_1698102412-AP23296724254352.jpg",
+    titulos: "Premier League",
+    numero: "7",
+    posicao: "Atacante",
+    dataNascimento: "8/7/1992",
+    curiosidades:
+      "Son Heung-min é um dos jogadores asiáticos mais famosos do mundo.",
   },
 
   // COSTA RICA ------------------------------------------------------------------------------------------------
@@ -1100,6 +1374,24 @@ let dados = [
     curiosidades: "Marcou o gol do título da Copa do Mundo de 2010.",
   },
 
+  //Gerard Piqué
+  {
+    nome: "Gerard Piqué",
+    descricao:
+      "Zagueiro espanhol conhecido por sua liderança e habilidade no jogo aéreo, Piqué foi um dos maiores ídolos do Barcelona.",
+    pagina: "https://www.instagram.com/3gerardpique/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sao_Paulo_FC_logo.svg/1200px-Sao_Paulo_FC_logo.svg", // Adaptar para o time atual do jogador (se houver)
+    tags: "futebol, espanha, zagueiro, liderança, jogo aéreo",
+    imagem:
+      "https://i.pinimg.com/736x/81/22/82/8122821e9935101f424a159b1d36dc65.jpg",
+    titulos: "La Liga, Copa do Mundo, Eurocopa",
+    numero: "3",
+    posicao: "Zagueiro",
+    dataNascimento: "2/2/1987",
+    curiosidades:
+      "Piqué começou sua carreira no Barcelona e voltou para o clube após passagens por Manchester United e Zaragoza.",
+  },
+
   // Iker Casillas
   {
     nome: "Iker Casillas",
@@ -1115,6 +1407,24 @@ let dados = [
     posicao: "Goleiro",
     dataNascimento: "20/05/1981",
     curiosidades: "Considerado um dos maiores ídolos do Real Madrid.",
+  },
+
+  //Isco Alarcón
+  {
+    nome: "Isco Alarcón",
+    descricao:
+      "Meia espanhol conhecido por sua técnica e visão de jogo, Isco já atuou por Real Madrid e agora defende o [time atual].",
+    pagina: "https://www.instagram.com/iscoalarcon/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sao_Paulo_FC_logo.svg/1200px-Sao_Paulo_FC_logo.svg", // Substitua pela logo do time atual
+    tags: "futebol, espanha, meia, técnica, visão de jogo",
+    imagem:
+      "https://pbs.twimg.com/media/FT__o9JXEAMIakS?format=jpg&name=4096x4096",
+    titulos:
+      "La Liga, Copa del Rey, UEFA Champions League, Supercopa da UEFA, Mundial de Clubes",
+    numero: "22", // Verifique o número da camisa
+    posicao: "Meia",
+    dataNascimento: "21/04/1992",
+    curiosidades: "Isco foi um dos pilares do Real Madrid durante vários anos.",
   },
 
   // Jordi Alba
@@ -1133,6 +1443,24 @@ let dados = [
     dataNascimento: "21/03/1989",
     curiosidades:
       "Além de suas habilidades técnicas, Alba é conhecido por sua paixão pelo jogo e por sua liderança dentro de campo.",
+  },
+
+  //Lamine Yamal
+  {
+    nome: "Lamine Yamal",
+    descricao:
+      "Joia do Barcelona, Yamal é um dos jogadores mais promissores do mundo. Com apenas 17, ele já chama atenção pela habilidade e maturidade em campo.",
+    pagina: "https://www.instagram.com/laminyamal/", // Adapte para o perfil oficial
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sao_Paulo_FC_logo.svg/1200px-Sao_Paulo_FC_logo.svg", // Substitua pela logo do Barcelona
+    tags: "futebol, espanha, jovem talento, habilidade, Barcelona",
+    imagem:
+      "https://tntsports.com.br/__export/1720996103480/sites/esporteinterativo/img/2024/07/14/yamal_melhor_jogador_jovem_da_euro_1.jpg_742406227.jpg",
+    titulos: "LaLiga",
+    numero: "19",
+    posicao: "Atacante",
+    dataNascimento: "13/07/2007", // Verifique a data de nascimento
+    curiosidades:
+      "Yamal se tornou o jogador mais jovem a estrear pelo Barcelona e pela seleção espanhola.",
   },
 
   // Raúl González
@@ -1171,24 +1499,6 @@ let dados = [
       "Busquets é conhecido por sua visão de jogo excepcional e capacidade de recuperar a bola. Ele é considerado um dos maiores volantes da história do futebol.",
   },
 
-  // Isco
-  {
-    nome: "Isco",
-    descricao:
-      "Meia espanhol conhecido por sua habilidade técnica e visão de jogo. Passou por grandes clubes como Málaga e Real Madrid, onde conquistou diversos títulos.",
-    pagina: "https://www.instagram.com/iscoalarcon/",
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Real_Betis_logo.svg/1200px-Real_Betis_logo.svg",
-    tags: "futebol, espanha, real madrid, real betis, meia, habilidade técnica",
-    imagem: "https://s.hs-data.com/bilder/spieler/gross/177605.jpg", // Trocar por uma imagem do Isco
-    titulos:
-      "La Liga, Copa del Rey, UEFA Champions League, Supercopa da UEFA, Mundial de Clubes",
-    numero: "22",
-    posicao: "Meia-atacante",
-    dataNascimento: "21/04/1992",
-    curiosidades:
-      "Isco é conhecido por seus passes precisos e dribles elegantes. Ele também é um grande fã de música e costuma tocar violão.",
-  },
-
   // Gavi
   {
     nome: "Gavi",
@@ -1205,6 +1515,24 @@ let dados = [
     dataNascimento: "05/08/2004",
     curiosidades:
       "Gavi é o jogador mais jovem a marcar um gol pela Seleção Espanhola em Copas do Mundo.",
+  },
+
+  //Marco Asensio
+  {
+    nome: "Marco Asensio",
+    descricao:
+      "Meia-atacante espanhol conhecido por sua técnica e finalização, Asensio é um dos jovens talentos do futebol espanhol, atualmente joga no PSG.",
+    pagina: "https://www.instagram.com/marcoasensio10/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Saint-Germain_FC_logo.svg/1200px-Paris_Saint-Germain_FC_logo.svg", // Adaptar para o time atual do jogador
+    tags: "futebol, espanha, meia-atacante, técnica, finalização",
+    imagem:
+      "https://i.pinimg.com/736x/12/7b/39/127b39af9a1cd4b4f762bb6a4215b426.jpg",
+    titulos: "La Liga, Champions League",
+    numero: "10",
+    posicao: "Meia-atacante",
+    dataNascimento: "21/1/1996",
+    curiosidades:
+      "Asensio marcou um golaço na final da Champions League de 2017 pelo Real Madrid.",
   },
 
   // Pedri
@@ -1314,6 +1642,24 @@ let dados = [
     posicao: "Atacante",
     dataNascimento: "21/3/1991",
     curiosidades: "Conhecido por suas comemorações de gol únicas.",
+  },
+
+  //Hugo Lloris
+  {
+    nome: "Hugo Lloris",
+    descricao:
+      "Goleiro francês conhecido por suas defesas espetaculares, Lloris foi capitão do Tottenham Hotspur e da Seleção Francesa.",
+    pagina: "https://www.instagram.com/hugolloris/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Liverpool_FC.svg/1200px-Liverpool_FC.svg", // Adaptar para o time atual do jogador
+    tags: "futebol, frança, goleiro, lloris",
+    imagem:
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6c947d2c-fd29-4e2e-9231-4c8b393c4e00/dcfvaon-5c2704e1-10b4-49f0-a7f2-3dd266de9403.jpg/v1/fill/w_800,h_1149,q_75,strp/hugo_lloris_france_hd__football2k_by_rimshad7_dcfvaon-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTE0OSIsInBhdGgiOiJcL2ZcLzZjOTQ3ZDJjLWZkMjktNGUyZS05MjMxLTRjOGIzOTNjNGUwMFwvZGNmdmFvbi01YzI3MDRlMS0xMGI0LTQ5ZjAtYTdmMi0zZGQyNjZkZTk0MDMuanBnIiwid2lkdGgiOiI8PTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.dAHjtED9hWm10gXzMoRQH2Ko9TlECpvxuBehIk5q2Ps",
+    titulos: "Premier League, Copa do Mundo",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "26/12/1986",
+    curiosidades:
+      "Lloris foi fundamental para a conquista da Copa do Mundo de 2018 pela França.",
   },
 
   // Presnel Kimpembe
@@ -1478,6 +1824,26 @@ let dados = [
     curiosidades:
       "Nascido e criado em Liverpool, Alexander-Arnold é torcedor do clube desde criança e fez toda sua base no time.",
   },
+
+  // Bellingham
+  {
+    nome: "Jude Bellingham",
+    descricao:
+      "Meio-campista inglês com grande potencial, Bellingham se destaca por sua força física, habilidade técnica e visão de jogo. Atualmente joga no Borussia Dortmund.",
+    pagina: "https://www.instagram.com/judebellingham/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg",
+    tags: "futebol, inglaterra, borussia dortmund, meio-campista, força física, visão de jogo",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/2f/2023/10/28/bellingham-comemora-apos-marcar-pelo-real-madrid-contra-o-barcelona-no-espanhol-1698508629877_v2_3x4.jpg",
+    titulos:
+      "Bundesliga, Liga dos Campeões, Supertaça Europeia, Supertaça de Espanha, Taça da Alemanha.",
+    numero: "05",
+    posicao: "Meio-campista",
+    dataNascimento: "29/06/2003",
+    curiosidades:
+      "Bellingham é considerado uma das maiores promessas do futebol mundial.",
+  },
+
   //Bukayo Saka
   {
     nome: "Bukayo Saka",
@@ -1530,24 +1896,6 @@ let dados = [
     dataNascimento: "10/09/1995",
     curiosidades:
       "Grealish é um torcedor fanático do Aston Villa, clube onde começou sua carreira. Ele é conhecido por sua comemoração característica, deslizando de joelhos no gramado.",
-  },
-
-  //Jude Bellingham
-  {
-    nome: "Jude Bellingham",
-    descricao:
-      "Meia inglês com grande potencial, conhecido por sua força física, habilidade para marcar gols e visão de jogo. Aos poucos se tornou um dos pilares do Real Madrid.",
-    pagina: "https://www.instagram.com/judebellingham/",
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg",
-    tags: "futebol, inglaterra, real madrid, meia, jovem talento, força física",
-    imagem:
-      "https://media.gettyimages.com/id/2152151482/pt/foto/madrid-spain-jude-bellingham-of-real-madrid-celebrates-after-the-teams-victory-and-reaching.jpg?s=612x612&w=gi&k=20&c=CmCJUfK0vPCdt0tug8QJuQM9Fx_D1ouX5JYi4R831aM=", // Trocar por uma imagem do Jude Bellingham
-    titulos: "Ainda não conquistou títulos pelo Real Madrid",
-    numero: "22",
-    posicao: "Meia",
-    dataNascimento: "29/06/2003",
-    curiosidades:
-      "Começou sua carreira profissional no Birmingham City, onde se destacou rapidamente. É considerado um dos maiores talentos da sua geração.",
   },
 
   //Marcus Rashford
@@ -1904,6 +2252,41 @@ let dados = [
 
   //PORTUGAL--------------------------------------------------------------------------------------------------
 
+  //Bruno Fernandes
+  {
+    nome: "Bruno Fernandes",
+    descricao:
+      "Meia português conhecido por sua visão de jogo e habilidade para marcar gols, Bruno Fernandes é um dos líderes do Manchester United.",
+    pagina: "https://www.instagram.com/brunofernandes/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Liverpool_FC.svg/1200px-Liverpool_FC.svg", // Substitua pela logo do Manchester United
+    tags: "futebol, portugal, meia, visão de jogo, gols",
+    imagem: "https://pbs.twimg.com/media/Fy2qUkAWwAIYQ4g.jpg:large",
+    titulos: "Europa League",
+    numero: "8",
+    posicao: "Meia",
+    dataNascimento: "08/09/1994",
+    curiosidades:
+      "Bruno Fernandes é conhecido por suas cobranças de falta e pênaltis.",
+  },
+
+  // Cancelo
+  {
+    nome: "João Cancelo",
+    descricao:
+      "Lateral direito português conhecido por sua habilidade nos cruzamentos e visão de jogo, Cancelo se destacou no Juventus e Manchester City.",
+    pagina: "https://www.instagram.com/joao.cancelo/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg",
+    tags: "futebol, portugal, manchester city, lateral, cruzamento, visão de jogo",
+    imagem:
+      "https://www.sportphotogallery.com/content/images/cmsfiles/product/46797/47874-zoom.jpg",
+    titulos: "Premier League, Serie A, Copa da Itália",
+    numero: "27",
+    posicao: "Lateral-direito",
+    dataNascimento: "27/05/1994",
+    curiosidades:
+      "Cancelo é considerado um dos melhores laterais do mundo na atualidade.",
+  },
+
   //Cristiano Ronaldo
   {
     nome: "Cristiano Ronaldo",
@@ -1915,7 +2298,7 @@ let dados = [
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Al-Nassr_FC.svg/1200px-Al-Nassr_FC.svg.png",
     tags: "portugal, manchester united, real madrid, al nassr, força, gols, Cristiano Ronaldo",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/400px-Cristiano_Ronaldo_2018.jpg",
+      "https://conteudo.imguol.com.br/c/esporte/cc/2024/08/22/cristiano-ronaldo-comemora-gol-do-al-nassr-diante-do-al-raed-em-jogo-do-campeonato-saudita-1724354605510_v2_3x4.jpg",
     titulos: "liga dos campeões <br> premier league <br> la liga <br> eurocopa",
     numero: "7",
     posicao: "Atacante",
@@ -2327,7 +2710,7 @@ let dados = [
       "Atacante brasileiro conhecido por sua finalização e habilidade, artilheiro em diversas competições, ganhando o apelido de Gabigol. Ídolo do time.",
     pagina: "https://www.instagram.com/gabigol/",
     imagem:
-      "https://images.flamengo.com.br/public/images/players/7/1710273212.png",
+      "https://static1.purepeople.com.br/articles/8/39/18/68/@/4483993-gabriel-barbosa-se-consagrou-no-flamengo-580x0-2.jpg",
     tags: "Brasil,Gabigol, artilheiro",
     numero: "99",
     posicao: "Atacante",
@@ -2661,7 +3044,7 @@ let dados = [
       "Meia-atacante talentoso e habilidoso, Coutinho é conhecido por seus dribles, chutes de longa distância e visão de jogo. Atualmente, joga no Vasco da Gama.",
     pagina: "https://www.instagram.com/philcoutinho/", // Verificar o perfil oficial
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vasco_da_Gama_logo.svg/1200px-Vasco_da_Gama_logo.svg",
-    tags: "futebol, brasil, vasco, meia, habilidade, drible, gol",
+    tags: "futebol, brasil, vasco, meia, habilidade, drible",
     imagem:
       "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2021/04/30/1758755973-coutinho.jpg", // Trocar por uma imagem do Philippe Coutinho
     titulos: "Campeão da Copa da Inglaterra", // Adaptar conforme os títulos conquistados

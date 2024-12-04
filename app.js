@@ -16,7 +16,6 @@ function pesquisar() {
   let nome = "";
   let descricao = "";
   let tags = "";
-  let titulos = "";
 
   // Itera sobre cada dado na lista de dados
   for (let dado of dados) {

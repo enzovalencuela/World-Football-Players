@@ -13,34 +13,24 @@
       <h1>Tudo sobre Futebol</h1>
       <header>
         <section class="barra-pesquisa">
+          <button id="mostrarDados">Times</button>
           <input type="text" placeholder="digite o atleta, time ou país" id="campo-pesquisa"/>
           <button class="pagina__btn" onclick="pesquisar()">Pesquisar</button>
         </section>
+                               <!--RESULTADOS-->
+                               <div class="div-resultados">
+                                <main>
+                                  <div class="resultados-pesquisa" id="resultados-pesquisa"></div>
+                                </main>
+                              </div>
       </header>
     </div>
-             <!--RESULTADOS-->
-             <div class="div-resultados">
-              <main>
-                <div class="resultados-pesquisa" id="resultados-pesquisa"></div>
-              </main>
-            </div>
-    
   </div>
 
 
        <!--SESSÃO VIDEO-->
     <div class="video-sessao">
-      <iframe
-        id="video"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/40_R3lyMMRo?si=TJMu3032A92P3mYs"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DfNC2JHhpVo?si=gMpywPfSdTRFJiXn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video"></iframe>
     </div>
        <!--RODAPÉ-->
     <footer>
@@ -50,6 +40,7 @@
     
     <script src="app.js"></script>
     <script src="dados.js"></script>
+    <script src="dadosTime.js"></script>
 
     <div class="audio">
       <audio autoplay loop></audio>
