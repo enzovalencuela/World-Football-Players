@@ -37,40 +37,23 @@ let dados = [
       "Apelidado de 'Kaiser', Beckenbauer também teve uma brilhante carreira como treinador, conquistando a Copa do Mundo de 1990.",
   },
 
-  // Marco Reus
+  // Jerome Boateng
   {
-    nome: "Marco Reus",
+    nome: "Jerome Boateng",
     descricao:
-      "Considerado um dos maiores jogadores da história do Borussia Dortmund, Reus é conhecido por sua velocidade, dribles e habilidade de finalização. É um dos principais jogadores da seleção alemã.",
-    pagina: "https://www.instagram.com/marcoreus/", // Verificar se existe
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg",
-    tags: "futebol, alemanha, borussia dortmund, meia-atacante, seleção alemã",
+      "Zagueiro alemão conhecido por sua força física, velocidade e habilidade nos passes longos. Atuou por grandes clubes como Bayern de Munique e Lyon.",
+    pagina: "https://www.instagram.com/jeromeboateng/",
+    time: "LASK",
+    tags: "futebol, alemanha, zagueiro, força, velocidade, passes longos",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/3e/2021/01/16/marco-reus-do-borussia-dortmund-lamenta-apos-perder-penalti-na-partida-contra-o-mainz-1610815970730_v2_450x600.jpg",
-    titulos: "Bundesliga, Copa da Alemanha",
-    numero: "11",
-    posicao: "Meia-atacante",
-    dataNascimento: "31/05/1989",
+      "https://media.gettyimages.com/id/624383320/pt/foto/dortmund-germany-j%C3%A9r%C3%B4me-boateng-of-muenchen-gestures-during-the-bundesliga-match-between.jpg?s=612x612&w=gi&k=20&c=IpWjIvjWuZBW7Jk8OBjFlaaUfv01QT5DhDHF63OZnAQ=",
+    titulos:
+      "Bundesliga (Bayern de Munique)<br>Copa da Alemanha (Bayern de Munique)<br>Liga dos Campeões da UEFA (Bayern de Munique)<br>Mundial de Clubes da FIFA (Bayern de Munique)<br>Supercopa da Alemanha (Bayern de Munique)",
+    numero: "17",
+    posicao: "Zagueiro",
+    dataNascimento: "3/09/1988",
     curiosidades:
-      "Reus já foi convocado para diversas Copas do Mundo e Eurocopas, mas por diversas lesões, não conseguiu disputar todas as competições.",
-  },
-
-  // Oliver Kahn
-  {
-    nome: "Oliver Kahn",
-    descricao:
-      "Um dos maiores goleiros da história, Kahn era conhecido por sua agressividade e liderança. Ele foi fundamental para a conquista da Copa do Mundo de 2002 pela Alemanha.",
-    pagina: "https://www.instagram.com/oliver_kahn/", // (Verificar se existe)
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/FC_Bayern_M%C3%BCnchen_logo.svg/1200px-FC_Bayern_M%C3%UNchen_logo.svg",
-    tags: "futebol, alemanha, bayern munique, copa do mundo, goleiro, titan",
-    imagem:
-      "https://media.gazetadopovo.com.br/2009/03/7e91c42e5eef0231c0abbc40ff1b7362-gpLarge.jpg",
-    titulos: "Bundesliga, Copa da UEFA, Copa da Liga dos Campeões da UEFA",
-    numero: "1",
-    posicao: "Goleiro",
-    dataNascimento: "31/06/1969",
-    curiosidades:
-      "Kahn é conhecido por suas defesas espetaculares e por sua personalidade forte.",
+      "Boateng é irmão mais novo do ex-jogador Kevin-Prince Boateng e fez parte da seleção alemã campeã da Copa do Mundo de 2014.",
   },
 
   // Joshua Kimmich
@@ -91,24 +74,6 @@ let dados = [
       "Kimmich começou sua carreira como lateral-direito, mas se adaptou muito bem ao meio-campo.",
   },
 
-  // Thomas Müller
-  {
-    nome: "Thomas Müller",
-    descricao:
-      "Conhecido por sua inteligência tática e faro de gol, Müller é um dos maiores artilheiros da história da Bundesliga. É um jogador fundamental na seleção alemã.",
-    pagina: "https://www.instagram.com/thomasmueller/",
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/FC_Bayern_M%C3%BCnchen_logo.svg/1200px-FC_Bayern_M%C3%UNchen_logo.svg",
-    tags: "futebol, alemanha, bayern munique, atacante, inteligência tática",
-    imagem:
-      "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2014/07/14/04mullerjogadoresgtylaurence-griffiths.jpg",
-    titulos:
-      "Bundesliga, Copa da Alemanha, Liga dos Campeões da UEFA, Copa do Mundo",
-    numero: "25",
-    posicao: "Atacante",
-    dataNascimento: "13/9/1989",
-    curiosidades:
-      "Müller é conhecido por sua comemoração característica de deslizar no chão.",
-  },
   // Jamal Musiala
   {
     nome: "Jamal Musiala",
@@ -162,6 +127,24 @@ let dados = [
       "É conhecido como o sweeper-keeper por sua habilidade de jogar como um líbero.",
   },
 
+  // Marco Reus
+  {
+    nome: "Marco Reus",
+    descricao:
+      "Considerado um dos maiores jogadores da história do Borussia Dortmund, Reus é conhecido por sua velocidade, dribles e habilidade de finalização. É um dos principais jogadores da seleção alemã.",
+    pagina: "https://www.instagram.com/marcoreus/", // Verificar se existe
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg",
+    tags: "futebol, alemanha, borussia dortmund, meia-atacante, seleção alemã",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/3e/2021/01/16/marco-reus-do-borussia-dortmund-lamenta-apos-perder-penalti-na-partida-contra-o-mainz-1610815970730_v2_450x600.jpg",
+    titulos: "Bundesliga, Copa da Alemanha",
+    numero: "11",
+    posicao: "Meia-atacante",
+    dataNascimento: "31/05/1989",
+    curiosidades:
+      "Reus já foi convocado para diversas Copas do Mundo e Eurocopas, mas por diversas lesões, não conseguiu disputar todas as competições.",
+  },
+
   // Mesut Özil
   {
     nome: "Mesut Özil",
@@ -197,6 +180,43 @@ let dados = [
       "É o segundo maior artilheiro da história das Copas do Mundo.",
   },
 
+  // Niclas Füllkrug
+  {
+    nome: "Niclas Füllkrug",
+    descricao:
+      "Atacante alemão conhecido por sua habilidade nas finalizações e representou a Alemanha na Copa do Mundo de 2022.",
+    pagina: "https://www.instagram.com/niclasfullkrug/",
+    time: "West Ham",
+    tags: "futebol, alemanha, atacante, fullkrug, fulgrug",
+    imagem:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTURMHI1DTP6QibpELKGZS65QHAkSfQySJWbTgF2foh8QIvQX2xbuLU7vjsuQ-gQJRWNBo&usqp=CAU",
+    titulos:
+      "Chuteira de Ouro da Bundesliga (2022/2023)<br>Artilheiro da Copa da Alemanha (2021/2022)<br>Melhor jogador jovem da Bundesliga (2011/2012)",
+    numero: "11",
+    posicao: "Atacante",
+    dataNascimento: "09/02/1993",
+    curiosidades:
+      "Teve uma lesão grave no joelho que o afastou dos gramados, mas conseguiu se recuperar e se tornar um dos principais atacantes da Alemanha.",
+  },
+
+  // Oliver Kahn
+  {
+    nome: "Oliver Kahn",
+    descricao:
+      "Um dos maiores goleiros da história, Kahn era conhecido por sua agressividade e liderança. Ele foi fundamental para a conquista da Copa do Mundo de 2002 pela Alemanha.",
+    pagina: "https://www.instagram.com/oliver_kahn/", // (Verificar se existe)
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/FC_Bayern_M%C3%BCnchen_logo.svg/1200px-FC_Bayern_M%C3%UNchen_logo.svg",
+    tags: "futebol, alemanha, bayern munique, copa do mundo, goleiro, titan",
+    imagem:
+      "https://media.gazetadopovo.com.br/2009/03/7e91c42e5eef0231c0abbc40ff1b7362-gpLarge.jpg",
+    titulos: "Bundesliga, Copa da UEFA, Copa da Liga dos Campeões da UEFA",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "31/06/1969",
+    curiosidades:
+      "Kahn é conhecido por suas defesas espetaculares e por sua personalidade forte.",
+  },
+
   //Ter Stegen
   {
     nome: "Ter Stegen",
@@ -213,6 +233,25 @@ let dados = [
     dataNascimento: "30/04/1992",
     curiosidades:
       "Ter Stegen iniciou sua carreira no Borussia Mönchengladbach antes de se transferir para o Barcelona.",
+  },
+
+  // Thomas Müller
+  {
+    nome: "Thomas Müller",
+    descricao:
+      "Conhecido por sua inteligência tática e faro de gol, Müller é um dos maiores artilheiros da história da Bundesliga. É um jogador fundamental na seleção alemã.",
+    pagina: "https://www.instagram.com/thomasmueller/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/FC_Bayern_M%C3%BCnchen_logo.svg/1200px-FC_Bayern_M%C3%UNchen_logo.svg",
+    tags: "futebol, alemanha, bayern munique, atacante, inteligência tática",
+    imagem:
+      "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2014/07/14/04mullerjogadoresgtylaurence-griffiths.jpg",
+    titulos:
+      "Bundesliga, Copa da Alemanha, Liga dos Campeões da UEFA, Copa do Mundo",
+    numero: "25",
+    posicao: "Atacante",
+    dataNascimento: "13/9/1989",
+    curiosidades:
+      "Müller é conhecido por sua comemoração característica de deslizar no chão.",
   },
 
   // Toni Kroos
@@ -580,6 +619,25 @@ let dados = [
       "Conhecido por suas comemorações animadas e por ter jogado em diversos países, Daniel Alves é um verdadeiro embaixador do futebol brasileiro.",
   },
 
+  //Diego Ribas
+  {
+    nome: "Diego Ribas",
+    descricao:
+      "Meia central com grande visão de jogo e habilidade para ditar o ritmo da partida. Conhecido por sua liderança e experiência.",
+    pagina: "https://www.instagram.com/diegoribas/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d/Real_Betis_badge.svg/1200px-Real_Betis_badge.svg", // Adaptar para o time atual
+    tags: "futebol, brasil, meia, diego",
+    imagem:
+      "https://assets.folhavitoria.com.br/images/b761c840-5598-0137-7b01-6231c35b6685--minified.jpg",
+    titulos:
+      "Campeonato Brasileiro (2019, 2020) - Flamengo <br>Copa do Brasil (2022) - Flamengo <br> Supercopa do Brasil (2020, 2021) - Flamengo <br> Recopa Sul-Americana (2020) - Flamengo <br> Campeonato Carioca (2019, 2020, 2021) - Flamengo",
+    numero: "10", // Verificar o número atual
+    posicao: "Meia",
+    dataNascimento: "14/02/1985",
+    curiosidades:
+      "Ídolo do Flamengo, teve passagens por Fenerbahçe, Wolfsburg e Atlético de Madrid. É conhecido por sua elegância e técnica.",
+  },
+
   // Éder Militão
   {
     nome: "Éder Militão",
@@ -688,6 +746,25 @@ let dados = [
       "Kaká é conhecido por sua fé cristã e por seu trabalho filantrópico. Ele fundou a Fundação Kaká para ajudar crianças carentes.",
   },
 
+  // Lincoln
+  {
+    nome: "Lincoln",
+    descricao:
+      "Atacante promissor, conhecido por sua velocidade e habilidade nos dribles. Lincoln é considerado uma das maiores promessas do futebol brasileiro.",
+    pagina: "https://www.instagram.com/lincolnoficial/", // Verificar o perfil oficial
+    time: "SC Rheindorf Altach", // Substituir pelo time atual de Lincoln
+    tags: "futebol, brasil, atacante, velocidade, habilidade",
+    imagem:
+      "https://www.bundesliga.at/_next/image?url=https%3A%2F%2Foefbl-production-bucket-public.s3.eu-central-1.amazonaws.com%2Fcraft-cms-oefbl%2FProfile%2FSpieler%2F66270.jpg%3Ftimestamp%3D1731409444132&w=1920&q=75",
+    titulos:
+      "Copa São Paulo de Futebol Júnior (Flamengo)<br>Campeonato Brasileiro Sub-20 (Flamengo)<br>Campeonato Carioca Sub-20 (Flamengo)<br>Torneio Otávio Pinto Guimarães (Flamengo)",
+    numero: "10",
+    posicao: "Atacante",
+    dataNascimento: "05/05/2000",
+    curiosidades:
+      "Lincoln foi revelado nas categorias de base do Flamengo e já recebeu diversas convocações para as seleções de base.",
+  },
+
   //Lucas Moura
   {
     nome: "Lucas Moura",
@@ -698,7 +775,8 @@ let dados = [
     tags: "futebol, brasil, meia-atacante, velocidade, drible",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/d1/2023/02/06/lucas-moura-esta-no-tottenham-desde-janeiro-de-2018-1675718802147_v2_450x600.jpg",
-    titulos: "Ligue 1, Copa da França",
+    titulos:
+      "Copa Sul-Americana (São Paulo) <br> Copa do Brasil (São Paulo) <br> Ligue 1 (Paris Saint-Germain) x4 <br> Copa da França (Paris Saint-Germain) x3 <br> Copa da Liga Francesa (Paris Saint-Germain) x4 <br> Trophée des Champions (Paris Saint-Germain) x4 <br> Supercopa do Brasil (São Paulo)",
     numero: "7",
     posicao: "Meia-atacante",
     dataNascimento: "13/08/1992",
@@ -818,6 +896,25 @@ let dados = [
       "Pelé marcou mais de mil gols na carreira e é o único jogador a conquistar três Copas do Mundo.",
   },
 
+  //Reinier
+  {
+    nome: "Reinier",
+    descricao:
+      "Meia-atacante com grande potencial técnico e driblador habilidoso. Conhecido por sua visão de jogo e capacidade de finalizar.",
+    pagina: "https://www.instagram.com/reinierjesus/",
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg", // Adaptar para o time atual
+    tags: "futebol, brasil, meia-atacante, reinier",
+    imagem:
+      "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2024/06/20/17188607039601.jpg",
+    titulos:
+      "Campeonato Brasileiro (2019) - Flamengo <br> Copa do Brasil (2022) - Real Madrid <br> Supercopa da Espanha (2022) - Real Madrid <br> Campeonato Carioca (2019) - Flamengo <br> Taça Guanabara (2019) - Flamengo",
+    numero: "19", // Verificar o número atual
+    posicao: "Meia-atacante",
+    dataNascimento: "19/01/2002",
+    curiosidades:
+      "Revelado pelo Flamengo, foi comprado pelo Real Madrid e depois passou por outros times como Borussia, Girona e Granada.",
+  },
+
   // Richarlison
   {
     nome: "Richarlison",
@@ -872,6 +969,25 @@ let dados = [
       "Conhecido por sua celebração de 'calma', Firmino é um dos jogadores mais queridos da torcida do Liverpool.",
   },
 
+  // Rodinei
+  {
+    nome: "Rodinei",
+    descricao:
+      "Lateral-direito brasileiro conhecido por sua força física, velocidade e cruzamentos precisos. Atualmente joga no Olympiacos F.C.",
+    pagina: "https://www.instagram.com/rodineioficial/",
+    time: "Olympiacos F.C.",
+    tags: "futebol, brasil, lateral-direito, força, velocidade, cruzamentos",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/57/2021/06/02/lateral-direito-rodinei-se-reapresentou-ao-flamengo-apos-defender-o-internacional-por-emprestimo-1622672201174_v2_3x4.jpg",
+    titulos:
+      "Campeonato Brasileiro (Flamengo)<br>Copa do Brasil (Flamengo)<br>Copa Libertadores da América (Flamengo)<br>Supercopa do Brasil (Flamengo)<br>Recopa Sul-Americana (Flamengo)",
+    numero: "23",
+    posicao: "Zagueiro",
+    dataNascimento: "13/03/1992",
+    curiosidades:
+      "Rodinei iniciou sua carreira no futebol de base do Grêmio e se destacou no Internacional antes de chegar ao Flamengo onde conquistou vários titulos.",
+  },
+
   // Rodrygo
   {
     nome: "Rodrygo Goes",
@@ -879,7 +995,7 @@ let dados = [
       "Joia da nova geração do futebol brasileiro, Rodrygo se destacou por sua velocidade, dribles e finalização precisa. Revelado pelo Santos, logo chamou a atenção de grandes clubes europeus.",
     pagina: "https://www.instagram.com/rodrygogoes/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg",
-    tags: "futebol, brasil, atacante, velocidade, gol, jovem",
+    tags: "futebol, brasil, atacante, real madrid, rodrigo",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/33/2023/11/29/rodrygo-do-real-madrid-comemora-gol-contra-o-napoli-na-liga-dos-campeoes-1701291003658_v2_3x4.jpg",
     titulos: "La Liga, Supercopa da Espanha, Liga dos Campeões da UEFA",
@@ -943,6 +1059,24 @@ let dados = [
     posicao: "Atacante",
     dataNascimento: "12/7/2000",
     curiosidades: "Revelado pelo Flamengo.",
+  },
+
+  // William Arão
+  {
+    nome: "William Arão",
+    descricao:
+      "Volante conhecido por sua força física, marcação e boa distribuição de bola. Arão é um dos líderes do time e fundamental para o equilíbrio da equipe.",
+    pagina: "https://www.instagram.com/w_arao/", // Verificar o perfil oficial
+    time: " Panathinaikos FC",
+    tags: "futebol, brasil, volante, marcação, força",
+    imagem: "https://static.flaresenha.com/wp/willian-arao.jpg",
+    titulos:
+      "Campeonato Brasileiro (Flamengo)<br>Copa do Brasil (Flamengo)<br>Campeonato Carioca (Flamengo)<br>Recopa Sul-Americana (Flamengo)<br>Supercopa do Brasil (Flamengo)<br>Copa Libertadores da América (Flamengo)",
+    numero: "55",
+    posicao: "Meia",
+    dataNascimento: "12/04/1992", // Data de nascimento aproximada
+    curiosidades:
+      "Arão iniciou sua carreira no Botafogo e é um dos jogadores mais experientes do elenco.",
   },
 
   // Zico
@@ -1316,6 +1450,27 @@ let dados = [
       "Salah é conhecido por sua comemoração característica, onde ele aponta para o céu em homenagem à sua filha. Ele também é um dos maiores artilheiros da história do Liverpool.",
   },
 
+  // ESCÓCIA -------------------------------------------------------------------------------------------------
+
+  // Andrew Robertson
+  {
+    nome: "Andrew Robertson",
+    descricao:
+      "Lateral-esquerdo escocês conhecido por sua habilidade nos cruzamentos e sua capacidade de atuar tanto na defesa quanto no ataque. É considerado um dos melhores laterais do mundo.",
+    pagina: "https://www.instagram.com/andrewrobertson5/",
+    time: "Liverpool FC",
+    tags: "futebol, escocia, lateral, liverpool",
+    imagem:
+      "https://i.pinimg.com/474x/fd/fc/ab/fdfcab24b444121095318d4c3ef1016c.jpg",
+    titulos:
+      "Premier League (Liverpool FC)<br>UEFA Champions League (Liverpool FC)<br>Copa da Inglaterra (Liverpool FC)<br>Copa da Liga Inglesa (Liverpool FC)<br>Supercopa da UEFA (Liverpool FC)",
+    numero: "26",
+    posicao: "Lateral-esquerdo",
+    dataNascimento: "11/03/1994",
+    curiosidades:
+      "Robertson iniciou sua carreira na Escócia e se transferiu para o Liverpool FC em 2017, onde se tornou um dos principais jogadores da equipe.",
+  },
+
   // ESLOVÊNIA -----------------------------------------------------------------------------------------------
 
   // Jan Oblak
@@ -1372,6 +1527,25 @@ let dados = [
     posicao: "Meia",
     dataNascimento: "11/05/1984",
     curiosidades: "Marcou o gol do título da Copa do Mundo de 2010.",
+  },
+
+  // David Silva
+  {
+    nome: "David Silva",
+    descricao:
+      "Meia criativo e elegante, Silva é conhecido por seus passes precisos, visão de jogo excepcional e habilidade de controlar o ritmo do jogo. Um dos maiores meio-campistas da sua geração.",
+    pagina: "https://www.instagram.com/davidsilva21/", // Verificar o perfil oficial
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d/Real_Betis_badge.svg/1200px-Real_Betis_badge.svg", // Adaptar para o time atual
+    tags: "futebol, espanha, meia, silva",
+    imagem:
+      "https://media.gettyimages.com/id/465226210/pt/foto/manchester-england-david-silva-of-manchester-city-celebrates-after-scoring-the-opening-goal.jpg?s=612x612&w=gi&k=20&c=3dkPb2PV71KVPr-AcieZ74C2fOBdNBM9vFKbZpJFay8=",
+    titulos:
+      "La Liga (2004) - Valencia <br> Copa del Rey (2008) - Valencia <br> Premier League (2012, 2014, 2018, 2019) - Manchester City <br> FA Cup (2011) - Manchester City <br> UEFA Champions League (2012) - Chelsea",
+    numero: "21",
+    posicao: "Meia",
+    dataNascimento: "8/1/1986",
+    curiosidades:
+      "Silva se destacou no Valencia antes de se transferir para o Manchester City, onde se tornou um dos jogadores mais importantes da história do clube.",
   },
 
   //Gerard Piqué
@@ -1461,6 +1635,25 @@ let dados = [
     dataNascimento: "13/07/2007", // Verifique a data de nascimento
     curiosidades:
       "Yamal se tornou o jogador mais jovem a estrear pelo Barcelona e pela seleção espanhola.",
+  },
+
+  //Pablo Marí
+  {
+    nome: "Pablo Marí",
+    descricao:
+      "Zagueiro central conhecido por sua serenidade e habilidade na construção de jogadas. Possui boa visão de jogo e é forte no jogo aéreo.",
+    pagina: "https://www.instagram.com/pablomari/", // Verificar o perfil oficial
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d/Real_Betis_badge.svg/1200px-Real_Betis_badge.svg", // Adaptar para o time atual
+    tags: "futebol, espanha, zagueiro, mari",
+    imagem:
+      "https://s2-ge.glbimg.com/qogF2UGSzzSn4gNmDqGN0o6TFnA=/0x0:2505x3248/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/u/j/ypDYBSQZ6DJjbPAJXFSQ/pablo-mari-monza.jpg",
+    titulos:
+      "La Liga (2021) - Villarreal <br> Copa do Brasil (2019) - Flamengo <br> Campeonato Carioca (2019) - Flamengo <br> Supercopa do Brasil (2020) - Flamengo <br> Campeonato Brasileiro (2019) - Flamengo",
+    numero: "22", // Verificar o número atual
+    posicao: "Zagueiro",
+    dataNascimento: "31/08/1993",
+    curiosidades:
+      "Iniciou sua carreira no Deportivo La Coruña e teve passagens por Manchester City e Flamengo, onde conquistou a Libertadores.",
   },
 
   // Raúl González
@@ -1756,10 +1949,11 @@ let dados = [
       "Atacante veloz e habilidoso, Dembélé é conhecido por seus dribles rápidos e finalizações precisas. É uma das principais armas do seu time no ataque.",
     pagina: "https://www.instagram.com/ousmanedenbele/", // Verificar o perfil oficial
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/c/FC_Barcelona_crest.svg/1200px-FC_Barcelona_crest.svg", // Adaptar para o time atual
-    tags: "futebol, frança, atacante, velocidade, drible",
+    tags: "futebol, frança, atacante, dembele",
     imagem:
       "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/02/14/1387601427-ousmane-dembele-paris-saint-germain-v-ac-milan-group-f-uefa-champions-league-2023-24-2048x1365.jpg", // Trocar por uma imagem do Ousmane Dembélé
-    titulos: "La Liga, Copa do Rei, Supercopa da Espanha",
+    titulos:
+      "La Liga (2023) - Barcelona <br> Copa del Rey (2021) - Barcelona <br> Supercopa de España (2023) - Barcelona",
     numero: "11",
     posicao: "Atacante",
     dataNascimento: "15/05/1997",
@@ -1879,6 +2073,25 @@ let dados = [
     dataNascimento: "14/01/1999",
     curiosidades:
       "Começou sua carreira nas categorias de base do Chelsea, mas se transferiu para o West Ham United, onde se destacou antes de se mudar para o Arsenal.",
+  },
+
+  // Dele Alli
+  {
+    nome: "Dele Alli",
+    descricao:
+      "Meia-atacante talentoso e versátil, Alli é conhecido por sua visão de jogo, passes precisos e gols importantes. Sua habilidade de marcar gols de média distância o destaca.",
+    pagina: "https://www.instagram.com/delealli/", // Verificar o perfil oficial
+    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/0/Everton_FC_badge.svg/1200px-Everton_FC_badge.svg", // Adaptar para o time atual
+    tags: "futebol, inglaterra, meia-atacante, alli",
+    imagem:
+      "https://s.yimg.com/ny/api/res/1.2/FKblAAN5IwHgVmwiLgHl8Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTgzOA--/https://media.zenfs.com/en/the_independent_635/226dd8556fb9af62fe8acb357b89a603",
+    titulos:
+      "Premier League (2016) - Tottenham Hotspur <br> FA Cup (2018) - Tottenham Hotspur",
+    numero: "20",
+    posicao: "Meia-atacante",
+    dataNascimento: "11/04/1996",
+    curiosidades:
+      "Alli iniciou sua carreira no MK Dons e rapidamente se tornou um dos jovens talentos mais promissores do futebol inglês.",
   },
 
   //Jack Grealish
@@ -2427,10 +2640,11 @@ let dados = [
       "Um dos zagueiros mais fortes e experientes do futebol mundial, conhecido por sua liderança e jogo aéreo.",
     pagina: "https://www.instagram.com/diegogodin/",
     time: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Tottenham_Hotspur_FC_logo.svg/1200px-Tottenham_Hotspur_FC_logo.svg", // Substituir pela logo do atual time
-    tags: "futebol, uruguai, zagueiro, liderança, jogo aéreo",
+    tags: ", uruguai, zagueiro, godin",
     imagem:
       "https://conteudo.imguol.com.br/c/copadomundo/2018/Imagem/f1/2018/07/03/diego-godin-orienta-os-jogadores-do-uruguai-em-partida-contra-a-russia-1530656436556_v2_3x4.jpg", // Substituir por uma imagem do Godín
-    titulos: "La Liga, Serie A",
+    titulos:
+      "La Liga (Atlético de Madrid) <br> Copa América (Uruguai) <br> UEFA Europa League (Atlético de Madrid) <br> Supercopa da UEFA (Atlético de Madrid) <br> Copa do Rei (Atlético de Madrid) <br> Supercopa da Espanha (Atlético de Madrid) <br> Campeonato Uruguaio (Nacional)",
     numero: "2",
     posicao: "Zagueiro",
     dataNascimento: "16/02/1986",
@@ -2655,14 +2869,14 @@ let dados = [
     curiosidades:
       "Conhecido por sua habilidade em passes longos e visão de jogo, Alcaraz é um dos principais armadores do Flamengo.",
   },
-  // David Luiz Moreira Marinho
+  // David Luiz
   {
-    nome: "David Luiz Moreira",
+    nome: "David Luiz",
     descricao:
       "Zagueiro brasileiro conhecido por sua habilidade com a bola nos pés e liderança em campo. Teve passagens por grandes clubes europeus.",
     pagina: "https://www.instagram.com/davidluiz23/",
     imagem:
-      "https://images.flamengo.com.br/public/images/players/2/1710271771.png",
+      "https://static.wixstatic.com/media/df5c0a_3fa004c4349745bebc4f1bb2caea3291~mv2.jpg/v1/fill/w_540,h_720,al_c,lg_1,q_85,enc_auto/df5c0a_3fa004c4349745bebc4f1bb2caea3291~mv2.jpg",
     tags: "Brasil, Flamengo, David Luiz, zagueiro",
     numero: "23",
     posicao: "Zagueiro",
@@ -2926,7 +3140,7 @@ let dados = [
     pagina: "https://www.instagram.com/wesleyfranca03_/?hl=pt",
     imagem:
       "https://images.flamengo.com.br/public/images/players/3/1710272030.png",
-    tags: "Brasil, Flamengo, Wesley, meio-campista, versatilidade, passes",
+    tags: "Brasil, Flamengo, Wesley, meio-campista",
     numero: "43",
     posicao: "Meio-campista",
     titulos: "Copa do Brasil (2022)", // Adicione os títulos conquistados pelo Wesley
@@ -2985,7 +3199,7 @@ let dados = [
     imagem:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCCF4Uyr9Ts2eTx4VSWaxWXTMWBMg55SLI3krRTUSRouo2x3as0H-l_AVY2jio43Axhg&usqp=CAU", // Trocar por uma imagem do Renato Augusto
     titulos:
-      "Brasileirão br Copa do Brasil br Libertadores br Mundial de Clubes", // Adaptar conforme os títulos conquistados por Renato
+      "Brasileirão <br> Copa do Brasil <br> Libertadores <br> Mundial de Clubes", // Adaptar conforme os títulos conquistados por Renato
     numero: "8",
     posicao: "Meia",
     dataNascimento: "08/02/1988",
@@ -3009,6 +3223,47 @@ let dados = [
     dataNascimento: "22/09/1984",
     curiosidades:
       "Começou sua carreira como volante, mas logo se destacou como zagueiro. É considerado um dos maiores ídolos do Paris Saint-Germain e da Seleção Brasileira.",
+  },
+
+  //Grêmio ---------------------------------------------
+
+  // Rodrigo Caio
+  {
+    nome: "Rodrigo Caio",
+    descricao:
+      "Zagueiro brasileiro conhecido por sua boa técnica e liderança dentro de campo. Atuou por grandes clubes como São Paulo e Flamengo.",
+    pagina: "https://www.instagram.com/rodrigocaio/",
+    time: "Flamengo",
+    tags: "futebol, brasil, zagueiro, gremio",
+    imagem:
+      "https://tntsports.com.br/__export/1662748924441/sites/esporteinterativo/img/2022/09/09/gettyimages-1407905644.jpg",
+    titulos:
+      "Campeonato Brasileiro (São Paulo, Flamengo)<br>Copa do Brasil (São Paulo, Flamengo)<br>Campeonato Paulista (São Paulo, Flamengo)<br>Copa Libertadores da América (Flamengo)<br>Recopa Sul-Americana (Flamengo)",
+    numero: "30",
+    posicao: "Zagueiro",
+    dataNascimento: "22/08/1993",
+    curiosidades:
+      "Rodrigo Caio foi convocado para a Seleção Brasileira e disputou a Copa do Mundo de 2018.",
+  },
+
+  //Internacional --------------------------------------
+
+  // Renê
+  {
+    nome: "Renê",
+    descricao:
+      "Lateral-esquerdo brasileiro conhecido por sua habilidade nos lançamentos e pela sua força física. Atualmente joga pelo Internacional.",
+    pagina: "https://www.instagram.com/reneoficial/",
+    time: "Internacional",
+    tags: "futebol, brasil, lateral-esquerdo, internacional, rene",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/5e/2022/06/10/rene-lateral-esquerdo-do-inter-resolve-problema-antigo-no-clube-1654898694132_v2_3x4.jpg",
+    titulos: "Campeonato Gaúcho (Internacional)",
+    numero: "6",
+    posicao: "Lateral-esquerdo",
+    dataNascimento: "16/02/1992",
+    curiosidades:
+      "Renê já defendeu clubes como Sport e Bahia antes de chegar ao Internacional.",
   },
 
   //Palmeiras-------------------------------------------
@@ -3070,20 +3325,40 @@ let dados = [
       "Marinho é conhecido por sua comemoração característica, onde ele simula um avião. Ele também é um grande fã de pagode.",
   },
 
+  // SÃO PAULO -----------------------------------------------
+
+  // Rafinha
+  {
+    nome: "Rafinha",
+    descricao:
+      "Rafinha, é um futebolista brasileiro que atua como lateral-direito. Atualmente joga no São Paulo, onde é capitão. Em 2019, entrou para a seleta lista de futebolistas campeões da Copa Libertadores da América e da Liga dos Campeões da UEFA.",
+    pagina: "https://www.instagram.com/rafinha/", // Verificar o perfil oficial
+    time: " São Paulo Futebol Clube ",
+    tags: "futebol, brasil, lateral, cruzamento, experiencia",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/00/2022/07/20/rafinha-e-o-capitao-do-sao-paulo-contra-o-inter-pelo-brasileirao-1658364465364_v2_450x600.jpg",
+    titulos:
+      "Bundesliga (Bayern de Munique)<br>Copa da Alemanha (Bayern de Munique)<br>Supercopa da Alemanha (Bayern de Munique)<br>Campeonato Brasileiro (Coritiba)<br>Campeonato Paranaense (Coritiba)<br>Copa do Brasil (Coritiba)",
+    numero: "13",
+    posicao: "Zagueiro",
+    dataNascimento: "18/09/1985",
+    curiosidades:
+      "Rafinha iniciou sua carreira no Coritiba e já defendeu a Seleção Brasileira.",
+  },
+
   //VASCO DA GAMA --------------------------------------------
 
   // Philippe Coutinho
   {
     nome: "Philippe Coutinho",
-    apelido: "Coutinho",
     descricao:
       "Meia-atacante talentoso e habilidoso, Coutinho é conhecido por seus dribles, chutes de longa distância e visão de jogo. Atualmente, joga no Vasco da Gama.",
     pagina: "https://www.instagram.com/philcoutinho/", // Verificar o perfil oficial
-    time: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vasco_da_Gama_logo.svg/1200px-Vasco_da_Gama_logo.svg",
-    tags: "futebol, brasil, vasco, meia, habilidade, drible",
+    time: "Vasco da Gama",
+    tags: "futebol, brasil, vasco, meia",
     imagem:
       "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2021/04/30/1758755973-coutinho.jpg", // Trocar por uma imagem do Philippe Coutinho
-    titulos: "Campeão da Copa da Inglaterra", // Adaptar conforme os títulos conquistados
+    titulos: "Campeão da Copa da Inglaterra",
     numero: "10",
     posicao: "Meia-atacante",
     dataNascimento: "12/06/1992",
