@@ -97,6 +97,16 @@ section {
   gap: 30px;
 }
 
+#p-resultados {
+  padding-top: 50px;
+  color: #fff;
+  width: 390px;
+}
+
+#img-resultados {
+  width: 170px;
+}
+
 /* Estiliza cada item de resultado */
 .item-resultado {
   background: #e6e6e6; /* Cor de fundo dos itens */
@@ -213,7 +223,6 @@ footer {
 /* Para telas menores (celulares) */
 @media (max-width: 768px) {
   .content {
-    background-image: url(./img/fundos-site__mobile.png);
     min-height: 100vh;
   }
 
@@ -224,6 +233,7 @@ footer {
     flex-direction: column; /* Alinha os itens na vertical */
 
     & h1 {
+      padding-top: 4rem;
       font-size: 1.6rem;
     }
   }
@@ -234,7 +244,7 @@ footer {
       padding: 15px 20px;
       font-size: 15px;
       margin: 0;
-      min-width: 80px;
+      min-width: 80%;
     }
 
     & button {
@@ -256,6 +266,16 @@ footer {
     padding-block: 50px;
     height: max-content;
     overflow-y: none;
+  }
+
+  #p-resultados {
+    padding-top: 50px;
+    color: #fff;
+    width: 370px;
+  }
+
+  #img-resultados {
+    width: 170px;
   }
 
   .item-resultado {
@@ -293,8 +313,12 @@ footer {
   .div-info {
     text-align: start;
     padding-top: 30px;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     flex: 1;
+  }
+
+  #sinfo {
+    font-size: 0.6rem;
   }
 
   #video {

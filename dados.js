@@ -3214,8 +3214,7 @@ let dados = [
 
   //Marcelo
   {
-    nome: "Marcelo Vieira da Silva Júnior",
-    apelido: "Marcelo",
+    nome: "Marcelo",
     descricao:
       "Lateral-esquerdo habilidoso e ofensivo, Marcelo é considerado um dos maiores laterais da história do futebol. Famoso por seus dribles, cruzamentos e visão de jogo, ele conquistou diversos títulos pelo Real Madrid e pela Seleção Brasileira.",
     pagina: "https://www.instagram.com/marceloviieira/", // Verificar o perfil oficial
