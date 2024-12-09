@@ -34,7 +34,7 @@ function pesquisar() {
               </div>
               <h3>Posição</h3>
               <p id="info">${dado.posicao}</p>
-              <h3>Títulos</h3>
+              <h3>Principais títulos</h3>
               <p id="info">${dado.titulos}</p>
               <h3>Nascimento</h3>
               <p id="info">${dado.dataNascimento}</p>
@@ -46,6 +46,9 @@ function pesquisar() {
     `;
     }
   }
+
+  //<h3>Clube</h3>
+  //<p id="info">${dado.time}</p>
 
   if (!resultados) {
     resultados = "<p>Nada foi encontrado</p>";
