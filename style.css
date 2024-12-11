@@ -25,6 +25,7 @@ header {
 
 /* Estiliza os títulos h1 */
 h1 {
+  padding-top: 2rem;
   font-size: 2.8rem; /* Tamanho da fonte */
   color: #f6f6f6; /* Cor do texto */
   text-align: center; /* Alinha o texto ao centro */
@@ -34,47 +35,55 @@ h1 {
 /* Estiliza as seções da página */
 section {
   display: flex; /* Usa Flexbox para layout */
-  flex-direction: row; /* Alinha os itens na vertical */
+  flex-direction: column; /* Alinha os itens na vertical */
   align-items: center; /* Centraliza os itens horizontalmente */
-  margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+  margin-block: 3rem; /* Espaçamento abaixo de cada seção */
   justify-content: center;
-  margin-top: 40px;
-}
 
-/* Estiliza os inputs dentro das seções */
-section input {
-  margin: 0;
-  min-width: 500px;
-  border: none; /* Remove a borda padrão */
-  padding: 1rem; /* Espaçamento interno */
-  padding-right: 200px;
-  border-radius: 1.5rem; /* Borda arredondada */
-  color: #45474b; /* Cor do texto */
-  font-size: 1rem; /* Tamanho da fonte */
-  box-sizing: border-box; /* Inclui padding e border na largura total */
-  position: absolute;
-}
-
-/* Estiliza os botões dentro das seções */
-section {
-  & .pagina__btn {
-    padding: 1rem 1.2rem; /* Espaçamento interno do botão */
-    position: relative;
-    right: -200px;
-  }
-
-  & button {
-    padding: 1rem 2rem; /* Espaçamento interno do botão */
+  & input {
+    min-width: 33rem;
     border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #018f08; /* Cor de fundo do botão */
-    color: #f5f7f8; /* Cor do texto do botão */
+    color: #45474b; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    z-index: 1;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
     position: relative;
-    right: 280px;
+    z-index: 0;
   }
+}
+
+button {
+  border: none; /* Remove a borda padrão */
+  font-size: 1rem; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.pagina__btn {
+  padding: 1rem 1.2rem; /* Espaçamento interno do botão */
+  background-color: #018f08; /* Cor de fundo do botão */
+  color: #f5f7f8; /* Cor do texto do botão */
+  border-radius: 1.5rem; /* Borda arredondada */
+  position: absolute;
+  right: 30.9rem;
+  z-index: 1;
+}
+
+.btn-filtros {
+  margin-top: 25px;
+}
+
+.btn-nav {
+  color: #cacaca; /* Cor do texto do botão */
+  font-weight: 600;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  gap: 6rem;
+  list-style: none;
 }
 
 .div-resultados {
@@ -122,27 +131,33 @@ section {
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
-  text-decoration: none; /* Remove o sublinhado padrão dos links */
-  color: #fcfcfc; /* Cor do texto dos links */
+  text-decoration: none;
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
-  text-decoration: none; /* Adiciona sublinhado ao passar o mouse */
+  text-decoration: underline;
+  color: #323232; /* Cor do texto dos links */
 }
 
 /* A própria imagem */
 .dado-imagem {
   max-width: 300px;
   min-width: 260px;
-  max-height: 450px;
   padding: 30px 30px 0px 0px;
 }
 
 .numero-nome-time {
   display: flex; /* Usa Flexbox para layout */
-  flex-direction: row; /* Alinha os itens na vertical */
+  flex-direction: column; /* Alinha os itens na vertical */
   align-items: start;
+  margin-bottom: 20px;
+}
+
+.numero-nome-selecao {
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: column; /* Alinha os itens na vertical */
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -154,11 +169,6 @@ section {
 #nome {
   font-size: 2.3rem;
   color: #202020;
-}
-
-.logo-time {
-  width: 40px;
-  height: 40px;
 }
 
 .link-pagina {
@@ -178,6 +188,13 @@ section {
   font-size: 0.9rem;
   font-weight: 300;
   padding-bottom: 10px;
+}
+
+#sub-info {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: #818181;
   flex: 1;
 }
 
@@ -211,15 +228,6 @@ footer {
   font-size: 1rem; /* Tamanho da fonte */
 }
 
-.audio {
-  background-color: #f5f7f8;
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
-}
-
 /* Para telas menores (celulares) */
 @media (max-width: 768px) {
   .content {
@@ -233,28 +241,57 @@ footer {
     flex-direction: column; /* Alinha os itens na vertical */
 
     & h1 {
-      padding-top: 4rem;
+      padding: 2rem 0;
       font-size: 1.6rem;
     }
   }
 
+  section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 1rem; /* Espaçamento abaixo de cada seção */
+    justify-content: center;
+    margin-top: 0px;
+
+    & input {
+      margin: 0;
+      border: none; /* Remove a borda padrão */
+      padding: 1rem; /* Espaçamento interno */
+      border-radius: 1.5rem; /* Borda arredondada */
+      color: #45474b; /* Cor do texto */
+      font-size: 1rem; /* Tamanho da fonte */
+      box-sizing: border-box; /* Inclui padding e border na largura total */
+      position: relative;
+      z-index: 0;
+      padding: 15px 0 15px 15px;
+      width: 80vw;
+      min-width: 0;
+    }
+  }
+
+  ul {
+    gap: 3rem;
+  }
+
+  button {
+    border: none; /* Remove a borda padrão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  }
+
+  .pagina__btn {
+    background-color: #018f08; /* Cor de fundo do botão */
+    color: #f5f7f8; /* Cor do texto do botão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    position: absolute;
+    z-index: 1;
+    right: 8%;
+    padding: 15px 20px;
+  }
+
   .barra-pesquisa {
     margin: 20px 20px 15px 20px;
-    & input {
-      padding: 15px 20px;
-      font-size: 15px;
-      margin: 0;
-      min-width: 80%;
-    }
-
-    & button {
-      width: 100px;
-      font-size: 15px;
-      right: 0px;
-      bottom: -60px;
-      padding: 15px 20px;
-      margin: 10px;
-    }
   }
 
   .div-resultados {
@@ -280,8 +317,8 @@ footer {
 
   .item-resultado {
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     width: 80%;
     margin: 0;
     font-size: 10px;
@@ -289,15 +326,17 @@ footer {
   }
 
   .dado-imagem {
+    text-align: center;
     padding: 0;
-    width: 50%;
-    margin: 10px;
+    max-width: 100px;
+    min-width: none;
+    margin: 0;
   }
 
   .numero-nome-time {
     display: flex; /* Usa Flexbox para layout */
-    flex-direction: row; /* Alinha os itens na vertical */
-    align-items: start;
+    flex-direction: row;
+    align-items: center;
     margin-bottom: 20px;
     text-align: center;
 

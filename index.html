@@ -7,50 +7,81 @@
     <title>Futebol</title>
   </head>
   <body>
-       <!--MENU DE PESQUISA-->
-       <div class="content">
-    <div class="pagina">
-      <h1>Tudo sobre Futebol</h1>
-      <header>
-        <section class="barra-pesquisa">
-          <button id="mostrarDados">Times</button>
-          <input type="text" placeholder="digite o atleta, time ou país" id="campo-pesquisa"/>
-          <button class="pagina__btn" onclick="pesquisar()">Pesquisar</button>
-        </section>
-                               <!--RESULTADOS-->
-                               <div class="div-resultados">
-                                <main>
-                                  <div class="resultados-pesquisa" id="resultados-pesquisa">
-                                    <p id="p-resultados">Aqui você fica por dentro de tudo do futebol mundial! Pesquisar por jogadores e clubes mundiais sem nenhuma dificuldade é só aqui.</p>
-                                    <img id="img-resultados" src="./img/messi.png" alt="">
-                                  </div>
-                                </main>
-                              </div>
-      </header>
+    <!--MENU DE PESQUISA-->
+    <div class="content">
+      <div class="pagina">
+        <h1>Tudo sobre Futebol</h1>
+        <header>
+          <section>
+            <div class="barra-pesquisa">
+              <input
+                type="text"
+                placeholder="digite o atleta, time ou país"
+                id="campo-pesquisa"
+              />
+              <button class="pagina__btn" onclick="pesquisar()">
+                Pesquisar
+              </button>
+            </div>
+            <div class="btn-filtros">
+              <ul>
+                <li>
+                  <button class="btn-nav" id="mostrarTecnicos">Técnicos</button>
+                </li>
+                <li>
+                  <button class="btn-nav" id="mostrarTimes">Clubes</button>
+                </li>
+                <li>
+                  <button class="btn-nav" id="mostrarSelecoes">Seleções</button>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!--RESULTADOS-->
+          <div class="div-resultados">
+            <main>
+              <div class="resultados-pesquisa" id="resultados-pesquisa">
+                <p id="p-resultados">
+                  Aqui você fica por dentro de tudo do futebol mundial!
+                  Pesquisar por jogadores e clubes mundiais sem nenhuma
+                  dificuldade é só aqui.
+                </p>
+                <img id="img-resultados" src="./img/messi.png" alt="" />
+              </div>
+            </main>
+          </div>
+        </header>
+      </div>
     </div>
-  </div>
 
-
-       <!--SESSÃO VIDEO-->
+    <!--SESSÃO VIDEO-->
     <div class="video-sessao">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/DfNC2JHhpVo?si=gMpywPfSdTRFJiXn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video"></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/DfNC2JHhpVo?si=gMpywPfSdTRFJiXn"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+        id="video"
+      ></iframe>
     </div>
-       <!--RODAPÉ-->
+    <!--RODAPÉ-->
     <footer>
       <p>2024 - Atletas do Mundo. todos direitos reservados</p>
       <p>Entre em contato pelo email: esilvavalencuela@gmail.com</p>
     </footer>
-    
-    <script src="app.js"></script>
-    <script src="dados.js"></script>
-    <script src="dadosTime.js"></script>
-
-    <div class="audio">
-      <audio autoplay loop></audio>
-        <source src="./audios/musicadefundo.mp3" type="audio/mpeg" />
-      </audio>
-    </div>
-    <script src="https://kit.fontawesome.com/48b3505341.js" crossorigin="anonymous"></script>
+    <!--scripts-->
+    <script src="./dadosPesquisa.js"></script>
+    <script src="./dadosTime.js"></script>
+    <script src="./dadosTecnicos.js"></script>
+    <script src="./dadosJogadores.js"></script>
+    <script src="./dadosSelecao.js"></script>
+    <script
+      src="https://kit.fontawesome.com/48b3505341.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
-

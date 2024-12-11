@@ -1,7 +1,7 @@
 // Obtém a seção onde os resultados da pesquisa serão exibidos
 const dadosDiv = document.getElementById("resultados-pesquisa");
 
-const botao = document.getElementById("mostrarDados");
+const botao = document.getElementById("mostrarTimes");
 
 // Array com os dados dos times
 const times = [
