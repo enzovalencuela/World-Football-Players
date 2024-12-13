@@ -92,7 +92,7 @@ ul {
   flex-direction: column; /* Alinha os itens na vertical */
   align-items: center; /* Centraliza os itens horizontalmente */
   justify-content: start; /* Centraliza os itens verticalmente */
-  height: 600px;
+  height: 620px;
   overflow-y: auto;
 }
 
@@ -124,6 +124,7 @@ ul {
   margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
   display: flex; /* Usa Flexbox para layout */
   align-items: start;
+  justify-content: center;
   width: 60%;
   flex-wrap: wrap;
   box-shadow: 0 20px 20px rgba(81, 81, 81, 0.458);
@@ -142,22 +143,26 @@ ul {
 
 /* A própria imagem */
 .dado-imagem {
-  max-width: 300px;
-  min-width: 260px;
-  padding: 30px 30px 0px 0px;
+  object-fit: cover;
+  width: 300px;
+  height: 400px;
+  padding: 15px 30px 0px 0px;
+  text-align: center;
 }
 
 .numero-nome-time {
   display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
-  align-items: start;
+  flex-direction: row; /* Alinha os itens na vertical */
+  align-items: center;
+  justify-content: start;
   margin-bottom: 20px;
+  gap: 10px;
 }
 
 .numero-nome-selecao {
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */
-  align-items: center;
+  align-items: start;
   margin-bottom: 20px;
 }
 
@@ -175,11 +180,15 @@ ul {
   display: flex; /* Usa Flexbox para layout */
   flex-direction: row; /* Alinha os itens na vertical */
   align-items: center;
+  gap: 8px;
+}
+
+.nacionalidade {
+  width: 50px;
 }
 
 .div-info {
   text-align: start;
-  padding-top: 30px;
   font-size: 1rem;
   flex: 1;
 }
@@ -326,10 +335,9 @@ footer {
   }
 
   .dado-imagem {
-    text-align: center;
     padding: 0;
-    max-width: 100px;
-    min-width: none;
+    width: 250px;
+    height: 320px;
     margin: 0;
   }
 
