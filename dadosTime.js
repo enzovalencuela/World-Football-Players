@@ -326,7 +326,7 @@ botao.addEventListener("click", () => {
   times.forEach((time) => {
     htmlContent += `
         <div class="item-resultado">
-          <img class="dado-imagem" src="${time.imagem}" alt="">
+          <img class="dado-imagem-clubes" src="${time.imagem}" alt="">
             <div class="div-info">
               <div class="numero-nome-time">
                 <a class="link-pagina" href="${time.pagina}" target="_blank"><h2 id="nome">${time.nome}</h2></a>

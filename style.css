@@ -7,23 +7,23 @@
   padding: 0;
 }
 
+/*ESTILIZAÇÃO DA DIV GERAL /////////////////////////////////////////////////////////*/
 .pagina {
-  font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-  display: flex; /* Usa Flexbox para layout */
+  font-family: "Chakra Petch", sans-serif;
+  display: flex;
   flex-direction: column;
   background-color: #202020;
-  background-size: cover;
   min-height: 100vh;
   padding-top: 15px;
 }
 
+/*ESTILIZAÇÃO DO CABEÇALHO DA PÁGINA /////////////////////////////////////////////////////////*/
 header {
   align-items: center;
   justify-content: end;
   text-align: center;
 }
 
-/* Estiliza os títulos h1 */
 h1 {
   padding-top: 2rem;
   font-size: 2.8rem; /* Tamanho da fonte */
@@ -32,7 +32,6 @@ h1 {
   letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
-/* Estiliza as seções da página */
 section {
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */
@@ -74,7 +73,7 @@ button {
 }
 
 .btn-nav {
-  color: #cacaca; /* Cor do texto do botão */
+  color: #cacaca;
   font-weight: 600;
   background-color: transparent;
   text-decoration: underline;
@@ -86,23 +85,23 @@ ul {
   list-style: none;
 }
 
+/*ESTILIZAÇÃO DO ESPAÇO QUE APARECE OS RESULTADOS /////////////////////////////////////////////////////////*/
 .div-resultados {
-  font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
-  align-items: center; /* Centraliza os itens horizontalmente */
-  justify-content: start; /* Centraliza os itens verticalmente */
+  font-family: "Chakra Petch", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
   height: 620px;
   overflow-y: auto;
 }
 
-/* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
-  align-items: center; /* Centraliza os itens horizontalmente */
-  justify-content: center; /* Centraliza os itens verticalmente */
-  margin: auto; /* Centraliza a seção horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
   gap: 30px;
 }
 
@@ -116,32 +115,29 @@ ul {
   width: 170px;
 }
 
-/* Estiliza cada item de resultado */
+/*ESTILIZAÇÃO DA DIV DOS RESULTADOS /////////////////////////////////////////////////////////*/
 .item-resultado {
-  background: #e6e6e6; /* Cor de fundo dos itens */
-  border-radius: 0.6rem; /* Borda arredondada */
-  padding: 2rem; /* Espaçamento interno */
-  margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-  display: flex; /* Usa Flexbox para layout */
+  background: #e6e6e6;
+  border-radius: 0.6rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
   align-items: start;
   justify-content: center;
-  width: 60%;
+  width: 50rem;
   flex-wrap: wrap;
   box-shadow: 0 20px 20px rgba(81, 81, 81, 0.458);
 }
 
-/* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
   text-decoration: none;
 }
 
-/* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
   text-decoration: underline;
-  color: #323232; /* Cor do texto dos links */
+  color: #323232;
 }
 
-/* A própria imagem */
 .dado-imagem {
   object-fit: cover;
   width: 300px;
@@ -150,9 +146,23 @@ ul {
   text-align: center;
 }
 
+.dado-imagem-selecao {
+  width: 220px;
+  max-height: 350px;
+  padding: 15px 30px 0px 0px;
+  text-align: center;
+}
+
+.dado-imagem-clubes {
+  object-fit: cover;
+  max-width: 270px;
+  max-height: 400px;
+  padding: 15px 30px 0px 0px;
+}
+
 .numero-nome-time {
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: row; /* Alinha os itens na vertical */
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: start;
   margin-bottom: 20px;
@@ -160,8 +170,8 @@ ul {
 }
 
 .numero-nome-selecao {
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
+  display: flex;
+  flex-direction: column;
   align-items: start;
   margin-bottom: 20px;
 }
@@ -177,8 +187,8 @@ ul {
 }
 
 .link-pagina {
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: row; /* Alinha os itens na vertical */
+  display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 8px;
 }
@@ -207,17 +217,17 @@ ul {
   flex: 1;
 }
 
-/* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-  color: #45474b; /* Cor do texto */
-  margin: 0.5rem 0; /* Margem acima e abaixo */
+  color: #45474b;
+  margin: 0.5rem 0;
 }
 
+/*ESTILIZAÇÃO DA SESSÃO VIDEO /////////////////////////////////////////////////////////*/
 .video-sessao {
   background-color: #2a2a2b;
   padding: 30px;
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -225,29 +235,30 @@ ul {
   padding: 50px;
 }
 
+/*ESTILIZAÇÃO DO FOOTER /////////////////////////////////////////////////////////*/
 footer {
   background-color: #2a2a2b;
-  color: #c2c2c2; /* Cor do texto */
+  color: #c2c2c2;
   align-items: center;
-  text-align: center; /* Alinha o texto ao centro */
-  padding-top: 40px; /* Espaçamento interno */
+  text-align: center;
+  padding-top: 40px;
   padding-bottom: 30px;
-  width: 100%; /* Largura total da página */
-  bottom: 0; /* Alinha ao fundo da página */
-  font-size: 1rem; /* Tamanho da fonte */
+  width: 100%;
+  bottom: 0;
+  font-size: 1rem;
 }
 
-/* Para telas menores (celulares) */
+/* Para telas menores (celulares) ////////////////////////////////////////////////////////*/
 @media (max-width: 768px) {
   .content {
     min-height: 100vh;
   }
 
   .pagina {
-    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    display: flex; /* Usa Flexbox para layout */
+    font-family: "Chakra Petch", sans-serif;
+    display: flex;
     align-items: center;
-    flex-direction: column; /* Alinha os itens na vertical */
+    flex-direction: column;
 
     & h1 {
       padding: 2rem 0;
@@ -256,21 +267,21 @@ footer {
   }
 
   section {
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    margin-bottom: 1rem; /* Espaçamento abaixo de cada seção */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
     justify-content: center;
     margin-top: 0px;
 
     & input {
       margin: 0;
-      border: none; /* Remove a borda padrão */
-      padding: 1rem; /* Espaçamento interno */
-      border-radius: 1.5rem; /* Borda arredondada */
-      color: #45474b; /* Cor do texto */
-      font-size: 1rem; /* Tamanho da fonte */
-      box-sizing: border-box; /* Inclui padding e border na largura total */
+      border: none;
+      padding: 1rem;
+      border-radius: 1.5rem;
+      color: #45474b;
+      font-size: 1rem;
+      box-sizing: border-box;
       position: relative;
       z-index: 0;
       padding: 15px 0 15px 15px;
@@ -284,15 +295,15 @@ footer {
   }
 
   button {
-    border: none; /* Remove a borda padrão */
-    font-size: 1rem; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
   }
 
   .pagina__btn {
-    background-color: #018f08; /* Cor de fundo do botão */
-    color: #f5f7f8; /* Cor do texto do botão */
-    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #018f08;
+    color: #f5f7f8;
+    border-radius: 1.5rem;
     position: absolute;
     z-index: 1;
     right: 8%;
@@ -304,11 +315,11 @@ footer {
   }
 
   .div-resultados {
-    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
+    font-family: "Chakra Petch", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding-block: 50px;
     height: max-content;
     overflow-y: none;
@@ -331,7 +342,7 @@ footer {
     width: 80%;
     margin: 0;
     font-size: 10px;
-    padding: 1rem; /* Espaçamento interno */
+    padding: 1rem;
   }
 
   .dado-imagem {
@@ -342,7 +353,7 @@ footer {
   }
 
   .numero-nome-time {
-    display: flex; /* Usa Flexbox para layout */
+    display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
