@@ -117,7 +117,8 @@ ul {
 
 /*ESTILIZAÇÃO DA DIV DOS RESULTADOS /////////////////////////////////////////////////////////*/
 .item-resultado {
-  background: #e6e6e6;
+  background-color: #e6e6e6;
+  box-shadow: 0 20px 20px rgba(81, 81, 81, 0.458);
   border-radius: 0.6rem;
   padding: 2rem;
   margin-bottom: 1rem;
@@ -126,7 +127,6 @@ ul {
   justify-content: center;
   width: 50rem;
   flex-wrap: wrap;
-  box-shadow: 0 20px 20px rgba(81, 81, 81, 0.458);
 }
 
 .item-resultado a {
@@ -176,7 +176,7 @@ ul {
   margin-bottom: 20px;
 }
 
-#numero {
+.numero {
   font-size: 4rem;
   color: #00ff26;
 }
@@ -194,7 +194,13 @@ ul {
 }
 
 .nacionalidade {
+  object-fit: cover;
   width: 50px;
+}
+
+.clubes {
+  height: 35px;
+  padding-inline: 5px;
 }
 
 .div-info {
@@ -246,6 +252,35 @@ footer {
   width: 100%;
   bottom: 0;
   font-size: 1rem;
+}
+
+/*ESTILIZAÇÃO DA CLASSE /////////////////////////////////////////////////////////*/
+
+#gold {
+  background-color: #ffd260;
+  box-shadow: 0 20px 20px rgba(255, 217, 28, 0.458);
+
+  & h2 {
+    color: #bf930d;
+  }
+}
+
+#plate {
+  background-color: #d2d2d2;
+  box-shadow: 0 20px 20px rgba(255, 255, 255, 0.458);
+
+  & h2 {
+    color: #6d6d6d;
+  }
+}
+
+#promise {
+  background-color: #b1efff;
+  box-shadow: 0 20px 20px rgba(20, 65, 86, 0.458);
+
+  & h2 {
+    color: #03cee9;
+  }
 }
 
 /* Para telas menores (celulares) ////////////////////////////////////////////////////////*/
