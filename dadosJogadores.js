@@ -173,14 +173,15 @@ function pesquisar() {
     // Manuel Neuer
     {
       nome: "Manuel Neuer",
+      background: "gold",
       descricao:
         "Considerado um dos melhores goleiros da história, Neuer revolucionou a posição com seu estilo de jogo. Conhecido por sua agilidade e habilidade com os pés.",
       pagina: "https://www.instagram.com/manuelneuer/",
       clube: "Bayern de Munique",
       time1: "Bayern_de_Munique",
       time2: "Schalke_04",
-      time3: "Vazio",
-      time4: "Vazio",
+      time3: "Golden",
+      time4: "Golden",
       nacionalidade: "Alemanha",
       tags: "alemanha, goleiro, bayern munique",
       imagem:
@@ -296,8 +297,8 @@ function pesquisar() {
       clube: "Aposentado (2008)",
       time1: "Bayern_de_Munique",
       time2: "Karlsruher",
-      time3: "Golden",
-      time4: "Golden",
+      time3: "Plate",
+      time4: "Plate",
       nacionalidade: "Alemanha",
       tags: "alemanha, goleiro, plate",
       imagem:
@@ -457,6 +458,7 @@ function pesquisar() {
     // Ángel Di María
     {
       nome: "Ángel Di María",
+      background: "plate",
       descricao:
         "Extremo veloz e habilidoso, conhecido por suas arrancadas e cruzamentos precisos. Foi fundamental nas conquistas da Copa do Mundo de 2022 e da Champions League com o Real Madrid.",
       pagina: "https://www.instagram.com/angeldimariajm/",
@@ -466,13 +468,13 @@ function pesquisar() {
       time3: "PSG",
       time4: "Real_Madrid",
       nacionalidade: "Argentina",
-      tags: "futebol, argentina, benfica, ponta",
+      tags: "argentina, benfica, ponta direita, plate",
       imagem:
         "https://conteudo.imguol.com.br/c/galeria/0f/2022/12/18/di-maria-celebra-seu-gol-sobre-a-franca-na-final-da-copa-1671379257343_v2_450x600.jpg",
       titulos:
         "Liga 1 (5x) - Paris Saint-Germain <br> Copa da França (4x) - Paris Saint-Germain <br> Copa da Liga Francesa (3x) - Paris Saint-Germain <br> UEFA Champions League (2015/2016) - Real Madrid <br> Copa do Mundo FIFA (2022) - Argentina",
       numero: "11",
-      posicao: "Ponta",
+      posicao: "Ponta-Direita",
       dataNascimento: "14/02/1988",
       curiosidades:
         "Considerado um dos melhores jogadores argentinos da atualidade, Di María é conhecido por sua versatilidade, atuando tanto por dentro quanto por fora.",
@@ -796,9 +798,9 @@ function pesquisar() {
       pagina: "https://www.instagram.com/javierzanetti/", // Verificar se o perfil é público
       clube: "Aposentado",
       time1: "Internazionale",
-      time2: "Golden",
-      time3: "Golden",
-      time4: "Golden",
+      time2: "Plate",
+      time3: "Plate",
+      time4: "Plate",
       nacionalidade: "Argentina",
       tags: "argentina, lateral, plate",
       imagem:
@@ -1191,6 +1193,32 @@ function pesquisar() {
       dataNascimento: "18/09/1994",
       curiosidades:
         "Chegou ao Flamengo em 2024 e rapidamente se tornou uma peça importante no esquema tático do time.",
+    },
+
+    // Carlos Alberto
+    {
+      nome: "Carlos Alberto",
+      background: "plate",
+      descricao:
+        "Considerado um dos maiores laterais-direitos da história do futebol, Carlos Alberto Torres foi capitão da seleção brasileira campeã da Copa do Mundo de 1970. Conhecido por sua liderança e chute potente, ele marcou um dos gols mais icônicos da história das Copas.",
+      pagina:
+        "https://www.instagram.com/carlosalbertotorresoficial/  // (Criar caso não exista uma página oficial)",
+      clube: "Aposentado (1982)",
+      time1: "New_York_Cosmos",
+      time2: "Fluminense",
+      time3: "Santos",
+      time4: "Fluminense",
+      nacionalidade: "Brasil",
+      tags: "brasil, lateral-direito, plate",
+      imagem:
+        "https://lendasdofutebol.com/wp-content/uploads/2021/04/carlos-alberto-torres-camisa-do-optimized.jpg",
+      titulos:
+        "Copa do Mundo de 1970, Campeonato Brasileiro, Taça Libertadores da América",
+      numero: "4",
+      posicao: "Lateral-direito",
+      dataNascimento: "07/01/1944",
+      curiosidades:
+        "Marcou o gol do título da Copa de 1970, considerado um dos mais bonitos da história das Copas. Após encerrar a carreira como jogador, tornou-se comentarista esportivo.",
     },
 
     // Casemiro
@@ -1676,8 +1704,7 @@ function pesquisar() {
         "Volante brasileiro conhecido por sua versatilidade e capacidade de marcação, Fernandinho se destacou no Shakhtar Donetsk e Manchester City, atualmente joga no Athletico-PR.",
       pagina: "https://www.instagram.com/fernandinho/",
       time: "Athletico Paranaense",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "futebol, brasil, Club Athletico Paranaense, volante",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/43/2018/10/20/fernandinho-comemora-gol-durante-manchester-city-x-burnley-neste-sabado-1540051315426_v2_450x600.jpg",
@@ -1697,8 +1724,7 @@ function pesquisar() {
         "Lateral-esquerdo brasileiro conhecido por sua experiência e qualidade defensiva. Foi um dos principais jogadores do Atlético de Madrid e do Chelsea.",
       pagina: "https://www.instagram.com/filipeluis/",
       time: "Aposentado (2023)",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://media.gettyimages.com/id/1148766587/pt/foto/porto-alegre-brazil-filipe-luis-of-brazil-controls-the-ball-during-the-international-friendly.jpg?s=612x612&w=gi&k=20&c=ChNTgB3M5x8MaaaerHnNqWn7Isbw2PwgRKYtQf82GxY=",
       tags: "Brasil, Filipe Luis, lateral-esquerdo",
@@ -1718,8 +1744,7 @@ function pesquisar() {
         "Atacante brasileiro conhecido por sua finalização e habilidade, artilheiro em diversas competições, ganhando o apelido de Gabigol. Ídolo do time.",
       pagina: "https://www.instagram.com/gabigol/",
       time: "Flamengo (não renovou contrado)",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://static1.purepeople.com.br/articles/8/39/18/68/@/4483993-gabriel-barbosa-se-consagrou-no-flamengo-580x0-2.jpg",
       tags: "Brasil,Gabigol, artilheiro",
@@ -1739,8 +1764,7 @@ function pesquisar() {
         "Atacante brasileiro conhecido por sua velocidade, dribles e finalizações precisas, Gabriel Jesus se destacou no Palmeiras e Manchester City e atualmente joga no Asenal.",
       pagina: "https://www.instagram.com/gabrieljesus/",
       time: "Arsenal FC",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, atacante, arsenal",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/69/2019/07/07/gabriel-jesus-comemora-gol-da-selecao-brasileira-na-final-da-copa-america-2019-no-maracana-rj-1562533448865_v2_3x4.jpg",
@@ -1760,8 +1784,7 @@ function pesquisar() {
         "Meia versátil e com muita energia, Gabriel Menino é conhecido por sua força física e capacidade de marcar gols. É uma das grandes promessas do futebol brasileiro.",
       pagina: "https://www.instagram.com/gabrielmenino/",
       time: "Palmeiras",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, palmeiras, meia",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/b7/2022/07/24/gabriel-menino-comemora-gol-marcado-com-a-camisa-do-palmeiras-no-duelo-contra-o-inter-valido-pelo-campeonato-brasileiro-1658696245714_v2_450x600.jpg", // Trocar por uma imagem do Gabriel Menino
@@ -1773,6 +1796,32 @@ function pesquisar() {
         "Gabriel Menino começou sua carreira nas categorias de base do Palmeiras e já foi convocado para a Seleção Brasileira.",
     },
 
+    // Garrincha
+    {
+      nome: "Garrincha",
+      background: "gold",
+      descricao:
+        "Considerado um dos maiores gênios do futebol, Garrincha era famoso por seus dribles desconcertantes e sua alegria dentro de campo. Sua habilidade era tão grande que compensava suas pernas tortas, que o tornaram ainda mais especial.",
+      pagina:
+        "https://www.transfermarkt.com.br/mane-garrincha/profil/spieler/151263",
+      clube: "Aposentado (1972)",
+      time1: "Flamengo",
+      time2: "Portuguesa_Santista",
+      time3: "Corinthians",
+      time4: "Botafogo",
+      nacionalidade: "Brasil",
+      tags: "futebol, brasil, ponta direita, atacante, gold",
+      imagem:
+        "https://media.gettyimages.com/id/639617883/pt/foto/brazilian-soccer-legend-garrincha-from-botafogo.jpg?s=612x612&w=gi&k=20&c=pPL3wZwTAyPiG9yX39hcRxdzyxnrtk8h9TxL46wO9EI=",
+      titulos:
+        "Copa do Mundo (1958 e 1962) - Seleção Brasileira<br>Copa Roca (1957, 1960 e 1963) - Seleção Brasileira<br>Campeonato Carioca (1957, 1961 e 1962) - Botafogo<br>Torneio Rio-São Paulo (1962, 1964 e 1966) - Botafogo",
+      numero: "7",
+      posicao: "Ponta-direita",
+      dataNascimento: "28/10/1933",
+      curiosidades:
+        "Garrincha nasceu com uma deformidade nas pernas, mas isso não o impediu de se tornar um dos maiores jogadores da história. Ele era conhecido por sua vida simples e alegre, e sua história é um exemplo de superação.",
+    },
+
     // Gerson Santos da Silva
     {
       nome: "Gerson",
@@ -1780,8 +1829,7 @@ function pesquisar() {
         "Meia brasileiro conhecido por sua força física, desarmes e passes precisos. Um dos pilares do meio-campo do Flamengo que completa o time.",
       pagina: "https://www.instagram.com/gersonsantoss/",
       time: "Flamengo",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/08/GettyImages-1496527295-e1692115533923.jpg?w=1200&h=1200&crop=1",
       tags: "Brasil, Flamengo, Gerson, volante",
@@ -1824,8 +1872,7 @@ function pesquisar() {
         "Meia talentoso e elegante, Gustavo Scarpa é conhecido por sua visão de jogo e passes precisos. Atualmente, é um dos principais jogadores do Atlético Mineiro.",
       pagina: "https://www.instagram.com/gustavoscarpa/", // Verificar o perfil oficial
       time: "Atlético-MG",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, atletico mineiro, meia",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/fa/2023/12/29/montagem-de-gustavo-scarpa-com-a-camisa-do-atletico-mg-divulgada-pelo-clube-1703871050362_v2_1x1.jpg", // Trocar por uma imagem do Gustavo Scarpa
@@ -1867,8 +1914,7 @@ function pesquisar() {
         "Atacante forte e rápido, Hulk é conhecido por seus dribles potentes e chutes poderosos. Atualmente, é um dos principais jogadores do futebol brasileiro.",
       pagina: "https://www.instagram.com/hulkparaiba/",
       time: "Atlético-MG",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, atletico mineiro, atacante",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/93/2023/01/27/hulk-do-atletico-mg-em-partida-contra-a-caldense-pelo-campeonato-mineiro-1674821833447_v2_450x600.jpg", // Trocar por uma imagem do Hulk
@@ -1909,8 +1955,7 @@ function pesquisar() {
         "Um dos maiores meio-campistas da história do futebol, conhecido mundialmente por suas cobranças de falta perfeitas. Foi ídolo em clubes como Vasco da Gama e Olympique Lyonnais.",
       pagina: "https://www.instagram.com/juninhopeoficial/",
       time: "Aposentado (2013)",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "meio-campo, Brasil",
       imagem:
         "https://i.pinimg.com/236x/4c/4b/25/4c4b253b879bd143f66969763ebadefb.jpg",
@@ -1926,7 +1971,7 @@ function pesquisar() {
     //Kaká
     {
       nome: "Kaká",
-      background: "gold",
+      background: "plate",
       descricao:
         "Um dos maiores meio-campistas da história do futebol, conhecido por sua técnica apurada, visão de jogo e passes precisos. Venceu a Bola de Ouro e a Copa do Mundo, além de ter brilhado em grandes clubes como Milan e Real Madrid.",
       pagina: "http://www.kakaww.com/",
@@ -1936,7 +1981,7 @@ function pesquisar() {
       time3: "Real_Madrid",
       time4: "AC_Milan",
       nacionalidade: "Brasil",
-      tags: "brasil, meia, gold",
+      tags: "brasil, meia, plate",
       imagem:
         "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2013/11/23/kaka-comemora-rt.JPG", // Trocar por uma imagem do Kaká
       titulos:
@@ -1955,8 +2000,7 @@ function pesquisar() {
         "Zagueiro brasileiro conhecido por sua técnica e visão de jogo. Chegou ao Flamengo em 2024 e já se destaca pela sua qualidade.",
       pagina: "https://www.instagram.com/leortiz33/",
       time: "Flamengo",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/85/2024/04/11/leo-ortiz-durante-a-vitoria-do-flamengo-sobre-o-palestino-na-libertadores-1712809854387_v2_450x600.jpg",
       tags: "Brasil, Flamengo, Léo Ortiz, zagueiro",
@@ -1975,8 +2019,7 @@ function pesquisar() {
         "Zagueiro brasileiro conhecido por sua força física e bom posicionamento defensivo. Um dos pilares da defesa do Flamengo.",
       pagina: "https://www.instagram.com/leopereira4/",
       time: "Flamengo",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://images.flamengo.com.br/public/images/players/2/1710271857.png",
       tags: "Brasil, Flamengo, Léo Pereira, zagueiro",
@@ -1996,8 +2039,7 @@ function pesquisar() {
         "Atacante promissor, conhecido por sua velocidade e habilidade nos dribles. Lincoln é considerado uma das maiores promessas do futebol brasileiro.",
       pagina: "https://www.instagram.com/lincolnoficial/", // Verificar o perfil oficial
       time: "SC Rheindorf Altach",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "futebol, brasil, atacante, SC Rheindorf Altach",
       imagem:
         "https://www.bundesliga.at/_next/image?url=https%3A%2F%2Foefbl-production-bucket-public.s3.eu-central-1.amazonaws.com%2Fcraft-cms-oefbl%2FProfile%2FSpieler%2F66270.jpg%3Ftimestamp%3D1731409444132&w=1920&q=75",
@@ -2017,8 +2059,7 @@ function pesquisar() {
         "Meia-atacante brasileiro conhecido por sua velocidade e habilidade nos dribles, Lucas Moura já atuou por grandes clubes como São Paulo, Paris Saint-Germain e Tottenham.",
       pagina: "https://www.instagram.com/lucasmoura/",
       time: "São Paulo FC",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "futebol, brasil, meia-atacante",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/d1/2023/02/06/lucas-moura-esta-no-tottenham-desde-janeiro-de-2018-1675718802147_v2_450x600.jpg",
@@ -2038,8 +2079,7 @@ function pesquisar() {
         "Considerado um dos maiores zagueiros da história do futebol brasileiro, Lúcio era conhecido por sua força física, liderança e excelente jogo aéreo. Tendo atuado por grandes clubes como Bayer Leverkusen, Bayern de Munique e Inter de Milão, conquistou diversos títulos e se tornou um dos principais jogadores da Seleção Brasileira.",
       pagina: "https://pt.wikipedia.org/wiki/Lúcio_(futebolista)",
       time: "Aposentado (2020)",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, zagueiro",
       imagem:
         "https://s2.glbimg.com/_7aal7kSC2Pnb04XJAdGWdxW3h0=/186x0:541x469/300x397/s.glbimg.com/es/ge/f/original/2010/06/29/lucio_get620.jpg",
@@ -2059,8 +2099,7 @@ function pesquisar() {
         "Atacante rápido e habilidoso, conhecido por seus dribles e finalizações precisas. Uma das principais armas do ataque do Flamengo.",
       pagina: "#",
       time: "Flamengo",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/c5/2024/06/13/luiz-araujo-e-wesley-comemoram-gol-marcado-pelo-flamengo-contra-o-gremio-pelo-brasileirao-1718325992042_v2_3x4.jpg",
       tags: "Brasil, Flamengo, Luiz Araújo, atacante",
@@ -2072,40 +2111,20 @@ function pesquisar() {
         "Com passagens por clubes europeus, Luiz Araújo traz experiência internacional para o Flamengo.",
     },
 
-    // Mané Garrincha
-    {
-      nome: "Mané Garrincha",
-      background: "gold",
-      descricao:
-        "Considerado um dos maiores gênios do futebol, Garrincha era famoso por seus dribles desconcertantes e sua alegria dentro de campo. Sua habilidade era tão grande que compensava suas pernas tortas, que o tornaram ainda mais especial.",
-      pagina:
-        "https://www.transfermarkt.com.br/mane-garrincha/profil/spieler/151263",
-      time: "Aposentado (1972)",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
-      tags: "futebol, brasil, ponta direita, atacante",
-      imagem:
-        "https://bonifacio.net.br/wp-content/uploads/201031-Mane-Garrincha.jpg", // Substituir por uma imagem do Garrincha
-      titulos:
-        "Copa do Mundo (1958 e 1962) - Seleção Brasileira<br>Copa Roca (1957, 1960 e 1963) - Seleção Brasileira<br>Campeonato Carioca (1957, 1961 e 1962) - Botafogo<br>Torneio Rio-São Paulo (1962, 1964 e 1966) - Botafogo",
-      numero: "7",
-      posicao: "Ponta-direita",
-      dataNascimento: "28/10/1933",
-      curiosidades:
-        "Garrincha nasceu com uma deformidade nas pernas, mas isso não o impediu de se tornar um dos maiores jogadores da história. Ele era conhecido por sua vida simples e alegre, e sua história é um exemplo de superação.",
-    },
-
     //Marcelo
     {
       nome: "Marcelo",
-      background: "gold",
+      background: "plate",
       descricao:
         "Lateral-esquerdo habilidoso e ofensivo, Marcelo é considerado um dos maiores laterais da história do futebol. Famoso por seus dribles, cruzamentos e visão de jogo, ele conquistou diversos títulos pelo Real Madrid e pela Seleção Brasileira.",
       pagina: "https://www.instagram.com/marceloviieira/", // Verificar o perfil oficial
-      time: "Fluminense",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
-      tags: "brasil, lateral esquerdo",
+      time: "Sem Clube",
+      time1: "Fluminense",
+      time2: "Olympiacos",
+      time3: "Real_Madrid",
+      time4: "Plate",
+      nacionalidade: "Brasil",
+      tags: "brasil, lateral esquerdo, plate",
       imagem:
         "https://i.pinimg.com/736x/9f/d5/87/9fd587b97780c61629ec5933895a43db.jpg", // Trocar por uma imagem do Marcelo
       titulos:
@@ -2125,8 +2144,7 @@ function pesquisar() {
         "Um zagueiro sólido e elegante, conhecido por sua liderança e habilidade no jogo aéreo. Marquinhos é peça fundamental da defesa do Paris Saint-Germain e da Seleção Brasileira.",
       pagina: "https://www.instagram.com/marquinhosm5/",
       time: "Paris Saint-Germain",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "futebol, brasil, psg, zagueiro, seleção brasileira, Paris Saint-Germain",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/32/2024/02/19/marquinhos-joga-no-paris-saint-germain-desde-2013-e-tem-mais-4-anos-de-contrato-1708370727790_v2_3x4.jpg", // Trocar por uma imagem do Marquinhos
@@ -2145,8 +2163,7 @@ function pesquisar() {
         "Zagueiro brasileiro conhecido por sua liderança e experiência, Miranda já defendeu grandes clubes como Atlético de Madrid e Internazionale, além da Seleção Brasileira.",
       pagina: "https://www.instagram.com/mirandaoficial/", // Adaptar para o perfil oficial do jogador
       time: "Aposentado (2023)",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "futebol, brasil, zagueiro",
       imagem:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Miranda_850_1585.jpg/640px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Miranda_850_1585.jpg",
@@ -2167,8 +2184,7 @@ function pesquisar() {
         "Atacante veloz e habilidoso, conhecido por seus dribles e gols decisivos. Marinho se destacou no Santos e conquistou a torcida com sua alegria e carisma.",
       pagina: "https://www.instagram.com/marinhooficial/", // Verificar perfil oficial
       time: " Fortaleza Esporte Clube",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "futebol, brasil, atacante",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/7b/2021/01/17/marinho-do-santos-durante-partida-contra-o-botafogo-pelo-campeonato-brasileiro-1610920567202_v2_450x600.jpg", // Substituir por uma imagem do Marinho
@@ -2187,8 +2203,7 @@ function pesquisar() {
         "Goleiro brasileiro, jovem promessa das categorias de base do Flamengo. Destaca-se por suas reflexões e agilidade.",
       pagina: "https://www.instagram.com/matheuscunha_01/",
       time: "Flamengo",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://images.flamengo.com.br/public/images/players/1/1710271566.png",
       tags: "Brasil, Flamengo, Matheus Cunha, goleiro, base",
@@ -2207,8 +2222,7 @@ function pesquisar() {
         "Meia brasileiro com grande potencial, conhecido por sua habilidade nos dribles e visão de jogo. Uma das maiores promessas das categorias de base do Flamengo.",
       pagina: "https://www.instagram.com/oficialm10_/",
       time: "Flamengo",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://s2-ge.glbimg.com/Us7cCi69LTiaZR7vzIKXuTzaMp0=/0x0:1125x1388/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/o/O/EWqDSpQzqUWvQCfoZlgg/whatsapp-image-2024-04-07-at-21.55.55.jpeg",
       tags: "Brasil, Flamengo, Matheus Gonçalves, meia",
@@ -2223,7 +2237,7 @@ function pesquisar() {
     //Neymar Júnior
     {
       nome: "Neymar Júnior",
-      background: "gold",
+      background: "plate",
       descricao:
         "Considerado um dos melhores jogadores de futebol do mundo, Neymar Jr. é famoso por seus dribles rápidos e habilidade em cobranças de faltas. Iniciou sua carreira no Santos FC e, após brilhar no Barcelona, atualmente defende as cores do Al-Hilal.",
       pagina: "https://www.instagram.com/neymarjr/",
@@ -2233,7 +2247,7 @@ function pesquisar() {
       time3: "Barcelona",
       time4: "Santos",
       nacionalidade: "Brasil",
-      tags: "brasil, al hilal, ponta esquerda, Neymar Jr, gold",
+      tags: "brasil, al hilal, ponta esquerda, Neymar Jr, plate",
       imagem:
         "https://cdn.esbrasil.com.br/wp-content/uploads/2024/09/6d2nqshw9lodueisju2k2bwyl.jpg",
       titulos:
@@ -2252,8 +2266,7 @@ function pesquisar() {
         "Volante brasileiro conhecido por sua força física e habilidade na marcação, Paulinho já atuou por grandes clubes como Corinthians e Tottenham, além da Seleção Brasileira.",
       pagina: "https://www.instagram.com/paulinho/", // Adaptar para o perfil oficial do jogador
       time: "Aposentado (2024)",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "futebol, brasil, volante",
       imagem:
         "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2018/06/27/5b340c97edaab.png",
@@ -2273,8 +2286,7 @@ function pesquisar() {
         "Atacante brasileiro conhecido por sua força física e finalização precisa. Fundamental nos títulos recentes do Flamengo, jogador decisivo.",
       pagina: "https://www.instagram.com/pedroguilherme/",
       time: "Flamengo",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://images.flamengo.com.br/public/images/players/7/1710273487.png",
       tags: "Brasil, Flamengo, Pedro, centroavante",
@@ -2307,6 +2319,7 @@ function pesquisar() {
       numero: "10",
       posicao: "Atacante",
       dataNascimento: "23/10/1940",
+      imgMarca: "Coroa-Dourada",
       curiosidades:
         "Pelé marcou mais de mil gols na carreira e é o único jogador a conquistar três Copas do Mundo.",
     },
@@ -2318,8 +2331,7 @@ function pesquisar() {
         "Meia-atacante talentoso e habilidoso, Coutinho é conhecido por seus dribles, chutes de longa distância e visão de jogo. Atualmente, joga no Vasco da Gama.",
       pagina: "https://www.instagram.com/philcoutinho/", // Verificar o perfil oficial
       time: "Vasco da Gama",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, vasco, meia",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/6e/2024/07/21/philippe-coutinho-jogador-do-vasco-durante-partida-contra-o-atletico-mg-na-arena-mrv-1721595034327_v2_3x4.jpg",
@@ -2338,8 +2350,7 @@ function pesquisar() {
         "Rafinha, é um futebolista brasileiro que atua como lateral-direito. Atualmente joga no São Paulo, onde é capitão. Em 2019, entrou para a seleta lista de futebolistas campeões da Copa Libertadores da América e da Liga dos Campeões da UEFA.",
       pagina: "https://www.instagram.com/rafinha/", // Verificar o perfil oficial
       time: "São Paulo FC",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, lateral, são paulo",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/00/2022/07/20/rafinha-e-o-capitao-do-sao-paulo-contra-o-inter-pelo-brasileirao-1658364465364_v2_450x600.jpg",
@@ -2359,8 +2370,7 @@ function pesquisar() {
         "Meia talentoso e artilheiro, Raphael Veiga é conhecido por seus chutes poderosos e visão de jogo. Atualmente, é um dos principais jogadores do Palmeiras.",
       pagina: "https://www.instagram.com/raphael_veiga/", // Verificar o perfil oficial
       time: "palmeiras",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, palmeiras, meia",
       imagem: "https://pbs.twimg.com/media/F5JCyvuWQAASJlw.jpg:large",
       titulos: "Brasileirão, Copa do Brasil, Libertadores", // Adaptar conforme os títulos conquistados
@@ -2378,8 +2388,7 @@ function pesquisar() {
         "Meia-atacante com grande potencial técnico e driblador habilidoso. Conhecido por sua visão de jogo e capacidade de finalizar.",
       pagina: "https://www.instagram.com/reinierjesus/",
       time: " Granada CF",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "futebol, brasil, meia-atacante, reinier, Granada Club de Fútbol",
       imagem:
         "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2024/06/20/17188607039601.jpg",
@@ -2399,8 +2408,7 @@ function pesquisar() {
         "Meia elegante e técnico, Renato Augusto é conhecido por sua visão de jogo e passes precisos. Atualmente, é um dos líderes do Corinthians.",
       pagina: "https://www.instagram.com/renatoaugusto/",
       time: "Fluminense",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       alt: "Brasil",
       tags: "brasil, fluminense, meia",
       imagem:
@@ -2421,8 +2429,7 @@ function pesquisar() {
         "Lateral-esquerdo brasileiro conhecido por sua habilidade nos lançamentos e pela sua força física. Atualmente joga pelo Internacional.",
       pagina: "https://www.instagram.com/reneoficial/",
       time: "Internacional",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, lateral-esquerdo, internacional, rene",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/5e/2022/06/10/rene-lateral-esquerdo-do-inter-resolve-problema-antigo-no-clube-1654898694132_v2_3x4.jpg",
@@ -2441,8 +2448,7 @@ function pesquisar() {
         "Artilheiro da Seleção Brasileira em diversas campanhas, conhecido por sua força física e finalização precisa. Marcado pelo seu gol contra a Croácia na Copa de 2022.",
       pagina: "https://www.instagram.com/richarlison/",
       time: "Tottenham Hotspur",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "futebol, brasil, tottenham, atacante",
       imagem:
         "https://s2-ge.glbimg.com/r1crSs6Eo5TfEmBeNX5zlrPiI9c=/0x0:1023x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/X/A/GA28b4TdCWT7puCrVDyg/whatsapp-image-2022-11-24-at-21.21.50.jpeg",
@@ -2457,13 +2463,17 @@ function pesquisar() {
     //Rivaldo
     {
       nome: "Rivaldo",
+      background: "plate",
       descricao:
         "Considerado um dos maiores jogadores brasileiros de sua geração, Rivaldo era conhecido por sua habilidade técnica, chutes precisos e visão de jogo. Eleito o melhor jogador do mundo em 1999, conquistou diversos títulos importantes na carreira.",
       pagina: "https://www.instagram.com/rivaldooficial/", // Ajustar se necessário
-      time: "Aposentado (2015)",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
-      tags: "futebol, brasil, meia-atacante",
+      clube: "Aposentado (2015)",
+      time1: "Mogi_Mirim",
+      time2: "Palmeiras",
+      time3: "Barcelona",
+      time4: "AC_Milan",
+      nacionalidade: "Brasil",
+      tags: "futebol, brasil, meia, plate",
       imagem:
         "https://i.pinimg.com/736x/ba/b9/8e/bab98e203e6860c6e92a29db981f8919.jpg",
       titulos:
@@ -2473,6 +2483,32 @@ function pesquisar() {
       dataNascimento: "19/04/1972",
       curiosidades:
         "Rivaldo ficou marcado por um gol antológico na Copa do Mundo de 2002, contra a Turquia, onde simulou uma falta para enganar o árbitro.",
+    },
+
+    // Rivellino
+    {
+      nome: "Rivellino",
+      background: "gold",
+      descricao:
+        "Considerado um dos maiores meias da história do futebol, Rivellino era conhecido por sua habilidade com a bola, chutes precisos e a famosa 'folha seca'. Foi um dos principais jogadores da seleção brasileira campeã da Copa do Mundo de 1970.",
+      pagina:
+        "https://www.instagram.com/rivellinooficial/  // (Criar caso não exista uma página oficial)",
+      clube: "Aposentado (1981)",
+      time1: "Al-Hilal",
+      time2: "Fluminense",
+      time3: "Corinthians",
+      time4: "Golden",
+      nacionalidade: "Brasil",
+      tags: "brasil, meia, gold",
+      imagem:
+        "https://cultura.uol.com.br/upload/tvcultura/esporte/20240701161939_f9mt18hxoaaxz0n-1-1-.jpg",
+      titulos:
+        "Copa do Mundo de 1970, Campeonato Brasileiro, Taça Libertadores da América",
+      numero: "10",
+      posicao: "Meia",
+      dataNascimento: "01/01/1946",
+      curiosidades:
+        "Inventor da 'folha seca', um chute com efeito que confundia os goleiros. Foi um dos principais jogadores da seleção brasileira na década de 1970.",
     },
 
     // Roberto Carlos
@@ -2506,8 +2542,7 @@ function pesquisar() {
         "Atacante brasileiro conhecido por sua versatilidade e habilidade de criar jogadas. Foi peça fundamental no sucesso do Liverpool nos últimos anos.",
       pagina: "https://www.instagram.com/roberto_firmino9/",
       time: "Al-Ahli Saudi FC",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "futebol, brasil, atacante, al-ahli",
       imagem:
         "https://i.pinimg.com/474x/0e/37/36/0e3736ca9c374f94dccc4ca844bccfec.jpg",
@@ -2549,8 +2584,7 @@ function pesquisar() {
         "Lateral-direito brasileiro conhecido por sua força física, velocidade e cruzamentos precisos. Atualmente joga no Olympiacos F.C.",
       pagina: "https://www.instagram.com/rodineioficial/",
       time: "Olympiacos F.C.",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, lateral-direito, Olympiacos",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/57/2021/06/02/lateral-direito-rodinei-se-reapresentou-ao-flamengo-apos-defender-o-internacional-por-emprestimo-1622672201174_v2_3x4.jpg",
@@ -2570,8 +2604,7 @@ function pesquisar() {
         "Zagueiro brasileiro conhecido por sua boa técnica e liderança dentro de campo. Atuou por grandes clubes como São Paulo e Flamengo.",
       pagina: "https://www.instagram.com/rodrigocaio/",
       time: "Grêmio",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, zagueiro, gremio",
       imagem:
         "https://tntsports.com.br/__export/1662748924441/sites/esporteinterativo/img/2022/09/09/gettyimages-1407905644.jpg",
@@ -2614,8 +2647,7 @@ function pesquisar() {
         "Joia da nova geração do futebol brasileiro, Rodrygo se destacou por sua velocidade, dribles e finalização precisa. Revelado pelo Santos, logo chamou a atenção de grandes clubes europeus.",
       pagina: "https://www.instagram.com/rodrygogoes/",
       time: "Real Madrid CF",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, atacante, real madrid, rodrigo",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/33/2023/11/29/rodrygo-do-real-madrid-comemora-gol-contra-o-napoli-na-liga-dos-campeoes-1701291003658_v2_3x4.jpg",
@@ -2677,28 +2709,29 @@ function pesquisar() {
         "Ronaldinho já foi eleito duas vezes o melhor jogador do mundo pela FIFA e é conhecido por seus gols de falta espetaculares.",
     },
 
-    // Ronaldo Fenômeno
+    // Ronaldo Nazário
     {
-      nome: "Ronaldo Fenômeno",
+      nome: "Ronaldo Nazário",
       background: "gold",
       descricao:
-        "Considerado um dos maiores atacantes de todos os tempos, Ronaldo Fenômeno era conhecido por sua velocidade, dribles e finalizações poderosas. Campeão mundial por duas vezes, conquistou diversos títulos importantes na Europa e no Brasil.",
-      pagina: "https://www.instagram.com/ronaldo/",
+        "Considerado um dos maiores atacantes de todos os tempos, Ronaldo Fenômeno era conhecido por sua velocidade, finalização e habilidade técnica. Atuou por grandes clubes como Inter de Milão, Real Madrid e Barcelona, conquistando diversos títulos e artilharias.",
+      pagina: "https://www.instagram.com/ronaldofeno/",
+      clube: "Aposentado",
       time1: "Real_Madrid",
       time2: "Internazionale",
       time3: "Barcelona",
       time4: "Cruzeiro",
       nacionalidade: "Brasil",
-      tags: "brasil, atacante, Ronaldo Luís Nazário de Lima",
+      tags: "brasil, atacante, Ronaldo Fenômeno, gold",
       imagem:
-        "https://media.gazetadopovo.com.br/2011/02/ec00c9f479847bfef4f99b8c7857f2bf-gpLarge.jpg", // Troque por uma imagem do Ronaldo Fenômeno
+        "https://terceirotempo.uol.com.br/imagens/57/70/w500_h140_qfl_fto_15770.webp",
       titulos:
-        "Copa do Mundo FIFA (1994 e 2002) Seleção Brasileira<br>Copa América (1997) - Seleção Brasileira<br>La Liga (1996, 2002) - Barcelona e Real Madrid<br>Serie A (1997, 1998, 2001) - Inter de Milão",
+        "Copa do Mundo (2x), Copa América, Campeonato Espanhol, Campeonato Italiano, Campeonato Brasileiro, Copa UEFA",
       numero: "9",
       posicao: "Atacante",
-      dataNascimento: "18 de setembro de 1976",
+      dataNascimento: "18/09/1976",
       curiosidades:
-        "Ronaldo Fenômeno ficou marcado por sua recuperação de lesões graves, voltando a jogar em alto nível após diversas cirurgias.",
+        "Ronaldo sofreu duas graves lesões nos joelhos, mas conseguiu se recuperar e voltar a brilhar nos gramados.",
     },
 
     // Thiago Silva
@@ -2708,8 +2741,7 @@ function pesquisar() {
         "Zagueiro experiente e líder nato, conhecido por sua habilidade no jogo aéreo, passes precisos e liderança dentro de campo. Um dos melhores defensores da sua geração.",
       pagina: "https://www.instagram.com/thiagosilva/",
       time: "Fluminense",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, zagueiro, fluminense, seleção brasileira",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/26/2022/12/05/thiago-silva-durante-a-partida-do-brasil-contra-a-coreia-do-sul-1670294743840_v2_450x450.jpg", // Trocar por uma imagem do Thiago Silva
@@ -2728,8 +2760,7 @@ function pesquisar() {
         "Uma das maiores promessas do futebol mundial, conhecido por sua velocidade e dribles eletrizantes.",
       pagina: "https://www.instagram.com/vinijr/",
       time: "Real Madrid CF",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, real madrid, atacante",
       imagem:
         "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/03/07/29438833-vinicius-junior-real-madrid-cf-v-rb-leipzig-round-of-16-second-leg-uefa-champions-league-2023-24-2048x1365.jpg",
@@ -2748,8 +2779,7 @@ function pesquisar() {
         "Atacante brasileiro conhecido por sua habilidade nos dribles e velocidade. Teve passagens marcantes por clubes como Flamengo e Internacional.",
       pagina: "https://www.instagram.com/vitinhooficial/",
       time: "Al-Ettifaq",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2022/10/11/1602259754-6345ec8f2ce7d.jpeg",
       tags: "Brasil, Vitinho, atacante, Al-Ettifaq",
@@ -2769,8 +2799,7 @@ function pesquisar() {
         "Meio-campista brasileiro conhecido por sua versatilidade e habilidade nos passes. Destaca-se por sua rápida adaptação ao time titular do Flamengo.",
       pagina: "https://www.instagram.com/wesleyfranca03_/?hl=pt",
       time: "Flamengo",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       imagem:
         "https://images.flamengo.com.br/public/images/players/3/1710272030.png",
       tags: "Brasil, Flamengo, Wesley, meio-campista",
@@ -2789,8 +2818,7 @@ function pesquisar() {
         "Volante conhecido por sua força física, marcação e boa distribuição de bola. Arão é um dos líderes do time e fundamental para o equilíbrio da equipe.",
       pagina: "https://www.instagram.com/w_arao/", // Verificar o perfil oficial
       time: " Panathinaikos FC",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, volante",
       imagem: "https://static.flaresenha.com/wp/willian-arao.jpg",
       titulos:
@@ -2832,8 +2860,7 @@ function pesquisar() {
         "Atacante promissor, Yuri Alberto é conhecido por sua finalização precisa e habilidade de se movimentar dentro da área. Atualmente, é um dos destaques do Corinthians.",
       pagina: "https://www.instagram.com/yurialberto/",
       time: "Corinthians",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
+      nacionalidade: "Brasil",
       tags: "brasil, corinthians, atacante",
       imagem:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Sulamericana_CUP_2023_Semifinal_-_Corinthians_x_Fortaleza-CE_%2853553783422%29_%28cropped%29.jpg/250px-Sulamericana_CUP_2023_Semifinal_-_Corinthians_x_Fortaleza-CE_%2853553783422%29_%28cropped%29.jpg", // Trocar por uma imagem do Yuri Alberto
@@ -2848,15 +2875,19 @@ function pesquisar() {
     // Zico
     {
       nome: "Zico",
+      background: "gold",
       descricao:
         "Considerado um dos maiores jogadores brasileiros de todos os tempos, Zico era conhecido por sua habilidade técnica, visão de jogo e chutes precisos. Ídolo do Flamengo, ele encantou o mundo com seu futebol artístico.",
       pagina: "https://www.instagram.com/zico/", // Ajustar se necessário
       time: "Aposentado (1993)",
-      nacionalidade:
-        "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiranacionalbrasil_.jpg",
-      tags: "brasil, meia",
+      time1: "Flamengo",
+      time2: "Udinese",
+      time3: "Kashima_Antlers",
+      time4: "Golden",
+      nacionalidade: "Brasil",
+      tags: "brasil, meia, gold",
       imagem:
-        "https://media.gettyimages.com/id/172814042/pt/foto/02-july-1982-fifa-world-cup-argentina-v-brazil-zico-of-brazil.jpg?s=612x612&w=gi&k=20&c=3YhKJz9l0Ey6yyA28GIg6eLGGvYlM2nqogez3O4ntZM=",
+        "https://i.pinimg.com/474x/8a/c0/e0/8ac0e02cc7457be239b42bedef643dbf.jpg",
       titulos:
         "Brasileirão (1980, 1982, 1983, 1987)<br>Copa Libertadores da América (1981) - Flamengo<br>Copa Intercontinental (1981) - Flamengo<br>Campeonato Carioca (Várias vezes) - Flamengo",
       numero: "10",
@@ -3214,13 +3245,17 @@ function pesquisar() {
     //Luka Modrić
     {
       nome: "Luka Modrić",
+      background: "gold",
       descricao:
         "Meia croata, conhecido por sua habilidade técnica, visão de jogo e passes precisos. Líder da seleção croata e peça fundamental no Real Madrid.",
       pagina: "https://www.instagram.com/lukamodric10/",
-      time: "Real Madrid CF",
-      nacionalidade:
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
-      tags: "croácia, real madrid, meia, Modric",
+      clube: "Real Madrid",
+      time1: "Real_Madrid",
+      time2: "Tottenham_Hotspur",
+      time3: "Dinamo_Zagreb",
+      time4: "Golden",
+      nacionalidade: "Croácia",
+      tags: "croácia, real madrid, meia, Modric, gold",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/11/2022/12/01/luka-modric-da-croacia-em-acao-contra-a-belgica-na-fase-de-grupos-da-copa-do-qatar-1669910441519_v2_450x600.jpg", // Trocar por uma imagem do Luka Modrić
       titulos: "Champions League, La Liga, Copa do Mundo (vice)",
@@ -3431,6 +3466,30 @@ function pesquisar() {
 
     //ESPANHA---------------------------------------------------------------------------------------------------
 
+    // Alfredo Di Stéfano
+    {
+      nome: "Alfredo Di Stéfano",
+      background: "gold",
+      descricao:
+        "Atacante argentino-espanhol considerado um dos maiores jogadores de todos os tempos. Di Stéfano era conhecido por sua velocidade, habilidade técnica e faro de gol, sendo fundamental para o sucesso do Real Madrid nos anos 50 e 60.",
+      pagina: "https://www.instagram.com/alfredodistefano/", // Verificar se existe um perfil oficial
+      clube: "Aposentado (1966)",
+      time1: "Espanyol",
+      time2: "Real_Madrid",
+      time3: "Millonarios",
+      time4: "River_Plate",
+      nacionalidade: "Argentino-espanhol",
+      tags: "argentina, espanha, atacante, Alfredo Di Stefano, gold",
+      imagem:
+        "https://upload.wikimedia.org/wikipedia/commons/b/bb/Mcu_Alfredo_Di_Stefano.jpg",
+      titulos: "La Liga, Copa dos Campeões, Bola de Ouro",
+      numero: "9",
+      posicao: "Atacante",
+      dataNascimento: "04/07/1926",
+      curiosidades:
+        "Di Stéfano era conhecido como 'A Flecha Loira' devido à sua velocidade e cor dos cabelos.",
+    },
+
     // Álvaro Morata
     {
       nome: "Álvaro Morata",
@@ -3455,13 +3514,18 @@ function pesquisar() {
     // Andrés Iniesta
     {
       nome: "Andrés Iniesta",
+      background: "plate",
       descricao:
         "Um dos maiores meias da história do futebol, conhecido por sua habilidade e gols decisivos.",
       pagina: "https://www.instagram.com/andiniesta8/",
-      time: "Aposentado (2024)",
+      clube: "Aposentado (2024)",
+      time1: "Vissel_Kobe",
+      time2: "Barcelona",
+      time3: "Plate",
+      time4: "Plate",
       nacionalidade: "Espanha",
       alt: "Espanha",
-      tags: "espanha, meia",
+      tags: "espanha, meia, plate",
       imagem:
         "https://cdn-s-www.leprogres.fr/images/FB18B92B-D189-4989-8F3F-29180DDF0DAC/NW_raw/andres-iniesta-photo-afp-1522783770.jpg",
       titulos:
@@ -3494,6 +3558,31 @@ function pesquisar() {
       dataNascimento: "11/01/1992",
       curiosidades:
         "Carvajal é formado nas categorias de base do Real Madrid e já conquistou diversos títulos com o clube.",
+    },
+
+    // Carles Puyol
+    {
+      nome: "Carles Puyol",
+      background: "plate",
+      descricao:
+        "Lenda do Barcelona, Puyol era um zagueiro central conhecido por sua liderança, força física e lealdade ao clube. Ele era o capitão do time em diversos títulos importantes e era muito querido pelos torcedores.",
+      pagina: "https://www.instagram.com/carlespuyolofficial/", // (Verificar se existe)
+      clube: "Aposentado (2014)",
+      time1: "Barcelona",
+      time2: "Plate",
+      time3: "Plate",
+      time4: "Plate",
+      nacionalidade: "Espanha",
+      tags: "espanha, zagueiro, plate",
+      imagem:
+        "https://preview.redd.it/g00wwalqrzq71.jpg?width=720&format=pjpg&auto=webp&s=e93d818b89b53619dece276056c1643b11ddc7ba",
+      titulos:
+        "La Liga, Copa del Rey, Liga dos Campeões da UEFA, Copa do Mundo FIFA",
+      numero: "5",
+      posicao: "Zagueiro",
+      dataNascimento: "13/04/1978",
+      curiosidades:
+        "Puyol era conhecido por sua cabeçada poderosa e sua lealdade ao Barcelona. Ele jogou toda a sua carreira profissional no clube catalão.",
     },
 
     // David Silva
@@ -3789,10 +3878,15 @@ function pesquisar() {
     // Sergio Ramos
     {
       nome: "Sergio Ramos",
+      background: "plate",
       descricao:
         "Um dos maiores zagueiros da história do Real Madrid, Sergio Ramos é conhecido por sua liderança, força física e habilidade para marcar gols importantes. Com uma carreira vitoriosa, conquistou diversos títulos e se tornou um dos principais jogadores da Seleção Espanhola.",
       pagina: "https://pt.wikipedia.org/wiki/Sergio_Ramos",
-      time: "Paris Saint-Germain",
+      time: "Sevilla",
+      time1: "Sevilla",
+      time2: "PSG",
+      time3: "Real_Madrid",
+      time4: "Plate",
       nacionalidade: "Espanha",
       alt: "Espanha",
       tags: "espanha, paris saint-germain, zagueiro",
@@ -3852,13 +3946,18 @@ function pesquisar() {
     // Xavi Hernández
     {
       nome: "Xavi Hernández",
+      background: "plate",
       descricao:
         "Um dos maiores meias da história do futebol, conhecido por sua visão de jogo e passes precisos.",
       pagina: "https://www.instagram.com/xavi/",
-      time: "Aposentado (2019)",
+      clube: "Aposentado (2019)",
+      time1: "Al-Sadd_SC",
+      time2: "Barcelona",
+      time3: "Plate",
+      time4: "Plate",
       nacionalidade: "Espanha",
       alt: "Espanha",
-      tags: "futebol, espanha, barcelona, meia, visão de jogo",
+      tags: "espanha, meia, plate",
       imagem:
         "https://i.pinimg.com/736x/68/51/87/685187139f0d27413a67e2ac8947b448.jpg",
       titulos:
@@ -3956,22 +4055,26 @@ function pesquisar() {
     // Karim Benzema
     {
       nome: "Karim Benzema",
+      background: "plate",
       descricao:
-        "Um dos principais atacantes da atualidade, conhecido por sua habilidade técnica, finalização precisa e visão de jogo. Foi fundamental para o sucesso do Real Madrid nos últimos anos.",
+        "O atacante francês é conhecido por sua habilidade técnica, finalização precisa e visão de jogo. Ele é um dos principais jogadores do Real Madrid e da seleção francesa.",
       pagina: "https://www.instagram.com/karimbenzema/",
-      time: "Real Madrid",
+      clube: "Al-Ittihad",
+      time3: "Lyon",
+      time2: "Real_Madrid",
+      time1: "Al-Ittihad",
+      time4: "Plate",
       nacionalidade: "França",
-      alt: "França",
-      tags: "atacante, França, Real Madrid",
+      tags: "frança, atacante, plate",
       imagem:
-        "https://i0.wp.com/portalcontexto.com.br/wp-content/uploads/2022/03/FNcMjEgXsAcpr6f.jpg?resize=1020%2C1275&ssl=1",
+        "https://tmssl.akamaized.net//images/foto/galerie/karim-benzema-real-madrid-2022-1665935878-94347.jpg",
       titulos:
-        "La Liga (5x) - Real Madrid<br>Liga dos Campeões da UEFA (5x) - Real Madrid<br>Copa do Mundo de Clubes da FIFA (4x) - Real Madrid<br>Supercopa da UEFA (4x) - Real Madrid<br>Eurocopa (1x) - França",
+        "La Liga, Copa del Rey, Liga dos Campeões da UEFA, Mundial de Clubes da FIFA",
       numero: "9",
       posicao: "Atacante",
       dataNascimento: "19/12/1987",
       curiosidades:
-        "Benzema é conhecido por sua calma diante do gol e por sua habilidade de criar jogadas para seus companheiros. Ele também é um grande fã de basquete e costuma assistir aos jogos da NBA.",
+        "Benzema ganhou a Bola de Ouro em 2022, um reconhecimento por sua excelente temporada.",
     },
 
     // Kingsley Coman
@@ -4000,13 +4103,18 @@ function pesquisar() {
     // Kylian Mbappé
     {
       nome: "Kylian Mbappé",
+      background: "plate",
       descricao:
         "Um dos jogadores mais rápidos e habilidosos do mundo, conhecido por seus dribles e gols espetaculares.",
       pagina: "https://www.instagram.com/k.mbappe/",
       time: "Real Madrid",
+      time1: "Real_Madrid",
+      time2: "AS_Monaco",
+      time3: "PSG",
+      time4: "Plate",
       nacionalidade: "França",
       alt: "França",
-      tags: "futebol, frança, psg, atacante, velocidade, Mbappe",
+      tags: "frança, Real Madrid, atacante, Mbappe, plate",
       imagem:
         "https://assets-us-01.kc-usercontent.com/31dbcbc6-da4c-0033-328a-d7621d0fa726/32e193b3-b8e8-437a-a24a-651f0b22c15f/mbappe%20trophy%203.jpg?ver=28-06-2024?w=3840&q=75",
       titulos: "Ligue 1, Copa da França, Copa do Mundo",
@@ -4014,6 +4122,30 @@ function pesquisar() {
       posicao: "Atacante",
       dataNascimento: "20/12/1998",
       curiosidades: "Considerado um dos maiores talentos da nova geração.",
+    },
+
+    // Michel Platini
+    {
+      nome: "Michel Platini",
+      background: "gold",
+      descricao:
+        "Meia-atacante francês considerado um dos maiores jogadores da história do futebol. Platini era conhecido por sua elegância, visão de jogo e chutes precisos, sendo fundamental para a conquista da Eurocopa de 1984.",
+      pagina: "https://www.instagram.com/michelplatini/", // Verificar se existe um perfil oficial
+      clube: "Aposentado",
+      time1: "Nancy",
+      time2: "Saint-Étienne",
+      time3: "Juventus",
+      time4: "Golden",
+      nacionalidade: "França",
+      tags: "frança, meia, gold",
+      imagem:
+        "https://i.pinimg.com/564x/e2/b5/e6/e2b5e6dc32a7da44771bba520bfe199c.jpg",
+      titulos: "Serie A, Copa dos Campeões, Eurocopa, Bola de Ouro",
+      numero: "10",
+      posicao: "Meia-atacante",
+      dataNascimento: "21/06/1955",
+      curiosidades:
+        "Platini foi eleito três vezes consecutivas o melhor jogador do mundo pela Bola de Ouro.",
     },
 
     // N'Golo Kanté
@@ -4120,6 +4252,31 @@ function pesquisar() {
       dataNascimento: "25/04/1993",
       curiosidades:
         "Varane começou sua carreira no Lens e se tornou um dos jogadores mais jovens a conquistar a Champions League.",
+    },
+
+    // Thierry Henry
+    {
+      nome: "Thierry Henry",
+      background: "plate",
+      descricao:
+        "Considerado um dos maiores atacantes da história do Arsenal e da seleção francesa, Henry era conhecido por sua velocidade, habilidade e finalização precisa. Ele foi um dos principais jogadores da geração campeã da Copa do Mundo de 1998.",
+      pagina: "https://www.instagram.com/thierryhenry/", // (Verificar se existe)
+      clube: "Aposentado",
+      time1: "AS_Monaco",
+      time2: "Juventus",
+      time3: "Arsenal",
+      time4: "Barcelona",
+      nacionalidade: "França",
+      tags: "frança, atacante, plate",
+      imagem:
+        "https://tmssl.akamaized.net//images/foto/galerie/thierry-henry-1417524348-3352.jpg?lm=1483605830",
+      titulos:
+        "Premier League, FA Cup, Copa do Mundo FIFA, Eurocopa, La Liga, Copa del Rey",
+      numero: "14",
+      posicao: "Atacante",
+      dataNascimento: "17/08/1977",
+      curiosidades:
+        "Henry é um dos maiores artilheiros da história do Arsenal. Ele é conhecido por sua comemoração característica, deslizando de joelhos no chão.",
     },
 
     // Zinédine Zidane
@@ -4266,6 +4423,32 @@ function pesquisar() {
         "Gullit foi um dos primeiros jogadores negros a se destacar no futebol europeu e foi um ícone de estilo dentro e fora de campo.",
     },
 
+    // Van Basten
+    {
+      nome: "Van Basten",
+      background: "gold",
+      descricao:
+        "Considerado um dos maiores atacantes da história do futebol, Van Basten era conhecido por sua técnica impecável, finalizações precisas e visão de jogo. Ele conquistou diversos títulos com o Milan e a seleção holandesa.",
+      pagina:
+        "https://www.instagram.com/marcovanbasten/" /* Verificar se existe */,
+      clube: "Aposentado (1995)",
+      time1: "Milan",
+      time2: "Ajax",
+      time3: "Golden",
+      time4: "Golden",
+      nacionalidade: "Holanda",
+      tags: "holanda, atacante, gold",
+      imagem:
+        "https://i.pinimg.com/736x/23/fb/6e/23fb6e79e6a0a01c125d34e062eb156e.jpg",
+      titulos:
+        "Serie A, Copa dos Campeões da Europa, Copa Intercontinental, Eurocopa",
+      numero: "9",
+      posicao: "Atacante",
+      dataNascimento: "31/10/1964",
+      curiosidades:
+        "Van Basten foi eleito três vezes o melhor jogador do mundo pela FIFA. Infelizmente, sua carreira foi abreviada por diversas lesões.",
+    },
+
     //Virgil Van Dijk
     {
       nome: "Virgil van Dijk",
@@ -4354,6 +4537,31 @@ function pesquisar() {
       dataNascimento: "29/06/2003",
       curiosidades:
         "Bellingham é considerado uma das maiores promessas do futebol mundial.",
+    },
+
+    // Bobby Charlton
+    {
+      nome: "Bobby Charlton",
+      background: "gold",
+      descricao:
+        "Meia-atacante inglês considerado um dos maiores jogadores da história do futebol. Charlton era conhecido por sua visão de jogo, habilidade técnica e chutes poderosos, sendo um dos pilares da seleção inglesa campeã da Copa do Mundo de 1966.",
+      pagina: "https://www.instagram.com/bobbycharltonofficial/", // Verificar se existe um perfil oficial
+      clube: "Aposentado (1976)",
+      time1: "Waterford_United",
+      time2: "Preston_North_End",
+      time3: "Manchester_United",
+      time4: "Golden",
+      nacionalidade: "Inglaterra",
+      tags: "inglaterra, meia, gold",
+      imagem:
+        "https://www.lequipe.fr/_medias/img-photo-jpg/en-1966-sir-bobby-charlton-recoit-son-ballon-d-or-a-old-trafford-l-equipe/1500000001870324/374:390,1578:1895-828-1035-75/dd11f",
+      titulos:
+        "Premier League, Copa da Inglaterra, Copa dos Campeões, Copa do Mundo",
+      numero: "7",
+      posicao: "Meia-atacante",
+      dataNascimento: "11/10/1937",
+      curiosidades:
+        "Charlton sobreviveu ao desastre aéreo de Munique e se tornou um símbolo de superação.",
     },
 
     //Bukayo Saka
@@ -4793,15 +5001,18 @@ function pesquisar() {
     //Gianluigi Buffon
     {
       nome: "Gianluigi Buffon",
-      apelido: "Gigi Buffon",
+      background: "plate",
       descricao:
         "Goleiro experiente e lendário, Buffon é conhecido por suas reflexos incríveis, liderança e longevidade. É considerado um dos maiores goleiros de todos os tempos.",
       pagina: "https://www.instagram.com/gianluigibuffon/",
       time: "Aposentado (2023)",
-      nacionalidade:
-        "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+      time1: "Parma",
+      time2: "Juventus",
+      time3: "PSG",
+      time4: "Plate",
+      nacionalidade: "Itália",
       alt: "Itália",
-      tags: "itália, goleiro",
+      tags: "itália, goleiro, plate",
       imagem:
         "https://img.redbull.com/images/c_crop,x_171,y_0,h_627,w_501/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2018/05/17/326dcfdb-0050-430d-a51e-a90132a98bdb/buffon", // Trocar por uma imagem do Gianluigi Buffon
       titulos: "Serie A, Copa da Itália, Copa do Mundo, Copa da UEFA",
@@ -5089,22 +5300,26 @@ function pesquisar() {
     // Robert Lewandowski
     {
       nome: "Robert Lewandowski",
+      background: "plate",
       descricao:
-        "Atacante completo e artilheiro nato, Lewandowski é conhecido por sua finalização precisa, força física e inteligência tática. É um dos maiores atacantes da atualidade.",
+        "Considerado um dos melhores atacantes do mundo, Lewandowski é conhecido por sua força física, precisão nos chutes e habilidade de marcar gols. Ele já quebrou diversos recordes e conquistou muitos títulos na carreira.",
       pagina: "https://www.instagram.com/robert_lewandowski/",
-      time: "FC Barcelona",
-      nacionalidade:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/800px-Flag_of_Poland.svg.png",
-      alt: "Polônia",
-      tags: "polônia, atacante, FC Barcelona",
+      clube: "Barcelona",
+      time4: "Lech_Poznań",
+      time3: "Borussia_Dortmund",
+      time2: "Bayern_de_Munique",
+      time1: "Barcelona",
+      nacionalidade: "Polônia",
+      tags: "polônia, atacante, plate",
       imagem:
-        "https://www.thesun.co.uk/wp-content/uploads/2023/12/robert-lewandowski-fc-barcelona-reacts-861987434.jpg?strip=all&w=640",
-      titulos: "Bundesliga, Copa da Alemanha, Champions League, La Liga",
+        "https://tmssl.akamaized.net/images/foto/galerie/robert-lewandowski-fc-barcelona-2024-25-1730103967-152589.jpg",
+      titulos:
+        "Bundesliga, Copa da Alemanha, Liga dos Campeões da UEFA, La Liga",
       numero: "9",
       posicao: "Atacante",
       dataNascimento: "21/08/1988",
       curiosidades:
-        "Lewandowski é conhecido por sua capacidade de marcar gols de todas as formas e já quebrou diversos recordes de gols em sua carreira.",
+        "Lewandowski é conhecido por sua ética de trabalho e sua dedicação aos treinos. Ele é um dos maiores artilheiros da história da Bundesliga.",
     },
 
     // Wojciech Szczęsny
@@ -5137,8 +5352,7 @@ function pesquisar() {
         "Meia português conhecido por sua visão de jogo e habilidade para marcar gols, Bruno Fernandes é um dos líderes do Manchester United.",
       pagina: "https://www.instagram.com/brunofernandes/",
       time: "Manchester United FC",
-      nacionalidade:
-        "https://s1.static.brasilescola.uol.com.br/be/2022/10/bandeira-portugal-2.jpg",
+      nacionalidade: "Portugal",
       alt: "Portugal",
       tags: "portugal, meia, Manchester United FC",
       imagem: "https://pbs.twimg.com/media/Fy2qUkAWwAIYQ4g.jpg:large",
@@ -5157,8 +5371,7 @@ function pesquisar() {
         "Lateral direito português conhecido por sua habilidade nos cruzamentos e visão de jogo, Cancelo se destacou no Juventus e Manchester City.",
       pagina: "https://www.instagram.com/joao.cancelo/",
       time: "Al-Hilal Saudi FC",
-      nacionalidade:
-        "https://s1.static.brasilescola.uol.com.br/be/2022/10/bandeira-portugal-2.jpg",
+      nacionalidade: "Portugal",
       alt: "Portugal",
       tags: "portugal, Al-Hilal Saudi FC, lateral",
       imagem:
@@ -5200,16 +5413,20 @@ function pesquisar() {
     // Eusébio
     {
       nome: "Eusébio",
+      background: "gold",
       descricao:
         "Considerado um dos maiores jogadores de futebol de todos os tempos, Eusébio era famoso por sua velocidade, força física e habilidade com a bola. Ídolo do Benfica, conquistou diversos títulos e encantou o mundo com seus gols memoráveis.",
       pagina: "https://en.wikipedia.org/wiki/Eusebio",
-      time: "Aposentado (1979)",
-      nacionalidade:
-        "https://s1.static.brasilescola.uol.com.br/be/2022/10/bandeira-portugal-2.jpg",
+      clube: "Aposentado (1979)",
+      time1: "Beira-Mar",
+      time2: "Benfica",
+      time3: "CD_Maxaquene_Maputo",
+      time4: "Golden",
+      nacionalidade: "Portugal",
       alt: "Portugal",
-      tags: "portugal, atacante",
+      tags: "portugal, atacante, eusebio, gold",
       imagem:
-        "https://external-preview.redd.it/b24-10-years-without-the-king-eus%C3%A9bio-10-years-of-saudade-v0-gRIms1Rw7fiI-CLDbCmRhomSus9z9mAwngfR4PgxqNo.jpg?auto=webp&s=25a749ad2c58d95399ca681c9343bc9125d709d2",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Eusebio_%281963_version2%29.jpg/300px-Eusebio_%281963_version2%29.jpg",
       titulos:
         "Campeonato Português (11x) - Benfica<br> Taça de Portugal (5x) - Benfica<br> Copa dos Campeões Europeus (2x) - Benfica<br> Bola de Ouro (1x)",
       numero: "8",
@@ -5219,6 +5436,31 @@ function pesquisar() {
         "Eusébio era conhecido por sua humildade e carisma. Apesar de ter sido um dos maiores jogadores da história, sempre manteve os pés no chão e era muito querido pelos fãs.",
     },
 
+    // Luís Figo
+    {
+      nome: "Luís Figo",
+      background: "plate",
+      descricao:
+        "Considerado um dos maiores jogadores portugueses de todos os tempos, Figo era conhecido por sua habilidade nos dribles, visão de jogo e chutes precisos. Atuou por grandes clubes europeus como Barcelona e Real Madrid, e foi eleito o melhor jogador do mundo pela FIFA em 2001.",
+      pagina: "https://www.instagram.com/luisfigo/",
+      clube: "Internazionale (último clube como jogador)",
+      time1: "Sporting",
+      time2: "Barcelona",
+      time3: "Real_Madrid",
+      time4: "Internazionale",
+      nacionalidade: "Portugal",
+      tags: "portugal, meia, plate",
+      imagem:
+        "https://cdn.record.pt/images/2021-10/img_834x600$2021_10_12_01_59_58_1914586.jpg",
+      titulos:
+        "La Liga, Copa del Rey, Liga dos Campeões da UEFA, Serie A, Copa da Itália",
+      numero: "7",
+      posicao: "Meia",
+      dataNascimento: "04/11/1972",
+      curiosidades:
+        "Sua transferência do Barcelona para o Real Madrid foi uma das mais polêmicas do futebol mundial. Figo foi um dos principais jogadores da seleção portuguesa, participando de várias Copas do Mundo e Eurocopas.",
+    },
+
     // Pepe
     {
       nome: "Pepe",
@@ -5226,8 +5468,7 @@ function pesquisar() {
         "O zagueiro português Pepe é conhecido por sua força física, agressividade nas disputas e experiência. Tendo jogado por grandes clubes como Porto, Real Madrid e Porto novamente, conquistou diversos títulos e se tornou um dos principais defensores da sua geração.",
       pagina: "https://pt.wikipedia.org/wiki/Pepe_(futebolista)",
       time: "Aposentado (2024)",
-      nacionalidade:
-        "https://s1.static.brasilescola.uol.com.br/be/2022/10/bandeira-portugal-2.jpg",
+      nacionalidade: "Portugal",
       alt: "Portugal",
       tags: "portugal, zagueiro",
       imagem:
@@ -5342,26 +5583,29 @@ function pesquisar() {
 
     //SUÉCIA----------------------------------------------------------------------------------------------------
 
-    //Ibrahimović
+    // Zlatan Ibrahimović
     {
       nome: "Zlatan Ibrahimović",
+      background: "plate",
       descricao:
-        "Atacante sueco, conhecido por sua força física, técnica apurada e personalidade marcante. É considerado um dos maiores jogadores da história do futebol sueco.",
+        "Considerado um dos maiores atacantes da história do futebol, Ibrahimović é conhecido por sua força física, técnica apurada e personalidade marcante. Ele já jogou por grandes clubes europeus como Inter de Milão, Barcelona e Paris Saint-Germain.",
       pagina: "https://www.instagram.com/zlatanibrahimovic/",
-      time: "Aposentado (2023)",
-      nacionalidade:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1200px-Flag_of_Sweden.svg.png",
-      alt: "Suécia",
-      tags: "suécia, atacante",
+      clube: "Aposentado (2023)",
+      time1: "AC_Milan",
+      time2: "Los_Angeles_Galaxy",
+      time3: "PSG",
+      time4: "Barcelona",
+      nacionalidade: "Suécia",
+      tags: "suécia, atacante plate",
       imagem:
-        "https://conteudo.imguol.com.br/c/esporte/be/2021/09/12/ibrahimovic-comemora-gol-marcado-com-a-camisa-do-milan-diante-da-lazio-1631469353167_v2_600x800.jpg.webp", // Trocar por uma imagem do Zlatan Ibrahimović
+        "https://tmssl.akamaized.net//images/foto/galerie/zlatan-ibrahimovic-ac-mailand-1603008323-49388.jpg?lm=1603008348",
       titulos:
-        "Serie A, Ligue 1, Eredivisie, Copa da Itália, Supercopa Italiana",
-      numero: "11",
+        "Serie A, La Liga, Ligue 1, Copa da França, Copa da Itália, Supercopa da Itália, Supercopa da Espanha, Copa da Liga Francesa",
+      numero: "9",
       posicao: "Atacante",
       dataNascimento: "03/10/1981",
       curiosidades:
-        "Zlatan é conhecido por suas frases marcantes e por ter jogado em diversos grandes clubes da Europa, como Milan, Inter de Milão, Barcelona, Paris Saint-Germain e Manchester United.",
+        "Ibrahimović é conhecido por suas frases marcantes e sua confiança em campo. Ele é um dos poucos jogadores a marcar gols por mais de 10 clubes diferentes.",
     },
 
     //UCRÂNIA --------------------------------------------------------------------------------------------------
@@ -5635,6 +5879,7 @@ function pesquisar() {
             <h3>Curiosidades</h3>
             <p id="info">${dado.curiosidades}</p>
           </div>
+        <img class="dado-imgMarca" src="./img/${dado.imgMarca}.png" alt="">
         <p class="descricao-meta">${dado.descricao}</p>
       </div>
   `;
