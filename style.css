@@ -267,7 +267,7 @@ ul {
 
 /*ESTILIZAÇÃO DA SESSÃO VIDEO /////////////////////////////////////////////////////////*/
 .video-sessao {
-  background-color: #2a2a2b;
+  background-color: #242424;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -280,7 +280,7 @@ ul {
 
 /*ESTILIZAÇÃO DO FOOTER /////////////////////////////////////////////////////////*/
 footer {
-  background-color: #2a2a2b;
+  background-color: #141414;
   color: #c2c2c2;
   align-items: center;
   text-align: center;
@@ -321,7 +321,7 @@ footer {
 }
 
 /* Para telas menores (celulares) ////////////////////////////////////////////////////////*/
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .content {
     min-height: 100vh;
   }
@@ -387,7 +387,6 @@ footer {
   }
 
   .div-resultados {
-    font-family: "Chakra Petch", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -395,6 +394,7 @@ footer {
     padding-block: 50px;
     height: max-content;
     overflow-y: none;
+    color: #595959;
   }
 
   #p-resultados {
@@ -417,8 +417,7 @@ footer {
     padding: 1rem;
     height: inherit;
     max-height: initial;
-    background-image: none;
-    background-color: #e6e6e6;
+    background-image: url(./img/Fundo_resultado-mobile-jogadores.png);
   }
 
   .item-resultado-selecao {
@@ -431,8 +430,7 @@ footer {
     padding: 1rem;
     height: inherit;
     max-height: inherit;
-    background-image: none;
-    background-color: #e6e6e6;
+    background-image: url(./img/Fundo_resultado-mobile.png);
   }
 
   .dado-imgMarca {
@@ -453,7 +451,6 @@ footer {
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
-    text-align: center;
 
     & #numero {
       font-size: 40px;
@@ -465,7 +462,7 @@ footer {
   }
 
   .div-info {
-    font-family: "Chakra Petch", sans-serif;
+    font-family: "Architects Daughter", serif;
     text-align: start;
     padding-top: 30px;
     font-size: 0.8rem;

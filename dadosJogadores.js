@@ -5856,7 +5856,6 @@ function pesquisar() {
               <h2 class="numero" >${dado.numero}</h2>
               <a class="link-pagina" href="${dado.pagina}" target="_blank"><h2 id="nome">${dado.nome}</h2></a>
               <img class="nacionalidade" src="./img/Logo_${dado.nacionalidade}.png" alt="${dado.alt}">
-              <img class="dado-imgMarca" src="./img/${dado.imgMarca}.png" alt="">
             </div>
             <h3>Status</h3>
             <p id="info">${dado.clube}</p>
