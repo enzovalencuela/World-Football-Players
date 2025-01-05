@@ -127,10 +127,23 @@ ul {
   display: flex;
   align-items: start;
   justify-content: center;
-  width: 50rem;
-  height: 37rem;
+  width: 54rem;
+  max-height: 40rem;
   flex-wrap: wrap;
-  position: relative;
+}
+.item-resultado-selecao {
+  background-image: url(./img/Fundo_resultado-selecao.png);
+  background-size: cover;
+  box-shadow: 0 20px 20px rgba(81, 81, 81, 0.458);
+  border-radius: 0.6rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 54rem;
+  max-height: 40rem;
+  flex-wrap: wrap;
 }
 
 .item-resultado a {
@@ -142,9 +155,17 @@ ul {
   color: #323232;
 }
 
+.item-resultado-selecao a {
+  text-decoration: none;
+}
+
+.item-resultado-selecao a:hover {
+  text-decoration: underline;
+  color: #323232;
+}
+
 .dado-imgMarca {
   background-size: cover;
-  position: absolute;
   width: 150px;
   top: 30px;
   right: 80px;
@@ -155,7 +176,7 @@ ul {
   object-fit: cover;
   width: 300px;
   height: 400px;
-  margin: 15px 30px 0px 0px;
+  margin: 15px 30px 60px 0px;
   text-align: center;
 }
 
@@ -390,21 +411,33 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80vw;
+    margin: 0;
+    font-size: 10px;
+    padding: 1rem;
+    height: inherit;
+    max-height: initial;
+    background-image: none;
+    background-color: #e6e6e6;
+  }
+
+  .item-resultado-selecao {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     margin: 0;
     font-size: 10px;
     padding: 1rem;
     height: inherit;
+    max-height: inherit;
     background-image: none;
     background-color: #e6e6e6;
   }
 
   .dado-imgMarca {
     background-size: cover;
-    position: absolute;
-    width: 150px;
-    top: 350px;
-    right: 30px;
+    width: 100px;
     rotate: 0deg;
   }
 
@@ -437,6 +470,7 @@ footer {
     padding-top: 30px;
     font-size: 0.8rem;
     flex: 1;
+    max-width: 80vw;
   }
 
   #sinfo {

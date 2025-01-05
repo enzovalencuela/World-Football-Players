@@ -325,7 +325,7 @@ botao.addEventListener("click", () => {
 
   times.forEach((time) => {
     htmlContent += `
-        <div class="item-resultado">
+        <div class="item-resultado-selecao">
           <img class="dado-imagem-clubes" src="${time.imagem}" alt="">
             <div class="div-info">
               <div class="numero-nome-time">

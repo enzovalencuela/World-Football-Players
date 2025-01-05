@@ -150,7 +150,7 @@ botao3.addEventListener("click", () => {
 
   selecoes.forEach((selecao) => {
     htmlContent += `
-        <div class="item-resultado">
+        <div class="item-resultado-selecao">
           <img class="dado-imagem-selecao" src="${selecao.imagem}" alt="">
             <div class="div-info">
               <div class="numero-nome-selecao">
