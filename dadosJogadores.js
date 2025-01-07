@@ -7,6 +7,29 @@ function pesquisar() {
   let dados = [
     //ALEMANHA--------------------------------------------------------------------------------------------------
 
+    // Ballack
+    {
+      nome: "Ballack",
+      background: "plate",
+      descricao:
+        "Meio-campista alemão conhecido por sua força física, visão de jogo e chutes potentes. Ballack foi um dos principais jogadores da seleção alemã e de clubes como Bayern de Munique e Chelsea.",
+      pagina: "https://pt.wikipedia.org/wiki/Michael_Ballack",
+      clube: "Aposentado",
+      time1: "Kaiserslautern",
+      time2: "Bayer_Leverkusen",
+      time3: "Bayern_de_Munique",
+      time4: "Chelsea",
+      nacionalidade: "Alemanha",
+      tags: "alemão, meia, plate",
+      imagem:
+        "https://tmssl.akamaized.net/images/foto/galerie/michael-ballack-wm-2006-1588067616-37229.jpg",
+      numero: "13",
+      posicao: "Meio-campista",
+      dataNascimento: "26/09/1976",
+      curiosidades:
+        "Ballack era conhecido por sua liderança em campo e por sua capacidade de marcar gols importantes. Ele foi vice-campeão da Copa do Mundo de 2002 pela Alemanha.",
+    },
+
     // Draxler
     {
       nome: "Julian Draxler",
@@ -22,7 +45,23 @@ function pesquisar() {
       tags: "alemanha, Al-Ahli, meia",
       imagem:
         "https://media.gettyimages.com/id/1748702756/pt/foto/doha-qatar-julian-draxler-of-al-ahly-in-action-during-the-expo-stars-league-match-between-al.jpg?s=612x612&w=gi&k=20&c=9cQ8OvLrph6mU_hW4W_D_wDLLuvdrDNzW2U5G0GYP0s=",
-      titulos: "Bundesliga, Copa da França, Copa da Alemanha",
+      //TITULO 1 ----------------------------
+      imgTitulo1: "Ligue1",
+      nomeTitulo1: "Ligue1",
+      DataTitulo1: "2017, 2018, 2019, 2021",
+      //TITULO 2 ----------------------------
+      imgTitulo2: "Copa_Do_Mundo_2014",
+      nomeTitulo2: "Copa Do Mundo",
+      DataTitulo2: "2014",
+      //TITULO 3 ----------------------------
+      imgTitulo3: "Copa_Das_Confederações_2017",
+      nomeTitulo3: "Copa Das Confederações",
+      DataTitulo3: "2017",
+      //TITULO 4 ----------------------------
+      imgTitulo4: "Copa_Da_Alemanha",
+      nomeTitulo4: "Copa Da Alemanha",
+      DataTitulo4: "2011",
+      //
       numero: "7",
       posicao: "Meia-atacante",
       dataNascimento: "20/09/1993",
@@ -45,8 +84,37 @@ function pesquisar() {
       tags: "alemanha, zagueiro, gold",
       imagem:
         "https://destaqueregional.jor.br/images/noticias/1767/7a05deec0feab99a37bb0c03a2958c8e.jpeg",
-      titulos:
-        "Copa do Mundo (1974, 1990) - Alemanha<br>Campeonato Europeu (1972) - Alemanha<br>Copa dos Campeões da Europa (1974, 1975, 1976) - Bayern de Munique<br>Copa Intercontinental (1975, 1976) - Bayern de Munique",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_1974",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1974 (jogador), 1990 (técnico)",
+      clube1: "Alemanha",
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Eurocopa_1972",
+      nomeTitulo2: "Eurocopa",
+      DataTitulo2: "1972",
+      clube2: "Alemanha",
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Bundesliga",
+      nomeTitulo3: "Bundesliga",
+      DataTitulo3: "1969, 1972, 1973, 1974, 1982",
+      clube3: "Bayern_de_Munique",
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Champions_League",
+      nomeTitulo4: "Liga dos Campeões",
+      DataTitulo4: "1974, 1975, 1976",
+      clube4: "Bayern_de_Munique",
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_Da_Alemanha",
+      nomeTitulo5: "Copa da Alemanha",
+      DataTitulo5: "1966, 1967, 1969, 1971",
+      clube5: "Bayern_de_Munique",
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_Intercontinental",
+      nomeTitulo6: "Copa Intercontinental",
+      DataTitulo6: "1976",
+      clube6: "Bayern_de_Munique",
+
       numero: "5",
       posicao: "Zagueiro",
       dataNascimento: "11/09/1945",
@@ -68,7 +136,36 @@ function pesquisar() {
       tags: "alemanha, atacante, gold",
       imagem:
         "https://lendasdofutebol.com/wp-content/uploads/2021/01/gerd-muller-perfil-optimized.jpg",
-      titulos: "Bundesliga, Copa dos Campeões, Copa do Mundo, Chuteira de Ouro",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_1974",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1974",
+      clube1: "Alemanha",
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Eurocopa_1972",
+      nomeTitulo2: "Eurocopa",
+      DataTitulo2: "1972",
+      clube2: "Alemanha",
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Bundesliga",
+      nomeTitulo3: "Bundesliga",
+      DataTitulo3: "1969, 1972, 1973, 1974",
+      clube3: "Bayern_de_Munique",
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Champions_League",
+      nomeTitulo4: "Liga dos Campeões",
+      DataTitulo4: "1974, 1975, 1976",
+      clube4: "Bayern_de_Munique",
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_Da_Alemanha",
+      nomeTitulo5: "Copa da Alemanha",
+      DataTitulo4: "1966, 1967, 1969, 1971",
+      clube5: "Bayern_de_Munique",
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_Intercontinental",
+      nomeTitulo6: "Copa Intercontinental",
+      DataTitulo4: "1976",
+      clube6: "Bayern_de_Munique",
       numero: "13",
       posicao: "Atacante",
       dataNascimento: "03/11/1945",
@@ -135,7 +232,32 @@ function pesquisar() {
       tags: "alemanha, meia, gold",
       imagem:
         "https://lendasdofutebol.com/wp-content/uploads/2021/03/lothar-matthaus-bayern1993-350-x-optimized.jpg",
-      titulos: "Bundesliga, Copa da Alemanha, Copa da UEFA, Copa do Mundo",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_1990",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1990",
+      clube1: "Alemanha",
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Eurocopa_1980",
+      nomeTitulo2: "Eurocopa",
+      DataTitulo2: "1980",
+      clube2: "Alemanha",
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Bundesliga",
+      nomeTitulo3: "Bundesliga",
+      DataTitulo3: "1984, 1985, 1986, 1987, 1994, 1997, 1998, 1999, 2000",
+      clube3: "Bayern_de_Munique",
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_Da_Alemanha",
+      nomeTitulo4: "Copa da Alemanha",
+      DataTitulo4: "1986, 1998, 2000",
+      clube4: "Bayern_de_Munique",
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_Da_UEFA_1996",
+      nomeTitulo5: "Copa da UEFA",
+      DataTitulo5: "1996",
+      clube5: "Bayern_de_Munique",
+
       numero: "7",
       posicao: "Meio-campista",
       dataNascimento: "21/3/1961",
@@ -528,8 +650,42 @@ function pesquisar() {
       tags: "argentina, meia, gold",
       imagem:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/330px-Maradona-Mundial_86_con_la_copa.JPG",
-      titulos:
-        "Campeonato Argentino (1976 Metropolitano, 1981 Metropolitano) - Boca Juniors <br> Copa Libertadores da América (1986) - Boca Juniors <br> Copa Intercontinental (1986) - Boca Juniors <br> Serie A (1986/1987, 1989/1990) - Napoli <br> Copa da Itália (1986/1987) - Napoli <br> Copa UEFA (1988/1989) - Napoli <br> Copa do Mundo FIFA (1986) - Argentina",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_1986",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1986",
+      clube1: "Argentina",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "UEFA_Europa_League",
+      nomeTitulo2: "Copa da UEFA",
+      DataTitulo2: "1989",
+      clube2: "Napoli",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Liga_Profesional_de_Fútbol_de_Argentina",
+      nomeTitulo3: "Campeonato Argentino",
+      DataTitulo3: "1981",
+      clube3: "Boca_Juniors",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Serie_A",
+      nomeTitulo4: "Campeonato Italiano",
+      DataTitulo4: "1987, 1990",
+      clube4: "Napoli",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_Da_Itália",
+      nomeTitulo5: "Copa da Itália",
+      DataTitulo5: "1987",
+      clube5: "Napoli",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_del_Rey",
+      nomeTitulo6: "Copa del Rey",
+      DataTitulo6: "1983",
+      clube6: "Barcelona",
+
       numero: "10",
       posicao: "Meia-atacante",
       dataNascimento: "30/10/1960",
@@ -620,7 +776,7 @@ function pesquisar() {
       nacionalidade: "Argentina",
       tags: "argentina, zaneti",
       imagem:
-        "https://media.gettyimages.com/id/53153161/pt/foto/hanover-germany-javier-zanetti-of-argentina-in-action-during-the-semi-final-match-between-mexico.jpg?s=612x612&w=gi&k=20&c=zsyldwZqNzgeA_Wtv9ilBJA9nqFEopAAAn0324OdCx4=",
+        "https://ilmanifesto.it/cdn-cgi/image/format=auto,width=1400/https://static.ilmanifesto.it/2013/08/08/Javier-Zanetti1.jpg",
       titulos:
         "Serie A, Copa da Itália, Supercopa Italiana, Liga dos Campeões, Copa UEFA",
       numero: "4",
@@ -675,14 +831,14 @@ function pesquisar() {
         "Considerado um dos maiores talentos do futebol argentino, Álvarez é conhecido por sua habilidade de jogar em diversas posições no ataque.",
     },
 
-    //Lionel Messi
+    // Lionel Messi
     {
       nome: "Lionel Messi",
       background: "gold",
       descricao:
-        "Considerado um dos maiores jogadores de futebol de todos os tempos, o argentino Messi é conhecido por sua habilidade excepcional, dribles rápidos, visão de jogo e precisão nos chutes. Após uma brilhante carreira no Barcelona, onde conquistou inúmeros títulos, atualmente defende as cores do Inter Miami.",
+        "Considerado um dos maiores jogadores de futebol de todos os tempos, Messi é conhecido por sua habilidade técnica, dribles e visão de jogo. Atacante argentino que já atuou por Barcelona e PSG.",
       pagina: "https://www.instagram.com/leomessi/",
-      clube: "Inter Miami CF",
+      clube: "Inter Miami",
       time1: "Inter_Miami",
       time2: "PSG",
       time3: "Barcelona",
@@ -690,13 +846,47 @@ function pesquisar() {
       tags: "argentina, inter miami, gold",
       imagem:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Lionel-Messi-Argentina-2022-FIFA-World-Cup_sharpness.jpg/1200px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_sharpness.jpg",
-      titulos:
-        "copa do mundo, champions league, UEFA, la liga, copa america, ballon d'or",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_2022",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "2022",
+      clube1: "Argentina",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_America_2021",
+      nomeTitulo2: "Copa América",
+      DataTitulo2: "2021, 2024",
+      clube2: "Argentina",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Champions_League",
+      nomeTitulo3: "Liga dos Campeões",
+      DataTitulo3: "2005, 2008, 2010, 2014",
+      clube3: "Barcelona",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "LaLiga",
+      nomeTitulo4: "Campeonato Espanhol",
+      DataTitulo4: "2004, 2005, 2008, 2009, 2010, 2012, 2014, 2015, 2017, 2018",
+      clube4: "Barcelona",
+
+      // TITULO 10 ----------------------------
+      imgTitulo5: "Supercopa_da_Espanha",
+      nomeTitulo5: "Supercopa da Espanha",
+      DataTitulo5: "2005, 2006, 2009, 2010, 2011, 2013, 2016 e 2018",
+      clube5: "Barcelona",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Bola_de_Ouro",
+      nomeTitulo6: "Bola de Ouro",
+      DataTitulo6: "2009, 2010, 2011, 2012, 2015, 2019, 2021 e 2023",
+      clube6: "Individual",
+
       numero: "10",
       posicao: "Atacante",
       dataNascimento: "24/06/1987",
       curiosidades:
-        "Messi iniciou sua carreira profissional no Barcelona, onde se tornou um dos maiores ídolos da história do clube.",
+        "Messi detém diversos recordes, como o maior artilheiro da história do Barcelona e da seleção argentina. Ele também é conhecido por sua rivalidade com Cristiano Ronaldo.",
     },
 
     // Mascherano
@@ -769,28 +959,6 @@ function pesquisar() {
       dataNascimento: "02/06/1988",
       curiosidades:
         "Agüero é lembrado por seu gol histórico no último minuto contra o Queens Park Rangers, que garantiu o título da Premier League para o Manchester City em 2012.",
-    },
-
-    // Zanetti
-    {
-      nome: "Javier Zanetti",
-      background: "plate",
-      descricao:
-        "Lenda do futebol argentino e ídolo da Internazionale, conhecido por sua versatilidade, liderança e longevidade. Atuou como lateral-direito e capitão por muitos anos.",
-      pagina: "https://www.instagram.com/javierzanetti/", // Verificar se o perfil é público
-      clube: "Aposentado",
-      time1: "Internazionale",
-      nacionalidade: "Argentina",
-      tags: "argentina, lateral, plate",
-      imagem:
-        "https://ilmanifesto.it/cdn-cgi/image/format=auto,width=1400/https://static.ilmanifesto.it/2013/08/08/Javier-Zanetti1.jpg", // Substituir por uma imagem do Zanetti
-      titulos:
-        "Serie A, Copa da Itália, Liga dos Campeões da UEFA, Copa da UEFA, Copa Intercontinental, Copa do Mundo de Clubes",
-      numero: "4", // Número mais utilizado por Zanetti
-      posicao: "Lateral-direito",
-      dataNascimento: "10 de agosto de 1973",
-      curiosidades:
-        "Considerado um dos maiores laterais da história do futebol, Zanetti é um dos jogadores com mais partidas disputadas pela Internazionale. É conhecido por sua lealdade ao clube e por sua personalidade forte.",
     },
 
     // BÉLGICA --------------------------------------------------------------------------------------------------
@@ -1143,8 +1311,41 @@ function pesquisar() {
       tags: "Brasil, Cafu, lateral direito, gold",
       numero: "2",
       posicao: "Lateral-direito",
-      titulos:
-        "Copa do Mundo (1994, 2002) - Brasil <br> Liga dos Campeões da UEFA (2007) - Milan <br> Campeonato Italiano (2004) - Milan <br> Campeonato Brasileiro (1991, 1992) - São Paulo",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_1994",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1994",
+      clube1: "Brasil",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_Do_Mundo_2002",
+      nomeTitulo2: "Copa do Mundo",
+      DataTitulo2: "2002",
+      clube2: "Brasil",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Copa_America_1997",
+      nomeTitulo3: "Copa América",
+      DataTitulo3: "1997",
+      clube3: "Brasil",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_America_1999",
+      nomeTitulo4: "Copa América",
+      DataTitulo4: "1999",
+      clube4: "Brasil",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Libertadores",
+      nomeTitulo5: "Libertadores",
+      DataTitulo5: "1992, 1993",
+      clube5: "São_Paulo",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_Intercontinental",
+      nomeTitulo6: "Copa Intercontinental",
+      DataTitulo6: "1992 e 1993",
+      clube6: "São_Paulo",
       dataNascimento: "7 de junho de 1970",
       curiosidades:
         "Considerado um dos maiores laterais-direitos da história do futebol. Famoso por sua alegria e positividade dentro e fora de campo.",
@@ -1436,6 +1637,29 @@ function pesquisar() {
       dataNascimento: "14/02/1985",
       curiosidades:
         "Ídolo do Flamengo, teve passagens por Fenerbahçe, Wolfsburg e Atlético de Madrid. É conhecido por sua elegância e técnica.",
+    },
+
+    // Djalma Santos
+    {
+      nome: "Djalma Santos",
+      background: "plate",
+      descricao:
+        "Considerado um dos maiores laterais-direitos de todos os tempos, Djalma Santos era conhecido por sua marcação forte, velocidade e cruzamentos precisos. Ele foi fundamental para os títulos da Seleção Brasileira nas Copas do Mundo de 1958 e 1962.",
+      pagina: "https://pt.wikipedia.org/wiki/Djalma_Santos",
+      clube: "Aposentado",
+      time1: "Portuguesa",
+      time2: "Palmeiras",
+      time3: "Atlético Paranaense",
+      nacionalidade: "Brasil",
+      tags: "brasil, lateral direito, plate",
+      imagem:
+        "https://bolaclassica.wordpress.com/wp-content/uploads/2024/03/djalma-santos.jpg",
+      titulos: "Copa do Mundo FIFA (1958, 1962), Campeonato Paulista",
+      numero: "2", // Número mais associado a laterais-direitos
+      posicao: "Lateral-direito",
+      dataNascimento: "27/02/1929",
+      curiosidades:
+        "Djalma Santos foi eleito pela FIFA como o maior lateral-direito de todos os tempos. Ele era conhecido por sua longevidade em campo e por ter jogado duas finais de Copa do Mundo consecutivas sem sofrer gols.",
     },
 
     // Douglas Costa
@@ -1822,8 +2046,29 @@ function pesquisar() {
       tags: "brasil, ponta direita, gold",
       imagem:
         "https://media.gettyimages.com/id/639617883/pt/foto/brazilian-soccer-legend-garrincha-from-botafogo.jpg?s=612x612&w=gi&k=20&c=pPL3wZwTAyPiG9yX39hcRxdzyxnrtk8h9TxL46wO9EI=",
-      titulos:
-        "Copa do Mundo (1958 e 1962) - Seleção Brasileira<br>Copa Roca (1957, 1960 e 1963) - Seleção Brasileira<br>Campeonato Carioca (1957, 1961 e 1962) - Botafogo<br>Torneio Rio-São Paulo (1962, 1964 e 1966) - Botafogo",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_1958",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1958",
+      clube1: "Brasil",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_Do_Mundo_1962",
+      nomeTitulo2: "Copa do Mundo",
+      DataTitulo2: "1962",
+      clube2: "Brasil",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Campeonato_Carioca",
+      nomeTitulo3: "Campeonato Carioca",
+      DataTitulo3: "1957, 1961, 1962",
+      clube3: "Botafogo",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Rio_Sao_Paulo_1962",
+      nomeTitulo4: "Rio São Paulo",
+      DataTitulo4: "1962",
+      clube4: "Botafogo",
       numero: "7",
       posicao: "Ponta-direita",
       dataNascimento: "28/10/1933",
@@ -1933,6 +2178,31 @@ function pesquisar() {
       dataNascimento: "25/07/1986",
       curiosidades:
         "Hulk já jogou em grandes clubes europeus como Porto e Zenit, e é conhecido por sua força física e habilidade para marcar gols.",
+    },
+
+    // Jairzinho
+    {
+      nome: "Jairzinho",
+      background: "plate",
+      descricao:
+        "Atacante brasileiro conhecido por sua velocidade, dribles e finalizações precisas. Jairzinho foi um dos principais jogadores da seleção brasileira campeã da Copa do Mundo de 1970.",
+      pagina: "https://pt.wikipedia.org/wiki/Jairzinho",
+      clube: "Aposentado",
+      time1: "Botafogo",
+      time2: "Marítimo",
+      time3: "América-RJ",
+      time4: "Cruzeiro",
+      time5: "Al-Hilal",
+      nacionalidade: "Brasil",
+      tags: "brasil, Ponta Direita",
+      imagem:
+        "https://upload.wikimedia.org/wikipedia/commons/8/8f/Jairzinho_1970s.jpg",
+      titulos: "Campeonato Brasileiro, Copa do Mundo FIFA (1970)",
+      numero: "7", // Número mais associado a Jairzinho
+      posicao: "Ponta-Direita",
+      dataNascimento: "25/03/1944",
+      curiosidades:
+        "Jairzinho foi o único jogador a marcar gols em todas as partidas de uma única Copa do Mundo. Ele é considerado um dos maiores atacantes da história do futebol brasileiro.",
     },
 
     // Júlio César
@@ -2259,8 +2529,34 @@ function pesquisar() {
       tags: "brasil, al hilal, ponta esquerda, Neymar Jr, plate",
       imagem:
         "https://cdn.esbrasil.com.br/wp-content/uploads/2024/09/6d2nqshw9lodueisju2k2bwyl.jpg",
-      titulos:
-        "Liga dos Campeões da UEFA (2014) - Barcelona<br> Mundial de Clubes da FIFA (2015) - Barcelona<br> La Liga (2014-2016) - Barcelona<br> Ligue 1 (2017-2022) -PSG <br> Olimpíadas (2016) - Seleção Brasileira<br> Copa das Confederações (2013) - Seleção Brasileira",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "LaLiga",
+      nomeTitulo1: "La Liga",
+      DataTitulo1: "2015, 2016",
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_Do_Brasil",
+      nomeTitulo2: "Copa do Brasil",
+      DataTitulo2: "2010",
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Campeonato_Brasileiro",
+      nomeTitulo3: "Campeonato Brasileiro",
+      DataTitulo3: "2010",
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Champions_League",
+      nomeTitulo4: "Liga dos Campeões",
+      DataTitulo4: "2015",
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_das_Confederações_2013",
+      nomeTitulo5: "Copa das Confederações",
+      DataTitulo5: "2013",
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Ouro_Olímpico_2016",
+      nomeTitulo6: "Ouro Olímpico",
+      DataTitulo6: "2016",
+      // TITULO 7 ----------------------------
+      imgTitulo7: "Supercopa_Da_Espanha",
+      nomeTitulo7: "Supercopa da Espanha",
+      DataTitulo7: "2013",
       numero: "10",
       posicao: "Ponta Esquerda",
       dataNascimento: "05/02/1992",
@@ -2321,8 +2617,37 @@ function pesquisar() {
       tags: "brasil, atacante, gold",
       imagem:
         "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg",
-      titulos:
-        "Campeonato Brasileiro (1961, 1962, 1963, 1964, 1965, 1968) - Santos FC<br>Copa Libertadores da América (1962, 1963) - Santos FC<br>Copa Intercontinental (1962, 1963) - Santos FC<br>Copa do Mundo (1958, 1962, 1970) - Seleção Brasleira",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_1970",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1970",
+      clube1: "Brasil",
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_Do_Mundo_1962",
+      nomeTitulo2: "Copa do Mundo",
+      DataTitulo2: "1962",
+      clube2: "Brasil",
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Copa_Do_Mundo_1958",
+      nomeTitulo3: "Copa do Mundo",
+      DataTitulo3: "1958",
+      clube3: "Brasil",
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Campeonato_Paulista",
+      nomeTitulo4: "Campeonato Paulista",
+      DataTitulo4: "1958, 1960, 1961, 1962, 1964, 1965, 1967, 1968, 1969, 1973",
+      clube4: "Santos",
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Libertadores",
+      nomeTitulo5: "Copa Libertadores",
+      DataTitulo5: "1962, 1963",
+      clube5: "Santos",
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_Intercontinental",
+      nomeTitulo6: "Mundial de Clubes",
+      DataTitulo6: "1962, 1963",
+      clube6: "Santos",
+      // ... outros títulos ...
       numero: "10",
       posicao: "Atacante",
       dataNascimento: "23/10/1940",
@@ -2504,13 +2829,40 @@ function pesquisar() {
       time1: "Al-Hilal",
       time2: "Fluminense",
       time3: "Corinthians",
-      time4: "Golden",
       nacionalidade: "Brasil",
       tags: "brasil, meia, gold",
       imagem:
         "https://cultura.uol.com.br/upload/tvcultura/esporte/20240701161939_f9mt18hxoaaxz0n-1-1-.jpg",
-      titulos:
-        "Copa do Mundo de 1970, Campeonato Brasileiro, Taça Libertadores da América",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_1970",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1970",
+      clube1: "Brasil",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Campeonato_Carioca",
+      nomeTitulo2: "Campeonato Carioca",
+      DataTitulo2: "1975, 1976",
+      clube2: "Fluminense",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Rio_Sao_Paulo",
+      nomeTitulo3: "Torneio Rio-São Paulo",
+      DataTitulo3: "1966",
+      clube3: "Corinthians",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Campeonato_Saudita",
+      nomeTitulo4: "Campeonato Saudita",
+      DataTitulo4: "1978-79",
+      clube4: "Al-Hilal",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "",
+      nomeTitulo5: "FIFA 100",
+      DataTitulo5: "2004",
+      clube5: "Individual",
+
       numero: "10",
       posicao: "Meia",
       dataNascimento: "01/01/1946",
@@ -2534,7 +2886,41 @@ function pesquisar() {
       tags: "brasil, roberto carlos, lateral, gold",
       imagem:
         "https://istoedinheiro.com.br/wp-content/uploads/sites/17/Reuters_Direct_Media/BrazilOnlineReportSportsNews/tagreuters.com2022binary_LYNXMPEI0U112-BASEIMAGE.jpg",
-      titulos: "Liga dos Campeões, Campeonato Espanhol, Copa do Mundo",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_2002",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "2002",
+      clube1: "Brasil",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "LaLiga",
+      nomeTitulo2: "Campeonato Espanhol",
+      DataTitulo2: "1997, 2001, 2003, 2007",
+      clube2: "Real_Madrid",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Champions_League",
+      nomeTitulo3: "Liga dos Campeões",
+      DataTitulo3: "1998, 2000, 2002",
+      clube3: "Real_Madrid",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_Intercontinental",
+      nomeTitulo4: "Copa Intercontinental",
+      DataTitulo4: "1998, 2002",
+      clube4: "Real_Madrid",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Supercopa_da_UEFA",
+      nomeTitulo5: "Supercopa da UEFA",
+      DataTitulo5: "2002",
+      clube5: "Real_Madrid",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_del_Rey",
+      nomeTitulo6: "Copa da Espanha",
+      DataTitulo6: "1997",
+      clube6: "Real_Madrid",
       numero: "6",
       posicao: "Lateral-esquerdo",
       dataNascimento: "10 de abril de 1973",
@@ -2707,8 +3093,41 @@ function pesquisar() {
       tags: "brasil, meia, gold",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/77/2021/06/02/ronaldinho-gaucho-em-atuacao-pelo-barcelona-1622663451254_v2_3x4.jpg",
-      titulos:
-        "Copa do Mundo FIFA (2002) - Seleção Brasileira<br>Copa das Confederações FIFA (2005) - Seleção Brasileira<br>La Liga (2004, 2005) - Barcelona<br>Liga dos Campeões da UEFA (2005) - Barcelona<br>Copa Libertadores da América (2013) - Atlético Mineiro",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_2002",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "2002",
+      clube1: "Brasil",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "LaLiga",
+      nomeTitulo2: "Campeonato Espanhol",
+      DataTitulo2: "2005, 2006",
+      clube2: "Barcelona",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Champions_League",
+      nomeTitulo3: "Liga dos Campeões",
+      DataTitulo3: "2006",
+      clube3: "Barcelona",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Supercopa_da_UEFA",
+      nomeTitulo4: "Supercopa da UEFA",
+      DataTitulo4: "2009",
+      clube4: "AC_Milan",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Libertadores",
+      nomeTitulo5: "Copa Libertadores",
+      DataTitulo5: "2013",
+      clube5: "Atlético_Mineiro",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Recopa_Sul-Americana",
+      nomeTitulo6: "Recopa Sul-Americana",
+      DataTitulo6: "2014",
+      clube6: "Atlético_Mineiro",
       numero: "10",
       posicao: "Meia-atacante",
       dataNascimento: "21/03/1980",
@@ -2732,13 +3151,70 @@ function pesquisar() {
       tags: "brasil, atacante, Ronaldo Fenômeno, gold",
       imagem:
         "https://terceirotempo.uol.com.br/imagens/57/70/w500_h140_qfl_fto_15770.webp",
-      titulos:
-        "Copa do Mundo (2x), Copa América, Campeonato Espanhol, Campeonato Italiano, Campeonato Brasileiro, Copa UEFA",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_Do_Mundo_1994",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1994",
+      clube1: "Brasil",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_Do_Mundo_2002",
+      nomeTitulo2: "Copa do Mundo",
+      DataTitulo2: "2002",
+      clube2: "Brasil",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "LaLiga",
+      nomeTitulo2: "Campeonato Espanhol",
+      DataTitulo2: "1997, 2000, 2003",
+      clube3: "Real_Madrid",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Serie_A",
+      nomeTitulo4: "Campeonato Italiano",
+      DataTitulo4: "1998",
+      clube4: "Internazionale",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_Da_UEFA_1998",
+      nomeTitulo5: "Copa da UEFA",
+      DataTitulo5: "1998",
+      clube5: "Internazionale",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Campeonato_Brasileiro",
+      nomeTitulo6: "Campeonato Brasileiro",
+      DataTitulo6: "1994",
+      clube6: "Cruzeiro",
       numero: "9",
       posicao: "Atacante",
       dataNascimento: "18/09/1976",
       curiosidades:
         "Ronaldo sofreu duas graves lesões nos joelhos, mas conseguiu se recuperar e voltar a brilhar nos gramados.",
+    },
+
+    // Sócrates
+    {
+      nome: "Sócrates",
+      background: "plate",
+      descricao:
+        "Considerado um dos maiores jogadores brasileiros de todos os tempos, Sócrates era conhecido por seu talento com a bola, visão de jogo e liderança. Além de sua carreira brilhante nos gramados, ele era médico e um grande ativista político.",
+      pagina: "https://pt.wikipedia.org/wiki/S%C3%B3crates_(futebolista)", // Adapte para uma página oficial, se houver
+      clube: "Aposentado",
+      time1: "Corinthians",
+      time2: "Fiorentina",
+      time3: "Santos",
+      time4: "Flamengo",
+      nacionalidade: "Brasil",
+      tags: "brasil, meia, plate",
+      imagem:
+        "https://s2-ge.glbimg.com/ljdhSITgqpxxLYlb1bf9DeGmUjE=/0x0:683x1024/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/v/D/bLQYAbSEmBHlSlkCXvtg/gettyimages-650937640.jpg",
+      titulos: "Campeonato Paulista, Copa Libertadores",
+      numero: "8", // Número mais associado a Sócrates
+      posicao: "Meia",
+      dataNascimento: "19/02/1954",
+      curiosidades:
+        "Criador da Democracia Corinthiana, movimento que deu aos jogadores mais poder de decisão dentro do clube. Formou-se em medicina e era conhecido por sua inteligência e paixão por filosofia.",
     },
 
     // Thiago Silva
@@ -2891,13 +3367,34 @@ function pesquisar() {
       time1: "Flamengo",
       time2: "Udinese",
       time3: "Kashima_Antlers",
-      time4: "Golden",
       nacionalidade: "Brasil",
       tags: "brasil, meia, gold",
       imagem:
         "https://i.pinimg.com/474x/8a/c0/e0/8ac0e02cc7457be239b42bedef643dbf.jpg",
-      titulos:
-        "Brasileirão (1980, 1982, 1983, 1987)<br>Copa Libertadores da América (1981) - Flamengo<br>Copa Intercontinental (1981) - Flamengo<br>Campeonato Carioca (Várias vezes) - Flamengo",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Campeonato_Brasileiro",
+      nomeTitulo1: "Campeonato Brasileiro",
+      DataTitulo1: "1980, 1982 e 1983",
+      clube1: "Flamengo",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Campeonato_Carioca",
+      nomeTitulo2: "Campeonato Carioca",
+      DataTitulo2: "1972, 1974, 1978, 1979, 1981, 1986",
+      clube2: "Flamengo",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Copa_Intercontinental",
+      nomeTitulo3: "Copa Intercontinental",
+      DataTitulo3: "1981",
+      clube3: "Flamengo",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Libertadores",
+      nomeTitulo4: "Copa Libertadores",
+      DataTitulo4: "1981",
+      clube4: "Flamengo",
+
       numero: "10",
       posicao: "Meia",
       dataNascimento: "03/03/1953",
@@ -2933,7 +3430,7 @@ function pesquisar() {
 
     // CAMARÕES ---------------------------------------------------------------------------------------------------
 
-    // Eric Maxim Choupo-Moting
+    //Choupo-Moting
     {
       nome: "Choupo-Moting",
       descricao:
@@ -2951,6 +3448,31 @@ function pesquisar() {
       dataNascimento: "23/03/1989",
       curiosidades:
         "Choupo-Moting é conhecido por sua versatilidade, podendo atuar tanto como centroavante quanto como ponta de lança. Ele também é um grande fã de música.",
+    },
+
+    // Samuel Eto'o
+    {
+      nome: "Samuel Eto'o",
+      background: "plate",
+      descricao:
+        "Atacante camaronês conhecido por sua velocidade, finalização e habilidade. Eto'o conquistou diversos títulos por clubes como Barcelona, Inter de Milão e Chelsea.",
+      pagina: "https://pt.wikipedia.org/wiki/Samuel_Eto%C3%B3",
+      clube: "Aposentado",
+      time1: "Real_Madrid",
+      time4: "Barcelona",
+      time5: "Internazionale",
+      time7: "Chelsea",
+      nacionalidade: "Camarões",
+      tags: "camarões, atacante, plate",
+      imagem:
+        "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2017/05/04/590b404b6fea1.jpeg",
+      titulos:
+        "La Liga, Copa do Rei, Champions League, Serie A, Copa da Itália, Premier League",
+      numero: "9", // Número mais associado a atacantes
+      posicao: "Atacante",
+      dataNascimento: "10/03/1981",
+      curiosidades:
+        "Eto'o é um dos maiores artilheiros da história da Champions League e da seleção camaronesa. Ele é conhecido por sua comemoração característica, imitando um gorila.",
     },
 
     // CANADÁ -----------------------------------------------------------------------------------------------------
@@ -3477,7 +3999,41 @@ function pesquisar() {
       tags: "argentina, espanha, atacante, Alfredo Di Stefano, gold",
       imagem:
         "https://upload.wikimedia.org/wikipedia/commons/b/bb/Mcu_Alfredo_Di_Stefano.jpg",
-      titulos: "La Liga, Copa dos Campeões, Bola de Ouro",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Champions_League",
+      nomeTitulo1: "Taça dos Campeões Europeus",
+      DataTitulo1: "1956, 1957, 1958, 1959 e 1960",
+      clube1: "Real_Madrid",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Liga_Profesional_de_Fútbol_de_Argentina",
+      nomeTitulo2: "Campeonato Argentino",
+      DataTitulo2: "1945, 1947",
+      clube2: "River_Plate",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Copa_Intercontinental",
+      nomeTitulo3: "Copa Intercontinental",
+      DataTitulo3: "1960",
+      clube3: "Real_Madrid",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_América_1947",
+      nomeTitulo4: "Copa América",
+      DataTitulo4: "1947",
+      clube4: "Argentina",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_del_Rey",
+      nomeTitulo5: "Copa del Rey",
+      DataTitulo5: "1962",
+      clube5: "Real_Madrid",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "LaLiga",
+      nomeTitulo6: "Campeonato Espanhol",
+      DataTitulo6: "1953, 1954, 1956, 1957, 1960, 1961, 1962 e 1963",
+      clube6: "Real_Madrid",
       numero: "9",
       posicao: "Atacante",
       dataNascimento: "04/07/1926",
@@ -4135,7 +4691,6 @@ function pesquisar() {
       time1: "Nancy",
       time2: "Saint-Étienne",
       time3: "Juventus",
-      time4: "Golden",
       nacionalidade: "França",
       tags: "frança, meia, gold",
       imagem:
@@ -4350,6 +4905,65 @@ function pesquisar() {
         "Considerado um dos maiores goleiros da história. Foi fundamental para a conquista da Champions League com o Ajax e o Manchester United.",
     },
 
+    // Frank Rijkaard
+    {
+      nome: "Frank Rijkaard",
+      background: "plate",
+      descricao:
+        "Frank Rijkaard foi um dos maiores jogadores de futebol da Holanda. Ele era conhecido por sua habilidade técnica, visão de jogo e liderança em campo. Rijkaard era um jogador versátil, capaz de atuar tanto na defesa quanto no meio-campo.",
+      pagina: "https://pt.wikipedia.org/wiki/Frank_Rijkaard", // Link para a página na Wikipédia
+      clube: "Aposentado",
+      time4: "Ajax",
+      time3: "Sporting",
+      time2: "Real_Madrid",
+      time1: "AC_Milan",
+      nacionalidade: "Holanda",
+      tags: "holanda, meia, plate",
+      imagem:
+        "https://media.gettyimages.com/id/1240922183/pt/foto/09-december-1992-eindhoven-champions-league-psv-v-ac-milan-frank-rijkaard-of-ac-milan.jpg?s=612x612&w=gi&k=20&c=jmEHF7lacRKl5COcMV9v8aUNKMlAvT_Y6Zp5J8V7d6w=",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Eredivisie",
+      nomeTitulo1: "Campeonato Holandês",
+      DataTitulo1: "1982, 1983, 1985, 1994, 1995",
+      clube1: "Ajax",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Supercopa_da_Itália",
+      nomeTitulo2: "Supercopa da Itália",
+      DataTitulo2: "1988, 1992",
+      clube2: "Ajax",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Serie_A",
+      nomeTitulo3: "Campeonato Italiano",
+      DataTitulo3: "1992, 1993",
+      clube3: "AC_Milan",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Champions_League",
+      nomeTitulo4: "Champions League",
+      DataTitulo4: "1989, 1990",
+      clube4: "AC_Milan",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Supercopa_da_UEFA",
+      nomeTitulo5: "Supercopa da Europa",
+      DataTitulo5: "1989",
+      clube5: "AC_Milan",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_Intercontinental",
+      nomeTitulo6: "Copa Intercontinental",
+      DataTitulo6: "1989, 1990",
+      clube6: "AC_Milan",
+
+      numero: "6", // Número tradicionalmente associado a ele
+      posicao: "Meio-campo",
+      dataNascimento: "30 de setembro de 1962",
+      curiosidades:
+        "Frank Rijkaard foi um dos pilares da seleção holandesa que chegou à final da Copa do Mundo de 1988. Além de jogador, também teve sucesso como treinador, conquistando títulos importantes com o Barcelona.",
+    },
+
     // Johan Cruyff
     {
       nome: "Johan Cruyff",
@@ -4367,13 +4981,60 @@ function pesquisar() {
       tags: "holanda, cruyff, meia, gold",
       imagem:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Johan_Cruyff_1974c.jpg/1200px-Johan_Cruyff_1974c.jpg",
-      titulos:
-        "Liga dos Campeões da UEFA (3x) - Ajax, Barcelona<br> Campeonato Holandês (8x) - Ajax<br> Campeonato Espanhol (4x) - Barcelona <br> Bola de Ouro (3x)",
+
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Eredivisie",
+      nomeTitulo1: "Campeonato Holandês",
+      DataTitulo1: "1966, 1967, 1968, 1970, 1972, 1973",
+      clube1: "Ajax",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "LaLiga",
+      nomeTitulo2: "Campeonato Espanhol",
+      DataTitulo2: "1974, 1975",
+      clube2: "Barcelona",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Copa_del_Rey",
+      nomeTitulo3: "Copa do Rei",
+      DataTitulo3: "1978",
+      clube3: "Barcelona",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Bola_de_Ouro",
+      nomeTitulo4: "Bola de Ouro",
+      DataTitulo4: "1971, 1973",
+      clube4: "Individual",
+
       numero: "14",
       posicao: "Meia-atacante",
       dataNascimento: "25/04/1947",
       curiosidades:
         "Cruyff é conhecido por sua personalidade forte e suas declarações polêmicas.",
+    },
+
+    // Koeman
+    {
+      nome: "Koeman",
+      descricao:
+        "Zagueiro holandês conhecido por sua forte chute e habilidade para marcar gols. Foi um dos principais jogadores da seleção holandesa nos anos 80 e 90, e conquistou diversos títulos como jogador e treinador.",
+      pagina:
+        "https://www.instagram.com/ronaldkoemanofficial/  // (Verificar se existe uma conta oficial)",
+      clube: "Aposentado (1997)",
+      time1: "Ajax",
+      time2: "PSV Eindhoven",
+      time3: "Barcelona",
+      time4: "Feyenoord",
+      nacionalidade: "Holanda",
+      tags: "Holanda, zagueiro",
+      imagem:
+        "https://imortaisdofutebol.com/wp-content/uploads/2014/09/koeman-home.jpg",
+      titulos: "Eredivisie, Copa da Holanda, Copa dos Campeões da Europa",
+      numero: "4",
+      posicao: "Zagueiro",
+      dataNascimento: "21/03/1963",
+      curiosidades:
+        "Koeman é um dos poucos jogadores a ter jogado nos três grandes clubes da Holanda: Ajax, PSV e Feyenoord.",
     },
 
     // Memphis Depay
@@ -4430,10 +5091,8 @@ function pesquisar() {
       pagina:
         "https://www.instagram.com/marcovanbasten/" /* Verificar se existe */,
       clube: "Aposentado (1995)",
-      time1: "Milan",
+      time1: "AC_Milan",
       time2: "Ajax",
-      time3: "Golden",
-      time4: "Golden",
       nacionalidade: "Holanda",
       tags: "holanda, atacante, gold",
       imagem:
@@ -4445,6 +5104,30 @@ function pesquisar() {
       dataNascimento: "31/10/1964",
       curiosidades:
         "Van Basten foi eleito três vezes o melhor jogador do mundo pela FIFA. Infelizmente, sua carreira foi abreviada por diversas lesões.",
+    },
+
+    // Van Persie
+    {
+      nome: "Van Persie",
+      background: "plate",
+      descricao:
+        "Atacante holandês conhecido por sua habilidade técnica, chutes precisos e cabeçadas poderosas. Van Persie marcou época em clubes como Arsenal e Manchester United.",
+      pagina: "https://www.instagram.com/robinvanpersie/",
+      clube: "Aposentado",
+      time1: "Feyenoord",
+      time2: "Arsenal",
+      time3: "Manchester_United",
+      time4: "Fenerbahçe",
+      nacionalidade: "Holanda",
+      tags: "Holanda, atacante, plate",
+      imagem:
+        "https://upload.wikimedia.org/wikipedia/commons/6/65/Loco-Fener_%2810%29.jpg",
+      titulos: "Premier League, FA Cup, Copa da Holanda",
+      numero: "10",
+      posicao: "Atacante",
+      dataNascimento: "06/08/1983",
+      curiosidades:
+        "Van Persie é famoso por seu gol de voleio contra a Espanha na Copa do Mundo de 2014.",
     },
 
     //Virgil Van Dijk
@@ -4480,8 +5163,6 @@ function pesquisar() {
       clube: "Aposentado (1966)",
       time1: "Honvéd_Budapest",
       time2: "Real_Madrid",
-      time3: "Golden",
-      time4: "Golden",
       nacionalidade: "Hungria",
       tags: "hungria, atacante, gold",
       imagem:
@@ -4527,7 +5208,6 @@ function pesquisar() {
       time1: "Waterford_United",
       time2: "Preston_North_End",
       time3: "Manchester_United",
-      time4: "Golden",
       nacionalidade: "Inglaterra",
       tags: "inglaterra, meia, gold",
       imagem:
@@ -4544,13 +5224,14 @@ function pesquisar() {
     //Bukayo Saka
     {
       nome: "Bukayo Saka",
+      background: "promise",
       descricao:
         "Um dos jovens mais promissores do futebol inglês, conhecido por sua habilidade nas duas pernas, dribles rápidos e visão de jogo. É peça fundamental no Arsenal e na seleção inglesa.",
       pagina: "https://www.instagram.com/bukayosaka87/",
       time: "Arsenal",
       nacionalidade: "Inglaterra",
       alt: "Inglaterra",
-      tags: "inglaterra, arsenal, ponta",
+      tags: "inglaterra, arsenal, ponta, promise",
       imagem:
         "https://conteudo.imguol.com.br/c/entretenimento/d5/2022/11/21/saka-comemora-gol-inglaterra-e-ira-1669042593393_v2_3x4.jpg", // Trocar por uma imagem do Bukayo Saka
       titulos:
@@ -4560,6 +5241,28 @@ function pesquisar() {
       dataNascimento: "05/09/2001",
       curiosidades:
         "Começou sua carreira nas categorias de base do Arsenal e rapidamente se tornou um dos principais jogadores do time. É conhecido por sua personalidade tranquila e focada.",
+    },
+
+    // Cole Palmer
+    {
+      nome: "Cole Palmer",
+      background: "promise",
+      descricao:
+        "Meio-campista inglês com grande potencial, conhecido por sua habilidade técnica e dribles rápidos. É considerado uma das maiores promessas do futebol inglês.",
+      pagina: "https://www.instagram.com/colepalmer/", // Verificar se existe perfil oficial
+      clube: "Chelsea",
+      time1: "Chelsea",
+      time2: "Manchester_City",
+      nacionalidade: "Inglaterra",
+      tags: "Inglaterra, meia, Chelsea, cold, promise",
+      imagem:
+        "https://daf17zziboaju.cloudfront.net/wp-content/uploads/2024/03/30173508/Cole-Palmer.jpg",
+      titulos: "Premier League (com Manchester City)",
+      numero: "20", // Atualizado em dezembro de 2024
+      posicao: "Meio-campista",
+      dataNascimento: "06/05/2002",
+      curiosidades:
+        "Palmer é conhecido por sua comemoração única, que viralizou nas redes sociais.",
     },
 
     // David Beckham
@@ -4624,6 +5327,29 @@ function pesquisar() {
         "Alli iniciou sua carreira no MK Dons e rapidamente se tornou um dos jovens talentos mais promissores do futebol inglês.",
     },
 
+    // Ferdinand
+    {
+      nome: "Ferdinand",
+      descricao:
+        "Zagueiro inglês conhecido por sua elegância, força física e liderança. Ferdinand foi um dos pilares da defesa do Manchester United e da seleção inglesa.",
+      pagina: "https://pt.wikipedia.org/wiki/Rio_Ferdinand",
+      clube: "Aposentado",
+      time3: "West_Ham",
+      time2: "Leeds_United",
+      time1: "Manchester_United",
+      nacionalidade: "Inglaterra",
+      tags: "inglês, zagueiro",
+      imagem:
+        "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2016/05/30/574c95c0bc79d.jpeg",
+      titulos:
+        "Premier League, FA Cup, UEFA Champions League, Copa da Inglaterra",
+      numero: "5", // Número mais associado a Ferdinand no Manchester United
+      posicao: "Zagueiro",
+      dataNascimento: "07/11/1978",
+      curiosidades:
+        "Ferdinand foi capitão do Manchester United e da seleção inglesa. Ele é conhecido por sua capacidade de ler o jogo e por sua elegância nos desarmes.",
+    },
+
     // Harry Kane
     {
       nome: "Harry Kane",
@@ -4667,7 +5393,7 @@ function pesquisar() {
       nome: "Jude Bellingham",
       background: "promise",
       descricao:
-        "Meio-campista inglês com grande potencial, Bellingham se destaca por sua força física, habilidade técnica e visão de jogo. Atualmente joga no Borussia Dortmund.",
+        "Meio-campista inglês com grande potencial, Bellingham se destaca por sua força física, habilidade técnica e visão de jogo. Atualmente joga no Real Madrid.",
       pagina: "https://www.instagram.com/judebellingham/",
       clube: "Real Madrid",
       time1: "Real Madrid",
@@ -4707,6 +5433,29 @@ function pesquisar() {
         "Começou sua carreira no Sheffield United e já defendeu a seleção inglesa em diversas competições.",
     },
 
+    // Lampard
+    {
+      nome: "Lampard",
+      background: "plate",
+      descricao:
+        "Meio-campista inglês conhecido por seus gols de longa distância e visão de jogo. Ídolo do Chelsea, Lampard é considerado um dos maiores jogadores da história da Premier League.",
+      pagina: "https://www.instagram.com/franklampard/",
+      clube: "Aposentado",
+      time1: "West_Ham",
+      time2: "Chelsea",
+      time3: "Manchester_City",
+      time4: "New_York_City",
+      nacionalidade: "Inglaterra",
+      tags: "Inglaterra, meia, plate",
+      imagem:
+        "https://static.wixstatic.com/media/aa1fd2_5f2f6bdc599f4bb7bd4d77b9d2998999~mv2.jpg/v1/fill/w_461,h_713,al_c,lg_1,q_80/aa1fd2_5f2f6bdc599f4bb7bd4d77b9d2998999~mv2.jpg",
+      titulos: "Premier League, FA Cup, Liga dos Campeões da UEFA",
+      numero: "8",
+      posicao: "Meio-campista",
+      dataNascimento: "20/06/1978",
+      curiosidades: "Lampard é o maior artilheiro da história do Chelsea.",
+    },
+
     // Michael Owen
     {
       nome: "Michael Owen",
@@ -4732,13 +5481,14 @@ function pesquisar() {
     //Phil Foden
     {
       nome: "Phil Foden",
+      background: "promise",
       descricao:
         "Um dos jovens talentos mais brilhantes do futebol inglês, conhecido por sua habilidade com a bola, visão de jogo e dribles incríveis. É considerado uma das maiores promessas do Manchester City.",
       pagina: "https://www.instagram.com/philfoden/", // Ajustar se necessário
       time: "Manchester City FC",
       nacionalidade: "Inglaterra",
       alt: "Inglaterra",
-      tags: "inglaterra, manchester city, Ponta Direita, meia",
+      tags: "inglaterra, manchester city, Ponta Direita, meia, promise",
       imagem:
         "https://www.shutterstock.com/editorial/image-editorial/M0TcMd06NfzcAb52MzIyNjk=/phil-foden-manchester-city-440nw-13355492em.jpg", // Trocar por uma imagem do Phil Foden
       titulos: "Premier League, Copa da Liga Inglesa",
@@ -4792,15 +5542,14 @@ function pesquisar() {
     // Steven Gerrard
     {
       nome: "Steven Gerrard",
+      background: "plate",
       descricao:
         "Meio-campista lendário, Gerrard é considerado um dos maiores jogadores da história do Liverpool. Conhecido por sua liderança e gols decisivos, ele é um ídolo para a torcida dos Reds.",
       pagina: "https://www.instagram.com/stevengerrard/", // Verifique o perfil oficial
       time1: "Los_Angeles_Galaxy",
       time2: "Liverpool",
-      time3: "Vazio",
-      time4: "Vazio",
       nacionalidade: "Inglaterra",
-      tags: "meia, Inglaterra, guerrard",
+      tags: "meia, Inglaterra, guerrard, plate",
       imagem:
         "https://www.imortaisdofutebol.com/wp-content/uploads/2020/04/g219387_u90838_England-Steven-Gerrard-.jpg",
       titulos:
@@ -4904,7 +5653,7 @@ function pesquisar() {
       nacionalidade: "Italia",
       tags: "meia, Itália, plate",
       imagem:
-        "https://sportsmatik.com/uploads/world-events/players/andrea-pirlo_1564485467.jpg",
+        "https://lendasdofutebol.com/wp-content/uploads/2021/05/andrea-pirlo-na-juventus-1-optimized.jpg",
       titulos:
         "Serie A, Copa da Itália, Supercopa Italiana, Liga dos Campeões, Copa do Mundo, Eurocopa",
       numero: "21",
@@ -4912,6 +5661,31 @@ function pesquisar() {
       dataNascimento: "19/05/1979",
       curiosidades:
         "Pirlo era conhecido por sua famosa execução de faltas, com a bola girando no ar. Ele também era um grande fã de vinho e um apreciador de arte.",
+    },
+
+    // Baggio
+    {
+      nome: "Roberto Baggio",
+      background: "plate",
+      descricao:
+        "Considerado um dos maiores jogadores de futebol de todos os tempos, Roberto Baggio era conhecido por sua habilidade técnica, visão de jogo e chute preciso. Sua carreira foi marcada por momentos de glória e polêmicas, como o pênalti perdido na final da Copa do Mundo de 1994.",
+      pagina:
+        "https://www.instagram.com/robertobaggioofficial/  // (Verificar se existe uma conta oficial)",
+      clube: "Aposentado (2004)",
+      time1: "Juventus",
+      time2: "Internazionale",
+      time3: "Milan",
+      time4: "Bologna",
+      nacionalidade: "Itália",
+      tags: "Itália, atacante, plate",
+      imagem:
+        "https://calciopedia.com.br/wp-content/uploads/2010/03/16928401-scaled.jpg",
+      titulos: "Serie A, Copa da Itália, Copa UEFA",
+      numero: "10",
+      posicao: "Atacante",
+      dataNascimento: "18/02/1967",
+      curiosidades:
+        "Baggio era conhecido por sua famosa comemoração de gol, com os braços cruzados sobre a cabeça.",
     },
 
     // Barella
@@ -4958,6 +5732,31 @@ function pesquisar() {
         "Cannavaro foi o primeiro defensor a ganhar a Bola de Ouro, em 2006. Ele também é conhecido por sua rivalidade com o atacante Adriano.",
     },
 
+    // Chiellini
+    {
+      nome: "Chiellini",
+      background: "plate",
+      descricao:
+        "Zagueiro italiano conhecido por sua força física, liderança e experiência. Chiellini foi um dos pilares da defesa da Juventus e da seleção italiana por muitos anos.",
+      pagina: "https://pt.wikipedia.org/wiki/Giorgio_Chiellini",
+      clube: "Aposentado",
+      time1: "Livorno",
+      time2: "Fiorentina",
+      time3: "Juventus",
+      time4: "Los_Angeles_FC",
+      nacionalidade: "Itália",
+      tags: "italiano, zagueiro, plate",
+      imagem:
+        "https://conteudo.imguol.com.br/c/esporte/e5/2021/10/11/zagueiro-chiellini-em-partida-da-italia-1633994226763_v2_3x4.jpg",
+      titulos:
+        "Serie A, Coppa Italia, Supercopa Italiana, Champions League, Eurocopa",
+      numero: "3", // Número mais associado a Chiellini na Juventus
+      posicao: "Zagueiro",
+      dataNascimento: "14/08/1984",
+      curiosidades:
+        "Chiellini é considerado um dos melhores zagueiros da sua geração. Ele é conhecido por sua marcação forte e por sua capacidade de liderar a defesa.",
+    },
+
     // Ciro Immobile
     {
       nome: "Ciro Immobile",
@@ -4997,6 +5796,26 @@ function pesquisar() {
       dataNascimento: 25 / 10 / 1997,
       curiosidades:
         "Chiesa é filho do ex-jogador Enrico Chiesa e já conquistou a Eurocopa com a seleção italiana.",
+    },
+
+    // Franco Baresi
+    {
+      nome: "Franco Baresi",
+      background: "gold",
+      descricao:
+        "Zagueiro italiano conhecido por sua liderança, elegância e técnica impecável. Ídolo do Milan, Baresi é considerado um dos maiores defensores da história do futebol.",
+      pagina: "https://www.instagram.com/francobaresi/", // Verificar se existe perfil oficial
+      clube: "Aposentado",
+      time1: "AC_Milan",
+      nacionalidade: "Itália",
+      tags: "Itália, zagueiro, gold",
+      imagem:
+        "https://terceirotempo.uol.com.br/imagens/36/15/w359_h550_arq_103615.webp",
+      titulos: "Serie A, Copa dos Campeões da Europa, Copa Intercontinental",
+      numero: "6",
+      posicao: "Zagueiro",
+      dataNascimento: "08/05/1960",
+      curiosidades: "Baresi nunca foi expulso em sua carreira profissional.",
     },
 
     // Gattuso
@@ -5063,6 +5882,32 @@ function pesquisar() {
       dataNascimento: "25/02/1999",
       curiosidades:
         "Donnarumma foi o goleiro mais jovem a jogar pela seleção italiana em uma grande competição.",
+    },
+
+    // Giuseppe Meazza
+    {
+      nome: "Giuseppe Meazza",
+      background: "gold",
+      descricao:
+        "Atacante italiano considerado um dos maiores jogadores de todos os tempos. Conhecido por sua habilidade técnica e gols decisivos, Meazza foi ídolo em Inter e Milan.",
+      pagina:
+        "https://www.instagram.com/giuseppemeazzaofficial/  // (Verificar se existe uma conta oficial)",
+      clube: "Aposentado",
+      time1: "Inter de Milão",
+      time2: "AC_Milan",
+      time3: "Juventus",
+      time4: "Atalanta",
+      nacionalidade: "Itália",
+      tags: "Itália, atacante, gold",
+      imagem:
+        "https://upload.wikimedia.org/wikipedia/commons/1/19/Giuseppe_Meazza_1935.jpg",
+      titulos: "Serie A, Copa da Itália",
+      numero: "9",
+      posicao: "Atacante",
+      dataNascimento: "23/08/1910",
+      dataFalecimento: "21/08/1979",
+      curiosidades:
+        "O estádio San Siro, em Milão, também é conhecido como Estádio Giuseppe Meazza em homenagem ao jogador.",
     },
 
     // Leonardo Bonucci
@@ -5227,6 +6072,27 @@ function pesquisar() {
       dataNascimento: "16 de julho de 1989",
       curiosidades:
         "Bale é conhecido por sua comemoração fazendo um coração com as mãos.",
+    },
+
+    // Giggs
+    {
+      nome: "Giggs",
+      nomeCompleto: "Ryan Joseph Giggs",
+      descricao:
+        "Meia-atacante galês conhecido por sua habilidade, versatilidade e longevidade. Giggs é um dos maiores ídolos do Manchester United, tendo passado toda a sua carreira profissional no clube.",
+      pagina: "https://pt.wikipedia.org/wiki/Ryan_Giggs",
+      clube: "Aposentado",
+      time1: "Manchester_United",
+      nacionalidade: "País_de_Gales",
+      tags: "País de Gales, meia",
+      imagem:
+        "https://entreonadaeoinfinito.wordpress.com/wp-content/uploads/2013/03/gigs.jpg",
+      titulos: "Premier League, FA Cup, UEFA Champions League",
+      numero: "11", // Número mais associado a Giggs
+      posicao: "Meia-atacante",
+      dataNascimento: "29/11/1973",
+      curiosidades:
+        "Giggs é o jogador que mais vezes vestiu a camisa do Manchester United. Ele é conhecido por seus dribles rápidos, passes precisos e chutes potentes.",
     },
 
     //POLÔNIA---------------------------------------------------------------------------------------------------
@@ -5395,13 +6261,52 @@ function pesquisar() {
       tags: "portugal, al nassr, Al-Nassr FC, gold",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/cc/2024/08/22/cristiano-ronaldo-comemora-gol-do-al-nassr-diante-do-al-raed-em-jogo-do-campeonato-saudita-1724354605510_v2_3x4.jpg",
-      titulos:
-        "liga dos campeões <br> premier league <br> la liga <br> eurocopa",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Champions_League",
+      nomeTitulo1: "Champions League",
+      DataTitulo1: "2008, 2014, 2016, 2017, 2018",
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Euro_2016",
+      nomeTitulo2: "Euro",
+      DataTitulo2: "2016",
+      // TITULO 3 ----------------------------
+      imgTitulo3: "LaLiga",
+      nomeTitulo3: "La Liga",
+      DataTitulo3: "2012, 2017, 2018, 2019, 2020",
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Premier_League",
+      nomeTitulo4: "Premier League",
+      DataTitulo4: "2007, 2008, 2009",
+      // ... outros títulos ...
       numero: "7",
       posicao: "Atacante",
       dataNascimento: "05/02/1985",
       curiosidades:
         "Cristiano Ronaldo é conhecido por sua dedicação aos treinos e sua rotina de cuidados com o corpo. Ele também é um grande filantropo e utiliza sua fama para ajudar pessoas necessitadas.",
+    },
+
+    // Deco
+    {
+      nome: "Deco",
+      descricao:
+        "Meia brasileiro naturalizado português, conhecido por sua habilidade técnica, visão de jogo e passes precisos. Deco foi um dos principais jogadores da geração de ouro do futebol português.",
+      pagina: "https://pt.wikipedia.org/wiki/Deco",
+      clube: "Diretor Esportivo do Barcelona",
+      time1: "Porto",
+      time2: "Barcelona",
+      time3: "Chelsea",
+      time4: "Fluminense",
+      nacionalidade: "Brasileiro/Português",
+      tags: "portugal, brasil, meia",
+      imagem:
+        "https://conteudo.imguol.com.br/c/esporte/1b/2020/05/24/deco-em-acao-pela-selecao-de-portugal-1590327621343_v2_4x3.jpg",
+      titulos:
+        "Liga dos Campeões da UEFA, Premier League, La Liga, Copa da Uefa",
+      numero: "20", // Número mais associado a Deco no Porto
+      posicao: "Meia",
+      dataNascimento: "27/08/1977",
+      curiosidades:
+        "Considerado um dos melhores meias da sua geração, Deco foi fundamental para os títulos do Porto e da Seleção Portuguesa. É conhecido por sua elegância em campo e por ter sido um dos principais articuladores de jogo de suas equipes.",
     },
 
     // Eusébio
@@ -5415,7 +6320,6 @@ function pesquisar() {
       time1: "Beira-Mar",
       time2: "Benfica",
       time3: "CD_Maxaquene_Maputo",
-      time4: "Golden",
       nacionalidade: "Portugal",
       alt: "Portugal",
       tags: "portugal, atacante, eusebio, gold",
@@ -5501,6 +6405,28 @@ function pesquisar() {
 
     // REPÚBLICA TCHECA --------------------------------------------------------------------------------------
 
+    // Pavel Nedvěd
+    {
+      nome: "Pavel Nedvěd",
+      descricao:
+        "Meia tcheco conhecido por sua força física, técnica apurada e chutes potentes. Nedvěd foi um dos principais jogadores da Juventus na década de 2000, conquistando diversos títulos, incluindo a Champions League.",
+      pagina: "https://pt.wikipedia.org/wiki/Pavel_Nedvěd",
+      clube: "Aposentado",
+      time1: "Sparta Praga",
+      time2: "Lazio",
+      time3: "Juventus",
+      nacionalidade: "República-Tcheca",
+      tags: "República Tcheca, meia,",
+      imagem:
+        "https://imortaisdofutebol.com/wp-content/uploads/2014/09/photo.jpg",
+      titulos: "Serie A, Coppa Italia, Supercopa Italiana, Champions League",
+      numero: "7",
+      posicao: "Meia",
+      dataNascimento: "30/08/1972",
+      curiosidades:
+        "Nedvěd foi eleito o melhor jogador da Europa em 2003 e ganhou o apelido de 'Capocannoniere' por seus gols espetaculares. Ele era conhecido por sua liderança em campo e por sua paixão pelo futebol.",
+    },
+
     // Peter Čech
     {
       nome: "Petr Čech",
@@ -5508,8 +6434,7 @@ function pesquisar() {
         "Um dos goleiros mais icônicos da Premier League, conhecido por suas defesas espetaculares e pelo capacete que usava após uma lesão na cabeça. Defendeu as cores de grandes clubes como Chelsea e Arsenal.",
       pagina: "http://www.petercech.com/",
       time: "Aposentado (2020)",
-      nacionalidade:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/255px-Flag_of_the_Czech_Republic.svg.png",
+      nacionalidade: "República-Tcheca",
       alt: "República Tcheca",
       tags: "goleiro, República Tcheca, peter, cech",
       imagem:
@@ -5534,9 +6459,6 @@ function pesquisar() {
       pagina: "https://pt.wikipedia.org/wiki/Lev_Yashin", // Página da Wikipédia com informações sobre Yashin
       clube: "Aposentado (1971)",
       time1: "Dínamo_Moscou",
-      time2: "Golden",
-      time3: "Golden",
-      time4: "Golden",
       nacionalidade: "Rússia",
       tags: "goleiro, yashin, russia, rússia, gold",
       imagem:
@@ -5850,7 +6772,10 @@ function pesquisar() {
       // Cria um novo elemento
       resultados += `
       <div class="item-resultado" id="${dado.background}">
-        <img class="dado-imagem" src="${dado.imagem}" alt="">
+        <div class="div-superior">
+          <div class="div-left">
+              <img class="dado-imagem" src="${dado.imagem}" alt="">
+          </div>
           <div class="div-info">
             <div class="numero-nome-time">
               <h2 class="numero" >${dado.numero}</h2>
@@ -5866,14 +6791,58 @@ function pesquisar() {
             <img class="clubes" src="./img/Logo_${dado.time4}.png" alt="">
             <h3>Posição</h3>
             <p id="info">${dado.posicao}</p>
-            <h3>Principais títulos</h3>
-            <p id="info">${dado.titulos}</p>
             <h3>Nascimento</h3>
             <p id="info">${dado.dataNascimento}</p>
             <h3>Curiosidades</h3>
             <p id="info">${dado.curiosidades}</p>
+            <p class="descricao-meta">${dado.descricao}</p>
           </div>
-        <p class="descricao-meta">${dado.descricao}</p>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="4">Principais Títulos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="div-titulos">
+              <td class="item-titulo"><img class="campeonato" src="./img/Logo_${dado.imgTitulo1}.png" alt=""></td>
+              <td class="item-titulo">${dado.nomeTitulo1}</td>
+              <td class="item-titulo">${dado.DataTitulo1}</td>
+              <td class="item-titulo"><img class="clubes" src="./img/Logo_${dado.clube1}.png" alt=""></td>
+            </tr>
+            <tr class="div-titulos">
+              <td class="item-titulo"><img class="campeonato" src="./img/Logo_${dado.imgTitulo2}.png" alt=""></td>
+              <td class="item-titulo">${dado.nomeTitulo2}</td>
+              <td class="item-titulo">${dado.DataTitulo2}</td>
+              <td class="item-titulo"><img class="clubes" src="./img/Logo_${dado.clube2}.png" alt=""></td>
+            </tr>
+            <tr class="div-titulos">
+              <td class="item-titulo"><img class="campeonato" src="./img/Logo_${dado.imgTitulo3}.png" alt=""></td>
+              <td class="item-titulo">${dado.nomeTitulo3}</td>
+              <td class="item-titulo">${dado.DataTitulo3}</td>
+              <td class="item-titulo"><img class="clubes" src="./img/Logo_${dado.clube3}.png" alt=""></td>
+            </tr>
+            <tr class="div-titulos">
+              <td class="item-titulo"><img class="campeonato" src="./img/Logo_${dado.imgTitulo4}.png" alt=""></td>
+              <td class="item-titulo">${dado.nomeTitulo4}</td>
+              <td class="item-titulo">${dado.DataTitulo4}</td>
+              <td class="item-titulo"><img class="clubes" src="./img/Logo_${dado.clube4}.png" alt=""></td>
+            </tr>
+            <tr class="div-titulos">
+              <td class="item-titulo"><img class="campeonato" src="./img/Logo_${dado.imgTitulo5}.png" alt=""></td>
+              <td class="item-titulo">${dado.nomeTitulo5}</td>
+              <td class="item-titulo">${dado.DataTitulo5}</td>
+              <td class="item-titulo"><img class="clubes" src="./img/Logo_${dado.clube5}.png" alt=""></td>
+            </tr>
+            <tr class="div-titulos">
+              <td class="item-titulo"><img class="campeonato" src="./img/Logo_${dado.imgTitulo6}.png" alt=""></td>
+              <td class="item-titulo">${dado.nomeTitulo6}</td>
+              <td class="item-titulo">${dado.DataTitulo6}</td>
+              <td class="item-titulo"><img class="clubes" src="./img/Logo_${dado.clube6}.png" alt=""></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
   `;
     }

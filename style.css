@@ -21,7 +21,7 @@
 /*ESTILIZAÇÃO DO CABEÇALHO DA PÁGINA /////////////////////////////////////////////////////////*/
 header {
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   text-align: center;
 }
 
@@ -93,7 +93,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  height: 620px;
+  height: 100vh;
   overflow-y: auto;
 }
 
@@ -125,11 +125,11 @@ ul {
   padding: 2rem;
   margin-bottom: 1rem;
   display: flex;
+  flex-direction: column;
   align-items: start;
   justify-content: center;
-  width: 54rem;
-  max-height: 40rem;
-  flex-wrap: wrap;
+  width: 55vw;
+  gap: 1rem;
 }
 .item-resultado-selecao {
   background-image: url(./img/Fundo_resultado-selecao.png);
@@ -232,9 +232,20 @@ ul {
   width: 50px;
 }
 
+.campeonato {
+  object-fit: cover;
+  max-height: 50px;
+  max-width: 80px;
+}
+
 .clubes {
   height: 35px;
   padding-inline: 5px;
+}
+
+.div-superior {
+  display: flex;
+  flex-direction: row;
 }
 
 .div-info {
@@ -243,7 +254,44 @@ ul {
   font-style: normal;
   text-align: start;
   font-size: 1rem;
+  flex: 2;
+}
+
+.div-left {
+  font-family: "Architects Daughter", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: start;
+  font-size: 1rem;
   flex: 1;
+}
+
+table {
+  width: 100%;
+  padding-top: 80px;
+  margin: 0;
+  background-image: url(./img/Fundo_tabela.png);
+  background-size: cover;
+}
+
+.div-titulos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: space-between;
+}
+
+th {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.item-titulo {
+  display: grid;
+  grid-area: auto;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
 }
 
 #info {
@@ -397,6 +445,26 @@ footer {
     color: #595959;
   }
 
+  .div-superior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-titulos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: space-between;
+  }
+
+  th {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+  }
+
   #p-resultados {
     padding-top: 50px;
     color: #fff;
@@ -431,6 +499,14 @@ footer {
     height: inherit;
     max-height: inherit;
     background-image: url(./img/Fundo_resultado-mobile.png);
+  }
+
+  table {
+    width: 100%;
+    padding-top: 80px;
+    font-size: 0.8rem;
+    background-image: url(./img/Fundo_tabela-mobile.png);
+    background-size: cover;
   }
 
   .dado-imgMarca {
