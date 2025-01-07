@@ -164,20 +164,19 @@ ul {
   color: #323232;
 }
 
-.dado-imgMarca {
-  background-size: cover;
-  width: 150px;
-  top: 30px;
-  right: 80px;
-  rotate: 30deg;
-}
-
 .dado-imagem {
   object-fit: cover;
   width: 300px;
   height: 400px;
   margin: 15px 30px 60px 0px;
   text-align: center;
+}
+
+.dado_imgMarca {
+  bottom: 87px;
+  right: 30px;
+  height: 240px;
+  position: absolute;
 }
 
 .dado-imagem-selecao {
@@ -258,6 +257,7 @@ ul {
 }
 
 .div-left {
+  position: relative;
   font-family: "Architects Daughter", serif;
   font-weight: 400;
   font-style: normal;
@@ -476,6 +476,7 @@ footer {
   }
 
   .item-resultado {
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -509,10 +510,21 @@ footer {
     background-size: cover;
   }
 
-  .dado-imgMarca {
-    background-size: cover;
-    width: 100px;
-    rotate: 0deg;
+  .item-titulo {
+    display: grid;
+    grid-area: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    height: auto;
+  }
+
+  .dado_imgMarca {
+    top: 150px;
+    right: 40px;
+    max-height: 230px;
+    max-width: 200px;
+    position: absolute;
   }
 
   .dado-imagem {
@@ -523,8 +535,7 @@ footer {
   }
 
   .numero-nome-time {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
     align-items: center;
     margin-bottom: 20px;
 

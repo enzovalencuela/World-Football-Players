@@ -73,6 +73,7 @@ function pesquisar() {
     {
       nome: "Franz Beckenbauer",
       background: "gold",
+      imgMarca: "Franz_Beckenbauer",
       descricao:
         "Considerado um dos maiores defensores de todos os tempos, Franz Beckenbauer, o 'Kaiser', era conhecido por sua elegância em campo, visão de jogo e habilidade com a bola. Sua liderança e títulos conquistados o tornaram um dos maiores ídolos do futebol alemão.",
       pagina: "https://www.instagram.com/franzbeckenbauer/",
@@ -126,6 +127,7 @@ function pesquisar() {
     {
       nome: "Gerd Müller",
       background: "gold",
+      imgMarca: "Gerd_Müller",
       descricao:
         "Atacante alemão considerado um dos maiores goleadores da história do futebol. Müller era conhecido por sua precisão nos chutes, faro de gol e instinto assassino dentro da área, sendo fundamental para os títulos do Bayern de Munique e da seleção alemã.",
       pagina: "https://www.instagram.com/gerdmullerofficial/", // Verificar se existe um perfil oficial
@@ -221,6 +223,7 @@ function pesquisar() {
     {
       nome: "Lothar Matthäus",
       background: "gold",
+      imgMarca: "Lothar-Matthaus",
       descricao:
         "Considerado um dos maiores meio-campistas da história, Matthäus foi capitão da seleção alemã campeã mundial em 1990. Conhecido por sua liderança e versatilidade.",
       pagina: "https://www.instagram.com/lotharmatthaus10/",
@@ -507,8 +510,41 @@ function pesquisar() {
       tags: "alemanha, meia, plate",
       imagem:
         "https://cdn-thegame.imago-images.com/wp-content/uploads/imago1045901715h-860x1149.jpg",
-      titulos:
-        "Bundesliga, Copa da Alemanha, Liga dos Campeões da UEFA, Copa do Mundo",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Champions_League",
+      nomeTitulo1: "Liga dos Campeões",
+      DataTitulo1: "2016, 2017, 2018, 2022 e 2024",
+      clube1: "Real_Madrid",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Bundesliga",
+      nomeTitulo2: "Campeonato Alemão",
+      DataTitulo2: "2007, 2012 e 2013",
+      clube2: "Bayern_de_Munique",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "LaLiga",
+      nomeTitulo3: "Campeonato Espanhol",
+      DataTitulo3: "2016, 2019, 2021 e 2023",
+      clube3: "Real_Madrid",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_do_Mundo_2014",
+      nomeTitulo4: "Copa do Mundo",
+      DataTitulo4: "2014",
+      clube4: "Alemanha",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Mundial_de_Clubes",
+      nomeTitulo5: "Mundial de Clubes",
+      DataTitulo5: "2014, 2016, 2017, 2018 e 2022",
+      clube5: "Real_Madrid",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Supercopa_da_UEFA",
+      nomeTitulo6: "Supercopa da UEFA",
+      DataTitulo6: "2014, 2017 e 2022",
+      clube6: "Real_Madrid",
       numero: "8",
       posicao: "Meia",
       dataNascimento: "04/01/1990",
@@ -638,6 +674,7 @@ function pesquisar() {
     {
       nome: "Diego Maradona",
       background: "gold",
+      imgMarca: "Maradona",
       descricao:
         "Considerado um dos maiores jogadores de todos os tempos, Maradona era conhecido por sua habilidade, dribles desconcertantes e visão de jogo. Foi campeão mundial em 1986 com a Argentina.",
       pagina: "https://www.instagram.com/diegoarmandomaradona/", // Verificar se existe
@@ -835,6 +872,7 @@ function pesquisar() {
     {
       nome: "Lionel Messi",
       background: "gold",
+      imgMarca: "Messi",
       descricao:
         "Considerado um dos maiores jogadores de futebol de todos os tempos, Messi é conhecido por sua habilidade técnica, dribles e visão de jogo. Atacante argentino que já atuou por Barcelona e PSG.",
       pagina: "https://www.instagram.com/leomessi/",
@@ -1054,6 +1092,58 @@ function pesquisar() {
       dataNascimento: "11/05/1992",
       curiosidades:
         "Courtois foi eleito o melhor goleiro da Copa do Mundo de 2018.",
+    },
+
+    // Vincent Kompany
+    {
+      nome: "Vincent Kompany",
+      background: "blue", // Cor associada ao Manchester City, um de seus principais clubes
+      descricao:
+        "Ex-zagueiro belga, conhecido por sua liderança e habilidade aérea. Atuou por muitos anos no Manchester City, onde foi capitão e ídolo da torcida.",
+      pagina: "https://www.instagram.com/vincentkompany/",
+      clube: "Aposentado",
+      time1: "Burnley",
+      time2: "Manchester_City",
+      time3: "Anderlecht",
+      nacionalidade: "Bélgica",
+      tags: "belgica, zagueiro",
+      imagem:
+        "https://upload.wikimedia.org/wikipedia/commons/0/02/Vincent_Kompany.jpg",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Premier_League",
+      nomeTitulo1: "Premier League",
+      DataTitulo1: "2012, 2014, 2018, 2019",
+      clube1: "Manchester_City",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "FA_Cup",
+      nomeTitulo2: "FA Cup",
+      DataTitulo2: "2011",
+      clube2: "Manchester_City",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "EFL_Cup",
+      nomeTitulo3: "Copa da Liga Inglesa",
+      DataTitulo3: "2014, 2016, 2018, 2019",
+      clube3: "Manchester_City",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Community_Shield",
+      nomeTitulo4: "Supercopa da Inglaterra",
+      DataTitulo4: "2012",
+      clube4: "Manchester_City",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Belgian_Pro_League",
+      nomeTitulo5: "Campeonato Belga",
+      DataTitulo5: "2007",
+      clube5: "Anderlecht",
+
+      numero: "4",
+      posicao: "Zagueiro",
+      dataNascimento: "10/04/1986",
+      curiosidades:
+        "Kompany é considerado um dos maiores capitães da história do Manchester City. Ele também teve uma breve passagem como jogador e treinador do Anderlecht, seu clube de formação.",
     },
 
     //BRASIL----------------------------------------------------------------------------------------------------
@@ -1297,6 +1387,7 @@ function pesquisar() {
     {
       nome: "Cafu",
       background: "gold",
+      imgMarca: "Cafu",
       descricao:
         "Lendário lateral-direito brasileiro, conhecido por sua energia, velocidade e cruzamentos precisos. Foi um dos principais jogadores da Seleção Brasileira e de grandes clubes europeus.",
       pagina: "https://www.instagram.com/cafuoficial/",
@@ -2033,6 +2124,7 @@ function pesquisar() {
     {
       nome: "Garrincha",
       background: "gold",
+      imgMarca: "Garrincha",
       descricao:
         "Considerado um dos maiores gênios do futebol, Garrincha era famoso por seus dribles desconcertantes e sua alegria dentro de campo. Sua habilidade era tão grande que compensava suas pernas tortas, que o tornaram ainda mais especial.",
       pagina:
@@ -2419,6 +2511,7 @@ function pesquisar() {
     // Marquinhos
     {
       nome: "Marquinhos",
+      imgMarca: "Marquinhos",
       nomeCompleto: "Marcos Aoás Corrêa",
       descricao:
         "Um zagueiro sólido e elegante, conhecido por sua liderança e habilidade no jogo aéreo. Marquinhos é peça fundamental da defesa do Paris Saint-Germain e da Seleção Brasileira.",
@@ -2517,6 +2610,7 @@ function pesquisar() {
     {
       nome: "Neymar Júnior",
       background: "plate",
+      imgMarca: "Neymar",
       descricao:
         "Considerado um dos melhores jogadores de futebol do mundo, Neymar Jr. é famoso por seus dribles rápidos e habilidade em cobranças de faltas. Iniciou sua carreira no Santos FC e, após brilhar no Barcelona, atualmente defende as cores do Al-Hilal.",
       pagina: "https://www.instagram.com/neymarjr/",
@@ -2584,21 +2678,98 @@ function pesquisar() {
         "Paulinho foi um dos destaques da Seleção Brasileira na Copa do Mundo de 2018.",
     },
 
+    // Pedrinho (ex-Corinthians, Atlético-MG, Benfica)
+    {
+      nome: "Pedrinho",
+      descricao:
+        "Habilidoso meia-atacante brasileiro, conhecido por sua velocidade e dribles. Atuou por Corinthians, Atlético-MG e Benfica, destacando-se por sua habilidade e gols.",
+      pagina: "https://www.instagram.com/pedrovictor38_/",
+      clube: "Shakhtar_Donetsk",
+      time1: "Shakhtar_Donetsk",
+      time2: "Atlético_Mineiro",
+      time3: "Benfica",
+      time4: "Corinthians",
+      nacionalidade: "Brasil",
+      tags: "brasil, atletico mineiro, meia",
+      imagem:
+        "https://conteudo.imguol.com.br/c/esporte/e5/2019/08/17/pedrinho-jogador-do-corinthians-enfrenta-o-botafogo-na-arena-1566077435320_v2_3x4.jpg",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Campeonato_Brasileiro",
+      nomeTitulo1: "Campeonato Brasileiro",
+      DataTitulo1: "2017",
+      clube1: "Corinthians",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Campeonato_Paulista",
+      nomeTitulo2: "Campeonato Paulista",
+      DataTitulo2: "2017, 2018",
+      clube2: "Corinthians",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Campeonato_Mineiro",
+      nomeTitulo3: "Campeonato Mineiro",
+      DataTitulo3: "2023, 2024",
+      clube3: "Atlético_Mineiro",
+
+      // TÍTULO 4
+      imgTitulo4: "Supercopa_da_Ucrânia",
+      nomeTitulo4: "Supercopa da Ucrânia",
+      DataTitulo4: "2021",
+      clube4: "Shakhtar_Donetsk",
+
+      numero: "38",
+      posicao: "Meia-atacante",
+      dataNascimento: "13/09/1997",
+      curiosidades:
+        "Pedrinho teve passagens marcantes por Corinthians, Atlético-MG e Benfica, destacando-se por sua habilidade e gols. Atualmente, joga no Shakhtar Donetsk.",
+    },
+
     // Pedro Guilherme
     {
       nome: "Pedro",
       descricao:
         "Atacante brasileiro conhecido por sua força física e finalização precisa. Fundamental nos títulos recentes do Flamengo, jogador decisivo.",
       pagina: "https://www.instagram.com/pedroguilherme/",
-      time: "Flamengo",
+      clube: "Flamengo",
+      time1: "Flamengo",
+      time2: "Fiorentina",
+      time3: "Fluminense",
       nacionalidade: "Brasil",
       imagem:
-        "https://images.flamengo.com.br/public/images/players/7/1710273487.png",
-      tags: "Brasil, Flamengo, Pedro, centroavante",
+        "https://s2-ge.glbimg.com/rMCO5KgxVRD89sEZmqrRbL11SAU=/0x0:4277x3056/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/r/G/jNEx1CQomqICu6sXlPhg/81-2-.jpg",
+      tags: "Brasil, Flamengo, Pedro, atacante",
       numero: "9",
-      posicao: "Centroavante",
-      titulos:
-        "Campeonato Carioca (2020, 2021, 2023, 2024) <br> Brasileirão (2020) <br> Libertadores (2022) <br> Copa do Brasil (2022) <br> Supercopa do Brasil (2020, 2021)",
+      posicao: "Atacante",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Libertadores",
+      nomeTitulo1: "Copa Libertadores da América",
+      DataTitulo1: "2022",
+      clube1: "Flamengo",
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Campeonato_Brasileiro",
+      nomeTitulo2: "Campeonato Brasileiro",
+      DataTitulo2: "2020",
+      clube2: "Flamengo",
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Copa_Do_Brasil",
+      nomeTitulo3: "Copa do Brasil",
+      DataTitulo3: "2022",
+      clube3: "Flamengo",
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Supercopa_Do_Brasil",
+      nomeTitulo4: "Supercopa do Brasil",
+      DataTitulo4: "2020, 2021",
+      clube4: "Flamengo",
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Campeonato_Carioca",
+      nomeTitulo5: "Campeonato Carioca",
+      DataTitulo5: "2020, 2021",
+      clube5: "Flamengo",
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Recopa_Sul-Americana",
+      nomeTitulo6: "Recopa Sul-Americana",
+      DataTitulo6: "2020",
+      clube6: "Flamengo",
       dataNascimento: "20/06/1997",
       curiosidades: "Revelado pelo Fluminense, ídolo da torcida rubro-negra.",
     },
@@ -2607,6 +2778,7 @@ function pesquisar() {
     {
       nome: "Pelé",
       background: "gold",
+      imgMarca: "Pelé",
       descricao:
         "Considerado o maior jogador de futebol de todos os tempos, Pelé era conhecido por sua habilidade incrível com a bola, dribles mágicos e muitos gols. Ele conquistou o mundo com seu futebol e é um símbolo do esporte.",
       pagina: "https://www.instagram.com/pele/", // Página oficial (caso exista)
@@ -2776,16 +2948,29 @@ function pesquisar() {
     // Richarlison
     {
       nome: "Richarlison",
+      imgMarca: "Richarlison_Voleio",
       descricao:
         "Artilheiro da Seleção Brasileira em diversas campanhas, conhecido por sua força física e finalização precisa. Marcado pelo seu gol contra a Croácia na Copa de 2022.",
       pagina: "https://www.instagram.com/richarlison/",
-      time: "Tottenham Hotspur",
+      clube: "Tottenham Hotspur",
+      time1: "Tottenham_Hotspur",
+      time2: "Everton",
+      time3: "Watford",
+      time4: "Fluminense",
       nacionalidade: "Brasil",
       tags: "brasil, tottenham, atacante",
       imagem:
         "https://s2-ge.glbimg.com/r1crSs6Eo5TfEmBeNX5zlrPiI9c=/0x0:1023x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/X/A/GA28b4TdCWT7puCrVDyg/whatsapp-image-2022-11-24-at-21.21.50.jpeg",
-      titulos:
-        "Copa América (2019) - Seleção Brasileira<br>Ouro Olímpico (2020) - Seleção Brasileira<br>Primeira Liga do Brasil (2016) - Fluminense<br>Taça Guanabara (2017) - Fluminense",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_América_2019",
+      nomeTitulo1: "Copa América",
+      DataTitulo1: "2019",
+      clube1: "Brasil",
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Jogos_Olímpicos_2020",
+      nomeTitulo2: "Jogos Olímpicos",
+      DataTitulo2: "2020",
+      clube2: "Brasil",
       numero: "9",
       posicao: "Atacante",
       dataNascimento: "10/5/1997",
@@ -2874,6 +3059,7 @@ function pesquisar() {
     {
       nome: "Roberto Carlos",
       background: "gold",
+      imgMarca: "Roberto_Carlos",
       descricao:
         "Lateral-esquerdo brasileiro conhecido por seus chutes potentes e precisos, especialmente as faltas. Foi um dos principais jogadores da seleção brasileira campeã mundial em 2002.",
       pagina: "https://www.instagram.com/robertocarlosoficial/",
@@ -3036,16 +3222,48 @@ function pesquisar() {
     // Rodrygo
     {
       nome: "Rodrygo",
+      background: "promise",
       descricao:
         "Joia da nova geração do futebol brasileiro, Rodrygo se destacou por sua velocidade, dribles e finalização precisa. Revelado pelo Santos, logo chamou a atenção de grandes clubes europeus.",
       pagina: "https://www.instagram.com/rodrygogoes/",
-      time: "Real Madrid CF",
+      clube: "Real Madrid",
+      time1: "Real_Madrid",
+      time2: "Santos",
       nacionalidade: "Brasil",
-      tags: "brasil, Ponta Direita, real madrid, rodrigo",
+      tags: "brasil, Ponta Direita, real madrid, rodrigo, promise",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/33/2023/11/29/rodrygo-do-real-madrid-comemora-gol-contra-o-napoli-na-liga-dos-campeoes-1701291003658_v2_3x4.jpg",
-      titulos: "La Liga, Supercopa da Espanha, Liga dos Campeões da UEFA",
-      numero: "21",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Champions_League",
+      nomeTitulo1: "Liga dos Campeões da UEFA",
+      DataTitulo1: "2022, 2024",
+      clube1: "Real_Madrid",
+      // TITULO 2 ----------------------------
+      imgTitulo2: "LaLiga",
+      nomeTitulo2: "Campeonato Espanhol",
+      DataTitulo2: "2020, 2022, 2024",
+      clube2: "Real_Madrid",
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Supercopa_Da_Espanha",
+      nomeTitulo3: "Supercopa da Espanha",
+      DataTitulo3: "2020, 2022, 2024",
+      clube3: "Real_Madrid",
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Mundial_De_Clubes",
+      nomeTitulo4: "Mundial de Clubes da FIFA",
+      DataTitulo4: "2022, 2024",
+      clube4: "Real_Madrid",
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Supercopa_Da_UEFA",
+      nomeTitulo5: "Supercopa da UEFA",
+      DataTitulo5: "2022, 2024",
+      clube5: "Real_Madrid",
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_Del_Rey",
+      nomeTitulo6: "Copa Del Rey",
+      DataTitulo6: "2023",
+      clube6: "Real_Madrid",
+      numero: "11",
       posicao: "Ponta-Direita",
       dataNascimento: "9 de janeiro de 2001",
       curiosidades:
@@ -3081,6 +3299,7 @@ function pesquisar() {
     {
       nome: "Ronaldinho Gaúcho",
       background: "gold",
+      imgMarca: "Ronaldinho_Gaúcho",
       descricao:
         "Considerado um dos maiores jogadores de futebol de todos os tempos, Ronaldinho Gaúcho é conhecido por sua habilidade, dribles e visão de jogo excepcionais. Seu estilo de jogo alegre e criativo o tornou um ídolo mundial.",
       pagina: "https://www.instagram.com/ronaldinho/",
@@ -3139,6 +3358,7 @@ function pesquisar() {
     {
       nome: "Ronaldo Nazário",
       background: "gold",
+      imgMarca: "Ronaldo_Nazário",
       descricao:
         "Considerado um dos maiores atacantes de todos os tempos, Ronaldo Fenômeno era conhecido por sua velocidade, finalização e habilidade técnica. Atuou por grandes clubes como Inter de Milão, Real Madrid e Barcelona, conquistando diversos títulos e artilharias.",
       pagina: "https://www.instagram.com/ronaldofeno/",
@@ -3360,6 +3580,7 @@ function pesquisar() {
     {
       nome: "Zico",
       background: "gold",
+      imgMarca: "Zico",
       descricao:
         "Considerado um dos maiores jogadores brasileiros de todos os tempos, Zico era conhecido por sua habilidade técnica, visão de jogo e chutes precisos. Ídolo do Flamengo, ele encantou o mundo com seu futebol artístico.",
       pagina: "https://www.instagram.com/zico/", // Ajustar se necessário
@@ -3963,22 +4184,59 @@ function pesquisar() {
     // Jan Oblak
     {
       nome: "Jan Oblak",
+      background: "red", // Cor associada ao Atlético de Madrid
       descricao:
-        "Considerado um dos melhores goleiros do mundo, Oblak é conhecido por suas defesas espetaculares e reflexos rápidos. Fundamental para o sucesso do Atlético de Madrid, o goleiro esloveno é referência na posição.",
-      pagina: "https://www.instagram.com/oblakjan/", // Verificar o perfil oficial
-      time: "Atlético de Madrid",
-      nacionalidade:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/1200px-Flag_of_Slovenia.svg.png",
-      alt: "Eslovênia",
-      tags: "eslovênia, atlético de madrid, goleiro",
+        "Jan Oblak é um dos melhores goleiros do mundo, conhecido por suas defesas espetaculares e reflexos rápidos. Ele é fundamental para a segurança da defesa do Atlético de Madrid.",
+      pagina: "https://www.instagram.com/oblakjan/", // Perfil oficial no Instagram (se tiver)
+      clube: "Atlético_de_Madrid",
+      time3: "Olimpia_Ljubljana",
+      time2: "Benfica",
+      time1: "Atlético_de_Madrid",
+      nacionalidade: "Eslovênia",
+      tags: "goleiro, defesas, reflexos",
       imagem:
-        "https://i.pinimg.com/736x/2c/81/69/2c8169b3ff4b81df38ddbc36e4e14634.jpg", // Trocar por uma imagem do Oblak
-      titulos: "La Liga, Supercopa da Espanha",
-      numero: "13",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Jan_Oblak_2019.jpg/640px-Jan_Oblak_2019.jpg",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "LaLiga",
+      nomeTitulo1: "Campeonato Espanhol",
+      DataTitulo1: "2021",
+      clube1: "Atlético_de_Madrid",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Europa_League",
+      nomeTitulo2: "Liga Europa",
+      DataTitulo2: "2018",
+      clube2: "Atlético_de_Madrid",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Supercopa_da_UEFA",
+      nomeTitulo3: "Supercopa da UEFA",
+      DataTitulo3: "2018",
+      clube3: "Atlético_de_Madrid",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Supercopa_Da_Espanha",
+      nomeTitulo4: "Supercopa da Espanha",
+      DataTitulo4: "2014",
+      clube4: "Atlético_de_Madrid",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Campeonato_Português",
+      nomeTitulo5: "Campeonato Português",
+      DataTitulo5: "2014",
+      clube5: "Benfica",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Taça_de_Portugal",
+      nomeTitulo6: "Taça de Portugal",
+      DataTitulo6: "2014",
+      clube6: "Benfica",
+
+      numero: "13", // Número tradicionalmente associado a ele
       posicao: "Goleiro",
-      dataNascimento: "07/01/1993",
+      dataNascimento: "7 de janeiro de 1993",
       curiosidades:
-        "Oblak já foi eleito o melhor goleiro da La Liga em diversas ocasiões e é conhecido por sua concentração e liderança dentro de campo.",
+        "Jan Oblak é conhecido por sua calma e concentração em campo. Ele é um dos goleiros mais consistentes do futebol mundial.",
     },
 
     //ESPANHA---------------------------------------------------------------------------------------------------
@@ -5257,7 +5515,41 @@ function pesquisar() {
       tags: "Inglaterra, meia, Chelsea, cold, promise",
       imagem:
         "https://daf17zziboaju.cloudfront.net/wp-content/uploads/2024/03/30173508/Cole-Palmer.jpg",
-      titulos: "Premier League (com Manchester City)",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Premier_League",
+      nomeTitulo1: "Premier League",
+      DataTitulo1: "2023",
+      clube1: "Manchester_City",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "FA_Cup",
+      nomeTitulo2: "FA Cup",
+      DataTitulo2: "2023",
+      clube2: "Manchester_City",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "EFL_Cup",
+      nomeTitulo3: "EFL Cup",
+      DataTitulo3: "2021",
+      clube3: "Manchester_City",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Champions_League",
+      nomeTitulo4: "Liga dos Campeões",
+      DataTitulo4: "2023",
+      clube4: "Manchester_City",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Supercopa_Da_UEFA",
+      nomeTitulo5: "Supercopa da UEFA",
+      DataTitulo5: "2023",
+      clube5: "Manchester_City",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Premier_League",
+      nomeTitulo6: "Campeonato Europeu Sub-21",
+      DataTitulo6: "2023",
+      clube6: "Manchester_City",
       numero: "20", // Atualizado em dezembro de 2024
       posicao: "Meio-campista",
       dataNascimento: "06/05/2002",
@@ -6174,8 +6466,41 @@ function pesquisar() {
       tags: "polônia, atacante, plate",
       imagem:
         "https://tmssl.akamaized.net/images/foto/galerie/robert-lewandowski-fc-barcelona-2024-25-1730103967-152589.jpg",
-      titulos:
-        "Bundesliga, Copa da Alemanha, Liga dos Campeões da UEFA, La Liga",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Bundesliga",
+      nomeTitulo1: "Campeonato Alemão",
+      DataTitulo1: " 2015, 2016, 2017, 2018, 2019, 2020, 2021 e 2022",
+      clube1: "Bayern_de_Munique",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Champions_League",
+      nomeTitulo2: "Liga dos Campeões",
+      DataTitulo2: "2020",
+      clube2: "Bayern_de_Munique",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Copa_da_Alemanha",
+      nomeTitulo3: "Copa da Alemanha",
+      DataTitulo3: " 2016, 2019, 2020",
+      clube3: "Bayern_de_Munique",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Mundial_de_Clubes",
+      nomeTitulo4: "Mundial de Clubes",
+      DataTitulo4: "2020",
+      clube4: "Bayern_de_Munique",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "LaLiga",
+      nomeTitulo5: "Campeonato Espanhol",
+      DataTitulo5: "2023",
+      clube5: "Barcelona",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "The_Best_FIFA",
+      nomeTitulo6: "The Best FIFA",
+      DataTitulo6: "2020, 2021",
+      clube6: "Individual",
       numero: "9",
       posicao: "Atacante",
       dataNascimento: "21/08/1988",
@@ -6248,6 +6573,7 @@ function pesquisar() {
     {
       nome: "Cristiano Ronaldo",
       background: "gold",
+      imgMarca: "Cristiano_Ronaldo",
       descricao:
         "Português, famoso por sua força, velocidade e habilidade aérea. Um dos maiores goleadores, jogou no Manchester United, Real Madrid, Juventus e atualmente no Al-Nassr.",
       pagina: "https://www.instagram.com/cristiano/",
@@ -6263,21 +6589,39 @@ function pesquisar() {
         "https://conteudo.imguol.com.br/c/esporte/cc/2024/08/22/cristiano-ronaldo-comemora-gol-do-al-nassr-diante-do-al-raed-em-jogo-do-campeonato-saudita-1724354605510_v2_3x4.jpg",
       // TITULO 1 ----------------------------
       imgTitulo1: "Champions_League",
-      nomeTitulo1: "Champions League",
-      DataTitulo1: "2008, 2014, 2016, 2017, 2018",
+      nomeTitulo1: "Liga dos Campeões",
+      DataTitulo1: " 2013, 2015, 2016 e 2017",
+      clube1: "Real_Madrid",
+
       // TITULO 2 ----------------------------
-      imgTitulo2: "Euro_2016",
-      nomeTitulo2: "Euro",
-      DataTitulo2: "2016",
+      imgTitulo2: "LaLiga",
+      nomeTitulo2: "Campeonato Espanhol",
+      DataTitulo2: "2011, 2016",
+      clube2: "Real_Madrid",
+
       // TITULO 3 ----------------------------
-      imgTitulo3: "LaLiga",
-      nomeTitulo3: "La Liga",
-      DataTitulo3: "2012, 2017, 2018, 2019, 2020",
+      imgTitulo3: "Premier_League",
+      nomeTitulo3: "Campeonato Inglês",
+      DataTitulo3: "2006, 2007 e 2008",
+      clube3: "Manchester_United",
+
       // TITULO 4 ----------------------------
-      imgTitulo4: "Premier_League",
-      nomeTitulo4: "Premier League",
-      DataTitulo4: "2007, 2008, 2009",
-      // ... outros títulos ...
+      imgTitulo4: "Serie_A",
+      nomeTitulo4: "Campeonato Italiano",
+      DataTitulo4: "2018 e 2019",
+      clube4: "Juventus",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Euro_2016",
+      nomeTitulo5: "Eurocopa",
+      DataTitulo5: "2016",
+      clube5: "Portugal",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Bola_de_Ouro",
+      nomeTitulo6: "Bola de Ouro",
+      DataTitulo6: "2008, 2013, 2014, 2016, 2017",
+      clube6: "Individual",
       numero: "7",
       posicao: "Atacante",
       dataNascimento: "05/02/1985",
@@ -6775,6 +7119,7 @@ function pesquisar() {
         <div class="div-superior">
           <div class="div-left">
               <img class="dado-imagem" src="${dado.imagem}" alt="">
+              <img class="dado_imgMarca" src="./img/Logo_${dado.imgMarca}.png" alt="">
           </div>
           <div class="div-info">
             <div class="numero-nome-time">
