@@ -3591,7 +3591,7 @@ function pesquisar() {
       nacionalidade: "Brasil",
       tags: "brasil, meia, gold",
       imagem:
-        "https://i.pinimg.com/474x/8a/c0/e0/8ac0e02cc7457be239b42bedef643dbf.jpg",
+        "https://i.pinimg.com/736x/8c/36/0a/8c360a9982ae6c6b687112e11ac4e139.jpg",
       // TITULO 1 ----------------------------
       imgTitulo1: "Campeonato_Brasileiro",
       nomeTitulo1: "Campeonato Brasileiro",
@@ -3629,6 +3629,7 @@ function pesquisar() {
     {
       nome: "Hristo Stoichkov",
       background: "gold",
+      imgMarca: "Hristo_Stoichkov",
       descricao:
         "Atacante búlgaro conhecido por sua habilidade, dribles e chutes poderosos. Stoichkov foi um dos maiores jogadores da história do Barcelona e um dos principais responsáveis por levar a Bulgária à semifinal da Copa do Mundo de 1994.",
       pagina: "https://www.instagram.com/hristo_stoichkov_official/", // Verificar se existe um perfil oficial
@@ -4245,6 +4246,7 @@ function pesquisar() {
     {
       nome: "Alfredo Di Stéfano",
       background: "gold",
+      imgMarca: "Alfredo_Di_Stéfano",
       descricao:
         "Atacante argentino-espanhol considerado um dos maiores jogadores de todos os tempos. Di Stéfano era conhecido por sua velocidade, habilidade técnica e faro de gol, sendo fundamental para o sucesso do Real Madrid nos anos 50 e 60.",
       pagina: "https://www.instagram.com/alfredodistefano/", // Verificar se existe um perfil oficial
@@ -4395,22 +4397,118 @@ function pesquisar() {
     // David Silva
     {
       nome: "David Silva",
+      imgMarca: "David_Silva",
       descricao:
-        "Meia criativo e elegante, Silva é conhecido por seus passes precisos, visão de jogo excepcional e habilidade de controlar o ritmo do jogo. Um dos maiores meio-campistas da sua geração.",
-      pagina: "https://www.instagram.com/davidsilva21/", // Verificar o perfil oficial
-      time: "Aposentado (2023)",
+        "Considerado um dos maiores meio-campistas da sua geração, David Silva é conhecido por sua visão de jogo, passes precisos e habilidade técnica. Atuou por grandes clubes como Valencia e Manchester City.",
+      pagina: "https://www.instagram.com/david21silva/", // Verificar se existe um perfil oficial
+      clube: "Aposentado", // Último clube como jogador
+      time1: "Manchester_City",
+      time2: "Valencia",
+      time3: "Eibar",
       nacionalidade: "Espanha",
-      alt: "Espanha",
-      tags: "espanha, meia, silva",
+      tags: "espanha, silva, futebol, passe, manchester city",
       imagem:
-        "https://media.gettyimages.com/id/465226210/pt/foto/manchester-england-david-silva-of-manchester-city-celebrates-after-scoring-the-opening-goal.jpg?s=612x612&w=gi&k=20&c=3dkPb2PV71KVPr-AcieZ74C2fOBdNBM9vFKbZpJFay8=",
-      titulos:
-        "La Liga (2004) - Valencia <br> Copa del Rey (2008) - Valencia <br> Premier League (2012, 2014, 2018, 2019) - Manchester City <br> FA Cup (2011) - Manchester City <br> UEFA Champions League (2012) - Chelsea",
+        "https://i.superesportes.com.br/K-tPqUc_pFzm6mEcG9DbhjNZXa0=/750x0/smart/imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2020/08/17/3859058/20200817221435753184e.jpg",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Premier_League",
+      nomeTitulo1: "Premier League",
+      DataTitulo1: "2012, 2014, 2018, 2019",
+      clube1: "Manchester_City",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "FA_Cup",
+      nomeTitulo2: "FA Cup",
+      DataTitulo2: "2011, 2019",
+      clube2: "Manchester_City",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Eurocopa_2008",
+      nomeTitulo3: "Campeonato Europeu",
+      DataTitulo3: "2008, 2012",
+      clube3: "Espanha",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_do_Mundo_2010",
+      nomeTitulo4: "Copa do Mundo",
+      DataTitulo4: "2010",
+      clube4: "Espanha",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "EFL_Cup",
+      nomeTitulo5: "Copa da Liga Inglesa",
+      DataTitulo5: "2014, 2016, 2018, 2019, 2020",
+      clube5: "Manchester_City",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_Del_Rey",
+      nomeTitulo6: "Copa do Rei",
+      DataTitulo6: "2020",
+      clube6: "Real_Sociedad",
+
       numero: "21",
       posicao: "Meia",
-      dataNascimento: "08/01/1986",
+      dataNascimento: "8/1/1986",
       curiosidades:
-        "Silva se destacou no Valencia antes de se transferir para o Manchester City, onde se tornou um dos jogadores mais importantes da história do clube.",
+        "David Silva é conhecido por sua visão de jogo excepcional, que o torna um dos melhores passadores da história do futebol. Ele foi fundamental para o sucesso do Manchester City na última década.",
+    },
+
+    // David Villa
+    {
+      nome: "David Villa",
+      background: "plate",
+      imgMarca: "David_Villa",
+      descricao:
+        "Considerado um dos maiores atacantes da história do futebol espanhol, David Villa é conhecido por sua habilidade de finalização, velocidade e inteligência tática. Atuou por grandes clubes como Valencia, Barcelona e Atlético de Madrid.",
+      pagina: "https://www.instagram.com/davidvilla/", // Verificar se existe um perfil oficial
+      clube: "Aposentado",
+      time1: "Atlético_de_Madrid",
+      time2: "Barcelona",
+      time3: "Valencia",
+      nacionalidade: "Espanha",
+      tags: "espanha, villa, atacante, plate",
+      imagem:
+        "https://i.pinimg.com/474x/b9/24/f3/b924f3a6439c12e0897a1fe7449f1e41.jpg",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_do_Mundo_2010",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "2010",
+      clube1: "Espanha",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Eurocopa_2008",
+      nomeTitulo2: "Eurocopa",
+      DataTitulo2: "2008",
+      clube2: "Espanha",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Champions_League",
+      nomeTitulo3: "Champions League",
+      DataTitulo3: "2011",
+      clube3: "Barcelona",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "LaLiga",
+      nomeTitulo4: "Campeonato Espanhol",
+      DataTitulo4: "2010, 2011",
+      clube4: "Barcelona",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Mundial_de_Clubes",
+      nomeTitulo5: "Mundial de Clubes",
+      DataTitulo5: "2011",
+      clube5: "Barcelona",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Supercopa_Da_Espanha",
+      nomeTitulo6: "Supercopa Da Espanha",
+      DataTitulo6: "2010, 2011",
+      clube6: "Barcelona",
+
+      numero: "7",
+      posicao: "Atacante",
+      dataNascimento: "03/12/1981",
+      curiosidades:
+        "David Villa é conhecido por sua habilidade de marcar gols importantes. Ele foi um dos artilheiros da Copa do Mundo de 2010 e ajudou a Espanha a conquistar o título.",
     },
 
     // Diego Costa
@@ -4942,6 +5040,7 @@ function pesquisar() {
     {
       nome: "Michel Platini",
       background: "gold",
+      imgMarca: "Michel_Platini",
       descricao:
         "Meia-atacante francês considerado um dos maiores jogadores da história do futebol. Platini era conhecido por sua elegância, visão de jogo e chutes precisos, sendo fundamental para a conquista da Eurocopa de 1984.",
       pagina: "https://www.instagram.com/michelplatini/", // Verificar se existe um perfil oficial
@@ -4953,7 +5052,41 @@ function pesquisar() {
       tags: "frança, meia, gold",
       imagem:
         "https://i.pinimg.com/564x/e2/b5/e6/e2b5e6dc32a7da44771bba520bfe199c.jpg",
-      titulos: "Serie A, Copa dos Campeões, Eurocopa, Bola de Ouro",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Eurocopa_1984",
+      nomeTitulo1: "Eurocopa UEFA",
+      DataTitulo1: "1984",
+      clube1: "França",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Champions_League",
+      nomeTitulo2: "Liga dos Campeões",
+      DataTitulo2: "1985",
+      clube2: "Juventus",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Supercopa_Da_UEFA",
+      nomeTitulo3: "Supercopa Da UEFA",
+      DataTitulo3: "1984",
+      clube3: "Juventus",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Serie_A",
+      nomeTitulo4: "Campeonato Italiano",
+      DataTitulo4: "1984, 1986",
+      clube4: "Juventus",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Bola_de_Ouro",
+      nomeTitulo5: "Bola de Ouro",
+      DataTitulo5: "1983, 1984, 1985",
+      clube5: "Individual",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_Intercontinental",
+      nomeTitulo6: "Copa Intercontinental",
+      DataTitulo6: "1985",
+      clube6: "Juventus",
       numero: "10",
       posicao: "Meia-atacante",
       dataNascimento: "21/06/1955",
@@ -5096,6 +5229,7 @@ function pesquisar() {
     {
       nome: "Zinédine Zidane",
       background: "gold",
+      imgMarca: "Zinedine_Zidane",
       descricao:
         "Meia-atacante francês considerado um dos maiores jogadores de todos os tempos. Zidane era conhecido por sua técnica apurada, visão de jogo e gols espetaculares.",
       pagina: "https://www.instagram.com/zidane/",
@@ -5108,8 +5242,41 @@ function pesquisar() {
       tags: "frança, meia, gold",
       imagem:
         "https://cdn.artphotolimited.com/images/5a09bb8dcfe9056714cea41c/1000x1000/zinedine-zidane-2-2008-couleur.jpg",
-      titulos:
-        "Liga dos Campeões, Campeonato Espanhol, Copa do Mundo, Eurocopa",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_do_Mundo_1998",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1998",
+      clube1: "França",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Eurocopa_2000",
+      nomeTitulo2: "Campeonato Europeu",
+      DataTitulo2: "2000",
+      clube2: "França",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Champions_League",
+      nomeTitulo3: "Liga dos Campeões",
+      DataTitulo3: "2002",
+      clube3: "Real_Madrid",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Supercopa_Da_Espanha",
+      nomeTitulo4: "Supercopa Da Espanha",
+      DataTitulo4: "2001, 2003",
+      clube4: "Real_Madrid",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_Intercontinental",
+      nomeTitulo5: "Copa Intercontinental",
+      DataTitulo5: "1996",
+      clube5: "Juventus",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Bola_de_Ouro",
+      nomeTitulo6: "Bola de Ouro",
+      DataTitulo6: "1998",
+      clube6: "Individual",
       numero: "10",
       posicao: "Meia-atacante",
       dataNascimento: "23/06/1972",
@@ -5226,6 +5393,7 @@ function pesquisar() {
     {
       nome: "Johan Cruyff",
       background: "gold",
+      imgMarca: "Johan_Cruyff",
       descricao:
         "Considerado um dos maiores jogadores e treinadores de futebol de todos os tempos. Johan Cruyff é o criador do 'futebol total', filosofia de jogo que valoriza a posse de bola e a criação de oportunidades de gol por todos os jogadores em campo.",
       pagina: "https://en.wikipedia.org/wiki/Johan_Cruyff",

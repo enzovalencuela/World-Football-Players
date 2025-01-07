@@ -520,10 +520,9 @@ footer {
   }
 
   .dado_imgMarca {
-    top: 150px;
-    right: 40px;
-    max-height: 230px;
-    max-width: 200px;
+    top: 140px;
+    right: 20px;
+    height: 180px;
     position: absolute;
   }
 
