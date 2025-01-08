@@ -11,6 +11,7 @@ function pesquisar() {
     {
       nome: "Ballack",
       background: "plate",
+      imgMarca: "Michael_Ballack",
       descricao:
         "Meio-campista alemão conhecido por sua força física, visão de jogo e chutes potentes. Ballack foi um dos principais jogadores da seleção alemã e de clubes como Bayern de Munique e Chelsea.",
       pagina: "https://pt.wikipedia.org/wiki/Michael_Ballack",
@@ -23,6 +24,41 @@ function pesquisar() {
       tags: "alemão, meia, plate",
       imagem:
         "https://tmssl.akamaized.net/images/foto/galerie/michael-ballack-wm-2006-1588067616-37229.jpg",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Bundesliga",
+      nomeTitulo1: "Campeonato Alemão",
+      DataTitulo1: "2003, 2005, 2006",
+      clube1: "Bayern_de_Munique",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_da_Alemanha",
+      nomeTitulo2: "Copa da Alemanha",
+      DataTitulo2: "2003, 2005, 2006",
+      clube2: "Bayern_de_Munique",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Premier_League",
+      nomeTitulo3: "Campeonato Inglês",
+      DataTitulo3: "2010",
+      clube3: "Chelsea",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "FA_Cup",
+      nomeTitulo4: "FA Cup",
+      DataTitulo4: "2007, 2009, 2010",
+      clube4: "Chelsea",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "EFL_Cup",
+      nomeTitulo5: "Copa da Liga Inglesa",
+      DataTitulo5: "2007",
+      clube5: "Chelsea",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "FIFA_100",
+      nomeTitulo6: "FIFA 100",
+      DataTitulo6: "2004",
+      clube6: "Individual",
       numero: "13",
       posicao: "Meio-campista",
       dataNascimento: "26/09/1976",
@@ -295,6 +331,7 @@ function pesquisar() {
     {
       nome: "Marco Reus",
       background: "plate",
+      imgMarca: "Marco_Reus",
       descricao:
         "Considerado um dos maiores jogadores da história do Borussia Dortmund, Reus é conhecido por sua velocidade, dribles e habilidade de finalização. É um dos principais jogadores da seleção alemã.",
       pagina: "https://www.instagram.com/marcinho11/",
@@ -307,7 +344,24 @@ function pesquisar() {
       tags: "alemanha, Los Angeles Galaxy, meia, plate",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/3e/2021/01/16/marco-reus-do-borussia-dortmund-lamenta-apos-perder-penalti-na-partida-contra-o-mainz-1610815970730_v2_450x600.jpg",
-      titulos: "Bundesliga, Copa da Alemanha",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_da_Alemanha",
+      nomeTitulo1: "Copa da Alemanha",
+      DataTitulo1: "2017, 2021",
+      clube1: "Borussia_Dortmund",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "DFL-Supercup",
+      nomeTitulo2: "Supercopa da Alemanha",
+      DataTitulo2: "2013, 2014, 2019",
+      clube2: "Borussia_Dortmund",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "MLS_Cup",
+      nomeTitulo3: "MLS Cup",
+      DataTitulo3: "2024",
+      clube3: "Los_Angeles_Galaxy",
+
       numero: "18",
       posicao: "Meia-atacante",
       dataNascimento: "31/05/1989",
@@ -319,6 +373,7 @@ function pesquisar() {
     {
       nome: "Mesut Özil",
       background: "plate",
+      imgMarca: "Mesut_Ozil",
       descricao:
         "Meia criativo com excelente visão de jogo, Özil foi fundamental para o título da Alemanha na Copa do Mundo de 2014. Conhecido por seus passes precisos e dribles elegantes.",
       pagina: "https://www.instagram.com/m10_official/",
@@ -330,8 +385,43 @@ function pesquisar() {
       nacionalidade: "Alemanha",
       tags: "alemanha, meia, plate",
       imagem:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mesut_%C3%96zil_%289881761465%29_Cropped.jpg/640px-Mesut_%C3%96zil_%289881761465%29_Cropped.jpg",
-      titulos: "Premier League, Copa da Alemanha, Copa do Mundo",
+        "https://static.independent.co.uk/2022/09/02/07/87e16022e4d9cb576de0e84912e517c1Y29udGVudHNlYXJjaGFwaSwxNjYyMDIwMDY1-2.17788993.jpg",
+
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_do_Mundo_2014",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "2014",
+      clube1: "Alemanha",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "FA_Cup",
+      nomeTitulo2: "FA Cup",
+      DataTitulo2: "2014, 2015, 2017",
+      clube2: "Arsenal",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Supercopa_da_Inglaterra",
+      nomeTitulo3: "Supercopa da Inglaterra",
+      DataTitulo3: "2015",
+      clube3: "Arsenal",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "LaLiga",
+      nomeTitulo4: "Campeonato Espanhol",
+      DataTitulo4: "2012",
+      clube4: "Real_Madrid",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_Del_Rey",
+      nomeTitulo5: "Copa Del Rey",
+      DataTitulo5: "2011",
+      clube5: "Real_Madrid",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_da_Alemanha",
+      nomeTitulo6: "Copa da Alemanha",
+      DataTitulo6: "2009",
+      clube6: "Werder_Bremen",
       numero: "10",
       posicao: "Meia",
       dataNascimento: "15/10/1988",
@@ -342,10 +432,11 @@ function pesquisar() {
     {
       nome: "Miroslav Klose",
       background: "plate",
+      imgMarca: "Miroslav_Klose",
       descricao:
         "Lenda do futebol alemão, Klose é um dos maiores artilheiros da história das Copas do Mundo. Conhecido por sua habilidade aérea e faro de gol.",
       pagina: "https://www.instagram.com/miroslav_klose/",
-      clube: "Aposentado",
+      clube: "Aposentado (2016)",
       time4: "Homburg",
       time3: "Werder_Bremen",
       time2: "Bayern_de_Munique",
@@ -353,8 +444,44 @@ function pesquisar() {
       nacionalidade: "Alemanha",
       tags: "alemanha, atacante, plate",
       imagem:
-        "https://media.gettyimages.com/id/450356948/pt/foto/salvador-brazil-miroslav-klose-of-germany-poses-during-the-official-fifa-world-cup-2014.jpg?s=612x612&w=gi&k=20&c=jqgSv1tyZLp6LzvaopNcS-b_hl_0eSw3YWoRrtMwbj8=",
-      titulos: "Bundesliga, Copa da Alemanha, Copa da Itália, Copa do Mundo",
+        "https://tmssl.akamaized.net/images/foto/galerie/miroslav-klose-1404897417-1153.jpg",
+
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_do_Mundo_2014",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "2014",
+      clube1: "Alemanha",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_da_Itália",
+      nomeTitulo2: "Copa da Itália",
+      DataTitulo2: "2013",
+      clube2: "Lazio",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Bundesliga",
+      nomeTitulo3: "Campeonato Alemão",
+      DataTitulo3: "2008, 2010",
+      clube3: "Bayern_de_Munique",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_da_Alemanha",
+      nomeTitulo4: "Copa da Alemanha",
+      DataTitulo4: "2008, 2010",
+      clube4: "Bayern_de_Munique",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "DFL-Supercup",
+      nomeTitulo5: "Supercopa da Alemanha",
+      DataTitulo5: "2010",
+      clube5: "Bayern_de_Munique",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Copa_da_Liga_Alemã",
+      nomeTitulo6: "Copa da Liga Alemã",
+      DataTitulo6: "2007",
+      clube6: "Bayern_de_Munique",
+
       numero: "11",
       posicao: "Atacante",
       dataNascimento: "9/6/1978",
@@ -1398,7 +1525,7 @@ function pesquisar() {
       time4: "São_Paulo",
       nacionalidade: "Brasil",
       imagem:
-        "https://lh4.googleusercontent.com/proxy/pxRBTZDCQLe1ADLqKHx9r1xenBRBP_Y_EO18dbtTFPZuQCamdYASC75XWYbQUit0Dvh6oZxsiyq_u9XBNwln6Msfo168_UkemDnjTGQKwQlezjBipQ",
+        "https://www.imortaisdofutebol.com/wp-content/uploads/2012/07/cafu-3.jpg",
       tags: "Brasil, Cafu, lateral direito, gold",
       numero: "2",
       posicao: "Lateral-direito",
@@ -3006,6 +3133,7 @@ function pesquisar() {
     {
       nome: "Rivellino",
       background: "gold",
+      imgMarca: "Rivellino",
       descricao:
         "Considerado um dos maiores meias da história do futebol, Rivellino era conhecido por sua habilidade com a bola, chutes precisos e a famosa 'folha seca'. Foi um dos principais jogadores da seleção brasileira campeã da Copa do Mundo de 1970.",
       pagina:
@@ -3274,6 +3402,7 @@ function pesquisar() {
     {
       nome: "Romário",
       background: "gold",
+      imgMarca: "Romário",
       descricao:
         "É um dos maiores artilheiros do história do futebol, e o quarto maior artilheiro da Seleção Brasileira segundo a FIFA, com 55 gols marcados contando apenas jogos oficiais, ficando em segundo lugar na posição até outubro de 2004[3] quando foi ultrapassado por Ronaldo, após a sua aposentadoria da Seleção.",
       pagina: "https://www.instagram.com/romario/",
@@ -3642,7 +3771,41 @@ function pesquisar() {
       tags: "bulgaria, atacante, gold",
       imagem:
         "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/854_stoitxkov.jpg",
-      titulos: "La Liga, Copa del Rey, Copa dos Campeões, Chuteira de Ouro",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "LaLiga",
+      nomeTitulo1: "Campeonato Espanhol",
+      DataTitulo1: "1991, 1992, 1993, 1994, 1998",
+      clube1: "Barcelona",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_Del_Rey",
+      nomeTitulo2: "Copa do Rei",
+      DataTitulo2: "1990",
+      clube2: "Barcelona",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Supercopa_da_UEFA",
+      nomeTitulo3: "Supercopa da UEFA",
+      DataTitulo3: "1992, 1997",
+      clube3: "Barcelona",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Champions_League",
+      nomeTitulo4: "Liga dos Campeões",
+      DataTitulo4: "1992",
+      clube4: "Barcelona",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Bola_de_Ouro",
+      nomeTitulo5: "Bola de Ouro",
+      DataTitulo5: "1994",
+      clube5: "Individual",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "FIFA_100",
+      nomeTitulo6: "FIFA 100",
+      DataTitulo6: "2004",
+      clube6: "Individual",
       numero: "8",
       posicao: "Atacante",
       dataNascimento: "08/02/1966",
@@ -5488,6 +5651,7 @@ function pesquisar() {
     {
       nome: "Ruud Gullit",
       background: "gold",
+      imgMarca: "Ruud_Gullit",
       descricao:
         "Um dos maiores jogadores de futebol de todos os tempos, Gullit era conhecido por sua elegância, habilidade e visão de jogo. Foi um dos principais jogadores da seleção holandesa e de grandes clubes europeus.",
       pagina: "https://pt.wikipedia.org/wiki/Ruud_Gullit",
@@ -5500,7 +5664,41 @@ function pesquisar() {
       tags: "holanda, gullit, meia, gold",
       imagem:
         "https://www.imortaisdofutebol.com/wp-content/uploads/2021/06/gullit2.jpg",
-      titulos: "Serie A, Copa dos Campeões da Europa, Copa Intercontinental",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Serie_A",
+      nomeTitulo1: "Campeonato Italiano",
+      DataTitulo1: "1988, 1992, 1993",
+      clube1: "AC_Milan",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Champions_League",
+      nomeTitulo2: "Liga dos Campeões",
+      DataTitulo2: "1989, 1990",
+      clube2: "AC_Milan",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Supercopa_da_UEFA",
+      nomeTitulo3: "Supercopa da Europa",
+      DataTitulo3: "1989",
+      clube3: "AC_Milan",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_Intercontinental",
+      nomeTitulo4: "Copa Intercontinental",
+      DataTitulo4: "1989, 1990",
+      clube4: "AC_Milan",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Eurocopa_1988",
+      nomeTitulo5: "Campeonato Europeu",
+      DataTitulo5: "1988",
+      clube5: "Holanda",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Bola_de_Ouro",
+      nomeTitulo6: "Bola de Ouro",
+      DataTitulo6: "1987",
+      clube6: "Individual",
       numero: "7",
       posicao: "Meia",
       dataNascimento: "1 de setembro de 1962",
@@ -5512,6 +5710,7 @@ function pesquisar() {
     {
       nome: "Van Basten",
       background: "gold",
+      imgMarca: "Van_Basten",
       descricao:
         "Considerado um dos maiores atacantes da história do futebol, Van Basten era conhecido por sua técnica impecável, finalizações precisas e visão de jogo. Ele conquistou diversos títulos com o Milan e a seleção holandesa.",
       pagina:
@@ -5523,8 +5722,41 @@ function pesquisar() {
       tags: "holanda, atacante, gold",
       imagem:
         "https://i.pinimg.com/736x/23/fb/6e/23fb6e79e6a0a01c125d34e062eb156e.jpg",
-      titulos:
-        "Serie A, Copa dos Campeões da Europa, Copa Intercontinental, Eurocopa",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Eurocopa_1988",
+      nomeTitulo1: "Campeonato Europeu",
+      DataTitulo1: "1988",
+      clube1: "Holanda",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Serie_A",
+      nomeTitulo2: "Campeonato Italiano",
+      DataTitulo2: "1988, 1992, 1993",
+      clube2: "AC_Milan",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Champions_League",
+      nomeTitulo3: "Liga dos Campeões",
+      DataTitulo3: "1989, 1990",
+      clube3: "AC_Milan",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_Intercontinental",
+      nomeTitulo4: "Copa Intercontinental",
+      DataTitulo4: "1989, 1990",
+      clube4: "AC_Milan",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Bola_de_Ouro",
+      nomeTitulo5: "Bola de Ouro",
+      DataTitulo5: "1988, 1989, 1992",
+      clube5: "Individual",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "FIFA_100",
+      nomeTitulo6: "FIFA 100",
+      DataTitulo6: "2004",
+      clube6: "Individual",
       numero: "9",
       posicao: "Atacante",
       dataNascimento: "31/10/1964",
@@ -5583,17 +5815,53 @@ function pesquisar() {
     {
       nome: "Ferenc Puskás",
       background: "gold",
+      imgMarca: "Ferenc_Puskás",
       descricao:
         "Atacante húngaro considerado um dos maiores goleadores da história do futebol. Puskás era conhecido por sua força física, habilidade técnica e faro de gol, sendo um dos principais jogadores da seleção húngara que dominou o futebol nos anos 50.",
       pagina: "https://www.instagram.com/ferenc_puskas_official/", // Verificar se existe um perfil oficial
       clube: "Aposentado (1966)",
-      time1: "Honvéd_Budapest",
-      time2: "Real_Madrid",
+      time2: "Honvéd_Budapest",
+      time1: "Real_Madrid",
       nacionalidade: "Hungria",
-      tags: "hungria, atacante, gold",
+      tags: "hungria, atacante, puskas, gold",
       imagem:
         "https://static.wixstatic.com/media/c979db_0758bd87fc0f4abe8d3f09a2d1aa2c9c~mv2_d_1596_2500_s_2.jpg/v1/fill/w_568,h_890,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c979db_0758bd87fc0f4abe8d3f09a2d1aa2c9c~mv2_d_1596_2500_s_2.jpg",
-      titulos: "La Liga, Copa dos Campeões, Bola de Ouro",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "LaLiga",
+      nomeTitulo1: "Campeonato Espanhol",
+      DataTitulo1: "1961, 1962, 1963, 1964, 1965",
+      clube1: "Real_Madrid",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Champions_League",
+      nomeTitulo2: "Liga dos Campeões",
+      DataTitulo2: "1959, 1960, 1966",
+      clube2: "Real_Madrid",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Copa_Intercontinental",
+      nomeTitulo3: "Copa Intercontinental",
+      DataTitulo3: "1960",
+      clube3: "Real_Madrid",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_Del_Rey",
+      nomeTitulo4: "Copa da Espanha",
+      DataTitulo4: "1962",
+      clube4: "Real_Madrid",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Campeonato_Húngaro",
+      nomeTitulo5: "Campeonato Húngaro",
+      DataTitulo5: "1949, 1950, 1952, 1954, 1955",
+      clube5: "Honvéd_Budapest",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Olímpicos_1952",
+      nomeTitulo6: "Ouro Olímpico",
+      DataTitulo6: "1952",
+      clube6: "Hungria",
+
       numero: "9",
       posicao: "Atacante",
       dataNascimento: "02/04/1927",
@@ -5627,6 +5895,7 @@ function pesquisar() {
     {
       nome: "Bobby Charlton",
       background: "gold",
+      imgMarca: "Bobby_Crarlton",
       descricao:
         "Meia-atacante inglês considerado um dos maiores jogadores da história do futebol. Charlton era conhecido por sua visão de jogo, habilidade técnica e chutes poderosos, sendo um dos pilares da seleção inglesa campeã da Copa do Mundo de 1966.",
       pagina: "https://www.instagram.com/bobbycharltonofficial/", // Verificar se existe um perfil oficial
@@ -5638,8 +5907,41 @@ function pesquisar() {
       tags: "inglaterra, meia, gold",
       imagem:
         "https://www.lequipe.fr/_medias/img-photo-jpg/en-1966-sir-bobby-charlton-recoit-son-ballon-d-or-a-old-trafford-l-equipe/1500000001870324/374:390,1578:1895-828-1035-75/dd11f",
-      titulos:
-        "Premier League, Copa da Inglaterra, Copa dos Campeões, Copa do Mundo",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Copa_do_Mundo_1966",
+      nomeTitulo1: "Copa do Mundo",
+      DataTitulo1: "1966",
+      clube1: "Inglaterra",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Premier_League",
+      nomeTitulo2: "Campeonato Inglês",
+      DataTitulo2: "1956, 1957, 1965, 1967",
+      clube2: "Manchester_United",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Champions_League",
+      nomeTitulo3: "Copa dos Campeões da Europa",
+      DataTitulo3: "1968",
+      clube3: "Manchester_United",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "FA_Cup",
+      nomeTitulo4: "Copa da Inglaterra",
+      DataTitulo4: "1963",
+      clube4: "Manchester_United",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "FIFA_100",
+      nomeTitulo5: "FIFA 100",
+      DataTitulo5: "2004",
+      clube5: "Individual",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Bola_de_Ouro",
+      nomeTitulo6: "Bola de Ouro",
+      DataTitulo6: "1966",
+      clube6: "Individual",
       numero: "7",
       posicao: "Meia-atacante",
       dataNascimento: "11/10/1937",
@@ -6051,6 +6353,7 @@ function pesquisar() {
     {
       nome: "George Best",
       background: "gold",
+      imgMarca: "George_Best",
       descricao:
         "Considerado um dos maiores jogadores de futebol de todos os tempos, George Best era famoso por sua habilidade com a bola, dribles rápidos e visão de jogo. Ídolo do Manchester United, conquistou diversos títulos e encantou a Europa com seu talento.",
       pagina: "https://en.wikipedia.org/wiki/George_Best",
@@ -6063,9 +6366,36 @@ function pesquisar() {
       alt: "Irlanda do Norte",
       tags: "irlanda do norte, ponta esquerda, gold",
       imagem:
-        "https://lendasdofutebol.com/wp-content/uploads/2021/01/george-best-jpeg-original-reedit-optimized.jpg", // Substituir por uma imagem do George Best
-      titulos:
-        "Primeira Divisão Inglesa (2x) - Manchester United<br> Copa da Europa (1x) - Manchester United",
+        "https://shop.memorylane.co.uk/p/767/george-best-manchester-united-1972-21458563.jpg.webp",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Champions_League",
+      nomeTitulo1: "Copa dos Campeões da Europa",
+      DataTitulo1: "1968",
+      clube1: "Manchester_United",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Premier_League",
+      nomeTitulo2: "Campeonato Inglês",
+      DataTitulo2: "1965, 1967",
+      clube2: "Manchester_United",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Supercopa_da_Inglaterra",
+      nomeTitulo3: "Supercopa da Inglaterra",
+      DataTitulo3: "1965, 1967",
+      clube3: "Manchester_United",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Bola_de_Ouro",
+      nomeTitulo4: "Bola de Ouro",
+      DataTitulo4: "1968",
+      clube4: "Individual",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "FIFA_100",
+      nomeTitulo5: "FIFA 100",
+      DataTitulo5: "2004",
+      clube5: "Individual",
       numero: "7",
       posicao: "Ponta esquerda",
       dataNascimento: "22/05/1946",
@@ -6125,7 +6455,7 @@ function pesquisar() {
 
     // Baggio
     {
-      nome: "Roberto Baggio",
+      nome: "Baggio",
       background: "plate",
       descricao:
         "Considerado um dos maiores jogadores de futebol de todos os tempos, Roberto Baggio era conhecido por sua habilidade técnica, visão de jogo e chute preciso. Sua carreira foi marcada por momentos de glória e polêmicas, como o pênalti perdido na final da Copa do Mundo de 1994.",
@@ -6262,6 +6592,7 @@ function pesquisar() {
     {
       nome: "Franco Baresi",
       background: "gold",
+      imgMarca: "Franco_Baresi",
       descricao:
         "Zagueiro italiano conhecido por sua liderança, elegância e técnica impecável. Ídolo do Milan, Baresi é considerado um dos maiores defensores da história do futebol.",
       pagina: "https://www.instagram.com/francobaresi/", // Verificar se existe perfil oficial
@@ -6271,7 +6602,41 @@ function pesquisar() {
       tags: "Itália, zagueiro, gold",
       imagem:
         "https://terceirotempo.uol.com.br/imagens/36/15/w359_h550_arq_103615.webp",
-      titulos: "Serie A, Copa dos Campeões da Europa, Copa Intercontinental",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Serie_A",
+      nomeTitulo1: "Campeonato Italiano",
+      DataTitulo1: "1979, 1988, 1992, 1993, 1994, 1996",
+      clube1: "AC_Milan",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Champions_League",
+      nomeTitulo2: "Liga dos Campeões",
+      DataTitulo2: "1989, 1990, 1994",
+      clube2: "AC_Milan",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Supercopa_da_UEFA",
+      nomeTitulo3: "Supercopa da Europa",
+      DataTitulo3: "1989, 1990, 1994",
+      clube3: "AC_Milan",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_Intercontinental",
+      nomeTitulo4: "Copa Intercontinental",
+      DataTitulo4: "1989, 1990",
+      clube4: "AC_Milan",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_do_Mundo_1982",
+      nomeTitulo5: "Copa do Mundo",
+      DataTitulo5: "1982",
+      clube5: "Itália",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "FIFA_100",
+      nomeTitulo6: "FIFA 100",
+      DataTitulo6: "2004",
+      clube6: "Individual",
       numero: "6",
       posicao: "Zagueiro",
       dataNascimento: "08/05/1960",
@@ -6302,21 +6667,56 @@ function pesquisar() {
     //Gianluigi Buffon
     {
       nome: "Gianluigi Buffon",
-      background: "plate",
+      background: "gold",
+      imgMarca: "Gianluigi_Buffon",
       descricao:
         "Goleiro experiente e lendário, Buffon é conhecido por suas reflexos incríveis, liderança e longevidade. É considerado um dos maiores goleiros de todos os tempos.",
       pagina: "https://www.instagram.com/gianluigibuffon/",
-      time: "Aposentado (2023)",
+      clube: "Aposentado (2023)",
       time1: "Parma",
       time2: "Juventus",
       time3: "PSG",
-      time4: "Plate",
       nacionalidade: "Itália",
       alt: "Itália",
-      tags: "itália, goleiro, plate",
+      tags: "itália, goleiro, gold",
       imagem:
         "https://img.redbull.com/images/c_crop,x_171,y_0,h_627,w_501/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2018/05/17/326dcfdb-0050-430d-a51e-a90132a98bdb/buffon", // Trocar por uma imagem do Gianluigi Buffon
-      titulos: "Serie A, Copa da Itália, Copa do Mundo, Copa da UEFA",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Serie_A",
+      nomeTitulo1: "Campeonato Italiano",
+      DataTitulo1:
+        "2002, 2003, 2012, 2013, 2014, 2015, 2016, 2017, 2018 e 2020",
+      clube1: "Juventus",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_da_Itália",
+      nomeTitulo2: "Copa da Itália",
+      DataTitulo2: "2003-2004, 2014-2015, 2015-2016, 2016-2017, 2017-2018",
+      clube2: "Juventus",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Supercopa_da_Itália",
+      nomeTitulo3: "Supercopa da Itália",
+      DataTitulo3: "2002, 2003, 2012, 2013, 2015 e 2020",
+      clube3: "Juventus",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_do_Mundo_2006",
+      nomeTitulo4: "Copa do Mundo",
+      DataTitulo4: "2006",
+      clube4: "Itália",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Prêmio_Golden_Foot",
+      nomeTitulo5: "Prêmio Golden Foot",
+      DataTitulo5: "2016",
+      clube5: "Individual",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "FIFA_100",
+      nomeTitulo6: "FIFA 100",
+      DataTitulo6: "2004",
+      clube6: "Individual",
       numero: "1",
       posicao: "Goleiro",
       dataNascimento: "28/01/1978",
@@ -6348,6 +6748,7 @@ function pesquisar() {
     {
       nome: "Giuseppe Meazza",
       background: "gold",
+      imgMarca: "Giuseppe_Meazza",
       descricao:
         "Atacante italiano considerado um dos maiores jogadores de todos os tempos. Conhecido por sua habilidade técnica e gols decisivos, Meazza foi ídolo em Inter e Milan.",
       pagina:
@@ -6361,7 +6762,35 @@ function pesquisar() {
       tags: "Itália, atacante, gold",
       imagem:
         "https://upload.wikimedia.org/wikipedia/commons/1/19/Giuseppe_Meazza_1935.jpg",
-      titulos: "Serie A, Copa da Itália",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Serie_A",
+      nomeTitulo1: "Campeonato Italiano",
+      DataTitulo1: "1930, 1938, 1940",
+      clube1: "Internazionale",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_da_Itália",
+      nomeTitulo2: "Copa da Itália",
+      DataTitulo2: "1939",
+      clube2: "Internazionale",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Copa_do_Mundo_1934",
+      nomeTitulo3: "Copa do Mundo",
+      DataTitulo3: "1934",
+      clube3: "Itália",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_do_Mundo_1938",
+      nomeTitulo4: "Copa do Mundo",
+      DataTitulo4: "1938",
+      clube4: "Itália",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "IFFHS",
+      nomeTitulo5: "21° Melhor Jogador do Século XX pela IFFHS",
+      DataTitulo5: "2000",
+      clube5: "Individual",
       numero: "9",
       posicao: "Atacante",
       dataNascimento: "23/08/1910",
@@ -6413,19 +6842,54 @@ function pesquisar() {
 
     // Maldini
     {
-      nome: "Paolo Maldini",
+      nome: "Maldini",
       background: "gold",
+      imgMarca: "Paolo_Maldini",
       descricao:
         "Lenda do futebol italiano, conhecido por sua lealdade ao Milan e por sua habilidade defensiva. Considerado um dos maiores zagueiros da história do futebol.",
       pagina: "https://www.instagram.com/paolomaldini/",
-      clube: "Aposentado",
+      clube: "Aposentado (2009)",
       time1: "AC_Milan",
       nacionalidade: "Italia",
       tags: "italia, Itália, zagueiro, gold",
       imagem:
         "https://conteudo.imguol.com.br/c/esporte/c6/2017/06/18/paolo-maldini-foi-idolo-do-milan-1497826738095_v2_900x506.jpg",
-      titulos:
-        "Serie A, Liga dos Campeões da UEFA, Copa da Itália, Copa Intercontinental, Copa do Mundo de Clubes",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Serie_A",
+      nomeTitulo1: "Campeonato Italiano",
+      DataTitulo1: "1988, 1992, 1993, 1994, 1996, 1999, 2004",
+      clube1: "AC_Milan",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Champions_League",
+      nomeTitulo2: "Liga dos Campeões",
+      DataTitulo2: "1989, 1990, 1994, 2003, 2007",
+      clube2: "AC_Milan",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Supercopa_da_UEFA",
+      nomeTitulo3: "Supercopa da Europa",
+      DataTitulo3: "1989, 1990, 1994, 2003",
+      clube3: "AC_Milan",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Copa_Intercontinental",
+      nomeTitulo4: "Copa Intercontinental",
+      DataTitulo4: "1989, 1990",
+      clube4: "AC_Milan",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "France_Football",
+      nomeTitulo5: "Bola de Ouro Dream Team",
+      DataTitulo5: "2020",
+      clube5: "Individual",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "FIFA_100",
+      nomeTitulo6: "FIFA 100",
+      DataTitulo6: "2004",
+      clube6: "Individual",
+
       numero: "3",
       posicao: "Zagueiro",
       dataNascimento: "26/06/1968",

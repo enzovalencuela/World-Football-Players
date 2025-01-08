@@ -140,6 +140,7 @@ ul {
 .div-superior {
   display: flex;
   flex-direction: row;
+  gap: 2rem;
 }
 
 .div-left {
@@ -156,14 +157,14 @@ ul {
   object-fit: cover;
   width: 300px;
   height: 400px;
-  margin: 15px 30px 60px 0px;
-  text-align: center;
+  margin-block: 1rem;
 }
 
 .dado_imgMarca {
-  bottom: 87px;
-  right: 30px;
-  height: 240px;
+  bottom: 6rem;
+  right: 1rem;
+  max-height: 240px;
+  max-width: 350px;
   position: absolute;
 }
 
@@ -174,6 +175,7 @@ ul {
   text-align: start;
   font-size: 1rem;
   flex: 2;
+  height: 32rem;
 }
 
 .numero-nome-nacionalidade {
