@@ -234,20 +234,22 @@ botao2.addEventListener("click", () => {
   tecnicos.forEach((tecnico) => {
     htmlContent += `
         <div class="item-resultado">
-          <img class="dado-imagem" src="${tecnico.imagem}" alt="">
-            <div class="div-info">
-              <div class="numero-nome-time">
-                <a class="link-pagina" href="${tecnico.pagina}" target="_blank"><h2 id="nome">${tecnico.nome}</h2></a>
+          <div class="div-superior">
+            <img class="dado-imagem" src="${tecnico.imagem}" alt="">
+              <div class="div-info">
+                <div class="numero-nome-time">
+                  <a class="link-pagina" href="${tecnico.pagina}" target="_blank"><h2 id="nome">${tecnico.nome}</h2></a>
+                </div>
+                <h3>Início de carreira</h3>
+                <p id="info">${tecnico.carreira}</p>
+                <h3>Clube</h3>
+                <p id="info">${tecnico.clubes}</p>
+                <h3>Principais Títulos</h3>
+                <p id="info">${tecnico.titulos}</p>
+                <h3>Curiosidades</h3>
+                <p id="info">${tecnico.curiosidades}</p>
               </div>
-              <h3>Início de carreira</h3>
-              <p id="info">${tecnico.carreira}</p>
-              <h3>Clube</h3>
-              <p id="info">${tecnico.clubes}</p>
-              <h3>Principais Títulos</h3>
-              <p id="info">${tecnico.titulos}</p>
-              <h3>Curiosidades</h3>
-              <p id="info">${tecnico.curiosidades}</p>
-            </div>
+          </div>
           <p class="descricao-meta">${tecnico.descricao}</p>
         </div>
       `;

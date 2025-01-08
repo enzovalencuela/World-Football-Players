@@ -14,8 +14,6 @@
   display: flex;
   flex-direction: column;
   background-color: #202020;
-  min-height: 100vh;
-  padding-top: 15px;
 }
 
 /*ESTILIZAÇÃO DO CABEÇALHO DA PÁGINA /////////////////////////////////////////////////////////*/
@@ -36,20 +34,23 @@ h1 {
 section {
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */
+  gap: 2rem;
   align-items: center; /* Centraliza os itens horizontalmente */
   margin-block: 3rem; /* Espaçamento abaixo de cada seção */
   justify-content: center;
+}
+
+.barra-pesquisa {
+  position: relative;
 
   & input {
-    min-width: 33rem;
+    width: 32vw;
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
+    margin: 0;
     border-radius: 1.5rem; /* Borda arredondada */
     color: #45474b; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
-    position: relative;
-    z-index: 0;
   }
 }
 
@@ -65,12 +66,8 @@ button {
   color: #f5f7f8; /* Cor do texto do botão */
   border-radius: 1.5rem; /* Borda arredondada */
   position: absolute;
-  right: 30.9rem;
+  right: 0;
   z-index: 1;
-}
-
-.btn-filtros {
-  margin-top: 25px;
 }
 
 .btn-nav {
@@ -88,12 +85,12 @@ ul {
 
 /*ESTILIZAÇÃO DO ESPAÇO QUE APARECE OS RESULTADOS /////////////////////////////////////////////////////////*/
 .div-resultados {
-  font-family: "Chakra Petch", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
   height: 100vh;
+  width: 100vw;
   overflow-y: auto;
 }
 
@@ -102,7 +99,6 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: auto;
   gap: 30px;
 }
 
@@ -116,7 +112,7 @@ ul {
   width: 170px;
 }
 
-/*ESTILIZAÇÃO DA DIV DOS RESULTADOS /////////////////////////////////////////////////////////*/
+/*DIV DOS RESULTADOS DOS JOGADORES /////////////////////////////////////////////////////////*/
 .item-resultado {
   background-image: url(./img/Fundo_resultado.png);
   background-size: cover;
@@ -131,20 +127,6 @@ ul {
   width: 55vw;
   gap: 1rem;
 }
-.item-resultado-selecao {
-  background-image: url(./img/Fundo_resultado-selecao.png);
-  background-size: cover;
-  box-shadow: 0 20px 20px rgba(81, 81, 81, 0.458);
-  border-radius: 0.6rem;
-  padding: 2rem;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  width: 54rem;
-  max-height: 40rem;
-  flex-wrap: wrap;
-}
 
 .item-resultado a {
   text-decoration: none;
@@ -155,13 +137,19 @@ ul {
   color: #323232;
 }
 
-.item-resultado-selecao a {
-  text-decoration: none;
+.div-superior {
+  display: flex;
+  flex-direction: row;
 }
 
-.item-resultado-selecao a:hover {
-  text-decoration: underline;
-  color: #323232;
+.div-left {
+  position: relative;
+  font-family: "Architects Daughter", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: start;
+  font-size: 1rem;
+  flex: 1;
 }
 
 .dado-imagem {
@@ -179,34 +167,22 @@ ul {
   position: absolute;
 }
 
-.dado-imagem-selecao {
-  width: 220px;
-  max-height: 350px;
-  padding: 15px 30px 0px 0px;
-  text-align: center;
+.div-info {
+  font-family: "Architects Daughter", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: start;
+  font-size: 1rem;
+  flex: 2;
 }
 
-.dado-imagem-clubes {
-  object-fit: cover;
-  max-width: 270px;
-  max-height: 400px;
-  padding: 15px 30px 0px 0px;
-}
-
-.numero-nome-time {
+.numero-nome-nacionalidade {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: start;
   margin-bottom: 20px;
   gap: 10px;
-}
-
-.numero-nome-selecao {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  margin-bottom: 20px;
 }
 
 .numero {
@@ -219,16 +195,35 @@ ul {
   color: #202020;
 }
 
-.link-pagina {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-}
-
 .nacionalidade {
   object-fit: cover;
   width: 50px;
+}
+
+#info {
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.descricao-meta {
+  color: #45474b;
+  margin: 0.5rem 0;
+}
+
+.div-titulos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: space-between;
+}
+
+.item-titulo {
+  display: grid;
+  grid-area: auto;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
 }
 
 .campeonato {
@@ -242,28 +237,22 @@ ul {
   padding-inline: 5px;
 }
 
-.div-superior {
-  display: flex;
-  flex-direction: row;
+/*DIV DOS RESULTADOS DOS CLUBES E SELEÇÕES /////////////////////////////////////////////////////////*/
+.selecao-clube {
+  background-image: url(./img/Fundo_resultado-selecao.png);
 }
 
-.div-info {
-  font-family: "Architects Daughter", serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: start;
-  font-size: 1rem;
-  flex: 2;
+.dado-imagem-selecao {
+  width: 220px;
+  max-height: 350px;
+  padding: 15px 30px 0px 0px;
+  text-align: center;
 }
 
-.div-left {
-  position: relative;
-  font-family: "Architects Daughter", serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: start;
-  font-size: 1rem;
-  flex: 1;
+.dado-imagem-clube-selecao {
+  width: 220px;
+  height: fit-content;
+  padding: 15px 30px 0px 0px;
 }
 
 table {
@@ -274,30 +263,9 @@ table {
   background-size: cover;
 }
 
-.div-titulos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-content: space-between;
-}
-
 th {
   font-size: 2rem;
   font-weight: 600;
-}
-
-.item-titulo {
-  display: grid;
-  grid-area: auto;
-  justify-content: center;
-  align-items: center;
-  height: 70px;
-}
-
-#info {
-  font-size: 0.9rem;
-  font-weight: 300;
-  padding-bottom: 10px;
 }
 
 #sub-info {
@@ -306,11 +274,6 @@ th {
   padding-bottom: 10px;
   color: #818181;
   flex: 1;
-}
-
-.descricao-meta {
-  color: #45474b;
-  margin: 0.5rem 0;
 }
 
 /*ESTILIZAÇÃO DA SESSÃO VIDEO /////////////////////////////////////////////////////////*/
@@ -370,43 +333,13 @@ footer {
 
 /* Para telas menores (celulares) ////////////////////////////////////////////////////////*/
 @media (max-width: 480px) {
-  .content {
-    min-height: 100vh;
+  h1 {
+    font-size: 1.6rem;
   }
 
-  .pagina {
-    font-family: "Chakra Petch", sans-serif;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    & h1 {
-      padding: 2rem 0;
-      font-size: 1.6rem;
-    }
-  }
-
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-    justify-content: center;
-    margin-top: 0px;
-
+  .barra-pesquisa {
     & input {
-      margin: 0;
-      border: none;
-      padding: 1rem;
-      border-radius: 1.5rem;
-      color: #45474b;
-      font-size: 1rem;
-      box-sizing: border-box;
-      position: relative;
-      z-index: 0;
-      padding: 15px 0 15px 15px;
-      width: 80vw;
-      min-width: 0;
+      width: 75vw;
     }
   }
 
@@ -414,35 +347,9 @@ footer {
     gap: 3rem;
   }
 
-  button {
-    border: none;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-
-  .pagina__btn {
-    background-color: #018f08;
-    color: #f5f7f8;
-    border-radius: 1.5rem;
-    position: absolute;
-    z-index: 1;
-    right: 8%;
-    padding: 15px 20px;
-  }
-
-  .barra-pesquisa {
-    margin: 20px 20px 15px 20px;
-  }
-
   .div-resultados {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-block: 50px;
     height: max-content;
     overflow-y: none;
-    color: #595959;
   }
 
   .div-superior {
@@ -452,58 +359,28 @@ footer {
     align-items: center;
   }
 
-  .div-titulos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    justify-content: space-between;
-  }
-
   th {
-    font-size: 2rem;
-    font-weight: 600;
     padding-bottom: 2rem;
   }
 
   #p-resultados {
-    padding-top: 50px;
-    color: #fff;
-    width: 370px;
-  }
-
-  #img-resultados {
-    width: 170px;
+    width: 80vw;
   }
 
   .item-resultado {
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 80vw;
     margin: 0;
-    font-size: 10px;
     padding: 1rem;
     height: inherit;
     max-height: initial;
     background-image: url(./img/Fundo_resultado-mobile-jogadores.png);
   }
 
-  .item-resultado-selecao {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 0;
-    font-size: 10px;
-    padding: 1rem;
-    height: inherit;
-    max-height: inherit;
+  .selecao-clube {
     background-image: url(./img/Fundo_resultado-mobile.png);
   }
 
   table {
-    width: 100%;
     padding-top: 80px;
     font-size: 0.8rem;
     background-image: url(./img/Fundo_tabela-mobile.png);

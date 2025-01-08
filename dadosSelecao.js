@@ -150,11 +150,12 @@ botao3.addEventListener("click", () => {
 
   selecoes.forEach((selecao) => {
     htmlContent += `
-        <div class="item-resultado-selecao">
-          <img class="dado-imagem-selecao" src="${selecao.imagem}" alt="">
+        <div class="item-resultado selecao-clube">
+        <div class="div-superior">
+          <img class="dado-imagem-clube-selecao" src="${selecao.imagem}" alt="">
             <div class="div-info">
               <div class="numero-nome-selecao">
-                <a class="link-pagina" href="${selecao.pagina}" target="_blank"><h2 id="nome">${selecao.nome}</h2></a>
+                <a href="${selecao.pagina}" target="_blank"><h2 id="nome">${selecao.nome}</h2></a>
                 <h3 id="sub-info">${selecao.confederacao}</h3>
               </div>
               <h3>Fundação</h3>
@@ -168,6 +169,7 @@ botao3.addEventListener("click", () => {
               <h3>Curiosidades</h3>
               <p id="info">${selecao.curiosidades}</p>
             </div>
+          </div>
         </div>
         `;
   });

@@ -325,21 +325,23 @@ botao.addEventListener("click", () => {
 
   times.forEach((time) => {
     htmlContent += `
-        <div class="item-resultado-selecao">
-          <img class="dado-imagem-clubes" src="${time.imagem}" alt="">
-            <div class="div-info">
-              <div class="numero-nome-time">
-                <a class="link-pagina" href="${time.pagina}" target="_blank"><h2 id="nome">${time.nome}</h2></a>
+        <div class="item-resultado selecao-clube">
+          <div class="div-superior">
+            <img class="dado-imagem-clube-selecao" src="${time.imagem}" alt="">
+              <div class="div-info">
+                <div class="numero-nome-time">
+                  <a class="link-pagina" href="${time.pagina}" target="_blank"><h2 id="nome">${time.nome}</h2></a>
+                </div>
+                <h3>Localização</h3>
+                <p id="info">${time.localizacao}</p>
+                <h3>Fundação</h3>
+                <p id="info">${time.fundacao}</p>
+                <h3>Principais Títulos</h3>
+                <p id="info">${time.titulos}</p>
+                <h3>Curiosidades</h3>
+                <p id="info">${time.curiosidades}</p>
               </div>
-              <h3>Localização</h3>
-              <p id="info">${time.localizacao}</p>
-              <h3>Fundação</h3>
-              <p id="info">${time.fundacao}</p>
-              <h3>Principais Títulos</h3>
-              <p id="info">${time.titulos}</p>
-              <h3>Curiosidades</h3>
-              <p id="info">${time.curiosidades}</p>
-            </div>
+          </div>
           <p class="descricao-meta">${time.descricao}</p>
         </div>
       `;

@@ -7290,9 +7290,9 @@ function pesquisar() {
               <img class="dado_imgMarca" src="./img/Logo_${dado.imgMarca}.png" alt="">
           </div>
           <div class="div-info">
-            <div class="numero-nome-time">
+            <div class="numero-nome-nacionalidade">
               <h2 class="numero" >${dado.numero}</h2>
-              <a class="link-pagina" href="${dado.pagina}" target="_blank"><h2 id="nome">${dado.nome}</h2></a>
+              <a href="${dado.pagina}" target="_blank"><h2 id="nome">${dado.nome}</h2></a>
               <img class="nacionalidade" src="./img/Logo_${dado.nacionalidade}.png" alt="${dado.alt}">
             </div>
             <h3>Status</h3>

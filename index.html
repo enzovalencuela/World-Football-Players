@@ -7,51 +7,43 @@
     <title>Futebol</title>
   </head>
   <body>
-    <!--MENU DE PESQUISA-->
-    <div class="content">
-      <div class="pagina">
+    <header class="pagina">
+      <!--MENU DE PESQUISA-->
+      <section>
         <h1>Tudo sobre Futebol</h1>
-        <header>
-          <section>
-            <div class="barra-pesquisa">
-              <input
-                type="text"
-                placeholder="digite o atleta, time ou país"
-                id="campo-pesquisa"
-              />
-              <button class="pagina__btn" onclick="pesquisar()">
-                Pesquisar
-              </button>
-            </div>
-            <div class="btn-filtros">
-              <ul>
-                <li>
-                  <button class="btn-nav" id="mostrarTecnicos">Técnicos</button>
-                </li>
-                <li>
-                  <button class="btn-nav" id="mostrarTimes">Clubes</button>
-                </li>
-                <li>
-                  <button class="btn-nav" id="mostrarSelecoes">Seleções</button>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <!--RESULTADOS-->
-          <div class="div-resultados">
-            <main>
-              <div class="resultados-pesquisa" id="resultados-pesquisa">
-                <p id="p-resultados">
-                  Aqui você fica por dentro de tudo do futebol mundial! Pesquise
-                  por jogadores e clubes mundiais sem nenhuma dificuldade.
-                </p>
-                <img id="img-resultados" src="./img/messi.png" alt="" />
-              </div>
-            </main>
-          </div>
-        </header>
+        <div class="barra-pesquisa">
+          <input
+            type="text"
+            placeholder="digite o atleta, time ou país"
+            id="campo-pesquisa"
+          />
+          <button class="pagina__btn" onclick="pesquisar()">Pesquisar</button>
+        </div>
+        <div class="btn-filtros">
+          <ul>
+            <li>
+              <button class="btn-nav" id="mostrarTecnicos">Técnicos</button>
+            </li>
+            <li>
+              <button class="btn-nav" id="mostrarTimes">Clubes</button>
+            </li>
+            <li>
+              <button class="btn-nav" id="mostrarSelecoes">Seleções</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--DIV DOS RESULTADOS-->
+      <div class="div-resultados">
+        <main class="resultados-pesquisa" id="resultados-pesquisa">
+          <p id="p-resultados">
+            Aqui você fica por dentro de tudo do futebol mundial! Pesquise por
+            jogadores e clubes mundiais sem nenhuma dificuldade.
+          </p>
+          <img id="img-resultados" src="./img/messi.png" alt="" />
+        </main>
       </div>
-    </div>
+    </header>
 
     <!--SESSÃO VIDEO-->
     <div class="video-sessao">
@@ -78,9 +70,5 @@
     <script src="./dadosTecnicos.js"></script>
     <script src="./dadosJogadores.js"></script>
     <script src="./dadosSelecao.js"></script>
-    <script
-      src="https://kit.fontawesome.com/48b3505341.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
