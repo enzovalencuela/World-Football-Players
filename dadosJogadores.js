@@ -308,6 +308,7 @@ function pesquisar() {
     {
       nome: "Manuel Neuer",
       background: "gold",
+      imgMarca: "Manuel_Neuer",
       descricao:
         "Considerado um dos melhores goleiros da história, Neuer revolucionou a posição com seu estilo de jogo. Conhecido por sua agilidade e habilidade com os pés.",
       pagina: "https://www.instagram.com/manuelneuer/",
@@ -315,11 +316,45 @@ function pesquisar() {
       time1: "Bayern_de_Munique",
       time2: "Schalke_04",
       nacionalidade: "Alemanha",
-      tags: "alemanha, goleiro, bayern munique",
+      tags: "alemanha, goleiro, bayern munique, gold",
       imagem:
         "https://livesport-ott-images.ssl.cdn.cra.cz/r900xfq60/fc8c1de6-cc8f-48db-9fa6-08f5925378e8.jpeg",
-      titulos:
-        "Bundesliga, Copa da Alemanha, Liga dos Campeões da UEFA, Copa do Mundo",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Bundesliga",
+      nomeTitulo1: "Campeonato Alemão",
+      DataTitulo1:
+        "2012-2013, 2013-2014, 2014-2015, 2015-2016, 2016-2017, 2017-2018, 2018-2019, 2019-2020, 2020-2021, 2022-2023",
+      clube1: "Bayern_de_Munique",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Copa_da_Alemanha",
+      nomeTitulo2: "Copa da Alemanha",
+      DataTitulo2: "2012-2013, 2013-2014, 2015-2016, 2016-2017, 2019-2020",
+      clube2: "Bayern_de_Munique",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Champions_League",
+      nomeTitulo3: "Liga dos Campeões da UEFA",
+      DataTitulo3: "2012-2013",
+      clube3: "Bayern_de_Munique",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Supercopa_da_UEFA",
+      nomeTitulo4: "Supercopa da UEFA",
+      DataTitulo4: "2013, 2020",
+      clube4: "Bayern_de_Munique",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Copa_do_Mundo_2014",
+      nomeTitulo5: "Copa do Mundo",
+      DataTitulo5: "2014",
+      clube5: "Alemanha",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "Mundial_de_Clubes",
+      nomeTitulo6: "Mundial de Clubes",
+      DataTitulo6: "2013",
+      clube6: "Bayern_de_Munique",
       numero: "1",
       posicao: "Goleiro",
       dataNascimento: "27/3/1986",
@@ -7289,6 +7324,7 @@ function pesquisar() {
     {
       nome: "Eusébio",
       background: "gold",
+      imgMarca: "Eusebio",
       descricao:
         "Considerado um dos maiores jogadores de futebol de todos os tempos, Eusébio era famoso por sua velocidade, força física e habilidade com a bola. Ídolo do Benfica, conquistou diversos títulos e encantou o mundo com seus gols memoráveis.",
       pagina: "https://en.wikipedia.org/wiki/Eusebio",
@@ -7301,8 +7337,42 @@ function pesquisar() {
       tags: "portugal, atacante, eusebio, gold",
       imagem:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Eusebio_%281963_version2%29.jpg/300px-Eusebio_%281963_version2%29.jpg",
-      titulos:
-        "Campeonato Português (11x) - Benfica<br> Taça de Portugal (5x) - Benfica<br> Copa dos Campeões Europeus (2x) - Benfica<br> Bola de Ouro (1x)",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Campeonato_Português",
+      nomeTitulo1: "Campeonato Português",
+      DataTitulo1:
+        "1961, 1963, 1964, 1965, 1967, 1968, 1971, 1972, 1973 e 1975",
+      clube1: "Benfica",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Champions_League",
+      nomeTitulo2: "Liga dos Campeões da UEFA",
+      DataTitulo2: "1962",
+      clube2: "Benfica",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Copa_Intercontinental",
+      nomeTitulo3: "Copa Intercontinental",
+      DataTitulo3: "1962",
+      clube3: "Benfica",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Bola_de_Ouro",
+      nomeTitulo4: "Bola de Ouro",
+      DataTitulo4: "1965",
+      clube4: "Individual",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "IFFHS",
+      nomeTitulo5: "9º melhor jogador de futebol do século XX da IFFHS",
+      DataTitulo5: "2000",
+      clube5: "Individual",
+
+      // TITULO 6 ----------------------------
+      imgTitulo6: "FIFA_100",
+      nomeTitulo6: "FIFA 100",
+      DataTitulo6: "2004",
+      clube6: "Individual",
       numero: "8",
       posicao: "Atacante",
       dataNascimento: "25/01/1942",
@@ -7430,6 +7500,7 @@ function pesquisar() {
     {
       nome: "Lev Yashin",
       background: "gold",
+      imgMarca: "Lev_Yashin",
       descricao:
         "Considerado um dos maiores goleiros da história, Yashin era conhecido por sua agilidade, reflexos e estilo único. Apelidado de 'Aranha Negra', ele foi o único goleiro a ganhar a Bola de Ouro.",
       pagina: "https://pt.wikipedia.org/wiki/Lev_Yashin", // Página da Wikipédia com informações sobre Yashin
@@ -7439,8 +7510,35 @@ function pesquisar() {
       tags: "goleiro, yashin, russia, rússia, gold",
       imagem:
         "https://mf.b37mrtl.ru/rbthmedia/images/2018.03/original/5aba45e485600a68cb09cda4.jpg",
-      titulos:
-        "Campeonato Soviético, Copa da União Soviética, Eurocopa, Ouro Olímpico",
+      // TITULO 1 ----------------------------
+      imgTitulo1: "Campeonato_Sovietico",
+      nomeTitulo1: "Campeonato Soviético",
+      DataTitulo1: "1954, 1955, 1957, 1959, 1963, 1972",
+      clube1: "Dínamo_de_Moscou",
+
+      // TITULO 2 ----------------------------
+      imgTitulo2: "Eurocopa_1960",
+      nomeTitulo2: "Eurocopa",
+      DataTitulo2: "1960",
+      clube2: "Rússia",
+
+      // TITULO 3 ----------------------------
+      imgTitulo3: "Ouro_Olimpico_1956",
+      nomeTitulo3: "Ouro Olímpico",
+      DataTitulo3: "1956",
+      clube3: "Rússia",
+
+      // TITULO 4 ----------------------------
+      imgTitulo4: "Bola_de_Ouro",
+      nomeTitulo4: "Bola de Ouro",
+      DataTitulo4: "1963",
+      clube4: "Individual",
+
+      // TITULO 5 ----------------------------
+      imgTitulo5: "Bola_de_Ouro_Dream_Team",
+      nomeTitulo5: "Bola de Ouro Dream Team",
+      DataTitulo5: "2020",
+      clube5: "Individual",
       numero: "1",
       posicao: "Goleiro",
       dataNascimento: "22 de outubro de 1929",
