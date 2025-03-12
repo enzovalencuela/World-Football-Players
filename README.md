@@ -25,7 +25,8 @@ Cada jogador tem uma página personalizada com as seguintes informações:
 ### Exemplo de Layout
 
 #### 📷 Página Inicial com Barra de Pesquisa
-![Página Inicial](https://github.com/user-attachments/assets/e4ff999b-40f9-4e50-8ebc-e2a98da3b9f4)
+![Página inicial](https://github.com/user-attachments/assets/1b2bcc8f-5461-432b-852d-2283363abca6)
+
 
 
 #### 📷 Resultados da Pesquisa
