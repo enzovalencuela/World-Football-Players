@@ -55,7 +55,7 @@ Cada jogador tem uma página personalizada com as seguintes informações:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/World-Football-Players.git
+   git clone https://github.com/enzovalencuela/World-Football-Players.git
    ```
 
 2. Acesse a pasta do projeto:
