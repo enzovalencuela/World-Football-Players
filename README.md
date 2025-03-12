@@ -30,7 +30,8 @@ Cada jogador tem uma página personalizada com as seguintes informações:
 
 
 #### 📷 Resultados da Pesquisa
-![Resultados da Pesquisa](https://github.com/user-attachments/assets/7ea32102-d423-424b-8cf0-a7fd5899038f)
+![Resultados da Pesquisa](https://github.com/user-attachments/assets/3c7097aa-769d-46b9-b6cc-0a8acacb0362)
+
 
 
 #### 📷 Rodapé da Página
