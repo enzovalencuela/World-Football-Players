@@ -66,7 +66,7 @@ Cada jogador tem uma página personalizada com as seguintes informações:
 ## 🖼️ LINK
 
 Você pode acessar o projeto online no seguinte link:  
-[World Football Players](https://joagadores-imersao-alura.netlify.app)
+[World Football Players](https://enzovalencuela-world-football-players.netlify.app)
 
 ## 🛠️ Melhorias Futuras
 
