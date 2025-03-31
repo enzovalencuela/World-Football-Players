@@ -1,0 +1,568 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Estiliza o corpo da página */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+/*ESTILIZAÇÃO DA DIV GERAL /////////////////////////////////////////////////////////*/
+.pagina {
+  font-family: "Chakra Petch", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)),
+    url(https://forbes.com.br/wp-content/uploads/2019/06/listas-jogadores-futebol-180619-getty-VI-Images.jpg);
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+
+/*ESTILIZAÇÃO DO CABEÇALHO DA PÁGINA /////////////////////////////////////////////////////////*/
+header {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 2rem;
+  font-size: 2.8rem; /* Tamanho da fonte */
+  color: #f6f6f6; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+section {
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: column; /* Alinha os itens na vertical */
+  gap: 2rem;
+  align-items: center; /* Centraliza os itens horizontalmente */
+  margin-block: 3rem; /* Espaçamento abaixo de cada seção */
+  justify-content: center;
+}
+
+.barra-pesquisa {
+  position: relative;
+
+  & input {
+    width: 32vw;
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    margin: 0;
+    border-radius: 1.5rem; /* Borda arredondada */
+    color: #45474b; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+  }
+}
+
+button {
+  border: none; /* Remove a borda padrão */
+  font-size: 1rem; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.pagina__btn {
+  padding: 1rem 1.2rem; /* Espaçamento interno do botão */
+  background-color: #018f08; /* Cor de fundo do botão */
+  color: #f5f7f8; /* Cor do texto do botão */
+  border-radius: 1.5rem; /* Borda arredondada */
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.btn-nav {
+  color: #cacaca;
+  font-weight: 600;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  gap: 6rem;
+  list-style: none;
+}
+
+.resultados {
+  display: flex;
+  flex-direction: row;
+}
+
+.btnTopo {
+  background-color: #272727;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 10s ease-in-out;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  justify-content: center;
+  align-items: center;
+
+  & i {
+    font-size: 40px;
+  }
+}
+
+.btnTopo:hover {
+  background-color: #818181;
+}
+
+/*BARRA DE SCROLL //////////////////////////////////////////////////////////////////////////*/
+
+/* Personaliza a cor da barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Cor do "polegar" da barra de rolagem */
+  border-radius: 6px; /* Borda arredondada do polegar */
+  height: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b2b2b2; /* Cor do polegar ao passar o mouse */
+}
+
+/*ESTILIZAÇÃO DO ESPAÇO QUE APARECE OS RESULTADOS /////////////////////////////////////////////////////////*/
+
+.div-resultados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 0 3rem;
+  scroll-behavior: smooth;
+}
+
+.resultados-pesquisa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sem-resultados {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+#p-resultados {
+  padding-top: 50px;
+  color: #fff;
+  width: 390px;
+}
+
+#img-resultados {
+  width: 170px;
+}
+
+/*DIV DOS RESULTADOS DOS JOGADORES /////////////////////////////////////////////////////////*/
+.jogador {
+  background-image: url(./assets/img__fundos/Fundo_resultado.png);
+  background-size: cover;
+  border-radius: 0.6rem;
+  padding: 2rem 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 55vw;
+  gap: 1rem;
+}
+
+.jogador a {
+  text-decoration: none;
+}
+
+.jogador a:hover {
+  text-decoration: underline;
+  color: #323232;
+}
+
+.div-superior {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.div-left {
+  background-size: cover;
+  background-position-x: -7px;
+  background-position-y: -10px;
+  position: relative;
+  font-family: "Architects Daughter", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: start;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.dado-imagem {
+  object-fit: cover;
+  width: 300px;
+  height: 400px;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.dado_imgMarca {
+  bottom: 6rem;
+  right: 1rem;
+  max-height: 240px;
+  max-width: 350px;
+  position: absolute;
+}
+
+.div-info {
+  font-family: "Architects Daughter", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: start;
+  font-size: 1rem;
+  flex: 2;
+  height: 32rem;
+}
+
+.numero-nome-nacionalidade {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.numero {
+  font-size: 4rem;
+  color: #202020;
+}
+
+#nome {
+  font-size: 2.3rem;
+  color: #202020;
+}
+
+.nacionalidade {
+  object-fit: cover;
+  width: 50px;
+}
+
+#info {
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.descricao-meta {
+  color: #45474b;
+  margin: 0.5rem 0;
+}
+
+.clubes-tecnicos {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: start;
+  align-items: center;
+}
+
+/* TABELA DE TITULOS /////////////////////////////////////////////////////////////////////////*/
+.mostrar-esconder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #000000;
+  font-weight: 500;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.mostrar-esconder:hover {
+  background-color: #525252;
+  color: #bcbcbc;
+}
+
+table {
+  background-color: #fff;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  justify-content: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.conteudo-oculto {
+  display: none;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.tabela-titulos,
+.tabela-estatisticas {
+  width: 100%;
+}
+
+.tabelas-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  gap: 1rem;
+}
+
+.tabelas-right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  width: 100%;
+}
+
+.campeonato {
+  object-fit: cover;
+  max-height: 55px;
+  max-width: 45px;
+}
+
+.clubes {
+  max-height: 35px;
+  max-width: 50px;
+  padding-inline: 5px;
+  margin-block: 5px;
+}
+
+/*DIV DOS RESULTADOS DOS CLUBES E SELEÇÕES /////////////////////////////////////////////////////////*/
+
+.dado-imagem-selecao {
+  width: 220px;
+  max-height: 350px;
+  padding: 15px 30px 0px 0px;
+  text-align: center;
+}
+
+.dado-imagem-clube-selecao {
+  width: 220px;
+  height: fit-content;
+  padding: 15px 30px 0px 0px;
+}
+
+#sub-info {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: #818181;
+  flex: 1;
+}
+
+/*ESTILIZAÇÃO DO FOOTER /////////////////////////////////////////////////////////*/
+footer {
+  background-color: transparent;
+  color: #c2c2c2;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  width: 100%;
+  bottom: 0;
+  font-size: 1rem;
+}
+
+/*ESTILIZAÇÃO DA CLASSE /////////////////////////////////////////////////////////*/
+
+#gold {
+  background-color: #ffd260;
+  box-shadow: 0 20px 20px rgba(255, 217, 28, 0.458);
+
+  & h2 {
+    color: #bf930d;
+  }
+
+  & .div-superior .div-left .dado-imagem {
+    background-color: #bf930d;
+    box-shadow: -10px 15px 9px -2px rgba(255, 217, 28, 0.458);
+  }
+}
+
+#plate {
+  background-color: #d2d2d2;
+  box-shadow: 0 20px 20px rgba(255, 255, 255, 0.458);
+
+  & h2 {
+    color: #6d6d6d;
+  }
+
+  & .div-superior .div-left .dado-imagem {
+    background-color: #6d6d6d;
+    box-shadow: -10px 15px 9px -2px rgba(202, 202, 202, 0.867);
+  }
+}
+
+#promise {
+  background-color: #b1efff;
+  box-shadow: 0 20px 20px rgba(20, 65, 86, 0.458);
+
+  & h2 {
+    color: #03cee9;
+  }
+
+  & .div-superior .div-left .dado-imagem {
+    background-color: #03cee9;
+    box-shadow: -10px 15px 9px -2px rgba(41, 174, 236, 0.711);
+  }
+}
+
+/* Para telas menores (celulares) ////////////////////////////////////////////////////////*/
+@media (max-width: 768px) {
+  .pagina {
+    background-position: center;
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .barra-pesquisa {
+    & input {
+      width: 75vw;
+    }
+  }
+
+  ul {
+    gap: 3rem;
+  }
+
+  .div-resultados {
+    height: max-content;
+    overflow-y: none;
+  }
+
+  .div-superior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  th {
+    padding-bottom: 2rem;
+  }
+
+  #p-resultados {
+    width: 80vw;
+  }
+
+  .jogador {
+    width: 80vw;
+    margin: 0;
+    padding: 1rem;
+    height: inherit;
+    max-height: initial;
+    background-image: url(./assets/img__fundos/Fundo_resultado-mobile.png);
+  }
+
+  .dado_imgMarca {
+    top: 140px;
+    right: 20px;
+    height: 180px;
+    position: absolute;
+  }
+
+  .dado-imagem {
+    padding: 0;
+    width: 250px;
+    height: 320px;
+    margin: 0;
+  }
+
+  .numero-nome-time {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+
+    & #numero {
+      font-size: 40px;
+    }
+
+    & #nome {
+      font-size: 30px;
+    }
+  }
+
+  .div-info {
+    font-family: "Architects Daughter", serif;
+    text-align: start;
+    padding-top: 30px;
+    font-size: 1rem;
+    flex: 1;
+    max-width: 80vw;
+  }
+
+  .tabelas-jogador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  table {
+    padding-top: 80px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .item-titulo {
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    height: auto;
+  }
+
+  .campeonato {
+    width: 30px;
+  }
+
+  footer {
+    font-size: 0.7rem;
+  }
+}
