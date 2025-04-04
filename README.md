@@ -1,6 +1,7 @@
 # 🌍 World Football Players  
 
-![Projeto World Football Players](https://1drv.ms/i/c/10827a64be25b620/EbMxl7Tp5BZFu9N_lljpMeEB3TuT8X0IKoiuyVc5TjzeMw?e=2ficrj) 
+![Projeto World Football Players](https://github.com/user-attachments/assets/29685318-eca1-49e4-a7be-b14803750a56)
+
 
 ## 📌 Sobre o projeto  
 
@@ -35,7 +36,7 @@ A organização dos arquivos segue a seguinte estrutura:
  ┃ ┣ 📝 generalFunction.js      # Funções auxiliares
  ┣ 📝 index.html                # Página principal do site
  ┣ 🎨 style.css                 # Estilos do site
- ┣ 📝 .gitignore                # Arquivos ignorados pelo Git (exemplo: dadosJogadorees.js)
+ ┣ 📝 .gitignore                # Arquivos ignorados pelo Git
 ```
 
 ## ⚡ Funcionalidades  
@@ -49,14 +50,18 @@ A organização dos arquivos segue a seguinte estrutura:
 
 Aqui estão algumas imagens do projeto em funcionamento:  
 
-### 🏆 Página inicial  
-![Tela inicial do projeto](https://1drv.ms/i/c/10827a64be25b620/ESgfYenZ2nhMr-uQKnvuD-kByXulWktq7EMrtvmC96Y7BQ?e=CPeREh)
+### 🏆 Página inicial
+![Tela inicial do projeto](https://github.com/user-attachments/assets/5c29bbb5-511a-44ec-a432-8d061b804553)
 
-### 🌎 Resultado de pesquisa 
-![Tela de resultado de pesquisa](https://1drv.ms/i/c/10827a64be25b620/EWBcTmiAQs5Ju7Nl1Ls_XG8B6YBGcPOvcbWhLwz33gZTPQ?e=4DzNT6)
+
+### 🌎 Resultado de pesquisa
+![Tela de resultado de pesquisa](https://github.com/user-attachments/assets/00d51a70-66d5-4629-aef6-86c157bdc028)
+
+
 
 ### 🌎 Resultado da pesquisa
-![Tela de resultado mostrando os dados do jogador](https://1drv.ms/i/c/10827a64be25b620/EderVQOcxM1LhF-pWK_J_cUBFrqvin1Dl3ThX8yuquCocQ?e=P6NAfs)
+![Tela de resultado mostrando os dados do jogador](https://github.com/user-attachments/assets/5ae312a7-b3b7-4559-8442-21904d3eece3)
+
 
 ## 🚀 Como executar o projeto  
 
