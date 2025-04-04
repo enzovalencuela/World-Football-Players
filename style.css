@@ -451,11 +451,7 @@ footer {
 }
 
 /* Para telas menores (celulares) ////////////////////////////////////////////////////////*/
-@media (max-width: 1000px) {
-  body {
-    overflow: auto;
-  }
-
+@media (max-width: 768px) {
   .pagina {
     background-position: center;
     background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -477,7 +473,7 @@ footer {
 
   .div-resultados {
     height: max-content;
-    padding: 0 3rem;
+    overflow-y: none;
   }
 
   .div-superior {
@@ -539,16 +535,6 @@ footer {
     font-size: 1rem;
     flex: 1;
     max-width: 80vw;
-  }
-
-  .conteudo-oculto {
-    display: none;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    text-align: center;
-    gap: 1rem;
-    width: 100%;
   }
 
   .tabelas-jogador {
