@@ -43,7 +43,7 @@ A organização dos arquivos segue a seguinte estrutura:
 
 ✅ Pesquisar por jogadores, técnicos, clubes e seleções  
 ✅ Visualizar imagens de jogadores
-✅ Exibir dados estatisticos como títulos, gols, assistências e premiações individuais 
+✅ Exibir dados estatisticos como títulos, gols e assistências
 ✅ Estrutura dinâmica com JavaScript  
 
 ## 📷 Capturas de tela  
