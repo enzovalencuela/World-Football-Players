@@ -5,7 +5,7 @@
 
 ## 📌 Sobre o projeto  
 
-O **World Football Players** é um site desenvolvido com **HTML, CSS e JavaScript** que permite visualizar informações sobre jogadores de futebol, técnicos e seleções. O projeto foi criado com o objetivo de facilitar a pesquisa e exibição de dados de futebol de forma dinâmica e interativa.  
+O **World Football Players** é um site desenvolvido com **HTML, CSS e JavaScript** que permite visualizar informações sobre jogadores de futebol, técnicos, clubes e seleções. O projeto foi criado com o objetivo de facilitar a pesquisa e exibição de dados de futebol de forma dinâmica e interativa.  
 
 🔗 **Acesse o projeto online:** [Clique aqui](https://enzovalencuela-world-football-players.netlify.app/)  
 
