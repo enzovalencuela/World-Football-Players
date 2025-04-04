@@ -41,9 +41,9 @@ A organização dos arquivos segue a seguinte estrutura:
 
 ## ⚡ Funcionalidades  
 
-✅ Exibir uma seleção dos melhores jogadores do mundo  
-✅ Pesquisar por jogadores, técnicos e seleções  
-✅ Visualizar imagens das equipes e troféus  
+✅ Pesquisar por jogadores, técnicos, clubes e seleções  
+✅ Visualizar imagens de jogadores
+✅ Exibir dados estatisticos como títulos, gols, assistências e premiações individuais 
 ✅ Estrutura dinâmica com JavaScript  
 
 ## 📷 Capturas de tela  
