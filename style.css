@@ -471,11 +471,6 @@ footer {
     gap: 3rem;
   }
 
-  .div-resultados {
-    height: max-content;
-    overflow-y: none;
-  }
-
   .div-superior {
     display: flex;
     flex-direction: column;
@@ -518,14 +513,14 @@ footer {
     width: 100%;
     align-items: center;
     margin-bottom: 20px;
+  }
 
-    & #numero {
-      font-size: 40px;
-    }
+  #numero {
+    font-size: 40px;
+  }
 
-    & #nome {
-      font-size: 30px;
-    }
+  #nome {
+    font-size: 30px;
   }
 
   .div-info {
@@ -535,6 +530,10 @@ footer {
     font-size: 1rem;
     flex: 1;
     max-width: 80vw;
+  }
+
+  .conteudo-oculto {
+    flex-direction: column;
   }
 
   .tabelas-jogador {
