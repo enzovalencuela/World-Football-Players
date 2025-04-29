@@ -72,6 +72,7 @@ button {
   padding: 1rem 1.2rem; /* Espaçamento interno do botão */
   background-color: #018f08; /* Cor de fundo do botão */
   color: #f5f7f8; /* Cor do texto do botão */
+  font-weight: bold;
   border-radius: 1.5rem; /* Borda arredondada */
   position: absolute;
   right: 0;
