@@ -5817,7 +5817,9 @@ function pesquisar() {
       <div class="jogador" id="${jogador.background}">
         <div class="div-superior">
           <div class="div-left">
-            <img class="dado-imagem" src="${jogador.imagem}" alt="">
+            <img class="dado-imagem" loading="lazy" src="${
+              jogador.imagem
+            }" alt="">
             <img class="dado_imgMarca" src="./assets/img__players/Logo_${jogador.nome.replace(
               / /g,
               "_"
