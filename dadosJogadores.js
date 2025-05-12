@@ -1342,7 +1342,7 @@ const jogadores = [
     dataNascimento: "02/08/1992",
     status: "Ativo",
     imagem:
-      "https://www.gaveanews.com/wp-content/uploads/Alisson-em-acao-com-a-camisa-numero-1-do-Liverpool.jpg",
+      "https://www.ogol.com.br/wimg/n757268b/1257103-de-substituivel-a-melhor-do-mundo-alisson-marca-territorio-n.jpg",
     descricao:
       "Goleiro brasileiro conhecido por suas defesas espetaculares, reflexos rápidos e tranquilidade sob pressão. É um dos principais goleiros do mundo e fundamental para a conquista da Copa do Mundo de 2019 pela Seleção Brasileira.",
     clubes: [],
@@ -1356,17 +1356,68 @@ const jogadores = [
     background: "#",
     pagina: "https://www.instagram.com/antony00/",
     nacionalidade: "Brasil",
-    numero: "21",
+    numero: "7",
     posicao: "Ponta-Direita",
     dataNascimento: "22/02/2000",
     status: "Ativo",
     imagem:
-      "https://tntsports.com.br/__export/1668559168377/sites/esporteinterativo/img/2022/10/21/whatsapp_image_2022-10-21_at_14_58_22_1.jpeg_639181608.jpeg",
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2025/05/antony-real-betis-aspect-ratio-512-320.jpeg",
     descricao:
-      "Atacante brasileiro conhecido por sua habilidade nos dribles e velocidade, Antony é um dos principais jogadores do Manchester United.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+      "Atacante brasileiro conhecido como 'Goat' e por sua habilidade nos dribles e velocidade, Antony é um dos principais jogadores do Real Betis.",
+    clubes: [
+      createClub(
+        "São Paulo",
+        { inicio: "2018", fim: "2020" },
+        { jogos: 52, gols: 7, assistencias: 6 }
+      ),
+      createClub(
+        "Ajax",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 82, gols: 26, assistencias: 22 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2022", fim: "2025" },
+        { jogos: 96, gols: 12, assistencias: 5 }
+      ),
+      createClub(
+        "Real Betis",
+        { inicio: "2025", fim: "Atual" },
+        { jogos: 96, gols: 12, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2021", fim: "2023" },
+      estatisticas: { jogos: 16, gols: 2, assistencias: 2 },
+    },
+    titulos: [
+      {
+        nome: "Eredivisie",
+        anos: "2021, 2022",
+        clube: "Ajax",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "2021",
+        clube: "Ajax",
+      },
+      {
+        nome: "EFL Cup",
+        anos: "2023",
+        clube: "Manchester United",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2024",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2020",
+        clube: "Brasil",
+      },
+    ],
   },
 
   //Arthur
@@ -1591,9 +1642,163 @@ const jogadores = [
     posicao: "Lateral-direito",
     dataNascimento: "06/05/1983",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    clubes: [
+      createClub(
+        "Bahia",
+        { inicio: "2001", fim: "2002" },
+        { jogos: 53, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Sevilla",
+        { inicio: "2003", fim: "2008" },
+        { jogos: 247, gols: 16, assistencias: 38 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2008", fim: "2016" },
+        { jogos: 391, gols: 21, assistencias: 101 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 33, gols: 6, assistencias: 7 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2017", fim: "2019" },
+        { jogos: 73, gols: 8, assistencias: 18 }
+      ),
+      createClub(
+        "São Paulo",
+        { inicio: "2019", fim: "2021" },
+        { jogos: 95, gols: 10, assistencias: 15 }
+      ),
+      createClub(
+        "Barcelona", // Retorno ao Barcelona
+        { inicio: "2021", fim: "2022" },
+        { jogos: 15, gols: 1, assistencias: 2 }
+      ),
+      createClub(
+        "Pumas",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 12, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2006", fim: "2022" },
+      estatisticas: { jogos: 126, gols: 8, assistencias: 21 },
+    },
+    titulos: [
+      //Bahia
+      { nome: "Copa do Nordeste", anos: "2002", clube: "Bahia" },
+      // Sevilla
+      { nome: "UEFA Europa League", anos: "2006, 2007", clube: "Sevilla" },
+      { nome: "Supercopa da UEFA", anos: "2006", clube: "Sevilla" },
+      { nome: "Copa del Rey", anos: "2007", clube: "Sevilla" },
+      { nome: "Supercopa da Espanha", anos: "2007", clube: "Sevilla" },
+      // Barcelona - Uma era de domínio
+      {
+        nome: "La Liga",
+        anos: "2009, 2012, 2015, 2016",
+        clube: "Barcelona",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2009, 2011, 2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2009, 2012, 2015, 2016",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2009, 2010, 2011, 2013",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2009, 2011, 2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2009, 2011, 2015",
+        clube: "Barcelona",
+      },
+      // Juventus
+      { nome: "Serie A", anos: "2017", clube: "Juventus" },
+      { nome: "Copa Da Itália", anos: "2017", clube: "Juventus" },
+      // Paris Saint-Germain
+      {
+        nome: "Ligue 1",
+        anos: "2018, 2019",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2018",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da Liga Francesa",
+        anos: "2018",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Supercopa_da_França",
+        anos: "2017",
+        clube: "Paris Saint-Germain",
+      },
+      // São Paulo
+      { nome: "Campeonato Paulista", anos: "2021", clube: "São Paulo" },
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2007",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      ,
+      {
+        nome: "Copa das Confederações",
+        anos: "2009",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "2013",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2020",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2007",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+    ],
   },
 
   // Danilo Andrade
@@ -1623,14 +1828,145 @@ const jogadores = [
     pagina: "https://www.instagram.com/danilodls/",
     nacionalidade: "Brasil",
     imagem:
-      "https://placar.com.br/wp-content/uploads/2024/03/GIZArflWMAAsWnN-1.jpg",
+      "https://livesport-ott-images.ssl.cdn.cra.cz/r900xfq60/0e4537bc-f240-4550-a0bb-8551f8cbdd48.jpeg",
     numero: "6",
     posicao: "Lateral-esquerdo",
     dataNascimento: "15/07/1991",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    clubes: [
+      createClub(
+        "América-MG",
+        { inicio: "2009", fim: "2011" },
+        { jogos: 69, gols: 7, assistencias: 0 } // Estatísticas encontradas
+      ),
+      createClub(
+        "Santos",
+        { inicio: "2011", fim: "2012" },
+        { jogos: 46, gols: 2, assistencias: 0 } // Estatísticas encontradas
+      ),
+      createClub(
+        "Porto",
+        { inicio: "2012", fim: "2015" },
+        { jogos: 141, gols: 9, assistencias: 17 } // Estatísticas Transfermarkt
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 56, gols: 3, assistencias: 9 } // Estatísticas Transfermarkt
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2017", fim: "2019" },
+        { jogos: 60, gols: 4, assistencias: 5 } // Estatísticas Transfermarkt
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2019", fim: "2023" },
+        { jogos: 142, gols: 8, assistencias: 14 } // Estatísticas Transfermarkt
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2023", fim: null }, // Fim nulo pois está no clube atualmente
+        { jogos: 71, gols: 5, assistencias: 7 } // Estatísticas até a data atual (aproximadamente)
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2011", fim: null }, // Fim nulo pois ainda é convocado
+      estatisticas: { jogos: 56, gols: 1, assistencias: 6 }, // Estatísticas Transfermarkt
+    },
+    titulos: [
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2009, 2010, 2011",
+        clube: "América-MG",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2011",
+        clube: "Santos",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2012",
+        clube: "Santos",
+      },
+      {
+        nome: "Superliga Portuguesa",
+        anos: "2012/13",
+        clube: "Porto",
+      },
+      {
+        nome: "Supertaça Cândido de Oliveira",
+        anos: "2012",
+        clube: "Porto",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2015/16, 2016/17",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2016",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2016",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "La Liga",
+        anos: "2016/17",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Premier League",
+        anos: "2017/18, 2018/19",
+        clube: "Manchester City",
+      },
+      {
+        nome: "EFL Cup",
+        anos: "2017/18, 2018/19",
+        clube: "Manchester City",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2018/19",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Serie A",
+        anos: "2019/20, 2020/21, 2021/22",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2020/21",
+        clube: "Juventus",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2020",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Taça Guanabara",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+    ],
   },
 
   // Dante
@@ -5817,9 +6153,7 @@ function pesquisar() {
       <div class="jogador" id="${jogador.background}">
         <div class="div-superior">
           <div class="div-left">
-            <img class="dado-imagem" loading="lazy" src="${
-              jogador.imagem
-            }" alt="">
+            <img class="dado-imagem" src="${jogador.imagem}" alt="">
             <img class="dado_imgMarca" src="./assets/img__players/Logo_${jogador.nome.replace(
               / /g,
               "_"
