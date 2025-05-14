@@ -451,12 +451,19 @@ footer {
   }
 }
 
-/* Para telas menores (celulares) ////////////////////////////////////////////////////////*/
-@media (max-width: 1000px) {
+/* Para telas até 1250px ////////////////////////////////////////////////////////*/
+@media (max-width: 1250px) {
+  .jogador {
+    width: 70vw;
+  }
+}
+
+/* Para telas um pouco menores (tablets) ////////////////////////////////////////////////////////*/
+@media (max-width: 960px) {
   .pagina {
     background-position: center;
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   h1 {
     font-size: 1.6rem;
@@ -479,16 +486,13 @@ footer {
     align-items: center;
   }
 
-  th {
-    padding-bottom: 2rem;
-  }
-
   #p-resultados {
     width: 80vw;
   }
 
   .jogador {
     width: 80vw;
+    max-width: 600px;
     margin: 0;
     padding: 1rem;
     height: inherit;
@@ -496,17 +500,10 @@ footer {
   }
 
   .dado_imgMarca {
-    top: 140px;
-    right: 20px;
-    height: 180px;
+    top: 216px;
+    right: 45px;
+    height: 200px;
     position: absolute;
-  }
-
-  .dado-imagem {
-    padding: 0;
-    width: 250px;
-    height: 320px;
-    margin: 0;
   }
 
   .numero-nome-time {
@@ -526,9 +523,8 @@ footer {
   .div-info {
     font-family: "Architects Daughter", serif;
     text-align: start;
-    padding-top: 30px;
     font-size: 1rem;
-    flex: 1;
+    flex: 2;
     max-width: 80vw;
   }
 
@@ -548,6 +544,14 @@ footer {
     padding-top: 80px;
     font-size: 0.8rem;
     width: 100%;
+    max-width: 600px;
+  }
+
+  .tabelas-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .item-titulo {
@@ -639,12 +643,16 @@ footer {
     font-size: 30px;
   }
 
+  .div-left {
+    flex: 1;
+  }
+
   .div-info {
     font-family: "Architects Daughter", serif;
     text-align: start;
-    padding-top: 30px;
+    padding-top: 0px;
     font-size: 1rem;
-    flex: 1;
+    flex: 2;
     max-width: 80vw;
   }
 
