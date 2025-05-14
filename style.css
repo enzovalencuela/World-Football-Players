@@ -452,7 +452,122 @@ footer {
 }
 
 /* Para telas menores (celulares) ////////////////////////////////////////////////////////*/
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+  .pagina {
+    background-position: center;
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .barra-pesquisa {
+    & input {
+      width: 75vw;
+    }
+  }
+
+  ul {
+    gap: 3rem;
+  }
+
+  .div-superior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  th {
+    padding-bottom: 2rem;
+  }
+
+  #p-resultados {
+    width: 80vw;
+  }
+
+  .jogador {
+    width: 80vw;
+    margin: 0;
+    padding: 1rem;
+    height: inherit;
+    max-height: initial;
+  }
+
+  .dado_imgMarca {
+    top: 140px;
+    right: 20px;
+    height: 180px;
+    position: absolute;
+  }
+
+  .dado-imagem {
+    padding: 0;
+    width: 250px;
+    height: 320px;
+    margin: 0;
+  }
+
+  .numero-nome-time {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #numero {
+    font-size: 40px;
+  }
+
+  #nome {
+    font-size: 30px;
+  }
+
+  .div-info {
+    font-family: "Architects Daughter", serif;
+    text-align: start;
+    padding-top: 30px;
+    font-size: 1rem;
+    flex: 1;
+    max-width: 80vw;
+  }
+
+  .conteudo-oculto {
+    flex-direction: column;
+  }
+
+  .tabelas-jogador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  table {
+    padding-top: 80px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .item-titulo {
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    height: auto;
+  }
+
+  .campeonato {
+    width: 30px;
+  }
+
+  footer {
+    font-size: 0.7rem;
+  }
+}
+
+/* Para telas menores (celulares) ////////////////////////////////////////////////////////*/
+@media (max-width: 568px) {
   .pagina {
     background-position: center;
     background-repeat: no-repeat; /* Evita que a imagem se repita */

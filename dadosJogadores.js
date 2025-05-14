@@ -3404,7 +3404,7 @@ const jogadores = [
     background: "#",
     descricao:
       "Meia-atacante talentoso e habilidoso, Coutinho é conhecido por seus dribles, chutes de longa distância e visão de jogo. Atualmente, joga no Vasco da Gama.",
-    pagina: "https://www.instagram.com/philcoutinho/",
+    pagina: "https://www.instagram.com/phil.coutinho/",
     nacionalidade: "Brasil",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/6e/2024/07/21/philippe-coutinho-jogador-do-vasco-durante-partida-contra-o-atletico-mg-na-arena-mrv-1721595034327_v2_3x4.jpg",
@@ -3412,9 +3412,181 @@ const jogadores = [
     posicao: "Meia-atacante",
     dataNascimento: "12/06/1992",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    clubes: [
+      createClub(
+        "Vasco da Gama",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 43, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Internazionale",
+        { inicio: "2010", fim: "2013" },
+        { jogos: 47, gols: 5, assistencias: 3 }
+      ),
+      createClub(
+        "Espanyol",
+        { inicio: "2012", fim: "2012" },
+        { jogos: 16, gols: 5, assistencias: 1 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2013", fim: "2018" },
+        { jogos: 201, gols: 54, assistencias: 45 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2018", fim: "2020" },
+        { jogos: 76, gols: 21, assistencias: 11 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 38, gols: 11, assistencias: 9 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 16, gols: 3, assistencias: 2 }
+      ),
+      createClub(
+        "Aston Villa",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 19, gols: 5, assistencias: 3 }
+      ),
+      createClub(
+        "Aston Villa",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 27, gols: 1, assistencias: 1 }
+      ),
+      createClub(
+        "Al-Duhail",
+        { inicio: "2023", fim: "2024" },
+        { jogos: 22, gols: 6, assistencias: 3 }
+      ),
+      createClub(
+        "Vasco da Gama",
+        { inicio: "2024", fim: "Atual" },
+        { jogos: 39, gols: 8, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2010", fim: null },
+      estatisticas: { jogos: 69, gols: 21, assistencias: 13 },
+    },
+    titulos: [
+      // Vasco da Gama
+      {
+        nome: "Campeonato Brasileiro Série B",
+        anos: "2009",
+        clube: "Vasco da Gama",
+      },
+      // Internazionale
+      { nome: "Supercopa da Itália", anos: "2010", clube: "Internazionale" },
+      { nome: "Copa da Itália", anos: "2011", clube: "Internazionale" },
+      //Barcelona
+      {
+        nome: "La Liga",
+        anos: "2018, 2019",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2018",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2018",
+        clube: "Barcelona",
+      },
+      // Bayern de Munique
+      {
+        nome: "UEFA Champions League",
+        anos: "2020",
+        clube: "Bayern de Munique",
+      },
+      { nome: "Bundesliga", anos: "2020", clube: "Bayern de Munique" },
+      { nome: "Copa da Alemanha", anos: "2020", clube: "Bayern de Munique" },
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      // Títulos Individuais
+      {
+        nome: "Gol do mês da Bundesliga",
+        logo: "Bundesliga",
+        anos: "dezembro de 2019",
+        clube: "Bayern de Munique",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa do Mundo FIFA",
+        logo: "Copa do Mundo",
+        logoVariavel: true,
+        anos: "2018",
+        clube: "Brasil",
+        categoria: "individual",
+      },
+      {
+        nome: "Samba de Ouro",
+        anos: "2016",
+        clube: "Liverpool",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Liga Europa da UEFA",
+        logo: "UEFA Europa League",
+        anos: "2016",
+        clube: "Liverpool",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Temporada",
+        logo: "Northwest Football Awards",
+        anos: "2016",
+        clube: "Liverpool",
+        categoria: "individual",
+      },
+      {
+        nome: "Gol da Temporada do Liverpool",
+        logo: "Liverpool",
+        anos: "2015, 2016",
+        clube: "Liverpool",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Liverpool",
+        logo: "Liverpool",
+        anos: "2015, 2016",
+        clube: "Liverpool",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Mês da Premier League",
+        logo: "Premier League",
+        anos: "Janeiro 2016",
+        clube: "Liverpool",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da PFA",
+        logo: "Professional Footballers Association",
+        anos: "2015",
+        clube: "Liverpool",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Carioca",
+        logo: "Campeonato Carioca",
+        anos: "2010",
+        clube: "Vasco da Gama",
+        categoria: "individual",
+      },
+    ],
   },
 
   // Rafinha
