@@ -94,6 +94,7 @@ const jogadores = [
         clube: "Kaiserslautern",
       },
     ],
+    tags: [],
   },
 
   // Franz Beckenbauer
@@ -194,6 +195,7 @@ const jogadores = [
         logoVariavel: true,
       },
     ],
+    tags: [],
   },
 
   // Gerd Müller
@@ -262,6 +264,7 @@ const jogadores = [
         clube: "Bayern de Munique",
       },
     ],
+    tags: [],
   },
 
   // Jerome Boateng
@@ -354,6 +357,7 @@ const jogadores = [
         clube: "Manchester City",
       },
     ],
+    tags: [],
   },
 
   // Julian Draxler
@@ -439,6 +443,7 @@ const jogadores = [
         clube: "Schalke 04",
       },
     ],
+    tags: [],
   },
 
   // Musiala
@@ -459,6 +464,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Niclas Füllkrug
@@ -480,6 +486,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Oliver Kahn
@@ -534,6 +541,7 @@ const jogadores = [
         categoria: "individual",
       },
     ],
+    tags: [],
   },
 
   // Schweinsteiger
@@ -593,6 +601,7 @@ const jogadores = [
       },
       // ... outros títulos
     ],
+    tags: [],
   },
 
   //Ter Stegen
@@ -613,6 +622,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Thomas Müller
@@ -671,6 +681,7 @@ const jogadores = [
         clube: "Alemanha",
       },
     ],
+    tags: [],
   },
 
   // Toni Kroos
@@ -692,6 +703,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // ARGENTINA -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -715,6 +727,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Alejandro Garnacho
@@ -736,6 +749,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Ángel Di María
@@ -757,6 +771,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Carlos Alcaraz
@@ -778,6 +793,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Carlos Tevez
@@ -799,6 +815,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Diego Maradona
@@ -821,6 +838,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Enzo Fernández
@@ -840,6 +858,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Germán Cano
@@ -861,6 +880,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Gonzalo Higuaín
@@ -884,6 +904,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Javier Zanetti
@@ -907,6 +928,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Juan Román Riquelme
@@ -928,6 +950,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Julián Álvarez
@@ -949,6 +972,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Mascherano
@@ -970,6 +994,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Mauro Icardi
@@ -991,6 +1016,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Paulo Dybala
@@ -1012,6 +1038,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Sergio Agüero
@@ -1033,6 +1060,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Lionel Messi
@@ -1164,6 +1192,7 @@ const jogadores = [
         logo: "IFFHS",
       },
     ],
+    tags: [],
   },
 
   // BÉLGICA --------------------------------------------------------------------------------------------------
@@ -1187,6 +1216,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Kevin De Bruyne
@@ -1208,6 +1238,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Romelu Lukaku
@@ -1229,6 +1260,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Thibaut Courtois
@@ -1250,6 +1282,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Vincent Kompany
@@ -1271,6 +1304,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // BRASIL--------------------------------------------------------------------------------------------------------------------------------------
@@ -1292,6 +1326,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Adriano Imperador
@@ -1310,6 +1345,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Alex Sandro
@@ -1329,6 +1365,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Alisson Becker
@@ -1348,6 +1385,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Antony
@@ -1418,6 +1456,7 @@ const jogadores = [
         clube: "Brasil",
       },
     ],
+    tags: [],
   },
 
   //Arthur
@@ -1437,6 +1476,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Ayrton Lucas
@@ -1456,6 +1496,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Bebeto
@@ -1475,6 +1516,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Bruno Henrique
@@ -1494,6 +1536,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Caça-Rato
@@ -1513,6 +1556,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Cafu
@@ -1532,6 +1576,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Carlinhos
@@ -1551,6 +1596,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Carlos Alberto
@@ -1570,6 +1616,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Casemiro
@@ -1589,6 +1636,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Cássio
@@ -1608,6 +1656,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Craque Neto
@@ -1626,6 +1675,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Daniel Alves
@@ -1799,6 +1849,7 @@ const jogadores = [
         logoVariavel: true,
       },
     ],
+    tags: [],
   },
 
   // Danilo Andrade
@@ -1818,6 +1869,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   {
@@ -1967,6 +2019,7 @@ const jogadores = [
         clube: "Flamengo",
       },
     ],
+    tags: [],
   },
 
   // Dante
@@ -1986,6 +2039,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // David Luiz
@@ -2005,6 +2059,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Denilson Show
@@ -2024,6 +2079,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Dida
@@ -2043,6 +2099,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Diego Alves
@@ -2062,6 +2119,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Diego Ribas
@@ -2081,6 +2139,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Djalma Santos
@@ -2100,6 +2159,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Douglas Costa
@@ -2119,6 +2179,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Dudu
@@ -2138,6 +2199,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Éder Militão
@@ -2157,6 +2219,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Ederson
@@ -2176,6 +2239,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Edílson Capetinha
@@ -2195,6 +2259,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Endrick
@@ -2214,6 +2279,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Estêvão Willian
@@ -2233,6 +2299,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Everton Cebolinha
@@ -2251,6 +2318,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Éverton Ribeiro
@@ -2270,6 +2338,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Fabinho
@@ -2289,6 +2358,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Fabrício Bruno
@@ -2308,6 +2378,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Fagner
@@ -2327,6 +2398,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Fernandinho
@@ -2346,6 +2418,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Filipe Luís
@@ -2365,6 +2438,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Gabriel Barbosa
@@ -2384,6 +2458,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Gabriel Jesus
@@ -2403,6 +2478,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Gabriel Menino
@@ -2422,6 +2498,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Garrincha
@@ -2443,6 +2520,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Gerson
@@ -2462,6 +2540,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Gilberto Silva
@@ -2481,6 +2560,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Gustavo Scarpa
@@ -2500,6 +2580,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Hernanes
@@ -2519,6 +2600,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Hulk
@@ -2663,6 +2745,7 @@ const jogadores = [
         logoVariavel: true,
       },
     ],
+    tags: [],
   },
 
   // Jairzinho
@@ -2682,6 +2765,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Júlio César
@@ -2701,6 +2785,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Juninho Pernambucano
@@ -2720,6 +2805,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Kaká
@@ -2739,6 +2825,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Léo Ortiz
@@ -2758,6 +2845,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Léo Pereira
@@ -2777,6 +2865,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Lincoln
@@ -2796,6 +2885,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Lucas Moura
@@ -2815,6 +2905,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Lucas Paquetá
@@ -2886,6 +2977,7 @@ const jogadores = [
         clube: "West Ham",
       },
     ],
+    tags: [],
   },
 
   // Lúcio
@@ -2905,6 +2997,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Luiz Araújo
@@ -2924,6 +3017,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Marcelo
@@ -2943,6 +3037,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Marquinhos
@@ -2962,6 +3057,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Miranda
@@ -2981,6 +3077,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Marinho
@@ -3000,6 +3097,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Matheus Cunha
@@ -3019,6 +3117,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Matheus Gonçalves
@@ -3038,6 +3137,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Neymar Jr.
@@ -3179,6 +3279,7 @@ const jogadores = [
         logoVariavel: true,
       },
     ],
+    tags: [],
   },
 
   //Paulinho
@@ -3198,6 +3299,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Pedrinho (ex-Corinthians, Atlético-MG, Benfica)
@@ -3217,6 +3319,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Pedro Guilherme
@@ -3236,6 +3339,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Pelé
@@ -3396,6 +3500,7 @@ const jogadores = [
         categoria: "individual",
       },
     ],
+    tags: [],
   },
 
   // Philippe Coutinho
@@ -3587,6 +3692,7 @@ const jogadores = [
         categoria: "individual",
       },
     ],
+    tags: [],
   },
 
   // Rafinha
@@ -3606,6 +3712,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Raphael Veiga
@@ -3624,6 +3731,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Reinier
@@ -3643,6 +3751,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Renato Augusto
@@ -3662,6 +3771,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Renê
@@ -3682,6 +3792,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Richarlison
@@ -3701,6 +3812,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Rivaldo
@@ -3720,6 +3832,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Rivellino
@@ -3740,6 +3853,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Roberto Carlos
@@ -3759,6 +3873,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Roberto Firmino
@@ -3766,18 +3881,94 @@ const jogadores = [
     nome: "Roberto Firmino",
     background: "#",
     descricao:
-      "Atacante brasileiro conhecido por sua versatilidade e habilidade de criar jogadas. Foi peça fundamental no sucesso do Liverpool nos últimos anos.",
-    pagina: "https://www.instagram.com/roberto_firmino9/",
-    nacionalidade: "Brasil",
+      "Atacante brasileiro conhecido por sua inteligência tática, movimentação constante, habilidade de finalização e por popularizar a função de 'falso 9'. Peça fundamental no vitorioso time do Liverpool e presença constante na seleção brasileira.",
     imagem:
       "https://lncimg.lance.com.br/uploads/2024/08/Roberto-Firmino-Al-Ahli-aspect-ratio-512-320.jpeg",
-    numero: "10",
+    pagina: "https://www.instagram.com/roberto_firmino9/",
+    numero: "9",
     posicao: "Atacante",
     dataNascimento: "02/10/1991",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    nacionalidade: "Brasil",
+    clubes: [
+      createClub(
+        "Figueirense",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 57, gols: 12, assistencias: 0 }
+      ),
+      createClub(
+        "TSG Hoffenheim",
+        { inicio: "2011", fim: "2015" },
+        { jogos: 153, gols: 49, assistencias: 36 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2015", fim: "2023" },
+        { jogos: 362, gols: 111, assistencias: 79 }
+      ),
+      createClub(
+        "Al-Ahli",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 33, gols: 9, assistencias: 7 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2014", fim: "Presente" },
+      estatisticas: { jogos: 55, gols: 17, assistencias: 7 },
+    },
+    titulos: [
+      // Liverpool
+      {
+        nome: "UEFA Champions League",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Premier League",
+        anos: "2020",
+        clube: "Liverpool",
+      },
+      {
+        nome: "EFL Cup",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      // Al-Ahli (se houver títulos até o momento da consulta ou no futuro)
+      // {
+      //   nome: "Nome do Título",
+      //   anos: "Ano",
+      //   clube: "Al-Ahli",
+      // },
+    ],
+    tags: [],
   },
 
   // Robinho
@@ -3796,6 +3987,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Rodinei
@@ -3815,6 +4007,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Rodrigo Caio
@@ -3834,6 +4027,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Rodrigo Muniz
@@ -3853,6 +4047,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Romário
@@ -3872,6 +4067,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Ronaldinho Gaúcho
@@ -3891,6 +4087,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Ronaldo Nazário
@@ -3910,6 +4107,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Sócrates
@@ -3929,6 +4127,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Taffarel
@@ -3947,6 +4146,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Thiago Silva
@@ -3966,6 +4166,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Vitinho
@@ -3985,6 +4186,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Vinícius Júnior
@@ -4058,6 +4260,7 @@ const jogadores = [
         categoria: "individual",
       },
     ],
+    tags: [],
   },
 
   //Wesley
@@ -4077,6 +4280,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // William Arão
@@ -4096,6 +4300,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Willian
@@ -4115,6 +4320,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Yuri Alberto
@@ -4134,6 +4340,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Zico
@@ -4153,6 +4360,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // BULGÁRIA ---------------------------------------------------------------------------------------------------
@@ -4174,6 +4382,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // CAMARÕES ---------------------------------------------------------------------------------------------------
@@ -4195,6 +4404,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Samuel Eto'o
@@ -4214,6 +4424,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // CANADÁ -----------------------------------------------------------------------------------------------------
@@ -4235,6 +4446,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // CHILE ------------------------------------------------------------------------------------------------------
@@ -4256,6 +4468,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Arturo Vidal
@@ -4275,6 +4488,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Erick Pulgar
@@ -4294,6 +4508,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // COLÔMBIA ---------------------------------------------------------------------------------------------------
@@ -4315,6 +4530,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // James Rodríguez
@@ -4334,6 +4550,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Carlos Valderrama
@@ -4353,6 +4570,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Faustino Asprilla
@@ -4372,27 +4590,165 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //COREIA DO SUL -------------------------------------------------------------------------------------------
 
-  //Son
+  //Son Heung-min
   {
     nome: "Son Heung-min",
     background: "plate",
-    descricao:
-      "Atacante sul-coreano conhecido por sua velocidade, habilidade e gol, Son é um dos principais jogadores do Tottenham Hotspur.",
-    pagina: "https://www.instagram.com/hm_son7/",
-    nacionalidade: "Coreia do Sul",
     imagem:
       "https://cdn1-production-images-kly.akamaized.net/Vk_c5aMJUupK8TXYbbUKFt39XHc=/800x1066/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4621407/original/031600900_1698102412-AP23296724254352.jpg",
+    descricao:
+      "Atacante sul-coreano, capitão do Tottenham Hotspur e da seleção da Coreia do Sul, conhecido por sua velocidade, finalização precisa com ambos os pés e capacidade de jogar em diversas posições no ataque. Son é um ícone asiático no futebol europeu, sendo o maior artilheiro asiático na história da Premier League e um dos jogadores mais influentes de sua geração.",
     numero: "7",
-    posicao: "Atacante",
+    posicao: "Ponta-esquerda",
+    nacionalidade: "Coreia do Sul",
     dataNascimento: "08/07/1992",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    status: "Ativo (Tottenham Hotspur)",
+    pagina: "https://www.instagram.com/hm_son7/",
+
+    clubes: [
+      createClub(
+        "Hamburgo II",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 6, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Hamburgo",
+        { inicio: "2010", fim: "2013" },
+        { jogos: 78, gols: 20, assistencias: 3 }
+      ),
+      createClub(
+        "Bayer Leverkusen",
+        { inicio: "2013", fim: "2015" },
+        { jogos: 87, gols: 29, assistencias: 11 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2015", fim: "Presente" },
+        { jogos: 408, gols: 162, assistencias: 84 }
+      ),
+    ],
+    selecao: {
+      nome: "Coreia do Sul",
+      periodo: { inicio: "2010", fim: "Presente" },
+      estatisticas: { jogos: 126, gols: 48, assistencias: 20 },
+    },
+    titulos: [
+      // Hamburgo
+      {
+        nome: "Copa da Paz",
+        anos: "2012",
+        clube: "Hamburgo",
+      },
+      // Tottenham Hotspur
+      {
+        nome: "UEFA Europa League",
+        anos: "2025",
+        clube: "Tottenham Hotspur",
+      },
+      {
+        nome: "Copa da Liga Inglesa (Vice-campeão)",
+        logo: "EFL Cup",
+        anos: "2021",
+        clube: "Tottenham Hotspur",
+      },
+      {
+        nome: "UEFA Champions League (Vice-campeão)",
+        logo: "UEFA Champions League",
+        anos: "2019",
+        clube: "Tottenham Hotspur",
+      },
+      {
+        nome: "Copa Audi",
+        anos: "2019",
+        clube: "Tottenham Hotspur",
+      },
+      {
+        nome: "International Champions Cup",
+        anos: "2018",
+        clube: "Tottenham Hotspur",
+      },
+
+      // Seleção Coreana
+      {
+        nome: "Jogos Asiáticos",
+        anos: "2018",
+        clube: "Coreia do Sul",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa da Ásia (Vice-campeão)",
+        logo: "Copa da Ásia",
+        anos: "2015",
+        clube: "Coreia do Sul",
+        logoVariavel: true,
+      },
+      // Individuais
+      {
+        nome: "Jogador Asiático do Ano",
+        anos: "2015, 2017, 2019, 2020, 2021",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Prêmio Puskás",
+        logo: "FIFA",
+        anos: "2020",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Ouro da Premier League",
+        anos: "2022",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Ano da PFA Premier League",
+        logo: "Premier League",
+        anos: "2021",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Mês da Premier League",
+        logo: "Premier League",
+        anos: "Setembro 2016, Abril 2017, Outubro 2020, Outubro 2023",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Tottenham Hotspur da Temporada",
+        anos: "2018-19, 2019-20, 2021-22",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Gol da Temporada do Tottenham Hotspur",
+        anos: "2018-19, 2019-20, 2021-22",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Son",
+      "Son Heung-min",
+      "Heung-min Son",
+      "Tottenham",
+      "Coreia do Sul",
+      "Atacante",
+      "Ponta",
+      "Premier League",
+      "Chuteira de Ouro",
+      "Puskas",
+      "Sonny",
+      "Capitão",
+      "SPURS",
+    ],
   },
 
   //COSTA DO MARFIM---------------------------------------------------------------------------------------------
@@ -4414,6 +4770,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // COSTA RICA ------------------------------------------------------------------------------------------------
@@ -4435,6 +4792,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // CROÁCIA ---------------------------------------------------------------------------------------------------
@@ -4456,6 +4814,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Ivan Rakitica
@@ -4475,6 +4834,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Joško Gvardiol
@@ -4494,6 +4854,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Kovačić
@@ -4513,25 +4874,175 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Luka Modrić
   {
     nome: "Luka Modrić",
     background: "plate",
-    descricao:
-      "Meia croata, conhecido por sua habilidade técnica, visão de jogo e passes precisos. Líder da seleção croata e peça fundamental no Real Madrid.",
-    pagina: "https://www.instagram.com/lukamodric10/",
-    nacionalidade: "Croácia",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/11/2022/12/01/luka-modric-da-croacia-em-acao-contra-a-belgica-na-fase-de-grupos-da-copa-do-qatar-1669910441519_v2_450x600.jpg",
+    pagina: "https://www.instagram.com/lukamodric10/",
+    descricao:
+      "Maestro croata do meio-campo, reverenciado por sua visão de jogo excepcional, passes precisos, controle de bola e incrível longevidade. Modrić é um dos meio-campistas mais condecorados de sua geração, liderando o Real Madrid a múltiplas conquistas da Champions League e a Croácia a campanhas históricas em Copas do Mundo, além de ter conquistado a Bola de Ouro.",
     numero: "10",
     posicao: "Meia",
+    nacionalidade: "Croácia",
     dataNascimento: "09/09/1985",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    status: "Ativo (Sem clube)",
+    clubes: [
+      createClub(
+        "Zrinjski Mostar",
+        { inicio: "2003", fim: "2004" },
+        { jogos: 25, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "Inter Zaprešić", // Empréstimo
+        { inicio: "2004", fim: "2005" },
+        { jogos: 20, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Dinamo Zagreb",
+        { inicio: "2005", fim: "2008" },
+        { jogos: 128, gols: 32, assistencias: 21 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2008", fim: "2012" },
+        { jogos: 160, gols: 17, assistencias: 26 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2012", fim: "2025" },
+        { jogos: 534, gols: 39, assistencias: 86 }
+      ),
+    ],
+    selecao: {
+      nome: "Croácia",
+      periodo: { inicio: "2006", fim: "Presente" },
+      estatisticas: { jogos: 178, gols: 25, assistencias: 28 },
+    },
+    titulos: [
+      // Dinamo Zagreb
+      {
+        nome: "Prva HNL",
+        anos: "2006, 2007, 2008",
+        clube: "Dinamo Zagreb",
+      },
+      {
+        nome: "Copa da Croácia",
+        anos: "2007, 2008",
+        clube: "Dinamo Zagreb",
+      },
+      {
+        nome: "Supercopa da Croácia",
+        anos: "2006",
+        clube: "Dinamo Zagreb",
+      },
+      // Real Madrid
+      {
+        nome: "La Liga",
+        anos: "2017, 2020, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2014, 2023",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2012, 2017, 2020, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2014, 2016, 2017, 2018, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2014, 2016, 2017, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2014, 2016, 2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      // Seleção Croata (Conquistas Notáveis)
+      {
+        nome: "Copa do Mundo (Vice-campeão)",
+        logo: "Copa do Mundo",
+        anos: "2018",
+        clube: "Croácia",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo (Terceiro lugar)",
+        logo: "Copa do Mundo",
+        anos: "2022",
+        clube: "Croácia",
+        logoVariavel: true,
+      },
+      {
+        nome: "Liga das Nações da UEFA (Vice-campeão)",
+        logo: "Liga das Nações da UEFA",
+        anos: "2023",
+        clube: "Croácia",
+      },
+      // Individuais
+      {
+        nome: "Ballon d'Or",
+        logo: "Bola de Ouro",
+        anos: "2018",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "The Best FIFA Men's Player",
+        logo: "FIFA",
+        anos: "2018",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "UEFA Men's Player of the Year Award",
+        logo: "UEFA",
+        anos: "2018",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Prêmio Golden Foot",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Copa do Mundo da FIFA",
+        logo: "FIFA",
+        anos: "2018",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Modrić",
+      "Modric",
+      "Luka Modric",
+      "Luka Modrić",
+      "Modrik",
+      "Real Madrid",
+      "Croácia",
+      "Meio-campista",
+      "Meia Central",
+      "Ballon d'Or",
+      "LM10",
+      "Croatian Maestro",
+      "Tottenham",
+    ],
   },
 
   //Marcelo Brozović
@@ -4551,6 +5062,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // DINAMARCA --------------------------------------------------------------------------------------------------
@@ -4572,6 +5084,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Christian Eriksen
@@ -4591,6 +5104,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Kasper Schmeichel
@@ -4610,6 +5124,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Pierre-Emile Højbjerg
@@ -4629,6 +5144,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // EGITO --------------------------------------------------------------------------------------------------
@@ -4650,6 +5166,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // ESCÓCIA -------------------------------------------------------------------------------------------------
@@ -4671,6 +5188,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // ESLOVÊNIA -----------------------------------------------------------------------------------------------
@@ -4692,6 +5210,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //ESPANHA---------------------------------------------------------------------------------------------------
@@ -4704,7 +5223,7 @@ const jogadores = [
       "Atacante argentino-espanhol considerado um dos maiores jogadores de todos os tempos. Di Stéfano era conhecido por sua velocidade, habilidade técnica e faro de gol, sendo fundamental para o sucesso do Real Madrid nos anos 50 e 60.",
     pagina: "https://www.instagram.com/alfredodistefano/",
     nacionalidade: "Argentino-espanhol",
-    tags: "argentina, espanha, atacante, Alfredo Di Stefano, gold",
+
     imagem:
       "https://upload.wikimedia.org/wikipedia/commons/b/bb/Mcu_Alfredo_Di_Stefano.jpg",
     numero: "9",
@@ -4712,6 +5231,7 @@ const jogadores = [
     dataNascimento: "04/07/1926",
     dataFalecimento: "07/07/2014",
     status: "Aposentado",
+    tags: ["argentina", "espanha", "atacante", "Alfredo Di Stefano", "gold"],
     clubes: [],
     selecao: {},
     titulos: [],
@@ -4734,6 +5254,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Andrés Iniesta
@@ -4754,6 +5275,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Carvajal
@@ -4774,6 +5296,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Carles Puyol
@@ -4793,6 +5316,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // David Silva
@@ -4812,6 +5336,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // David Villa
@@ -4831,6 +5356,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Diego Costa
@@ -4850,6 +5376,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Gavi
@@ -4869,6 +5396,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Gerard Piqué
@@ -4888,6 +5416,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Iker Casillas
@@ -4907,6 +5436,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Isco Alarcón
@@ -4926,6 +5456,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Jordi Alba
@@ -4945,6 +5476,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Lamine Yamal
@@ -4964,6 +5496,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Marco Asensio
@@ -4983,6 +5516,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Pablo Marí
@@ -5002,6 +5536,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Pedri
@@ -5021,6 +5556,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Pep Guardiola
@@ -5040,6 +5576,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Raúl González
@@ -5059,6 +5596,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Sergio Busquets
@@ -5078,6 +5616,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Sergio Ramos
@@ -5097,6 +5636,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Thiago Alcântara
@@ -5116,6 +5656,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Xabi Alonso
@@ -5135,6 +5676,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Xavi Hernández
@@ -5154,6 +5696,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //FRANÇA----------------------------------------------------------------------------------------------------
@@ -5175,6 +5718,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Antoine Griezmann
@@ -5194,6 +5738,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Franck Ribéry
@@ -5213,6 +5758,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   //Hugo Lloris
@@ -5232,6 +5778,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Karim Benzema
@@ -5251,6 +5798,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Kingsley Coman
@@ -5270,6 +5818,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Kylian Mbappé
@@ -5289,6 +5838,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Michel Platini
@@ -5309,6 +5859,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // N'Golo Kanté
@@ -5328,6 +5879,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Ousmane Dembélé
@@ -5347,6 +5899,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Paul Pogba
@@ -5366,6 +5919,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Presnel Kimpembe
@@ -5385,6 +5939,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Raphaël Varane
@@ -5404,6 +5959,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Thierry Henry
@@ -5423,6 +5979,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // Zinédine Zidane
@@ -5442,6 +5999,7 @@ const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
+    tags: [],
   },
 
   // PORTUGAL -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -5667,6 +6225,7 @@ const jogadores = [
         logo: "FIFA",
       },
     ],
+    tags: [],
   },
 
   // Suécia -------------------------------------------------------------------------------------------------------------------------------
@@ -5870,6 +6429,7 @@ const jogadores = [
         categoria: "individual",
       },
     ],
+    tags: [],
   },
 
   // URUGUAI --------------------------------------------------------------------------------------------------------------------
@@ -5960,6 +6520,7 @@ const jogadores = [
         clube: "Real Madrid",
       },
     ],
+    tags: [],
   },
 ];
 
@@ -6058,14 +6619,17 @@ function gerarTabelaClubes(jogador) {
 
 function gerarURLImagem(conquistas) {
   if (conquistas.logo) {
-    return `./assets/img__titulos/Logo_${conquistas.logo}.png`;
+    let logoConquista = conquistas.logo;
+    if (conquistas.logoVariavel) {
+      logoConquista += `_${conquistas.anos}`;
+    }
+    return `./assets/img__titulos/Logo_${logoConquista}.png`;
   }
-
-  let nomeImagem = conquistas.nome;
+  let logoConquistaNome = conquistas.nome;
   if (conquistas.logoVariavel) {
-    nomeImagem += `_${conquistas.anos}`;
+    logoConquistaNome += `_${conquistas.anos}`;
   }
-  return `./assets/img__titulos/Logo_${nomeImagem}.png`;
+  return `./assets/img__titulos/Logo_${logoConquistaNome}.png`;
 }
 
 function criarTabelaTitulosIndividuais(jogador) {
@@ -6303,7 +6867,9 @@ function pesquisar() {
       jogador.background.toLowerCase().includes(termoPesquisa) ||
       (clubeAtual &&
         clubeAtual.nome &&
-        clubeAtual.nome.toLowerCase().includes(termoPesquisa))
+        clubeAtual.nome.toLowerCase().includes(termoPesquisa)) ||
+      (jogador.tags &&
+        jogador.tags.some((tag) => tag.toLowerCase().includes(termoPesquisa)))
     );
   });
 
