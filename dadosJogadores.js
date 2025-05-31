@@ -4988,7 +4988,7 @@ const jogadores = [
       },
       {
         nome: "Liga das Nações da UEFA (Vice-campeão)",
-        logo: "Liga das Nações da UEFA",
+        logo: "UEFA Nations League",
         anos: "2023",
         clube: "Croácia",
       },
@@ -6000,6 +6000,225 @@ const jogadores = [
     selecao: {},
     titulos: [],
     tags: [],
+  },
+
+  // INGLATERRA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  //Harry Kane
+  {
+    nome: "Harry Kane",
+    background: "plate",
+    imagem:
+      "https://dims.apnews.com/dims4/default/6d2e0b0/2147483647/strip/true/crop/5820x3880+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2f%2Fdf%2F12ff8d97892897fcf0b91338646f%2Fc20b8f3d403e44d79010036fb0ca0f55",
+    descricao:
+      "Centroavante inglês e capitão da seleção inglesa, conhecido por sua prolífica capacidade de marcar gols, visão de jogo, habilidades de passe e inteligência tática. Kane é um dos atacantes mais completos do futebol mundial, quebrou vários recordes de gols na Premier League e é o maior artilheiro da história da Inglaterra, além de ser o capitão do Bayern de Munique.",
+    numero: "9",
+    posicao: "Centroavante",
+    nacionalidade: "Inglaterra",
+    dataNascimento: "28/07/1993",
+    status: "Ativo (Bayern de Munique)",
+    clubes: [
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Leyton Orient",
+        { inicio: "2011", fim: "2011" },
+        { jogos: 18, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Millwall",
+        { inicio: "2012", fim: "2012" },
+        { jogos: 27, gols: 9, assistencias: 5 }
+      ),
+      createClub(
+        "Norwich City",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 5, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Leicester City",
+        { inicio: "2013", fim: "2013" },
+        { jogos: 15, gols: 2, assistencias: 1 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2010", fim: "2023" },
+        { jogos: 435, gols: 280, assistencias: 64 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 47, gols: 44, assistencias: 12 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2015", fim: "Presente" },
+      estatisticas: { jogos: 91, gols: 63, assistencias: 19 },
+    },
+    titulos: [
+      // Bayern de Munique
+      {
+        nome: "Bundesliga",
+        anos: "2025",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Supercopa da Alemanha (Vice-campeão)",
+        logo: "Supercopa da Alemanha",
+        anos: "2023",
+        clube: "Bayern de Munique",
+      },
+      // Tottenham Hotspur
+      {
+        nome: "UEFA Champions League (Vice-campeão)",
+        logo: "UEFA Champions League",
+        anos: "2018",
+        clube: "Tottenham Hotspur",
+      },
+      {
+        nome: "Premier League (Vice-campeão)",
+        logo: "Premier League",
+        anos: "2016",
+        clube: "Tottenham Hotspur",
+      },
+      {
+        nome: "EFL Cup (Vice-campeão)",
+        logo: "EFL Cup",
+        anos: "2014",
+        clube: "Tottenham Hotspur",
+      },
+      // Seleção Inglesa (Conquistas Notáveis)
+      {
+        nome: "Eurocopa (Vice-campeão)",
+        logo: "Eurocopa",
+        anos: "2024",
+        clube: "Inglaterra",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa (Vice-campeão)",
+        logo: "Eurocopa",
+        anos: "2020",
+        clube: "Inglaterra",
+        logoVariavel: true,
+      },
+      {
+        nome: "Liga das Nações da UEFA (Terceiro lugar)",
+        logo: "UEFA Nations League",
+        anos: "2019",
+        clube: "Inglaterra",
+      },
+      {
+        nome: "Copa do Mundo (4º lugar)",
+        logo: "Copa do Mundo",
+        anos: "2018",
+        clube: "Inglaterra",
+        logoVariavel: true,
+      },
+      // Individuais
+      {
+        nome: "10º colocado na Ballon d'Or",
+        logo: "Bola de Ouro",
+        anos: "2024",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "8º melhor jogador do ano",
+        logo: "IFFHS",
+        anos: "2024",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Troféu Gerd Muller",
+        anos: "2024",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Liga dos Campeões da UEFA",
+        logo: "UEFA Champions League",
+        anos: "2023",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Bota de Ouro da UEFA",
+        logo: "UEFA",
+        anos: "2023",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da temporada da Bundesliga",
+        logo: "Bundesliga",
+        anos: "2023",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Ouro da Copa do Mundo da FIFA",
+        logo: "FIFA",
+        anos: "2018",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Ano da PFA",
+        logo: "PFA",
+        anos: "2014, 2015, 2016, 2017 e 2020",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador Jovem do Ano da PFA",
+        logo: "PFA",
+        anos: "2014-15",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Bundesliga",
+        logo: "Bundesliga",
+        anos: "2023-24",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Mês da Premier League",
+        logo: "Premier League",
+        anos: "Janeiro 2015, Fevereiro 2015, Março 2016, Fevereiro 2017, Setembro 2017, Dezembro 2017, Março 2022",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Tottenham Hotspur da Temporada",
+        anos: "2014-15, 2020-21, 2022-23",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Kane",
+      "Harry Kane",
+      "Tottenham",
+      "Bayern de Munique",
+      "Inglaterra",
+      "Centroavante",
+      "Artilheiro",
+      "Chuteira de Ouro",
+      "Capitão",
+      "Hurricane",
+      "HK10",
+      "HK9",
+      "Premier League",
+      "Bundesliga",
+    ],
   },
 
   // PORTUGAL -------------------------------------------------------------------------------------------------------------------------------------------------------
