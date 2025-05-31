@@ -446,6 +446,134 @@ const jogadores = [
     tags: [],
   },
 
+  //Marco Reus
+  {
+    nome: "Marco Reus",
+    background: "plate",
+    imagem:
+      "https://s3-images.sportnews.bz/_images/fit/1000x563/img/2024/12/marco-reus-im-trikot-von-los-angeles-galaxy.jpg",
+    pagina: "https://www.instagram.com/marcinho11/",
+    descricao:
+      "Meio-campista ofensivo alemão, ícone e ex-capitão do Borussia Dortmund, reverenciado por sua velocidade, dribles precisos, inteligência tática, e uma incrível capacidade de marcar gols e dar assistências. Apesar das lesões que marcaram sua carreira, Reus é amplamente considerado um dos jogadores mais talentosos de sua geração na Alemanha, um verdadeiro 'Fussballgott' para os torcedores do BVB.",
+    numero: "18",
+    posicao: "Meia Ofensivo",
+    nacionalidade: "Alemanha",
+    dataNascimento: "31/05/1989",
+    status: "Ativo (Los Angeles Galaxy)",
+    clubes: [
+      createClub(
+        "Rot Weiss Ahlen",
+        { inicio: "2006", fim: "2009" },
+        { jogos: 48, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Borussia Mönchengladbach",
+        { inicio: "2009", fim: "2012" },
+        { jogos: 109, gols: 41, assistencias: 28 }
+      ),
+      createClub(
+        "Borussia Dortmund",
+        { inicio: "2012", fim: "2024" },
+        { jogos: 429, gols: 170, assistencias: 131 }
+      ),
+      createClub(
+        "Los Angeles Galaxy",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 1, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Alemanha",
+      periodo: { inicio: "2011", fim: "2023" },
+      estatisticas: { jogos: 48, gols: 15, assistencias: 14 },
+    },
+    titulos: [
+      // Los Angeles Galaxy
+      {
+        nome: "MLS Cup",
+        anos: "2024",
+        clube: "Los Angeles Galaxy",
+      },
+      {
+        nome: "Conferência Oeste",
+        anos: "2024",
+        clube: "Los Angeles Galaxy",
+      },
+      // Borussia Dortmund
+      {
+        nome: "Copa da Alemanha",
+        anos: "2016-17, 2020-21",
+        clube: "Borussia Dortmund",
+      },
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2013, 2014, 2019",
+        clube: "Borussia Dortmund",
+      },
+      {
+        nome: "UEFA Champions League (Vice-campeão)",
+        logo: "UEFA Champions League",
+        anos: "2012-13, 2023-24",
+        clube: "Borussia Dortmund",
+      },
+      // Individuais
+      {
+        nome: "Futebolista Alemão do Ano",
+        anos: "2012, 2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador da Temporada da Bundesliga",
+        logo: "Bundesliga",
+        anos: "2011-12, 2013-14, 2015-16, 2018-19",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Bundesliga",
+        logo: "Bundesliga",
+        anos: "2011-12, 2013-14, 2014-15, 2015-16, 2018-19",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Mês da Bundesliga",
+        logo: "Bundesliga",
+        anos: "Setembro 2018, Novembro 2018, Dezembro 2018, Março 2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Ano da UEFA Champions League",
+        logo: "UEFA Champions League",
+        anos: "2013-14",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Borussia Dortmund da Temporada",
+        anos: "2013-14, 2015-16, 2018-19",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Reus",
+      "Marco Reus",
+      "Borussia Dortmund",
+      "BVB",
+      "Alemanha",
+      "Meia Ofensivo",
+      "Ponta",
+      "Capitão",
+      "Lenda",
+      "MR11",
+      "Fussballgott",
+      "Bundesliga",
+    ],
+  },
+
   // Musiala
   {
     nome: "Musiala",
@@ -973,6 +1101,142 @@ const jogadores = [
     selecao: {},
     titulos: [],
     tags: [],
+  },
+
+  //Lautaro Martínez
+  {
+    nome: "Lautaro Martínez",
+    background: "plate",
+    imagem:
+      "https://tntsports.com.br/__export/1708455600218/sites/esporteinterativo/img/2024/02/20/lautaro_martxnez.jpg_1586065124.jpg",
+    pagina: "https://www.instagram.com/lautaromartinez/",
+    descricao:
+      "Centroavante argentino e capitão da Inter de Milão, conhecido por sua agilidade, força, faro de gol e capacidade de jogar em diversas situações de ataque. Martínez é uma peça fundamental tanto para a Inter de Milão, onde se tornou um dos maiores artilheiros, quanto para a seleção argentina, com quem conquistou a Copa América e a Copa do Mundo.",
+    numero: "10",
+    posicao: "Centroavante",
+    nacionalidade: "Argentina",
+    dataNascimento: "22/08/1997",
+    status: "Ativo (Inter de Milão)",
+    clubes: [
+      createClub(
+        "Racing",
+        { inicio: "2015", fim: "2018" },
+        { jogos: 62, gols: 27, assistencias: 6 }
+      ),
+      createClub(
+        "Internazionale",
+        { inicio: "2018", fim: "Presente" },
+        { jogos: 284, gols: 129, assistencias: 43 }
+      ),
+    ],
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "2018", fim: "Presente" },
+      estatisticas: { jogos: 59, gols: 28, assistencias: 10 },
+    },
+    titulos: [
+      // Inter de Milão
+      {
+        nome: "Serie A",
+        anos: "2020-21, 2023-24",
+        clube: "Internazionale",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2021-22, 2022-23",
+        clube: "Internazionale",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2021, 2022, 2023",
+        clube: "Internazionale",
+      },
+      {
+        nome: "UEFA Champions League (Vice-campeão)",
+        logo: "UEFA Champions League",
+        anos: "2022-23",
+        clube: "Internazionale",
+      },
+      // Seleção Argentina
+      {
+        nome: "Superclássico das Américas",
+        anos: "2019",
+        clube: "Argentina",
+      },
+      {
+        nome: "Copa América",
+        anos: "2021",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa dos Campeões CONMEBOL–UEFA",
+        anos: "2022",
+        clube: "Argentina",
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "2022",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2024",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+      // Individuais
+      {
+        nome: "Equipe ideal da Copa América",
+        logo: "Copa América",
+        anos: "2024",
+        clube: "Individual",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Serie A",
+        logo: "Serie A",
+        anos: "2023-24",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Serie A",
+        logo: "Serie A",
+        anos: "2023-24",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Mês da Serie A",
+        logo: "Serie A",
+        anos: "Outubro 2023",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "100 Melhores Jogadores do Ano",
+        logo: "The Guardian",
+        anos: "2022",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Lautaro",
+      "Martinez",
+      "Lautaro Martinez",
+      "Inter de Milão",
+      "Argentina",
+      "Centroavante",
+      "Atacante",
+      "El Toro",
+      "Serie A",
+      "Capitão",
+      "LM10",
+    ],
   },
 
   // Mascherano
@@ -5882,24 +6146,144 @@ const jogadores = [
     tags: [],
   },
 
-  // Ousmane Dembélé
+  //Ousmane Dembélé
   {
     nome: "Ousmane Dembélé",
-    background: "#",
-    descricao:
-      "Atacante veloz e habilidoso, Dembélé é conhecido por seus dribles rápidos e finalizações precisas. É uma das principais armas do seu time no ataque.",
-    pagina: "https://www.instagram.com/ousmanedenbele/",
-    nacionalidade: "França",
+    background: "plate",
     imagem:
       "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/02/14/1387601427-ousmane-dembele-paris-saint-germain-v-ac-milan-group-f-uefa-champions-league-2023-24-2048x1365.jpg",
-    numero: "11",
-    posicao: "Ponta-Direita",
+    pagina: "https://www.instagram.com/o.dembele7/",
+    descricao:
+      "Ponta-direita francês conhecido por sua velocidade vertiginosa, dribles desequilibrantes, capacidade de jogar com ambos os pés e criatividade no ataque. Dembélé é um jogador que pode mudar o rumo de uma partida com sua imprevisibilidade, tendo atuado em grandes clubes europeus e sendo campeão da Copa do Mundo com a França.",
+    numero: "10",
+    posicao: "Ponta-direita",
+    nacionalidade: "França",
     dataNascimento: "15/05/1997",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    status: "Ativo (Paris Saint-Germain)",
+    clubes: [
+      createClub(
+        "Stade Rennais",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 29, gols: 12, assistencias: 5 }
+      ),
+      createClub(
+        "Borussia Dortmund",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 49, gols: 10, assistencias: 22 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2017", fim: "2023" },
+        { jogos: 185, gols: 40, assistencias: 43 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 43, gols: 6, assistencias: 14 }
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "2016", fim: "Presente" },
+      estatisticas: { jogos: 45, gols: 12, assistencias: 5 },
+    },
+    titulos: [
+      // Borussia Dortmund
+      {
+        nome: "Copa da Alemanha",
+        anos: "2016-17",
+        clube: "Borussia Dortmund",
+      },
+      // FC Barcelona
+      {
+        nome: "La Liga",
+        anos: "2017-18, 2018-19, 2022-23",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2017-18, 2020-21",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2018, 2022-23",
+        clube: "Barcelona",
+      },
+      // Paris Saint-Germain
+      {
+        nome: "Ligue 1",
+        anos: "2023-24",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2023-24",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2023",
+        clube: "Paris Saint-Germain",
+      },
+      // Seleção Francesa
+      {
+        nome: "Copa do Mundo FIFA",
+        logo: "Copa do Mundo",
+        anos: "2018",
+        clube: "França",
+        logoVariavel: true,
+      },
+      {
+        nome: "Liga das Nações da UEFA (Vice-campeão)",
+        logo: "UEFA Nations League",
+        anos: "2021",
+        clube: "França",
+      },
+      {
+        nome: "Copa do Mundo FIFA (Vice-campeão)",
+        logo: "Copa do Mundo",
+        anos: "2022",
+        clube: "França",
+        logoVariavel: true,
+      },
+      // Individuais
+      {
+        nome: "Melhor Jogador Jovem da Ligue 1",
+        logo: "Ligue 1",
+        anos: "2015-16",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Revelação da Temporada da Bundesliga",
+        logo: "Bundesliga",
+        anos: "2016-17",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Bundesliga",
+        logo: "Bundesliga",
+        anos: "2016-17",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Dembélé",
+      "Dembele",
+      "Ousmane Dembélé",
+      "Barcelona",
+      "PSG",
+      "França",
+      "Ponta",
+      "Driblador",
+      "Velocidade",
+      "OD11",
+      "OD7",
+      "Campeão do Mundo",
+    ],
   },
 
   // Paul Pogba
