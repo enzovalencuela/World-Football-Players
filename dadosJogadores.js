@@ -2570,19 +2570,126 @@ const jogadores = [
   {
     nome: "Everton Cebolinha",
     background: "#",
+    imagem:
+      "https://tntsports.com.br/__export/1718325351451/sites/esporteinterativo/img/2024/06/13/20240613-213214_2060267_2871.jpg",
+    pagina: "https://www.instagram.com/evertons/",
     descricao:
-      "Ponta-esquerda brasileiro conhecido por sua velocidade e habilidade nos dribles, Cebolinha já atuou por grandes clubes como Grêmio e Benfica.",
-    pagina: "https://www.instagram.com/cebolinhaoficial/",
-    nacionalidade: "Brasil",
-    imagem: "https://a.espncdn.com/photo/2022/0721/r1038740_1296x729_16-9.jpg",
+      "Atacante brasileiro conhecido por sua velocidade, habilidade no drible e finalização precisa. Everton Cebolinha destacou-se no Grêmio, onde foi peça fundamental na conquista da Copa Libertadores e foi um dos principais jogadores na conquista da Copa América de 2019, e, posteriormente, ao futebol europeu, antes de retornar ao Brasil para atuar no Flamengo.",
     numero: "11",
-    posicao: "Ponta-esquerda",
+    posicao: "Atacante",
+    nacionalidade: "Brasil",
     dataNascimento: "22/03/1996",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    status: "Ativo (Flamengo)",
+    clubes: [
+      createClub(
+        "Grêmio",
+        { inicio: "2014", fim: "2020" },
+        { jogos: 274, gols: 69, assistencias: 35 }
+      ),
+      createClub(
+        "Benfica",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 95, gols: 15, assistencias: 17 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 133, gols: 14, assistencias: 19 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2018", fim: "Presente" },
+      estatisticas: { jogos: 27, gols: 3, assistencias: 4 },
+    },
+    titulos: [
+      // Grêmio
+      {
+        nome: "Copa do Brasil",
+        anos: "2016",
+        clube: "Grêmio",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2017",
+        clube: "Grêmio",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2018",
+        clube: "Grêmio",
+      },
+      {
+        nome: "Campeonato Gaúcho",
+        anos: "2018, 2019, 2020",
+        clube: "Grêmio",
+      },
+      // Flamengo
+      {
+        nome: "Copa do Brasil",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      // Individuais
+      {
+        nome: "Artilheiro da Copa América",
+        logo: "Copa América",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Melhor jogador da final da Copa América",
+        logo: "Copa América",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Equipe ideal da Copa América",
+        logo: "Copa América",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Bola de Prata",
+        anos: "2018",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Everton",
+      "Cebolinha",
+      "Everton Cebolinha",
+      "Flamengo",
+      "Grêmio",
+      "Benfica",
+      "Brasil",
+      "Atacante",
+      "Ponta Esquerda",
+    ],
   },
 
   // Éverton Ribeiro
@@ -3348,20 +3455,189 @@ const jogadores = [
   {
     nome: "Marinho",
     background: "#",
-    descricao:
-      "Atacante veloz e habilidoso, conhecido por seus dribles e gols decisivos. Marinho se destacou no Santos e conquistou a torcida com sua alegria e carisma.",
-    pagina: "https://www.instagram.com/marinhooficial/",
-    nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/7b/2021/01/17/marinho-do-santos-durante-partida-contra-o-botafogo-pelo-campeonato-brasileiro-1610920567202_v2_450x600.jpg",
-    numero: "11",
-    posicao: "Ponta-Direita",
+      "https://conteudo.imguol.com.br/c/esporte/3a/2024/09/18/marinho-do-fortaleza-em-acao-no-jogo-contra-o-corinthians-pela-ida-das-quartas-da-sul-americana-1726659062687_v2_4x3.jpg",
+    pagina: "https://www.instagram.com/marinhooficial/",
+    descricao:
+      "Marinho ganhou notoriedade no cenário nacional por suas passagens de destaque por clubes como Vitória e Santos, onde foi vice-campeão e eleito Rei da América da Copa Libertadores de 2020. Atualmente defende o Fortaleza.",
+    numero: "15",
+    posicao: "Atacante",
+    nacionalidade: "Brasil",
     dataNascimento: "29/05/1990",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    status: "Ativo (Fortaleza)",
+    clubes: [
+      createClub(
+        "Fluminense",
+        { inicio: "2008", fim: "2011" },
+        { jogos: 13, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Internacional",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 1, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Caxias",
+        { inicio: "2013", fim: "2013" },
+        { jogos: 1, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Ituano",
+        { inicio: "2014", fim: "2014" },
+        { jogos: 4, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Náutico",
+        { inicio: "2014", fim: "2014" },
+        { jogos: 19, gols: 2, assistencias: 1 }
+      ),
+      createClub(
+        "Ceará",
+        { inicio: "2015", fim: "2015" },
+        { jogos: 35, gols: 9, assistencias: 4 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 12, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Vitória",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 43, gols: 21, assistencias: 7 }
+      ),
+      createClub(
+        "Changchun Yatai",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 20, gols: 3, assistencias: 1 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 28, gols: 4, assistencias: 3 }
+      ),
+      createClub(
+        "Santos",
+        { inicio: "2019", fim: "2022" },
+        { jogos: 113, gols: 41, assistencias: 17 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 58, gols: 6, assistencias: 6 }
+      ),
+      createClub(
+        "Fortaleza",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 71, gols: 9, assistencias: 6 }
+      ),
+    ],
+    selecao: null,
+    titulos: [
+      // Clubes
+      {
+        nome: "Campeonato Goiano",
+        anos: "2013",
+        clube: "Goiás",
+      },
+      {
+        nome: "Copa do Nordeste",
+        anos: "2015",
+        clube: "Ceará",
+      },
+      {
+        nome: "Campeonato Baiano",
+        anos: "2016",
+        clube: "Vitória",
+      },
+      {
+        nome: "Campeonato Gaúcho",
+        anos: "2019",
+        clube: "Grêmio",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Nordeste",
+        anos: "2024",
+        clube: "Fortaleza",
+      },
+      // Individuais
+      {
+        nome: "Rei da América",
+        logo: "Copa Libertadores",
+        anos: "2020",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2020",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2020",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata",
+        anos: "2016, 2019, 2020",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Craque do Brasileirão",
+        logo: "Campeonato Brasileiro",
+        anos: "2020",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Baiano",
+        logo: "Campeonato Baiano",
+        anos: "2016",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Baiano",
+        logo: "Campeonato Baiano",
+        anos: "2016",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Copa do Brasil",
+        logo: "Copa do Brasil",
+        anos: "2016",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Marinho",
+      "Fortaleza",
+      "Flamengo",
+      "Santos",
+      "Grêmio",
+      "Vitória",
+      "Atacante",
+      "Ponta Direita",
+      "Rei da América",
+    ],
   },
 
   //Matheus Cunha
