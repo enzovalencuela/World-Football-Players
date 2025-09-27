@@ -1,10 +1,4 @@
-// Obtém a seção onde os resultados da pesquisa serão exibidos
-const dadosDiv = document.getElementById("resultados-pesquisa");
-
-const botao = document.getElementById("mostrarTimes");
-
-// Array com os dados dos times
-const times = [
+export const times = [
   //ALEMANHA------------------------------------------------------------------
 
   {
@@ -19,8 +13,7 @@ const times = [
       "O Bayern de Munique é conhecido como 'FC Bayern' e tem uma das maiores torcidas da Alemanha.",
     pagina: "https://fcbayern.com/",
     tags: "futebol, alemanha, munique, bayern, bundesliga",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/2048px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/2048px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
   },
 
   {
@@ -35,8 +28,7 @@ const times = [
       "O Borussia Dortmund é conhecido como 'BVB' e tem uma das maiores torcidas da Alemanha. O time é famoso por seu futebol ofensivo e por revelar grandes talentos.",
     pagina: "https://www.bvb.de/",
     tags: "futebol, alemanha, dortmund, bvb, bundesliga",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg.png",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg.png",
   },
 
   //BRASIL--------------------------------------------------------------------
@@ -53,8 +45,7 @@ const times = [
       "O Corinthians é um dos clubes com maior número de torcedores no Brasil e é conhecido como 'Timão'.",
     pagina: "https://www.corinthians.com.br/",
     tags: "futebol, brasil, sao paulo, corinthians, timão",
-    imagem:
-      "https://logodownload.org/wp-content/uploads/2016/11/corinthians-logo-01.png",
+    img: "https://logodownload.org/wp-content/uploads/2016/11/corinthians-logo-01.png",
   },
 
   {
@@ -69,8 +60,7 @@ const times = [
       "O Flamengo é conhecido como o 'Mengão' e tem uma das maiores torcidas organizadas do mundo, a maior do Brasil.",
     pagina: "https://www.flamengo.com.br/",
     tags: "futebol, brasil, rio de janeiro, flamengo, mengão",
-    imagem:
-      "https://static.dicionariodesimbolos.com.br/upload/8f/ec/simbolo-do-flamengo-13_xl.jpeg",
+    img: "https://static.dicionariodesimbolos.com.br/upload/8f/ec/simbolo-do-flamengo-13_xl.jpeg",
   },
 
   {
@@ -85,8 +75,7 @@ const times = [
       "O Palmeiras é conhecido como 'Verdão' e tem uma das maiores rivalidades do futebol brasileiro com o Corinthians.",
     pagina: "https://www.palmeiras.com.br/",
     tags: "futebol, brasil, sao paulo, palmeiras, verdão",
-    imagem:
-      "https://s2-ge.glbimg.com/NIG6sRPzkx-0gknOeqH3XOhAqi4=/0x0:334x335/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/s/H/Qt7yzURwSs4ApwzNbDOQ/1959.png",
+    img: "https://s2-ge.glbimg.com/NIG6sRPzkx-0gknOeqH3XOhAqi4=/0x0:334x335/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/s/H/Qt7yzURwSs4ApwzNbDOQ/1959.png",
   },
 
   //ESPANHA-------------------------------------------------------------------
@@ -103,8 +92,7 @@ const times = [
       "O Atlético de Madrid é conhecido como 'Colchoneros' devido às suas camisas listradas.",
     pagina: "https://www.atleticodemadrid.com/",
     tags: "futebol, espanha, madrid, atletico, colchoneros",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c1/Atletico_Madrid_logo.svg/1603px-Atletico_Madrid_logo.svg.png",
+    img: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c1/Atletico_Madrid_logo.svg/1603px-Atletico_Madrid_logo.svg.png",
   },
 
   {
@@ -119,8 +107,7 @@ const times = [
       "O Barcelona é conhecido como 'Barça' e tem uma das maiores escolas de futebol do mundo, a La Masia.",
     pagina: "https://www.fcbarcelona.com/",
     tags: "futebol, espanha, barcelona, Barça, La Masia",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/pt/thumb/4/43/FCBarcelona.svg/1010px-FCBarcelona.svg.png",
+    img: "https://upload.wikimedia.org/wikipedia/pt/thumb/4/43/FCBarcelona.svg/1010px-FCBarcelona.svg.png",
   },
 
   {
@@ -135,7 +122,7 @@ const times = [
       "O Real Madrid é conhecido como 'Merengues' e tem uma das maiores rivalidades do futebol mundial com o Barcelona.",
     pagina: "https://www.realmadrid.com/",
     tags: "futebol, espanha, madrid, real madrid, merengues",
-    imagem: "https://upload.wikimedia.org/wikipedia/pt/9/98/Real_Madrid.png",
+    img: "https://upload.wikimedia.org/wikipedia/pt/9/98/Real_Madrid.png",
   },
 
   //FRANÇA-----------------------------------------------------------------------
@@ -152,7 +139,7 @@ const times = [
       "O PSG é conhecido por seus investimentos em grandes jogadores e por sua torcida apaixonada.",
     pagina: "https://www.psg.fr/",
     tags: "futebol, frança, paris, psg, ligue1",
-    imagem: "https://upload.wikimedia.org/wikipedia/pt/d/d2/Logo_PSG.png",
+    img: "https://upload.wikimedia.org/wikipedia/pt/d/d2/Logo_PSG.png",
   },
 
   //INGLATERRA-------------------------------------------------------------------
@@ -169,8 +156,7 @@ const times = [
       "O Arsenal é conhecido como 'The Gunners' (Os Artilheiros) e tem uma das maiores rivalidades do futebol inglês com o Tottenham Hotspur.",
     pagina: "https://www.arsenal.com/",
     tags: "futebol, inglaterra, londres, arsenal, the gunners, premier league",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/pt/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png",
+    img: "https://upload.wikimedia.org/wikipedia/pt/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png",
   },
 
   {
@@ -185,8 +171,7 @@ const times = [
       "O Chelsea é conhecido por suas grandes contratações e por sua rivalidade com o Arsenal. O estádio Stamford Bridge é a casa do clube.",
     pagina: "https://www.chelseafc.com/",
     tags: "futebol, inglaterra, londres, chelsea, premierleague",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/pt/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png",
+    img: "https://upload.wikimedia.org/wikipedia/pt/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png",
   },
 
   {
@@ -201,8 +186,7 @@ const times = [
       "O Everton é conhecido como os 'Toffees' e tem uma grande rivalidade com o Liverpool, conhecida como Derby de Merseyside.",
     pagina: "https://www.evertonfc.com/",
     tags: "futebol, inglaterra, liverpool, everton, toffees, premier league",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/pt/a/ae/Everton_FC_logo_2014.png",
+    img: "https://upload.wikimedia.org/wikipedia/pt/a/ae/Everton_FC_logo_2014.png",
   },
 
   {
@@ -217,8 +201,7 @@ const times = [
       "O Liverpool é conhecido como 'The Reds' (Os Vermelhos) e tem uma das maiores rivalidades do futebol mundial com o Manchester United.",
     pagina: "https://www.liverpoolfc.com/",
     tags: "futebol, inglaterra, liverpool, the reds, premier league",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png",
+    img: "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png",
   },
 
   {
@@ -233,8 +216,7 @@ const times = [
       "O Manchester City é conhecido por seus investimentos em grandes jogadores e por sua rivalidade com o Manchester United.",
     pagina: "https://www.mancity.com/",
     tags: "futebol, inglaterra, manchester, manchester city, premier league",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/pt/0/02/Manchester_City_Football_Club.png",
+    img: "https://upload.wikimedia.org/wikipedia/pt/0/02/Manchester_City_Football_Club.png",
   },
 
   {
@@ -249,8 +231,7 @@ const times = [
       "O Manchester United é conhecido como 'Os Diabos Vermelhos' e tem uma das maiores rivalidades do futebol mundial com o Liverpool e o Manchester City.",
     pagina: "https://www.manutd.com/",
     tags: "futebol, inglaterra, manchester, manchester united, diabos vermelhos, premier league",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/pt/b/b6/Manchester_United_FC_logo.png?20140304180759",
+    img: "https://upload.wikimedia.org/wikipedia/pt/b/b6/Manchester_United_FC_logo.png?20140304180759",
   },
 
   {
@@ -265,8 +246,7 @@ const times = [
       "O Tottenham Hotspur é conhecido como Spurs e tem uma grande rivalidade com o Arsenal. O estádio Tottenham Hotspur Stadium é a casa do clube.",
     pagina: "https://www.tottenhamhotspur.com/",
     tags: "futebol, inglaterra, londres, tottenham, spurs, premierleague",
-    imagem:
-      "https://logodetimes.com/times/tottenham-hotspur-football-club/tottenham-hotspur-football-club-4096.png",
+    img: "https://logodetimes.com/times/tottenham-hotspur-football-club/tottenham-hotspur-football-club-4096.png",
   },
 
   //ITÁLIA-----------------------------------------------------------------------
@@ -283,8 +263,7 @@ const times = [
       "O Milan é conhecido como Rossoneri e tem uma rivalidade histórica com a Inter de Milão. O Giuseppe Meazza é o estádio do clube.",
     pagina: "https://www.acmilan.com/",
     tags: "futebol, italia, milão, milan, serieA",
-    imagem:
-      "https://logodetimes.com/times/associazione-calcio-milan/associazione-calcio-milan-4096.png",
+    img: "https://logodetimes.com/times/associazione-calcio-milan/associazione-calcio-milan-4096.png",
   },
 
   {
@@ -299,8 +278,7 @@ const times = [
       "A Inter de Milão é conhecida como Nerazzurri e tem uma rivalidade histórica com o Milan. O Giuseppe Meazza é o estádio do clube.",
     pagina: "https://www.inter.it/",
     tags: "futebol, italia, milão, inter, serieA",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/2048px-FC_Internazionale_Milano_2021.svg.png",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/2048px-FC_Internazionale_Milano_2021.svg.png",
   },
 
   {
@@ -315,37 +293,6 @@ const times = [
       "A Juventus é conhecida como a 'Velha Senhora' e tem uma das maiores torcidas da Itália.",
     pagina: "https://www.juventus.com/",
     tags: "futebol, itália, juventus, velha senhora, serie a",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/5/51/Juventus_FC_2017_logo.png",
+    img: "https://upload.wikimedia.org/wikipedia/commons/5/51/Juventus_FC_2017_logo.png",
   },
 ];
-
-botao.addEventListener("click", () => {
-  let htmlContent = "";
-
-  times.forEach((time) => {
-    htmlContent += `
-        <div class="jogador selecao-clube">
-          <div class="div-superior">
-            <img class="dado-imagem-clube-selecao" src="${time.imagem}" alt="">
-              <div class="div-info">
-                <div class="numero-nome-time">
-                  <a class="link-pagina" href="${time.pagina}" target="_blank"><h2 id="nome">${time.nome}</h2></a>
-                </div>
-                <h3>Localização</h3>
-                <p id="info">${time.localizacao}</p>
-                <h3>Fundação</h3>
-                <p id="info">${time.fundacao}</p>
-                <h3>Principais Títulos</h3>
-                <p id="info">${time.titulos}</p>
-                <h3>Curiosidades</h3>
-                <p id="info">${time.curiosidades}</p>
-              </div>
-          </div>
-          <p class="descricao-meta">${time.descricao}</p>
-        </div>
-      `;
-  });
-
-  dadosDiv.innerHTML = htmlContent;
-});

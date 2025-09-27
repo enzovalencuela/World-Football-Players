@@ -1,9 +1,4 @@
-// Obtém a seção onde os resultados da pesquisa serão exibidos
-const dadosSel = document.getElementById("resultados-pesquisa");
-
-const botao3 = document.getElementById("mostrarSelecoes");
-
-const selecoes = [
+export const selecoes = [
   //Seleção Alemã
   {
     nome: "Seleção Alemã",
@@ -144,35 +139,3 @@ const selecoes = [
     imagem: "https://upload.wikimedia.org/wikipedia/pt/0/04/AUF.png",
   },
 ];
-
-botao3.addEventListener("click", () => {
-  let htmlContent = "";
-
-  selecoes.forEach((selecao) => {
-    htmlContent += `
-        <div class="jogador selecao-clube">
-        <div class="div-superior">
-          <img class="dado-imagem-clube-selecao" src="${selecao.imagem}" alt="">
-            <div class="div-info">
-              <div class="numero-nome-selecao">
-                <a href="${selecao.pagina}" target="_blank"><h2 id="nome">${selecao.nome}</h2></a>
-                <h3 id="sub-info">${selecao.confederacao}</h3>
-              </div>
-              <h3>Fundação</h3>
-              <p id="info">${selecao.fundacao}</p>
-              <h3>Principais Títulos</h3>
-              <p id="info">${selecao.titulos}</p>
-              <h3>Mascote</h3>
-              <p id="info">${selecao.mascote}</p>
-              <h3>Cores</h3>
-              <p id="info">${selecao.cores}</p>
-              <h3>Curiosidades</h3>
-              <p id="info">${selecao.curiosidades}</p>
-            </div>
-          </div>
-        </div>
-        `;
-  });
-
-  dadosSel.innerHTML = htmlContent;
-});

@@ -12,6 +12,12 @@ body {
   overflow: hidden;
 }
 
+.architects-daughter-regular {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*ESTILIZAÇÃO DA DIV GERAL /////////////////////////////////////////////////////////*/
 .pagina {
   font-family: "Chakra Petch", sans-serif;
@@ -33,18 +39,18 @@ header {
 
 h1 {
   padding-top: 2rem;
-  font-size: 2.8rem; /* Tamanho da fonte */
-  color: #f6f6f6; /* Cor do texto */
-  text-align: center; /* Alinha o texto ao centro */
-  letter-spacing: 0.4rem; /* Espaçamento entre letras */
+  font-size: 2.8rem;
+  color: #f6f6f6;
+  text-align: center;
+  letter-spacing: 0.4rem;
 }
 
 section {
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: column; /* Alinha os itens na vertical */
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
-  align-items: center; /* Centraliza os itens horizontalmente */
-  margin-block: 3rem; /* Espaçamento abaixo de cada seção */
+  align-items: center;
+  margin-block: 3rem;
   justify-content: center;
 }
 
@@ -53,30 +59,36 @@ section {
 
   & input {
     width: 32vw;
-    border: none; /* Remove a borda padrão */
-    padding: 1rem; /* Espaçamento interno */
+    border: none;
+    padding: 1rem;
     margin: 0;
-    border-radius: 1.5rem; /* Borda arredondada */
-    color: #45474b; /* Cor do texto */
-    font-size: 1rem; /* Tamanho da fonte */
+    border-radius: 1.5rem;
+    color: #45474b;
+    font-size: 1rem;
   }
 }
 
 button {
-  border: none; /* Remove a borda padrão */
-  font-size: 1rem; /* Tamanho da fonte */
-  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .pagina__btn {
-  padding: 1rem 1.2rem; /* Espaçamento interno do botão */
-  background-color: #018f08; /* Cor de fundo do botão */
-  color: #f5f7f8; /* Cor do texto do botão */
+  padding: 1rem 1.2rem;
+  background-color: #018f08;
+  color: #f5f7f8;
   font-weight: bold;
-  border-radius: 1.5rem; /* Borda arredondada */
+  border-radius: 1.5rem;
   position: absolute;
   right: 0;
   z-index: 1;
+}
+
+ul {
+  display: flex;
+  gap: 6rem;
+  list-style: none;
 }
 
 .btn-nav {
@@ -84,12 +96,6 @@ button {
   font-weight: 600;
   background-color: transparent;
   text-decoration: underline;
-}
-
-ul {
-  display: flex;
-  gap: 6rem;
-  list-style: none;
 }
 
 .resultados {
@@ -181,8 +187,26 @@ ul {
 }
 
 /*DIV DOS RESULTADOS DOS JOGADORES /////////////////////////////////////////////////////////*/
+.container-loading {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)),
+    url(https://forbes.com.br/wp-content/uploads/2019/06/listas-jogadores-futebol-180619-getty-VI-Images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+
 .jogador {
-  background-image: url(./assets/img__fundos/Fundo_resultado.png);
+  background-image: url(/img__fundos/Fundo_resultado.png);
   background-size: cover;
   border-radius: 0.6rem;
   padding: 2rem 3rem;
@@ -305,8 +329,7 @@ ul {
 }
 
 .mostrar-esconder:hover {
-  background-color: #525252;
-  color: #bcbcbc;
+  opacity: 0.8;
 }
 
 table {
@@ -328,7 +351,7 @@ th {
 }
 
 .conteudo-oculto {
-  display: none;
+  display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: center;
@@ -460,6 +483,10 @@ footer {
 
 /* Para telas um pouco menores (tablets) ////////////////////////////////////////////////////////*/
 @media (max-width: 960px) {
+  .container-loading {
+    background-position: center;
+  }
+
   .pagina {
     background-position: center;
     background-repeat: no-repeat;
@@ -574,8 +601,8 @@ footer {
 @media (max-width: 568px) {
   .pagina {
     background-position: center;
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   h1 {
     font-size: 1.6rem;
@@ -588,7 +615,7 @@ footer {
   }
 
   ul {
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .div-superior {
@@ -612,7 +639,7 @@ footer {
     padding: 1rem;
     height: inherit;
     max-height: initial;
-    background-image: url(./assets/img__fundos/Fundo_resultado-mobile.png);
+    background-image: url(/img__fundos/Fundo_resultado-mobile.png);
   }
 
   .dado_imgMarca {
