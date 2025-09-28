@@ -14,14 +14,14 @@ function TabelaTitulosIndividuais({ jogador }) {
     <table className="tabela-titulos">
       <thead>
         <tr>
-          <th className="th-titulos" colspan="4">
+          <th className="th-titulos" colSpan="4">
             Títulos Individuais
           </th>
         </tr>
       </thead>
       <tbody>
-        {titulosIndividuais.map((titulo) => (
-          <tr className="div-titulos">
+        {titulosIndividuais.map((titulo, index) => (
+          <tr className="div-titulos" key={index}>
             <td className="item-titulo">
               <img
                 className="campeonato"

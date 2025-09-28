@@ -24,8 +24,7 @@ export const tecnicos = [
     esquemasTaticos: ["4-3-3, 3-4-3"],
     filosofiaDeJogo:
       "Posse de bola, jogo ofensivo e construção a partir da defesa.",
-    conquistas: [
-      //Barcelona
+    titulos: [
       {
         nome: "La Liga",
         anos: "2009, 2010, 2011",

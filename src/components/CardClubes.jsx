@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import TabelaTitulosIndividuais from "./TabelaTitulosIndividuais";
 
 function CardClubes({ clube }) {
+  const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
+
   return (
     <div className="jogador selecao-clube">
       <div className="div-superior">
@@ -15,13 +18,24 @@ function CardClubes({ clube }) {
           <p id="info">{clube.localizacao}</p>
           <h3>Fundação</h3>
           <p id="info">{clube.fundacao}</p>
-          <h3>Principais Títulos</h3>
-          <p id="info">{clube.titulos}</p>
           <h3>Curiosidades</h3>
           <p id="info">{clube.curiosidades}</p>
         </div>
       </div>
       <p className="descricao-meta">{clube.descricao}</p>
+      <button
+        className="mostrar-esconder"
+        onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
+      >
+        Mostrar mais<span className="fa-solid fa-chevron-down"></span>
+      </button>
+      {mostrarDetalhes && (
+        <div className="conteudo-oculto">
+          <div className="tabelas-right">
+            <TabelaTitulosIndividuais jogador={clube} />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

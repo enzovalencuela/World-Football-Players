@@ -1,7 +1,7 @@
 // src/app/page.js
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { jogadores } from "../data/jogadores";
 import { tecnicos } from "../data/tecnicos";
 import { selecoes } from "../data/selecoes";
