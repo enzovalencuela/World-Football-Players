@@ -5,13 +5,15 @@ function CardSelecao({ selecao }) {
   const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
 
   return (
-    <div className="jogador selecao-clube">
+    <div className="jogador selecao-clube" id={selecao.background}>
       <div className="div-superior">
-        <img
-          className="dado-imagem-clube-selecao"
-          src={selecao.imagem}
-          alt=""
-        />
+        <div className="div-left">
+          <img
+            className="dado-imagem-clube-selecao"
+            src={selecao.imagem}
+            alt=""
+          />
+        </div>
         <div className="div-info">
           <div className="numero-nome-selecao">
             <a href={selecao.pagina} target="_blank">
@@ -33,7 +35,10 @@ function CardSelecao({ selecao }) {
         className="mostrar-esconder"
         onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
       >
-        Mostrar mais<span className="fa-solid fa-chevron-down"></span>
+        {mostrarDetalhes ? "Mostrar menos" : "Mostrar mais"}
+        <span
+          className={`fa-solid fa-chevron-${mostrarDetalhes ? "up" : "down"}`}
+        ></span>
       </button>
       {mostrarDetalhes && (
         <div className="conteudo-oculto">

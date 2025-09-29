@@ -5,9 +5,11 @@ function CardClubes({ clube }) {
   const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
 
   return (
-    <div className="jogador selecao-clube">
+    <div className="jogador selecao-clube" id={clube.background}>
       <div className="div-superior">
-        <img className="dado-imagem-clube-selecao" src={clube.img} alt="" />
+        <div className="div-left">
+          <img className="dado-imagem-clube-selecao" src={clube.img} alt="" />
+        </div>
         <div className="div-info">
           <div className="numero-nome-time">
             <a className="link-pagina" href={clube.pagina} target="_blank">
@@ -27,7 +29,10 @@ function CardClubes({ clube }) {
         className="mostrar-esconder"
         onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
       >
-        Mostrar mais<span className="fa-solid fa-chevron-down"></span>
+        {mostrarDetalhes ? "Mostrar menos" : "Mostrar mais"}
+        <span
+          className={`fa-solid fa-chevron-${mostrarDetalhes ? "up" : "down"}`}
+        ></span>
       </button>
       {mostrarDetalhes && (
         <div className="conteudo-oculto">

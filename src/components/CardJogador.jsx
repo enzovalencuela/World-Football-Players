@@ -9,6 +9,10 @@ function CardJogador({ jogador }) {
   const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
   const idade = calcularIdade(jogador.dataNascimento, jogador.dataFalecimento);
 
+  const clubes = jogador.clubes || [];
+  const clubeAtual = clubes.length > 0 ? clubes[clubes.length - 1] : null;
+  const clubesAnteriores = clubes.slice(0, -1);
+
   return (
     <div className="jogador" id={jogador.background}>
       <div className="div-superior">
@@ -34,6 +38,16 @@ function CardJogador({ jogador }) {
               )}.png`}
               alt={jogador.alt}
             />
+            {jogador.status === "Ativo" && clubeAtual && (
+              <img
+                className="clube-atual clubes"
+                src={`/img__equipes/Logo_${clubeAtual.nome.replace(
+                  / /g,
+                  "_"
+                )}.png`}
+                alt={clubeAtual.nome}
+              />
+            )}
           </div>
           <h3>Status</h3>
           <p id="info">
@@ -41,8 +55,12 @@ function CardJogador({ jogador }) {
             {jogador.status === "Aposentado" &&
               ` (${calcularPeriodoAtividade(jogador)})`}
           </p>
-          <h3>Principais Clubes</h3>
-          <ListaClubesJogador jogador={jogador} />
+          <h3>Clubes com passagens</h3>
+          <ListaClubesJogador
+            clubes={
+              jogador.status === "Ativo" ? clubesAnteriores : jogador.clubes
+            }
+          />
           <h3>Posição</h3>
           <p id="info">{jogador.posicao}</p>
           <h3>Nascimento</h3>

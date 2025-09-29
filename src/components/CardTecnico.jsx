@@ -2,18 +2,27 @@ import React, { useState } from "react";
 import TabelaTitulosIndiividuais from "./TabelaTitulosIndividuais";
 import TabelaTitulosPorEquipe from "./TabelaTitulosPorEquipe";
 import ListaClubesJogador from "./ListaClubesJogador";
-import { calcularIdade } from "@/utils/JogadorUtils";
+import { calcularIdade, calcularPeriodoAtividade } from "@/utils/JogadorUtils";
 
 function CardTecnico({ tecnico }) {
   const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
 
   const idade = calcularIdade(tecnico.dataNascimento, tecnico.dataFalecimento);
 
+  const clubes = tecnico.clubes || [];
+  const clubeAtual = clubes.length > 0 ? clubes[clubes.length - 1] : null;
+  const clubesAnteriores = clubes.slice(0, -1);
+
   return (
-    <div className="jogador">
+    <div className="jogador" id={tecnico.background}>
       <div className="div-superior">
         <div className="div-left">
           <img className="dado-imagem" src={tecnico.imagem} alt="" />
+          <img
+            className="dado_imgMarca"
+            src={`/img__tecnicos/Logo_${tecnico.nome.replace(/ /g, "_")}.png`}
+            alt=""
+          />
         </div>
         <div className="div-info">
           <div className="numero-nome-nacionalidade">
@@ -22,18 +31,39 @@ function CardTecnico({ tecnico }) {
             </a>
             <img
               className="nacionalidade"
-              src={`/img__equipes/Logo_${tecnico.nacionalidade}.png`}
-              alt=""
+              src={`/img__equipes/Logo_${tecnico.nacionalidade.replace(
+                / /g,
+                "_"
+              )}.png`}
+              alt={tecnico.alt}
             />
+            {tecnico.status === "Ativo" && clubeAtual && (
+              <img
+                className="clube-atual clubes"
+                src={`/img__equipes/Logo_${clubeAtual.nome.replace(
+                  / /g,
+                  "_"
+                )}.png`}
+                alt={clubeAtual.nome}
+              />
+            )}
           </div>
           <h3>Nascimento</h3>
           <p id="info">
             {tecnico.dataNascimento} ({idade})
           </p>
           <h3>Status</h3>
-          <p id="info">{tecnico.status}</p>
-          <h3>Principais Clubes</h3>
-          <ListaClubesJogador jogador={tecnico} />
+          <p id="info">
+            {tecnico.status}
+            {tecnico.status === "Aposentado" &&
+              ` (${calcularPeriodoAtividade(tecnico)})`}
+          </p>
+          <h3>Clubes com passagens</h3>
+          <ListaClubesJogador
+            clubes={
+              tecnico.status === "Ativo" ? clubesAnteriores : tecnico.clubes
+            }
+          />
           <h3>Esquemas Táticos</h3>
           <p id="info">{tecnico.esquemasTaticos}</p>
           <h3>Estilo de jogo</h3>
@@ -48,7 +78,10 @@ function CardTecnico({ tecnico }) {
         className="mostrar-esconder"
         onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
       >
-        Mostrar mais<span className="fa-solid fa-chevron-down"></span>
+        {mostrarDetalhes ? "Mostrar menos" : "Mostrar mais"}
+        <span
+          className={`fa-solid fa-chevron-${mostrarDetalhes ? "up" : "down"}`}
+        ></span>
       </button>
       {mostrarDetalhes && (
         <div className="conteudo-oculto">

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { jogadores } from "../data/jogadores";
 import { tecnicos } from "../data/tecnicos";
 import { selecoes } from "../data/selecoes";
-import { times } from "../data/times";
+import { clubes } from "../data/clubes";
 import CardJogador from "../components/CardJogador";
 import CardTecnico from "@/components/CardTecnico";
 import CardClubes from "@/components/CardClubes";
@@ -41,7 +41,7 @@ export default function HomePage() {
       case FILTRO_TECNICOS:
         return tecnicos;
       case FILTRO_CLUBES:
-        return times;
+        return clubes;
       case FILTRO_SELECOES:
         return selecoes;
       case FILTRO_PADRAO:
@@ -53,15 +53,17 @@ export default function HomePage() {
   const resultadosFiltrados = dadosAtivos.filter((item) => {
     const termo = termoPesquisa.toLowerCase();
 
-    const correspondeNomeOuDescricao =
+    const corresponde =
       item.nome?.toLowerCase().includes(termo) ||
-      item.descricao?.toLowerCase().includes(termo);
+      item.descricao?.toLowerCase().includes(termo) ||
+      item.background?.toLowerCase().includes(termo);
 
-    const correspondeClube = (item.clubes || []).some((clube) =>
-      clube.nome?.toLowerCase().includes(termo)
-    );
+    const correspondeClubeOuTag =
+      (item.clubes || []).some((clube) =>
+        clube.nome?.toLowerCase().includes(termo)
+      ) || (item.tags || []).some((tag) => tag.toLowerCase().includes(termo));
 
-    return correspondeNomeOuDescricao || correspondeClube;
+    return corresponde || correspondeClubeOuTag;
   });
 
   const renderizarCards = () => {

@@ -1,17 +1,59 @@
 export const selecoes = [
   //Seleção Alemã
   {
+    background: "golden",
     nome: "Seleção Alemã",
     confederacao: "União das Federações Europeias de Futebol (UEFA)",
     fundacao: "1900",
     titulos: [
       {
-        name: "Copa do Mundo FIFA",
-        anos: "1954, 1974, 1990, 2014",
+        nome: "Copa do Mundo",
+        anos: "1954",
         categoria: "individual",
+        logoVariavel: true,
       },
-      { nome: "Campeonato Europeu", anos: "3 vezes", categoria: "individual" },
-      { nome: "Confederações", anos: "2 vezes", categoria: "individual" },
+      {
+        nome: "Copa do Mundo",
+        anos: "1974",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "1990",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "2014",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "1972",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "1980",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "1996",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa_das_Confederações",
+        anos: "2017",
+        categoria: "individual",
+        logoVariavel: true,
+      },
     ],
     mascote: "Mannschaft (A equipe)",
     cores: "Branco, preto e vermelho",
@@ -23,18 +65,135 @@ export const selecoes = [
 
   //Seleção Argentina
   {
+    background: "lightBlue",
     nome: "Seleção Argentina",
     confederacao: "Confederação Sul-Americana de Futebol (CONMEBOL)",
     fundacao: 1903,
     titulos: [
       {
-        nome: "Copa do Mundo FIFA",
-        anos: "1978, 1986, 2022",
+        nome: "Copa do Mundo",
+        anos: "1978",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "1986",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "2022",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1921",
         categoria: "individual",
       },
-      { nome: "Copa América", anos: "15 vezes", categoria: "individual" },
-      { nome: "Confederações", anos: "1 vez", categoria: "individual" },
-      { nome: "Jogos Olímpicos", anos: "2 vezes", categoria: "individual" },
+      {
+        nome: "Copa América",
+        anos: "1925",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1927",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1929",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1937",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1941",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1945",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1946",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1947",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1955",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1957",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1959",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1991",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1993",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2021",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2024",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "1992",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Campeonato Pan-Americano",
+        anos: "1960",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa dos Campeões CONMEBOL–UEFA",
+        anos: "1993",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa dos Campeões CONMEBOL–UEFA",
+        anos: "2022",
+        categoria: "individual",
+      },
     ],
     mascote: "La Albiceleste",
     cores: "Celeste e branco",
@@ -47,10 +206,23 @@ export const selecoes = [
 
   //Seleção Belga
   {
+    background: "red",
     nome: "Seleção Belga",
     confederacao: "União das Federações Europeias de Futebol (UEFA)",
     fundacao: 1895,
-    titulos: [],
+    titulos: [
+      {
+        nome: "Jogos Olímpicos",
+        anos: "1920",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa Kirin",
+        anos: "1999",
+        categoria: "individual",
+      },
+    ],
     mascote: "Os Diabos Vermelhos",
     cores: "Vermelho, preto e amarelo",
     curiosidades:
@@ -62,17 +234,126 @@ export const selecoes = [
 
   //Seleção Brasileira
   {
+    background: "green",
     nome: "Seleção Brasileira",
     confederacao: "Confederação Brasileira de Futebol (CBF)",
     fundacao: "1914",
     titulos: [
       {
-        nome: "Copa do Mundo FIFA",
-        anos: "1958, 1962, 1970, 1994, 2002",
+        nome: "Copa do Mundo",
+        anos: "1958",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "1962",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "1970",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "1994",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "2002",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1919",
         categoria: "individual",
       },
-      { nome: "Copa América", anos: "9 vezes", categoria: "individual" },
-      { nome: "Confederações", anos: "4 vezes", categoria: "individual" },
+      {
+        nome: "Copa América",
+        anos: "1922",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1949",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1989",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1997",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1999",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2004",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2007",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2019",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "1997",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "2005",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "2009",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "2013",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Campeonato Pan-Americano",
+        anos: "1952",
+        categoria: "individual",
+      },
+      {
+        nome: "Campeonato Pan-Americano",
+        anos: "1956",
+        categoria: "individual",
+      },
     ],
     mascote: "Canarinho",
     cores: "Amarelo, verde e branco",
@@ -85,18 +366,43 @@ export const selecoes = [
 
   //Seleção Espanhola
   {
+    background: "yellow",
     nome: "Seleção Espanhola",
     confederacao: "União das Federações Europeias de Futebol (UEFA)",
     fundacao: 1909,
     titulos: [
-      { nome: "Copa do Mundo FIFA", anos: "2010", categoria: "individual" },
       {
-        nome: "Campeonato Europeu",
-        anos: "1964, 2008, 2012",
+        nome: "Copa do Mundo",
+        anos: "2010",
         categoria: "individual",
+        logoVariavel: true,
       },
       {
-        nome: "Liga das Nações da UEFA",
+        nome: "Eurocopa",
+        anos: "1964",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2008",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2012",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2024",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "UEFA Nations League",
         anos: "2023",
         categoria: "individual",
       },
@@ -112,17 +418,57 @@ export const selecoes = [
 
   //Seleção Francesa
   {
+    background: "blue",
     nome: "Seleção Francesa",
     confederacao: "União das Federações Europeias de Futebol (UEFA)",
     fundacao: "1904",
     titulos: [
       {
-        nome: "Copa do Mundo FIFA",
-        anos: "1998, 2018",
+        nome: "UEFA Nations League",
+        anos: "2021",
         categoria: "individual",
       },
-      { nome: "Campeonato Europeu", anos: "2 vezes", categoria: "individual" },
-      { nome: "Confederações", anos: "1 vez", categoria: "individual" },
+      {
+        nome: "Copa do Mundo",
+        anos: "1998",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "2018",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "1984",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2000",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "2001",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "2003",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa dos Campeões CONMEBOL–UEFA",
+        anos: "1985",
+        categoria: "individual",
+      },
     ],
     mascote: "Le coq gaulois (O galo gaulês)",
     cores: "Azul, branco e vermelho",
@@ -135,11 +481,17 @@ export const selecoes = [
 
   //Seleção Inglesa
   {
+    background: "black",
     nome: "Seleção Inglesa",
     confederacao: "União das Federações Europeias de Futebol (UEFA)",
     fundacao: 1872,
     titulos: [
-      { nome: "Copa do Mundo FIFA", anos: "1966", categoria: "individual" },
+      {
+        nome: "Copa do Mundo",
+        anos: "1966",
+        categoria: "individual",
+        logoVariavel: true,
+      },
     ],
     mascote: "Os Três Leões",
     cores: "Branco e vermelho",
@@ -152,19 +504,46 @@ export const selecoes = [
 
   //
   {
+    background: "blue",
     nome: "Seleção Italiana",
     confederacao: "União das Federações Europeias de Futebol (UEFA)",
     fundacao: "1898",
     titulos: [
       {
-        nome: "Copa do Mundo FIFA",
-        anos: "1934, 1938, 1982, 2006",
+        nome: "Copa do Mundo",
+        anos: "1934",
         categoria: "individual",
+        logoVariavel: true,
       },
       {
-        nome: "Campeonato Europeu",
-        anos: "1968, 2020",
+        nome: "Copa do Mundo",
+        anos: "1938",
         categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "1982",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "2006",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "1968",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2020",
+        categoria: "individual",
+        logoVariavel: true,
       },
     ],
     mascote: "Azzurri (Os Azuis)",
@@ -178,16 +557,106 @@ export const selecoes = [
 
   //Seleção Uruguaia
   {
+    background: "lightBlue",
     nome: "Seleção Uruguaia",
     confederacao: "Confederação Sul-Americana de Futebol (CONMEBOL)",
     fundacao: 1900,
     titulos: [
       {
-        nome: "Copa do Mundo FIFA",
-        anos: "1930, 1950",
+        nome: "Copa do Mundo",
+        anos: "1930",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "1950",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Mundialito",
+        anos: "1980",
         categoria: "individual",
       },
-      { nome: "Copa América", anos: "15 vezes", categoria: "individual" },
+      {
+        nome: "Copa América",
+        anos: "1916",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1917",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1920",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1923",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1924",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1926",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1935",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1942",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1956",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1959",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1967",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1983",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1987",
+        categoria: "individual",
+      },
+      {
+        nome: "Copa América",
+        anos: "1995",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2011",
+        categoria: "individual",
+        logoVariavel: true,
+      },
     ],
     mascote: "La Celeste",
     cores: "Celeste e branco",

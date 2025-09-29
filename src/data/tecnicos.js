@@ -3,11 +3,17 @@ import { createClub } from "@/utils/JogadorUtils";
 export const tecnicos = [
   // Pep Guardiola
   {
+    background: "gold",
     nome: "Pep Guardiola",
     nacionalidade: "Espanha",
     dataNascimento: "18/01/1971",
     status: "Ativo",
-    pagina: "https://pt.wikipedia.org/wiki/Josep_Guardiola#",
+    pagina: "https://www.instagram.com/pepteam/",
+    influencias: ["Johan Cruyff, Marcelo Bielsa"],
+    curiosidades:
+      "Considerado um dos maiores técnicos da história, Guardiola revolucionou o futebol com seu estilo de jogo.",
+    imagem:
+      "https://veja.abril.com.br/wp-content/uploads/2016/09/esporte-futebol-tecnico-guardiola-manchester-city-20160906-02.jpg?crop=1&resize=1212,909",
     clubes: [
       createClub("Barcelona", { inicio: "2007", fim: "2012" }, { jogos: 285 }),
       createClub(
@@ -185,10 +191,5 @@ export const tecnicos = [
         logo: "Globe Soccer Awards",
       },
     ],
-    influencias: ["Johan Cruyff, Marcelo Bielsa"],
-    curiosidades:
-      "Considerado um dos maiores técnicos da história, Guardiola revolucionou o futebol com seu estilo de jogo.",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/b/be/Pep_2017_%28cropped%29.jpg",
   },
 ];

@@ -1,4 +1,5 @@
 import { createClub } from "@/utils/JogadorUtils";
+import { clubes } from "./clubes";
 
 export const jogadores = [
   // ALEMANHA -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -269,54 +270,154 @@ export const jogadores = [
     tags: [],
   },
 
+  // Jamal Musiala
+  {
+    nome: "Jamal Musiala",
+    background: "#",
+    descricao:
+      "Jovem meia-atacante alemão, considerado uma das maiores revelações de sua geração. Conhecido por seu drible hipnotizante, controle de bola em espaços curtos ('Bambi') e capacidade de decidir jogos. Peça central no Bayern de Munique e na Seleção Alemã, onde já foi co-artilheiro da Eurocopa (2024).",
+    pagina: "https://www.instagram.com/jamalmusiala10/",
+    nacionalidade: "Alemanha",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/15/2024/11/09/musiala-do-bayern-comemora-gol-marcado-sobre-o-st-pauli-pelo-campeonato-alemao-1731172956821_v2_450x600.jpg",
+    numero: "10",
+    posicao: "Meia-atacante / Ponta",
+    dataNascimento: "26/02/2003",
+    status: "Ativo",
+    clubes: [
+      createClub(
+        "Bayern de Munique II",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 10, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2020", fim: "Atual" },
+        { jogos: 207, gols: 64, assistencias: 31 }
+      ),
+    ],
+    selecao: {
+      nome: "Alemanha",
+      periodo: { inicio: "2021", fim: "Atual" },
+      estatisticas: { jogos: 40, gols: 8, assistencias: 0 },
+    },
+    titulos: [
+      // Bayern de Munique
+      {
+        nome: "UEFA Champions League",
+        anos: "2020",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Bundesliga",
+        anos: "2020, 2021, 2022, 2023, 2025",
+        clube: "Bayern de Munique",
+      },
+      { nome: "Copa da Alemanha", anos: "2020", clube: "Bayern de Munique" },
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2020, 2021, 2022, 2023",
+        clube: "Bayern de Munique",
+      },
+      { nome: "Supercopa da UEFA", anos: "2020", clube: "Bayern de Munique" },
+      { nome: "Mundial de Clubes", anos: "2020", clube: "Bayern de Munique" },
+    ],
+    tags: [
+      "craque",
+      "jovem",
+      "alemanha",
+      "bayern de munique",
+      "drible",
+      "euro 2024",
+    ],
+  },
+
   // Jerome Boateng
   {
     nome: "Jerome Boateng",
-    background: "#",
+    background: "##",
     descricao:
-      "Zagueiro central conhecido por sua velocidade, força física e habilidade com a bola nos pés. Boateng foi peça fundamental nas conquistas do Bayern de Munique e da seleção alemã, demonstrando grande versatilidade e liderança.",
+      "Zagueiro alemão campeão da Copa do Mundo FIFA 2014 e um ícone do Bayern de Munique, onde conquistou duas Tríplices Coroas. Conhecido por sua força, visão de jogo e a habilidade de lançar a bola com precisão, foi considerado um dos melhores zagueiros do mundo em seu auge. Anunciou sua aposentadoria em setembro de 2025.",
     pagina: "https://pt.wikipedia.org/wiki/Jerome_Boateng",
     nacionalidade: "Alemanha",
     imagem:
       "https://tmssl.akamaized.net/images/foto/galerie/jerome-boateng-olympique-lyon-2021-1631513447-70946.jpg",
     numero: "17",
     posicao: "Zagueiro",
-    dataNascimento: "3/09/1988",
-    status: "Ativo",
-    curiosidades:
-      "Boateng é filho de um jogador de futebol ghanense e de uma alemã. Ele representou a Alemanha em diversas competições internacionais, incluindo a Copa do Mundo e a Eurocopa.",
+    dataNascimento: "03/09/1988",
+    status: "Aposentado",
     clubes: [
-      {
-        nome: "Hertha Berlim",
-        periodo: "2006-2007",
-      },
-      {
-        nome: "Hamburgo",
-        periodo: "2007-2010",
-      },
-      {
-        nome: "Manchester City",
-        periodo: "2010-2011",
-      },
-      {
-        nome: "Bayern de Munique",
-        periodo: "2011-2021",
-      },
-      {
-        nome: "Lyon",
-        periodo: "2021-2022",
-      },
-      {
-        nome: "Salernitana",
-        periodo: "2024",
-      },
-      {
-        nome: "LASK",
-        periodo: "2024",
-      },
+      createClub(
+        "Hertha BSC",
+        { inicio: "2006", fim: "2007" },
+        { jogos: 11, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Hamburger SV",
+        { inicio: "2007", fim: "2010" },
+        { jogos: 113, gols: 1, assistencias: 9 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 24, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2011", fim: "2021" },
+        { jogos: 363, gols: 10, assistencias: 25 }
+      ),
+      createClub(
+        "Lyon",
+        { inicio: "2021", fim: "2023" },
+        { jogos: 35, gols: 0, assistencias: 2 }
+      ),
+      createClub(
+        "Salernitana",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 7, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "LASK",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 14, gols: 0, assistencias: 0 }
+      ),
     ],
-    selecao: {},
+    selecao: {
+      nome: "Alemanha",
+      periodo: { inicio: "2009", fim: "2018" },
+      estatisticas: { jogos: 76, gols: 1, assistencias: 0 },
+    },
     titulos: [
+      // Seleção
+      {
+        nome: "Copa do Mundo",
+        anos: "2014",
+        clube: "Alemanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Euro Sub-21",
+        anos: "2009",
+        clube: "Alemanha",
+        logoVariavel: true,
+      },
+      // Bayern de Munique
+      {
+        nome: "UEFA Champions League",
+        anos: "2013, 2020",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Bundesliga",
+        anos: "2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "2013, 2014, 2016, 2019, 2020",
+        clube: "Bayern de Munique",
+      },
       {
         nome: "Mundial de Clubes",
         anos: "2013, 2020",
@@ -328,38 +429,21 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Copa da Alemanha",
-        anos: "2013, 2014, 2016, 2019, 2020",
-        clube: "Bayern de Munique",
-      },
-      {
-        nome: "Champions League",
-        anos: "2013, 2020",
-        clube: "Bayern de Munique",
-      },
-      {
-        nome: "Bundesliga",
-        anos: "2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020",
-        clube: "Bayern de Munique",
-      },
-      {
-        nome: "Copa do Mundo",
-        anos: "2014",
-        clube: "Alemanha",
-        logoVariavel: true,
-      },
-      {
         nome: "Supercopa da Alemanha",
-        anos: "2012",
+        anos: "2012, 2013, 2014, 2016, 2017, 2018, 2020",
         clube: "Bayern de Munique",
       },
-      {
-        nome: "FA Cup",
-        anos: "2011",
-        clube: "Manchester City",
-      },
+      // Manchester City
+      { nome: "Copa da Inglaterra", anos: "2011", clube: "Manchester City" },
     ],
-    tags: [],
+    tags: [
+      "lenda",
+      "alemanha",
+      "bayern de munique",
+      "zagueiro",
+      "campeão mundial",
+      "aposentado",
+    ],
   },
 
   // Julian Draxler
@@ -461,7 +545,7 @@ export const jogadores = [
     posicao: "Meia Ofensivo",
     nacionalidade: "Alemanha",
     dataNascimento: "31/05/1989",
-    status: "Ativo (Los Angeles Galaxy)",
+    status: "Ativo",
     clubes: [
       createClub(
         "Rot Weiss Ahlen",
@@ -574,27 +658,6 @@ export const jogadores = [
       "Fussballgott",
       "Bundesliga",
     ],
-  },
-
-  // Musiala
-  {
-    nome: "Musiala",
-    background: "promise",
-    descricao:
-      "Joia da seleção alemã, Musiala é um meia-atacante com grande potencial e habilidade técnica. Destaca-se pela sua versatilidade e visão de jogo.",
-    pagina: "https://www.instagram.com/jamalmusiala10/",
-    nacionalidade: "Alemanha",
-    imagem:
-      "https://conteudo.imguol.com.br/c/esporte/15/2024/11/09/musiala-do-bayern-comemora-gol-marcado-sobre-o-st-pauli-pelo-campeonato-alemao-1731172956821_v2_450x600.jpg",
-    numero: "42",
-    posicao: "Meia-atacante",
-    dataNascimento: "18/2/2003",
-    status: "Ativo",
-    curiosidades: "Nasceu em Stuttgart, mas representa a seleção alemã.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
   },
 
   // Niclas Füllkrug
@@ -819,21 +882,101 @@ export const jogadores = [
     nome: "Toni Kroos",
     background: "plate",
     descricao:
-      "Meia alemão conhecido por sua precisão nos passes e visão de jogo, Kroos foi um dos pilares do Real Madrid por muitos anos.",
+      "Meio-campista alemão considerado um dos melhores da história na sua posição, notável pela sua visão de jogo, controle de ritmo e a precisão lendária dos seus passes (com uma média de acerto consistentemente acima de 90%). Foi peça chave nas eras de sucesso do Bayern de Munique e do Real Madrid, além de Campeão do Mundo com a Alemanha. Encerrou a carreira em julho de 2024.",
     pagina: "https://www.instagram.com/toni.kroos/",
     nacionalidade: "Alemanha",
     imagem:
       "https://cdn-thegame.imago-images.com/wp-content/uploads/imago1045901715h-860x1149.jpg",
     numero: "8",
-    posicao: "Meia",
+    posicao: "Meio-Campista",
     dataNascimento: "04/01/1990",
     status: "Aposentado",
-    curiosidades:
-      "Kroos começou sua carreira no Bayern de Munique e foi campeão da Copa do Mundo de 2014 com a Alemanha.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2007", fim: "2014" },
+        { jogos: 130, gols: 13, assistencias: 29 }
+      ),
+      createClub(
+        "Bayer Leverkusen",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 43, gols: 10, assistencias: 13 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2014", fim: "2024" },
+        { jogos: 465, gols: 28, assistencias: 98 }
+      ),
+    ],
+    selecao: {
+      nome: "Alemanha",
+      periodo: { inicio: "2010", fim: "2024" },
+      estatisticas: { jogos: 114, gols: 17, assistencias: 19 },
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Copa do Mundo",
+        anos: "2014",
+        clube: "Alemanha",
+        logoVariavel: true,
+      },
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2016, 2017, 2018, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2014, 2016, 2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      { nome: "La Liga", anos: "2017, 2020, 2022, 2024", clube: "Real Madrid" },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2014, 2016, 2017, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2017, 2020, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      { nome: "Copa del Rey", anos: "2023", clube: "Real Madrid" },
+      // Bayern de Munique
+      {
+        nome: "UEFA Champions League",
+        anos: "2013",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Bundesliga",
+        anos: "2008, 2013, 2014",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "2008, 2013, 2014",
+        clube: "Bayern de Munique",
+      },
+      { nome: "Mundial de Clubes", anos: "2013", clube: "Bayern de Munique" },
+      { nome: "Supercopa da UEFA", anos: "2013", clube: "Bayern de Munique" },
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2010, 2012",
+        clube: "Bayern de Munique",
+      },
+    ],
+    tags: [
+      "lenda",
+      "real madrid",
+      "bayern de munique",
+      "meio-campista",
+      "campeão mundial",
+      "aposentado",
+      "6 champions",
+    ],
   },
 
   // ARGENTINA -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1836,7 +1979,7 @@ export const jogadores = [
     dataNascimento: "7 de junho de 1970",
     status: "Aposentado",
     imagem:
-      "https://www.imortaisdofutebol.com/wp-content/uploads/2012/07/cafu-3.jpg",
+      "https://monitordomercado.com.br/wp-content/uploads/2024/08/CAFU.jpg",
     descricao:
       "Lendário lateral-direito brasileiro, conhecido por sua energia, velocidade e cruzamentos precisos. Foi um dos principais jogadores da Seleção Brasileira e de grandes clubes europeus.",
     clubes: [],
@@ -3413,12 +3556,12 @@ export const jogadores = [
     tags: [],
   },
 
-  // Marquinhos
+  // Marquinhos (Marcos Aoás Corrêa)
   {
     nome: "Marquinhos",
     background: "#",
     descricao:
-      "Um zagueiro sólido e elegante, conhecido por sua liderança e habilidade no jogo aéreo. Marquinhos é peça fundamental da defesa do Paris Saint-Germain e da Seleção Brasileira.",
+      "Zagueiro brasileiro de classe mundial e capitão do Paris Saint-Germain e da Seleção Brasileira. Conhecido por sua inteligência tática, velocidade e liderança. É o jogador com mais partidas na história do PSG, tendo conquistado o inédito título da UEFA Champions League (2025) pelo clube, além de ser campeão da Copa Libertadores (Corinthians) e medalhista de ouro olímpico (Brasil).",
     pagina: "https://www.instagram.com/marquinhosm5/",
     nacionalidade: "Brasil",
     imagem:
@@ -3427,10 +3570,77 @@ export const jogadores = [
     posicao: "Zagueiro",
     dataNascimento: "14/05/1994",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Corinthians",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 14, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Roma",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 30, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2013", fim: "Atual" },
+        { jogos: 494, gols: 42, assistencias: 11 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2013", fim: "Atual" },
+      estatisticas: { jogos: 101, gols: 7, assistencias: 0 },
+    },
+    titulos: [
+      // Corinthians
+      {
+        nome: "Copa Libertadores",
+        anos: "2012",
+        clube: "Corinthians",
+      },
+      // Paris Saint-Germain
+      {
+        nome: "UEFA Champions League",
+        anos: "2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Ligue 1",
+        anos: "2014, 2015, 2016, 2018, 2019, 2020, 2022, 2023, 2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2015, 2016, 2017, 2018, 2020, 2021, 2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da Liga Francesa",
+        anos: "2014, 2015, 2016, 2017, 2018, 2020",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2013, 2014, 2015, 2017, 2018, 2019, 2022, 2023, 2024",
+        clube: "Paris Saint-Germain",
+      },
+      { nome: "Supercopa da UEFA", anos: "2025", clube: "Paris Saint-Germain" },
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2016",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["craque", "zagueiro", "capitão", "brasil", "psg", "liderança"],
   },
 
   //Miranda
@@ -6041,24 +6251,98 @@ export const jogadores = [
     tags: [],
   },
 
-  //Marco Asensio
+  // Marco Asensio (Marco Asensio Willemsen)
   {
     nome: "Marco Asensio",
-    background: "#",
+    background: "$",
     descricao:
-      "Meia-atacante espanhol conhecido por sua técnica e finalização, Asensio é um dos jovens talentos do futebol espanhol, atualmente joga no PSG.",
+      "Meia-atacante/ponta espanhol conhecido por sua potente finalização de pé esquerdo e versatilidade. Foi peça importante na era de múltiplas conquistas de Liga dos Campeões do Real Madrid. Após uma passagem pelo PSG, atualmente defende o Fenerbahçe.",
     pagina: "https://www.instagram.com/marcoasensio10/",
     nacionalidade: "Espanha",
-    imagem:
-      "https://i.pinimg.com/736x/12/7b/39/127b39af9a1cd4b4f762bb6a4215b426.jpg",
-    numero: "10",
-    posicao: "Meia-atacante",
-    dataNascimento: "21/1/1996",
+    imagem: "https://s.hs-data.com/bilder/spieler/gross/257323.jpg",
+    numero: "21",
+    posicao: "Meia-atacante / Ponta",
+    dataNascimento: "21/01/1996",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Mallorca",
+        { inicio: "2013", fim: "2015" },
+        { jogos: 56, gols: 7, assistencias: 9 }
+      ),
+      createClub(
+        "Espanyol",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 37, gols: 4, assistencias: 15 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2016", fim: "2023" },
+        { jogos: 286, gols: 61, assistencias: 32 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2023", fim: "2025" },
+        { jogos: 47, gols: 7, assistencias: 11 }
+      ),
+      createClub(
+        "Aston Villa",
+        { inicio: "2025", fim: "2025" },
+        { jogos: 21, gols: 8, assistencias: 1 }
+      ),
+      createClub(
+        "Fenerbahçe",
+        { inicio: "2025", fim: "Atual" },
+        { jogos: 3, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2016", fim: "Atual" },
+      estatisticas: { jogos: 38, gols: 2, assistencias: 0 },
+    },
+    titulos: [
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      { nome: "La Liga", anos: "2017, 2020, 2022", clube: "Real Madrid" },
+      { nome: "Copa del Rey", anos: "2023", clube: "Real Madrid" },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2016, 2017, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2016, 2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2017, 2020, 2022",
+        clube: "Real Madrid",
+      },
+      // Paris Saint-Germain
+      { nome: "Ligue 1", anos: "2024", clube: "Paris Saint-Germain" },
+      {
+        nome: "Supercopa da França",
+        anos: "2024",
+        clube: "Paris Saint-Germain",
+      },
+      // Seleção Espanhola
+      { nome: "UEFA Nations league", anos: "2023", clube: "Espanha" },
+    ],
+    tags: [
+      "estrela",
+      "meia-atacante",
+      "espanha",
+      "real madrid",
+      "chute de longe",
+      "fenerbahçe",
+    ],
   },
 
   //Pablo Marí
@@ -6243,6 +6527,115 @@ export const jogadores = [
 
   //FRANÇA----------------------------------------------------------------------------------------------------
 
+  // Achraf Hakimi
+  {
+    nome: "Achraf Hakimi",
+    background: "#",
+    descricao:
+      "Lateral-direito marroquino de elite, amplamente considerado um dos melhores do mundo em sua posição. É conhecido por sua velocidade estonteante, excelência ofensiva e por ter sido peça fundamental em times campeões na Itália (Inter de Milão) e na França (PSG), além de ter liderado Marrocos à histórica semifinal da Copa do Mundo de 2022.",
+    pagina: "https://www.instagram.com/achrafhakimi/",
+    nacionalidade: "Marrocos",
+    imagem:
+      "https://image-service.onefootball.com/transform?w=280&h=210&dpr=2&image=https%3A%2F%2Fcdn.foot-africa.com%2F20250701%2F18eae584dd0a3b3f2d6548bc6b2b0a7bc901ca233053cfd58c054c96e75b050d.jpg",
+    numero: "2",
+    posicao: "Lateral-Direito",
+    dataNascimento: "04/11/1998",
+    status: "Ativo",
+    clubes: [
+      createClub(
+        "Real Madrid Castilla",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 28, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2017", fim: "2020" },
+        { jogos: 17, gols: 2, assistencias: 1 }
+      ),
+      createClub(
+        "Borussia Dortmund",
+        { inicio: "2018", fim: "2020" },
+        { jogos: 73, gols: 12, assistencias: 17 }
+      ),
+      createClub(
+        "Internazionale",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 45, gols: 7, assistencias: 10 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2021", fim: "Atual" },
+        { jogos: 182, gols: 25, assistencias: 33 }
+      ),
+    ],
+    selecao: {
+      nome: "Marrocos",
+      periodo: { inicio: "2016", fim: "Atual" },
+      estatisticas: { jogos: 86, gols: 11, assistencias: 10 },
+    },
+    titulos: [
+      // Real Madrid
+      { nome: "UEFA Champions League", anos: "2018", clube: "Real Madrid" },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2017",
+        clube: "Real Madrid",
+      },
+      { nome: "Supercopa da UEFA", anos: "2017", clube: "Real Madrid" },
+      { nome: "Supercopa da Espanha", anos: "2017", clube: "Real Madrid" },
+      // Borussia Dortmund
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2019",
+        clube: "Borussia Dortmund",
+      },
+      // Internazionale
+      { nome: "Serie A", anos: "2021", clube: "Internazionale" },
+      // Paris Saint-Germain
+      {
+        nome: "Ligue 1",
+        anos: "2022, 2023, 2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      { nome: "Supercopa da UEFA", anos: "2025", clube: "Paris Saint-Germain" },
+      {
+        nome: "Supercopa da França",
+        anos: "2022, 2023, 2024",
+        clube: "Paris Saint-Germain",
+      },
+      // Seleção de Marrocos
+      {
+        nome: "3º Lugar nas Olimpíadas (sub-23)",
+        anos: "2024",
+        clube: "Marrocos",
+      },
+      // Prêmios Individuais Notáveis
+      {
+        nome: "Futebolista Marroquino do Ano",
+        anos: "2021, 2022",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "craque",
+      "lateral-direito",
+      "velocidade",
+      "marrocos",
+      "psg",
+      "inter",
+    ],
+  },
+
   // Adrien Rabiot
   {
     nome: "Adrien Rabiot",
@@ -6281,6 +6674,160 @@ export const jogadores = [
     selecao: {},
     titulos: [],
     tags: [],
+  },
+
+  // Bradley Barcola
+  {
+    nome: "Bradley Barcola",
+    background: "promise",
+    descricao:
+      "Jovem atacante francês conhecido pela sua velocidade explosiva, excelente drible e capacidade de atuação como ponta. Formado no Lyon, consolidou-se rapidamente como uma estrela no Paris Saint-Germain, sendo parte crucial do ataque e já tendo conquistado a Liga dos Campeões da UEFA em sua segunda temporada profissional.",
+    pagina: "https://www.instagram.com/bradley_dls/",
+    nacionalidade: "França",
+    imagem:
+      "https://image-service.onefootball.com/transform?w=280&h=210&dpr=2&image=https%3A%2F%2Ficdn.psgtalk.com%2Fwp-content%2Fuploads%2F2025%2F06%2Fbradley-barcola-paris-saint-germain-v-liverpool-fc-uefa-champions-league-2025.jpg",
+    numero: "29",
+    posicao: "Atacante - Ponta Esquerda",
+    dataNascimento: "02/09/2002",
+    status: "Ativo",
+    clubes: [
+      createClub(
+        "Lyon",
+        { inicio: "2021", fim: "2023" },
+        { jogos: 40, gols: 5, assistencias: 10 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2023", fim: "Atual" },
+        { jogos: 64, gols: 21, assistencias: 13 }
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "2024", fim: "Atual" },
+      estatisticas: { jogos: 16, gols: 3, assistencias: 2 },
+    },
+    titulos: [
+      // PSG (Até Set/2025)
+      {
+        nome: "UEFA Champions League",
+        anos: "2025",
+        clube: "Paris Saint-Germain",
+      },
+      { nome: "Ligue 1", anos: "2024, 2025", clube: "Paris Saint-Germain" },
+      {
+        nome: "Copa da França",
+        anos: "2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      { nome: "Supercopa da UEFA", anos: "2025", clube: "Paris Saint-Germain" },
+      {
+        nome: "Supercopa da França",
+        anos: "2023, 2024",
+        clube: "Paris Saint-Germain",
+      },
+    ],
+    tags: [
+      "atacante",
+      "ponta",
+      "frança",
+      "psg",
+      "lyon",
+      "jovem talento",
+      "champions league",
+    ],
+  },
+
+  // Désiré Doué
+  {
+    nome: "Désiré Doué",
+    background: "promise",
+    descricao:
+      "Jovem meio-campista/ponta francês, conhecido por sua técnica e velocidade. Considerado uma das maiores promessas de sua geração, já possui títulos importantes e reconhecimento individual na curta carreira.",
+    pagina: "https://www.instagram.com/desire.doue/",
+    nacionalidade: "França",
+    imagem:
+      "https://jpimg.com.br/uploads/2025/06/f52df2cc02633afacf013ccc20e58d21a8502d52-675x450.jpg",
+    numero: "14",
+    posicao: "Meio-campista Atacante, Ponta-Direita",
+    dataNascimento: "03/06/2005",
+    status: "Ativo",
+    clubes: [
+      createClub(
+        "Rennes II",
+        { inicio: "2021", fim: "2023" },
+        { jogos: 11, gols: 1, assistencias: 1 }
+      ),
+      createClub(
+        "Rennes",
+        { inicio: "2022", fim: "2024" },
+        { jogos: 76, gols: 8, assistencias: 8 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2024", fim: "Atual" },
+        { jogos: 65, gols: 16, assistencias: 17 }
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "2025", fim: "Atual" },
+      estatisticas: { jogos: 4, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // PSG
+      { nome: "Ligue 1", anos: "2024–25", clube: "Paris Saint-Germain" },
+      {
+        nome: "UEFA Champions League",
+        anos: "2024–25",
+        clube: "Paris Saint-Germain",
+      },
+      { nome: "Copa da França", anos: "2024–25", clube: "Paris Saint-Germain" },
+      {
+        nome: "Supercopa da França",
+        anos: "2024",
+        clube: "Paris Saint-Germain",
+      },
+      { nome: "Supercopa da UEFA", anos: "2025", clube: "Paris Saint-Germain" },
+      // Seleção Francesa
+      {
+        nome: "UEFA European Under-17 Championship",
+        anos: "2022",
+        clube: "França",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogos Olímpicos (Prata)",
+        anos: "2024",
+        clube: "França",
+        logoVariavel: true,
+      },
+      // Prêmios Individuais Notáveis
+      {
+        nome: "Melhor Jovem da Temporada da Ligue 1",
+        anos: "2024–25",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jovem da Temporada da UEFA Champions League",
+        anos: "2024–25",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Jovem do Mundial de Clubes FIFA",
+        anos: "2025",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "promessa",
+      "meio-campo",
+      "velocidade",
+      "técnica",
+      "psg",
+      "rennes",
+      "Desire Doue",
+    ],
   },
 
   // Franck Ribéry
@@ -6368,19 +6915,85 @@ export const jogadores = [
     nome: "Kylian Mbappé",
     background: "plate",
     descricao:
-      "Um dos jogadores mais rápidos e habilidosos do mundo, conhecido por seus dribles e gols espetaculares.",
+      "Atacante francês de elite, amplamente considerado um dos melhores jogadores da sua geração. Conhecido por sua velocidade explosiva, dribles incisivos e finalização letal. Ganhador da Copa do Mundo de 2018 com a França e recordista de gols do Paris Saint-Germain, transferiu-se para o Real Madrid em 2024, mantendo seu lugar no topo do futebol mundial.",
     pagina: "https://www.instagram.com/k.mbappe/",
     nacionalidade: "França",
     imagem:
       "https://assets-us-01.kc-usercontent.com/31dbcbc6-da4c-0033-328a-d7621d0fa726/32e193b3-b8e8-437a-a24a-651f0b22c15f/mbappe%20trophy%203.jpg?ver=28-06-2024?w=3840&q=75",
-    numero: "7",
-    posicao: "Atacante",
+    numero: "10",
+    posicao: "Atacante (Ponta Esquerda/Centroavante)",
     dataNascimento: "20/12/1998",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Monaco",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 60, gols: 27, assistencias: 13 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2017", fim: "2024" },
+        { jogos: 308, gols: 256, assistencias: 97 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2024", fim: "Atual" },
+        { jogos: 56, gols: 43, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "2017", fim: "Atual" },
+      estatisticas: { jogos: 92, gols: 52, assistencias: 29 },
+    },
+    titulos: [
+      // Seleção Nacional
+      {
+        nome: "Copa do Mundo",
+        anos: "2018",
+        clube: "França",
+        logoVariavel: true,
+      },
+      { nome: "UEFA Nations League", anos: "2021", clube: "França" },
+      {
+        nome: "Campeonato Europeu Sub-19",
+        anos: "2016",
+        clube: "França",
+      },
+      // Clubes (PSG)
+      {
+        nome: "Ligue 1",
+        anos: "2018, 2019, 2020, 2022, 2023, 2024",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2018, 2020, 2021, 2024",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da Liga Francesa",
+        anos: "2018, 2020",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2019, 2020, 2022, 2023",
+        clube: "Paris Saint-Germain",
+      },
+      // Clubes (Monaco)
+      { nome: "Ligue 1", anos: "2017", clube: "Monaco" },
+      // Clubes (Real Madrid)
+      { nome: "Supercopa da Espanha", anos: "2025", clube: "Real Madrid" },
+    ],
+    tags: [
+      "atacante",
+      "frança",
+      "real madrid",
+      "psg",
+      "copa do mundo",
+      "estrela",
+    ],
   },
 
   // Michel Platini
@@ -6437,7 +7050,7 @@ export const jogadores = [
     posicao: "Ponta-direita",
     nacionalidade: "França",
     dataNascimento: "15/05/1997",
-    status: "Ativo (Paris Saint-Germain)",
+    status: "Ativo",
     clubes: [
       createClub(
         "Stade Rennais",
@@ -6662,6 +7275,191 @@ export const jogadores = [
     selecao: {},
     titulos: [],
     tags: [],
+  },
+
+  // GEÓRGIA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Khvicha Kvaratskhelia
+  {
+    nome: "Khvicha Kvaratskhelia",
+    background: "#",
+    descricao:
+      "Ponta-esquerda georgiano de classe mundial, conhecido por sua incrível habilidade de drible, agilidade e visão de jogo. Ganhou o apelido de 'Kvaradona' em Napoli, onde foi peça chave para encerrar um jejum de 33 anos na Serie A e rapidamente se transferiu para o PSG, vencendo a Champions League.",
+    pagina: "https://www.instagram.com/kvara7/",
+    nacionalidade: "Geórgia",
+    imagem:
+      "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4000,h_2250/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/GettyImages/mmsport/503/01jkjxahwrpgxv7p4n32.jpg",
+    numero: "7",
+    posicao: "Ponta-esquerda",
+    dataNascimento: "12/02/2001",
+    status: "Ativo",
+    clubes: [
+      createClub(
+        "Dinamo Tbilisi",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 5, gols: 1, assistencias: 1 }
+      ),
+      createClub(
+        "Rustavi",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 18, gols: 3, assistencias: 3 }
+      ),
+      createClub(
+        "Lokomotiv Moscou",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 10, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Rubin Kazan",
+        { inicio: "2019", fim: "2022" },
+        { jogos: 73, gols: 9, assistencias: 10 }
+      ),
+      createClub(
+        "Dinamo Batumi",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 11, gols: 8, assistencias: 2 }
+      ),
+      createClub(
+        "Napoli",
+        { inicio: "2022", fim: "2025" },
+        { jogos: 107, gols: 30, assistencias: 24 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2025", fim: "Atual" },
+        { jogos: 39, gols: 9, assistencias: 7 }
+      ),
+    ],
+    selecao: {
+      nome: "Geórgia",
+      periodo: { inicio: "2019", fim: "Atual" },
+      estatisticas: { jogos: 30, gols: 15, assistencias: 6 },
+    },
+    titulos: [
+      // Lokomotiv Moscou
+      { nome: "Copa da Rússia", anos: "2019", clube: "Lokomotiv Moscou" },
+      // Napoli
+      { nome: "Serie A", anos: "2023, 2025", clube: "Napoli" },
+      // Paris Saint-Germain
+      { nome: "Ligue 1", anos: "2025", clube: "Paris Saint-Germain" },
+      {
+        nome: "UEFA Champions League",
+        anos: "2025",
+        clube: "Paris Saint-Germain",
+      },
+      { nome: "Copa da França", anos: "2025", clube: "Paris Saint-Germain" },
+      { nome: "Supercopa da UEFA", anos: "2025", clube: "Paris Saint-Germain" },
+      // Prêmios Individuais Notáveis
+      {
+        nome: "MVP da Serie A",
+        anos: "2022-23",
+        categoria: "individual",
+        logo: "Serie A",
+      },
+      {
+        nome: "Jovem do Ano da UEFA Champions League",
+        anos: "2022-23",
+        categoria: "individual",
+        logo: "UEFA Champions League",
+      },
+      {
+        nome: "Futebolista Georgiano do Ano",
+        anos: "2020, 2022, 2023",
+        categoria: "individual",
+      },
+    ],
+    tags: ["craque", "ponta-esquerda", "drible", "geórgia", "napoli", "psg"],
+  },
+
+  // HOLANDA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Johan Cruyff
+  {
+    nome: "Johan Cruyff",
+    background: "gold",
+    descricao:
+      "Lenda neerlandesa e um dos maiores ícones do futebol mundial. Foi o principal expoente do 'Futebol Total' nos anos 70, liderando o Ajax ao tricampeonato europeu e a Seleção da Holanda ('Laranja Mecânica') ao vice-campeonato mundial em 1974. Vencedor de três Ballons d'Or, sua influência se estendeu como técnico do 'Dream Team' do Barcelona.",
+    pagina: "https://www.instagram.com/johancruyff/",
+    nacionalidade: "Holanda",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Johan_Cruyff_1974c.jpg/250px-Johan_Cruyff_1974c.jpg",
+    numero: "14",
+    posicao: "Atacante (Meia-Atacante)",
+    dataNascimento: "25/04/1947",
+    dataFalecimento: "24/03/2016",
+    status: "Aposentado",
+    clubes: [
+      createClub(
+        "Ajax",
+        { inicio: "1964", fim: "1973" },
+        { jogos: 245, gols: 193, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "1973", fim: "1978" },
+        { jogos: 143, gols: 48, assistencias: 0 }
+      ),
+      createClub(
+        "Ajax",
+        { inicio: "1981", fim: "1983" },
+        { jogos: 36, gols: 14, assistencias: 0 }
+      ),
+      createClub(
+        "Feyenoord",
+        { inicio: "1983", fim: "1984" },
+        { jogos: 33, gols: 11, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Países Baixos",
+      periodo: { inicio: "1966", fim: "1977" },
+      estatisticas: { jogos: 48, gols: 33, assistencias: 0 },
+    },
+    titulos: [
+      // Principais Títulos Coletivos como JOGADOR
+      {
+        nome: "UEFA Champions League",
+        anos: "1971, 1972, 1973",
+        clube: "Ajax",
+      },
+      { nome: "Copa Intercontinental", anos: "1972", clube: "Ajax" },
+      {
+        nome: "Eredivisie",
+        anos: "1966, 1967, 1968, 1970, 1972, 1973, 1982, 1983",
+        clube: "Ajax",
+      },
+      {
+        nome: "Eredivisie",
+        anos: "1984",
+        clube: "Feyenoord",
+      },
+      {
+        nome: "La Liga",
+        anos: "1974",
+        clube: "Barcelona",
+      },
+      // Principais Títulos Individuais
+      {
+        nome: "Bola de Ouro",
+        anos: "1971, 1973, 1974",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Europeu do Século XX ",
+        logo: "IFFHS",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "lenda",
+      "países baixos",
+      "holanda",
+      "ajax",
+      "barcelona",
+      "futebol total",
+      "ballon d'or",
+      "treinador",
+    ],
   },
 
   // INGLATERRA -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -7107,6 +7905,322 @@ export const jogadores = [
       },
     ],
     tags: [],
+  },
+
+  // João Neves
+  {
+    nome: "João Neves",
+    background: "promise",
+    descricao:
+      "Meio-campista português de grande energia, notável pela sua capacidade de recuperação de bola, visão de jogo e precisão nos passes curtos. Formado no Benfica, onde conquistou títulos nacionais, teve uma ascensão meteórica que o levou ao Paris Saint-Germain e à Seleção Portuguesa, sendo apontado como um futuro craque do futebol mundial.",
+    pagina: "https://www.instagram.com/joao_neves87/",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://sportal365images.com/process/smp-images-production/abola.pt/17092025/0c79a3b3-8c56-48a8-8fbe-ec9b1084b2f0.jpg?operations=scale(860:574)",
+    numero: "87",
+    posicao: "Meio-Campista - Volante",
+    dataNascimento: "27/09/2004",
+    status: "Ativo",
+    clubes: [
+      createClub(
+        "Benfica",
+        { inicio: "2022", fim: "2024" },
+        { jogos: 75, gols: 4, assistencias: 4 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2024", fim: "Atual" },
+        { jogos: 32, gols: 6, assistencias: 4 }
+      ),
+    ],
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "2023", fim: "Atual" },
+      estatisticas: { jogos: 18, gols: 0, assistencias: 1 },
+    },
+    titulos: [
+      // PSG
+      {
+        nome: "UEFA Champions League",
+        anos: "2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2024",
+        clube: "Paris Saint-Germain",
+      },
+      // Seleção
+      { nome: "UEFA Nations League", anos: "2025", clube: "Portugal" },
+      // Benfica
+      { nome: "Campeonato Português", anos: "2023", clube: "Benfica" },
+      { nome: "Supertaça de Portugal", anos: "2023", clube: "Benfica" },
+      { nome: "UEFA Youth League", anos: "2022", clube: "Benfica" },
+      // PSG
+      {
+        nome: "Supercopa da França",
+        anos: "2024",
+        clube: "Paris Saint-Germain",
+      },
+    ],
+    tags: [
+      "meio-campista",
+      "volante",
+      "portugal",
+      "benfica",
+      "psg",
+      "jovem talento",
+    ],
+  },
+
+  // Nuno Mendes
+  {
+    nome: "Nuno Mendes",
+    background: "promise",
+    descricao:
+      "Lateral-esquerdo português conhecido por sua incrível velocidade, capacidade atlética e constante presença no ataque. Desenvolveu-se no Sporting CP, onde foi campeão nacional, antes de se transferir para o Paris Saint-Germain, tornando-se uma peça fundamental na defesa e no ataque da equipe e da seleção portuguesa.",
+    pagina: "https://www.instagram.com/nunomendes_5/",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_142,w_4000,h_2250/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/503/01jg6zwyy0kk8dnnh2vn.jpg",
+    numero: "25",
+    posicao: "Lateral-Esquerdo",
+    dataNascimento: "19/06/2002",
+    status: "Ativo",
+    clubes: [
+      createClub(
+        "Sporting CP",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 47, gols: 1, assistencias: 3 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2021", fim: "Atual" },
+        { jogos: 85, gols: 4, assistencias: 10 }
+      ),
+    ],
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "2021", fim: "Atual" },
+      estatisticas: { jogos: 39, gols: 1, assistencias: 4 },
+    },
+    titulos: [
+      // PSG (Até Set/2025)
+      {
+        nome: "UEFA Champions League",
+        anos: "2025",
+        clube: "Paris Saint-Germain",
+      },
+      { nome: "Supercopa da UEFA", anos: "2025", clube: "Paris Saint-Germain" },
+      {
+        nome: "Ligue 1",
+        anos: "2022, 2023, 2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2022, 2023, 2024",
+        clube: "Paris Saint-Germain",
+      },
+      // Sporting CP
+      {
+        nome: "Campeonato Português",
+        anos: "2021",
+        clube: "Sporting CP",
+      },
+      { nome: "Taça da Liga", anos: "2021, 2022", clube: "Sporting CP" },
+      {
+        nome: "Supertaça Cândido de Oliveira",
+        anos: "2021",
+        clube: "Sporting CP",
+      },
+      // Seleção
+      { nome: "UEFA Nations League", anos: "2025", clube: "Portugal" },
+    ],
+    tags: [
+      "lateral-esquerdo",
+      "portugal",
+      "sporting",
+      "psg",
+      "jovem talento",
+      "champions league",
+    ],
+  },
+
+  // Vitinha (Vítor Machado Ferreira)
+  {
+    nome: "Vitinha",
+    background: "#",
+    descricao:
+      "Meio-campista português talentoso, conhecido pela sua técnica refinada, visão de jogo e capacidade de ditar o ritmo no meio-campo. Peça-chave no Paris Saint-Germain, onde conquistou diversos títulos nacionais e a UEFA Champions League (2025), além de ser um nome regular na Seleção de Portugal.",
+    pagina: "https://www.instagram.com/vitinha/",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://s3.eu-west-3.amazonaws.com/ligue1.image/cms/Vitinha_with_PSG_e81b6dce82.jpg",
+    numero: "17",
+    posicao: "Meio-campista",
+    dataNascimento: "13/02/2000",
+    status: "Ativo",
+    clubes: [
+      createClub(
+        "Porto B",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 14, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "2019", fim: "2022" },
+        { jogos: 59, gols: 4, assistencias: 6 }
+      ),
+      createClub(
+        "Wolverhampton Wanderers",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 22, gols: 1, assistencias: 1 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2022", fim: "Atual" },
+        { jogos: 161, gols: 20, assistencias: 13 }
+      ),
+    ],
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "2022", fim: "Atual" },
+      estatisticas: { jogos: 31, gols: 0, assistencias: 3 },
+    },
+    titulos: [
+      // Porto
+      { nome: "Campeonato Português", anos: "2020, 2022", clube: "Porto" },
+      { nome: "Taça de Portugal", anos: "2020, 2022", clube: "Porto" },
+      // Paris Saint-Germain
+      {
+        nome: "Ligue 1",
+        anos: "2023, 2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      { nome: "Supercopa da UEFA", anos: "2025", clube: "Paris Saint-Germain" },
+      {
+        nome: "Supercopa da França",
+        anos: "2022, 2023, 2024",
+        clube: "Paris Saint-Germain",
+      },
+      // Seleção de Portugal
+      { nome: "UEFA Nations League", anos: "2025", clube: "Portugal" },
+      // Prêmios Individuais Notáveis
+      {
+        nome: "Melhor Jovem da Liga Portuguesa",
+        anos: "2022",
+        categoria: "individual",
+      },
+    ],
+    tags: ["craque", "meio-campista", "portugal", "psg", "porto", "técnico"],
+  },
+
+  // REPÚBLICA TCHECA -------------------------------------------------------------------------------------------------------------------------------
+
+  // Pavel Nedvěd
+  {
+    nome: "Pavel Nedvěd",
+    background: "plate",
+    descricao:
+      "Lendário meio-campista tcheco, conhecido por sua resistência incansável, chutes potentes com os dois pés e cabelo loiro característico. Foi o líder da talentosa geração da República Tcheca no final dos anos 90 e início dos 2000. Venceu a Ballon d'Or em 2003, no auge de sua carreira na Juventus.",
+    pagina: "https://pt.wikipedia.org/wiki/Pavel_Nedv%C4%9Bd",
+    nacionalidade: "República Tcheca",
+    imagem:
+      "https://i.pinimg.com/474x/b4/3a/8b/b43a8bddac75e29263b183c47e1e2ec5.jpg",
+    numero: "11",
+    posicao: "Meio-campista (Meia Esquerda/Meia Ofensivo)",
+    dataNascimento: "30/08/1972",
+    status: "Aposentado",
+    clubes: [
+      createClub(
+        "Dukla Praga",
+        { inicio: "1991", fim: "1992" },
+        { jogos: 19, gols: 3 }
+      ),
+      createClub(
+        "Sparta Praga",
+        { inicio: "1992", fim: "1996" },
+        { jogos: 122, gols: 30 }
+      ),
+      createClub(
+        "Lazio",
+        { inicio: "1996", fim: "2001" },
+        { jogos: 208, gols: 51 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2001", fim: "2009" },
+        { jogos: 326, gols: 65 }
+      ),
+    ],
+    selecao: {
+      nome: "República Tcheca",
+      periodo: { inicio: "1994", fim: "2006" },
+      estatisticas: { jogos: 91, gols: 18 },
+    },
+    titulos: [
+      // Títulos Individuais
+      { nome: "Bola de Ouro", anos: "2003", categoria: "individual" },
+      // Títulos Coletivos (Itália)
+      { nome: "Serie A", anos: "2002, 2003", clube: "Juventus" },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2002, 2003",
+        clube: "Juventus",
+      },
+      {
+        nome: "Campeonato Italiano (Serie B)",
+        anos: "2007",
+        clube: "Juventus",
+      },
+      {
+        nome: "Serie A",
+        anos: "2000",
+        clube: "Lazio",
+      },
+
+      { nome: "Recopa Europeia", anos: "1999", clube: "Lazio" },
+      { nome: "Supercopa da UEFA", anos: "1999", clube: "Lazio" },
+      { nome: "Copa da Itália", anos: "1998, 2000", clube: "Lazio" },
+      {
+        nome: "Supercopa da Itália",
+        anos: "1998, 2000",
+        clube: "Lazio",
+      },
+
+      // Títulos Coletivos (República Tcheca)
+      {
+        nome: "Campeonato Tcheco",
+        anos: "1993, 1994, 1995",
+        clube: "Sparta Praga",
+      },
+      { nome: "Copa da República Tcheca", anos: "1996", clube: "Sparta Praga" },
+    ],
+    tags: [
+      "meio-campista",
+      "república tcheca",
+      "lazio",
+      "juventus",
+      "ballon d'or",
+      "aposentado",
+      "nedved",
+    ],
   },
 
   // Suécia -------------------------------------------------------------------------------------------------------------------------------

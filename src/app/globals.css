@@ -233,15 +233,7 @@ ul {
 }
 
 .div-left {
-  background-size: cover;
-  background-position-x: -7px;
-  background-position-y: -10px;
   position: relative;
-  font-family: "Architects Daughter", serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: start;
-  font-size: 1rem;
   flex: 1;
 }
 
@@ -267,7 +259,6 @@ ul {
   text-align: start;
   font-size: 1rem;
   flex: 2;
-  height: 32rem;
 }
 
 .numero-nome-nacionalidade {
@@ -404,9 +395,7 @@ th {
 }
 
 .dado-imagem-clube-selecao {
-  width: 220px;
-  height: fit-content;
-  padding: 15px 30px 0px 0px;
+  height: 240px;
 }
 
 #sub-info {
@@ -471,6 +460,87 @@ footer {
   & .div-superior .div-left .dado-imagem {
     background-color: #03cee9;
     box-shadow: -10px 15px 9px -2px rgba(41, 174, 236, 0.711);
+  }
+}
+
+#red {
+  background-color: #eb8787;
+  box-shadow: 0 10px 20px rgba(213, 19, 19, 0.725);
+
+  & .div-superior .div-left .dado-imagem-clube-selecao {
+    filter: drop-shadow(0 0 2px rgba(181, 23, 23, 0.718));
+  }
+}
+
+#yellow {
+  background-color: #fcffb1;
+  box-shadow: 0 10px 20px rgba(213, 206, 19, 0.725);
+
+  & .div-superior .div-left .dado-imagem-clube-selecao {
+    filter: drop-shadow(0 0 2px rgba(201, 186, 51, 0.711));
+  }
+}
+
+#green {
+  background-color: #669e4f;
+  box-shadow: 0 10px 20px rgba(22, 174, 30, 0.725);
+
+  & .div-superior .div-left .dado-imagem-clube-selecao {
+    filter: drop-shadow(0 0 2px rgba(45, 182, 65, 0.711));
+  }
+}
+
+#purple {
+  background-color: #9e4f64;
+  box-shadow: 0 10px 20px rgba(174, 22, 68, 0.725);
+
+  & .div-superior .div-left .dado-imagem-clube-selecao {
+    filter: drop-shadow(0 0 2px rgba(182, 45, 72, 0.711));
+  }
+}
+
+#blue {
+  background-color: #3a2b8c;
+  box-shadow: 0 10px 20px rgba(30, 22, 174, 0.725);
+
+  & .div-superior .div-left .dado-imagem-clube-selecao {
+    filter: drop-shadow(0 0 2px rgba(59, 45, 182, 0.711));
+  }
+}
+
+#golden {
+  background-color: #8c7f2b;
+  box-shadow: 0 10px 20px rgba(152, 125, 37, 0.725);
+
+  & .div-superior .div-left .dado-imagem-clube-selecao {
+    filter: drop-shadow(0 0 2px rgba(182, 141, 45, 0.711));
+  }
+}
+
+#highGreen {
+  background-color: #2b8c52;
+  box-shadow: 0 10px 20px rgba(22, 174, 113, 0.725);
+
+  & .div-superior .div-left .dado-imagem-clube-selecao {
+    filter: drop-shadow(0 0 2px rgba(45, 182, 104, 0.711));
+  }
+}
+
+#black {
+  background-color: #dadada;
+  box-shadow: 0 10px 20px rgba(178, 178, 178, 0.725);
+
+  & .div-superior .div-left .dado-imagem-clube-selecao {
+    filter: drop-shadow(0 0 2px rgba(181, 181, 181, 0.711));
+  }
+}
+
+#lightBlue {
+  background-color: #3b97cc;
+  box-shadow: 0 10px 20px rgba(30, 155, 208, 0.725);
+
+  & .div-superior .div-left .dado-imagem-clube-selecao {
+    filter: drop-shadow(0 0 2px rgba(30, 141, 197, 0.711));
   }
 }
 
@@ -668,10 +738,6 @@ footer {
 
   #nome {
     font-size: 30px;
-  }
-
-  .div-left {
-    flex: 1;
   }
 
   .div-info {
