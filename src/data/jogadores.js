@@ -529,7 +529,7 @@ export const jogadores = [
         clube: "Schalke 04",
       },
     ],
-    tags: [],
+    tags: ["Paris Saint-Germain", "PSG"],
   },
 
   //Marco Reus
@@ -1096,7 +1096,7 @@ export const jogadores = [
     nome: "Diego Maradona",
     background: "gold",
     descricao:
-      "Considerado um dos maiores jogadores de todos os tempos, Maradona era conhecido por sua habilidade, dribles desconcertantes e visão de jogo. Foi campeão mundial em 1986 com a Argentina.",
+      "Considerado um dos maiores jogadores de todos os tempos, Maradona era conhecido por sua habilidade inigualável, dribles desconcertantes, visão de jogo e liderança. Foi o grande ídolo da Argentina na conquista da Copa do Mundo de 1986 e o maior nome da história do Napoli.",
     pagina: "https://www.instagram.com/diegoarmandomaradona/",
     nacionalidade: "Argentina",
     imagem:
@@ -1107,11 +1107,82 @@ export const jogadores = [
     dataFalecimento: "25/11/2020",
     status: "Aposentado",
     curiosidades:
-      "Maradona é um ícone do futebol argentino e mundial, sendo lembrado por seus gols históricos, como o 'Gol do Século' na Copa de 1986.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "Maradona é um ícone do futebol argentino e mundial, sendo lembrado por seus gols históricos, como o 'Gol do Século' e o 'Mão de Deus', ambos na Copa de 1986. Seu número 10 foi aposentado pelo Napoli em sua homenagem.",
+    clubes: [
+      createClub(
+        "Argentinos Juniors",
+        { inicio: "1976", fim: "1981" },
+        { jogos: 167, gols: 116, assistencias: 0 }
+      ),
+      createClub(
+        "Boca Juniors",
+        { inicio: "1981", fim: "1982" },
+        { jogos: 40, gols: 28, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "1982", fim: "1984" },
+        { jogos: 58, gols: 38, assistencias: 0 }
+      ),
+      createClub(
+        "Napoli",
+        { inicio: "1984", fim: "1991" },
+        { jogos: 259, gols: 115, assistencias: 0 }
+      ),
+      createClub(
+        "Sevilla",
+        { inicio: "1992", fim: "1993" },
+        { jogos: 29, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "Boca Juniors",
+        { inicio: "1995", fim: "1997" },
+        { jogos: 30, gols: 5, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "1977", fim: "1994" },
+      estatisticas: { jogos: 91, gols: 34, assistencias: 0 },
+    },
+    titulos: [
+      // Seleção Argentina
+      {
+        nome: "Copa do Mundo",
+        anos: "1986",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+      // Napoli
+      {
+        nome: "Serie A",
+        anos: "1987, 1990",
+        clube: "Napoli",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "1987",
+        clube: "Napoli",
+      },
+      {
+        nome: "Copa da UEFA",
+        anos: "1989",
+        clube: "Napoli",
+      },
+      // Barcelona
+      {
+        nome: "Copa del Rey",
+        anos: "1983",
+        clube: "Barcelona",
+      },
+      // Boca Juniors
+      {
+        nome: "Campeonato Argentino",
+        anos: "1981",
+        clube: "Boca Juniors",
+      },
+    ],
+    tags: ["Maradona", "D10S", "El Pibe de Oro"],
   },
 
   // Enzo Fernández
@@ -1601,7 +1672,7 @@ export const jogadores = [
         logo: "IFFHS",
       },
     ],
-    tags: [],
+    tags: ["Paris Saint-Germain", "PSG"],
   },
 
   // BÉLGICA --------------------------------------------------------------------------------------------------
@@ -1724,18 +1795,85 @@ export const jogadores = [
     background: "#",
     pagina: "https://www.instagram.com/andreaspereira/",
     nacionalidade: "Brasil",
-    numero: "18",
+    numero: "8",
     posicao: "Meio-campo",
     dataNascimento: "01/01/1996",
     status: "Ativo",
     imagem:
-      "https://cdn.vox-cdn.com/thumbor/RQrhCL51jZYIednFEQnHttcnJCA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/25501470/2143714215.jpg",
+      "https://medias.itatiaia.com.br/dims4/default/ea7130b/2147483647/strip/false/crop/964x964+0+0/resize/1000x1000!/quality/90/?url=https%3A%2F%2Fk2-prod-radio-itatiaia.s3.us-east-1.amazonaws.com%2Fbrightspot%2F7d%2F4f%2F6b4701994220b9813e19eb924cb9%2Fandreas-pereira-em-campo-pelo-palmeiras.png",
     descricao:
-      "Meia talentoso e versátil, Andreas Pereira é conhecido por sua habilidade com a bola, visão de jogo e capacidade de marcar gols. Ele já defendeu grandes clubes como Manchester United e Flamengo.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "Meia talentoso e versátil, conhecido por sua habilidade com a bola, visão de jogo e forte finalização. Formado no Manchester United, passou por grandes ligas europeias (Espanha, Itália, Inglaterra) e pelo Flamengo, antes de retornar ao Brasil para defender o Palmeiras.",
+    clubes: [
+      createClub(
+        "Manchester United",
+        { inicio: "2014", fim: "2022" },
+        { jogos: 75, gols: 4, assistencias: 5 }
+      ),
+      createClub(
+        "Granada",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 37, gols: 5, assistencias: 3 }
+      ),
+      createClub(
+        "Valencia",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 29, gols: 1, assistencias: 3 }
+      ),
+      createClub(
+        "Lazio",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 33, gols: 1, assistencias: 4 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2021", fim: "2022" },
+        { jogos: 53, gols: 8, assistencias: 3 }
+      ),
+      createClub(
+        "Fulham",
+        { inicio: "2022", fim: "2025" },
+        { jogos: 100, gols: 5, assistencias: 10 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 20, gols: 3, assistencias: 4 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2018", fim: "2018" },
+      estatisticas: { jogos: 2, gols: 0, assistencias: 1 },
+    },
+    titulos: [
+      // Manchester United
+      {
+        nome: "FA Cup",
+        anos: "2016",
+        clube: "Manchester United",
+      },
+
+      // FLamengo
+      {
+        nome: "Copa do Brasil",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Gol mais bonito",
+        logo: "Campeonato Brasileiro",
+        anos: "2021",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Andreas Pereira", "Andreas", "AP18"],
   },
 
   // Adriano Imperador
@@ -1748,39 +1886,253 @@ export const jogadores = [
     posicao: "Atacante",
     dataNascimento: "17/02/1982",
     status: "Aposentado",
-    imagem: "https://a.espncdn.com/photo/2021/1222/r954331_1296x729_16-9.jpg",
+    imagem:
+      "https://www.passioneinter.com/wp-content/uploads/202201/528e82074578b5892ecaa99e133954c1.jpg",
     descricao:
-      "Um dos maiores atacantes brasileiros de sua geração, Adriano era conhecido por sua força física, técnica apurada e gols espetaculares. Ele conquistou títulos importantes com Flamengo e Internazionale de Milão.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "Um dos maiores atacantes brasileiros de sua geração, Adriano era conhecido por sua força física, técnica apurada, chute potente e gols espetaculares. Ídolo de Flamengo e Internazionale de Milão, seu auge o consagrou como 'Imperador' no futebol europeu.",
+    clubes: [
+      createClub(
+        "Flamengo",
+        { inicio: "2000", fim: "2001" },
+        { jogos: 48, gols: 12, assistencias: 0 }
+      ),
+      createClub(
+        "Internazionale",
+        { inicio: "2001", fim: "2002" },
+        { jogos: 13, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "2002", fim: "2002" },
+        { jogos: 15, gols: 6, assistencias: 2 }
+      ),
+      createClub(
+        "Parma",
+        { inicio: "2002", fim: "2004" },
+        { jogos: 37, gols: 23, assistencias: 1 }
+      ),
+      createClub(
+        "Internazionale",
+        { inicio: "2004", fim: "2009" },
+        { jogos: 167, gols: 78, assistencias: 16 }
+      ),
+      createClub(
+        "São Paulo",
+        { inicio: "2008", fim: "2008" },
+        { jogos: 28, gols: 17, assistencias: 4 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 31, gols: 19, assistencias: 1 }
+      ),
+      createClub(
+        "Roma",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 8, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2011", fim: "2012" },
+        { jogos: 7, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2014", fim: "2014" },
+        { jogos: 3, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Miami United",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 1, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2000", fim: "2010" },
+      estatisticas: { jogos: 48, gols: 27, assistencias: 6 },
+    },
+    titulos: [
+      // Internazionale
+      {
+        nome: "Serie A",
+        anos: "2006, 2007, 2008, 2009",
+        clube: "Internazionale",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2005, 2006",
+        clube: "Internazionale",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2005, 2006",
+        clube: "Internazionale",
+      },
+
+      // Brasil
+      {
+        nome: "Copa América",
+        anos: "2004",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "2005",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Clubes Brasileiros
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2009",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2011",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2001",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Ouro da Copa América",
+        logoVariavel: "Copa América",
+        anos: "2004",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Copa das Confederações",
+        anos: "2005",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Adriano", "Imperador", "Didico", "Adriano Imperador"],
   },
 
-  //Alex Sandro
+  // Alex Sandro
   {
     nome: "Alex Sandro",
     background: "#",
     pagina: "https://www.instagram.com/alxsndro12/",
     nacionalidade: "Brasil",
-    numero: "13",
+    numero: "26",
     posicao: "Lateral-esquerdo",
     dataNascimento: "26/01/1991",
     status: "Ativo",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/bf/2024/10/02/alex-sandro-comemora-gol-em-flamengo-x-corinthians-partida-da-copa-do-brasil-1727920868687_v2_3x4.jpg",
     descricao:
-      "Lateral-esquerdo brasileiro com vasta experiência no futebol europeu. Chegou ao Flamengo em 2024 e traz consigo muita experiência e qualidade.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "Lateral-esquerdo brasileiro com vasta experiência no futebol europeu. Peça fundamental na Juventus por quase uma década, onde conquistou inúmeros títulos, e na Seleção Brasileira. Chegou ao Flamengo em 2024, trazendo muita qualidade e versatilidade.",
+    clubes: [
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2008", fim: "2010" },
+        { jogos: 23, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Santos",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 55, gols: 3, assistencias: 3 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "2011", fim: "2015" },
+        { jogos: 137, gols: 3, assistencias: 10 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2015", fim: "2024" },
+        { jogos: 327, gols: 15, assistencias: 32 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 25, gols: 1, assistencias: 3 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2011", fim: "2022" },
+      estatisticas: { jogos: 40, gols: 3, assistencias: 4 },
+    },
+    titulos: [
+      // Juventus
+      {
+        nome: "Serie A",
+        anos: "2016, 2017, 2018, 2019, 2020",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2016, 2017, 2018, 2021, 2024",
+        clube: "Juventus",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2016, 2018, 2021",
+        clube: "Juventus",
+      },
+
+      // Porto
+      {
+        nome: "Campeonato Português",
+        anos: "2012, 2013",
+        clube: "Porto",
+      },
+      {
+        nome: "Supertaça Cândido de Oliveira",
+        anos: "2011, 2012",
+        clube: "Porto",
+      },
+
+      // Santos
+      {
+        nome: "Copa Libertadores",
+        anos: "2011",
+        clube: "Santos",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2010",
+        clube: "Santos",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2011",
+        clube: "Santos",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      {
+        nome: "Copa do Brasil",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+    ],
+    tags: ["Alex Sandro", "Alexandre", "AS12", "AS13"],
   },
 
   // Alisson Becker
   {
     nome: "Alisson Becker",
-    background: "plate",
+    background: "#",
     pagina: "https://www.instagram.com/alissonbecker/",
     nacionalidade: "Brasil",
     numero: "1",
@@ -1790,11 +2142,101 @@ export const jogadores = [
     imagem:
       "https://www.ogol.com.br/wimg/n757268b/1257103-de-substituivel-a-melhor-do-mundo-alisson-marca-territorio-n.jpg",
     descricao:
-      "Goleiro brasileiro conhecido por suas defesas espetaculares, reflexos rápidos e tranquilidade sob pressão. É um dos principais goleiros do mundo e fundamental para a conquista da Copa do Mundo de 2019 pela Seleção Brasileira.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "Goleiro brasileiro conhecido por suas defesas espetaculares, reflexos rápidos, tranquilidade sob pressão e excelente jogo com os pés. É um dos principais goleiros do mundo, eleito o 'The Best' e fundamental para a conquista da Copa América de 2019 pela Seleção Brasileira.",
+    clubes: [
+      createClub(
+        "Internacional",
+        { inicio: "2013", fim: "2016" },
+        { jogos: 102, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Roma",
+        { inicio: "2016", fim: "2018" },
+        { jogos: 64, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2018", fim: "Presente" },
+        { jogos: 280, gols: 1, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2015", fim: "Presente" },
+      estatisticas: { jogos: 65, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Liverpool
+      {
+        nome: "UEFA Champions League",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Premier League",
+        anos: "2020",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+      {
+        nome: "EFL Cup",
+        anos: "2022, 2024",
+        clube: "Liverpool",
+      },
+
+      // Internacional
+      {
+        nome: "Campeonato Gaúcho",
+        anos: "2013, 2014, 2015, 2016",
+        clube: "Internacional",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Melhor Goleiro",
+        logo: "The Best FIFA",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Yashin Trophy",
+        logo: "Ballon Dor",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Luva de Ouro",
+        logo: "Premier League",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Alisson Becker", "Alisson", "Ab1"],
   },
 
   //Antony
@@ -1912,40 +2354,253 @@ export const jogadores = [
   {
     nome: "Bebeto",
     background: "plate",
-    pagina: "http://www.bebetotetra.com.br/",
+    descricao:
+      "Lendário atacante brasileiro, mundialmente famoso por sua parceria com Romário na Seleção Brasileira e pela 'homenagem ao bebê' na Copa de 1994. Bebeto era conhecido por sua técnica apurada, faro de gol e por ter sido artilheiro em clubes como Flamengo, Vasco e Deportivo La Coruña.",
+    pagina: "https://www.instagram.com/bebeto7/",
     nacionalidade: "Brasil",
+    imagem:
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2016/12/14/5851ada21eb19.jpeg",
     numero: "7",
     posicao: "Atacante",
     dataNascimento: "16/02/1964",
     status: "Aposentado",
-    imagem:
-      "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2016/12/14/5851ada21eb19.jpeg",
-    descricao:
-      "Lenda do futebol brasileiro, conhecido por sua habilidade, gols importantes e comemorações marcantes, como o 'embala neném'. Foi campeão mundial em 1994.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Flamengo",
+        { inicio: "1983", fim: "1989" },
+        { jogos: 194, gols: 75, assistencias: 20 }
+      ),
+      createClub(
+        "Vasco da Gama",
+        { inicio: "1989", fim: "1992" },
+        { jogos: 104, gols: 52, assistencias: 10 }
+      ),
+      createClub(
+        "Deportivo La Coruña",
+        { inicio: "1992", fim: "1996" },
+        { jogos: 139, gols: 86, assistencias: 18 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "1996", fim: "1996" },
+        { jogos: 15, gols: 5, assistencias: 1 }
+      ),
+      createClub(
+        "Botafogo",
+        { inicio: "1998", fim: "1999" },
+        { jogos: 25, gols: 9, assistencias: 2 }
+      ),
+      createClub(
+        "Kashima Antlers",
+        { inicio: "2000", fim: "2000" },
+        { jogos: 8, gols: 3, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1985", fim: "1998" },
+      estatisticas: { jogos: 75, gols: 39, assistencias: 15 },
+    },
+    titulos: [
+      // Seleção Brasileira
+      {
+        nome: "Copa do Mundo",
+        anos: "1994",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1989",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Deportivo La Coruña
+      {
+        nome: "Copa del Rey",
+        anos: "1995",
+        clube: "Deportivo La Coruña",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "1995",
+        clube: "Deportivo La Coruña",
+      },
+
+      // Vasco da Gama
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "1989",
+        clube: "Vasco da Gama",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "1992",
+        clube: "Vasco da Gama",
+      },
+
+      // Flamengo
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "1983",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "1986",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Artilheiro da La Liga",
+        logo: "La Liga",
+        anos: "1993",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Bebeto", "Bebeto7"],
   },
 
   // Bruno Henrique
   {
     nome: "Bruno Henrique",
     background: "#",
-    pagina: "https://www.instagram.com/b.henrique/",
-    nacionalidade: "Brasil",
+    descricao:
+      "Atacante brasileiro conhecido por sua velocidade explosiva, habilidade no um contra um e poder de decisão em jogos importantes. Ídolo do Flamengo, foi o protagonista na campanha vitoriosa da Libertadores e do Brasileirão de 2019, cunhando o bordão 'outro patamar'.",
+    pagina: "https://www.instagram.com/brunohenrique27oficial/",
     numero: "27",
-    posicao: "Ponta-Esquerda",
+    posicao: "Atacante",
     dataNascimento: "30/12/1990",
     status: "Ativo",
+    nacionalidade: "Brasil",
     imagem:
-      "https://res.cloudinary.com/idemo/image/fetch/q_auto:good,f_auto/https://conteudo.imguol.com.br/c/esporte/52/2021/07/25/bruno-henrique-comemora-gol-marcado-pelo-flamengo-1627245296459_v2_3x4.jpg",
-    descricao:
-      "Atacante brasileiro conhecido por sua velocidade, finalização e versatilidade. Um dos principais jogadores do Flamengo titular absoluto.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2025/06/54602646406_c287f2079b_o-scaled-aspect-ratio-512-320.jpg",
+    clubes: [
+      createClub(
+        "Uberlândia",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 17, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Itumbiara",
+        { inicio: "2014", fim: "2014" },
+        { jogos: 24, gols: 12, assistencias: 0 }
+      ),
+      createClub(
+        "Goiás",
+        { inicio: "2015", fim: "2015" },
+        { jogos: 57, gols: 12, assistencias: 7 }
+      ),
+      createClub(
+        "Wolfsburg",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 17, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Santos",
+        { inicio: "2017", fim: "2019" },
+        { jogos: 86, gols: 20, assistencias: 11 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2019", fim: "Presente" },
+        { jogos: 326, gols: 104, assistencias: 78 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2019", fim: "2019" },
+      estatisticas: { jogos: 2, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Individuais
+      {
+        nome: "Rei da América",
+        logo: "Copa Libertadores",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Craque do Brasileirão",
+        logo: "Campeonato Brasileiro",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2019, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021, 2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sudamericana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2019, 2020, 2021, 2024, 2025",
+        clube: "Flamengo",
+      },
+      // Goiás
+      {
+        nome: "Campeonato Goiano",
+        anos: "2015",
+        clube: "Goiás",
+      },
+    ],
+    tags: [
+      "Bruno Henrique",
+      "BH",
+      "BH27",
+      "Bruno Henrique Flamengo",
+      "Bruno Enrique",
+      "Flamengo",
+      "Atacante",
+      "Ponta Esquerda",
+      "Rei da América 2019",
+      "Outro Patamar",
+    ],
   },
 
   // Caça-Rato
@@ -1976,16 +2631,139 @@ export const jogadores = [
     nacionalidade: "Brasil",
     numero: "2",
     posicao: "Lateral-direito",
-    dataNascimento: "7 de junho de 1970",
+    dataNascimento: "07/06/1970",
     status: "Aposentado",
     imagem:
       "https://monitordomercado.com.br/wp-content/uploads/2024/08/CAFU.jpg",
     descricao:
-      "Lendário lateral-direito brasileiro, conhecido por sua energia, velocidade e cruzamentos precisos. Foi um dos principais jogadores da Seleção Brasileira e de grandes clubes europeus.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "O lendário 'Capitão do Penta', Cafu é um dos maiores laterais-direitos da história do futebol. Conhecido por sua energia, longevidade, velocidade e liderança. É o único jogador a disputar três finais consecutivas de Copa do Mundo.",
+    clubes: [
+      createClub(
+        "São Paulo",
+        { inicio: "1990", fim: "1994" },
+        { jogos: 250, gols: 4, assistencias: 15 }
+      ),
+      createClub(
+        "Real Zaragoza",
+        { inicio: "1995", fim: "1995" },
+        { jogos: 16, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "1996", fim: "1997" },
+        { jogos: 99, gols: 10, assistencias: 15 }
+      ),
+      createClub(
+        "Roma",
+        { inicio: "1997", fim: "2003" },
+        { jogos: 218, gols: 8, assistencias: 22 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2003", fim: "2008" },
+        { jogos: 166, gols: 4, assistencias: 16 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1990", fim: "2006" },
+      estatisticas: { jogos: 142, gols: 5, assistencias: 15 },
+    },
+    titulos: [
+      // Seleção Brasileira
+      {
+        nome: "Copa do Mundo",
+        anos: "1994",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "2002",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1999",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Milan
+      {
+        nome: "UEFA Champions League",
+        anos: "2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Serie A",
+        anos: "2004",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2003, 2007",
+        clube: "AC Milan",
+      },
+
+      // Roma
+      {
+        nome: "Serie A",
+        anos: "2001",
+        clube: "Roma",
+      },
+
+      // São Paulo
+      {
+        nome: "Copa Libertadores",
+        anos: "1992, 1993",
+        clube: "São Paulo",
+      },
+      {
+        nome: "Mundial Interclubes",
+        logo: "Copa Intercontinental",
+        anos: "1992, 1993",
+        clube: "São Paulo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "1993, 1994",
+        clube: "São Paulo",
+      },
+
+      // Real Zaragoza
+      {
+        nome: "Taça das Taças",
+        anos: "1995",
+        clube: "Real Zaragoza",
+      },
+
+      // Palmeiras
+      {
+        nome: "Campeonato Paulista",
+        anos: "1996",
+        clube: "Palmeiras",
+      },
+    ],
+    tags: ["Cafu"],
   },
 
   // Carlinhos
@@ -2032,20 +2810,108 @@ export const jogadores = [
   {
     nome: "Casemiro",
     background: "plate",
-    descricao:
-      "Um dos melhores volantes do mundo, conhecido por sua força física e marcação implacável.",
     pagina: "https://www.instagram.com/casemiro/",
     nacionalidade: "Brasil",
-    imagem:
-      "https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/PIKOJ4P6O5B33KOGSQL2BDHFXQ.jpg",
     numero: "18",
-    posicao: "Volante",
-    dataNascimento: "23/2/1992",
+    posicao: "Volante (Meio-campo)",
+    dataNascimento: "19/02/1992",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/88/2023/01/28/casemiro-marcou-duas-vezes-na-vitoria-do-manchester-united-sobre-o-reading-1674945121960_v2_1280x1920.jpg",
+    descricao:
+      "Lendário volante brasileiro, Casemiro é o pilar defensivo de uma das eras mais vitoriosas do Real Madrid. Conhecido por sua inteligência tática, poder de desarme e presença em grandes jogos. Atualmente defende o Manchester United.",
+    clubes: [
+      createClub(
+        "São Paulo",
+        { inicio: "2010", fim: "2013" },
+        { jogos: 112, gols: 11, assistencias: 10 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2013", fim: "2022" },
+        { jogos: 336, gols: 31, assistencias: 29 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 41, gols: 4, assistencias: 3 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 90, gols: 10, assistencias: 10 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2011", fim: "Presente" },
+      estatisticas: { jogos: 80, gols: 7, assistencias: 8 },
+    },
+    titulos: [
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2014, 2016, 2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2016, 2017, 2018",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "La Liga",
+        anos: "2017, 2020, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2016, 2017, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2014",
+        clube: "Real Madrid",
+      },
+
+      // Manchester United
+      {
+        nome: "EFL Cup",
+        anos: "2023",
+        clube: "Manchester United",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2024",
+        clube: "Manchester United",
+      },
+
+      // São Paulo
+      {
+        nome: "Copa Sul-Americana",
+        anos: "2012",
+        clube: "São Paulo",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2022",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Casemiro"],
   },
 
   // Cássio
@@ -2258,7 +3124,7 @@ export const jogadores = [
         logoVariavel: true,
       },
     ],
-    tags: [],
+    tags: ["Paris Saint-Germain", "PSG"],
   },
 
   // Danilo Andrade
@@ -2434,9 +3300,9 @@ export const jogadores = [
   // Dante
   {
     nome: "Dante",
-    background: "#",
+    background: "plate",
     descricao:
-      "Zagueiro brasileiro conhecido por sua liderança, força física e bom jogo aéreo. Dante conquistou diversos títulos na Europa, incluindo a Bundesliga pelo Bayern de Munique.",
+      "Zagueiro brasileiro com vasta experiência na Europa. É conhecido por sua liderança, força física e bom jogo aéreo. Dante foi fundamental na conquista da Tríplice Coroa pelo Bayern de Munique e atualmente é o capitão e ídolo do Nice, na França.",
     pagina: "https://www.instagram.com/dantebonfim/",
     nacionalidade: "Brasil",
     imagem:
@@ -2445,30 +3311,215 @@ export const jogadores = [
     posicao: "Zagueiro",
     dataNascimento: "18/03/1983",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Juventude",
+        { inicio: "2002", fim: "2004" },
+        { jogos: 45, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Standard Liège",
+        { inicio: "2007", fim: "2009" },
+        { jogos: 81, gols: 2, assistencias: 1 }
+      ),
+      createClub(
+        "B. Mönchengladbach",
+        { inicio: "2009", fim: "2012" },
+        { jogos: 101, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2012", fim: "2015" },
+        { jogos: 133, gols: 5, assistencias: 6 }
+      ),
+      createClub(
+        "Wolfsburg",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 32, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Nice",
+        { inicio: "2016", fim: "Presente" },
+        { jogos: 300, gols: 5, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2013", fim: "2014" },
+      estatisticas: { jogos: 13, gols: 2, assistencias: 0 },
+    },
+    titulos: [
+      // Bayern de Munique
+      {
+        nome: "Bundesliga",
+        anos: "2013, 2014, 2015",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "2013, 2014",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2013",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2013",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2013",
+        clube: "Bayern de Munique",
+      },
+
+      // Standard Liège
+      {
+        nome: "Campeonato Belga",
+        anos: "2008",
+        clube: "Standard Liège",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa das Confederações",
+        anos: "2013",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Dante"],
   },
 
   // David Luiz
   {
     nome: "David Luiz",
-    background: "#",
+    background: "plate",
     descricao:
-      "Zagueiro brasileiro conhecido por sua habilidade com a bola nos pés e liderança em campo. Teve passagens por grandes clubes europeus.",
+      "Zagueiro brasileiro conhecido por sua habilidade com a bola nos pés, forte personalidade e liderança em campo. Foi campeão da Champions League e da Libertadores, e atualmente defende o Pafos FC, do Chipre.",
     pagina: "https://www.instagram.com/davidluiz23/",
     nacionalidade: "Brasil",
     imagem:
-      "https://static.wixstatic.com/media/df5c0a_3fa004c4349745bebc4f1bb2caea3291~mv2.jpg/v1/fill/w_540,h_720,al_c,lg_1,q_85,enc_auto/df5c0a_3fa004c4349745bebc4f1bb2caea3291~mv2.jpg",
+      "https://s2-ge.glbimg.com/zReBRFhoo1Of4N6fvZTUsQfoUxs=/0x0:1638x2048/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/1/l/254GDKT9K8TEsI9ooV3g/gpaf0f-xkaaopyu.jpg",
     numero: "23",
     posicao: "Zagueiro",
     dataNascimento: "22/04/1987",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Vitória",
+        { inicio: "2005", fim: "2007" },
+        { jogos: 47, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Benfica",
+        { inicio: "2007", fim: "2011" },
+        { jogos: 132, gols: 6, assistencias: 5 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2011", fim: "2014" },
+        { jogos: 143, gols: 12, assistencias: 9 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2014", fim: "2016" },
+        { jogos: 89, gols: 8, assistencias: 5 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2016", fim: "2019" },
+        { jogos: 105, gols: 6, assistencias: 6 }
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "2019", fim: "2021" },
+        { jogos: 73, gols: 4, assistencias: 1 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2021", fim: "2024" },
+        { jogos: 120, gols: 2, assistencias: 2 }
+      ),
+      createClub(
+        "Pafos FC",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 20, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2010", fim: "2017" },
+      estatisticas: { jogos: 57, gols: 3, assistencias: 3 },
+    },
+    titulos: [
+      // Chelsea
+      {
+        nome: "UEFA Champions League",
+        anos: "2012",
+        clube: "Chelsea",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2013, 2019",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Premier League",
+        anos: "2017",
+        clube: "Chelsea",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2012, 2018",
+        clube: "Chelsea",
+      },
+
+      // Paris Saint-Germain
+      {
+        nome: "Ligue 1",
+        anos: "2015, 2016",
+        clube: "Paris Saint-Germain",
+      },
+
+      // Benfica
+      {
+        nome: "Primeira Liga",
+        anos: "2010",
+        clube: "Benfica",
+      },
+
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+
+      // Arsenal
+      {
+        nome: "FA Cup",
+        anos: "2020",
+        clube: "Arsenal",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa das Confederações",
+        anos: "2013",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["David Luiz", "Paris Saint-Germain", "PSG"],
   },
 
   // Denilson Show
@@ -2494,21 +3545,117 @@ export const jogadores = [
   // Dida
   {
     nome: "Dida",
-    background: "#",
+    background: "Plate",
     descricao:
-      "Lendário goleiro brasileiro, conhecido por suas defesas espetaculares e personalidade marcante. Foi fundamental para os títulos da Seleção Brasileira e do Milan.",
+      "Lendário goleiro brasileiro, conhecido por suas defesas espetaculares, frieza e, principalmente, por sua excelência em defender pênaltis. Foi peça-chave no auge do Milan na Europa e campeão da Copa do Mundo de 2002 com a Seleção Brasileira.",
     pagina: "https://www.instagram.com/didaoficial/",
     nacionalidade: "Brasil",
     imagem:
-      "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2018/10/11/5bbf6cc273f47.jpeg",
+      "https://www.ravennaedintorni.it/wp-content/uploads/2024/06/nelson-dida-coppe.jpg",
     numero: "1",
     posicao: "Goleiro",
     dataNascimento: "07/10/1973",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Cruzeiro",
+        { inicio: "1994", fim: "1998" },
+        { jogos: 151, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "1999", fim: "2002" },
+        { jogos: 204, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "1999", fim: "2010" },
+        { jogos: 302, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 67, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Internacional",
+        { inicio: "2014", fim: "2014" },
+        { jogos: 33, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1995", fim: "2006" },
+      estatisticas: { jogos: 91, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Milan
+      {
+        nome: "UEFA Champions League",
+        anos: "2003, 2007",
+        clube: "Milan",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2007",
+        clube: "Milan",
+      },
+      {
+        nome: "Serie A",
+        anos: "2004",
+        clube: "Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2003, 2007",
+        clube: "Milan",
+      },
+
+      // Corinthians
+      {
+        nome: "Mundial de Clubes",
+        anos: "2000",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "1999",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2002",
+        clube: "Corinthians",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa do Mundo",
+        anos: "2002",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1999",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Cruzeiro
+      {
+        nome: "Copa do Brasil",
+        anos: "1996",
+        clube: "Cruzeiro",
+      },
+    ],
+    tags: ["Dida", "Didão"],
   },
 
   // Diego Alves
@@ -2531,24 +3678,121 @@ export const jogadores = [
     tags: [],
   },
 
-  //Diego Ribas
+  // Diego Ribas
   {
     nome: "Diego Ribas",
     background: "#",
     descricao:
-      "Meia central com grande visão de jogo e habilidade para ditar o ritmo da partida. Conhecido por sua liderança e experiência.",
-    pagina: "https://www.instagram.com/diegoribas/",
+      "Meio-campista talentoso, conhecido por sua visão de jogo, técnica apurada e forte liderança. Diego brilhou no Santos ao lado de Robinho e foi fundamental em clubes europeus como Werder Bremen e Atlético de Madrid. Encerrou a carreira como capitão e ídolo do Flamengo.",
+    pagina: "https://www.instagram.com/diegoribas10/",
     nacionalidade: "Brasil",
     imagem:
-      "https://assets.folhavitoria.com.br/images/b761c840-5598-0137-7b01-6231c35b6685--minified.jpg",
+      "https://jornalnoroeste.com/uploads/images/2021/08/diego-ribas-mentalidade-de-campeao-e-exemplo-fora-dos-gramados.jpg",
     numero: "10",
-    posicao: "Meia",
-    dataNascimento: "14/02/1985",
+    posicao: "Meio-campo (Apoio)",
+    dataNascimento: "28/02/1985",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Santos",
+        { inicio: "2002", fim: "2004" },
+        { jogos: 133, gols: 38, assistencias: 15 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "2004", fim: "2006" },
+        { jogos: 65, gols: 6, assistencias: 8 }
+      ),
+      createClub(
+        "Werder Bremen",
+        { inicio: "2006", fim: "2009" },
+        { jogos: 132, gols: 54, assistencias: 50 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 47, gols: 7, assistencias: 10 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2012", fim: "2014" },
+        { jogos: 58, gols: 8, assistencias: 6 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2016", fim: "2022" },
+        { jogos: 289, gols: 44, assistencias: 35 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2003", fim: "2017" },
+      estatisticas: { jogos: 40, gols: 4, assistencias: 5 },
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2019, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+
+      // Atlético de Madrid
+      {
+        nome: "La Liga",
+        anos: "2014",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2012",
+        clube: "Atlético de Madrid",
+      },
+
+      // Werder Bremen
+      {
+        nome: "Copa da Alemanha",
+        anos: "2009",
+        clube: "Werder Bremen",
+      },
+
+      // Santos
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2002, 2004",
+        clube: "Santos",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2004",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2007",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Diego Ribas"],
   },
 
   // Djalma Santos
@@ -2691,24 +3935,52 @@ export const jogadores = [
     tags: [],
   },
 
-  // Estêvão Willian
+  // Estevão
   {
-    nome: "Estêvão",
+    nome: "Estevão Willian",
     background: "promise",
-    descricao:
-      "Joia brasileira com grande potencial, conhecido por sua habilidade e dribles. Atualmente, joga pelo Palmeiras e já recebeu comparações com grandes nomes do futebol.",
     pagina: "https://www.instagram.com/estevaowillian/",
     nacionalidade: "Brasil",
-    imagem:
-      "https://s2-oglobo.glbimg.com/RWSeKGipHdDIGf62euluxvuJ1vw=/0x0:828x827/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/D/u/zAdCgPTGy06oxwNI5tkg/whatsapp-image-2024-11-09-at-13.20.38.jpeg",
     numero: "41",
-    posicao: "Ponta-direita e meio-campista",
+    posicao: "Ponta-direita",
     dataNascimento: "24/04/2007",
     status: "Ativo",
-    clubes: [],
+    imagem:
+      "https://lncimg.lance.com.br/uploads/2025/08/estevao-1-scaled-aspect-ratio-512-320.jpg",
+    descricao:
+      "Jovem promessa brasileira, apelidado de 'Messinho' devido à sua habilidade de drible e velocidade. Estevão se destacou nas categorias de base e no profissional do Palmeiras antes de ser contratado pelo Chelsea, em 2025.",
+    clubes: [
+      createClub(
+        "Palmeiras",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 41, gols: 10, assistencias: 5 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 15, gols: 2, assistencias: 3 }
+      ),
+    ],
     selecao: {},
-    titulos: [],
-    tags: [],
+    titulos: [
+      // Palmeiras
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2024",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+    ],
+    tags: ["Estevao", "Estevão Willian", "Promessa"],
   },
 
   // Everton Cebolinha
@@ -3404,24 +4676,94 @@ export const jogadores = [
     tags: [],
   },
 
-  //Lucas Moura
+  // Lucas Moura
   {
     nome: "Lucas Moura",
-    background: "#",
+    background: "plate",
     descricao:
-      "Meia-atacante brasileiro conhecido por sua velocidade e habilidade nos dribles, Lucas Moura já atuou por grandes clubes como São Paulo, Paris Saint-Germain e Tottenham.",
+      "Meia-atacante brasileiro conhecido por sua velocidade vertiginosa e habilidade nos dribles. Lucas Moura teve uma carreira de sucesso na Europa, atuando como peça-chave no Paris Saint-Germain e sendo herói do Tottenham na semifinal da Champions League. Atualmente, é líder e ídolo em seu clube de origem, o São Paulo.",
     pagina: "https://www.instagram.com/lucasmoura/",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/d1/2023/02/06/lucas-moura-esta-no-tottenham-desde-janeiro-de-2018-1675718802147_v2_450x600.jpg",
+      "https://agenciaesporte.com.br/wp-content/uploads/2024/08/Lucas-Moura.jpg",
     numero: "7",
     posicao: "Meia-atacante",
     dataNascimento: "13/08/1992",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "São Paulo",
+        { inicio: "2010", fim: "2012" },
+        { jogos: 128, gols: 33, assistencias: 26 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2013", fim: "2018" },
+        { jogos: 229, gols: 46, assistencias: 50 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2018", fim: "2023" },
+        { jogos: 221, gols: 39, assistencias: 28 }
+      ),
+      createClub(
+        "São Paulo",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 50, gols: 10, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2011", fim: "2018" },
+      estatisticas: { jogos: 35, gols: 4, assistencias: 5 },
+    },
+    titulos: [
+      // São Paulo
+      {
+        nome: "Copa do Brasil",
+        anos: "2023",
+        clube: "São Paulo",
+      },
+      {
+        nome: "Copa Sul-Americana",
+        anos: "2012",
+        clube: "São Paulo",
+      },
+
+      // Paris Saint-Germain
+      {
+        nome: "Ligue 1",
+        anos: "2014, 2015, 2016, 2018",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2015, 2016, 2017",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da Liga Francesa",
+        anos: "2014, 2015, 2016, 2017",
+        clube: "Paris Saint-Germain",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa das Confederações",
+        anos: "2013",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+    ],
+    tags: [
+      "Lucas Moura",
+      "Ponta",
+      "Meia-atacante",
+      "São Paulo",
+      "PSG",
+      "Tottenham",
+      "LM7",
+    ],
   },
 
   //Lucas Paquetá
@@ -3640,7 +4982,7 @@ export const jogadores = [
         logoVariavel: true,
       },
     ],
-    tags: ["craque", "zagueiro", "capitão", "brasil", "psg", "liderança"],
+    tags: ["Paris Saint-Germain", "PSG"],
   },
 
   //Miranda
@@ -3897,8 +5239,8 @@ export const jogadores = [
     nome: "Neymar Jr.",
     background: "plate",
     descricao:
-      "Atacante brasileiro conhecido por sua habilidade, dribles e finalizações. Considerado um dos melhores jogadores do mundo, Neymar já atuou por Santos, Barcelona e PSG.",
-    pagina: "https://www.neymarjr.com/",
+      "Atacante brasileiro conhecido por sua habilidade, dribles e finalizações. Considerado um dos melhores jogadores de sua geração, Neymar brilhou por Santos, Barcelona e PSG, teve passagem pelo Al-Hilal e retornou ao Santos em 2025.",
+    pagina: "https://www.instagram.com/neymarjr/",
     numero: "10",
     posicao: "Atacante",
     dataNascimento: "05/02/1992",
@@ -3910,33 +5252,33 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "2009", fim: "2013" },
-        { jogos: 225, gols: 136, assistencias: 64 } // Dados aproximados
+        { jogos: 225, gols: 136, assistencias: 64 }
       ),
       createClub(
         "Barcelona",
         { inicio: "2013", fim: "2017" },
-        { jogos: 186, gols: 105, assistencias: 76 } // Dados aproximados
+        { jogos: 186, gols: 105, assistencias: 76 }
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "2017", fim: "2023" },
-        { jogos: 173, gols: 118, assistencias: 77 } // Dados aproximados
+        { jogos: 173, gols: 118, assistencias: 77 }
       ),
       createClub(
         "Al-Hilal",
-        { inicio: "2023", fim: "atual" },
-        { jogos: 7, gols: 1, assistencias: 3 } // Dados aproximados
+        { inicio: "2023", fim: "2025" },
+        { jogos: 7, gols: 1, assistencias: 3 }
       ),
       createClub(
         "Santos",
         { inicio: "2025", fim: "atual" },
-        { jogos: 7, gols: 3, assistencias: 3 } // Dados aproximados
+        { jogos: 21, gols: 6, assistencias: 3 }
       ),
     ],
     selecao: {
       nome: "Brasil",
-      periodo: { inicio: "2010", fim: "atual" }, // Ajuste o ano final
-      estatisticas: { jogos: 128, gols: 79, assistencias: 40 }, // Dados aproximados
+      periodo: { inicio: "2010", fim: "atual" },
+      estatisticas: { jogos: 128, gols: 79, assistencias: 40 },
     },
     titulos: [
       // Santos
@@ -4031,7 +5373,20 @@ export const jogadores = [
         logoVariavel: true,
       },
     ],
-    tags: [],
+    tags: [
+      "Neymar",
+      "Neymar Jr.",
+      "Neymar Junior",
+      "Ney",
+      "NJR",
+      "Menino da Vila",
+      "Santos",
+      "Barcelona",
+      "PSG",
+      "Al-Hilal",
+      "Seleção Brasileira",
+      "Paris Saint-Germain",
+    ],
   },
 
   //Paulinho
@@ -4484,6 +5839,82 @@ export const jogadores = [
     selecao: {},
     titulos: [],
     tags: [],
+  },
+
+  // Raphinha
+  {
+    nome: "Raphinha",
+    background: "plate",
+    descricao:
+      "Ponta-direita brasileiro conhecido por sua velocidade, habilidade no drible e precisão nos cruzamentos e chutes de média distância. Raphinha se destacou no Leeds United antes de se transferir para o Barcelona, onde se firmou como titular e conquistou títulos importantes. É um jogador constante na Seleção Brasileira.",
+    pagina: "https://www.instagram.com/raphaelbelloli/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://www.365scores.com/pt-br/news/magazine/wp-content/uploads/2025/09/raphinha-barcelona-2025-26-scaled-e1757879837264.jpg",
+    numero: "11",
+    posicao: "Ponta-direita",
+    dataNascimento: "14/12/1996",
+    status: "Ativo",
+    clubes: [
+      createClub(
+        "Sporting CP",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 41, gols: 8, assistencias: 7 }
+      ),
+      createClub(
+        "Rennes",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 36, gols: 8, assistencias: 7 }
+      ),
+      createClub(
+        "Leeds United",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 67, gols: 17, assistencias: 12 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 120, gols: 30, assistencias: 35 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2021", fim: "Presente" },
+      estatisticas: { jogos: 30, gols: 7, assistencias: 8 },
+    },
+    titulos: [
+      // Barcelona
+      {
+        nome: "La Liga",
+        anos: "2022-23, 2024-25",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2023",
+        clube: "Barcelona",
+      },
+
+      // Sporting CP
+      {
+        nome: "Taça de Portugal",
+        anos: "2019",
+        clube: "Sporting CP",
+      },
+      {
+        nome: "Taça da Liga",
+        anos: "2019",
+        clube: "Sporting CP",
+      },
+    ],
+    tags: [
+      "Raphinha",
+      "Ponta-direita",
+      "Barcelona",
+      "Leeds United",
+      "Seleção Brasileira",
+      "R11",
+    ],
   },
 
   //Reinier
@@ -6114,21 +7545,114 @@ export const jogadores = [
   // Diego Costa
   {
     nome: "Diego Costa",
-    background: "#",
+    background: "plate",
     descricao:
-      "Atacante brasileiro, naturalizado espanhol, conhecido por sua força física, estilo de jogo intenso e habilidade para marcar gols. Foi um dos principais jogadores do Atlético de Madrid e do Chelsea.",
-    pagina: "https://www.instagram.com/diegoftcosta/",
+      "Atacante hispano-brasileiro conhecido por seu estilo de jogo agressivo, força física e faro de gol. Foi campeão nacional por Atlético de Madrid, Chelsea e Atlético Mineiro. Recentemente, teve passagens por Botafogo e Grêmio no futebol brasileiro.",
+    pagina: "https://www.instagram.com/diego.costa/",
     nacionalidade: "Espanha",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/da/2024/04/06/diego-costa-comemorando-o-gol-do-gremio-diante-do-juventude-1712436063964_v2_3x4.jpg",
+      "https://conteudo.imguol.com.br/c/copadomundo/2018/imagem/81/2018/06/15/diego-costa-comemora-gol-da-espanha-contra-portugal-1529091586652_v2_1x1.jpg",
     numero: "19",
     posicao: "Atacante",
-    dataNascimento: "7 de outubro de 1988",
-    status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    dataNascimento: "07/10/1988",
+    status: "Sem Clube",
+    clubes: [
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2010", fim: "2014" },
+        { jogos: 135, gols: 64, assistencias: 24 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2014", fim: "2017" },
+        { jogos: 120, gols: 59, assistencias: 23 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2017", fim: "2020" },
+        { jogos: 81, gols: 19, assistencias: 12 }
+      ),
+      createClub(
+        "Atlético Mineiro",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 19, gols: 5, assistencias: 1 }
+      ),
+      createClub(
+        "Wolverhampton Wanderers",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 25, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Botafogo",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 15, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 25, gols: 7, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2014", fim: "2018" },
+      estatisticas: { jogos: 24, gols: 10, assistencias: 2 },
+    },
+    titulos: [
+      // Atlético de Madrid
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2010, 2012, 2018",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "La Liga",
+        anos: "2014, 2021",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2013",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2018",
+        clube: "Atlético de Madrid",
+      },
+
+      // Chelsea
+      {
+        nome: "Premier League",
+        anos: "2015, 2017",
+        clube: "Chelsea",
+      },
+      {
+        nome: "EFL Cup",
+        anos: "2015",
+        clube: "Chelsea",
+      },
+
+      // Atlético Mineiro
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2021",
+        clube: "Atlético Mineiro",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2021",
+        clube: "Atlético Mineiro",
+      },
+
+      // Grêmio
+      {
+        nome: "Campeonato Gaúcho",
+        anos: "2024",
+        clube: "Atlético Mineiro",
+      },
+    ],
+    tags: ["Diego Costa"],
   },
 
   // Gavi
@@ -6231,24 +7755,76 @@ export const jogadores = [
     tags: [],
   },
 
-  //Lamine Yamal
+  // Lamine Yamal
   {
     nome: "Lamine Yamal",
     background: "promise",
     descricao:
-      "Joia do Barcelona, Yamal é um dos jogadores mais promissores do mundo. Com apenas 17, ele já chama atenção pela habilidade e maturidade em campo.",
-    pagina: "https://www.instagram.com/laminyamal/",
+      "Jovem ponta-direita espanhol, considerado um dos maiores talentos surgidos na La Masia nos últimos anos. Yamal é conhecido por sua velocidade, habilidade de drible, maturidade tática e faro de gol, tendo se consolidado como titular no Barcelona e na Seleção Espanhola com apenas 18 anos.",
+    pagina: "https://www.instagram.com/lamineyamal/",
     nacionalidade: "Espanha",
     imagem:
-      "https://tntsports.com.br/__export/1720996103480/sites/esporteinterativo/img/2024/07/14/yamal_melhor_jogador_jovem_da_euro_1.jpg_742406227.jpg",
-    numero: "19",
-    posicao: "Atacante",
+      "https://www.365scores.com/pt-br/news/magazine/wp-content/uploads/2025/10/lamine-yamal-barcelona-2-scaled-e1761505684194.jpg",
+    numero: "10",
+    posicao: "Ponta-direita",
     dataNascimento: "13/07/2007",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Barcelona",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 100, gols: 25, assistencias: 25 }
+      ),
+    ],
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2023", fim: "Presente" },
+      estatisticas: { jogos: 20, gols: 5, assistencias: 3 },
+    },
+    titulos: [
+      // Barcelona
+      {
+        nome: "La Liga",
+        anos: "2022-23",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2024",
+        clube: "Barcelona",
+      },
+
+      // Seleção Espanhola
+      {
+        nome: "UEFA Nations League",
+        anos: "2023",
+        clube: "Espanha",
+      },
+      // Individuais
+      {
+        nome: "Golden Boy",
+        logo: "Ballon Dor",
+        anos: "2024, 2025",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Jovem",
+        logo: "La Liga",
+        anos: "2023-24",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Lamine Yamal",
+      "Barcelona",
+      "Espanha",
+      "Ponta-direita",
+      "Golden Boy",
+      "LY10",
+      "Jovem Talento",
+    ],
   },
 
   // Marco Asensio (Marco Asensio Willemsen)
@@ -6336,12 +7912,12 @@ export const jogadores = [
       { nome: "UEFA Nations league", anos: "2023", clube: "Espanha" },
     ],
     tags: [
-      "estrela",
       "meia-atacante",
       "espanha",
       "real madrid",
-      "chute de longe",
       "fenerbahçe",
+      "Paris Saint-Germain",
+      "PSG",
     ],
   },
 
@@ -6627,12 +8203,11 @@ export const jogadores = [
       },
     ],
     tags: [
-      "craque",
       "lateral-direito",
-      "velocidade",
       "marrocos",
       "psg",
       "inter",
+      "Paris Saint-Germain",
     ],
   },
 
@@ -6734,7 +8309,7 @@ export const jogadores = [
       "psg",
       "lyon",
       "jovem talento",
-      "champions league",
+      "Paris Saint-Germain",
     ],
   },
 
@@ -6822,11 +8397,10 @@ export const jogadores = [
     tags: [
       "promessa",
       "meio-campo",
-      "velocidade",
-      "técnica",
       "psg",
       "rennes",
       "Desire Doue",
+      "Paris Saint-Germain",
     ],
   },
 
@@ -6986,14 +8560,7 @@ export const jogadores = [
       // Clubes (Real Madrid)
       { nome: "Supercopa da Espanha", anos: "2025", clube: "Real Madrid" },
     ],
-    tags: [
-      "atacante",
-      "frança",
-      "real madrid",
-      "psg",
-      "copa do mundo",
-      "estrela",
-    ],
+    tags: ["atacante", "frança", "real madrid", "psg", "Paris Saint-Germain"],
   },
 
   // Michel Platini
@@ -7037,15 +8604,15 @@ export const jogadores = [
     tags: [],
   },
 
-  //Ousmane Dembélé
+  // Ousmane Dembélé
   {
     nome: "Ousmane Dembélé",
     background: "plate",
-    imagem:
-      "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/02/14/1387601427-ousmane-dembele-paris-saint-germain-v-ac-milan-group-f-uefa-champions-league-2023-24-2048x1365.jpg",
     pagina: "https://www.instagram.com/o.dembele7/",
+    imagem:
+      "https://www.infomoney.com.br/wp-content/uploads/2025/09/2025-09-22T205559Z_297480920_UP1EL9M1M598F_RTRMADP_3_SOCCER-BALLON.jpg?fit=1280%2C868&quality=50&strip=all",
     descricao:
-      "Ponta-direita francês conhecido por sua velocidade vertiginosa, dribles desequilibrantes, capacidade de jogar com ambos os pés e criatividade no ataque. Dembélé é um jogador que pode mudar o rumo de uma partida com sua imprevisibilidade, tendo atuado em grandes clubes europeus e sendo campeão da Copa do Mundo com a França.",
+      "Ponta-direita francês conhecido por sua velocidade vertiginosa, dribles desequilibrantes, capacidade de jogar com ambos os pés e criatividade no ataque. Dembélé é um jogador que pode mudar o rumo de uma partida com sua imprevisibilidade. É campeão da Copa do Mundo (2018) e atualmente é uma das principais estrelas do Paris Saint-Germain.",
     numero: "10",
     posicao: "Ponta-direita",
     nacionalidade: "França",
@@ -7070,13 +8637,13 @@ export const jogadores = [
       createClub(
         "Paris Saint-Germain",
         { inicio: "2023", fim: "Presente" },
-        { jogos: 43, gols: 6, assistencias: 14 }
+        { jogos: 75, gols: 10, assistencias: 25 }
       ),
     ],
     selecao: {
       nome: "França",
       periodo: { inicio: "2016", fim: "Presente" },
-      estatisticas: { jogos: 45, gols: 12, assistencias: 5 },
+      estatisticas: { jogos: 55, gols: 15, assistencias: 8 },
     },
     titulos: [
       // Borussia Dortmund
@@ -7125,19 +8692,6 @@ export const jogadores = [
         clube: "França",
         logoVariavel: true,
       },
-      {
-        nome: "Liga das Nações da UEFA (Vice-campeão)",
-        logo: "UEFA Nations League",
-        anos: "2021",
-        clube: "França",
-      },
-      {
-        nome: "Copa do Mundo FIFA (Vice-campeão)",
-        logo: "Copa do Mundo",
-        anos: "2022",
-        clube: "França",
-        logoVariavel: true,
-      },
       // Individuais
       {
         nome: "Melhor Jogador Jovem da Ligue 1",
@@ -7154,9 +8708,9 @@ export const jogadores = [
         categoria: "individual",
       },
       {
-        nome: "Time do Ano da Bundesliga",
-        logo: "Bundesliga",
-        anos: "2016-17",
+        nome: "Bola de Ouro",
+        logo: "Bola de Ouro",
+        anos: "2025",
         clube: "Individual",
         categoria: "individual",
       },
@@ -7165,15 +8719,10 @@ export const jogadores = [
       "Dembélé",
       "Dembele",
       "Ousmane Dembélé",
-      "Barcelona",
       "PSG",
-      "França",
-      "Ponta",
-      "Driblador",
-      "Velocidade",
-      "OD11",
-      "OD7",
-      "Campeão do Mundo",
+      "OD10",
+      "Bola de Ouro",
+      "Paris Saint-Germain",
     ],
   },
 
@@ -7214,7 +8763,7 @@ export const jogadores = [
     clubes: [],
     selecao: {},
     titulos: [],
-    tags: [],
+    tags: ["Paris Saint-Germain", "PSG"],
   },
 
   // Raphaël Varane
@@ -7368,7 +8917,15 @@ export const jogadores = [
         categoria: "individual",
       },
     ],
-    tags: ["craque", "ponta-esquerda", "drible", "geórgia", "napoli", "psg"],
+    tags: [
+      "craque",
+      "ponta-esquerda",
+      "drible",
+      "geórgia",
+      "napoli",
+      "psg",
+      "Paris Saint-Germain",
+    ],
   },
 
   // HOLANDA -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -7970,6 +9527,7 @@ export const jogadores = [
       "benfica",
       "psg",
       "jovem talento",
+      "Paris Saint-Germain",
     ],
   },
 
@@ -8042,14 +9600,7 @@ export const jogadores = [
       // Seleção
       { nome: "UEFA Nations League", anos: "2025", clube: "Portugal" },
     ],
-    tags: [
-      "lateral-esquerdo",
-      "portugal",
-      "sporting",
-      "psg",
-      "jovem talento",
-      "champions league",
-    ],
+    tags: ["lateral-esquerdo", "portugal", "sporting", "psg", "jovem talento"],
   },
 
   // Vitinha (Vítor Machado Ferreira)
@@ -8128,7 +9679,7 @@ export const jogadores = [
         categoria: "individual",
       },
     ],
-    tags: ["craque", "meio-campista", "portugal", "psg", "porto", "técnico"],
+    tags: ["meio-campista", "portugal", "psg", "porto", "Paris Saint-Germain"],
   },
 
   // REPÚBLICA TCHECA -------------------------------------------------------------------------------------------------------------------------------
@@ -8424,7 +9975,7 @@ export const jogadores = [
         categoria: "individual",
       },
     ],
-    tags: [],
+    tags: ["Paris Saint-Germain", "PSG"],
   },
 
   // URUGUAI --------------------------------------------------------------------------------------------------------------------

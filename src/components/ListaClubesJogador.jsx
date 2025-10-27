@@ -10,12 +10,15 @@ function ListaClubesJogador({ clubes }) {
         const pathImagem = `/img__equipes/Logo_${nomeClubeFormatado}.png`;
 
         return (
-          <img
-            key={index}
-            className="clubes"
-            src={pathImagem}
-            alt={clube.nome}
-          />
+          <div className="div-clube" key={index}>
+            <img className="clubes" src={pathImagem} alt={clube.nome} />
+            <div className="clube-status">
+              <h3>{clube.nome}</h3>
+              <p>
+                ({clube.periodo.inicio} - {clube.periodo.fim})
+              </p>
+            </div>
+          </div>
         );
       })}
     </div>

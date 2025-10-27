@@ -378,11 +378,41 @@ th {
   max-width: 45px;
 }
 
+.div-clube {
+  position: relative;
+  cursor: pointer;
+}
+
+.div-clube:hover {
+  .clube-status {
+    display: flex;
+  }
+}
+
 .clubes {
   max-height: 35px;
   max-width: 50px;
   padding-inline: 5px;
   margin-block: 5px;
+}
+
+.clube-status {
+  position: absolute;
+  top: -50px;
+  right: -70px;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #f7f7f7;
+  width: max-content;
+  padding: 5px 8px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.664);
+  z-index: 10;
+
+  h3 {
+    font-size: 16px;
+  }
 }
 
 /*DIV DOS RESULTADOS DOS CLUBES E SELEÇÕES /////////////////////////////////////////////////////////*/

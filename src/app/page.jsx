@@ -26,6 +26,7 @@ const filtros = [
 
 export default function HomePage() {
   const [termoPesquisa, setTermoPesquisa] = useState("");
+  const [textoInput, setTextoInput] = useState("");
   const [categoriaAtiva, setCategoriaAtiva] = useState(FILTRO_PADRAO);
   const [buscaAcionada, setBuscaAcionada] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -53,24 +54,49 @@ export default function HomePage() {
   const resultadosFiltrados = dadosAtivos.filter((item) => {
     const termo = termoPesquisa.toLowerCase();
 
-    const corresponde =
-      item.nome?.toLowerCase().includes(termo) ||
-      item.descricao?.toLowerCase().includes(termo) ||
-      item.background?.toLowerCase().includes(termo);
-
     const correspondeClubeOuTag =
       (item.clubes || []).some((clube) =>
         clube.nome?.toLowerCase().includes(termo)
       ) || (item.tags || []).some((tag) => tag.toLowerCase().includes(termo));
 
-    return corresponde || correspondeClubeOuTag;
+    if (correspondeClubeOuTag) return true;
+
+    const correspondeCamposPrincipais =
+      item.nome?.toLowerCase().includes(termo) ||
+      item.nacionalidade?.toLowerCase().includes(termo) ||
+      item.background?.toLowerCase().includes(termo);
+
+    return correspondeCamposPrincipais;
   });
+
+  let resultadosOrdenados = resultadosFiltrados;
+
+  if (categoriaAtiva === FILTRO_PADRAO) {
+    resultadosOrdenados = resultadosFiltrados.slice().sort((a, b) => {
+      const statusA = a.status === "Ativo";
+      const statusB = b.status === "Ativo";
+
+      if (statusA && !statusB) {
+        return -1;
+      }
+      if (!statusA && statusB) {
+        return 1;
+      }
+
+      return a.nome.localeCompare(b.nome);
+    });
+  }
 
   const renderizarCards = () => {
     let CardComponent;
     let propName;
 
-    if (resultadosFiltrados.length === 0) {
+    const dadosParaRenderizar =
+      categoriaAtiva === FILTRO_PADRAO
+        ? resultadosOrdenados
+        : resultadosFiltrados;
+
+    if (dadosParaRenderizar.length === 0) {
       return (
         <p className="sem-resultados">
           Nenhum resultado encontrado para "{termoPesquisa}".
@@ -98,9 +124,18 @@ export default function HomePage() {
         break;
     }
 
-    return resultadosFiltrados.map((item) => (
+    return dadosParaRenderizar.map((item) => (
       <CardComponent key={item.nome} {...{ [propName]: item }} />
     ));
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    setLoading(true);
+    setBuscaAcionada(true);
+
+    setTermoPesquisa(textoInput);
   };
 
   return (
@@ -108,24 +143,18 @@ export default function HomePage() {
       <div className="div-resultados">
         <section id="home">
           <h1>Tudo sobre Futebol</h1>
-          <div className="barra-pesquisa">
+          <form className="barra-pesquisa" onSubmit={handleSubmit}>
             <input
               type="text"
               placeholder="digite o atleta, time ou país"
               id="campo-pesquisa"
-              value={termoPesquisa}
-              onChange={(e) => setTermoPesquisa(e.target.value)}
+              value={textoInput}
+              onChange={(e) => setTextoInput(e.target.value)}
             />
-            <button
-              className="pagina__btn"
-              onClick={() => {
-                setLoading(true);
-                setBuscaAcionada(true);
-              }}
-            >
-              {termoPesquisa === "" ? "Pesquisar todos" : "Pesquisar"}
+            <button className="pagina__btn" type="submit">
+              {textoInput === "" ? "Pesquisar todos" : "Pesquisar"}
             </button>
-          </div>
+          </form>
           <div className="btn-filtros">
             <ul>
               {filtros.map((filtro, index) => (

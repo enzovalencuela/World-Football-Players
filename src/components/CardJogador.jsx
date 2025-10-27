@@ -10,7 +10,7 @@ function CardJogador({ jogador }) {
   const idade = calcularIdade(jogador.dataNascimento, jogador.dataFalecimento);
 
   const clubes = jogador.clubes || [];
-  const clubeAtual = clubes.length > 0 ? clubes[clubes.length - 1] : null;
+  const clubeAtual = clubes.length > 0 ? [clubes[clubes.length - 1]] : null;
   const clubesAnteriores = clubes.slice(0, -1);
 
   return (
@@ -39,14 +39,7 @@ function CardJogador({ jogador }) {
               alt={jogador.alt}
             />
             {jogador.status === "Ativo" && clubeAtual && (
-              <img
-                className="clube-atual clubes"
-                src={`/img__equipes/Logo_${clubeAtual.nome.replace(
-                  / /g,
-                  "_"
-                )}.png`}
-                alt={clubeAtual.nome}
-              />
+              <ListaClubesJogador clubes={clubeAtual} />
             )}
           </div>
           <h3>Status</h3>
