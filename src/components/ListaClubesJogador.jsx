@@ -3,9 +3,12 @@ function ListaClubesJogador({ clubes }) {
     return <p>Nenhum clube encontrado.</p>;
   }
 
+  const mostrar =
+    innerWidth > 1200 ? 0 : clubes.length > 6 ? clubes.length - 6 : "";
+
   return (
     <div className="clubes-tecnicos">
-      {clubes.map((clube, index) => {
+      {clubes.slice(mostrar).map((clube, index) => {
         const nomeClubeFormatado = clube.nome.replace(/ /g, "_");
         const pathImagem = `/img__equipes/Logo_${nomeClubeFormatado}.png`;
 

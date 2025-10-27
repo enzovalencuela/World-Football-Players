@@ -54,19 +54,19 @@ export default function HomePage() {
   const resultadosFiltrados = dadosAtivos.filter((item) => {
     const termo = termoPesquisa.toLowerCase();
 
-    const correspondeClubeOuTag =
-      (item.clubes || []).some((clube) =>
-        clube.nome?.toLowerCase().includes(termo)
-      ) || (item.tags || []).some((tag) => tag.toLowerCase().includes(termo));
-
-    if (correspondeClubeOuTag) return true;
-
     const correspondeCamposPrincipais =
       item.nome?.toLowerCase().includes(termo) ||
       item.nacionalidade?.toLowerCase().includes(termo) ||
       item.background?.toLowerCase().includes(termo);
 
-    return correspondeCamposPrincipais;
+    if (correspondeCamposPrincipais) return true;
+
+    const correspondeClubeOuTag =
+      (item.clubes || []).some((clube) =>
+        clube.nome?.toLowerCase().includes(termo)
+      ) || (item.tags || []).some((tag) => tag.toLowerCase().includes(termo));
+
+    return correspondeClubeOuTag;
   });
 
   let resultadosOrdenados = resultadosFiltrados;

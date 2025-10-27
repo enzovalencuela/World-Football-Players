@@ -30,14 +30,26 @@ function CardJogador({ jogador }) {
             <a href={jogador.pagina} target="_blank">
               <h2 id="nome">{jogador.nome}</h2>
             </a>
-            <img
-              className="nacionalidade"
-              src={`/img__equipes/Logo_${jogador.nacionalidade.replace(
-                / /g,
-                "_"
-              )}.png`}
-              alt={jogador.alt}
-            />
+            <div className="div-clube">
+              <img
+                className="nacionalidade"
+                src={`/img__equipes/Logo_${jogador.nacionalidade.replace(
+                  / /g,
+                  "_"
+                )}.png`}
+                alt={jogador.alt}
+              />
+              {jogador.selecao?.nome && (
+                <div className="clube-status">
+                  <h3>{jogador.selecao?.nome}</h3>
+                  <p>
+                    ({jogador.selecao?.periodo?.inicio} -
+                    {jogador.selecao?.periodo?.fim})
+                  </p>
+                </div>
+              )}
+            </div>
+
             {jogador.status === "Ativo" && clubeAtual && (
               <ListaClubesJogador clubes={clubeAtual} />
             )}

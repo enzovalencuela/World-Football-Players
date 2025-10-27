@@ -1030,7 +1030,7 @@ export const jogadores = [
     nome: "Ángel Di María",
     background: "plate",
     descricao:
-      "Extremo veloz e habilidoso, conhecido por suas arrancadas e cruzamentos precisos. Foi fundamental nas conquistas da Copa do Mundo de 2022 e da Champions League com o Real Madrid.",
+      "Extremo veloz e habilidoso, conhecido por suas arrancadas, cruzamentos precisos e por ser um 'jogador de finais', marcando gols decisivos em grandes jogos. Foi fundamental nas conquistas da Copa do Mundo de 2022, da Copa América de 2021 e da Liga dos Campeões com o Real Madrid.",
     pagina: "https://www.instagram.com/angeldimariajm/",
     nacionalidade: "Argentina",
     imagem:
@@ -1040,11 +1040,97 @@ export const jogadores = [
     dataNascimento: "14/02/1988",
     status: "Ativo",
     curiosidades:
-      "Considerado um dos melhores jogadores argentinos da atualidade, Di María é conhecido por sua versatilidade, atuando tanto por dentro quanto por fora.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "Di María é um dos poucos jogadores na história a marcar gols em uma final de Copa do Mundo, final de Copa América e final de Jogos Olímpicos. O gol que deu a Décima Champions ao Real Madrid em 2014 saiu de uma jogada sua.",
+    clubes: [
+      createClub(
+        "Benfica",
+        { inicio: "2007", fim: "2010" },
+        { jogos: 119, gols: 15, assistencias: 28 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2010", fim: "2014" },
+        { jogos: 190, gols: 36, assistencias: 84 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2015", fim: "2022" },
+        { jogos: 295, gols: 93, assistencias: 119 }
+      ),
+      createClub(
+        "Benfica",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 80, gols: 25, assistencias: 20 }
+      ),
+    ],
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "2008", fim: "Presente" },
+      estatisticas: { jogos: 136, gols: 30, assistencias: 40 },
+    },
+    titulos: [
+      // Seleção Argentina
+      {
+        nome: "Copa do Mundo",
+        anos: "2022",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2021",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2008",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2014",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "La Liga",
+        anos: "2012",
+        clube: "Real Madrid",
+      },
+
+      // Paris Saint-Germain
+      {
+        nome: "Ligue 1",
+        anos: "2016, 2018, 2019, 2020, 2022",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2016, 2017, 2018, 2020, 2021",
+        clube: "Paris Saint-Germain",
+      },
+
+      // Benfica
+      {
+        nome: "Campeonato Português",
+        anos: "2010, 2024",
+        clube: "Benfica",
+      },
+    ],
+    tags: [
+      "Di María",
+      "Ponta",
+      "Argentina",
+      "Real Madrid",
+      "PSG",
+      "Benfica",
+      "Fideo",
+      "AD11",
+      "Campeão Mundial",
+    ],
   },
 
   // Carlos Alcaraz
@@ -1332,7 +1418,7 @@ export const jogadores = [
     posicao: "Centroavante",
     nacionalidade: "Argentina",
     dataNascimento: "22/08/1997",
-    status: "Ativo (Inter de Milão)",
+    status: "Ativo",
     clubes: [
       createClub(
         "Racing",
@@ -1561,7 +1647,7 @@ export const jogadores = [
       createClub(
         "Barcelona",
         { inicio: "2004", fim: "2021" },
-        { jogos: 778, gols: 672, assistencias: 301 }
+        { jogos: 778, gols: 672, assistencias: 303 }
       ),
       createClub(
         "Paris Saint-Germain",
@@ -1571,7 +1657,7 @@ export const jogadores = [
       createClub(
         "Inter Miami",
         { inicio: "2023", fim: "atual" },
-        { jogos: 39, gols: 34, assistencias: 18 }
+        { jogos: 84, gols: 75, assistencias: 37 }
       ),
     ],
     selecao: {
@@ -1704,21 +1790,86 @@ export const jogadores = [
     nome: "Kevin De Bruyne",
     background: "plate",
     descricao:
-      "Meia armador talentoso e visionário, De Bruyne é conhecido por seus passes precisos, chutes de longa distância e visão de jogo. É um dos principais jogadores do Manchester City.",
-    pagina: "https://www.instagram.com/kevindebruyne28/",
+      "Meio-campista belga, amplamente reconhecido como um dos melhores 'playmakers' de sua geração. De Bruyne é famoso por sua visão de jogo incomparável, precisão em passes longos e cruzamentos, e chutes potentes com as duas pernas. Após uma era vitoriosa no Manchester City, transferiu-se para o Napoli em 2025.",
+    pagina: "https://www.instagram.com/kevindebruyne/",
     nacionalidade: "Bélgica",
     imagem:
-      "https://s2-ge.glbimg.com/9kJDOob3zGpMZRxxez8jkW6wQ68=/0x0:1415x1757/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/A/3/AXKKLjTPWAY8uL8XARPA/000-3242462.jpg", // Trocar por uma imagem do De Bruyne
+      "https://cdn.cityxtra.co.uk/wp-content/uploads/2025/10/0fab81ce12e48a0794275e1d82449fb1_1067253486.webp",
     numero: "17",
-    posicao: "Meia",
+    posicao: "Meia-armador",
     dataNascimento: "28/06/1991",
     status: "Ativo",
     curiosidades:
-      "De Bruyne é considerado um dos melhores meias do mundo e um dos principais responsáveis pelo sucesso do Manchester City nos últimos anos.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "De Bruyne é o único jogador a vencer o prêmio de Jogador do Ano da PFA (Associação de Jogadores Profissionais) em temporadas consecutivas. Ele é frequentemente elogiado por sua consistência em entregar o maior número de assistências nas ligas europeias.",
+    clubes: [
+      createClub(
+        "Wolfsburg",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 73, gols: 20, assistencias: 37 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2015", fim: "2025" },
+        { jogos: 415, gols: 105, assistencias: 175 }
+      ),
+      createClub(
+        "Napoli",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 10, gols: 2, assistencias: 4 }
+      ),
+    ],
+    selecao: {
+      nome: "Bélgica",
+      periodo: { inicio: "2010", fim: "Presente" },
+      estatisticas: { jogos: 120, gols: 30, assistencias: 45 },
+    },
+    titulos: [
+      // Manchester City
+      {
+        nome: "UEFA Champions League",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Premier League",
+        anos: "2018, 2019, 2021, 2022, 2023, 2025",
+        clube: "Manchester City",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2019, 2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      // Individuais
+      {
+        nome: "Jogador do Ano da PFA",
+        logo: "Premier League",
+        anos: "2020, 2021",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Playmaker do Mundo",
+        logo: "IFFHS",
+        anos: "2020, 2021, 2022, 2023",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "De Bruyne",
+      "Napoli",
+      "Manchester City",
+      "Bélgica",
+      "Meia-armador",
+      "KDB17",
+      "Campeão da Champions",
+    ],
   },
 
   // Romelu Lukaku
@@ -3880,19 +4031,79 @@ export const jogadores = [
     nome: "Ederson",
     background: "plate",
     descricao:
-      "Goleiro brasileiro, conhecido por suas defesas espetaculares, habilidade com os pés e por ser um dos melhores passadores entre os goleiros. É peça fundamental no esquema de jogo do Manchester City.",
+      "Goleiro brasileiro, amplamente considerado um dos melhores do mundo em sua posição. É conhecido por suas defesas espetaculares, mas principalmente por sua habilidade inigualável com os pés, atuando como um líbero e sendo peça fundamental no esquema de jogo de Pep Guardiola no Manchester City.",
     pagina: "https://www.instagram.com/ederson93/",
     nacionalidade: "Brasil",
     imagem:
-      "https://i.pinimg.com/474x/09/72/1a/09721af7435e7ecf2298a0689e558f21.jpg",
+      "https://dynamo.kiev.ua/media/posts/2024/05/17/GettyImages-2152970887.jpg",
     numero: "31",
     posicao: "Goleiro",
-    dataNascimento: "17 de agosto de 1993",
+    dataNascimento: "17/08/1993",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Ederson detém o recorde mundial do Guinness por realizar o chute mais longo de um goleiro. Ele é amplamente elogiado por sua capacidade de iniciar ataques com passes longos e precisos.",
+    clubes: [
+      createClub(
+        "Benfica",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 58, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2017", fim: "Presente" },
+        { jogos: 380, gols: 0, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2017", fim: "Presente" },
+      estatisticas: { jogos: 35, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Manchester City
+      {
+        nome: "UEFA Champions League",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Premier League",
+        anos: "2018, 2019, 2021, 2022, 2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2019, 2023, 2024",
+        clube: "Manchester City",
+      },
+      {
+        nome: "EFL Cup",
+        anos: "2018, 2019, 2020, 2021",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+    ],
+    tags: [
+      "Ederson",
+      "Goleiro",
+      "Manchester City",
+      "Brasil",
+      "E31",
+      "Líbero",
+      "Campeão da Champions",
+    ],
   },
 
   // Edílson Capetinha
@@ -3996,7 +4207,7 @@ export const jogadores = [
     posicao: "Atacante",
     nacionalidade: "Brasil",
     dataNascimento: "22/03/1996",
-    status: "Ativo (Flamengo)",
+    status: "Ativo",
     clubes: [
       createClub(
         "Grêmio",
@@ -4336,19 +4547,104 @@ export const jogadores = [
     nome: "Gilberto Silva",
     background: "plate",
     descricao:
-      "Um dos maiores volantes de sua geração, Gilberto Silva era conhecido por sua força física, marcação implacável e visão de jogo. Ele foi fundamental para a conquista da Copa do Mundo de 2002 pela Seleção Brasileira.",
-    pagina: "https://www.instagram.com/gilbertosilvaoficial/",
+      "Volante brasileiro conhecido por sua inteligência tática, posicionamento impecável e discrição. Gilberto Silva foi peça fundamental no meio-campo da Seleção Brasileira campeã do Mundo em 2002 e um dos 'Invencíveis' do Arsenal que conquistou a Premier League de 2003-04 sem derrotas.",
+    pagina: "https://www.instagram.com/gilbertosilva/",
     nacionalidade: "Brasil",
     imagem:
-      "https://media.gettyimages.com/id/102416694/pt/foto/durban-south-africa-gilberto-silva-of-brazil-in-action-during-the-2010-fifa-world-cup-south.jpg?s=612x612&w=gi&k=20&c=Kb7Ahtpo6C4BbOG1SMFGtCFe-U5OHgK9Trc1B3Xe94I=",
-    numero: "8",
-    posicao: "Volante",
+      "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/11/11/silva.jpg",
+    numero: "19",
+    posicao: "Volante/Meio-campista Defensivo",
     dataNascimento: "07/10/1976",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    status: "Aposentado",
+    curiosidades:
+      "Durante sua passagem pelo Arsenal, o clube estabeleceu o recorde de 49 jogos consecutivos de invencibilidade na Premier League, um feito histórico até hoje. Ele era o 'muro invisível' do time.",
+    clubes: [
+      createClub(
+        "Atlético Mineiro",
+        { inicio: "2000", fim: "2002" },
+        { jogos: 140, gols: 8, assistencias: 5 }
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "2002", fim: "2008" },
+        { jogos: 244, gols: 24, assistencias: 15 }
+      ),
+      createClub(
+        "Panathinaikos",
+        { inicio: "2008", fim: "2011" },
+        { jogos: 115, gols: 5, assistencias: 5 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2011", fim: "2012" },
+        { jogos: 59, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Atlético Mineiro",
+        { inicio: "2013", fim: "2013" },
+        { jogos: 12, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2001", fim: "2010" },
+      estatisticas: { jogos: 93, gols: 3, assistencias: 5 },
+    },
+    titulos: [
+      // Seleção Brasileira
+      {
+        nome: "Copa do Mundo",
+        anos: "2002",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2007",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "2005, 2009",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Arsenal
+      {
+        nome: "Premier League",
+        anos: "2003-04",
+        clube: "Arsenal",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2003, 2005",
+        clube: "Arsenal",
+      },
+
+      // Atlético Mineiro
+      {
+        nome: "Copa Libertadores",
+        anos: "2013",
+        clube: "Atlético Mineiro",
+      },
+      // Panathinaikos
+      {
+        nome: "Campeonato Grego",
+        anos: "2010",
+        clube: "Panathinaikos",
+      },
+    ],
+    tags: [
+      "Gilberto Silva",
+      "Arsenal",
+      "Brasil",
+      "Volante",
+      "Invencíveis",
+      "Atlético Mineiro",
+      "GS19",
+    ],
   },
 
   // Gustavo Scarpa
@@ -4679,7 +4975,7 @@ export const jogadores = [
   // Lucas Moura
   {
     nome: "Lucas Moura",
-    background: "plate",
+    background: "#",
     descricao:
       "Meia-atacante brasileiro conhecido por sua velocidade vertiginosa e habilidade nos dribles. Lucas Moura teve uma carreira de sucesso na Europa, atuando como peça-chave no Paris Saint-Germain e sendo herói do Tottenham na semifinal da Champions League. Atualmente, é líder e ídolo em seu clube de origem, o São Paulo.",
     pagina: "https://www.instagram.com/lucasmoura/",
@@ -5018,7 +5314,7 @@ export const jogadores = [
     posicao: "Atacante",
     nacionalidade: "Brasil",
     dataNascimento: "29/05/1990",
-    status: "Ativo (Fortaleza)",
+    status: "Ativo",
     clubes: [
       createClub(
         "Fluminense",
@@ -5998,24 +6294,113 @@ export const jogadores = [
     tags: [],
   },
 
-  //Rivaldo
+  // Rivaldo
   {
     nome: "Rivaldo",
     background: "plate",
     descricao:
-      "Considerado um dos maiores jogadores brasileiros de sua geração, Rivaldo era conhecido por sua habilidade técnica, chutes precisos e visão de jogo. Eleito o melhor jogador do mundo em 1999, conquistou diversos títulos importantes na carreira.",
-    pagina: "https://www.instagram.com/rivaldooficial/",
+      "Meia-atacante/Segundo atacante brasileiro de classe mundial, conhecido por sua técnica excepcional, seus chutes de longa distância, seus golaços de bicicleta e seu pé esquerdo potente. Rivaldo foi o grande nome do Barcelona no final dos anos 90 e peça-chave no pentacampeonato mundial da Seleção Brasileira em 2002.",
+    pagina: "https://www.instagram.com/rivaldo/",
     nacionalidade: "Brasil",
     imagem:
-      "https://i.pinimg.com/736x/ba/b9/8e/bab98e203e6860c6e92a29db981f8919.jpg",
+      "https://i.pinimg.com/736x/51/95/da/5195da4333e50b2f8dcdd24fc07ff6a5.jpg",
     numero: "10",
-    posicao: "Meia-atacante",
+    posicao: "Meia-atacante/Segundo Atacante",
     dataNascimento: "19/04/1972",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    status: "Aposentado",
+    curiosidades:
+      "Rivaldo é um dos poucos jogadores na história a conquistar a Bola de Ouro, a Copa do Mundo e a Liga dos Campeões. Em 2001, marcou um hat-trick lendário contra o Valencia, incluindo um gol de bicicleta nos minutos finais, que garantiu a vaga do Barcelona na Champions League.",
+    clubes: [
+      createClub(
+        "Palmeiras",
+        { inicio: "1994", fim: "1996" },
+        { jogos: 100, gols: 55, assistencias: 10 }
+      ),
+      createClub(
+        "Deportivo La Coruña",
+        { inicio: "1996", fim: "1997" },
+        { jogos: 41, gols: 21, assistencias: 10 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "1997", fim: "2002" },
+        { jogos: 235, gols: 130, assistencias: 51 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2002", fim: "2003" },
+        { jogos: 40, gols: 8, assistencias: 6 }
+      ),
+      createClub(
+        "Olympiacos",
+        { inicio: "2004", fim: "2007" },
+        { jogos: 101, gols: 43, assistencias: 15 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1993", fim: "2003" },
+      estatisticas: { jogos: 74, gols: 35, assistencias: 15 },
+    },
+    titulos: [
+      // Individuais
+      {
+        nome: "Bola de Ouro",
+        anos: "1999",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundo",
+        logo: "FIFA",
+        anos: "1999",
+        clube: "Individual",
+        categoria: "individual",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa do Mundo",
+        anos: "2002",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1999",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Barcelona
+      {
+        nome: "La Liga",
+        anos: "1998, 1999",
+        clube: "Barcelona",
+      },
+
+      // AC Milan
+      {
+        nome: "UEFA Champions League",
+        anos: "2003",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2003",
+        clube: "AC Milan",
+      },
+    ],
+    tags: [
+      "Rivaldo",
+      "Barcelona",
+      "Brasil",
+      "Meia-atacante",
+      "R10",
+      "Ballon d'Or",
+      "Campeão Mundial",
+      "Canhoto",
+    ],
   },
 
   // Rivellino
@@ -6337,19 +6722,107 @@ export const jogadores = [
     nome: "Thiago Silva",
     background: "plate",
     descricao:
-      "Zagueiro experiente e líder nato, conhecido por sua habilidade no jogo aéreo, passes precisos e liderança dentro de campo. Um dos melhores defensores da sua geração.",
+      "Zagueiro brasileiro de classe mundial, apelidado de 'O Monstro' por sua excelência técnica, antecipação e liderança. Foi capitão de longa data do Paris Saint-Germain e crucial na conquista da Champions League pelo Chelsea. Em 2024, retornou ao clube que o revelou, o Fluminense, para encerrar sua vitoriosa carreira no Brasil.",
     pagina: "https://www.instagram.com/thiagosilva/",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/26/2022/12/05/thiago-silva-durante-a-partida-do-brasil-contra-a-coreia-do-sul-1670294743840_v2_450x450.jpg",
+      "https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2025/04/24/1327321802-imagem-do-whatsapp-de-2025-04-23-as-2151116aea7dbb.jpg",
     numero: "3",
     posicao: "Zagueiro",
     dataNascimento: "22/09/1984",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Thiago Silva retornou ao Fluminense 16 anos após sua primeira passagem, sendo recebido por uma das maiores festas já vistas no Maracanã. Ele é um dos únicos defensores brasileiros a vencer a Liga dos Campeões e o Mundial de Clubes.",
+    clubes: [
+      createClub(
+        "Fluminense",
+        { inicio: "2006", fim: "2008" },
+        { jogos: 146, gols: 14, assistencias: 2 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2009", fim: "2012" },
+        { jogos: 119, gols: 6, assistencias: 2 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2012", fim: "2020" },
+        { jogos: 315, gols: 20, assistencias: 6 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2020", fim: "2024" },
+        { jogos: 151, gols: 9, assistencias: 4 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 40, gols: 3, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2008", fim: "2022" },
+      estatisticas: { jogos: 125, gols: 7, assistencias: 5 },
+    },
+    titulos: [
+      // Chelsea
+      {
+        nome: "UEFA Champions League",
+        anos: "2021",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2022",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2021",
+        clube: "Chelsea",
+      },
+
+      // Paris Saint-Germain
+      {
+        nome: "Ligue 1",
+        anos: "2013, 2014, 2015, 2016, 2018, 2019, 2020",
+        clube: "Paris Saint-Germain",
+      },
+
+      // AC Milan
+      {
+        nome: "Serie A",
+        anos: "2011",
+        clube: "AC Milan",
+      },
+
+      // Fluminense
+      {
+        nome: "Copa do Brasil",
+        anos: "2007",
+        clube: "Fluminense FC",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+    ],
+    tags: [
+      "Thiago Silva",
+      "Fluminense",
+      "Chelsea",
+      "PSG",
+      "Brasil",
+      "Zagueiro",
+      "TS3",
+      "O Monstro",
+      "Campeão da Champions",
+    ],
   },
 
   // Vitinho
@@ -6595,19 +7068,104 @@ export const jogadores = [
     nome: "Samuel Eto'o",
     background: "plate",
     descricao:
-      "Atacante camaronês conhecido por sua velocidade, finalização e habilidade. Eto'o conquistou diversos títulos por clubes como Barcelona, Inter de Milão e Chelsea.",
-    pagina: "https://pt.wikipedia.org/wiki/Samuel_Eto%C3%B3",
+      "Centroavante camaronês conhecido por sua velocidade estonteante, instinto matador e força física. Eto'o fez história ao ser um dos únicos jogadores a conquistar a Tríplice Coroa (Treble) com dois clubes diferentes: Barcelona (2009) e Inter de Milão (2010). É o maior artilheiro da história da Copa das Nações Africanas.",
+    pagina: "https://www.instagram.com/setoo9/",
     nacionalidade: "Camarões",
     imagem:
       "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2017/05/04/590b404b6fea1.jpeg",
     numero: "9",
-    posicao: "Atacante",
+    posicao: "Centroavante",
     dataNascimento: "10/03/1981",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Eto'o é o maior artilheiro da história da Seleção de Camarões. Ele marcou gols em duas finais de Liga dos Campeões (2006 e 2009) pelo Barcelona e foi um dos líderes da Inter de Milão no seu Treble em 2010.",
+    clubes: [
+      createClub(
+        "Mallorca",
+        { inicio: "2000", fim: "2004" },
+        { jogos: 165, gols: 70, assistencias: 10 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2004", fim: "2009" },
+        { jogos: 199, gols: 130, assistencias: 40 }
+      ),
+      createClub(
+        "Internazionale",
+        { inicio: "2009", fim: "2011" },
+        { jogos: 102, gols: 53, assistencias: 17 }
+      ),
+      createClub(
+        "Anzhi Makhachkala",
+        { inicio: "2011", fim: "2013" },
+        { jogos: 73, gols: 36, assistencias: 12 }
+      ),
+    ],
+    selecao: {
+      nome: "Camarões",
+      periodo: { inicio: "1996", fim: "2014" },
+      estatisticas: { jogos: 118, gols: 56, assistencias: 15 },
+    },
+    titulos: [
+      // Barcelona
+      {
+        nome: "UEFA Champions League",
+        anos: "2006, 2009",
+        clube: "Barcelona",
+      },
+      {
+        nome: "La Liga",
+        anos: "2005, 2006, 2009",
+        clube: "Barcelona",
+      },
+      // Internazionale
+      {
+        nome: "UEFA Champions League",
+        anos: "2010",
+        clube: "Internazionale",
+      },
+      {
+        nome: "Serie A",
+        anos: "2010",
+        clube: "Internazionale",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2010",
+        clube: "Internazionale",
+      },
+
+      // Seleção Camaronesa
+      {
+        nome: "Copa Africana de Nações",
+        anos: "2000, 2002",
+        clube: "Camarões",
+      },
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2000",
+        clube: "Camarões",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Futebolista Africano do Ano",
+        logo: "CAF",
+        anos: "2003, 2004, 2005, 2010",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Eto'o",
+      "Barcelona",
+      "Inter de Milão",
+      "Camarões",
+      "Centroavante",
+      "SE9",
+      "Campeão da Champions",
+    ],
   },
 
   // CANADÁ -----------------------------------------------------------------------------------------------------
@@ -6783,16 +7341,17 @@ export const jogadores = [
     nome: "Son Heung-min",
     background: "plate",
     imagem:
-      "https://cdn1-production-images-kly.akamaized.net/Vk_c5aMJUupK8TXYbbUKFt39XHc=/800x1066/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4621407/original/031600900_1698102412-AP23296724254352.jpg",
+      "https://ca-times.brightspotcdn.com/dims4/default/19182aa/2147483647/strip/true/crop/4023x2681+0+0/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F30%2F84%2F9367a875443db6fce8abc33219ef%2Fmls-san-diego-lafc-soccer-69266.jpg",
     descricao:
-      "Atacante sul-coreano, capitão do Tottenham Hotspur e da seleção da Coreia do Sul, conhecido por sua velocidade, finalização precisa com ambos os pés e capacidade de jogar em diversas posições no ataque. Son é um ícone asiático no futebol europeu, sendo o maior artilheiro asiático na história da Premier League e um dos jogadores mais influentes de sua geração.",
+      "Atacante sul-coreano, um dos maiores ícones asiáticos da história do futebol. Conhecido por sua velocidade, finalização letal com ambos os pés e por ser um jogador extremamente eficiente. Após uma longa e brilhante carreira no Tottenham Hotspur, onde conquistou a Chuteira de Ouro, transferiu-se para o Los Angeles FC em 2025.",
     numero: "7",
     posicao: "Ponta-esquerda",
     nacionalidade: "Coreia do Sul",
     dataNascimento: "08/07/1992",
-    status: "Ativo (Tottenham Hotspur)",
+    status: "Ativo",
     pagina: "https://www.instagram.com/hm_son7/",
-
+    curiosidades:
+      "Son foi o primeiro jogador asiático a vencer a Chuteira de Ouro da Premier League (2022). Ele também venceu o Prêmio Puskás da FIFA em 2020 por um gol espetacular que percorreu todo o campo.",
     clubes: [
       createClub(
         "Hamburgo II",
@@ -6811,8 +7370,13 @@ export const jogadores = [
       ),
       createClub(
         "Tottenham Hotspur",
-        { inicio: "2015", fim: "Presente" },
+        { inicio: "2015", fim: "2025" },
         { jogos: 408, gols: 162, assistencias: 84 }
+      ),
+      createClub(
+        "Los Angeles FC",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 20, gols: 10, assistencias: 5 }
       ),
     ],
     selecao: {
@@ -6821,38 +7385,10 @@ export const jogadores = [
       estatisticas: { jogos: 126, gols: 48, assistencias: 20 },
     },
     titulos: [
-      // Hamburgo
-      {
-        nome: "Copa da Paz",
-        anos: "2012",
-        clube: "Hamburgo",
-      },
       // Tottenham Hotspur
       {
         nome: "UEFA Europa League",
         anos: "2025",
-        clube: "Tottenham Hotspur",
-      },
-      {
-        nome: "Copa da Liga Inglesa (Vice-campeão)",
-        logo: "EFL Cup",
-        anos: "2021",
-        clube: "Tottenham Hotspur",
-      },
-      {
-        nome: "UEFA Champions League (Vice-campeão)",
-        logo: "UEFA Champions League",
-        anos: "2019",
-        clube: "Tottenham Hotspur",
-      },
-      {
-        nome: "Copa Audi",
-        anos: "2019",
-        clube: "Tottenham Hotspur",
-      },
-      {
-        nome: "International Champions Cup",
-        anos: "2018",
         clube: "Tottenham Hotspur",
       },
 
@@ -6863,17 +7399,12 @@ export const jogadores = [
         clube: "Coreia do Sul",
         logoVariavel: true,
       },
-      {
-        nome: "Copa da Ásia (Vice-campeão)",
-        logo: "Copa da Ásia",
-        anos: "2015",
-        clube: "Coreia do Sul",
-        logoVariavel: true,
-      },
+
       // Individuais
       {
-        nome: "Jogador Asiático do Ano",
-        anos: "2015, 2017, 2019, 2020, 2021",
+        nome: "Chuteira de Ouro",
+        logo: "Premier League",
+        anos: "2022",
         clube: "Individual",
         categoria: "individual",
       },
@@ -6885,34 +7416,8 @@ export const jogadores = [
         categoria: "individual",
       },
       {
-        nome: "Chuteira de Ouro da Premier League",
-        anos: "2022",
-        clube: "Individual",
-        categoria: "individual",
-      },
-      {
-        nome: "Equipe do Ano da PFA Premier League",
-        logo: "Premier League",
-        anos: "2021",
-        clube: "Individual",
-        categoria: "individual",
-      },
-      {
-        nome: "Jogador do Mês da Premier League",
-        logo: "Premier League",
-        anos: "Setembro 2016, Abril 2017, Outubro 2020, Outubro 2023",
-        clube: "Individual",
-        categoria: "individual",
-      },
-      {
-        nome: "Melhor Jogador do Tottenham Hotspur da Temporada",
-        anos: "2018-19, 2019-20, 2021-22",
-        clube: "Individual",
-        categoria: "individual",
-      },
-      {
-        nome: "Melhor Gol da Temporada do Tottenham Hotspur",
-        anos: "2018-19, 2019-20, 2021-22",
+        nome: "Jogador Asiático do Ano",
+        anos: "2015, 2017, 2019, 2020, 2021",
         clube: "Individual",
         categoria: "individual",
       },
@@ -6920,17 +7425,13 @@ export const jogadores = [
     tags: [
       "Son",
       "Son Heung-min",
-      "Heung-min Son",
+      "LAFC",
       "Tottenham",
       "Coreia do Sul",
       "Atacante",
       "Ponta",
-      "Premier League",
       "Chuteira de Ouro",
       "Puskas",
-      "Sonny",
-      "Capitão",
-      "SPURS",
     ],
   },
 
@@ -7065,7 +7566,7 @@ export const jogadores = [
     nome: "Luka Modrić",
     background: "plate",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/11/2022/12/01/luka-modric-da-croacia-em-acao-contra-a-belgica-na-fase-de-grupos-da-copa-do-qatar-1669910441519_v2_450x600.jpg",
+      "https://tmssl.akamaized.net//images/foto/galerie/luka-modric-ac-mailand-2025-1757415502-177086.jpg",
     pagina: "https://www.instagram.com/lukamodric10/",
     descricao:
       "Maestro croata do meio-campo, reverenciado por sua visão de jogo excepcional, passes precisos, controle de bola e incrível longevidade. Modrić é um dos meio-campistas mais condecorados de sua geração, liderando o Real Madrid a múltiplas conquistas da Champions League e a Croácia a campanhas históricas em Copas do Mundo, além de ter conquistado a Bola de Ouro.",
@@ -7073,7 +7574,7 @@ export const jogadores = [
     posicao: "Meia",
     nacionalidade: "Croácia",
     dataNascimento: "09/09/1985",
-    status: "Ativo (Sem clube)",
+    status: "Ativo",
     clubes: [
       createClub(
         "Zrinjski Mostar",
@@ -7081,7 +7582,7 @@ export const jogadores = [
         { jogos: 25, gols: 8, assistencias: 0 }
       ),
       createClub(
-        "Inter Zaprešić", // Empréstimo
+        "Inter Zaprešić",
         { inicio: "2004", fim: "2005" },
         { jogos: 20, gols: 4, assistencias: 0 }
       ),
@@ -7099,6 +7600,11 @@ export const jogadores = [
         "Real Madrid",
         { inicio: "2012", fim: "2025" },
         { jogos: 534, gols: 39, assistencias: 86 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 2, gols: 0, assistencias: 0 }
       ),
     ],
     selecao: {
@@ -7275,19 +7781,83 @@ export const jogadores = [
     nome: "Christian Eriksen",
     background: "plate",
     descricao:
-      "Meia dinamarquês conhecido por sua visão de jogo, passes precisos e chutes de longa distância. É um dos principais jogadores da seleção dinamarquesa e já atuou em grandes clubes europeus.",
-    pagina: "https://www.instagram.com/christianeriksenofficial/",
+      "Meio-campista dinamarquês conhecido por sua visão de jogo excepcional, precisão nos passes e cobranças de falta. Eriksen é um dos jogadores mais criativos de sua geração, com passagens notáveis por Ajax e Tottenham, e que protagonizou um retorno inspirador ao futebol de alto nível após um incidente cardíaco.",
+    pagina: "https://www.instagram.com/christian_eriksen/",
     nacionalidade: "Dinamarca",
     imagem:
       "https://conteudo.imguol.com.br/c/entretenimento/0f/2022/11/22/christian-eriksen-em-jogo-contra-a-tunisia-na-copa-do-qatar-1669128331095_v2_450x600.jpg",
     numero: "14",
-    posicao: "Meia",
+    posicao: "Meia-atacante/Meia Central",
     dataNascimento: "14/02/1992",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Eriksen sofreu uma parada cardíaca durante uma partida da Euro 2020. Seu retorno vitorioso ao futebol, jogando primeiro pelo Brentford e depois pelo Manchester United, é amplamente celebrado como um dos maiores 'comebacks' da história do esporte.",
+    clubes: [
+      createClub(
+        "Ajax",
+        { inicio: "2010", fim: "2013" },
+        { jogos: 163, gols: 32, assistencias: 65 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2013", fim: "2020" },
+        { jogos: 305, gols: 69, assistencias: 90 }
+      ),
+      createClub(
+        "Internazionale",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 60, gols: 8, assistencias: 3 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 90, gols: 5, assistencias: 15 }
+      ),
+    ],
+    selecao: {
+      nome: "Dinamarca",
+      periodo: { inicio: "2010", fim: "Presente" },
+      estatisticas: { jogos: 140, gols: 42, assistencias: 35 },
+    },
+    titulos: [
+      // Internazionale
+      {
+        nome: "Serie A",
+        anos: "2020-21",
+        clube: "Internazionale",
+      },
+      // Manchester United
+      {
+        nome: "EFL Cup",
+        anos: "2023",
+        clube: "Manchester United",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2024",
+        clube: "Manchester United",
+      },
+      // Ajax
+      {
+        nome: "Eredivisie",
+        anos: "2011, 2012, 2013",
+        clube: "Ajax",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "2010",
+        clube: "Ajax",
+      },
+    ],
+    tags: [
+      "Eriksen",
+      "Meia-atacante",
+      "Dinamarca",
+      "Manchester United",
+      "Tottenham",
+      "Ajax",
+      "CE14",
+    ],
   },
 
   // Kasper Schmeichel
@@ -7337,19 +7907,86 @@ export const jogadores = [
     nome: "Mohamed Salah",
     background: "plate",
     descricao:
-      "Atacante egípcio conhecido por sua velocidade, finalização precisa e dribles. Um dos principais jogadores do Liverpool, Salah é ídolo nacional no Egito.",
+      "Ponta-direita egípcio de classe mundial, amplamente considerado um dos melhores atacantes de sua geração. Salah é conhecido por sua velocidade, agilidade e, principalmente, por sua capacidade extraordinária de marcar gols, quebrando inúmeros recordes no Liverpool e na Premier League.",
     pagina: "https://www.instagram.com/mosalah/",
     nacionalidade: "Egito",
     imagem:
       "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_21/2444601/180525-mohamed-salah-liverpool-mn-0815.jpg",
     numero: "11",
-    posicao: "Atacante",
+    posicao: "Ponta-direita",
     dataNascimento: "15/06/1992",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Salah foi o primeiro jogador africano a ser nomeado Jogador do Ano da PFA por duas vezes. Detém o recorde de mais gols marcados em uma temporada de 38 jogos da Premier League.",
+    clubes: [
+      createClub(
+        "Roma",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 83, gols: 34, assistencias: 22 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2017", fim: "Presente" },
+        { jogos: 380, gols: 240, assistencias: 100 }
+      ),
+    ],
+    selecao: {
+      nome: "Egito",
+      periodo: { inicio: "2011", fim: "Presente" },
+      estatisticas: { jogos: 110, gols: 65, assistencias: 35 },
+    },
+    titulos: [
+      // Liverpool
+      {
+        nome: "UEFA Champions League",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Premier League",
+        anos: "2020",
+        clube: "Liverpool",
+      },
+      {
+        nome: "FA Cup",
+        anos: "2022, 2025",
+        clube: "Liverpool",
+      },
+      {
+        nome: "EFL Cup",
+        anos: "2022, 2024",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Chuteira de Ouro",
+        logo: "Premier League",
+        anos: "2018, 2019, 2022",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Africano do Ano",
+        anos: "2017, 2018",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Salah",
+      "Liverpool",
+      "Egito",
+      "Ponta-direita",
+      "MS11",
+      "Faraó",
+      "Campeão da Champions",
+    ],
   },
 
   // ESCÓCIA -------------------------------------------------------------------------------------------------
@@ -7381,19 +8018,81 @@ export const jogadores = [
     nome: "Jan Oblak",
     background: "plate",
     descricao:
-      "Jan Oblak é um dos melhores goleiros do mundo, conhecido por suas defesas espetaculares e reflexos rápidos. Ele é fundamental para a segurança da defesa do Atlético de Madrid.",
-    pagina: "https://www.instagram.com/oblakjan/",
+      "Goleiro esloveno conhecido por sua calma, posicionamento impecável e reflexos incrivelmente rápidos. Oblak é amplamente considerado uma das 'Muralhas' do futebol e é a espinha dorsal da forte defesa do Atlético de Madrid sob o comando de Diego Simeone.",
+    pagina: "https://www.instagram.com/janoblak/",
     nacionalidade: "Eslovênia",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Jan_Oblak_2019.jpg/640px-Jan_Oblak_2019.jpg",
+      "https://vodacomsoccer.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fmobi_express%2Fimages%2F2024%2F9%2F1727429771829%2F16%2Fatletico-madrid-goalkeeper-jan-oblak16.jpeg&w=1920&q=75",
     numero: "13",
     posicao: "Goleiro",
     dataNascimento: "07/01/1993",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Oblak detém o recorde de mais Troféus Ricardo Zamora (prêmio de melhor goleiro de La Liga) na história, empatado com lendas como Victor Valdés. Sua consistência o tornou um ícone no Atlético de Madrid.",
+    clubes: [
+      createClub(
+        "Benfica",
+        { inicio: "2010", fim: "2014" },
+        { jogos: 30, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2014", fim: "Presente" },
+        { jogos: 480, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Eslovênia",
+      periodo: { inicio: "2012", fim: "Presente" },
+      estatisticas: { jogos: 80, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Atlético de Madrid
+      {
+        nome: "La Liga",
+        anos: "2020-21",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2018",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2018",
+        clube: "Atlético de Madrid",
+      },
+
+      // Benfica
+      {
+        nome: "Campeonato Português",
+        anos: "2014",
+        clube: "Benfica",
+      },
+      {
+        nome: "Taça de Portugal",
+        anos: "2014",
+        clube: "Benfica",
+      },
+
+      // Individuais
+      {
+        nome: "Troféu Ricardo Zamora",
+        logo: "La Liga",
+        anos: "2016, 2017, 2018, 2019, 2021",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Jan Oblak",
+      "Atlético de Madrid",
+      "Goleiro",
+      "Eslovênia",
+      "Zamora",
+      "JO13",
+    ],
   },
 
   //ESPANHA---------------------------------------------------------------------------------------------------
@@ -7461,27 +8160,6 @@ export const jogadores = [
     tags: [],
   },
 
-  // Carvajal
-  {
-    nome: "Carvajal",
-    background: "plate",
-    descricao:
-      "Lateral-direito rápido e habilidoso, Carvajal é conhecido por seus cruzamentos precisos e sua solidez defensiva. Ele é um dos principais jogadores do Real Madrid e da seleção espanhola.",
-    pagina:
-      "https://www.realmadrid.com/pt-PT/futebol/primeira-equipa/plantel/daniel-carvajal-ramos",
-    nacionalidade: "Espanha",
-    imagem:
-      "https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--e6263595-3f05-459b-b73a-ee23af676971/ND_CARVAJAL__AV13707.app.webp?preferwebp=true",
-    numero: "2",
-    posicao: "Lateral-direito",
-    dataNascimento: "11/01/1992",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
-  },
-
   // Carles Puyol
   {
     nome: "Carles Puyol",
@@ -7500,6 +8178,84 @@ export const jogadores = [
     selecao: {},
     titulos: [],
     tags: [],
+  },
+
+  // Dani Carvajal
+  {
+    nome: "Dani Carvajal",
+    background: "plate",
+    descricao:
+      "Lateral-direito formado na base do Real Madrid, conhecido por sua consistência defensiva, força física e contribuições ofensivas. Carvajal é um dos pilares da era vitoriosa do Real Madrid, sendo um dos jogadores com mais títulos de Liga dos Campeões na história.",
+    pagina: "https://www.instagram.com/dani.carvajal.2/",
+    nacionalidade: "Espanha",
+    imagem:
+      "https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--e6263595-3f05-459b-b73a-ee23af676971/ND_CARVAJAL__AV13707.app.webp?preferwebp=true",
+    numero: "2",
+    posicao: "Lateral-direito",
+    dataNascimento: "11/01/1992",
+    status: "Ativo",
+    curiosidades:
+      "Carvajal é um dos poucos jogadores a ter vencido 7 títulos de Liga dos Campeões da UEFA pelo mesmo clube (Real Madrid). Ele é um produto da academia 'La Fábrica' do clube.",
+    clubes: [
+      createClub(
+        "Bayer Leverkusen",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 36, gols: 1, assistencias: 8 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2013", fim: "Presente" },
+        { jogos: 450, gols: 10, assistencias: 55 }
+      ),
+    ],
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2014", fim: "Presente" },
+      estatisticas: { jogos: 50, gols: 1, assistencias: 5 },
+    },
+    titulos: [
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2014, 2016, 2017, 2018, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "La Liga",
+        anos: "2017, 2020, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2014, 2016, 2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2014, 2016, 2017, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2014, 2023",
+        clube: "Real Madrid",
+      },
+
+      // Seleção Espanhola
+      {
+        nome: "UEFA Nations League",
+        anos: "2023",
+        clube: "Espanha",
+      },
+    ],
+    tags: [
+      "Carvajal",
+      "Real Madrid",
+      "Lateral-direito",
+      "Espanha",
+      "DC2",
+      "Campeão da Champions",
+    ],
   },
 
   // David Silva
@@ -7740,19 +8496,89 @@ export const jogadores = [
     nome: "Jordi Alba",
     background: "plate",
     descricao:
-      "Lateral-esquerdo conhecido por sua velocidade, cruzamentos precisos e habilidade de apoiar o ataque. Campeão da Eurocopa e da Copa do Mundo com a Espanha, Alba é um dos melhores laterais do mundo.",
-    pagina: "https://www.instagram.com/jordialba/",
+      "Lateral-esquerdo espanhol de elite, conhecido por sua velocidade incrível e por ser um dos jogadores mais ofensivos de sua posição. Formou uma parceria lendária com Lionel Messi no Barcelona, onde conquistou todos os títulos possíveis. Atualmente joga na MLS.",
+    pagina: "https://www.instagram.com/jordialbaofficial/",
     nacionalidade: "Espanha",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/ed/2023/02/05/jordi-alba-do-barcelona-comemora-gol-contra-o-sevilla-pelo-espanhol-1675632855082_v2_450x600.jpg",
+      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/10/Jordi-Alba-Inter-Miami-e1759857096374.jpg?w=1200&h=1200&crop=1",
     numero: "18",
     posicao: "Lateral-esquerdo",
-    dataNascimento: "21/03/1989",
+    dataNascimento: "24/03/1989",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Jordi Alba foi o principal parceiro de Lionel Messi em campo por muitos anos no Barcelona, sendo responsável por quase 100 assistências durante sua carreira no clube.",
+    clubes: [
+      createClub(
+        "Valencia",
+        { inicio: "2009", fim: "2012" },
+        { jogos: 110, gols: 6, assistencias: 14 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2012", fim: "2023" },
+        { jogos: 459, gols: 27, assistencias: 99 }
+      ),
+      createClub(
+        "Inter Miami",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 60, gols: 5, assistencias: 15 }
+      ),
+    ],
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2011", fim: "2023" },
+      estatisticas: { jogos: 93, gols: 10, assistencias: 22 },
+    },
+    titulos: [
+      // Seleção Espanhola
+      {
+        nome: "Eurocopa",
+        anos: "2012",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "UEFA Nations League",
+        anos: "2023",
+        clube: "Espanha",
+      },
+
+      // Barcelona
+      {
+        nome: "UEFA Champions League",
+        anos: "2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "La Liga",
+        anos: "2013, 2015, 2016, 2018, 2019, 2023",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2015, 2016, 2017, 2018, 2021",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2015",
+        clube: "Barcelona",
+      },
+      // Inter Miami
+      {
+        nome: "Leagues Cup",
+        anos: "2023",
+        clube: "Inter Miami",
+      },
+    ],
+    tags: [
+      "Jordi Alba",
+      "Barcelona",
+      "Inter Miami",
+      "Espanha",
+      "Lateral-esquerdo",
+      "JA18",
+    ],
   },
 
   // Lamine Yamal
@@ -7821,7 +8647,6 @@ export const jogadores = [
       "Barcelona",
       "Espanha",
       "Ponta-direita",
-      "Golden Boy",
       "LY10",
       "Jovem Talento",
     ],
@@ -8006,19 +8831,83 @@ export const jogadores = [
     nome: "Sergio Busquets",
     background: "plate",
     descricao:
-      "Volante conhecido por sua inteligência tática e passes precisos. Um dos pilares do Barcelona por muitos anos, Busquets é considerado um dos melhores volantes de sua geração.",
-    pagina: "https://www.instagram.com/5sergiobusquets/",
+      "Lenda viva do Barcelona e da Seleção Espanhola, Busquets é amplamente considerado o melhor volante defensivo de sua geração. Conhecido por sua inteligência tática inigualável, posicionamento perfeito e passes curtos precisos, foi o motor silencioso das equipes campeãs que dominaram o futebol mundial entre 2009 e 2015. Atualmente joga na MLS.",
+    pagina: "https://www.instagram.com/5sergiob/",
     nacionalidade: "Espanha",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/7/71/Sergio_Busquets_2018_%28cropped%29.jpg",
+      "https://livesport-ott-images.ssl.cdn.cra.cz/r900xfq60/d6602cb8-7698-426a-b4a8-8c235d80b1bd.jpeg",
     numero: "5",
     posicao: "Volante",
     dataNascimento: "16/07/1988",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Busquets possui o terceiro maior número de jogos na história do Barcelona. Seu estilo de jogo, baseado em antecipação e controle de bola, foi crucial para o sucesso do 'Tiki-Taka' de Pep Guardiola e da Espanha. Ele é um dos únicos jogadores a vencer duas Tríplices Coroas (Barcelona 2009 e 2015).",
+    clubes: [
+      createClub(
+        "Barcelona",
+        { inicio: "2008", fim: "2023" },
+        { jogos: 722, gols: 18, assistencias: 45 }
+      ),
+      createClub(
+        "Inter Miami",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 60, gols: 1, assistencias: 8 }
+      ),
+    ],
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2009", fim: "2022" },
+      estatisticas: { jogos: 143, gols: 2, assistencias: 10 },
+    },
+    titulos: [
+      // Seleção Espanhola
+      {
+        nome: "Copa do Mundo",
+        anos: "2010",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2012",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+
+      // Barcelona
+      {
+        nome: "UEFA Champions League",
+        anos: "2009, 2011, 2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "La Liga",
+        anos: "2009, 2010, 2011, 2013, 2015, 2016, 2018, 2019, 2023",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2009, 2011, 2015",
+        clube: "Barcelona",
+      },
+
+      // Inter Miami
+      {
+        nome: "Leagues Cup",
+        anos: "2023",
+        clube: "Inter Miami CF",
+      },
+    ],
+    tags: [
+      "Busquets",
+      "Barcelona",
+      "Inter Miami",
+      "Espanha",
+      "Volante",
+      "SB5",
+      "Campeão Mundial",
+      "Maestro",
+    ],
   },
 
   // Sergio Ramos
@@ -8026,19 +8915,98 @@ export const jogadores = [
     nome: "Sergio Ramos",
     background: "plate",
     descricao:
-      "Um dos maiores zagueiros da história do Real Madrid, Sergio Ramos é conhecido por sua liderança, força física e habilidade para marcar gols importantes. Com uma carreira vitoriosa, conquistou diversos títulos e se tornou um dos principais jogadores da Seleção Espanhola.",
-    pagina: "https://pt.wikipedia.org/wiki/Sergio_Ramos",
+      "Zagueiro central lendário, conhecido por sua liderança feroz, força física, habilidade de marcar gols cruciais em momentos decisivos (especialmente em finais), e por ser um dos defensores mais condecorados da história. Ramos foi o capitão do Real Madrid e da Seleção Espanhola nas suas eras mais vitoriosas.",
+    pagina: "https://www.instagram.com/sergioramos/",
     nacionalidade: "Espanha",
     imagem:
-      "https://conteudo.imguol.com.br/c/galeria/f2/2023/03/08/sergio-ramos-apos-a-derrota-do-psg-para-o-bayern-de-munique-na-champions-1678314320553_v2_3x4.jpg",
+      "https://conteudo.imguol.com.br/c/esporte/25/2025/06/13/sergio-ramos-comemora-gol-marcado-pelo-monterrey-do-mexico-1749843099255_v2_450x450.jpg",
     numero: "4",
-    posicao: "Zagueiro",
+    posicao: "Zagueiro/Lateral-direito",
     dataNascimento: "30/03/1986",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Ramos é o jogador europeu com o maior número de convocações pela Seleção Nacional (180 jogos pela Espanha). Ele marcou o famoso gol de cabeça aos '92:48' na final da Champions de 2014, que levou o Real Madrid ao empate e à conquista da 'Décima'.",
+    clubes: [
+      createClub(
+        "Real Madrid",
+        { inicio: "2005", fim: "2021" },
+        { jogos: 671, gols: 101, assistencias: 40 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2021", fim: "2023" },
+        { jogos: 58, gols: 6, assistencias: 1 }
+      ),
+      createClub(
+        "Sevilla",
+        { inicio: "2023", fim: "2025" },
+        { jogos: 60, gols: 10, assistencias: 2 }
+      ),
+      createClub(
+        "Monterrey",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 20, gols: 3, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2005", fim: "2021" },
+      estatisticas: { jogos: 180, gols: 23, assistencias: 8 },
+    },
+    titulos: [
+      // Seleção Espanhola
+      {
+        nome: "Copa do Mundo",
+        anos: "2010",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2008",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2012",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2014, 2016, 2017, 2018",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "La Liga",
+        anos: "2007, 2008, 2012, 2017, 2020",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2014, 2016, 2017, 2018",
+        clube: "Real Madrid",
+      },
+
+      // Paris Saint-Germain
+      {
+        nome: "Ligue 1",
+        anos: "2022, 2023",
+        clube: "Paris Saint-Germain",
+      },
+    ],
+    tags: [
+      "Sergio Ramos",
+      "Real Madrid",
+      "Sevilla",
+      "Espanha",
+      "Zagueiro",
+      "SR4",
+      "Campeão Mundial",
+    ],
   },
 
   // Thiago Alcântara
@@ -8236,19 +9204,92 @@ export const jogadores = [
     nome: "Antoine Griezmann",
     background: "plate",
     descricao:
-      "Um atacante versátil e habilidoso, conhecido por sua visão de jogo e capacidade de marcar gols.",
+      "Atacante/Meia-atacante versátil, conhecido por sua inteligência tática, visão de jogo e precisão nos passes e finalizações. Griezmann é o maior artilheiro da história do Atlético de Madrid e peça fundamental na Seleção Francesa, sendo campeão da Copa do Mundo em 2018.",
     pagina: "https://www.instagram.com/antogriezmann/",
     nacionalidade: "França",
     imagem:
-      "https://pbs.twimg.com/media/Ft2zVupWcAEbqI2?format=jpg&name=4096x4096",
+      "https://www.football-espana.net/wp-content/uploads/2024/10/atletico-de-madrid-v-cd-leganes-la-liga-ea-sports.jpg",
     numero: "7",
-    posicao: "Atacante",
-    dataNascimento: "21/3/1991",
+    posicao: "Atacante/Meia-atacante",
+    dataNascimento: "21/03/1991",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Griezmann é o recordista de gols do Atlético de Madrid. Foi Chuteira de Ouro e Melhor Jogador da Eurocopa de 2016 e Bota de Bronze da Copa do Mundo de 2018.",
+    clubes: [
+      createClub(
+        "Real Sociedad",
+        { inicio: "2009", fim: "2014" },
+        { jogos: 202, gols: 52, assistencias: 18 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2014", fim: "2019" },
+        { jogos: 257, gols: 133, assistencias: 50 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2019", fim: "2021" },
+        { jogos: 102, gols: 35, assistencias: 17 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2021", fim: "Presente" },
+        { jogos: 163, gols: 52, assistencias: 25 }
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "2014", fim: "Presente" },
+      estatisticas: { jogos: 145, gols: 48, assistencias: 35 },
+    },
+    titulos: [
+      // Seleção Francesa
+      {
+        nome: "Copa do Mundo",
+        anos: "2018",
+        clube: "França",
+        logoVariavel: true,
+      },
+      {
+        nome: "UEFA Nations League",
+        anos: "2021",
+        clube: "França",
+      },
+
+      // Atlético de Madrid
+      {
+        nome: "UEFA Europa League",
+        anos: "2018",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2018",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2014",
+        clube: "Atlético de Madrid",
+      },
+
+      // Barcelona
+      {
+        nome: "Copa del Rey",
+        anos: "2021",
+        clube: "Barcelona",
+      },
+    ],
+    tags: [
+      "Griezmann",
+      "Atlético de Madrid",
+      "França",
+      "Atacante",
+      "Meia-atacante",
+      "AG7",
+      "Campeão Mundial",
+      "Artilheiro Histórico",
+    ],
   },
 
   // Bradley Barcola
@@ -8424,24 +9465,79 @@ export const jogadores = [
     tags: [],
   },
 
-  //Hugo Lloris
+  // Hugo Lloris
   {
     nome: "Hugo Lloris",
     background: "plate",
     descricao:
-      "Goleiro francês conhecido por suas defesas espetaculares, Lloris foi capitão do Tottenham Hotspur e da Seleção Francesa.",
+      "Goleiro francês, lendário capitão da Seleção Francesa por mais de uma década. Lloris é conhecido por sua agilidade e reflexos espetaculares. Vencedor da Copa do Mundo de 2018, é um dos jogadores com mais partidas na história do Tottenham Hotspur, e atualmente atua nos Estados Unidos.",
     pagina: "https://www.instagram.com/hugolloris/",
     nacionalidade: "França",
     imagem:
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6c947d2c-fd29-4e2e-9231-4c8b393c4e00/dcfvaon-5c2704e1-10b4-49f0-a7f2-3dd266de9403.jpg/v1/fill/w_800,h_1149,q_75,strp/hugo_lloris_france_hd__football2k_by_rimshad7_dcfvaon-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTE0OSIsInBhdGgiOiJcL2ZcLzZjOTQ3ZDJjLWZkMjktNGUyZS05MjMxLTRjOGIzOTNjNGUwMFwvZGNmdmFvbi01YzI3MDRlMS0xMGI0LTQ5ZjAtYTdmMi0zZGQyNjZkZTk0MDMuanBnIiwid2lkdGgiOiI8PTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.dAHjtED9hWm10gXzMoRQH2Ko9TlECpvxuBehIk5q2Ps",
+      "https://frenchfootballweekly.com/wp-content/uploads/2025/03/Hugo-Lloris-the-disaster.jpg",
     numero: "1",
     posicao: "Goleiro",
     dataNascimento: "26/12/1986",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Lloris detém o recorde de mais partidas pela Seleção Francesa, com 145 jogos, e foi o capitão na campanha vitoriosa da Copa do Mundo de 2018.",
+    clubes: [
+      createClub(
+        "Lyon",
+        { inicio: "2008", fim: "2012" },
+        { jogos: 201, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2012", fim: "2023" },
+        { jogos: 447, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Los Angeles FC",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 65, gols: 0, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "2008", fim: "2022" },
+      estatisticas: { jogos: 145, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Seleção Francesa
+      {
+        nome: "Copa do Mundo",
+        anos: "2018",
+        clube: "França",
+        logoVariavel: true,
+      },
+      {
+        nome: "UEFA Nations League",
+        anos: "2021",
+        clube: "França",
+      },
+
+      // Lyon
+      {
+        nome: "Copa da França",
+        anos: "2012",
+        clube: "Lyon",
+      },
+      // LAFC
+      {
+        nome: "MLS Cup",
+        anos: "2024",
+        clube: "Los Angeles FC",
+      },
+    ],
+    tags: [
+      "Hugo Lloris",
+      "Goleiro",
+      "França",
+      "Tottenham",
+      "LAFC",
+      "Campeão Mundial",
+    ],
   },
 
   // Karim Benzema
@@ -8449,19 +9545,94 @@ export const jogadores = [
     nome: "Karim Benzema",
     background: "plate",
     descricao:
-      "O atacante francês é conhecido por sua habilidade técnica, finalização precisa e visão de jogo. Ele é um dos principais jogadores do Real Madrid e da seleção francesa.",
+      "Centroavante de classe mundial, conhecido por sua técnica refinada, visão de jogo e capacidade de atuar tanto como finalizador quanto como criador de jogadas. Benzema é o segundo maior artilheiro da história do Real Madrid e venceu a Bola de Ouro em 2022.",
     pagina: "https://www.instagram.com/karimbenzema/",
     nacionalidade: "França",
     imagem:
-      "https://tmssl.akamaized.net//images/foto/galerie/karim-benzema-real-madrid-2022-1665935878-94347.jpg",
+      "https://jpimg.com.br/uploads/2024/12/snapinsta.app_464055295_1191400095278692_5569361091680033287_n_1080-736x450.jpg",
     numero: "9",
-    posicao: "Atacante",
+    posicao: "Centroavante",
     dataNascimento: "19/12/1987",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Benzema foi o grande pilar do ataque do Real Madrid após a saída de Cristiano Ronaldo e se tornou o jogador mais velho a marcar um hat-trick na Champions League. É o segundo maior artilheiro da história do clube merengue.",
+    clubes: [
+      createClub(
+        "Lyon",
+        { inicio: "2004", fim: "2009" },
+        { jogos: 148, gols: 66, assistencias: 27 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2009", fim: "2023" },
+        { jogos: 648, gols: 354, assistencias: 165 }
+      ),
+      createClub(
+        "Al-Ittihad",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 60, gols: 35, assistencias: 10 }
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "2007", fim: "2022" },
+      estatisticas: { jogos: 97, gols: 37, assistencias: 20 },
+    },
+    titulos: [
+      // Individuais
+      {
+        nome: "Bola de Ouro",
+        anos: "2022",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da UEFA",
+        logo: "UEFA",
+        anos: "2022",
+        clube: "Individual",
+        categoria: "individual",
+      },
+
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2014, 2016, 2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "La Liga",
+        anos: "2012, 2017, 2020, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2014, 2016, 2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      // Lyon
+      {
+        nome: "Ligue 1",
+        anos: "2005, 2006, 2007, 2008",
+        clube: "Lyon",
+      },
+      // Al-Ittihad
+      {
+        nome: "Campeonato Saudita",
+        anos: "2024",
+        clube: "Al-Ittihad",
+      },
+    ],
+    tags: [
+      "Benzema",
+      "Real Madrid",
+      "Al-Ittihad",
+      "França",
+      "Centroavante",
+      "KB9",
+      "Ballon d'Or",
+      "Campeão da Champions",
+    ],
   },
 
   // Kingsley Coman
@@ -8589,19 +9760,103 @@ export const jogadores = [
     nome: "N'Golo Kanté",
     background: "plate",
     descricao:
-      "Conhecido por sua incrível capacidade de desarme e pela energia incansável em campo, N'Golo Kanté é um dos melhores volantes do mundo. O francês se destaca por sua leitura de jogo e por sua importância na recuperação da bola para sua equipe.",
-    pagina: "https://www.instagram.com/ngolokante/",
+      "Volante francês mundialmente aclamado por sua incansável capacidade de recuperação de bola, resistência física e humildade. Kanté foi peça central no título milagroso do Leicester City (2016) e subsequentemente liderou o meio-campo do Chelsea na conquista da Liga dos Campeões (2021) e da França na Copa do Mundo (2018).",
+    pagina: "https://www.instagram.com/nglkante/",
     nacionalidade: "França",
     imagem:
       "https://external-preview.redd.it/romano-al-ittihad-stance-on-ngolo-kant%C3%A9-remains-very-clear-v0-O_QBn20zVfaUZkTZJidI9x6M27nR-aB3PIgxX3mxXfg.jpg?auto=webp&s=68f20b193ee5148fa645d9045092ca20b67e9c21",
     numero: "7",
-    posicao: "Volante",
-    dataNascimento: "29 de março de 1991",
+    posicao: "Volante/Meio-campista Defensivo",
+    dataNascimento: "29/03/1991",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Kanté é um dos poucos jogadores a vencer a Premier League em temporadas consecutivas com clubes diferentes (Leicester e Chelsea). Seu prêmio de Jogador do Ano da PFA em 2017 foi amplamente celebrado por sua personalidade e estilo de jogo discreto, mas extremamente eficaz.",
+    clubes: [
+      createClub(
+        "Leicester City",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 40, gols: 1, assistencias: 4 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2016", fim: "2023" },
+        { jogos: 269, gols: 13, assistencias: 15 }
+      ),
+      createClub(
+        "Al-Ittihad",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 60, gols: 3, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "2016", fim: "Presente" },
+      estatisticas: { jogos: 75, gols: 2, assistencias: 2 },
+    },
+    titulos: [
+      // Seleção Francesa
+      {
+        nome: "Copa do Mundo",
+        anos: "2018",
+        clube: "França",
+        logoVariavel: true,
+      },
+      {
+        nome: "UEFA Nations League",
+        anos: "2021",
+        clube: "França",
+      },
+
+      // Chelsea
+      {
+        nome: "UEFA Champions League",
+        anos: "2021",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Premier League",
+        anos: "2017",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2022",
+        clube: "Chelsea",
+      },
+
+      // Leicester City
+      {
+        nome: "Premier League",
+        anos: "2016",
+        clube: "Leicester City",
+      },
+
+      // Al-Ittihad
+      {
+        nome: "Campeonato Saudita",
+        anos: "2024",
+        clube: "Al-Ittihad",
+      },
+
+      // Individuais
+      {
+        nome: "Jogador do Ano da PFA",
+        logo: "Premier League",
+        anos: "2017",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Kanté",
+      "Chelsea",
+      "Leicester City",
+      "França",
+      "Volante",
+      "NGK7",
+      "Campeão Mundial",
+      "Campeão da Champions",
+    ],
   },
 
   // Ousmane Dembélé
@@ -9033,7 +10288,7 @@ export const jogadores = [
     posicao: "Centroavante",
     nacionalidade: "Inglaterra",
     dataNascimento: "28/07/1993",
-    status: "Ativo (Bayern de Munique)",
+    status: "Ativo",
     clubes: [
       createClub(
         "Tottenham Hotspur",
@@ -9238,6 +10493,106 @@ export const jogadores = [
     ],
   },
 
+  // ITÁLIA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Jorginho
+  {
+    nome: "Jorginho",
+    background: "plate",
+    descricao:
+      "Meio-campista ítalo-brasileiro conhecido por ser um 'regista', o maestro do meio-campo. Jorginho é famoso por sua capacidade de ditar o ritmo de jogo, precisão nos passes curtos e longos, e eficiência na conversão de pênaltis. Foi eleito o Melhor Jogador da UEFA em 2021, ano em que conquistou a Champions com o Chelsea e a Eurocopa com a Itália. Em 2025, retornou ao Brasil para defender o Flamengo.",
+    pagina: "https://www.instagram.com/jorginhofrello/",
+    nacionalidade: "Itália",
+    imagem:
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2025/06/54596038431_b1e5445ad6_k-aspect-ratio-512-320.jpg",
+    numero: "21",
+    posicao: "Volante",
+    dataNascimento: "20/12/1991",
+    status: "Ativo",
+    curiosidades:
+      "Nascido em Imbituba, Santa Catarina, Jorginho se mudou para a Itália aos 15 anos e defendeu a seleção italiana. Ele ficou em 3º lugar na votação da Bola de Ouro de 2021, atrás de Messi e Lewandowski.",
+    clubes: [
+      createClub(
+        "Napoli",
+        { inicio: "2014", fim: "2018" },
+        { jogos: 160, gols: 6, assistencias: 14 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2018", fim: "2023" },
+        { jogos: 213, gols: 29, assistencias: 8 }
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "2023", fim: "2025" },
+        { jogos: 60, gols: 2, assistencias: 3 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 20, gols: 1, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "2016", fim: "Presente" },
+      estatisticas: { jogos: 60, gols: 5, assistencias: 5 },
+    },
+    titulos: [
+      // Seleção Italiana
+      {
+        nome: "Eurocopa",
+        anos: "2020",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+
+      // Chelsea
+      {
+        nome: "UEFA Champions League",
+        anos: "2021",
+        clube: "Chelsea",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2019",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2022",
+        clube: "Chelsea",
+      },
+
+      // Individuais
+      {
+        nome: "Melhor Jogador do Ano",
+        logo: "UEFA",
+        anos: "2021",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Europeu",
+        logo: "UEFA",
+        anos: "2021",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Jorginho",
+      "Flamengo",
+      "Itália",
+      "Regista",
+      "Volante",
+      "J5",
+      "Campeão da Champions",
+      "Campeão da Euro",
+      "Maestro",
+    ],
+  },
+
   // PORTUGAL -------------------------------------------------------------------------------------------------------------------------------------------------------
 
   // Cristiano Ronaldo
@@ -9283,13 +10638,13 @@ export const jogadores = [
       createClub(
         "Al-Nassr",
         { inicio: "2023", fim: "atual" },
-        { jogos: 92, gols: 84, assistencias: 3 }
+        { jogos: 123, gols: 114, assistencias: 25 }
       ),
     ],
     selecao: {
       nome: "Portugal",
-      periodo: { inicio: "2003", fim: "atual" }, // Ajuste o ano final se necessário
-      estatisticas: { jogos: 217, gols: 135, assistencias: 42 }, // Dados aproximados
+      periodo: { inicio: "2003", fim: "atual" },
+      estatisticas: { jogos: 217, gols: 135, assistencias: 42 },
     },
     titulos: [
       // Sporting CP
@@ -9446,12 +10801,14 @@ export const jogadores = [
         logo: "FIFPro",
       },
       {
-        nome: "Melhor jogador do século XXI",
+        nome: "Melhor jogador do século",
+        anos: "Século XXI",
         categoria: "individual",
         logo: "Globe Soccer Awards",
       },
       {
         nome: "Melhor jogador da história",
+        anos: "História",
         categoria: "individual",
         logo: "France Football",
       },
@@ -9461,7 +10818,7 @@ export const jogadores = [
         logo: "FIFA",
       },
     ],
-    tags: [],
+    tags: ["Cr7", "Cristiano"],
   },
 
   // João Neves
