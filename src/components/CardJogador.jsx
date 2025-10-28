@@ -23,6 +23,16 @@ function CardJogador({ jogador }) {
             src={`/img__players/Logo_${jogador.nome.replace(/ /g, "_")}.png`}
             alt=""
           />
+          <img
+            className="img-superior"
+            src={`/img__detalhes/${jogador.background}_1.png`}
+            alt=""
+          />
+          <img
+            className="img-inferior"
+            src={`/img__detalhes/${jogador.background}_2.png`}
+            alt=""
+          />
         </div>
         <div className="div-info">
           <div className="numero-nome-nacionalidade">
@@ -89,13 +99,18 @@ function CardJogador({ jogador }) {
 
       {mostrarDetalhes && (
         <div className="conteudo-oculto">
-          <div className="tabelas-left">
-            <TabelaEstatisticas jogador={jogador} />
-            <TabelaTitulosIndiividuais jogador={jogador} />
+          <div className="tabelas">
+            <div className="tabelas-left">
+              <TabelaEstatisticas jogador={jogador} />
+              <TabelaTitulosIndiividuais jogador={jogador} />
+            </div>
+            <div className="tabelas-right">
+              <TabelaTitulosPorEquipe jogador={jogador} />
+            </div>
           </div>
-          <div className="tabelas-right">
-            <TabelaTitulosPorEquipe jogador={jogador} />
-          </div>
+          {jogador.ultima_atualizacao && (
+            <p>Última Atualização: {jogador.ultima_atualizacao}</p>
+          )}
         </div>
       )}
     </div>

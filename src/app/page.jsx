@@ -57,16 +57,19 @@ export default function HomePage() {
     const correspondeCamposPrincipais =
       item.nome?.toLowerCase().includes(termo) ||
       item.nacionalidade?.toLowerCase().includes(termo) ||
+      item.posicao?.toLowerCase().includes(termo) ||
       item.background?.toLowerCase().includes(termo);
-
-    if (correspondeCamposPrincipais) return true;
 
     const correspondeClubeOuTag =
       (item.clubes || []).some((clube) =>
         clube.nome?.toLowerCase().includes(termo)
-      ) || (item.tags || []).some((tag) => tag.toLowerCase().includes(termo));
+      ) ||
+      (item.tags || []).some((tag) => tag.toLowerCase().includes(termo)) ||
+      (item.titulos || []).some((titulo) =>
+        titulo.nome.toLowerCase().includes(termo)
+      );
 
-    return correspondeClubeOuTag;
+    return correspondeClubeOuTag || correspondeCamposPrincipais;
   });
 
   let resultadosOrdenados = resultadosFiltrados;

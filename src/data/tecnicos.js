@@ -91,7 +91,7 @@ export const tecnicos = [
         clube: "Manchester City",
       },
       {
-        nome: "EFL Cup",
+        nome: "Copa da Liga Inglesa",
         anos: "2018, 2019, 2020 e 2021",
         clube: "Manchester City",
       },

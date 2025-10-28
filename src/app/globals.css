@@ -208,6 +208,7 @@ ul {
 }
 
 .jogador {
+  position: relative;
   background-image: url(/img__fundos/Fundo_resultado.png);
   background-size: cover;
   border-radius: 0.6rem;
@@ -250,10 +251,30 @@ ul {
 
 .dado_imgMarca {
   bottom: 0;
-  right: 1rem;
+  right: 40px;
   max-height: 240px;
   max-width: 350px;
   position: absolute;
+  z-index: 12;
+}
+
+.img-superior,
+.img-inferior {
+  position: absolute;
+}
+
+.img-superior {
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  z-index: 10;
+}
+
+.img-inferior {
+  bottom: -14px;
+  left: -14px;
+  width: 110px;
+  z-index: 11;
 }
 
 .div-info {
@@ -346,6 +367,16 @@ th {
 }
 
 .conteudo-oculto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  text-align: start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.tabelas {
   display: flex;
   flex-direction: row;
   align-items: start;
@@ -469,6 +500,34 @@ footer {
   }
 }
 
+#diamond {
+  background-color: #4fd9ec;
+  box-shadow: 0 20px 20px rgba(28, 244, 255, 0.458);
+
+  & h2 {
+    color: #13d6f0;
+  }
+
+  & .div-superior .div-left .dado-imagem {
+    background-color: #32c7e1;
+    box-shadow: -10px 15px 9px -2px rgba(42, 216, 255, 0.458);
+  }
+}
+
+#titanium {
+  background-color: #3c4048;
+  box-shadow: 0 20px 20px rgba(20, 20, 20, 0.5);
+
+  & h2 {
+    color: #4d4d4d;
+  }
+
+  & .div-superior .div-left .dado-imagem {
+    background-color: #2f3238;
+    box-shadow: -10px 15px 9px -2px rgba(60, 60, 60, 0.6);
+  }
+}
+
 #plate {
   background-color: #d2d2d2;
   box-shadow: 0 20px 20px rgba(255, 255, 255, 0.458);
@@ -484,16 +543,16 @@ footer {
 }
 
 #promise {
-  background-color: #b1efff;
-  box-shadow: 0 20px 20px rgba(20, 65, 86, 0.458);
+  background-color: #b7ffb1;
+  box-shadow: 0 20px 20px rgba(31, 86, 20, 0.458);
 
   & h2 {
-    color: #03cee9;
+    color: #16e903;
   }
 
   & .div-superior .div-left .dado-imagem {
-    background-color: #03cee9;
-    box-shadow: -10px 15px 9px -2px rgba(41, 174, 236, 0.711);
+    background-color: #2de903;
+    box-shadow: -10px 15px 9px -2px rgba(41, 236, 51, 0.711);
   }
 }
 
@@ -631,7 +690,6 @@ footer {
   }
 
   .dado_imgMarca {
-    right: 45px;
     height: 200px;
     position: absolute;
   }
@@ -658,7 +716,7 @@ footer {
     max-width: 80vw;
   }
 
-  .conteudo-oculto {
+  .tabelas {
     flex-direction: column;
   }
 
@@ -746,7 +804,6 @@ footer {
   }
 
   .dado_imgMarca {
-    right: 20px;
     height: 180px;
     position: absolute;
   }
@@ -780,7 +837,7 @@ footer {
     max-width: 80vw;
   }
 
-  .conteudo-oculto {
+  .tabelas {
     flex-direction: column;
   }
 
