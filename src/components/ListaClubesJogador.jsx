@@ -4,7 +4,13 @@ function ListaClubesJogador({ clubes }) {
   }
 
   const mostrar =
-    innerWidth > 700 ? 0 : clubes.length > 6 ? clubes.length - 6 : "";
+    innerWidth > 700
+      ? clubes.length > 10
+        ? clubes.length - 10
+        : 0
+      : clubes.length > 6
+      ? clubes.length - 6
+      : "";
 
   return (
     <div className="clubes-tecnicos">

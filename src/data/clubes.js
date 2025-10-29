@@ -322,7 +322,7 @@ export const clubes = [
     localizacao: "Paris, França",
     titulos: [
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         categoria: "individual",
         anos: "2013, 2014, 2015, 2016, 2018, 2019, 2020, 2022, 2023",
       },
@@ -359,7 +359,11 @@ export const clubes = [
     fundacao: "1886",
     localizacao: "Londres, Inglaterra",
     titulos: [
-      { nome: "Premier League", categoria: "individual", anos: "2004, 2002" },
+      {
+        nome: "Campeonato Inglês",
+        categoria: "individual",
+        anos: "2004, 2002",
+      },
       {
         nome: "FA Cup",
         categoria: "individual",
@@ -385,7 +389,7 @@ export const clubes = [
       "londres",
       "arsenal",
       "the gunners",
-      "premier league",
+      "Campeonato Inglês",
     ],
     img: "https://upload.wikimedia.org/wikipedia/pt/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png",
   },
@@ -404,7 +408,7 @@ export const clubes = [
         anos: "2012, 2021",
       },
       { nome: "Liga Europa da UEFA", categoria: "individual", anos: "2013" },
-      { nome: "Premier League", categoria: "individual", anos: "6 vezes" },
+      { nome: "Campeonato Inglês", categoria: "individual", anos: "6 vezes" },
       { nome: "FA Cup", categoria: "individual", anos: "8 vezes" },
       {
         nome: "Copa da Liga Inglesa",
@@ -434,7 +438,7 @@ export const clubes = [
     localizacao: "Liverpool, Inglaterra",
     titulos: [
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         categoria: "individual",
         anos: "1890-91, 1914-15, 1927-28, 1931-32, 1938-39, 1962-63, 1969-70, 1984-85, 1986-87",
       },
@@ -458,7 +462,7 @@ export const clubes = [
       "liverpool",
       "everton",
       "toffees",
-      "premier league",
+      "Campeonato Inglês",
     ],
     img: "https://upload.wikimedia.org/wikipedia/pt/a/ae/Everton_FC_logo_2014.png",
   },
@@ -477,7 +481,7 @@ export const clubes = [
         anos: "2019, 2005, 2001",
       },
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         categoria: "individual",
         anos: "2020, 2019, 1990",
       },
@@ -508,7 +512,7 @@ export const clubes = [
     localizacao: "Manchester, Inglaterra",
     titulos: [
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         categoria: "individual",
         anos: "2023, 2022, 2019, 2018, 2017, 2014, 2012",
       },
@@ -532,7 +536,7 @@ export const clubes = [
       "inglaterra",
       "manchester",
       "manchester city",
-      "premier league",
+      "Campeonato Inglês",
     ],
     img: "https://upload.wikimedia.org/wikipedia/pt/0/02/Manchester_City_Football_Club.png",
   },
@@ -546,7 +550,7 @@ export const clubes = [
     localizacao: "Manchester, Inglaterra",
     titulos: [
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         categoria: "individual",
         anos: "2013, 2008, 2007, 2003, ... 20 vezes",
       },
@@ -575,7 +579,7 @@ export const clubes = [
       "manchester",
       "manchester united",
       "diabos vermelhos",
-      "premier league",
+      "Campeonato Inglês",
     ],
     img: "https://upload.wikimedia.org/wikipedia/pt/b/b6/Manchester_United_FC_logo.png?20140304180759",
   },
@@ -619,7 +623,7 @@ export const clubes = [
       "londres",
       "tottenham",
       "spurs",
-      "premier league",
+      "Campeonato Inglês",
     ],
     img: "https://logodetimes.com/times/tottenham-hotspur-football-club/tottenham-hotspur-football-club-4096.png",
   },

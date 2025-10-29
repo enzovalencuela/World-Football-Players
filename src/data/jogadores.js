@@ -597,7 +597,7 @@ export const jogadores = [
         clube: "Benfica",
       },
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2018, 2019, 2020, 2022",
         clube: "Paris Saint-Germain",
       },
@@ -843,7 +843,7 @@ export const jogadores = [
 
       // Chelsea
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2010",
         clube: "Chelsea",
       },
@@ -1236,7 +1236,11 @@ export const jogadores = [
         anos: "2014, 2016, 2017, 2018, 2022",
         clube: "Real Madrid",
       },
-      { nome: "La Liga", anos: "2017, 2020, 2022, 2024", clube: "Real Madrid" },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2017, 2020, 2022, 2024",
+        clube: "Real Madrid",
+      },
       {
         nome: "Supercopa da UEFA",
         anos: "2014, 2016, 2017, 2022",
@@ -1400,14 +1404,14 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2012",
         clube: "Real Madrid",
       },
 
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2016, 2018, 2019, 2020, 2022",
         clube: "Paris Saint-Germain",
       },
@@ -2273,7 +2277,7 @@ export const jogadores = [
     titulos: [
       // Barcelona
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2005, 2006, 2009, 2010, 2011, 2013, 2015, 2016, 2018, 2019",
         clube: "Barcelona",
       },
@@ -2304,7 +2308,7 @@ export const jogadores = [
       },
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2022, 2023",
         clube: "Paris Saint-Germain",
       },
@@ -2513,7 +2517,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2018, 2019, 2021, 2022, 2023, 2025",
         clube: "Manchester City",
       },
@@ -2530,7 +2534,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Jogador do Ano da PFA",
-        logo: "Premier League",
+        logo: "Campeonato Inglês",
         anos: "2020, 2021",
         clube: "Individual",
         categoria: "individual",
@@ -2614,7 +2618,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2020, 2022",
         clube: "Real Madrid",
       },
@@ -2631,7 +2635,7 @@ export const jogadores = [
 
       // Chelsea
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2015, 2017",
         clube: "Chelsea",
       },
@@ -2643,7 +2647,7 @@ export const jogadores = [
 
       // Atlético de Madrid
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2014",
         clube: "Atlético de Madrid",
       },
@@ -2695,7 +2699,7 @@ export const jogadores = [
       },
       {
         nome: "Luva de Ouro da Premier League",
-        logo: "Premier League",
+        logo: "Campeonato Inglês",
         anos: "2017",
         clube: "Individual",
         categoria: "individual",
@@ -2732,7 +2736,7 @@ export const jogadores = [
   // Andreas Pereira
   {
     nome: "Andreas Pereira",
-    background: "#",
+    background: "plate",
     pagina: "https://www.instagram.com/andreaspereira/",
     nacionalidade: "Brasil",
     numero: "8",
@@ -2963,7 +2967,7 @@ export const jogadores = [
   // Alex Sandro
   {
     nome: "Alex Sandro",
-    background: "#",
+    background: "titanium",
     pagina: "https://www.instagram.com/alxsndro12/",
     nacionalidade: "Brasil",
     numero: "26",
@@ -3068,12 +3072,13 @@ export const jogadores = [
       },
     ],
     tags: ["Alex Sandro", "Alexandre", "AS12", "AS13"],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Alisson Becker
   {
     nome: "Alisson Becker",
-    background: "#",
+    background: "diamond",
     pagina: "https://www.instagram.com/alissonbecker/",
     nacionalidade: "Brasil",
     numero: "1",
@@ -3114,7 +3119,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2020",
         clube: "Liverpool",
       },
@@ -3171,7 +3176,7 @@ export const jogadores = [
       },
       {
         nome: "Luva de Ouro",
-        logo: "Premier League",
+        logo: "Campeonato Inglês",
         anos: "2019",
         clube: "Individual",
         categoria: "individual",
@@ -3183,7 +3188,7 @@ export const jogadores = [
   //Antony
   {
     nome: "Antony",
-    background: "#",
+    background: "titanium",
     pagina: "https://www.instagram.com/antony00/",
     nacionalidade: "Brasil",
     numero: "7",
@@ -3223,7 +3228,7 @@ export const jogadores = [
     },
     titulos: [
       {
-        nome: "Eredivisie",
+        nome: "Campeonato Holandês",
         anos: "2021, 2022",
         clube: "Ajax",
       },
@@ -3251,24 +3256,121 @@ export const jogadores = [
     tags: [],
   },
 
-  //Arthur
+  // Arthur Melo
   {
-    nome: "Arthur",
-    background: "#",
-    pagina: "https://www.instagram.com/arthurgomes/",
-    nacionalidade: "Brasil",
-    numero: "18",
-    posicao: "Volante",
-    dataNascimento: "12/05/1996",
-    status: "Ativo",
-    imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/FC_Zenit_Saint_Petersburg_vs._Juventus%2C_20_October_2021_52_%28Arthur_Melo%29.jpg/640px-FC_Zenit_Saint_Petersburg_vs._Juventus%2C_20_October_2021_52_%28Arthur_Melo%29.jpg",
+    nome: "Arthur Melo",
+    background: "titanium",
     descricao:
-      "Volante brasileiro conhecido por sua técnica e visão de jogo, Arthur já atuou por grandes clubes como Grêmio e Barcelona.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+      "Volante de passes precisos e excelente visão de jogo, revelado pelo Grêmio. Foi protagonista na conquista da Copa Libertadores 2017 e campeão da Copa América 2019, sendo eleito para a seleção do torneio. Passagens por Barcelona e Juventus, com títulos nacionais na Espanha e Itália.",
+    pagina: "https://pt.wikipedia.org/wiki/Arthur_Melo",
+    numero: "29",
+    posicao: "Volante / Meia Central",
+    dataNascimento: "12/08/1996",
+    status: "Ativo",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://cdn.omatogrossense.com/app/uploads/2025/08/28132047/5008248282127904574.jpg",
+    clubes: [
+      createClub(
+        "Grêmio",
+        { inicio: "2015", fim: "2018" },
+        { jogos: 70, gols: 6, assistencias: 1 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2018", fim: "2020" },
+        { jogos: 72, gols: 4, assistencias: 6 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 63, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "2023", fim: "2024" },
+        { jogos: 48, gols: 2, assistencias: 3 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 15, gols: 0, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2018", fim: "2020" },
+      estatisticas: { jogos: 22, gols: 1, assistencias: 0 },
+      participacoes: ["Copa América (2019)"],
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Grêmio
+      {
+        nome: "Copa Libertadores",
+        anos: "2017",
+        clube: "Grêmio",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2018",
+        clube: "Grêmio",
+      },
+
+      // Barcelona
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2018/19",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2018",
+        clube: "Barcelona",
+      },
+
+      // Juventus
+      {
+        nome: "Supercopa da Itália",
+        anos: "2020",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2020/21",
+        clube: "Juventus",
+      },
+
+      // Individuais
+      {
+        nome: "Melhor Jogador da Final da Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2017",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa América",
+        logo: "Copa América",
+        anos: "2019",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Melhor Volante do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2017",
+        categoria: "individual",
+      },
+    ],
     tags: [],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Ayrton Lucas
@@ -3409,12 +3511,13 @@ export const jogadores = [
       },
     ],
     tags: ["Bebeto", "Bebeto7"],
+    ultima_atualizacao: "27/10/25",
   },
 
   // Bruno Henrique
   {
     nome: "Bruno Henrique",
-    background: "#",
+    background: "plate",
     descricao:
       "Atacante brasileiro conhecido por sua velocidade explosiva, habilidade no um contra um e poder de decisão em jogos importantes. Ídolo do Flamengo, foi o protagonista na campanha vitoriosa da Libertadores e do Brasileirão de 2019, cunhando o bordão 'outro patamar'.",
     pagina: "https://www.instagram.com/brunohenrique27oficial/",
@@ -3536,32 +3639,9 @@ export const jogadores = [
       "BH27",
       "Bruno Henrique Flamengo",
       "Bruno Enrique",
-      "Flamengo",
-      "Atacante",
-      "Ponta Esquerda",
-      "Rei da América 2019",
       "Outro Patamar",
     ],
-  },
-
-  // Caça-Rato
-  {
-    nome: "Caça Rato",
-    background: "#",
-    pagina: "https://www.instagram.com/cr7.flavio/",
-    nacionalidade: "Brasil",
-    numero: "7",
-    posicao: "Atacante",
-    dataNascimento: "29/06/1986",
-    status: "Ativo",
-    imagem:
-      "https://fferj.azurewebsites.net/admin/AzureStorage/GetImage?path=2016/4/12/cd232328-abec-4f47-9015-585e40217e36.jpg",
-    descricao:
-      "Atacante rápido e habilidoso, Caça-Rato é conhecido por sua agilidade e capacidade de marcar gols. Ele já passou por diversos clubes brasileiros, sempre buscando novas oportunidades.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    ultima_atualizacao: "27/10/25",
   },
 
   // Cafu
@@ -4035,7 +4115,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/casemiro/",
     nacionalidade: "Brasil",
     numero: "18",
-    posicao: "Volante (Meio-campo)",
+    posicao: "Volante",
     dataNascimento: "19/02/1992",
     status: "Ativo",
     imagem:
@@ -4082,7 +4162,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2017, 2020, 2022",
         clube: "Real Madrid",
       },
@@ -4137,43 +4217,126 @@ export const jogadores = [
     ultima_atualizacao: "27/10/25",
   },
 
-  // Cássio
+  // Cássio Ramos
   {
-    nome: "Cássio",
-    background: "#",
+    nome: "Cássio Ramos",
+    background: "titanium",
     descricao:
-      "Ídolo da torcida corintiana, Cássio é um goleiro experiente e conhecido por suas defesas milagrosas. Recentemente, o jogador foi transferido ao Cruzeiro.",
-    pagina: "https://www.instagram.com/cassio/",
-    nacionalidade: "Brasil",
-    imagem:
-      "https://i.pinimg.com/736x/8a/12/a2/8a12a2fbb94de06eda7d951104f6ebd4.jpg",
+      "Goleiro lendário e o segundo jogador com mais jogos na história do Corinthians. Peça fundamental nas conquistas da Libertadores e do Mundial de Clubes em 2012, e bicampeão brasileiro. Conhecido por sua liderança e impressionante defesa de pênaltis.",
+    pagina: "https://pt.wikipedia.org/wiki/C%C3%A1ssio_Ramos",
     numero: "12",
     posicao: "Goleiro",
-    dataNascimento: "	6 de junho de 1987",
+    dataNascimento: "06/06/1987",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
-  },
-
-  // Craque Neto
-  {
-    nome: "Craque Neto",
-    background: "#",
-    descricao:
-      "Ex-jogador de futebol brasileiro, conhecido por sua habilidade com a bola parada e sua paixão pelo Corinthians. Atualmente, é um dos comentaristas esportivos mais populares do Brasil, famoso por suas opiniões fortes e polêmicas sobre o futebol.",
-    pagina: "https://www.instagram.com/craquenetooficial/",
     nacionalidade: "Brasil",
-    imagem: "https://pbs.twimg.com/media/FyoUpeGXoAETtzq.jpg:large",
-    numero: "10",
-    posicao: "Meio-campo",
-    dataNascimento: "09/09/1966",
-    status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    imagem:
+      "https://zeiro.com.br/wp-content/uploads/2025/04/54474488699_0762e6d2ca_c.jpg",
+    clubes: [
+      createClub(
+        "Grêmio",
+        { inicio: "2006", fim: "2007" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "PSV Eindhoven",
+        { inicio: "2007", fim: "2011" },
+        { jogos: 5, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Sparta Rotterdam",
+        { inicio: "2008", fim: "2009" },
+        { jogos: 14, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2012", fim: "2024" },
+        { jogos: 712, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 57, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2007", fim: "2018" },
+      estatisticas: { jogos: 1, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Corinthians
+      {
+        nome: "Mundial de Clubes",
+        anos: "2012",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2012",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2015, 2017",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2013, 2017, 2018, 2019",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2013",
+        clube: "Corinthians",
+      },
+
+      // PSV Eindhoven
+      {
+        nome: "Campeonato Holandês",
+        anos: "2008",
+        clube: "PSV Eindhoven",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Campeonato Sul-Americano Sub-20",
+        anos: "2007",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Melhor Goleiro do Mundial de Clubes",
+        logo: "Mundial de Clubes",
+        anos: "2012",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata",
+        logo: "Placar",
+        anos: "2015, 2017",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Prêmio Craque do Brasileirão",
+        logo: "Campeonato Brasileiro",
+        anos: "2015",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Cássio Ramos"],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Daniel Alves
@@ -4240,14 +4403,16 @@ export const jogadores = [
     titulos: [
       //Bahia
       { nome: "Copa do Nordeste", anos: "2002", clube: "Bahia" },
+
       // Sevilla
       { nome: "UEFA Europa League", anos: "2006, 2007", clube: "Sevilla" },
       { nome: "Supercopa da UEFA", anos: "2006", clube: "Sevilla" },
       { nome: "Copa del Rey", anos: "2007", clube: "Sevilla" },
       { nome: "Supercopa da Espanha", anos: "2007", clube: "Sevilla" },
-      // Barcelona - Uma era de domínio
+
+      // Barcelona
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2009, 2012, 2015, 2016",
         clube: "Barcelona",
       },
@@ -4276,12 +4441,14 @@ export const jogadores = [
         anos: "2009, 2011, 2015",
         clube: "Barcelona",
       },
+
       // Juventus
       { nome: "Serie A", anos: "2017", clube: "Juventus" },
       { nome: "Copa Da Itália", anos: "2017", clube: "Juventus" },
+
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2018, 2019",
         clube: "Paris Saint-Germain",
       },
@@ -4300,9 +4467,11 @@ export const jogadores = [
         anos: "2017",
         clube: "Paris Saint-Germain",
       },
+
       // São Paulo
       { nome: "Campeonato Paulista", anos: "2021", clube: "São Paulo" },
-      // Seleção Brasileira
+
+      // Brasil
       {
         nome: "Copa América",
         anos: "2007",
@@ -4372,7 +4541,7 @@ export const jogadores = [
 
   {
     nome: "Danilo da Silva",
-    background: "#",
+    background: "diamond",
     descricao:
       "Lateral-esquerdo versátil e habilidoso, Danilo se destaca por sua força física e qualidade nos passes. Atualmente é um dos principais jogadores da Seleção Brasileira.",
     pagina: "https://www.instagram.com/danilodls/",
@@ -4467,12 +4636,12 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2016/17",
         clube: "Real Madrid",
       },
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2017/18, 2018/19",
         clube: "Manchester City",
       },
@@ -4692,7 +4861,7 @@ export const jogadores = [
         clube: "Chelsea",
       },
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2017",
         clube: "Chelsea",
       },
@@ -4704,7 +4873,7 @@ export const jogadores = [
 
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2015, 2016",
         clube: "Paris Saint-Germain",
       },
@@ -4979,7 +5148,7 @@ export const jogadores = [
 
       // Atlético de Madrid
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2014",
         clube: "Atlético de Madrid",
       },
@@ -5223,21 +5392,104 @@ export const jogadores = [
   // Éder Militão
   {
     nome: "Éder Militão",
-    background: "#",
+    background: "diamond",
     descricao:
-      "Zagueiro brasileiro, conhecido por sua velocidade, força física e habilidade nos desarmes. É considerado uma das maiores promessas da defesa mundial.",
-    pagina: "https://www.instagram.com/edermilitao/",
-    nacionalidade: "Brasil",
-    imagem:
-      "https://es.coachesvoice.com/wp-content/uploads/2019/03/MilitaoMobile.jpg",
+      "Zagueiro central rápido e versátil, considerado um dos melhores defensores de sua geração. Consolidou-se no Real Madrid, sendo peça-chave em múltiplas conquistas da UEFA Champions League. Também atua como lateral-direito e é campeão da Copa América com a Seleção Brasileira.",
+    pagina: "https://pt.wikipedia.org/wiki/%C3%89der_Milit%C3%A3o",
     numero: "3",
     posicao: "Zagueiro",
-    dataNascimento: "18 de janeiro de 1998",
+    dataNascimento: "18/01/1998",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    nacionalidade: "Brasil",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/af/2024/09/29/eder-militao-comemora-gol-marcado-pelo-real-madrid-contra-o-atletico-de-madri-pelo-campeonato-espanhol-1727642356503_v2_1x1.jpg",
+    clubes: [
+      createClub(
+        "São Paulo",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 57, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 47, gols: 5, assistencias: 4 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2019", fim: "Presente" },
+        { jogos: 182, gols: 13, assistencias: 6 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2018", fim: "Presente" },
+      estatisticas: { jogos: 36, gols: 2, assistencias: 1 },
+    },
+    titulos: [
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2020, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2022, 2023",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2022, 2025",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2020, 2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2023",
+        clube: "Real Madrid",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Superclássico das Américas",
+        anos: "2018",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Porto
+      {
+        nome: "Defensor do Mês",
+        logo: "Primeira Liga",
+        anos: "5 vezes (2018/19)",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Ano",
+        logo: "Primeira Liga",
+        anos: "2018/19",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Eder Militão", "Eder Militao"],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Ederson
@@ -5281,7 +5533,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2018, 2019, 2021, 2022, 2023",
         clube: "Manchester City",
       },
@@ -5412,7 +5664,7 @@ export const jogadores = [
   // Everton Cebolinha
   {
     nome: "Everton Cebolinha",
-    background: "#",
+    background: "plate",
     imagem:
       "https://tntsports.com.br/__export/1718325351451/sites/esporteinterativo/img/2024/06/13/20240613-213214_2060267_2871.jpg",
     pagina: "https://www.instagram.com/evertons/",
@@ -5467,6 +5719,7 @@ export const jogadores = [
         anos: "2018, 2019, 2020",
         clube: "Grêmio",
       },
+
       // Flamengo
       {
         nome: "Copa do Brasil",
@@ -5483,6 +5736,7 @@ export const jogadores = [
         anos: "2024",
         clube: "Flamengo",
       },
+
       // Seleção Brasileira
       {
         nome: "Copa América",
@@ -5490,6 +5744,7 @@ export const jogadores = [
         clube: "Brasil",
         logoVariavel: true,
       },
+
       // Individuais
       {
         nome: "Artilheiro da Copa América",
@@ -5522,45 +5777,171 @@ export const jogadores = [
         categoria: "individual",
       },
     ],
-    tags: [
-      "Everton",
-      "Cebolinha",
-      "Everton Cebolinha",
-      "Flamengo",
-      "Grêmio",
-      "Benfica",
-      "Brasil",
-      "Atacante",
-      "Ponta Esquerda",
-    ],
+    tags: ["Everton", "Cebolinha", "Everton Cebolinha"],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Éverton Ribeiro
   {
     nome: "Éverton Ribeiro",
-    background: "#",
+    background: "titanium",
     descricao:
-      "Meia brasileiro conhecido por sua visão de jogo, passes precisos e habilidade em cobranças de falta. Já atuou por grandes clubes como Cruzeiro e Flamengo.",
-    pagina: "https://www.instagram.com/evertonribeiro/",
+      "Meio-campista clássico, extremamente técnico e conhecido por sua visão de jogo e dribles. Único jogador a ser bicampeão brasileiro consecutivo por dois clubes diferentes (Cruzeiro e Flamengo) e bicampeão da Libertadores. Foi eleito o Craque do Brasileirão por duas vezes e defendeu a Seleção Brasileira na Copa do Mundo de 2022.",
+    pagina: "https://pt.wikipedia.org/wiki/%C3%89verton_Ribeiro",
+    numero: "10",
+    posicao: "Meio-campista (Meia-armador)",
+    dataNascimento: "10/04/1989",
+    status: "Ativo",
     nacionalidade: "Brasil",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/72/2024/01/24/everton-ribeiro-comemora-primeiro-gol-pelo-bahia-1706143661502_v2_450x600.jpg",
-    numero: "7",
-    posicao: "Meia",
-    dataNascimento: "10/04/1989",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Corinthians",
+        { inicio: "2007", fim: "2011" },
+        { jogos: 18, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "São Caetano",
+        { inicio: "2008", fim: "2010" },
+        { jogos: 99, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "Coritiba",
+        { inicio: "2011", fim: "2012" },
+        { jogos: 81, gols: 23, assistencias: 0 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2013", fim: "2015" },
+        { jogos: 108, gols: 23, assistencias: 29 }
+      ),
+      createClub(
+        "Al-Ahli",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 106, gols: 26, assistencias: 25 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2017", fim: "2023" },
+        { jogos: 394, gols: 46, assistencias: 61 }
+      ),
+      createClub(
+        "Bahia",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 114, gols: 9, assistencias: 15 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2014", fim: "2022" },
+      estatisticas: { jogos: 22, gols: 3, assistencias: 0 },
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2019, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2019, 2020, 2021",
+        clube: "Flamengo",
+      },
+
+      // Cruzeiro
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2013, 2014",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2014",
+        clube: "Cruzeiro",
+      },
+
+      // Coritiba
+      {
+        nome: "Campeonato Paranaense",
+        anos: "2011, 2012",
+        clube: "Coritiba",
+      },
+
+      // Al-Ahli
+      {
+        nome: "UAE Pro League",
+        anos: "2016",
+        clube: "Al-Ahli",
+      },
+      {
+        nome: "Copa do Nordeste",
+        anos: "2024 (2025)",
+        clube: "Bahia",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Sul-Americano Sub-20",
+        anos: "2009",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Prêmio Craque do Brasileirão",
+        logo: "Campeonato Brasileiro",
+        anos: "2013, 2014",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro",
+        logo: "Placar",
+        anos: "2013, 2014",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata",
+        logo: "ESPN",
+        anos: "2013, 2014, 2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Everton Ribeiro"],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Fabinho
   {
     nome: "Fabinho",
-    background: "#",
+    background: "diamond",
     descricao:
-      "Volante completo e versátil, Fabinho se destaca por sua força física, boa distribuição de bola e capacidade de marcação. Seus passes longos precisos são uma de suas principais características.",
+      "Volante completo e versátil, Fabinho se destacou por sua força física, boa distribuição de bola e inteligência tática, sendo peça fundamental no meio-campo do Liverpool que conquistou a Champions League e a Premier League.",
     pagina: "https://www.instagram.com/fabinho_",
     nacionalidade: "Brasil",
     imagem:
@@ -5569,50 +5950,268 @@ export const jogadores = [
     posicao: "Volante",
     dataNascimento: "23/10/1993",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Real Madrid Castilla",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 30, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 1, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "AS Monaco",
+        { inicio: "2013", fim: "2018" },
+        { jogos: 233, gols: 31, assistencias: 14 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2018", fim: "2023" },
+        { jogos: 219, gols: 11, assistencias: 9 }
+      ),
+      createClub(
+        "Al-Ittihad",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 56, gols: 4, assistencias: 4 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2015", fim: "2022" },
+      estatisticas: { jogos: 29, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Liverpool
+      {
+        nome: "UEFA Champions League",
+        anos: "2018–19",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2019–20",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2021–22",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2021–22",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+
+      // AS Monaco
+      {
+        nome: "Campeonato Francês",
+        anos: "2016–17",
+        clube: "AS Monaco",
+      },
+
+      // Al-Ittihad
+      {
+        nome: "Campeonato Saudita",
+        anos: "2024-25",
+        clube: "Al-Ittihad",
+      },
+    ],
+    tags: ["Fabinho"],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Fabrício Bruno
   {
     nome: "Fabrício Bruno",
-    background: "#",
+    background: "plate",
     descricao:
-      "Zagueiro brasileiro conhecido por sua força física e bom posicionamento em campo, Fabrício Bruno se destacou no Flamengo e conquistou diversos títulos.",
-    pagina: "https://www.instagram.com/fabriciobrunoo/",
+      "Zagueiro rápido e de força física, conhecido pela sua capacidade de recuperação e bom jogo aéreo. Foi um dos pilares defensivos do Flamengo nas conquistas de Libertadores e Copas do Brasil, sendo convocado para a Seleção Brasileira em 2024.",
+    pagina: "https://pt.wikipedia.org/wiki/Fabr%C3%ADcio_Bruno",
     nacionalidade: "Brasil",
     imagem:
-      "https://static.gazetaesportiva.com/uploads/Flamengo-Fabricio-Bruno.png",
+      "https://medias.itatiaia.com.br/dims4/default/3e0085d/2147483647/strip/false/crop/1010x1010+319+0/resize/1000x1000!/quality/90/?url=https%3A%2F%2Fk2-prod-radio-itatiaia.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa7%2Fc1%2F2f2cb6e14cba85b721f2d5024549%2Fwhatsapp-image-2025-08-11-at-00-04-51.jpeg",
     numero: "15",
     posicao: "Zagueiro",
     dataNascimento: "12/02/1996",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Cruzeiro",
+        { inicio: "2016", fim: "2019" },
+        { jogos: 34, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Chapecoense",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 56, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Red Bull Bragantino",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 82, gols: 3, assistencias: 2 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2022", fim: "2024" },
+        { jogos: 148, gols: 6, assistencias: 3 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 43, gols: 3, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2024", fim: "Presente" },
+      estatisticas: { jogos: 4, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana (Vice)",
+        logo: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+
+      // Cruzeiro
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2019",
+        clube: "Cruzeiro",
+      },
+    ],
+    tags: ["Fabrício Bruno"],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Fagner
   {
     nome: "Fagner",
-    background: "#",
+    background: "titanium",
     descricao:
-      "Lateral-direito brasileiro, conhecido por sua versatilidade e cruzamentos precisos. Fagner é um dos principais jogadores do Corinthians e já defendeu a Seleção Brasileira. Destaca-se por sua força física e marcação rigorosa.",
-    pagina: "https://www.instagram.com/fagner/",
+      "Lateral-direito histórico do Corinthians, conhecido pela raça, técnica na marcação e apoio ofensivo. Foi peça fundamental em dois títulos brasileiros do clube, além de ter sido o lateral-direito titular da Seleção Brasileira na Copa do Mundo de 2018.",
+    pagina: "https://pt.wikipedia.org/wiki/Fagner_(futebolista)",
     nacionalidade: "Brasil",
-    imagem:
-      "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/10/04/571455842-whatsapp-image-2023-10-04-at-153515.jpeg",
+    imagem: "https://pbs.twimg.com/media/GxSi9V4WAAASI_q?format=jpg&name=large",
     numero: "23",
-    posicao: "Lateral-direito",
-    dataNascimento: "11 de junho de 1989",
+    posicao: "Lateral-Direito",
+    dataNascimento: "11/06/1989",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Corinthians",
+        { inicio: "2006", fim: "2007" },
+        { jogos: 7, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "PSV Eindhoven",
+        { inicio: "2007", fim: "2009" },
+        { jogos: 41, gols: 1, assistencias: 1 }
+      ),
+      createClub(
+        "Vasco da Gama",
+        { inicio: "2009", fim: "2012" },
+        { jogos: 149, gols: 14, assistencias: 10 }
+      ),
+      createClub(
+        "Wolfsburg",
+        { inicio: "2012", fim: "2014" },
+        { jogos: 36, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2014", fim: "2024" },
+        { jogos: 556, gols: 12, assistencias: 56 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 16, gols: 0, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2015", fim: "2019" },
+      estatisticas: { jogos: 10, gols: 0, assistencias: 0 },
+      participacoes: ["Copa do Mundo FIFA 2018", "Copa América 2019"],
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Corinthians
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2015, 2017",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2017, 2018, 2019",
+        clube: "Corinthians",
+      },
+
+      // Vasco
+      {
+        nome: "Copa do Brasil",
+        anos: "2011",
+        clube: "Vasco da Gama",
+      },
+      {
+        nome: "Campeonato Brasileiro Série B",
+        anos: "2009",
+        clube: "Vasco da Gama",
+      },
+
+      // PSV
+      {
+        nome: "Campeonato Holandês",
+        anos: "2007–08",
+        clube: "PSV Eindhoven",
+      },
+    ],
+    tags: ["Fagner"],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Fernandinho
@@ -5655,13 +6254,174 @@ export const jogadores = [
     tags: [],
   },
 
+  // Flávio Caça Rato
+  {
+    nome: "Flávio Caça Rato",
+    background: "#",
+    descricao:
+      "Atacante folclórico e ídolo incontestável do Santa Cruz. Conhecido por sua raça, gols decisivos e irreverência, como o famoso gol do título da Série C (2013). Uma lenda do futebol pernambucano, frequentemente apelidado de 'CR7 Brasileiro' pelos torcedores.",
+    pagina: "https://pt.wikipedia.org/wiki/Fl%C3%A1vio_Ca%C3%A7a-Rato",
+    numero: "7",
+    posicao: "Atacante / Ponta Direita",
+    dataNascimento: "29/06/1986",
+    status: "Aposentado",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://s2-ge.glbimg.com/Z-rq2GVZzeYOFhKlsdc_9DrarHA=/59x149:1336x937/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/y/p/bj30ELTACNBIt8SYXq8w/cacerense-x-mutum-72.jpg",
+    clubes: [
+      createClub(
+        "Sport",
+        { inicio: "2005", fim: "2005" },
+        { jogos: 21, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Salgueiro",
+        { inicio: "2006", fim: "2006" },
+        { jogos: 18, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "SEV Hortolândia",
+        { inicio: "2006", fim: "2007" },
+        { jogos: 10, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "NK Omiš",
+        { inicio: "2008", fim: "2009" },
+        { jogos: 40, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "América de Natal",
+        { inicio: "2008", fim: "2009" },
+        { jogos: 7, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Timbaúba",
+        { inicio: "2010", fim: "2010" },
+        { jogos: 10, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Cabense",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 17, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Santa Cruz",
+        { inicio: "2011", fim: "2014" },
+        { jogos: 124, gols: 20, assistencias: 0 }
+      ),
+      createClub(
+        "Remo",
+        { inicio: "2015", fim: "2015" },
+        { jogos: 11, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Guarani",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 8, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Duque de Caxias",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 8, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Tupi",
+        { inicio: "2017", fim: "2017" },
+        { jogos: 11, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "América-PE",
+        { inicio: "2017", fim: "2017" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Vitória da Conquista",
+        { inicio: "2018", fim: "2018" },
+        { jogos: 6, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Trindade-GO",
+        { inicio: "2018", fim: "2018" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Atlético Itapemirim-ES",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 9, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Serrano-PE",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Decisão-PE",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 8, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Náutico-RR",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 12, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Cacerense",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Atlético Torres",
+        { inicio: "2023", fim: "2024" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Sete de Setembro",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "N/A", fim: "N/A" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Santa Cruz
+      {
+        nome: "Campeonato Pernambucano",
+        anos: "2011, 2012 e 2013",
+        clube: "Santa Cruz",
+      },
+      {
+        nome: "Campeonato Brasileiro Série C",
+        anos: "2013",
+        clube: "Santa Cruz",
+      },
+      {
+        nome: "Copa Pernambuco",
+        anos: "2012",
+        clube: "Santa Cruz",
+      },
+
+      // Individuais
+      {
+        nome: "Artilheiro da Copa Pernambuco",
+        logo: "Copa Pernambuco",
+        anos: "2012",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Ídolo Santa Cruz", "Folclórico", "CR7 Brasileiro"],
+    ultima_atualizacao: "29/10/25",
+  },
+
   // Gabriel Barbosa
   {
     nome: "Gabriel Barbosa",
-    background: "#",
+    background: "titanium",
     descricao:
-      "Atacante brasileiro conhecido por sua finalização e habilidade, artilheiro em diversas competições, ganhando o apelido de Gabigol. Ídolo do time.",
-    pagina: "https://www.instagram.com/gabigol/",
+      "Atacante brasileiro conhecido por sua finalização e habilidade, artilheiro em diversas competições, ganhando o apelido de Gabigol. É o maior artilheiro brasileiro da história da Copa Libertadores e foi eleito o 'Rei da América' em 2019.",
+    pagina: "https://pt.wikipedia.org/wiki/Gabigol",
     nacionalidade: "Brasil",
     imagem:
       "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/01/17/532288004-542694910180da12ab0c1k-1.jpg",
@@ -5669,30 +6429,218 @@ export const jogadores = [
     posicao: "Atacante",
     dataNascimento: "30/08/1996",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Santos",
+        { inicio: "2013", fim: "2016" },
+        { jogos: 157, gols: 57, assistencias: 24 }
+      ),
+      createClub(
+        "Internazionale",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 10, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Benfica",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 5, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Santos",
+        { inicio: "2018", fim: "2018" },
+        { jogos: 53, gols: 27, assistencias: 3 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2019", fim: "Presente" },
+        { jogos: 308, gols: 161, assistencias: 44 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2016", fim: "2021" },
+      estatisticas: { jogos: 18, gols: 5, assistencias: 2 },
+      participacoes: ["Jogos Olímpicos Rio 2016 (Ouro)", "Copa América 2021"],
+    },
+    titulos: [
+      // Seleção Brasileira
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2016",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2019, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2019, 2020, 2021, 2024",
+        clube: "Flamengo",
+      },
+
+      // Santos
+      {
+        nome: "Campeonato Paulista",
+        anos: "2015, 2016",
+        clube: "Santos",
+      },
+
+      // Individuais
+      {
+        nome: "Rei da América",
+        logo: "Copa Libertadores",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2019, 2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2018, 2019",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Gabigol"],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Gabriel Jesus
   {
     nome: "Gabriel Jesus",
-    background: "#",
+    background: "diamond",
     descricao:
-      "Atacante brasileiro conhecido por sua velocidade, dribles e finalizações precisas, Gabriel Jesus se destacou no Palmeiras e Manchester City e atualmente joga no Asenal.",
-    pagina: "https://www.instagram.com/gabrieljesus/",
+      "Atacante com grande histórico de conquistas no Brasil e Europa. Foi protagonista na conquista do Brasileirão pelo Palmeiras, tetracampeão da Premier League pelo Manchester City e peça fundamental na Seleção Brasileira.",
+    pagina: "https://pt.wikipedia.org/wiki/Gabriel_Jesus",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/69/2019/07/07/gabriel-jesus-comemora-gol-da-selecao-brasileira-na-final-da-copa-america-2019-no-maracana-rj-1562533448865_v2_3x4.jpg",
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=1280,height=720,quality=75,background=white,fit=pad/uploads/2024/12/000_366F2NU-scaled-aspect-ratio-512-320.jpg",
     numero: "9",
     posicao: "Atacante",
     dataNascimento: "03/04/1997",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    clubes: [
+      createClub(
+        "Palmeiras",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 83, gols: 28, assistencias: 9 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2017", fim: "2022" },
+        { jogos: 236, gols: 95, assistencias: 46 }
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 75, gols: 20, assistencias: 11 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2016", fim: "Presente" },
+      estatisticas: { jogos: 64, gols: 19, assistencias: 13 },
+      participacoes: [
+        "Jogos Olímpicos Rio 2016 (Ouro)",
+        "Copa do Mundo 2018",
+        "Copa América 2019 (Campeão)",
+        "Copa do Mundo 2022",
+      ],
+    },
+    titulos: [
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2016",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Manchester City
+      {
+        nome: "Campeonato Inglês",
+        anos: "2018, 2019, 2021, 2022",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2018, 2019, 2020, 2021",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2019",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2018, 2019",
+        clube: "Manchester City",
+      },
+
+      // Palmeiras
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2016",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2015",
+        clube: "Palmeiras",
+      },
+
+      // Individuais
+      {
+        nome: "Craque do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro",
+        logo: "Placar",
+        anos: "2016",
+        categoria: "individual",
+      },
+    ],
     tags: [],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Gabriel Menino
@@ -5872,24 +6820,112 @@ export const jogadores = [
     ultima_atualizacao: "28/10/25",
   },
 
-  // Gerson
+  // Gerson Santos
   {
-    nome: "Gerson",
-    background: "#",
+    nome: "Gerson Santos",
+    background: "titanium",
     descricao:
-      "Meia brasileiro conhecido por sua força física, desarmes e passes precisos. Um dos pilares do meio-campo do Flamengo que completa o time.",
-    pagina: "https://www.instagram.com/gersonsantoss/",
+      "Meio-campista versátil, conhecido pela inteligência tática, técnica apurada e capacidade de ditar o ritmo de jogo. Foi peça fundamental e 'Coringa' nas maiores conquistas recentes do Flamengo, incluindo duas Copas Libertadores.",
+    pagina: "https://pt.wikipedia.org/wiki/Gerson_Santos_da_Silva",
     nacionalidade: "Brasil",
     imagem:
-      "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/08/GettyImages-1496527295-e1692115533923.jpg?w=1200&h=1200&crop=1",
-    numero: "8",
-    posicao: "Volante",
+      "https://s2-oglobo.glbimg.com/RPWyoX-nxvkvclJmlrpp-FU_59g=/0x0:627x569/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/0/K/Pwcli0SIestYo6acAANw/screenshot-107.png",
+    numero: "20",
+    posicao: "Volante/Meia",
     dataNascimento: "20/05/1997",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Fluminense",
+        { inicio: "2014", fim: "2016" },
+        { jogos: 65, gols: 7, assistencias: 4 }
+      ),
+      createClub(
+        "Roma",
+        { inicio: "2016", fim: "2018" },
+        { jogos: 42, gols: 2, assistencias: 2 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 36, gols: 3, assistencias: 4 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2019", fim: "2021" },
+        { jogos: 109, gols: 7, assistencias: 10 }
+      ),
+      createClub(
+        "Olympique de Marseille",
+        { inicio: "2021", fim: "2022" },
+        { jogos: 48, gols: 11, assistencias: 7 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2023", fim: "2025" },
+        { jogos: 144, gols: 12, assistencias: 13 }
+      ),
+      createClub(
+        "Zenit",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 8, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2018", fim: "Presente" },
+      estatisticas: { jogos: 8, gols: 0, assistencias: 0 },
+      participacoes: ["Copa América 2021"],
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2019, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2020, 2021, 2024",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Prata da Revista Placar",
+        logo: "Placar",
+        anos: "2019, 2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Coringa"],
+    ultima_atualizacao: "28/10/25",
   },
 
   // Gilberto Silva
@@ -5963,7 +6999,7 @@ export const jogadores = [
 
       // Arsenal
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2003-04",
         clube: "Arsenal",
       },
@@ -6040,7 +7076,7 @@ export const jogadores = [
   //Hulk
   {
     nome: "Hulk",
-    background: "plate",
+    background: "titanium",
     descricao:
       "Atacante brasileiro conhecido por sua força física, chutes potentes e velocidade. Hulk é um dos jogadores mais experientes do futebol brasileiro e tem passagens por diversos clubes de destaque.",
     pagina: "https://www.instagram.com/hulkparaiba/",
@@ -6202,6 +7238,159 @@ export const jogadores = [
     tags: [],
   },
 
+  // José Ferreira Neto - Craque Neto
+  {
+    nome: "José Ferreira Neto",
+    background: "titanium",
+    descricao:
+      "Lendário meia-campista, ídolo máximo do Corinthians e capitão do time na conquista do primeiro Campeonato Brasileiro (1990). Canhoto de ouro, famoso por seus lançamentos e cobranças de falta indefensáveis. Medalhista de prata olímpico pela Seleção Brasileira.",
+    pagina: "https://pt.wikipedia.org/wiki/Neto_(futebolista)",
+    numero: "10",
+    posicao: "Meia Ofensivo",
+    dataNascimento: "09/09/1966",
+    status: "Aposentado",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://f.i.uol.com.br/fotografia/2019/08/02/15647582005d4450b895737_1564758200_3x2_md.jpg",
+    clubes: [
+      createClub(
+        "Guarani",
+        { inicio: "1984", fim: "1986" },
+        { jogos: 58, gols: 26, assistencias: 0 }
+      ),
+      createClub(
+        "Bangu",
+        { inicio: "1986", fim: "1986" },
+        { jogos: 16, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "São Paulo",
+        { inicio: "1987", fim: "1987" },
+        { jogos: 33, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Guarani",
+        { inicio: "1988", fim: "1988" },
+        { jogos: 19, gols: 7, assistencias: 0 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "1988", fim: "1988" },
+        { jogos: 30, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "1989", fim: "1993" },
+        { jogos: 228, gols: 80, assistencias: 0 }
+      ),
+      createClub(
+        "Millonarios",
+        { inicio: "1993", fim: "1993" },
+        { jogos: 10, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Atlético Mineiro",
+        { inicio: "1993", fim: "1993" },
+        { jogos: 17, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Santos",
+        { inicio: "1994", fim: "1994" },
+        { jogos: 18, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Matsubara",
+        { inicio: "1994", fim: "1994" },
+        { jogos: 28, gols: 10, assistencias: 0 }
+      ),
+      createClub(
+        "Guarani",
+        { inicio: "1995", fim: "1995" },
+        { jogos: 13, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Araçatuba",
+        { inicio: "1995", fim: "1995" },
+        { jogos: 2, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "1996", fim: "1997" },
+        { jogos: 20, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Osan Indaiatuba",
+        { inicio: "1997", fim: "1997" },
+        { jogos: 22, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Paulista",
+        { inicio: "1998", fim: "1998" },
+        { jogos: 11, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Deportivo Italia",
+        { inicio: "1998", fim: "1999" },
+        { jogos: 5, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1988", fim: "1993" },
+      estatisticas: { jogos: 26, gols: 7, assistencias: 0 },
+    },
+    titulos: [
+      // Corinthians
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "1990",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "1997",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "1991",
+        clube: "Corinthians",
+      },
+
+      // São Paulo
+      {
+        nome: "Campeonato Paulista",
+        anos: "1987",
+        clube: "São Paulo",
+      },
+
+      // Seleção
+      {
+        nome: "Medalha de Prata Olímpica",
+        logo: "Jogos Olímpicos",
+        anos: "1988",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Prata",
+        logo: "Placar",
+        anos: "1991",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Supercopa do Brasil",
+        logo: "Supercopa do Brasil",
+        anos: "1991",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Craque Neto"],
+    ultima_atualizacao: "29/10/25",
+  },
+
   // Júlio César
   {
     nome: "Júlio César",
@@ -6325,7 +7514,7 @@ export const jogadores = [
   // Lucas Moura
   {
     nome: "Lucas Moura",
-    background: "#",
+    background: "titanium",
     descricao:
       "Meia-atacante brasileiro conhecido por sua velocidade vertiginosa e habilidade nos dribles. Lucas Moura teve uma carreira de sucesso na Europa, atuando como peça-chave no Paris Saint-Germain e sendo herói do Tottenham na semifinal da Champions League. Atualmente, é líder e ídolo em seu clube de origem, o São Paulo.",
     pagina: "https://www.instagram.com/lucasmoura/",
@@ -6378,7 +7567,7 @@ export const jogadores = [
 
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2014, 2015, 2016, 2018",
         clube: "Paris Saint-Germain",
       },
@@ -6401,21 +7590,13 @@ export const jogadores = [
         logoVariavel: true,
       },
     ],
-    tags: [
-      "Lucas Moura",
-      "Ponta",
-      "Meia-atacante",
-      "São Paulo",
-      "PSG",
-      "Tottenham",
-      "LM7",
-    ],
+    tags: ["Lucas Moura", "LM7"],
   },
 
   //Lucas Paquetá
   {
     nome: "Lucas Paquetá",
-    background: "#",
+    background: "titanium",
     descricao:
       "Meio-campista brasileiro conhecido por sua técnica refinada, visão de jogo e versatilidade. Paquetá é um dos principais jogadores do West Ham e da seleção brasileira.",
     pagina: "https://www.instagram.com/lucaspaqueta/",
@@ -6544,10 +7725,10 @@ export const jogadores = [
     tags: [],
   },
 
-  // Marquinhos (Marcos Aoás Corrêa)
+  // Marquinhos
   {
     nome: "Marquinhos",
-    background: "#",
+    background: "diamond",
     descricao:
       "Zagueiro brasileiro de classe mundial e capitão do Paris Saint-Germain e da Seleção Brasileira. Conhecido por sua inteligência tática, velocidade e liderança. É o jogador com mais partidas na história do PSG, tendo conquistado o inédito título da UEFA Champions League (2025) pelo clube, além de ser campeão da Copa Libertadores (Corinthians) e medalhista de ouro olímpico (Brasil).",
     pagina: "https://www.instagram.com/marquinhosm5/",
@@ -6594,7 +7775,7 @@ export const jogadores = [
         clube: "Paris Saint-Germain",
       },
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2014, 2015, 2016, 2018, 2019, 2020, 2022, 2023, 2024, 2025",
         clube: "Paris Saint-Germain",
       },
@@ -6628,7 +7809,8 @@ export const jogadores = [
         logoVariavel: true,
       },
     ],
-    tags: ["Paris Saint-Germain", "PSG"],
+    tags: [],
+    ultima_atualizacao: "27/10/25",
   },
 
   //Miranda
@@ -6654,7 +7836,7 @@ export const jogadores = [
   // Marinho
   {
     nome: "Marinho",
-    background: "#",
+    background: "titanium",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/3a/2024/09/18/marinho-do-fortaleza-em-acao-no-jogo-contra-o-corinthians-pela-ida-das-quartas-da-sul-americana-1726659062687_v2_4x3.jpg",
     pagina: "https://www.instagram.com/marinhooficial/",
@@ -6827,17 +8009,8 @@ export const jogadores = [
         categoria: "individual",
       },
     ],
-    tags: [
-      "Marinho",
-      "Fortaleza",
-      "Flamengo",
-      "Santos",
-      "Grêmio",
-      "Vitória",
-      "Atacante",
-      "Ponta Direita",
-      "Rei da América",
-    ],
+    tags: ["Marinho"],
+    ultima_atualizacao: "27/10/25",
   },
 
   //Matheus Cunha
@@ -6951,7 +8124,7 @@ export const jogadores = [
 
       //Barcelona
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2015, 2016",
         clube: "Barcelona",
       },
@@ -6978,7 +8151,7 @@ export const jogadores = [
 
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2018, 2019, 2020, 2022, 2023",
         clube: "Paris Saint-Germain",
       },
@@ -7072,24 +8245,111 @@ export const jogadores = [
     tags: [],
   },
 
-  // Pedro Guilherme
+  // Pedro
   {
-    nome: "Pedro",
-    background: "#",
+    nome: "Pedro Guilherme",
+    background: "titanium",
     descricao:
-      "Atacante brasileiro conhecido por sua força física e finalização precisa. Fundamental nos títulos recentes do Flamengo, jogador decisivo.",
-    pagina: "https://www.instagram.com/pedroguilherme/",
+      "Centroavante de área letal, conhecido pelo instinto goleador e pela capacidade de finalização. Foi o Artilheiro e Melhor Jogador da Copa Libertadores de 2022, além de membro da Seleção Brasileira na Copa do Mundo de 2022.",
+    pagina: "https://pt.wikipedia.org/wiki/Pedro_Guilherme_Abreu_dos_Santos",
     nacionalidade: "Brasil",
     imagem:
-      "https://s2-ge.glbimg.com/rMCO5KgxVRD89sEZmqrRbL11SAU=/0x0:4277x3056/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/r/G/jNEx1CQomqICu6sXlPhg/81-2-.jpg",
+      "https://sportbuzz.com.br/wp-content/uploads/2024/12/pedro-flamengo.jpg",
     numero: "9",
-    posicao: "Atacante",
+    posicao: "Atacante (Centroavante)",
     dataNascimento: "20/06/1997",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    clubes: [
+      createClub(
+        "Fluminense",
+        { inicio: "2016", fim: "2019" },
+        { jogos: 93, gols: 31, assistencias: 5 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 4, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2020", fim: "Presente" },
+        { jogos: 299, gols: 150, assistencias: 37 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2022", fim: "Presente" },
+      estatisticas: { jogos: 6, gols: 1, assistencias: 0 },
+      participacoes: ["Copa do Mundo FIFA 2022", "Copa América 2024"],
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021, 2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2020, 2021, 2024",
+        clube: "Flamengo",
+      },
+
+      // Fluminense
+      {
+        nome: "Primeira Liga do Brasil",
+        anos: "2016",
+        clube: "Fluminense",
+      },
+
+      // Individuais
+      {
+        nome: "Rei da América",
+        logo: "Copa Libertadores",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Mundial de Clubes",
+        logo: "Mundial de Clubes",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Carioca",
+        logo: "Campeonato Carioca",
+        anos: "2018, 2024",
+        categoria: "individual",
+      },
+    ],
     tags: [],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Pelé
@@ -7256,7 +8516,7 @@ export const jogadores = [
   // Philippe Coutinho
   {
     nome: "Philippe Coutinho",
-    background: "#",
+    background: "diamond",
     descricao:
       "Meia-atacante talentoso e habilidoso, Coutinho é conhecido por seus dribles, chutes de longa distância e visão de jogo. Atualmente, joga no Vasco da Gama.",
     pagina: "https://www.instagram.com/phil.coutinho/",
@@ -7341,7 +8601,7 @@ export const jogadores = [
       { nome: "Copa da Itália", anos: "2011", clube: "Internazionale" },
       //Barcelona
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2018, 2019",
         clube: "Barcelona",
       },
@@ -7422,7 +8682,7 @@ export const jogadores = [
       },
       {
         nome: "Jogador do Mês da Premier League",
-        logo: "Premier League",
+        logo: "Campeonato Inglês",
         anos: "Janeiro 2016",
         clube: "Liverpool",
         categoria: "individual",
@@ -7448,21 +8708,141 @@ export const jogadores = [
   // Rafinha
   {
     nome: "Rafinha",
-    background: "#",
+    background: "diamond",
     descricao:
-      "Rafinha, é um futebolista brasileiro que atua como lateral-direito. Atualmente joga no São Paulo, onde é capitão. Em 2019, entrou para a seleta lista de futebolistas campeões da Copa Libertadores da América e da Liga dos Campeões da UEFA.",
-    pagina: "https://www.instagram.com/rafinha/",
+      "Lateral-direito multicampeão, conhecido pela garra, consistência defensiva e longevidade no futebol de alto nível. Ídolo no Bayern de Munique e fundamental nas conquistas da Libertadores pelo Flamengo e da Copa do Brasil pelo São Paulo. Um dos poucos jogadores a vencer a Champions League e a Libertadores.",
+    pagina: "https://www.instagram.com/rafinha13/",
+    numero: "13",
+    posicao: "Lateral-Direito",
+    dataNascimento: "07/09/1985",
+    status: "Aposentado",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/00/2022/07/20/rafinha-e-o-capitao-do-sao-paulo-contra-o-inter-pelo-brasileirao-1658364465364_v2_450x600.jpg",
-    numero: "13",
-    posicao: "Zagueiro",
-    dataNascimento: "18/09/1985",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+      "https://ogimg.infoglobo.com.br/in/23330524-0c1-3d8/FT1086A/80395161_Soccer-FootballBundesligaEintracht-Frankfurt-v-Bayern-MunichCommerzbank-Arena-Fran.jpg",
+    clubes: [
+      createClub(
+        "Coritiba",
+        { inicio: "2003", fim: "2005" },
+        { jogos: 53, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Schalke 04",
+        { inicio: "2005", fim: "2010" },
+        { jogos: 198, gols: 11, assistencias: 21 }
+      ),
+      createClub(
+        "Genoa",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 37, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2011", fim: "2019" },
+        { jogos: 266, gols: 6, assistencias: 29 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 46, gols: 0, assistencias: 6 }
+      ),
+      createClub(
+        "Olympiacos",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 22, gols: 0, assistencias: 6 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 43, gols: 0, assistencias: 4 }
+      ),
+      createClub(
+        "São Paulo",
+        { inicio: "2022", fim: "2024" },
+        { jogos: 116, gols: 1, assistencias: 5 }
+      ),
+      createClub(
+        "Coritiba",
+        { inicio: "2025", fim: "2025" },
+        { jogos: 10, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2008", fim: "2017" },
+      estatisticas: { jogos: 4, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Coritiba
+      { nome: "Campeonato Paranaense", anos: "2003, 2004", clube: "Coritiba" },
+
+      // Bayern de Munique
+      {
+        nome: "UEFA Champions League",
+        anos: "2012–13",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2014",
+        clube: "Bayern de Munique",
+      },
+      { nome: "UEFA Supercopa", anos: "2013", clube: "Bayern de Munique" },
+      {
+        nome: "Campeonato Alemão",
+        anos: "2013, 2014, 2015, 2016, 2017, 2018, 2019",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "2013, 2014, 2016, 2019",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Supertaça da Alemanha",
+        anos: "2012, 2016, 2017, 2018",
+        clube: "Bayern de Munique",
+      },
+
+      //Flamengo
+      { nome: "Copa Libertadores", anos: "2019", clube: "Flamengo" },
+      { nome: "Recopa Sul-Americana", anos: "2020", clube: "Flamengo" },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      { nome: "Campeonato Carioca", anos: "2020", clube: "Flamengo" },
+
+      //Grêmio
+      { nome: "Campeonato Gaúcho", anos: "2021", clube: "Grêmio" },
+
+      // Olympiacos
+      { nome: "Super Liga Grega", anos: "2021", clube: "Olympiacos" },
+
+      // São Paulo
+      { nome: "Copa do Brasil", anos: "2023", clube: "São Paulo" },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2024",
+        clube: "São Paulo",
+      },
+
+      // Seleção
+      {
+        nome: "Bronze Olímpico",
+        logo: "Jogos Olímpicos",
+        anos: "2008",
+        clube: "Brasil Olímpico",
+        logoVariavel: true,
+      },
+    ],
     tags: [],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Raphael Veiga
@@ -7528,7 +8908,7 @@ export const jogadores = [
     titulos: [
       // Barcelona
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2022-23, 2024-25",
         clube: "Barcelona",
       },
@@ -7618,21 +8998,94 @@ export const jogadores = [
   // Richarlison
   {
     nome: "Richarlison",
-    background: "#",
+    background: "titanium",
     descricao:
-      "Artilheiro da Seleção Brasileira em diversas campanhas, conhecido por sua força física e finalização precisa. Marcado pelo seu gol contra a Croácia na Copa de 2022.",
-    pagina: "https://www.instagram.com/richarlison/",
+      "Atacante de garra e velocidade, consolidou sua carreira na Premier League e se tornou um dos principais nomes da Seleção Brasileira, onde foi artilheiro olímpico e autor do Gol Mais Bonito da Copa do Mundo de 2022.",
+    pagina: "https://pt.wikipedia.org/wiki/Richarlison",
     nacionalidade: "Brasil",
     imagem:
-      "https://s2-ge.glbimg.com/r1crSs6Eo5TfEmBeNX5zlrPiI9c=/0x0:1023x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/X/A/GA28b4TdCWT7puCrVDyg/whatsapp-image-2022-11-24-at-21.21.50.jpeg",
+      "https://www.reuters.com/resizer/v2/HXSLEOKTHZLPTNIULDKF5OZSVU.jpg?auth=139e174829848d7290f3822d4dd70b9aecd012c37ee2e0b4603ae94a0a86420d&height=2400&width=1920&quality=80&smart=true",
     numero: "9",
-    posicao: "Atacante",
-    dataNascimento: "10/5/1997",
+    posicao: "Atacante (Centroavante/Ponta)",
+    dataNascimento: "10/05/1997",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    clubes: [
+      createClub(
+        "América Mineiro",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 24, gols: 9, assistencias: 4 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 67, gols: 19, assistencias: 5 }
+      ),
+      createClub(
+        "Watford",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 41, gols: 5, assistencias: 4 }
+      ),
+      createClub(
+        "Everton",
+        { inicio: "2018", fim: "2022" },
+        { jogos: 152, gols: 53, assistencias: 15 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 94, gols: 22, assistencias: 11 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2018", fim: "Presente" },
+      estatisticas: { jogos: 54, gols: 20, assistencias: 4 },
+    },
+    titulos: [
+      // Tottenham Hotspur
+      {
+        nome: "UEFA Europa League",
+        anos: "2025",
+        clube: "Tottenham Hotspur",
+      },
+      // Seleção
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2020",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      // Individuais
+      {
+        nome: "Gol Mais Bonito da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2022",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Chuteira de Ouro dos Jogos Olímpicos",
+        logo: "Jogos Olímpicos",
+        anos: "2020",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Seleção Brasileira na Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2022",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+    ],
     tags: [],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Rivaldo
@@ -7715,7 +9168,7 @@ export const jogadores = [
 
       // Barcelona
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "1998, 1999",
         clube: "Barcelona",
       },
@@ -7853,7 +9306,7 @@ export const jogadores = [
   // Roberto Firmino
   {
     nome: "Roberto Firmino",
-    background: "#",
+    background: "diamond",
     descricao:
       "Atacante brasileiro conhecido por sua inteligência tática, movimentação constante, habilidade de finalização e por popularizar a função de 'falso 9'. Peça fundamental no vitorioso time do Liverpool e presença constante na seleção brasileira.",
     imagem:
@@ -7882,8 +9335,13 @@ export const jogadores = [
       ),
       createClub(
         "Al-Ahli",
-        { inicio: "2023", fim: "Presente" },
+        { inicio: "2023", fim: "2025" },
         { jogos: 33, gols: 9, assistencias: 7 }
+      ),
+      createClub(
+        "Al-Sadd",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 0, gols: 0, assistencias: 0 }
       ),
     ],
     selecao: {
@@ -7892,6 +9350,61 @@ export const jogadores = [
       estatisticas: { jogos: 55, gols: 17, assistencias: 7 },
     },
     titulos: [
+      // Individuais
+      {
+        nome: "Equipe ideal da Bundesliga",
+        logo: "Bundesliga",
+        anos: "2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Revelação da Bundesliga",
+        logo: "Bundesliga",
+        anos: "2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do mês do Liverpool",
+        logo: "Liverpool",
+        anos: "2x 2016, 2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do mês da Premier League",
+        logo: "Campeonato Inglês",
+        anos: "2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do mês da PFA",
+        logo: "PFA",
+        anos: "2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe ideal da Liga dos Campeões da UEFA",
+        logo: "UEFA Champions League",
+        anos: "2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Samba de Ouro",
+        anos: "2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor jogador da final do Mundial de Clubes",
+        logo: "Mundial de Clubes",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor jogador da Liga dos Campeões da AFC",
+        logo: "AFC",
+        anos: "2024",
+        categoria: "individual",
+      },
+
       // Liverpool
       {
         nome: "UEFA Champions League",
@@ -7909,7 +9422,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2020",
         clube: "Liverpool",
       },
@@ -7935,14 +9448,9 @@ export const jogadores = [
         clube: "Brasil",
         logoVariavel: true,
       },
-      // Al-Ahli (se houver títulos até o momento da consulta ou no futuro)
-      // {
-      //   nome: "Nome do Título",
-      //   anos: "Ano",
-      //   clube: "Al-Ahli",
-      // },
     ],
-    tags: [],
+    tags: ["Roberto Firmino"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Robinho
@@ -8191,7 +9699,7 @@ export const jogadores = [
 
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2013, 2014, 2015, 2016, 2018, 2019, 2020",
         clube: "Paris Saint-Germain",
       },
@@ -8286,7 +9794,11 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       { nome: "Supercopa da UEFA", anos: "2022, 2024", clube: "Real Madrid" },
-      { nome: "La Liga", anos: "2020, 2022, 2024", clube: "Real Madrid" },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2020, 2022, 2024",
+        clube: "Real Madrid",
+      },
       { nome: "Copa Del Rey", anos: "2023", clube: "Real Madrid" },
       {
         nome: "Supercopa da Espanha",
@@ -8316,24 +9828,88 @@ export const jogadores = [
     tags: [],
   },
 
-  //Wesley
+  // Wesley França
   {
-    nome: "Wesley",
-    background: "#",
+    nome: "Wesley França",
+    background: "plate",
     descricao:
-      "Meio-campista brasileiro conhecido por sua versatilidade e habilidade nos passes. Destaca-se por sua rápida adaptação ao time titular do Flamengo.",
-    pagina: "https://www.instagram.com/wesleyfranca03_/?hl=pt",
+      "Lateral-direito formado no Flamengo, multicampeão nacional e continental no Brasil. Transferiu-se para a Roma como um dos jovens defensores brasileiros mais promissores e valorizados do futebol atual.",
+    pagina: "https://pt.wikipedia.org/wiki/Wesley_Fran%C3%A7a",
     nacionalidade: "Brasil",
     imagem:
-      "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/01/wesley_flamengo-e1735914081692.jpg",
+      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/08/wesley-roma-bologna-serie-a-e1755983400196.jpg?w=1200&h=1200&crop=1",
     numero: "43",
-    posicao: "Meio-campista",
-    dataNascimento: "06/09/2003",
+    posicao: "Lateral-direito / Defensor",
+    dataNascimento: "13/03/2003",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    clubes: [
+      createClub(
+        "Atlético Tubarão",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 5, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2021", fim: "2025" },
+        { jogos: 136, gols: 4, assistencias: 6 }
+      ),
+      createClub(
+        "Roma",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 6, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "Base", fim: "Base" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+      participacoes: ["Categorias de Base"],
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa Rei",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024, 2025",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Seleção do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2024",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa do Brasil",
+        logo: "Copa do Brasil",
+        anos: "2024",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Carioca",
+        logo: "Campeonato Carioca",
+        anos: "2025",
+        categoria: "individual",
+      },
+    ],
     tags: [],
+    ultima_atualizacao: "29/10/25",
   },
 
   // William Arão
@@ -8356,24 +9932,109 @@ export const jogadores = [
     tags: [],
   },
 
-  // Willian
+  // Willian Borges
   {
     nome: "Willian Borges",
-    background: "#",
+    background: "titanium",
     descricao:
-      "Meia-atacante habilidoso e veloz, Willian é conhecido por seus dribles e passes precisos. Ele já defendeu grandes clubes como Chelsea e Arsenal.",
-    pagina: "https://www.instagram.com/willianborges88/",
+      "Ponta/meia de vasta experiência internacional, ídolo do Chelsea e bicampeão da Premier League e da Liga Europa. Representou o Brasil em duas Copas do Mundo.",
+    pagina: "https://pt.wikipedia.org/wiki/Willian",
     nacionalidade: "Brasil",
     imagem:
-      "https://www.olympiacos.org/wp-content/uploads/2024/09/02/STEF1798.jpg",
-    numero: "18",
-    posicao: "Meia-atacante",
+      "https://www.notisul.com.br/wp-content/uploads/2025/09/gremio-willian-1.jpg",
+    numero: "88",
+    posicao: "Ponta Esquerda / Meia",
     dataNascimento: "09/08/1988",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    clubes: [
+      createClub(
+        "Corinthians",
+        { inicio: "2006", fim: "2007" },
+        { jogos: 41, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Shakhtar Donetsk",
+        { inicio: "2007", fim: "2013" },
+        { jogos: 221, gols: 37, assistencias: 0 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2013", fim: "2020" },
+        { jogos: 339, gols: 63, assistencias: 0 }
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 37, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Fulham",
+        { inicio: "2022", fim: "2025" },
+        { jogos: 77, gols: 10, assistencias: 0 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2011", fim: "2019" },
+      estatisticas: { jogos: 70, gols: 9, assistencias: 0 },
+      participacoes: [
+        "Copa do Mundo (2014, 2018)",
+        "Copa América (2015, 2016, 2019)",
+      ],
+    },
+    titulos: [
+      // Chelsea
+      {
+        nome: "Campeonato Inglês",
+        anos: "2015, 2017",
+        clube: "Chelsea",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2018",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2018",
+        clube: "Chelsea",
+      },
+
+      // Shakhtar Donetsk
+      {
+        nome: "Campeonato Ucraniano",
+        anos: "2008, 2010, 2011, 2012, 2013",
+        clube: "Shakhtar Donetsk",
+      },
+      {
+        nome: "Copa da UEFA",
+        anos: "2008/09",
+        clube: "Shakhtar Donetsk",
+      },
+
+      // Seleção
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Jogador da Época do Chelsea",
+        logo: "Chelsea",
+        anos: "2015/16, 2017/18",
+        categoria: "individual",
+      },
+    ],
     tags: [],
+    ultima_atualizacao: "29/10/25",
   },
 
   //Yuri Alberto
@@ -8569,7 +10230,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "1991, 1992, 1993, 1994",
         clube: "Barcelona",
       },
@@ -8662,7 +10323,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2005, 2006, 2009",
         clube: "Barcelona",
       },
@@ -8951,7 +10612,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Chuteira de Ouro",
-        logo: "Premier League",
+        logo: "Campeonato Inglês",
         anos: "2022",
         clube: "Individual",
         categoria: "individual",
@@ -9077,7 +10738,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2017",
         clube: "Real Madrid",
       },
@@ -9089,7 +10750,7 @@ export const jogadores = [
 
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2020, 2022, 2024",
         clube: "Paris Saint-Germain",
       },
@@ -9138,7 +10799,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Goleiro da Ligue 1",
-        logo: "Ligue 1",
+        logo: "Campeonato Francês",
         anos: "2020/21",
         clube: "Individual",
         categoria: "individual",
@@ -9314,7 +10975,7 @@ export const jogadores = [
       },
       // Real Madrid
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2017, 2020, 2022, 2024",
         clube: "Real Madrid",
       },
@@ -9509,7 +11170,7 @@ export const jogadores = [
       },
       // Ajax
       {
-        nome: "Eredivisie",
+        nome: "Campeonato Holandês",
         anos: "2011, 2012, 2013",
         clube: "Ajax",
       },
@@ -9606,7 +11267,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2020",
         clube: "Liverpool",
       },
@@ -9629,7 +11290,7 @@ export const jogadores = [
       // Títulos Individuais
       {
         nome: "Chuteira de Ouro",
-        logo: "Premier League",
+        logo: "Campeonato Inglês",
         anos: "2018, 2019, 2022",
         clube: "Individual",
         categoria: "individual",
@@ -9705,7 +11366,7 @@ export const jogadores = [
     titulos: [
       // Atlético de Madrid
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2020-21",
         clube: "Atlético de Madrid",
       },
@@ -9919,7 +11580,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "1954, 1955, 1957, 1958, 1961, 1962, 1963, 1964",
         clube: "Real Madrid",
       },
@@ -10039,7 +11700,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2005, 2006, 2009, 2010, 2011, 2013, 2015, 2016, 2018",
         clube: "Barcelona",
       },
@@ -10149,7 +11810,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2005, 2006, 2009, 2010, 2011, 2013",
         clube: "Barcelona",
       },
@@ -10250,7 +11911,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2017, 2020, 2022, 2024",
         clube: "Real Madrid",
       },
@@ -10337,7 +11998,7 @@ export const jogadores = [
 
       // Manchester City
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2012, 2014, 2018, 2019",
         clube: "Manchester City",
       },
@@ -10387,7 +12048,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Equipe do Ano PFA da Premier League",
-        logo: "Premier League",
+        logo: "Campeonato Inglês",
         anos: "2012, 2018",
         clube: "Individual",
         categoria: "individual",
@@ -10408,7 +12069,7 @@ export const jogadores = [
       },
       {
         nome: "Assistente da Temporada",
-        logo: "Premier League",
+        logo: "Campeonato Inglês",
         anos: "2012",
         clube: "Individual",
         categoria: "individual",
@@ -10501,7 +12162,7 @@ export const jogadores = [
 
       // Barcelona
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2011",
         clube: "Barcelona",
       },
@@ -10536,7 +12197,7 @@ export const jogadores = [
 
       // Atlético de Madrid
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2014",
         clube: "Atlético de Madrid",
       },
@@ -10670,7 +12331,7 @@ export const jogadores = [
         clube: "Atlético de Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2014, 2021",
         clube: "Atlético de Madrid",
       },
@@ -10687,7 +12348,7 @@ export const jogadores = [
 
       // Chelsea
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2015, 2017",
         clube: "Chelsea",
       },
@@ -10777,7 +12438,7 @@ export const jogadores = [
     titulos: [
       // Manchester United
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2008",
         clube: "Manchester United",
       },
@@ -10799,7 +12460,7 @@ export const jogadores = [
 
       // Barcelona
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "9 Títulos",
         clube: "Barcelona",
       },
@@ -10966,7 +12627,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2013, 2015, 2016, 2018, 2019, 2023",
         clube: "Barcelona",
       },
@@ -11020,7 +12681,7 @@ export const jogadores = [
     titulos: [
       // Barcelona
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2022-23",
         clube: "Barcelona",
       },
@@ -11119,7 +12780,11 @@ export const jogadores = [
         anos: "2017, 2018, 2022",
         clube: "Real Madrid",
       },
-      { nome: "La Liga", anos: "2017, 2020, 2022", clube: "Real Madrid" },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2017, 2020, 2022",
+        clube: "Real Madrid",
+      },
       { nome: "Copa del Rey", anos: "2023", clube: "Real Madrid" },
       {
         nome: "Supercopa da UEFA",
@@ -11137,7 +12802,11 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       // Paris Saint-Germain
-      { nome: "Ligue 1", anos: "2024", clube: "Paris Saint-Germain" },
+      {
+        nome: "Campeonato Francês",
+        anos: "2024",
+        clube: "Paris Saint-Germain",
+      },
       {
         nome: "Supercopa da França",
         anos: "2024",
@@ -11291,7 +12960,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2009, 2010, 2011, 2013, 2015, 2016, 2018, 2019, 2023",
         clube: "Barcelona",
       },
@@ -11383,7 +13052,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2007, 2008, 2012, 2017, 2020",
         clube: "Real Madrid",
       },
@@ -11395,7 +13064,7 @@ export const jogadores = [
 
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2022, 2023",
         clube: "Paris Saint-Germain",
       },
@@ -11532,7 +13201,7 @@ export const jogadores = [
       { nome: "Serie A", anos: "2021", clube: "Internazionale" },
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2022, 2023, 2024, 2025",
         clube: "Paris Saint-Germain",
       },
@@ -11717,7 +13386,11 @@ export const jogadores = [
         anos: "2025",
         clube: "Paris Saint-Germain",
       },
-      { nome: "Ligue 1", anos: "2024, 2025", clube: "Paris Saint-Germain" },
+      {
+        nome: "Campeonato Francês",
+        anos: "2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
       {
         nome: "Copa da França",
         anos: "2024, 2025",
@@ -11779,7 +13452,11 @@ export const jogadores = [
     },
     titulos: [
       // PSG
-      { nome: "Ligue 1", anos: "2024–25", clube: "Paris Saint-Germain" },
+      {
+        nome: "Campeonato Francês",
+        anos: "2024–25",
+        clube: "Paris Saint-Germain",
+      },
       {
         nome: "UEFA Champions League",
         anos: "2024–25",
@@ -11982,7 +13659,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2012, 2017, 2020, 2022",
         clube: "Real Madrid",
       },
@@ -11993,7 +13670,7 @@ export const jogadores = [
       },
       // Lyon
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2005, 2006, 2007, 2008",
         clube: "Lyon",
       },
@@ -12080,7 +13757,7 @@ export const jogadores = [
       },
       // Clubes (PSG)
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2018, 2019, 2020, 2022, 2023, 2024",
         clube: "Paris Saint-Germain",
       },
@@ -12100,7 +13777,7 @@ export const jogadores = [
         clube: "Paris Saint-Germain",
       },
       // Clubes (Monaco)
-      { nome: "Ligue 1", anos: "2017", clube: "Monaco" },
+      { nome: "Campeonato Francês", anos: "2017", clube: "Monaco" },
       // Clubes (Real Madrid)
       { nome: "Supercopa da Espanha", anos: "2025", clube: "Real Madrid" },
     ],
@@ -12187,7 +13864,7 @@ export const jogadores = [
         clube: "Chelsea",
       },
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2017",
         clube: "Chelsea",
       },
@@ -12199,7 +13876,7 @@ export const jogadores = [
 
       // Leicester City
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2016",
         clube: "Leicester City",
       },
@@ -12214,7 +13891,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Jogador do Ano da PFA",
-        logo: "Premier League",
+        logo: "Campeonato Inglês",
         anos: "2017",
         clube: "Individual",
         categoria: "individual",
@@ -12274,7 +13951,7 @@ export const jogadores = [
       },
       // Barcelona
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2017-18, 2018-19, 2022-23",
         clube: "Barcelona",
       },
@@ -12290,7 +13967,7 @@ export const jogadores = [
       },
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2023-24",
         clube: "Paris Saint-Germain",
       },
@@ -12315,7 +13992,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Melhor Jogador Jovem da Ligue 1",
-        logo: "Ligue 1",
+        logo: "Campeonato Francês",
         anos: "2015-16",
         clube: "Individual",
         categoria: "individual",
@@ -12494,7 +14171,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2003",
         clube: "Real Madrid",
       },
@@ -12578,7 +14255,11 @@ export const jogadores = [
       // Napoli
       { nome: "Serie A", anos: "2023, 2025", clube: "Napoli" },
       // Paris Saint-Germain
-      { nome: "Ligue 1", anos: "2025", clube: "Paris Saint-Germain" },
+      {
+        nome: "Campeonato Francês",
+        anos: "2025",
+        clube: "Paris Saint-Germain",
+      },
       {
         nome: "UEFA Champions League",
         anos: "2025",
@@ -12669,17 +14350,17 @@ export const jogadores = [
       },
       { nome: "Copa Intercontinental", anos: "1972", clube: "Ajax" },
       {
-        nome: "Eredivisie",
+        nome: "Campeonato Holandês",
         anos: "1966, 1967, 1968, 1970, 1972, 1973, 1982, 1983",
         clube: "Ajax",
       },
       {
-        nome: "Eredivisie",
+        nome: "Campeonato Holandês",
         anos: "1984",
         clube: "Feyenoord",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "1974",
         clube: "Barcelona",
       },
@@ -12785,8 +14466,8 @@ export const jogadores = [
         clube: "Tottenham Hotspur",
       },
       {
-        nome: "Premier League (Vice-campeão)",
-        logo: "Premier League",
+        nome: "Campeonato Inglês (Vice-campeão)",
+        logo: "Campeonato Inglês",
         anos: "2016",
         clube: "Tottenham Hotspur",
       },
@@ -12896,7 +14577,7 @@ export const jogadores = [
       },
       {
         nome: "Jogador do Mês da Premier League",
-        logo: "Premier League",
+        logo: "Campeonato Inglês",
         anos: "Janeiro 2015, Fevereiro 2015, Março 2016, Fevereiro 2017, Setembro 2017, Dezembro 2017, Março 2022",
         clube: "Individual",
         categoria: "individual",
@@ -13076,7 +14757,7 @@ export const jogadores = [
         clube: "Manchester United",
       },
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2007, 2008, 2009",
         clube: "Manchester United",
       },
@@ -13094,7 +14775,7 @@ export const jogadores = [
 
       // Real Madrid
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2012, 2017",
         clube: "Real Madrid",
       },
@@ -13343,7 +15024,7 @@ export const jogadores = [
       },
       { nome: "Supercopa da UEFA", anos: "2025", clube: "Paris Saint-Germain" },
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2022, 2023, 2024, 2025",
         clube: "Paris Saint-Germain",
       },
@@ -13422,7 +15103,7 @@ export const jogadores = [
       { nome: "Taça de Portugal", anos: "2020, 2022", clube: "Porto" },
       // Paris Saint-Germain
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2023, 2024, 2025",
         clube: "Paris Saint-Germain",
       },
@@ -13621,7 +15302,7 @@ export const jogadores = [
     },
     titulos: [
       {
-        nome: "Eredivisie",
+        nome: "Campeonato Holandês",
         anos: "2002, 2004",
         clube: "Ajax",
       },
@@ -13666,7 +15347,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2010",
         clube: "Barcelona",
       },
@@ -13676,7 +15357,7 @@ export const jogadores = [
         clube: "AC Milan",
       },
       {
-        nome: "Ligue 1",
+        nome: "Campeonato Francês",
         anos: "2013, 2014, 2015, 2016",
         clube: "Paris Saint-Germain",
       },
@@ -13803,7 +15484,7 @@ export const jogadores = [
 
       //Real Madrid
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2020, 2022, 2024",
         clube: "Real Madrid",
       },

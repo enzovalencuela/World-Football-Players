@@ -32,7 +32,7 @@ export const tecnicos = [
       "Posse de bola, jogo ofensivo e construção a partir da defesa.",
     titulos: [
       {
-        nome: "La Liga",
+        nome: "Campeonato Espanhol",
         anos: "2009, 2010, 2011",
         clube: "Barcelona",
       },
@@ -86,7 +86,7 @@ export const tecnicos = [
 
       //Manchester City
       {
-        nome: "Premier League",
+        nome: "Campeonato Inglês",
         anos: "2018, 2019, 2021, 2022, 2023 e 2024",
         clube: "Manchester City",
       },
