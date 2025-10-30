@@ -63,7 +63,7 @@ export const jogadores = [
       },
       {
         nome: "Seleção da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973 1974, 1975, 1976, 1977",
         clube: "individual",
         categoria: "individual",
@@ -259,7 +259,7 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "1969, 1972, 1973 e 1974",
         clube: "Bayern de Munique",
       },
@@ -283,7 +283,7 @@ export const jogadores = [
 
       //Hamburgo
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "1982",
         clube: "Hamburgo",
       },
@@ -362,7 +362,7 @@ export const jogadores = [
         clube: "Individual",
       },
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "1969, 1972, 1973 e 1974",
         clube: "Bayern de Munique",
       },
@@ -414,7 +414,7 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "2020, 2021, 2022, 2023, 2025",
         clube: "Bayern de Munique",
       },
@@ -514,7 +514,7 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021",
         clube: "Bayern de Munique",
       },
@@ -716,21 +716,21 @@ export const jogadores = [
       },
       {
         nome: "Jogador da Temporada da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "2011-12, 2013-14, 2015-16, 2018-19",
         clube: "Individual",
         categoria: "individual",
       },
       {
         nome: "Time do Ano da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "2011-12, 2013-14, 2014-15, 2015-16, 2018-19",
         clube: "Individual",
         categoria: "individual",
       },
       {
         nome: "Jogador do Mês da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "Setembro 2018, Novembro 2018, Dezembro 2018, Março 2019",
         clube: "Individual",
         categoria: "individual",
@@ -819,14 +819,14 @@ export const jogadores = [
     titulos: [
       // Kaiserslautern
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "1998",
         clube: "Kaiserslautern",
       },
 
       // Bayern de Munique
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "2003, 2005, 2006",
         clube: "Bayern de Munique",
       },
@@ -954,7 +954,7 @@ export const jogadores = [
     selecao: {},
     titulos: [
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "1997, 1999, 2000, 2001, 2003, 2005, 2006, 2008",
         clube: "Bayern de Munique",
       },
@@ -1114,7 +1114,7 @@ export const jogadores = [
 
       // Bayern de Munique
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "2010, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023",
         clube: "Bayern de Munique",
       },
@@ -1158,7 +1158,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Jogador da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "2010",
         clube: "Individual",
         categoria: "individual",
@@ -1259,7 +1259,7 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "2008, 2013, 2014",
         clube: "Bayern de Munique",
       },
@@ -3628,7 +3628,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Artilheiro da La Liga",
-        logo: "La Liga",
+        logo: "Campeonato Espanhol",
         anos: "1993",
         clube: "Individual",
         categoria: "individual",
@@ -4982,7 +4982,7 @@ export const jogadores = [
     titulos: [
       // Bayern de Munique
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "2013, 2014, 2015",
         clube: "Bayern de Munique",
       },
@@ -6843,7 +6843,7 @@ export const jogadores = [
   // Gabriel Jesus
   {
     nome: "Gabriel Jesus",
-    background: "diamond",
+    background: "titanium",
     descricao:
       "Atacante com grande histórico de conquistas no Brasil e Europa. Foi protagonista na conquista do Brasileirão pelo Palmeiras, tetracampeão da Premier League pelo Manchester City e peça fundamental na Seleção Brasileira.",
     pagina: "https://www.instagram.com/dejesusoficial",
@@ -9302,7 +9302,7 @@ export const jogadores = [
         anos: "2020",
         clube: "Bayern de Munique",
       },
-      { nome: "Bundesliga", anos: "2020", clube: "Bayern de Munique" },
+      { nome: "Campeonato Alemão", anos: "2020", clube: "Bayern de Munique" },
       { nome: "Copa da Alemanha", anos: "2020", clube: "Bayern de Munique" },
       // Seleção Brasileira
       {
@@ -9314,7 +9314,7 @@ export const jogadores = [
       // Títulos Individuais
       {
         nome: "Gol do mês da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "dezembro de 2019",
         clube: "Bayern de Munique",
         categoria: "individual",
@@ -10034,13 +10034,13 @@ export const jogadores = [
       // Individuais
       {
         nome: "Equipe ideal da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "2014",
         categoria: "individual",
       },
       {
         nome: "Revelação da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "2014",
         categoria: "individual",
       },
@@ -11701,7 +11701,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Goleiro da La Liga",
-        logo: "La Liga",
+        logo: "Campeonato Espanhol",
         anos: "2014",
         clube: "Individual",
         categoria: "individual",
@@ -12291,7 +12291,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Troféu Ricardo Zamora",
-        logo: "La Liga",
+        logo: "Campeonato Espanhol",
         anos: "2016, 2017, 2018, 2019, 2021",
         clube: "Individual",
         categoria: "individual",
@@ -12397,7 +12397,7 @@ export const jogadores = [
       },
       {
         nome: "Troféu Pichichi",
-        logo: "La Liga",
+        logo: "Campeonato Espanhol",
         anos: "1954, 1956, 1957, 1958, 1959",
         clube: "Individual",
         categoria: "individual",
@@ -13146,7 +13146,7 @@ export const jogadores = [
       },
       {
         nome: "Artilheiro Espanhol da La Liga",
-        logo: "La Liga",
+        logo: "Campeonato Espanhol",
         anos: "2006, 2007, 2009, 2010",
         clube: "Individual",
         categoria: "individual",
@@ -13463,7 +13463,7 @@ export const jogadores = [
       },
       {
         nome: "Jogador Revelação da La Liga",
-        logo: "La Liga",
+        logo: "Campeonato Espanhol",
         anos: "2009",
         clube: "Individual",
         categoria: "individual",
@@ -13652,7 +13652,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Jogador Jovem",
-        logo: "La Liga",
+        logo: "Campeonato Espanhol",
         anos: "2023-24",
         clube: "Individual",
         categoria: "individual",
@@ -14524,24 +14524,168 @@ export const jogadores = [
     ],
   },
 
-  // Franck Ribéry
+  // Franck Ribéry (Franck Henry Pierre Ribéry)
   {
     nome: "Franck Ribéry",
     background: "diamond",
     descricao:
-      "Uma lenda do futebol francês! Conhecido por sua habilidade, velocidade e dribles desconcertantes, Ribéry foi um dos maiores jogadores da sua geração. Ele conquistou títulos importantes com Bayern de Munique e seleção francesa.",
-    pagina: "https://www.instagram.com/frankribery/",
+      "Ex-ponta-esquerda francês, lendário no Bayern de Munique, conhecido por sua velocidade, dribles e parceria icônica com Arjen Robben ('Robbery'). Foi eleito o Melhor Jogador da Europa em 2013 e ficou em 3º lugar na Bola de Ouro.",
+    pagina: "https://www.instagram.com/franckribery/",
     nacionalidade: "França",
     imagem:
-      "https://media.gettyimages.com/id/146399315/pt/foto/donetsk-ukraine-franck-ribery-of-france-looks-on-during-the-uefa-euro-2012-group-d-match.jpg?s=612x612&w=gi&k=20&c=cCNZvnba7VWdLpQi4SgTM8ILdPAfsEJcCJ6-_X_Usik=",
+      "https://s2-ge.glbimg.com/PJKpLL61QooyAWQe7vSIYLMuxnc=/0x0:2200x1475/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2018/04/23/2018-03-31t164424z_40588371_rc1e2ec506b0_rtrmadp_3_soccer-germany-bay-dor.jpg",
     numero: "7",
-    posicao: "Meia-atacante",
-    dataNascimento: "7 de abril de 1983",
+    posicao: "Ponta Esquerda",
+    dataNascimento: "07/04/1983",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Boulogne",
+        { inicio: "2001", fim: "2002" },
+        { jogos: 25, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Olympique Alès",
+        { inicio: "2002", fim: "2003" },
+        { jogos: 19, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Brest",
+        { inicio: "2003", fim: "2004" },
+        { jogos: 35, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Metz",
+        { inicio: "2004", fim: "2005" },
+        { jogos: 21, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Galatasaray",
+        { inicio: "2005", fim: "2005" },
+        { jogos: 14, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Olympique de Marseille",
+        { inicio: "2005", fim: "2007" },
+        { jogos: 88, gols: 14, assistencias: 20 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2007", fim: "2019" },
+        { jogos: 425, gols: 124, assistencias: 182 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "2019", fim: "2021" },
+        { jogos: 51, gols: 5, assistencias: 10 }
+      ),
+      createClub(
+        "Salernitana",
+        { inicio: "2021", fim: "2022" },
+        { jogos: 25, gols: 1, assistencias: 3 }
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "2006", fim: "2014" },
+      estatisticas: { jogos: 81, gols: 16, assistencias: 0 },
+    },
+    titulos: [
+      // Bayern de Munique
+      {
+        nome: "Copa da Liga Alemã",
+        anos: "2007",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Campeonato Alemão",
+        anos: "2007, 2009, 2012, 2013, 2014, 2015, 2016, 2017 e 2018",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "2007, 2009, 2012, 2013, 2015 e 2018",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2007, 2009, 2012, 2013, 2015 e 2018",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2012",
+        clube: "Bayern de Munique",
+      },
+      { nome: "Mundial de Clubes", anos: "2013", clube: "Bayern de Munique" },
+      { nome: "Supercopa da UEFA", anos: "2013", clube: "Bayern de Munique" },
+
+      // Galatasaray
+      { nome: "Copa da Turquia", anos: "2004–05", clube: "Galatasaray" },
+
+      // Individuais
+      {
+        nome: "Jogador Francês do Ano",
+        anos: "2007, 2008, 2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Bundesliga",
+        logo: "Campeonato Alemão",
+        anos: "2007",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Bundesliga pela revista Kicker",
+        logo: "Kicker",
+        anos: "2007, 2008, 2011, 2012 e 2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2008, 2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Europa",
+        logo: "UEFA",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundial de Clubes",
+        logo: "Mundial de Clubes",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do ano do jornal L'Équipe",
+        logo: "L'Équipe",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "3º Melhor Jogador do Mundo",
+        logo: "Bola de Ouro",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "ALL TIME FRANCE MEN'S DREAM TEAM (Time C)",
+        logo: "IFFHS",
+        anos: "2021",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Franck Ribéry", "Robbery", "Franck Henry Pierre Ribéry"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Hugo Lloris
@@ -15014,7 +15158,7 @@ export const jogadores = [
       },
       {
         nome: "Revelação da Temporada da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "2016-17",
         clube: "Individual",
         categoria: "individual",
@@ -15468,7 +15612,7 @@ export const jogadores = [
     titulos: [
       // Bayern de Munique
       {
-        nome: "Bundesliga",
+        nome: "Campeonato Alemão",
         anos: "2025",
         clube: "Bayern de Munique",
       },
@@ -15562,7 +15706,7 @@ export const jogadores = [
       },
       {
         nome: "Time da temporada da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "2023",
         clube: "Individual",
         categoria: "individual",
@@ -15590,7 +15734,7 @@ export const jogadores = [
       },
       {
         nome: "Artilheiro da Bundesliga",
-        logo: "Bundesliga",
+        logo: "Campeonato Alemão",
         anos: "2023-24",
         clube: "Individual",
         categoria: "individual",
@@ -16307,7 +16451,7 @@ export const jogadores = [
     status: "Aposentado",
     nacionalidade: "Suécia",
     imagem:
-      "https://tmssl.akamaized.net//images/foto/galerie/zlatan-ibrahimovic-ac-mailand-1603008323-49388.jpg?lm=1603008348",
+      "https://rp-online.de/imgs/32/9/5/0/0/4/1/7/7/tok_2756f3f4788d2bf5d542fcd8f27feb8c/w2100_h1313_x1382_y883_AP_32A2EC00A42791F9-aadde8a1187e0900.jpg",
     clubes: [
       createClub(
         "Malmo FF",
@@ -16493,7 +16637,16 @@ export const jogadores = [
         categoria: "individual",
       },
     ],
-    tags: ["Paris Saint-Germain", "PSG"],
+    tags: [
+      "Ibra",
+      "Ibramovic",
+      "Zlatan Ibrahimovic",
+      "Ibrahimovic",
+      "Zlatan",
+      "Ibramovick",
+      "PSG",
+    ],
+    ultima_atualizacao: "30/10/25",
   },
 
   // URUGUAI --------------------------------------------------------------------------------------------------------------------

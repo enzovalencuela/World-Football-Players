@@ -283,7 +283,7 @@ ul {
 
 .img-superior {
   bottom: 0;
-  left: -1px;
+  left: -1.5px;
   width: 150px;
   z-index: 10;
 }
@@ -726,6 +726,14 @@ footer {
     padding: 1rem;
     height: inherit;
     max-height: initial;
+  }
+
+  .img-superior {
+    width: 140px;
+  }
+
+  .img-inferior {
+    width: 95px;
   }
 
   .numero-nome-time {

@@ -95,17 +95,6 @@ function CardJogador({ jogador }) {
           <p className="descricao-meta">{jogador.descricao}</p>
         </div>
       </div>
-
-      <button
-        className="mostrar-esconder"
-        onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
-      >
-        {mostrarDetalhes ? "Mostrar menos" : "Mostrar mais"}
-        <span
-          className={`fa-solid fa-chevron-${mostrarDetalhes ? "up" : "down"}`}
-        ></span>
-      </button>
-
       {mostrarDetalhes && (
         <div className="conteudo-oculto">
           <div className="tabelas">
@@ -122,6 +111,15 @@ function CardJogador({ jogador }) {
           )}
         </div>
       )}
+      <button
+        className="mostrar-esconder"
+        onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
+      >
+        {mostrarDetalhes ? "Mostrar menos" : "Mostrar mais"}
+        <span
+          className={`fa-solid fa-chevron-${mostrarDetalhes ? "up" : "down"}`}
+        ></span>
+      </button>
     </div>
   );
 }
