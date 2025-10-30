@@ -10,7 +10,7 @@ export const jogadores = [
     background: "gold",
     descricao:
       "Considerado um dos maiores defensores de todos os tempos, Franz Beckenbauer era conhecido por sua elegância, visão de jogo e habilidade com a bola. Campeão mundial como jogador e técnico pela Alemanha, ele revolucionou a posição de líbero.",
-    pagina: "https://en.wikipedia.org/wiki/Franz_Beckenbauer",
+    pagina: "https://www.instagram.com/franzbeckenbauer/",
     numero: "5",
     posicao: "Líbero",
     dataNascimento: "11/09/1945",
@@ -443,7 +443,7 @@ export const jogadores = [
     background: "##",
     descricao:
       "Zagueiro alemão campeão da Copa do Mundo FIFA 2014 e um ícone do Bayern de Munique, onde conquistou duas Tríplices Coroas. Conhecido por sua força, visão de jogo e a habilidade de lançar a bola com precisão, foi considerado um dos melhores zagueiros do mundo em seu auge. Anunciou sua aposentadoria em setembro de 2025.",
-    pagina: "https://pt.wikipedia.org/wiki/Jerome_Boateng",
+    pagina: "https://www.instagram.com/jeromeboateng",
     nacionalidade: "Alemanha",
     imagem:
       "https://tmssl.akamaized.net/images/foto/galerie/jerome-boateng-olympique-lyon-2021-1631513447-70946.jpg",
@@ -995,7 +995,7 @@ export const jogadores = [
     background: "diamond",
     descricao:
       "Um dos maiores meio-campistas da história, Schweinsteiger era conhecido por sua visão de jogo e liderança. Foi campeão do mundo em 2014 com a Alemanha.",
-    pagina: "https://pt.wikipedia.org/wiki/Bastian_Schweinsteiger",
+    pagina: "https://www.instagram.com/bastianschweinsteiger/",
     nacionalidade: "Alemanha",
     imagem:
       "https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2016/06/12/1874896-39494913-2560-1440.jpg",
@@ -1311,26 +1311,62 @@ export const jogadores = [
     tags: [],
   },
 
-  // Alejandro Garnacho
+  // Alejandro Garnacho Ferreyra
   {
     nome: "Alejandro Garnacho",
     background: "promise",
     descricao:
-      "Um jovem talento que vem se destacando no futebol mundial! Garnacho é conhecido por sua velocidade, dribles e habilidade de finalizar as jogadas. Mesmo sendo muito jovem ele já é considerado uma das maiores promessas do futebol.",
-    pagina: "https://www.instagram.com/alejandrogarnacho/",
+      "Jovem ponta hispano-argentino, conhecido por sua velocidade e habilidade no drible. Revelado pelo Atlético de Madrid e profissionalizado no Manchester United, transferiu-se para o Chelsea em 2025 em busca de mais espaço.",
+    pagina: "https://www.instagram.com/garnacho7/",
     nacionalidade: "Argentina",
     imagem:
-      "https://talksport.com/wp-content/uploads/sites/5/2025/01/alejandro-garnacho-manchester-united-reacts-958596867.jpg?strip=all&quality=100&w=1080&h=1080&crop=1",
-    numero: "17",
+      "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0918%2Fr1547315_1296x729_16%2D9.jpg",
+    numero: "49",
     posicao: "Ponta-Esquerda",
     dataNascimento: "01/07/2004",
     status: "Ativo",
-    curiosidades:
-      "Garnacho é um jogador muito versátil, podendo atuar tanto pela esquerda como pela direita. Ele é um grande fã de Cristiano Ronaldo e busca seguir seus passos.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Manchester United",
+        { inicio: "2022", fim: "2025" },
+        { jogos: 93, gols: 16, assistencias: 0 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2025", fim: "Atual" },
+        { jogos: 7, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "2023", fim: "Atual" },
+      estatisticas: { jogos: 8, gols: 0, assistencias: 0 },
+      participacoes: ["Copa América (2024 - Vencedor)"],
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Copa América",
+        anos: "2024",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+
+      // Manchester United
+      {
+        nome: "FA Youth Cup Sub-18",
+        logo: "FA Youth Cup",
+        anos: "2022",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2023",
+        clube: "Manchester United",
+      },
+    ],
+    tags: ["Garnacho", "Alejandro Garnacho", "Alejandro Garnacho Ferreyra"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Ángel Di María
@@ -1460,7 +1496,7 @@ export const jogadores = [
     background: "#",
     descricao:
       "Considerado um dos maiores atacantes argentinos da sua geração, Carlos Tévez é conhecido por sua força física, dribles e gols decisivos. Tendo jogado por grandes clubes como Boca Juniors, Manchester United e Juventus, conquistou diversos títulos e se tornou um ídolo da torcida.",
-    pagina: "https://pt.wikipedia.org/wiki/Carlos_Tévez",
+    pagina: "https://www.instagram.com/__carlitostevez/",
     nacionalidade: "Argentina",
     imagem:
       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgBvPjh1bPMfnrNr40d1EgnVJcAqJufU_x0ltn5cIIdDSisyq_oVNplviZTXpNd9kw1Lix4d-8hd0VnF-inblh4MYdpDF0MDy_5C19_u-g8-_2qaMgzqNs6eySo66gan88bHPWh6FV0pQ/s1600/tevez+argentina.jpg",
@@ -1482,7 +1518,7 @@ export const jogadores = [
     background: "gold",
     descricao:
       "Considerado um dos maiores jogadores de todos os tempos, Maradona era conhecido por sua habilidade inigualável, dribles desconcertantes, visão de jogo e liderança. Foi o grande ídolo da Argentina na conquista da Copa do Mundo de 1986 e o maior nome da história do Napoli.",
-    pagina: "https://www.instagram.com/diegoarmandomaradona/",
+    pagina: "https://www.instagram.com/maradona/",
     nacionalidade: "Argentina",
     imagem:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/330px-Maradona-Mundial_86_con_la_copa.JPG",
@@ -2554,10 +2590,10 @@ export const jogadores = [
   // Romelu Lukaku
   {
     nome: "Romelu Lukaku",
-    background: "#",
+    background: "titanium",
     descricao:
       "Conhecido por sua força física e habilidade de marcar gols, Romelu Lukaku é um dos atacantes mais temidos do futebol mundial. Com uma carreira marcada por passagens por grandes clubes como Chelsea, Manchester United e Inter de Milão, o belga conquistou diversos títulos e se destacou pela sua capacidade de decidir jogos importantes.",
-    pagina: "https://pt.wikipedia.org/wiki/Romelu_Lukaku",
+    pagina: "https://www.instagram.com/romelulukaku/",
     nacionalidade: "Bélgica",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/f1/2022/11/27/lukaku-em-acao-pela-belgica-durante-partida-contra-o-marrocos-na-copa-do-mundo-1669560569630_v2_720x1024.jpg",
@@ -3262,7 +3298,7 @@ export const jogadores = [
     background: "titanium",
     descricao:
       "Volante de passes precisos e excelente visão de jogo, revelado pelo Grêmio. Foi protagonista na conquista da Copa Libertadores 2017 e campeão da Copa América 2019, sendo eleito para a seleção do torneio. Passagens por Barcelona e Juventus, com títulos nacionais na Espanha e Itália.",
-    pagina: "https://pt.wikipedia.org/wiki/Arthur_Melo",
+    pagina: "https://www.instagram.com/arthurhmelo",
     numero: "29",
     posicao: "Volante / Meia Central",
     dataNascimento: "12/08/1996",
@@ -3301,7 +3337,6 @@ export const jogadores = [
       nome: "Brasil",
       periodo: { inicio: "2018", fim: "2020" },
       estatisticas: { jogos: 22, gols: 1, assistencias: 0 },
-      participacoes: ["Copa América (2019)"],
     },
     titulos: [
       // Seleção
@@ -3384,15 +3419,104 @@ export const jogadores = [
     dataNascimento: "08/05/1998",
     status: "Ativo",
     imagem:
-      "https://i.pinimg.com/originals/c8/96/79/c896795ae03e335e9dd1850de9ee5df4.png",
+      "https://conteudo.imguol.com.br/c/esporte/c9/2023/06/05/ayrton-lucas-celebra-gol-do-flamengo-sobre-o-vasco-em-jogo-do-campeonato-brasileiro-1686010952183_v2_450x600.jpg",
     descricao:
-      "Lateral-esquerdo brasileiro conhecido por sua velocidade e habilidade nos cruzamentos. Um dos pilares da defesa do Flamengo.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "Lateral-esquerdo brasileiro conhecido por sua velocidade, habilidade ofensiva e cruzamentos precisos. Destacou-se no futebol russo antes de se firmar como titular absoluto no Flamengo.",
+    clubes: [
+      createClub(
+        "Fluminense",
+        { inicio: "2015", fim: "2018" },
+        { jogos: 73, gols: 2, assistencias: 6 }
+      ),
+      createClub(
+        "Madureira",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 9, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Londrina",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 52, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Spartak Moscou",
+        { inicio: "2019", fim: "2022" },
+        { jogos: 108, gols: 4, assistencias: 10 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 190, gols: 13, assistencias: 15 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2023", fim: "Presente" },
+      estatisticas: { jogos: 2, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Fluminense
+      {
+        nome: "Primeira Liga",
+        anos: "2016",
+        clube: "Fluminense",
+      },
+
+      // Londrina
+      {
+        nome: "Primeira Liga",
+        anos: "2017",
+        clube: "Londrina",
+      },
+
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024, 2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa Rei",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+
+      // Spartak Moscou
+      {
+        nome: "Copa da Rússia",
+        anos: "2022",
+        clube: "Spartak Moscou",
+      },
+
+      // Individuais
+      {
+        nome: "Seleção da Copa Sul-Americana",
+        logo: "Copa Sul-Americana",
+        anos: "2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Carioca",
+        logo: "Campeonato Carioca",
+        anos: "2018, 2023",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Ayrton Lucas"],
+    ultima_atualizacao: "29/10/25",
   },
 
+  ,
   // Bebeto
   {
     nome: "Bebeto",
@@ -3693,7 +3817,7 @@ export const jogadores = [
     titulos: [
       // Individuais
       {
-        nome: "Bola de Prata",
+        nome: "Bola de Prata da Revista Placar",
         logo: "Placar",
         anos: "1992, 1993",
         clube: "individual",
@@ -3900,24 +4024,139 @@ export const jogadores = [
     ultima_atualizacao: "28/10/25",
   },
 
-  // Carlinhos
+  // Carlinhos (Carlos Moisés de Lima)
   {
     nome: "Carlinhos",
     background: "#",
-    pagina: "https://www.instagram.com/carlinhos_l9/",
-    nacionalidade: "Brasil",
-    numero: "22",
-    posicao: "Atacante",
-    dataNascimento: "18/09/1994",
-    status: "Ativo",
-    imagem:
-      "https://tntsports.com.br/__export/1712606644898/sites/esporteinterativo/img/2024/04/08/carlinhos_marcelo_cortes_crf_-_gkqumcixaaaaovk.jpg_742406227.jpg",
     descricao:
-      "Atacante versátil, capaz de atuar por diversas posições no ataque. Conhecido por sua força física e finalizações de média distância.",
-    clubes: [],
+      "Centroavante brasileiro conhecido por sua força física e poder de finalização. Ganhou notoriedade ao ser vice-artilheiro do Campeonato Carioca pelo Nova Iguaçu em 2024, o que lhe rendeu a contratação pelo Flamengo. Atualmente, está emprestado ao Vitória.",
+    pagina: "https://www.instagram.com/carlinhos_l9",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/15/2025/02/04/carlinhos-foi-anunciado-como-novo-reforco-do-vitoria-1738698308778_v2_450x450.jpg",
+    numero: "99",
+    posicao: "Centroavante",
+    dataNascimento: "12/02/1997",
+    status: "Ativo",
+    clubes: [
+      createClub(
+        "Novorizontino",
+        { inicio: "2014", fim: "2014" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2016", fim: "2020" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Oeste",
+        { inicio: "2018", fim: "2018" },
+        { jogos: 14, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Novorizontino",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 11, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Vila Nova",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 8, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Marcílio Dias",
+        { inicio: "2020", fim: "2020" },
+        { jogos: 4, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Atibaia",
+        { inicio: "2020", fim: "2020" },
+        { jogos: 3, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "São Caetano",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 6, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Santo André",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 1, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Audax-RJ",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 12, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus-SP",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Audax-RJ",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 6, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Camboriú",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 15, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "Nova Iguaçu",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 14, gols: 9, assistencias: 1 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 20, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Vitória",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 1, gols: 1, assistencias: 0 }
+      ),
+    ],
     selecao: {},
-    titulos: [],
-    tags: [],
+    titulos: [
+      // Corinthians
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2017",
+        clube: "Corinthians",
+      },
+
+      // Flamengo
+      {
+        nome: "Taça Guanabara",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Seleção do Campeonato Carioca",
+        logo: "Campeonato Carioca",
+        anos: "2024",
+        categoria: "individual",
+      },
+      {
+        nome: "Vice-Artilheiro do Carioca",
+        logo: "Campeonato Carioca",
+        anos: "2024",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Carlinhos", "Carlos Moisés de Lima"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Carlos Alberto Torres
@@ -4223,7 +4462,7 @@ export const jogadores = [
     background: "titanium",
     descricao:
       "Goleiro lendário e o segundo jogador com mais jogos na história do Corinthians. Peça fundamental nas conquistas da Libertadores e do Mundial de Clubes em 2012, e bicampeão brasileiro. Conhecido por sua liderança e impressionante defesa de pênaltis.",
-    pagina: "https://pt.wikipedia.org/wiki/C%C3%A1ssio_Ramos",
+    pagina: "https://www.instagram.com/rcassio12",
     numero: "12",
     posicao: "Goleiro",
     dataNascimento: "06/06/1987",
@@ -4321,7 +4560,7 @@ export const jogadores = [
         categoria: "individual",
       },
       {
-        nome: "Bola de Prata",
+        nome: "Bola de Prata da Revista Placar",
         logo: "Placar",
         anos: "2015, 2017",
         clube: "Individual",
@@ -4335,7 +4574,7 @@ export const jogadores = [
         categoria: "individual",
       },
     ],
-    tags: ["Cássio Ramos"],
+    tags: ["Cassio Ramos", "Casio"],
     ultima_atualizacao: "28/10/25",
   },
 
@@ -5395,7 +5634,7 @@ export const jogadores = [
     background: "diamond",
     descricao:
       "Zagueiro central rápido e versátil, considerado um dos melhores defensores de sua geração. Consolidou-se no Real Madrid, sendo peça-chave em múltiplas conquistas da UEFA Champions League. Também atua como lateral-direito e é campeão da Copa América com a Seleção Brasileira.",
-    pagina: "https://pt.wikipedia.org/wiki/%C3%89der_Milit%C3%A3o",
+    pagina: "https://www.instagram.com/edermilitao",
     numero: "3",
     posicao: "Zagueiro",
     dataNascimento: "18/01/1998",
@@ -5593,24 +5832,89 @@ export const jogadores = [
     tags: [],
   },
 
-  // Endrick
+  // Endrick (Endrick Felipe Moreira de Sousa)
   {
     nome: "Endrick",
     background: "promise",
     descricao:
-      "Joia do futebol brasileiro, Endrick é um atacante veloz e habilidoso, com grande potencial para se tornar um dos maiores jogadores do mundo. Despertou o interesse de grandes clubes europeus.",
-    pagina: "https://www.instagram.com/endrickfelder/",
+      "Atacante promissor, revelado pelo Palmeiras, onde conquistou diversos títulos e se destacou como artilheiro e revelação do Brasileirão. Transferiu-se para o Real Madrid em julho de 2024, após completar 18 anos, e é uma peça importante no futuro da Seleção Brasileira.",
+    pagina: "https://www.instagram.com/endrick/",
     nacionalidade: "Brasil",
     imagem:
-      "https://tntsports.com.br/__export/1724608871240/sites/esporteinterativo/img/2024/08/25/endrick_-_real_madrid_1.jpg",
-    numero: "16",
-    posicao: "Atacante",
+      "https://sports.sbt.com.br/_next/image?url=https%3A%2F%2Fsbt-sports-assets-prod.s3.sa-east-1.amazonaws.com%2FEndrick_Golden_Boy_903742464a.jpg&w=1920&q=90",
+    numero: "9",
+    posicao: "Centroavante",
     dataNascimento: "21/07/2006",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Palmeiras",
+        { inicio: "2022", fim: "2024" },
+        { jogos: 82, gols: 21, assistencias: 4 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2024", fim: "Atual" },
+        { jogos: 37, gols: 7, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2023", fim: "Atual" },
+      estatisticas: { jogos: 7, gols: 3, assistencias: 0 },
+    },
+    titulos: [
+      // Palmeiras
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2023, 2024",
+        clube: "Palmeiras",
+      },
+
+      // Real Madrid
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2024",
+        clube: "Real Madrid",
+      },
+
+      // Individuais
+      {
+        nome: "Revelação do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata - Revelação",
+        logo: "ESPN",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Paulista",
+        logo: "Campeonato Paulista",
+        anos: "2024",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Endrick", "Endrick Felipe", "Endrick Felipe Moreira de Sousa"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Estevão
@@ -5771,7 +6075,8 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Bola de Prata",
+        nome: "Bola de Prata do Brasileirão",
+        logo: "Bola de Prata",
         anos: "2018",
         clube: "Individual",
         categoria: "individual",
@@ -5787,7 +6092,7 @@ export const jogadores = [
     background: "titanium",
     descricao:
       "Meio-campista clássico, extremamente técnico e conhecido por sua visão de jogo e dribles. Único jogador a ser bicampeão brasileiro consecutivo por dois clubes diferentes (Cruzeiro e Flamengo) e bicampeão da Libertadores. Foi eleito o Craque do Brasileirão por duas vezes e defendeu a Seleção Brasileira na Copa do Mundo de 2022.",
-    pagina: "https://pt.wikipedia.org/wiki/%C3%89verton_Ribeiro",
+    pagina: "https://www.instagram.com/evertonri",
     numero: "10",
     posicao: "Meio-campista (Meia-armador)",
     dataNascimento: "10/04/1989",
@@ -5918,14 +6223,14 @@ export const jogadores = [
         categoria: "individual",
       },
       {
-        nome: "Bola de Ouro",
+        nome: "Bola de Ouro da Revista Placar",
         logo: "Placar",
         anos: "2013, 2014",
         clube: "Individual",
         categoria: "individual",
       },
       {
-        nome: "Bola de Prata",
+        nome: "Bola de Prata da ESPN",
         logo: "ESPN",
         anos: "2013, 2014, 2019",
         clube: "Individual",
@@ -6044,7 +6349,7 @@ export const jogadores = [
     background: "plate",
     descricao:
       "Zagueiro rápido e de força física, conhecido pela sua capacidade de recuperação e bom jogo aéreo. Foi um dos pilares defensivos do Flamengo nas conquistas de Libertadores e Copas do Brasil, sendo convocado para a Seleção Brasileira em 2024.",
-    pagina: "https://pt.wikipedia.org/wiki/Fabr%C3%ADcio_Bruno",
+    pagina: "https://www.instagram.com/fabriciobruno96/",
     nacionalidade: "Brasil",
     imagem:
       "https://medias.itatiaia.com.br/dims4/default/3e0085d/2147483647/strip/false/crop/1010x1010+319+0/resize/1000x1000!/quality/90/?url=https%3A%2F%2Fk2-prod-radio-itatiaia.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa7%2Fc1%2F2f2cb6e14cba85b721f2d5024549%2Fwhatsapp-image-2025-08-11-at-00-04-51.jpeg",
@@ -6125,7 +6430,7 @@ export const jogadores = [
     background: "titanium",
     descricao:
       "Lateral-direito histórico do Corinthians, conhecido pela raça, técnica na marcação e apoio ofensivo. Foi peça fundamental em dois títulos brasileiros do clube, além de ter sido o lateral-direito titular da Seleção Brasileira na Copa do Mundo de 2018.",
-    pagina: "https://pt.wikipedia.org/wiki/Fagner_(futebolista)",
+    pagina: "https://www.instagram.com/fagneroficial23/",
     nacionalidade: "Brasil",
     imagem: "https://pbs.twimg.com/media/GxSi9V4WAAASI_q?format=jpg&name=large",
     numero: "23",
@@ -6168,7 +6473,6 @@ export const jogadores = [
       nome: "Brasil",
       periodo: { inicio: "2015", fim: "2019" },
       estatisticas: { jogos: 10, gols: 0, assistencias: 0 },
-      participacoes: ["Copa do Mundo FIFA 2018", "Copa América 2019"],
     },
     titulos: [
       // Seleção
@@ -6260,7 +6564,7 @@ export const jogadores = [
     background: "#",
     descricao:
       "Atacante folclórico e ídolo incontestável do Santa Cruz. Conhecido por sua raça, gols decisivos e irreverência, como o famoso gol do título da Série C (2013). Uma lenda do futebol pernambucano, frequentemente apelidado de 'CR7 Brasileiro' pelos torcedores.",
-    pagina: "https://pt.wikipedia.org/wiki/Fl%C3%A1vio_Ca%C3%A7a-Rato",
+    pagina: "https://www.instagram.com/cr7.flavio/",
     numero: "7",
     posicao: "Atacante / Ponta Direita",
     dataNascimento: "29/06/1986",
@@ -6421,7 +6725,7 @@ export const jogadores = [
     background: "titanium",
     descricao:
       "Atacante brasileiro conhecido por sua finalização e habilidade, artilheiro em diversas competições, ganhando o apelido de Gabigol. É o maior artilheiro brasileiro da história da Copa Libertadores e foi eleito o 'Rei da América' em 2019.",
-    pagina: "https://pt.wikipedia.org/wiki/Gabigol",
+    pagina: "https://www.instagram.com/gabigol",
     nacionalidade: "Brasil",
     imagem:
       "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/01/17/532288004-542694910180da12ab0c1k-1.jpg",
@@ -6452,15 +6756,19 @@ export const jogadores = [
       ),
       createClub(
         "Flamengo",
-        { inicio: "2019", fim: "Presente" },
+        { inicio: "2019", fim: "2024" },
         { jogos: 308, gols: 161, assistencias: 44 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 40, gols: 13, assistencias: 2 }
       ),
     ],
     selecao: {
       nome: "Brasil",
       periodo: { inicio: "2016", fim: "2021" },
       estatisticas: { jogos: 18, gols: 5, assistencias: 2 },
-      participacoes: ["Jogos Olímpicos Rio 2016 (Ouro)", "Copa América 2021"],
     },
     titulos: [
       // Seleção Brasileira
@@ -6469,9 +6777,8 @@ export const jogadores = [
         anos: "2016",
         clube: "Brasil",
         logoVariavel: true,
-      },
+      }, // Flamengo
 
-      // Flamengo
       {
         nome: "Copa Libertadores",
         anos: "2019, 2022",
@@ -6501,16 +6808,14 @@ export const jogadores = [
         nome: "Campeonato Carioca",
         anos: "2019, 2020, 2021, 2024",
         clube: "Flamengo",
-      },
+      }, // Santos
 
-      // Santos
       {
         nome: "Campeonato Paulista",
         anos: "2015, 2016",
         clube: "Santos",
-      },
+      }, // Individuais
 
-      // Individuais
       {
         nome: "Rei da América",
         logo: "Copa Libertadores",
@@ -6531,16 +6836,17 @@ export const jogadores = [
       },
     ],
     tags: ["Gabigol"],
-    ultima_atualizacao: "28/10/25",
+    ultima_atualizacao: "29/10/25",
   },
 
+  ,
   // Gabriel Jesus
   {
     nome: "Gabriel Jesus",
     background: "diamond",
     descricao:
       "Atacante com grande histórico de conquistas no Brasil e Europa. Foi protagonista na conquista do Brasileirão pelo Palmeiras, tetracampeão da Premier League pelo Manchester City e peça fundamental na Seleção Brasileira.",
-    pagina: "https://pt.wikipedia.org/wiki/Gabriel_Jesus",
+    pagina: "https://www.instagram.com/dejesusoficial",
     nacionalidade: "Brasil",
     imagem:
       "https://lncimg.lance.com.br/cdn-cgi/image/width=1280,height=720,quality=75,background=white,fit=pad/uploads/2024/12/000_366F2NU-scaled-aspect-ratio-512-320.jpg",
@@ -6569,12 +6875,6 @@ export const jogadores = [
       nome: "Brasil",
       periodo: { inicio: "2016", fim: "Presente" },
       estatisticas: { jogos: 64, gols: 19, assistencias: 13 },
-      participacoes: [
-        "Jogos Olímpicos Rio 2016 (Ouro)",
-        "Copa do Mundo 2018",
-        "Copa América 2019 (Campeão)",
-        "Copa do Mundo 2022",
-      ],
     },
     titulos: [
       // Seleção Brasileira
@@ -6633,7 +6933,7 @@ export const jogadores = [
         categoria: "individual",
       },
       {
-        nome: "Bola de Ouro",
+        nome: "Bola de Ouro da Revista Placar",
         logo: "Placar",
         anos: "2016",
         categoria: "individual",
@@ -6669,7 +6969,7 @@ export const jogadores = [
     background: "gold",
     descricao:
       "Ponta-direita brasileiro, amplamente considerado o melhor de todos os tempos em sua posição e um dos gênios do futebol. Garrincha era conhecido por sua alegria em campo, dribles desconcertantes (apesar de ter as pernas tortas devido a uma deficiência física) e por ser o grande herói da Seleção Brasileira na conquista do Bicampeonato Mundial em 1962.",
-    pagina: "https://pt.wikipedia.org/wiki/Garrincha",
+    pagina: "https://www.instagram.com/garrinchaoficial/",
     nacionalidade: "Brasil",
     imagem:
       "https://media.gettyimages.com/id/639617883/pt/foto/brazilian-soccer-legend-garrincha-from-botafogo.jpg?s=612x612&w=gi&k=20&c=pPL3wZwTAyPiG9yX39hcRxdzyxnrtk8h9TxL46wO9EI=",
@@ -6826,7 +7126,7 @@ export const jogadores = [
     background: "titanium",
     descricao:
       "Meio-campista versátil, conhecido pela inteligência tática, técnica apurada e capacidade de ditar o ritmo de jogo. Foi peça fundamental e 'Coringa' nas maiores conquistas recentes do Flamengo, incluindo duas Copas Libertadores.",
-    pagina: "https://pt.wikipedia.org/wiki/Gerson_Santos_da_Silva",
+    pagina: "https://www.instagram.com/gersonsantoss/",
     nacionalidade: "Brasil",
     imagem:
       "https://s2-oglobo.glbimg.com/RPWyoX-nxvkvclJmlrpp-FU_59g=/0x0:627x569/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/0/K/Pwcli0SIestYo6acAANw/screenshot-107.png",
@@ -6875,7 +7175,6 @@ export const jogadores = [
       nome: "Brasil",
       periodo: { inicio: "2018", fim: "Presente" },
       estatisticas: { jogos: 8, gols: 0, assistencias: 0 },
-      participacoes: ["Copa América 2021"],
     },
     titulos: [
       // Flamengo
@@ -7224,7 +7523,7 @@ export const jogadores = [
     background: "diamond",
     descricao:
       "Atacante brasileiro conhecido por sua velocidade, dribles e finalizações precisas. Jairzinho foi um dos principais jogadores da seleção brasileira campeã da Copa do Mundo de 1970.",
-    pagina: "https://pt.wikipedia.org/wiki/Jairzinho",
+    pagina: "https://www.instagram.com/jairzinho_furacao/",
     nacionalidade: "Brasil",
     imagem:
       "https://upload.wikimedia.org/wikipedia/commons/8/8f/Jairzinho_1970s.jpg",
@@ -7244,7 +7543,7 @@ export const jogadores = [
     background: "titanium",
     descricao:
       "Lendário meia-campista, ídolo máximo do Corinthians e capitão do time na conquista do primeiro Campeonato Brasileiro (1990). Canhoto de ouro, famoso por seus lançamentos e cobranças de falta indefensáveis. Medalhista de prata olímpico pela Seleção Brasileira.",
-    pagina: "https://pt.wikipedia.org/wiki/Neto_(futebolista)",
+    pagina: "https://www.instagram.com/10neto",
     numero: "10",
     posicao: "Meia Ofensivo",
     dataNascimento: "09/09/1966",
@@ -7375,7 +7674,7 @@ export const jogadores = [
 
       // Individuais
       {
-        nome: "Bola de Prata",
+        nome: "Bola de Prata da Revista Placar",
         logo: "Placar",
         anos: "1991",
         categoria: "individual",
@@ -7451,44 +7750,227 @@ export const jogadores = [
     tags: [],
   },
 
-  //Léo Ortiz
+  // Léo Ortiz (Leonardo Rech Ortiz)
   {
     nome: "Léo Ortiz",
     background: "#",
     descricao:
-      "Zagueiro brasileiro conhecido por sua técnica e visão de jogo. Chegou ao Flamengo em 2024 e já se destaca pela sua qualidade.",
+      "Zagueiro (e volante) brasileiro conhecido pela qualidade na saída de bola, liderança e versatilidade. Foi um dos pilares do Red Bull Bragantino e um dos zagueiros mais caros do Flamengo. Também foi convocado para a Seleção Brasileira.",
     pagina: "https://www.instagram.com/leortiz33/",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/85/2024/04/11/leo-ortiz-durante-a-vitoria-do-flamengo-sobre-o-palestino-na-libertadores-1712809854387_v2_450x600.jpg",
-    numero: "4",
+      "https://conteudo.imguol.com.br/c/esporte/85/2024/04/11/leo-ortiz-durante-a-vitoria-do-flamengo-sobre-o-palestino-na-libertadores-1712809854387_v2_3x4.jpg",
+    numero: "3",
     posicao: "Zagueiro",
-    dataNascimento: "11/01/1997",
+    dataNascimento: "03/01/1996",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Internacional",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 31, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Sport",
+        { inicio: "2018", fim: "2018" },
+        { jogos: 18, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Red Bull Brasil",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 16, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Red Bull Bragantino",
+        { inicio: "2019", fim: "2024" },
+        { jogos: 198, gols: 14, assistencias: 7 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 83, gols: 6, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2021", fim: "Presente" },
+      estatisticas: { jogos: 2, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024, 2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa Rei",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+
+      // Red Bull Bragantino
+      {
+        nome: "Campeonato Brasileiro Série B",
+        anos: "2019",
+        clube: "Red Bull Bragantino",
+      },
+      {
+        nome: "Campeonato Paulista do Interior",
+        anos: "2020",
+        clube: "Red Bull Bragantino",
+      },
+
+      // Internacional
+      {
+        nome: "Recopa Gaúcha",
+        anos: "2017",
+        clube: "Internacional",
+      },
+
+      // Prêmios Individuais
+      {
+        nome: "Bola de Prata do Brasileirão",
+        logo: "Bola de Prata",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Paulista",
+        logo: "Campeonato Paulista",
+        anos: "2021, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa Sul-Americana",
+        logo: "Copa Sul-Americana",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa do Brasil",
+        logo: "Copa do Brasil",
+        anos: "2024",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Leo Ortiz", "Leonardo Rech Ortiz"],
+    ultima_atualizacao: "29/10/25",
   },
 
-  // Léo Pereira
+  // Léo Pereira (Leonardo Pereira)
   {
     nome: "Léo Pereira",
     background: "#",
     descricao:
-      "Zagueiro brasileiro conhecido por sua força física e bom posicionamento defensivo. Um dos pilares da defesa do Flamengo.",
-    pagina: "https://www.instagram.com/leopereira4/",
+      "Zagueiro brasileiro conhecido pela velocidade, bom passe e liderança na defesa. Destaque no Athletico Paranaense, firmou-se como titular no Flamengo, onde é bicampeão da Libertadores.",
+    pagina: "https://www.instagram.com/leopereira4",
     nacionalidade: "Brasil",
     imagem:
       "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/07/04/1588391585-leo-pereira.jpeg",
     numero: "4",
     posicao: "Zagueiro",
-    dataNascimento: "05/01/1998",
+    dataNascimento: "31/01/1996",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2014", fim: "2014" },
+        { jogos: 7, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Guaratinguetá",
+        { inicio: "2015", fim: "2015" },
+        { jogos: 1, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Náutico",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 12, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 21, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Orlando City",
+        { inicio: "2017", fim: "2017" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 85, gols: 8, assistencias: 1 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2020", fim: "Presente" },
+        { jogos: 250, gols: 15, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2013", fim: "2014" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+      participacoes: ["Sul-Americano Sub-17 2013", "Mundial Sub-17 2013"],
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2020, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2020, 2021, 2024, 2025",
+        clube: "Flamengo",
+      }, // Athletico Paranaense
+
+      {
+        nome: "Copa Sul-Americana",
+        anos: "2018",
+        clube: "Athletico Paranaense",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2019",
+        clube: "Athletico Paranaense",
+      },
+      {
+        nome: "Campeonato Paranaense",
+        anos: "2016, 2018",
+        clube: "Athletico Paranaense",
+      },
+    ],
+    tags: ["Leo Pereira"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Lincoln
@@ -7671,7 +8153,7 @@ export const jogadores = [
     background: "plate",
     descricao:
       "Considerado um dos maiores zagueiros da história do futebol brasileiro, Lúcio era conhecido por sua força física, liderança e excelente jogo aéreo. Tendo atuado por grandes clubes como Bayer Leverkusen, Bayern de Munique e Inter de Milão, conquistou diversos títulos e se tornou um dos principais jogadores da Seleção Brasileira.",
-    pagina: "https://pt.wikipedia.org/wiki/Lúcio_(futebolista)",
+    pagina: "https://www.instagram.com/lucio_l3/",
     nacionalidade: "Brasil",
     imagem:
       "https://s2.glbimg.com/_7aal7kSC2Pnb04XJAdGWdxW3h0=/186x0:541x469/300x397/s.glbimg.com/es/ge/f/original/2010/06/29/lucio_get620.jpg",
@@ -7685,24 +8167,98 @@ export const jogadores = [
     tags: [],
   },
 
-  // Luiz Araújo
+  // Luiz Araújo (Luiz de Araújo Guimarães Neto)
   {
     nome: "Luiz Araújo",
     background: "#",
     descricao:
-      "Atacante rápido e habilidoso, conhecido por seus dribles e finalizações precisas. Uma das principais armas do ataque do Flamengo.",
-    pagina: "#",
+      "Atacante (Ponta Direita) conhecido pela velocidade, habilidade no drible e chuta forte de perna esquerda. Formado no São Paulo, foi campeão francês pelo Lille e contratado pelo Flamengo após passagem na MLS.",
+    pagina: "https://www.instagram.com/l.araujo11oficial/",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/c5/2024/06/13/luiz-araujo-e-wesley-comemoram-gol-marcado-pelo-flamengo-contra-o-gremio-pelo-brasileirao-1718325992042_v2_3x4.jpg",
+      "https://conteudo.imguol.com.br/c/esporte/ea/2025/05/15/luiz-araujo-comemora-seu-gol-pelo-flamengo-sobre-a-ldu-1747360659785_v2_450x600.jpg",
     numero: "7",
-    posicao: "Atacante",
+    posicao: "Ponta Direita",
     dataNascimento: "02/06/1996",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "São Paulo",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 49, gols: 9, assistencias: 7 }
+      ),
+      createClub(
+        "Novorizontino",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 5, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Lille OSC",
+        { inicio: "2017", fim: "2021" },
+        { jogos: 136, gols: 18, assistencias: 8 }
+      ),
+      createClub(
+        "Atlanta United",
+        { inicio: "2021", fim: "2023" },
+        { jogos: 63, gols: 13, assistencias: 9 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 106, gols: 17, assistencias: 16 }
+      ),
+    ],
+    selecao: {
+      nome: "Nenhuma",
+      periodo: { inicio: "-", fim: "-" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+      participacoes: [],
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024, 2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa Rei",
+        anos: "2025",
+        clube: "Flamengo",
+      }, // Lille
+
+      {
+        nome: "Campeonato Francês",
+        anos: "2020–21",
+        clube: "Lille OSC",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2021",
+        clube: "Lille OSC",
+      }, // São Paulo
+
+      {
+        nome: "Copa Libertadores Sub-20",
+        anos: "2016",
+        clube: "São Paulo",
+        categoria: "base",
+      }, // Individuaias
+
+      {
+        nome: "Artilheiro da Copa Libertadores Sub-20",
+        logo: "Copa Libertadores Sub-20",
+        anos: "2016",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Luiz Araújo", "Luiz de Araújo Guimarães Neto"],
+    ultima_atualizacao: "29/10/25",
   },
 
   //Marcelo
@@ -7975,7 +8531,8 @@ export const jogadores = [
         categoria: "individual",
       },
       {
-        nome: "Bola de Prata",
+        nome: "Bola de Prata do Brasileirão",
+        logo: "Bola de Prata",
         anos: "2016, 2019, 2020",
         clube: "Individual",
         categoria: "individual",
@@ -8013,44 +8570,168 @@ export const jogadores = [
     ultima_atualizacao: "27/10/25",
   },
 
-  //Matheus Cunha
+  // Matheus Cunha (Matheus Cunha Queiroz)
   {
     nome: "Matheus Cunha",
     background: "#",
     descricao:
-      "Goleiro brasileiro, jovem promessa das categorias de base do Flamengo. Destaca-se por suas reflexões e agilidade.",
+      "Goleiro brasileiro formado nas categorias de base do São Paulo e consolidado no elenco profissional do Flamengo, onde conquistou títulos importantes, incluindo a Copa Libertadores e a Copa do Brasil.",
     pagina: "https://www.instagram.com/matheuscunha_01/",
     nacionalidade: "Brasil",
     imagem:
-      "https://images.flamengo.com.br/public/images/players/1/1710271566.png",
-    numero: "30",
+      "https://conteudo.imguol.com.br/c/esporte/a0/2023/05/11/matheus-cunha-goleiro-do-flamengo-1683777425519_v2_1535x1920.jpg",
+    numero: "25",
     posicao: "Goleiro",
-    dataNascimento: "15/03/2004",
+    dataNascimento: "24/05/2001",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "São Paulo",
+        { inicio: "2016", fim: "2020" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2021", fim: "Presente" },
+        { jogos: 55, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Nenhuma",
+      periodo: { inicio: "-", fim: "-" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+      participacoes: [],
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa Rei",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2021, 2024, 2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro Sub-20",
+        anos: "2021",
+        clube: "Flamengo",
+        categoria: "base",
+      },
+      {
+        nome: "Copa do Brasil Sub-20",
+        anos: "2021",
+        clube: "Flamengo",
+        categoria: "base",
+      },
+      {
+        nome: "Supercopa do Brasil Sub-20",
+        logo: "Supercopa do Brasil",
+        anos: "2021",
+        clube: "Flamengo",
+        categoria: "base",
+      },
+    ],
+    tags: ["Matheus Cunha", "Matheus Cunha Queiroz"],
+    ultima_atualizacao: "29/10/25",
   },
 
-  // Matheus Gonçalves
+  // Matheus Gonçalves (Matheus Gonçalves Martins)
   {
     nome: "Matheus Gonçalves",
     background: "#",
     descricao:
-      "Meia brasileiro com grande potencial, conhecido por sua habilidade nos dribles e visão de jogo. Uma das maiores promessas das categorias de base do Flamengo.",
+      "Jovem atacante (ponta direita) revelado nas categorias de base do Flamengo, onde conquistou a tríplice coroa Sub-17. Após passagem pelo profissional, foi vendido ao Al-Ahli, da Arábia Saudita, em 2025.",
     pagina: "https://www.instagram.com/oficialm10_/",
     nacionalidade: "Brasil",
     imagem:
-      "https://s2-ge.glbimg.com/Us7cCi69LTiaZR7vzIKXuTzaMp0=/0x0:1125x1388/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/o/O/EWqDSpQzqUWvQCfoZlgg/whatsapp-image-2024-04-07-at-21.55.55.jpeg",
-    numero: "10",
-    posicao: "Meia",
-    dataNascimento: "15/03/2004",
+      "https://s2-ge.glbimg.com/VriR9t1_4i2AO8qVarvfBWrm4aQ=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/Q/o/T8zIM4T96zDIzr3hO6Pg/mg.jpg",
+    numero: "11",
+    posicao: "Ponta Direita",
+    dataNascimento: "18/08/2005",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Flamengo",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 10, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Botafogo",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 13, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 15, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Al-Ahli SFC",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 5, gols: 0, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil Sub-20",
+      periodo: { inicio: "2024", fim: "Presente" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+      participacoes: ["Período de treinos e amistosos"],
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro Sub-17",
+        anos: "2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil Sub-17",
+        anos: "2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca Sub-17",
+        logo: "Campeonato Carioca",
+        anos: "2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil Sub-17",
+        logo: "Supercopa do Brasil",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro Sub-20",
+        anos: "2023",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Mundial de Clubes Sub-20",
+        anos: "2024, 2025",
+        clube: "Flamengo",
+      },
+    ],
+    tags: ["Matheus Gonçalves", "Matheus Gonçalves Martins"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Neymar Jr.
@@ -8251,7 +8932,7 @@ export const jogadores = [
     background: "titanium",
     descricao:
       "Centroavante de área letal, conhecido pelo instinto goleador e pela capacidade de finalização. Foi o Artilheiro e Melhor Jogador da Copa Libertadores de 2022, além de membro da Seleção Brasileira na Copa do Mundo de 2022.",
-    pagina: "https://pt.wikipedia.org/wiki/Pedro_Guilherme_Abreu_dos_Santos",
+    pagina: "https://www.instagram.com/pedroguilherme",
     nacionalidade: "Brasil",
     imagem:
       "https://sportbuzz.com.br/wp-content/uploads/2024/12/pedro-flamengo.jpg",
@@ -8280,7 +8961,6 @@ export const jogadores = [
       nome: "Brasil",
       periodo: { inicio: "2022", fim: "Presente" },
       estatisticas: { jogos: 6, gols: 1, assistencias: 0 },
-      participacoes: ["Copa do Mundo FIFA 2022", "Copa América 2024"],
     },
     titulos: [
       // Flamengo
@@ -8355,11 +9035,11 @@ export const jogadores = [
   // Pelé
   {
     nome: "Pelé",
-    background: "gold", // Mantém o fundo dourado para destacar o status de lenda
+    background: "gold",
     descricao:
       "Considerado por muitos o maior jogador de futebol de todos os tempos, Pelé era conhecido por sua habilidade técnica, dribles desconcertantes e incrível capacidade de marcar gols. Ele conquistou três Copas do Mundo com a Seleção Brasileira e revolucionou o futebol mundial.",
-    pagina: "https://pt.wikipedia.org/wiki/Pelé",
-    numero: "10", // Número icônico de Pelé
+    pagina: "https://www.santosfc.com.br/pele/",
+    numero: "10",
     posicao: "Atacante",
     dataNascimento: "23/10/1940",
     dataFalecimento: "29/12/2022",
@@ -8500,7 +9180,8 @@ export const jogadores = [
         logo: "FIFA",
       },
       {
-        nome: "Bola de Prata",
+        nome: "Bola de Prata do Brasileirão",
+        logo: "Bola de Prata",
         anos: "1970",
         categoria: "individual",
       },
@@ -9001,7 +9682,7 @@ export const jogadores = [
     background: "titanium",
     descricao:
       "Atacante de garra e velocidade, consolidou sua carreira na Premier League e se tornou um dos principais nomes da Seleção Brasileira, onde foi artilheiro olímpico e autor do Gol Mais Bonito da Copa do Mundo de 2022.",
-    pagina: "https://pt.wikipedia.org/wiki/Richarlison",
+    pagina: "https://www.instagram.com/richarlison",
     nacionalidade: "Brasil",
     imagem:
       "https://www.reuters.com/resizer/v2/HXSLEOKTHZLPTNIULDKF5OZSVU.jpg?auth=139e174829848d7290f3822d4dd70b9aecd012c37ee2e0b4603ae94a0a86420d&height=2400&width=1920&quality=80&smart=true",
@@ -9259,7 +9940,7 @@ export const jogadores = [
 
       // Individuais
       {
-        nome: "Bola de Prata",
+        nome: "Bola de Prata da Revista Placar",
         logo: "Placar",
         anos: "1971, 1973",
         clube: "Individual",
@@ -9472,44 +10153,199 @@ export const jogadores = [
     tags: [],
   },
 
-  // Rodinei
+  // Rodinei (Rodinei Marcelo de Almeida)
   {
     nome: "Rodinei",
     background: "#",
     descricao:
-      "Lateral-direito brasileiro conhecido por sua força física, velocidade e cruzamentos precisos. Atualmente joga no Olympiacos F.C.",
-    pagina: "https://www.instagram.com/rodineioficial/",
+      "Lateral-direito brasileiro conhecido por sua intensidade ofensiva. Teve passagens marcantes por Ponte Preta, Flamengo e Internacional, sendo peça-chave nas conquistas da Libertadores e da Copa do Brasil de 2022 pelo Fla e, mais recentemente, campeão da Liga Conferência da UEFA pelo Olympiacos.",
+    pagina: "https://www.instagram.com/pretinhorodi_oficial/",
     nacionalidade: "Brasil",
-    imagem:
-      "https://conteudo.imguol.com.br/c/esporte/57/2021/06/02/lateral-direito-rodinei-se-reapresentou-ao-flamengo-apos-defender-o-internacional-por-emprestimo-1622672201174_v2_3x4.jpg",
+    imagem: "https://fla-media.mundobola.com/media/2025/03/rodinei.jpg",
     numero: "23",
-    posicao: "Zagueiro",
-    dataNascimento: "13/03/1992",
+    posicao: "Lateral Direito",
+    dataNascimento: "29/01/1992",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Ponte Preta",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 74, gols: 2, assistencias: 9 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2016", fim: "2019" },
+        { jogos: 159, gols: 5, assistencias: 13 }
+      ),
+      createClub(
+        "Internacional",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 52, gols: 3, assistencias: 9 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 64, gols: 4, assistencias: 7 }
+      ),
+      createClub(
+        "Olympiacos",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 117, gols: 7, assistencias: 22 }
+      ),
+    ],
+    selecao: {
+      nome: "Nenhuma",
+      periodo: { inicio: "-", fim: "-" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+      participacoes: [],
+    },
+    titulos: [
+      // Olympiacos
+      {
+        nome: "UEFA Conference League",
+        anos: "2024",
+        clube: "Olympiacos",
+      },
+
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2017, 2019",
+        clube: "Flamengo",
+      },
+    ],
+    tags: ["Rodinei", "Rodinei Marcelo de Almeida"],
+    ultima_atualizacao: "29/10/25",
   },
 
-  // Rodrigo Caio
+  // Rodrigo Caio (Rodrigo Caio Coquette Russo)
   {
     nome: "Rodrigo Caio",
-    background: "#",
+    background: "plate",
     descricao:
-      "Zagueiro brasileiro conhecido por sua boa técnica e liderança dentro de campo. Atuou por grandes clubes como São Paulo e Flamengo.",
-    pagina: "https://www.instagram.com/rodrigocaio/",
+      "Ex-zagueiro (e volante) formado no São Paulo e multicampeão pelo Flamengo, onde foi peça fundamental nas conquistas da Libertadores (2019 e 2022) e do Campeonato Brasileiro (2019 e 2020). Encerrou a carreira como jogador em maio de 2025 e atualmente é auxiliar técnico do Flamengo.",
+    pagina: "https://www.instagram.com/rodrigocaio_/",
     nacionalidade: "Brasil",
     imagem:
       "https://tntsports.com.br/__export/1662748924441/sites/esporteinterativo/img/2022/09/09/gettyimages-1407905644.jpg",
-    numero: "30",
+    numero: "3",
     posicao: "Zagueiro",
-    dataNascimento: "22/08/1993",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    dataNascimento: "17/08/1993",
+    status: "Aposentado",
+    clubes: [
+      createClub(
+        "São Paulo",
+        { inicio: "2010", fim: "2018" },
+        { jogos: 277, gols: 13, assistencias: 4 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2019", fim: "2023" },
+        { jogos: 152, gols: 6, assistencias: 1 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 5, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2016", fim: "2020" },
+      estatisticas: { jogos: 5, gols: 0, assistencias: 0 },
+      participacoes: ["Olimpíadas (Ouro - 2016)"],
+    },
+    titulos: [
+      // Brasil
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2016",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // São paulo
+      {
+        nome: "Copa Sul-Americana",
+        anos: "2012",
+        clube: "São Paulo",
+      },
+
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2019, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2019, 2020, 2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Seleção do Campeonato Carioca",
+        logo: "Campeonato Carioca",
+        anos: "2019, 2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da América do Sul",
+        logo: "El País",
+        anos: "2019",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Rodrigo Caio", "Rodrigo Caio Coquette Russo"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Rodrigo Muniz
@@ -9598,7 +10434,7 @@ export const jogadores = [
     background: "diamond",
     descricao:
       "Considerado um dos maiores jogadores brasileiros de todos os tempos, Sócrates era conhecido por seu talento com a bola, visão de jogo e liderança. Além de sua carreira brilhante nos gramados, ele era médico e um grande ativista político.",
-    pagina: "https://pt.wikipedia.org/wiki/S%C3%B3crates_(futebolista)",
+    pagina: "https://www.instagram.com/socratesbrasileiro/",
     nacionalidade: "Brasil",
     imagem:
       "https://s2-ge.glbimg.com/ljdhSITgqpxxLYlb1bf9DeGmUjE=/0x0:683x1024/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/v/D/bLQYAbSEmBHlSlkCXvtg/gettyimages-650937640.jpg",
@@ -9834,7 +10670,7 @@ export const jogadores = [
     background: "plate",
     descricao:
       "Lateral-direito formado no Flamengo, multicampeão nacional e continental no Brasil. Transferiu-se para a Roma como um dos jovens defensores brasileiros mais promissores e valorizados do futebol atual.",
-    pagina: "https://pt.wikipedia.org/wiki/Wesley_Fran%C3%A7a",
+    pagina: "https://www.instagram.com/wesleyfranca03_",
     nacionalidade: "Brasil",
     imagem:
       "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/08/wesley-roma-bologna-serie-a-e1755983400196.jpg?w=1200&h=1200&crop=1",
@@ -9863,7 +10699,6 @@ export const jogadores = [
       nome: "Brasil",
       periodo: { inicio: "Base", fim: "Base" },
       estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
-      participacoes: ["Categorias de Base"],
     },
     titulos: [
       // Flamengo
@@ -9938,7 +10773,7 @@ export const jogadores = [
     background: "titanium",
     descricao:
       "Ponta/meia de vasta experiência internacional, ídolo do Chelsea e bicampeão da Premier League e da Liga Europa. Representou o Brasil em duas Copas do Mundo.",
-    pagina: "https://pt.wikipedia.org/wiki/Willian",
+    pagina: "https://www.instagram.com/willianborges88/",
     nacionalidade: "Brasil",
     imagem:
       "https://www.notisul.com.br/wp-content/uploads/2025/09/gremio-willian-1.jpg",
@@ -9982,10 +10817,6 @@ export const jogadores = [
       nome: "Brasil",
       periodo: { inicio: "2011", fim: "2019" },
       estatisticas: { jogos: 70, gols: 9, assistencias: 0 },
-      participacoes: [
-        "Copa do Mundo (2014, 2018)",
-        "Copa América (2015, 2016, 2019)",
-      ],
     },
     titulos: [
       // Chelsea
@@ -10441,24 +11272,88 @@ export const jogadores = [
     tags: [],
   },
 
-  // Erick Pulgar
+  // Erick Pulgar (Erick Antonio Pulgar Farfán)
   {
     nome: "Erick Pulgar",
     background: "#",
     descricao:
-      "Meia-campo chileno conhecido por sua força física e qualidade na marcação. Chegou ao Flamengo em 2022.",
-    pagina: "#",
+      "Volante chileno de forte marcação e excelente capacidade de distribuição de jogo. Com passagens por clubes da Itália (Bologna, Fiorentina) e Turquia (Galatasaray), atualmente é um dos pilares do meio-campo do Flamengo e da Seleção Chilena.",
+    pagina: "https://www.instagram.com/erickoficial/",
     nacionalidade: "Chile",
     imagem:
-      "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1z9JpW.img?w=768&h=474&m=6&x=528&y=88&s=88&d=88",
+      "https://tntsports.com.br/__export/1751286078691/sites/esporteinterativo/img/2025/06/30/gettyimages-2222049587.jpg_1000014774.jpg",
     numero: "5",
-    posicao: "Meia",
+    posicao: "Volante / Meio-Campista Defensivo",
     dataNascimento: "15/01/1994",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Antofagasta",
+        { inicio: "2011", fim: "2014" },
+        { jogos: 51, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Universidad Católica",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 41, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "Bologna",
+        { inicio: "2015", fim: "2019" },
+        { jogos: 106, gols: 10, assistencias: 4 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "2019", fim: "2022" },
+        { jogos: 82, gols: 8, assistencias: 13 }
+      ),
+      createClub(
+        "Galatasaray",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 11, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2022", fim: "Atual" },
+        { jogos: 80, gols: 1, assistencias: 6 }
+      ),
+    ],
+    selecao: {
+      nome: "Chile",
+      periodo: { inicio: "2015", fim: "Atual" },
+      estatisticas: { jogos: 54, gols: 4, assistencias: 0 },
+    },
+    titulos: [
+      // Seleção Chilena
+      {
+        nome: "Copa América Centenário",
+        anos: "2016",
+        clube: "Chile",
+      }, // Flamengo
+
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2023, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+    ],
+    tags: ["Erick Pulgar", "Erick Antonio Pulgar Farfán"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // COLÔMBIA ---------------------------------------------------------------------------------------------------
@@ -11414,7 +12309,8 @@ export const jogadores = [
     background: "gold",
     descricao:
       "Atacante/Meia-atacante lendário, considerado um dos maiores jogadores de todos os tempos. Di Stéfano foi a figura central na era de ouro do Real Madrid, liderando o clube à conquista de cinco Copas dos Campeões Europeus consecutivas. Era conhecido por sua versatilidade em campo, sendo um jogador que defendia e atacava com igual genialidade, apelidado de 'A Flecha Loira' ('Saeta Rubia').",
-    pagina: "https://pt.wikipedia.org/wiki/Alfredo_Di_Stéfano",
+    pagina:
+      "https://www.realmadrid.com/pt-PT/o-clube/historia/lendas-futebol/alfredo-di-stefano-laulhe",
     nacionalidade: "Argentina-Espanha",
     imagem:
       "https://upload.wikimedia.org/wikipedia/commons/b/bb/Mcu_Alfredo_Di_Stefano.jpg",
@@ -12380,24 +13276,73 @@ export const jogadores = [
     tags: ["Diego Costa"],
   },
 
-  // Gavi
+  // Gavi (Pablo Páez Gavira)
   {
     nome: "Gavi",
     background: "promise",
     descricao:
-      "Meia talentoso e promissor, Gavi é conhecido por sua técnica, visão de jogo e personalidade forte. É um dos pilares do meio-campo do Barcelona e da Seleção Espanhola.",
-    pagina: "https://www.instagram.com/gavim10/",
+      "Jovem meio-campista central, formado na La Masia do FC Barcelona. Conhecido por sua garra, técnica e intensidade, é um dos pilares da renovação do clube e da Seleção Espanhola. Atualmente, está se recuperando de uma grave lesão no joelho.",
+    pagina: "https://www.instagram.com/pablogavi/",
     nacionalidade: "Espanha",
     imagem:
-      "https://i0.statig.com.br/bancodeimagens/imgalta/3h/8q/8o/3h8q8ojw0jskjajveof8osndc.jpg",
+      "https://www.eurobarca.hu/wp-content/uploads/2025/01/16977537295.jpg",
     numero: "6",
-    posicao: "Meia",
+    posicao: "Meio-Campista Central",
     dataNascimento: "05/08/2004",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Barcelona",
+        { inicio: "2021", fim: "Atual" },
+        { jogos: 110, gols: 7, assistencias: 12 }
+      ),
+    ],
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2021", fim: "Atual" },
+      estatisticas: { jogos: 28, gols: 5, assistencias: 0 },
+    },
+    titulos: [
+      // Barcelona
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2022–23, 2024–25",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2022–23, 2024–25",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2024–25",
+        clube: "Barcelona",
+      },
+
+      // Seleção
+      {
+        nome: "UEFA Nations League",
+        anos: "2022–23",
+        clube: "Espanha",
+      },
+
+      // Prêmios Individuais
+      {
+        nome: "Troféu Kopa",
+        anos: "2022",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Golden Boy",
+        anos: "2022",
+        clube: "Individual",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Gavi", "Pablo Páez Gavira"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Gerard Piqué
@@ -12845,24 +13790,94 @@ export const jogadores = [
     tags: [],
   },
 
-  // Pedri
+  // Pedri (Pedro González López)
   {
     nome: "Pedri",
     background: "promise",
     descricao:
-      "Meia talentoso e elegante, Pedri é conhecido por sua técnica apurada, visão de jogo e habilidade de controlar o ritmo do jogo. É um dos pilares do meio-campo do Barcelona e da Seleção Espanhola.",
+      "Jovem e talentoso meio-campista central, considerado um dos maiores 'registas' da sua geração. Formado no Las Palmas e rapidamente alçado ao estrelato no Barcelona. Sua visão de jogo, controle de bola e capacidade de ditar o ritmo são suas marcas registradas.",
     pagina: "https://www.instagram.com/pedri/",
     nacionalidade: "Espanha",
     imagem:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ16ZnYJ1uRd7jU7W5NAY4QgY9e2Qu8LNYVcA&s",
+      "https://semprebarca.com/wp-content/uploads/2025/02/FC-Barcelona-v-Deportivo-Alaves-La-Liga-EA-Sports-5.jpg",
     numero: "8",
-    posicao: "Meia",
+    posicao: "Meio-Campista Central",
     dataNascimento: "25/11/2002",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Las Palmas",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 37, gols: 4, assistencias: 7 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2020", fim: "Atual" },
+        { jogos: 138, gols: 18, assistencias: 10 }
+      ),
+    ],
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2021", fim: "Atual" },
+      estatisticas: { jogos: 38, gols: 5, assistencias: 0 },
+    },
+    titulos: [
+      // Barcelona
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2022–23, 2024–25",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2020–21, 2024–25",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2022–23, 2024–25",
+        clube: "Barcelona",
+      },
+
+      // Seleção
+      {
+        nome: "Eurocopa",
+        anos: "2024",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogos Olímpicos (Prata)",
+        logo: "Jogos Olímpicos",
+        anos: "2020",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+
+      // Prêmios Individuais
+      {
+        nome: "Troféu Kopa",
+        anos: "2021",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Golden Boy",
+        anos: "2021",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Jovem da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2020",
+        clube: "Individual",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Pedri", "Pedro González López"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // Pep Guardiola
@@ -14342,7 +15357,7 @@ export const jogadores = [
       estatisticas: { jogos: 48, gols: 33, assistencias: 0 },
     },
     titulos: [
-      // Principais Títulos Coletivos como JOGADOR
+      // Ajax
       {
         nome: "UEFA Champions League",
         anos: "1971, 1972, 1973",
@@ -14354,17 +15369,22 @@ export const jogadores = [
         anos: "1966, 1967, 1968, 1970, 1972, 1973, 1982, 1983",
         clube: "Ajax",
       },
+
+      // Feyenoord
       {
         nome: "Campeonato Holandês",
         anos: "1984",
         clube: "Feyenoord",
       },
+
+      // Barcelona
       {
         nome: "Campeonato Espanhol",
         anos: "1974",
         clube: "Barcelona",
       },
-      // Principais Títulos Individuais
+
+      // Individuais
       {
         nome: "Bola de Ouro",
         anos: "1971, 1973, 1974",
@@ -14613,6 +15633,16 @@ export const jogadores = [
       "Nascido em Imbituba, Santa Catarina, Jorginho se mudou para a Itália aos 15 anos e defendeu a seleção italiana. Ele ficou em 3º lugar na votação da Bola de Ouro de 2021, atrás de Messi e Lewandowski.",
     clubes: [
       createClub(
+        "Hellas Verona",
+        { inicio: "2010", fim: "2014" },
+        { jogos: 95, gols: 11, assistencias: 2 }
+      ),
+      createClub(
+        "Sambonifacese",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 31, gols: 1, assistencias: 2 }
+      ),
+      createClub(
         "Napoli",
         { inicio: "2014", fim: "2018" },
         { jogos: 160, gols: 6, assistencias: 14 }
@@ -14630,7 +15660,7 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "2025", fim: "Presente" },
-        { jogos: 20, gols: 1, assistencias: 5 }
+        { jogos: 20, gols: 2, assistencias: 5 }
       ),
     ],
     selecao: {
@@ -14645,6 +15675,18 @@ export const jogadores = [
         anos: "2020",
         clube: "Itália",
         logoVariavel: true,
+      },
+
+      // Napoli
+      {
+        nome: "Copa da Itália",
+        anos: "2014",
+        clube: "Napoli",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2014",
+        clube: "Napoli",
       },
 
       // Chelsea
@@ -14666,21 +15708,50 @@ export const jogadores = [
 
       // Individuais
       {
-        nome: "Melhor Jogador do Ano",
+        nome: "Seleção da Liga Europa da UEFA",
+        logo: "UEFA Europa League",
+        anos: "2019",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2020",
+        clube: "Individual",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Melhor Jogador da UEFA",
         logo: "UEFA",
         anos: "2021",
         clube: "Individual",
         categoria: "individual",
       },
       {
-        nome: "Seleção do Campeonato Europeu",
-        logo: "UEFA",
+        nome: "Seleção da Liga dos Campeões da UEFA",
+        logo: "UEFA Champions League",
+        anos: "2021",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2021",
+        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "3º Lugar na Bola de Ouro",
+        logo: "Bola de Ouro",
         anos: "2021",
         clube: "Individual",
         categoria: "individual",
       },
     ],
-    tags: ["Jorginho", "Regista", "J5", "Maestro"],
+    tags: ["Jorginho", "Regista", "J5", "Maestro", "Jorge Luiz Frello Filho"],
     ultima_atualizacao: "27/10/25",
   },
 
@@ -15179,9 +16250,10 @@ export const jogadores = [
       estatisticas: { jogos: 91, gols: 18 },
     },
     titulos: [
-      // Títulos Individuais
+      // Individuais
       { nome: "Bola de Ouro", anos: "2003", categoria: "individual" },
-      // Títulos Coletivos (Itália)
+
+      // Juventus
       { nome: "Serie A", anos: "2002, 2003", clube: "Juventus" },
       {
         nome: "Supercopa da Itália",
@@ -15193,12 +16265,13 @@ export const jogadores = [
         anos: "2007",
         clube: "Juventus",
       },
+
+      // Lazio
       {
         nome: "Serie A",
         anos: "2000",
         clube: "Lazio",
       },
-
       { nome: "Recopa Europeia", anos: "1999", clube: "Lazio" },
       { nome: "Supercopa da UEFA", anos: "1999", clube: "Lazio" },
       { nome: "Copa da Itália", anos: "1998, 2000", clube: "Lazio" },
@@ -15208,7 +16281,7 @@ export const jogadores = [
         clube: "Lazio",
       },
 
-      // Títulos Coletivos (República Tcheca)
+      // Sparta Praga
       {
         nome: "Campeonato Tcheco",
         anos: "1993, 1994, 1995",
@@ -15216,15 +16289,7 @@ export const jogadores = [
       },
       { nome: "Copa da República Tcheca", anos: "1996", clube: "Sparta Praga" },
     ],
-    tags: [
-      "meio-campista",
-      "república tcheca",
-      "lazio",
-      "juventus",
-      "ballon d'or",
-      "aposentado",
-      "nedved",
-    ],
+    tags: ["Nedved"],
   },
 
   // Suécia -------------------------------------------------------------------------------------------------------------------------------

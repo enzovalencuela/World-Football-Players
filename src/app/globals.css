@@ -243,29 +243,47 @@ ul {
   margin: 1rem 1rem 1rem 0;
 }
 
+.dado-imagem-background {
+  position: absolute;
+  top: -10px;
+  left: -18px;
+  width: 115%;
+  rotate: 1deg;
+  z-index: 1;
+}
+
 .dado-imagem {
   object-fit: cover;
   width: 300px;
   height: 400px;
+  z-index: 2;
+  rotate: 1deg;
+  opacity: 0.95;
 }
 
 .dado_imgMarca {
+  position: absolute;
   bottom: 0;
   right: 40px;
-  max-height: 240px;
-  max-width: 350px;
-  position: absolute;
+  max-height: 200px;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+  max-width: 250px;
+  rotate: 1deg;
+  opacity: 0.95;
   z-index: 12;
 }
 
 .img-superior,
 .img-inferior {
   position: absolute;
+  rotate: 1deg;
 }
 
 .img-superior {
   bottom: 0;
-  left: 0;
+  left: -1px;
   width: 150px;
   z-index: 10;
 }
@@ -407,6 +425,32 @@ th {
   width: 100%;
 }
 
+.titulo-status-img {
+  position: absolute;
+  top: -50px;
+  left: 70px;
+  width: auto;
+  height: auto;
+  display: none;
+  background-color: #f7f7f7;
+  padding: 5px 8px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.664);
+  z-index: 10;
+}
+
+.img-titulo:hover {
+  .titulo-status-img {
+    display: flex;
+
+    & img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+    }
+  }
+}
+
 .campeonato {
   object-fit: cover;
   max-height: 55px;
@@ -494,9 +538,8 @@ footer {
     color: #bf930d;
   }
 
-  & .div-superior .div-left .dado-imagem {
-    background-color: #bf930d;
-    box-shadow: -10px 15px 9px -2px rgba(255, 217, 28, 0.458);
+  & .dado-imagem-background {
+    filter: drop-shadow(5px 10px 5px rgba(255, 217, 28, 0.458));
   }
 }
 
@@ -508,9 +551,8 @@ footer {
     color: #13d6f0;
   }
 
-  & .div-superior .div-left .dado-imagem {
-    background-color: #32c7e1;
-    box-shadow: -10px 15px 9px -2px rgba(42, 216, 255, 0.458);
+  & .dado-imagem-background {
+    filter: drop-shadow(5px 10px 5px rgba(42, 216, 255, 0.458));
   }
 }
 
@@ -522,9 +564,8 @@ footer {
     color: #4d4d4d;
   }
 
-  & .div-superior .div-left .dado-imagem {
-    background-color: #2f3238;
-    box-shadow: -10px 15px 9px -2px rgba(60, 60, 60, 0.6);
+  & .dado-imagem-background {
+    filter: drop-shadow(5px 10px 5px rgba(60, 60, 60, 0.6));
   }
 }
 
@@ -536,9 +577,8 @@ footer {
     color: #6d6d6d;
   }
 
-  & .div-superior .div-left .dado-imagem {
-    background-color: #6d6d6d;
-    box-shadow: -10px 15px 9px -2px rgba(202, 202, 202, 0.867);
+  & .dado-imagem-background {
+    filter: drop-shadow(5px 10px 5px rgba(202, 202, 202, 0.867));
   }
 }
 
@@ -550,9 +590,8 @@ footer {
     color: #16e903;
   }
 
-  & .div-superior .div-left .dado-imagem {
-    background-color: #2de903;
-    box-shadow: -10px 15px 9px -2px rgba(41, 236, 51, 0.711);
+  & .dado-imagem-background {
+    filter: drop-shadow(5px 10px 5px rgba(41, 236, 51, 0.711));
   }
 }
 
@@ -689,11 +728,6 @@ footer {
     max-height: initial;
   }
 
-  .dado_imgMarca {
-    height: 200px;
-    position: absolute;
-  }
-
   .numero-nome-time {
     width: 100%;
     align-items: center;
@@ -743,6 +777,7 @@ footer {
   }
 
   .item-titulo {
+    position: relative;
     justify-content: center;
     align-items: center;
     min-height: 70px;

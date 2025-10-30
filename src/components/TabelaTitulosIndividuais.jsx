@@ -22,12 +22,15 @@ function TabelaTitulosIndividuais({ jogador }) {
       <tbody>
         {titulosIndividuais.map((titulo, index) => (
           <tr className="div-titulos" key={index}>
-            <td className="item-titulo">
+            <td className="item-titulo img-titulo">
               <img
                 className="campeonato"
                 src={gerarURLImagem(titulo).replace(/ /g, "_")}
                 alt=""
               />
+              <div className="titulo-status-img">
+                <img src={gerarURLImagem(titulo).replace(/ /g, "_")} alt="" />
+              </div>
             </td>
             <td className="item-titulo">{titulo.nome}</td>
             <td className="item-titulo">{titulo.anos}</td>

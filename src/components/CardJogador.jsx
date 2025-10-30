@@ -17,6 +17,11 @@ function CardJogador({ jogador }) {
     <div className="jogador" id={jogador.background}>
       <div className="div-superior">
         <div className="div-left">
+          <img
+            className="dado-imagem-background"
+            src="/img__fundos/Fundo_Card_Foto.png"
+            alt=""
+          />
           <img className="dado-imagem" src={jogador.imagem} alt="" />
           <img
             className="dado_imgMarca"
@@ -70,12 +75,16 @@ function CardJogador({ jogador }) {
             {jogador.status === "Aposentado" &&
               ` (${calcularPeriodoAtividade(jogador)})`}
           </p>
-          <h3>Clubes com passagens</h3>
-          <ListaClubesJogador
-            clubes={
-              jogador.status === "Ativo" ? clubesAnteriores : jogador.clubes
-            }
-          />
+          {jogador.clubes.length > 1 && (
+            <>
+              <h3>Clubes com passagens</h3>
+              <ListaClubesJogador
+                clubes={
+                  jogador.status === "Ativo" ? clubesAnteriores : jogador.clubes
+                }
+              />
+            </>
+          )}
           <h3>Posição</h3>
           <p id="info">{jogador.posicao}</p>
           <h3>Nascimento</h3>

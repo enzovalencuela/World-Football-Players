@@ -76,6 +76,23 @@ export default function HomePage() {
 
   if (categoriaAtiva === FILTRO_PADRAO) {
     resultadosOrdenados = resultadosFiltrados.slice().sort((a, b) => {
+      const termo = termoPesquisa.toLowerCase();
+
+      const ultimoClubeA =
+        a.clubes && a.clubes.length > 0 ? a.clubes[a.clubes.length - 1] : null;
+      const ultimoClubeB =
+        b.clubes && b.clubes.length > 0 ? b.clubes[b.clubes.length - 1] : null;
+
+      const isPlayingA = ultimoClubeA?.nome?.toLowerCase().includes(termo);
+      const isPlayingB = ultimoClubeB?.nome?.toLowerCase().includes(termo);
+
+      if (isPlayingA && !isPlayingB) {
+        return -1;
+      }
+      if (!isPlayingA && isPlayingB) {
+        return 1;
+      }
+
       const statusA = a.status === "Ativo";
       const statusB = b.status === "Ativo";
 
