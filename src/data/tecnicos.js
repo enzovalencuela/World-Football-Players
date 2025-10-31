@@ -37,7 +37,7 @@ export const tecnicos = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa Del Rey",
+        nome: "Copa do Rei",
         anos: "2009, 2012",
         clube: "Barcelona",
       },
@@ -101,7 +101,7 @@ export const tecnicos = [
         clube: "Manchester City",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2019, 2023",
         clube: "Manchester City",
       },

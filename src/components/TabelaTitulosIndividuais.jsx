@@ -16,7 +16,7 @@ function TabelaTitulosIndividuais({ jogador }) {
   );
 
   if (titulosIndividuais.length === 0) {
-    return <p>Nenhum título individual encontrado.</p>;
+    return;
   }
 
   const titulosOrdenados = [...titulosIndividuais].sort((a, b) => {

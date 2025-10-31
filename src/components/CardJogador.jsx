@@ -4,6 +4,7 @@ import TabelaEstatisticas from "./TabelaEstatisticas";
 import { calcularIdade, calcularPeriodoAtividade } from "../utils/JogadorUtils";
 import TabelaTitulosIndiividuais from "./TabelaTitulosIndividuais";
 import TabelaTitulosPorEquipe from "./TabelaTitulosPorEquipe";
+import CardSuperior from "./CardSuperior";
 
 function CardJogador({ jogador }) {
   const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
@@ -17,29 +18,7 @@ function CardJogador({ jogador }) {
     <div className="jogador" id={jogador.background}>
       <img className="img-grampo" src="/img__fundos/Fundo_Grampo.png" alt="" />
       <div className="div-superior">
-        <div className="div-left">
-          <img
-            className="dado-imagem-background"
-            src="/img__fundos/Fundo_Card_Foto.png"
-            alt=""
-          />
-          <img className="dado-imagem" src={jogador.imagem} alt="" />
-          <img
-            className="dado_imgMarca"
-            src={`/img__players/Logo_${jogador.nome.replace(/ /g, "_")}.png`}
-            alt=""
-          />
-          <img
-            className="img-superior"
-            src={`/img__detalhes/${jogador.background}_1.png`}
-            alt=""
-          />
-          <img
-            className="img-inferior"
-            src={`/img__detalhes/${jogador.background}_2.png`}
-            alt=""
-          />
-        </div>
+        <CardSuperior pessoa={jogador} />
         <div className="div-info">
           <div className="numero-nome-nacionalidade">
             <h2 className="numero">{jogador.numero}</h2>
@@ -96,22 +75,20 @@ function CardJogador({ jogador }) {
           <p className="descricao-meta">{jogador.descricao}</p>
         </div>
       </div>
-      {mostrarDetalhes && (
-        <div className="conteudo-oculto">
-          <div className="tabelas">
-            <div className="tabelas-left">
-              <TabelaEstatisticas jogador={jogador} />
-              <TabelaTitulosIndiividuais jogador={jogador} />
-            </div>
-            <div className="tabelas-right">
-              <TabelaTitulosPorEquipe jogador={jogador} />
-            </div>
+      <div className={`conteudo-oculto ${mostrarDetalhes ? "aberto" : ""}`}>
+        <div className="tabelas">
+          <div className="tabelas-left">
+            <TabelaEstatisticas jogador={jogador} />
+            <TabelaTitulosIndiividuais jogador={jogador} />
           </div>
-          {jogador.ultima_atualizacao && (
-            <p>Última Atualização: {jogador.ultima_atualizacao}</p>
-          )}
+          <div className="tabelas-right">
+            <TabelaTitulosPorEquipe jogador={jogador} />
+          </div>
         </div>
-      )}
+        {jogador.ultima_atualizacao && (
+          <p>Última Atualização: {jogador.ultima_atualizacao}</p>
+        )}
+      </div>
       <button
         className="mostrar-esconder"
         onClick={() => setMostrarDetalhes(!mostrarDetalhes)}

@@ -3,6 +3,7 @@ import TabelaTitulosIndiividuais from "./TabelaTitulosIndividuais";
 import TabelaTitulosPorEquipe from "./TabelaTitulosPorEquipe";
 import ListaClubesJogador from "./ListaClubesJogador";
 import { calcularIdade, calcularPeriodoAtividade } from "@/utils/JogadorUtils";
+import CardSuperior from "./CardSuperior";
 
 function CardTecnico({ tecnico }) {
   const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
@@ -10,20 +11,14 @@ function CardTecnico({ tecnico }) {
   const idade = calcularIdade(tecnico.dataNascimento, tecnico.dataFalecimento);
 
   const clubes = tecnico.clubes || [];
-  const clubeAtual = clubes.length > 0 ? clubes[clubes.length - 1] : null;
+  const clubeAtual = clubes.length > 0 ? [clubes[clubes.length - 1]] : null;
   const clubesAnteriores = clubes.slice(0, -1);
 
   return (
     <div className="jogador" id={tecnico.background}>
+      <img className="img-grampo" src="/img__fundos/Fundo_Grampo.png" alt="" />
       <div className="div-superior">
-        <div className="div-left">
-          <img className="dado-imagem" src={tecnico.imagem} alt="" />
-          <img
-            className="dado_imgMarca"
-            src={`/img__tecnicos/Logo_${tecnico.nome.replace(/ /g, "_")}.png`}
-            alt=""
-          />
-        </div>
+        <CardSuperior pessoa={tecnico} />
         <div className="div-info">
           <div className="numero-nome-nacionalidade">
             <a href={tecnico.pagina} target="_blank">
@@ -38,20 +33,9 @@ function CardTecnico({ tecnico }) {
               alt={tecnico.alt}
             />
             {tecnico.status === "Ativo" && clubeAtual && (
-              <img
-                className="clube-atual clubes"
-                src={`/img__equipes/Logo_${clubeAtual.nome.replace(
-                  / /g,
-                  "_"
-                )}.png`}
-                alt={clubeAtual.nome}
-              />
+              <ListaClubesJogador clubes={clubeAtual} />
             )}
           </div>
-          <h3>Nascimento</h3>
-          <p id="info">
-            {tecnico.dataNascimento} ({idade})
-          </p>
           <h3>Status</h3>
           <p id="info">
             {tecnico.status}
@@ -64,6 +48,10 @@ function CardTecnico({ tecnico }) {
               tecnico.status === "Ativo" ? clubesAnteriores : tecnico.clubes
             }
           />
+          <h3>Nascimento</h3>
+          <p id="info">
+            {tecnico.dataNascimento} ({idade})
+          </p>
           <h3>Esquemas Táticos</h3>
           <p id="info">{tecnico.esquemasTaticos}</p>
           <h3>Estilo de jogo</h3>

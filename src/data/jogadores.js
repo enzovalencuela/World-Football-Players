@@ -193,7 +193,7 @@ export const jogadores = [
         categoria: "individual",
       },
       {
-        nome: "Prêmio Golden Foot",
+        nome: "Golden Foot Award",
         anos: "2010",
         clube: "individual",
         categoria: "individual",
@@ -221,6 +221,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor onze do Bayern de Munique",
+        logo: "individual",
         anos: "2020",
         clube: "individual",
         categoria: "individual",
@@ -321,18 +322,116 @@ export const jogadores = [
     dataNascimento: "03/11/1945",
     dataFalecimento: "15/08/2021",
     status: "Aposentado",
+    ultima_atualizacao: "31/10/25",
     curiosidades:
-      "Müller detém o recorde de gols em uma única temporada da Bundesliga (40 gols) e é o maior artilheiro da história da competição. Ele era conhecido como 'Der Bomber' por sua capacidade de marcar gols.",
+      "Müller detém o recorde de gols em uma única temporada da Bundesliga (40 gols) e é o maior artilheiro da história da competição. Ele era conhecido como 'Der Bomber' (O Bombardeiro) por sua capacidade de marcar gols.",
     clubes: [
-      createClub("Bayern de Munique", { inicio: "1964", fim: "1979" }),
-      createClub("Fort Lauderdale Strikers", { inicio: "1979", fim: "1982" }),
+      createClub(
+        "TSV 1861 Nördlingen",
+        { inicio: "1963", fim: "1964" },
+        { jogos: 50, gols: 73, assistencias: 0 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "1964", fim: "1979" },
+        { jogos: 605, gols: 576, assistencias: 99 }
+      ),
+      createClub(
+        "Fort Lauderdale Strikers",
+        { inicio: "1979", fim: "1982" },
+        { jogos: 80, gols: 40, assistencias: 0 }
+      ),
     ],
-    selecao: {},
+    selecao: {
+      nome: "Alemanha",
+      periodo: { inicio: "1966", fim: "1974" },
+      estatisticas: { jogos: 62, gols: 68, assistencias: 3 },
+    },
+
     titulos: [
+      // Individuais
+      {
+        nome: "Bola de Ouro",
+        anos: "1970",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Alemão do Ano",
+        logo: "individual",
+        anos: "1967, 1969",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe das Estrelas da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1970",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Chuteira de Ouro da UEFA",
+        logo: "Chuteira de Ouro",
+        anos: "1970, 1972",
+        categoria: "individual",
+      },
+      {
+        nome: "Ordem de Mérito da FIFA",
+        anos: "2000",
+        categoria: "individual",
+      },
       {
         nome: "FIFA 100",
         anos: "2004",
-        clube: "Individual",
+        categoria: "individual",
+      },
+      {
+        nome: "IFFHS ALL TIME WORLD MEN'S DREAM TEAM (Time B)",
+        logo: "IFFHS",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1970",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Eurocopa",
+        logo: "Eurocopa",
+        anos: "1972",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Bundesliga",
+        logo: "Campeonato Alemão",
+        anos: "1967, 1969, 1970, 1972, 1973, 1974, 1978",
+        categoria: "individual",
+      },
+
+      // Alemanha
+      {
+        nome: "Copa do Mundo",
+        anos: "1974",
+        clube: "Alemanha",
+
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "1972",
+        clube: "Alemanha",
+
+        logoVariavel: true,
+      },
+
+      // Bayern de Munique
+      {
+        nome: "UEFA Champions League",
+        anos: "1974, 1975, 1976",
+        clube: "Bayern de Munique",
       },
       {
         nome: "Copa Intercontinental",
@@ -340,39 +439,22 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "UEFA Champions League",
-        anos: "1974, 1975 e 1976",
+        nome: "Recopa Europeia",
+        anos: "1967",
         clube: "Bayern de Munique",
       },
       {
-        nome: "Copa do Mundo",
-        anos: "1974",
-        clube: "Alemanha",
-        logoVariavel: true,
-      },
-      {
-        nome: "Eurocopa",
-        anos: "1972",
-        clube: "Alemanha",
-        logoVariavel: true,
-      },
-      {
-        nome: "Bola de Ouro",
-        anos: "1970",
-        clube: "Individual",
-      },
-      {
         nome: "Campeonato Alemão",
-        anos: "1969, 1972, 1973 e 1974",
+        anos: "1969, 1972, 1973, 1974",
         clube: "Bayern de Munique",
       },
       {
         nome: "Copa da Alemanha",
-        anos: "1966, 1967, 1969 e 1971",
+        anos: "1966, 1967, 1969, 1971",
         clube: "Bayern de Munique",
       },
     ],
-    tags: [],
+    tags: ["Der Bomber"],
   },
 
   // Jamal Musiala
@@ -440,7 +522,7 @@ export const jogadores = [
   // Jerome Boateng
   {
     nome: "Jerome Boateng",
-    background: "##",
+    background: "default",
     descricao:
       "Zagueiro alemão campeão da Copa do Mundo FIFA 2014 e um ícone do Bayern de Munique, onde conquistou duas Tríplices Coroas. Conhecido por sua força, visão de jogo e a habilidade de lançar a bola com precisão, foi considerado um dos melhores zagueiros do mundo em seu auge. Anunciou sua aposentadoria em setembro de 2025.",
     pagina: "https://www.instagram.com/jeromeboateng",
@@ -848,7 +930,7 @@ export const jogadores = [
         clube: "Chelsea",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2007, 2009, 2010",
         clube: "Chelsea",
       },
@@ -1251,7 +1333,7 @@ export const jogadores = [
         anos: "2017, 2020, 2022, 2024",
         clube: "Real Madrid",
       },
-      { nome: "Copa del Rey", anos: "2023", clube: "Real Madrid" },
+      { nome: "Copa do Rei", anos: "2023", clube: "Real Madrid" },
       // Bayern de Munique
       {
         nome: "UEFA Champions League",
@@ -1634,7 +1716,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Jogador Argentino do Ano",
-        logo: "Associação de Jornalistas da Argentina",
+        logo: "individual",
         anos: "1979, 1980, 1981, 1986",
         clube: "individual",
         categoria: "individual",
@@ -1740,7 +1822,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa Artemio Franchi",
+        nome: "Finalíssima",
         anos: "1993",
         clube: "Argentina",
       },
@@ -1769,7 +1851,7 @@ export const jogadores = [
 
       // Barcelona
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "1983",
         clube: "Barcelona",
       },
@@ -2071,7 +2153,7 @@ export const jogadores = [
         { jogos: 62, gols: 27, assistencias: 6 }
       ),
       createClub(
-        "Internazionale",
+        "Inter de Milão",
         { inicio: "2018", fim: "Presente" },
         { jogos: 284, gols: 129, assistencias: 43 }
       ),
@@ -2086,23 +2168,23 @@ export const jogadores = [
       {
         nome: "Campeonato Italiano",
         anos: "2020-21, 2023-24",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
       {
         nome: "Copa da Itália",
         anos: "2021-22, 2022-23",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
       {
         nome: "Supercopa da Itália",
         anos: "2021, 2022, 2023",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
       {
         nome: "UEFA Champions League (Vice-campeão)",
         logo: "UEFA Champions League",
         anos: "2022-23",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
       // Seleção Argentina
       {
@@ -2306,7 +2388,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2009, 2012, 2015, 2016, 2017, 2018, 2021",
         clube: "Barcelona",
       },
@@ -2546,7 +2628,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2019, 2023",
         clube: "Manchester City",
       },
@@ -2652,7 +2734,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2023",
         clube: "Real Madrid",
       },
@@ -2664,7 +2746,7 @@ export const jogadores = [
         clube: "Chelsea",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2018",
         clube: "Chelsea",
       },
@@ -2681,7 +2763,7 @@ export const jogadores = [
         clube: "Atlético de Madrid",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2013",
         clube: "Atlético de Madrid",
       },
@@ -2816,7 +2898,7 @@ export const jogadores = [
     titulos: [
       // Manchester United
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2016",
         clube: "Manchester United",
       },
@@ -2865,7 +2947,7 @@ export const jogadores = [
         { jogos: 48, gols: 12, assistencias: 0 }
       ),
       createClub(
-        "Internazionale",
+        "Inter de Milão",
         { inicio: "2001", fim: "2002" },
         { jogos: 13, gols: 1, assistencias: 0 }
       ),
@@ -2880,7 +2962,7 @@ export const jogadores = [
         { jogos: 37, gols: 23, assistencias: 1 }
       ),
       createClub(
-        "Internazionale",
+        "Inter de Milão",
         { inicio: "2004", fim: "2009" },
         { jogos: 167, gols: 78, assistencias: 16 }
       ),
@@ -2925,17 +3007,17 @@ export const jogadores = [
       {
         nome: "Campeonato Italiano",
         anos: "2006, 2007, 2008, 2009",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
       {
         nome: "Copa da Itália",
         anos: "2005, 2006",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
       {
         nome: "Supercopa da Itália",
         anos: "2005, 2006",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
 
       // Brasil
@@ -3158,7 +3240,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2022",
         clube: "Liverpool",
       },
@@ -3267,7 +3349,7 @@ export const jogadores = [
         clube: "Manchester United",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2024",
         clube: "Manchester United",
       },
@@ -3275,6 +3357,7 @@ export const jogadores = [
         nome: "Jogos Olímpicos",
         anos: "2020",
         clube: "Brasil",
+        logoVariavel: true,
       },
     ],
     tags: [],
@@ -3579,7 +3662,7 @@ export const jogadores = [
 
       // Deportivo La Coruña
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "1995",
         clube: "Deportivo La Coruña",
       },
@@ -4274,11 +4357,6 @@ export const jogadores = [
         anos: "1978, 1979, 1980 e 1982",
         clube: "New York Cosmos",
       },
-      {
-        nome: "Trans-Atlantic Cup Championships",
-        anos: "1980",
-        clube: "New York Cosmos",
-      },
 
       // Individuais
       {
@@ -4399,7 +4477,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2014",
         clube: "Real Madrid",
       },
@@ -4411,7 +4489,7 @@ export const jogadores = [
         clube: "Manchester United",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2024",
         clube: "Manchester United",
       },
@@ -4634,7 +4712,7 @@ export const jogadores = [
       // Sevilla
       { nome: "UEFA Europa League", anos: "2006, 2007", clube: "Sevilla" },
       { nome: "Supercopa da UEFA", anos: "2006", clube: "Sevilla" },
-      { nome: "Copa del Rey", anos: "2007", clube: "Sevilla" },
+      { nome: "Copa do Rei", anos: "2007", clube: "Sevilla" },
       { nome: "Supercopa da Espanha", anos: "2007", clube: "Sevilla" },
 
       // Barcelona
@@ -4649,7 +4727,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2009, 2012, 2015, 2016",
         clube: "Barcelona",
       },
@@ -4783,50 +4861,53 @@ export const jogadores = [
       createClub(
         "América-MG",
         { inicio: "2009", fim: "2011" },
-        { jogos: 69, gols: 7, assistencias: 0 } // Estatísticas encontradas
+        { jogos: 69, gols: 7, assistencias: 0 }
       ),
       createClub(
         "Santos",
         { inicio: "2011", fim: "2012" },
-        { jogos: 46, gols: 2, assistencias: 0 } // Estatísticas encontradas
+        { jogos: 46, gols: 2, assistencias: 0 }
       ),
       createClub(
         "Porto",
         { inicio: "2012", fim: "2015" },
-        { jogos: 141, gols: 9, assistencias: 17 } // Estatísticas Transfermarkt
+        { jogos: 141, gols: 9, assistencias: 17 }
       ),
       createClub(
         "Real Madrid",
         { inicio: "2015", fim: "2017" },
-        { jogos: 56, gols: 3, assistencias: 9 } // Estatísticas Transfermarkt
+        { jogos: 56, gols: 3, assistencias: 9 }
       ),
       createClub(
         "Manchester City",
         { inicio: "2017", fim: "2019" },
-        { jogos: 60, gols: 4, assistencias: 5 } // Estatísticas Transfermarkt
+        { jogos: 60, gols: 4, assistencias: 5 }
       ),
       createClub(
         "Juventus",
         { inicio: "2019", fim: "2023" },
-        { jogos: 142, gols: 8, assistencias: 14 } // Estatísticas Transfermarkt
+        { jogos: 142, gols: 8, assistencias: 14 }
       ),
       createClub(
         "Flamengo",
-        { inicio: "2023", fim: null }, // Fim nulo pois está no clube atualmente
-        { jogos: 71, gols: 5, assistencias: 7 } // Estatísticas até a data atual (aproximadamente)
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 71, gols: 5, assistencias: 7 }
       ),
     ],
     selecao: {
       nome: "Brasil",
-      periodo: { inicio: "2011", fim: null }, // Fim nulo pois ainda é convocado
-      estatisticas: { jogos: 56, gols: 1, assistencias: 6 }, // Estatísticas Transfermarkt
+      periodo: { inicio: "2011", fim: "Presente" },
+      estatisticas: { jogos: 56, gols: 1, assistencias: 6 },
     },
     titulos: [
+      // América-MG
       {
         nome: "Campeonato Mineiro",
         anos: "2009, 2010, 2011",
         clube: "América-MG",
       },
+
+      // Santos
       {
         nome: "Copa Libertadores",
         anos: "2011",
@@ -4837,16 +4918,15 @@ export const jogadores = [
         anos: "2012",
         clube: "Santos",
       },
+
+      // Porto
       {
-        nome: "Superliga Portuguesa",
-        anos: "2012/13",
+        nome: "Campeonato Português",
+        anos: "2012, 2013",
         clube: "Porto",
       },
-      {
-        nome: "Supertaça Cândido de Oliveira",
-        anos: "2012",
-        clube: "Porto",
-      },
+
+      // Real Madrid
       {
         nome: "UEFA Champions League",
         anos: "2015/16, 2016/17",
@@ -4867,6 +4947,8 @@ export const jogadores = [
         anos: "2016/17",
         clube: "Real Madrid",
       },
+
+      // Manchester City
       {
         nome: "Campeonato Inglês",
         anos: "2017/18, 2018/19",
@@ -4878,10 +4960,12 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2018/19",
         clube: "Manchester City",
       },
+
+      // Juventus
       {
         nome: "Campeonato Italiano",
         anos: "2019/20, 2020/21, 2021/22",
@@ -4897,6 +4981,8 @@ export const jogadores = [
         anos: "2020",
         clube: "Juventus",
       },
+
+      // Flamengo
       {
         nome: "Copa do Brasil",
         anos: "2025",
@@ -4913,7 +4999,8 @@ export const jogadores = [
         clube: "Flamengo",
       },
     ],
-    tags: [],
+    tags: ["Danilo"],
+    ultima_atualizacao: "31/10/25",
   },
 
   // Dante
@@ -5093,7 +5180,7 @@ export const jogadores = [
         clube: "Chelsea",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2012, 2018",
         clube: "Chelsea",
       },
@@ -5126,7 +5213,7 @@ export const jogadores = [
 
       // Arsenal
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2020",
         clube: "Arsenal",
       },
@@ -5781,7 +5868,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2023",
         clube: "Real Madrid",
       },
@@ -5866,7 +5953,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2019, 2023, 2024",
         clube: "Manchester City",
       },
@@ -6829,7 +6916,7 @@ export const jogadores = [
         { jogos: 157, gols: 57, assistencias: 24 }
       ),
       createClub(
-        "Internazionale",
+        "Inter de Milão",
         { inicio: "2016", fim: "2017" },
         { jogos: 10, gols: 1, assistencias: 0 }
       ),
@@ -7392,7 +7479,7 @@ export const jogadores = [
         clube: "Arsenal",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2003, 2005",
         clube: "Arsenal",
       },
@@ -8899,7 +8986,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2015, 2016, 2017",
         clube: "Barcelona",
       },
@@ -9091,7 +9178,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2017–18",
         clube: "Barcelona",
       },
@@ -9374,7 +9461,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Taça do Atlântico",
+        nome: "Copa Sul-Americana",
         anos: "1960",
         clube: "Brasil",
       },
@@ -9465,7 +9552,7 @@ export const jogadores = [
         { jogos: 43, gols: 5, assistencias: 0 }
       ),
       createClub(
-        "Internazionale",
+        "Inter de Milão",
         { inicio: "2010", fim: "2013" },
         { jogos: 47, gols: 5, assistencias: 3 }
       ),
@@ -9528,8 +9615,8 @@ export const jogadores = [
         clube: "Vasco da Gama",
       },
       // Internazionale
-      { nome: "Supercopa da Itália", anos: "2010", clube: "Internazionale" },
-      { nome: "Copa da Itália", anos: "2011", clube: "Internazionale" },
+      { nome: "Supercopa da Itália", anos: "2010", clube: "Inter de Milão" },
+      { nome: "Copa da Itália", anos: "2011", clube: "Inter de Milão" },
       //Barcelona
       {
         nome: "Campeonato Espanhol",
@@ -9537,7 +9624,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2018",
         clube: "Barcelona",
       },
@@ -10452,7 +10539,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2022",
         clube: "Liverpool",
       },
@@ -10810,6 +10897,7 @@ export const jogadores = [
       },
       {
         nome: "Jogador do Ano na Holanda",
+        logo: "individual",
         anos: "1989",
         categoria: "individual",
       },
@@ -10914,7 +11002,7 @@ export const jogadores = [
     nome: "Ronaldinho Gaúcho",
     background: "gold",
     descricao:
-      "Considerado um dos maiores jogadores de futebol de todos os tempos, Ronaldinho Gaúcho é conhecido por sua habilidade, dribles e visão de jogo excepcionais. Seu estilo de jogo alegre e criativo o tornou um ídolo mundial.",
+      "Considerado um dos maiores jogadores de futebol de todos os tempos, Ronaldinho Gaúcho é conhecido por sua habilidade, dribles e visão de jogo excepcionais. Seu estilo de jogo alegre e criativo o tornou um ídolo mundial. É um dos poucos jogadores a vencer a Copa do Mundo, a Copa Libertadores e a UEFA Champions League.",
     pagina: "https://www.instagram.com/ronaldinho/",
     nacionalidade: "Brasil",
     imagem:
@@ -10923,10 +11011,204 @@ export const jogadores = [
     posicao: "Meia-atacante",
     dataNascimento: "21/03/1980",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    ultima_atualizacao: "31/10/25",
+    curiosidades:
+      "Ronaldinho é famoso por ter vencido o 'Grand Slam' do futebol internacional: Copa do Mundo, Copa América, Copa das Confederações, UEFA Champions League e Copa Libertadores. Foi eleito o Melhor do Mundo duas vezes (2004 e 2005).",
+    clubes: [
+      // Grêmio
+      createClub(
+        "Grêmio",
+        { inicio: "1998", fim: "2001" },
+        { jogos: 141, gols: 68, assistencias: 35 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2001", fim: "2003" },
+        { jogos: 77, gols: 25, assistencias: 18 }
+      ),
+      // Barcelona
+      createClub(
+        "Barcelona",
+        { inicio: "2003", fim: "2008" },
+        { jogos: 207, gols: 94, assistencias: 70 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2008", fim: "2011" },
+        { jogos: 95, gols: 26, assistencias: 29 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2011", fim: "2012" },
+        { jogos: 72, gols: 28, assistencias: 13 }
+      ),
+      createClub(
+        "Atlético Mineiro",
+        { inicio: "2012", fim: "2014" },
+        { jogos: 88, gols: 28, assistencias: 28 }
+      ),
+      createClub(
+        "Querétaro",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 29, gols: 8, assistencias: 5 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2015", fim: "2015" },
+        { jogos: 9, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1999", fim: "2013" },
+      estatisticas: { jogos: 97, gols: 33, assistencias: 25 },
+    },
+    titulos: [
+      // Individuais
+      {
+        nome: "Melhor Jogador do Mundo",
+        logo: "The Best FIFA",
+        anos: "2004, 2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundo (World Soccer)",
+        logo: "World Soccer",
+        anos: "2004, 2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Europeu do Ano",
+        logo: "UEFA",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Rei da América (Jornal El País)",
+        logo: "El País",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro da Copa das Confederações",
+        logo: "Copa das Confederações",
+        anos: "1999",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Chuteira de Ouro da Copa das Confederações",
+        logo: "Copa das Confederações",
+        anos: "1999",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+
+      // Brasil
+      {
+        nome: "Copa do Mundo",
+        anos: "2002",
+        clube: "Brasil",
+
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "2005",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1999",
+        clube: "Brasil",
+      },
+      {
+        nome: "Copa do Mundo Sub-17",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Barcelona
+      {
+        nome: "UEFA Champions League",
+        anos: "2006",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2005, 2006",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2005, 2006",
+        clube: "Barcelona",
+      },
+
+      // Atlético Mineiro
+      {
+        nome: "Copa Libertadores",
+        anos: "2013",
+        clube: "Atlético Mineiro",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2014",
+        clube: "Atlético Mineiro",
+      },
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2013",
+        clube: "Atlético Mineiro",
+      },
+
+      // AC Milan
+      {
+        nome: "Campeonato Italiano",
+        anos: "2011",
+        clube: "AC Milan",
+      },
+
+      // Flamengo
+      {
+        nome: "Campeonato Carioca",
+        anos: "2011",
+        clube: "Flamengo",
+      },
+
+      // Paris Saint-Germain
+      {
+        nome: "Copa Intertoto da UEFA",
+        anos: "2001",
+        clube: "Paris Saint-Germain",
+      },
+
+      // Grêmio
+      {
+        nome: "Campeonato Gaúcho",
+        anos: "1999",
+        clube: "Grêmio",
+      },
+      {
+        nome: "Copa Sul",
+        anos: "1999",
+        clube: "Grêmio",
+      },
+    ],
+    tags: ["Bruxo"],
+    ultima_atualizacao: "31/10/25",
   },
 
   // Ronaldo Nazário
@@ -10934,7 +11216,7 @@ export const jogadores = [
     nome: "Ronaldo Nazário",
     background: "gold",
     descricao:
-      "Considerado um dos maiores atacantes de todos os tempos, Ronaldo Fenômeno era conhecido por sua velocidade, finalização e habilidade técnica. Atuou por grandes clubes como Inter de Milão, Real Madrid e Barcelona, conquistando diversos títulos e artilharias.",
+      "Considerado um dos maiores atacantes de todos os tempos, Ronaldo Fenômeno era conhecido por sua velocidade, finalização e habilidade técnica. Tricampeão do prêmio de Melhor Jogador do Mundo pela FIFA (1996, 1997 e 2002) e bicampeão da Copa do Mundo (1994, 2002).",
     pagina: "https://www.instagram.com/ronaldofeno/",
     nacionalidade: "Brasil",
     imagem:
@@ -10943,10 +11225,231 @@ export const jogadores = [
     posicao: "Atacante",
     dataNascimento: "18/09/1976",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    ultima_atualizacao: "31/10/25",
+    curiosidades:
+      "Ronaldo foi o jogador mais jovem a ganhar o prêmio de Melhor Jogador do Mundo pela FIFA (1996, com 20 anos). Foi também por um longo período o maior artilheiro da história das Copas do Mundo (15 gols, recorde batido por Klose em 2014).",
+    clubes: [
+      // Cruzeiro
+      createClub(
+        "Cruzeiro",
+        { inicio: "1993", fim: "1994" },
+        { jogos: 47, gols: 44, assistencias: 6 }
+      ),
+      createClub(
+        "PSV Eindhoven",
+        { inicio: "1994", fim: "1996" },
+        { jogos: 57, gols: 54, assistencias: 9 }
+      ),
+      // Barcelona
+      createClub(
+        "Barcelona",
+        { inicio: "1996", fim: "1997" },
+        { jogos: 49, gols: 47, assistencias: 12 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "1997", fim: "2002" },
+        { jogos: 99, gols: 59, assistencias: 5 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2002", fim: "2007" },
+        { jogos: 177, gols: 104, assistencias: 35 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2007", fim: "2008" },
+        { jogos: 20, gols: 9, assistencias: 3 }
+      ),
+      // Corinthians
+      createClub(
+        "Corinthians",
+        { inicio: "2009", fim: "2011" },
+        { jogos: 69, gols: 35, assistencias: 10 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1994", fim: "2011" },
+      estatisticas: { jogos: 98, gols: 62, assistencias: 20 },
+    },
+    titulos: [
+      // Individuais
+      {
+        nome: "Melhor Jogador do Mundo",
+        logo: "The Best FIFA",
+        anos: "1996, 1997, 2002",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro",
+        anos: "1997, 2002",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundo (World Soccer)",
+        logo: "World Soccer",
+        anos: "1996, 1997, 2002",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2002",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Chuteira de Ouro da UEFA",
+        logo: "Chuteira de Ouro",
+        anos: "1997",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1998",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Melhor Jogador da Copa América",
+        logo: "Copa América",
+        anos: "1997",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro do Campeonato Espanhol",
+        logo: "Campeonato Espanhol",
+        anos: "1997, 2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Holandês",
+        logo: "Campeonato Holandês",
+        anos: "1995",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+
+      // Brasil
+      {
+        nome: "Copa do Mundo",
+        anos: "1994",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "2002",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1999",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Bronze nos Jogos Olímpicos",
+        logo: "Jogos Olímpicos",
+        anos: "1996",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Real Madrid
+      {
+        nome: "Copa Intercontinental",
+        anos: "2002",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2003, 2007",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2003",
+        clube: "Real Madrid",
+      },
+
+      // Inter de Milão
+      {
+        nome: "Copa da UEFA",
+        anos: "1998",
+        clube: "Inter de Milão",
+      },
+
+      // Barcelona
+      {
+        nome: "Recopa Europeia",
+        anos: "1997",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "1997",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "1996",
+        clube: "Barcelona",
+      },
+
+      // PSV Eindhoven
+      {
+        nome: "Copa da Holanda",
+        anos: "1996",
+        clube: "PSV Eindhoven",
+      },
+
+      // Cruzeiro
+      {
+        nome: "Copa do Brasil",
+        anos: "1993",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Campeonato Mineiro",
+        anos: "1994",
+        clube: "Cruzeiro",
+      },
+
+      // Corinthians
+      {
+        nome: "Copa do Brasil",
+        anos: "2009",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2009",
+        clube: "Corinthians",
+      },
+    ],
+    tags: ["Ronaldo Fenomeno", "Ronaldo Fenômeno", "R9", "Fenomenal"],
+    ultima_atualizacao: "31/10/25",
   },
 
   // Sócrates
@@ -11156,7 +11659,7 @@ export const jogadores = [
         anos: "2020, 2022, 2024",
         clube: "Real Madrid",
       },
-      { nome: "Copa Del Rey", anos: "2023", clube: "Real Madrid" },
+      { nome: "Copa do Rei", anos: "2023", clube: "Real Madrid" },
       {
         nome: "Supercopa da Espanha",
         anos: "2020, 2022, 2024",
@@ -11753,7 +12256,7 @@ export const jogadores = [
         { jogos: 199, gols: 130, assistencias: 40 }
       ),
       createClub(
-        "Internazionale",
+        "Inter de Milão",
         { inicio: "2009", fim: "2011" },
         { jogos: 102, gols: 53, assistencias: 17 }
       ),
@@ -11784,17 +12287,17 @@ export const jogadores = [
       {
         nome: "UEFA Champions League",
         anos: "2010",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
       {
         nome: "Campeonato Italiano",
         anos: "2010",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
       {
         nome: "Mundial de Clubes",
         anos: "2010",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
 
       // Seleção Camaronesa
@@ -12497,7 +13000,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2014, 2023",
         clube: "Real Madrid",
       },
@@ -12565,7 +13068,7 @@ export const jogadores = [
         categoria: "individual",
       },
       {
-        nome: "Prêmio Golden Foot",
+        nome: "Golden Foot Award",
         anos: "2019",
         clube: "Individual",
         categoria: "individual",
@@ -12652,7 +13155,7 @@ export const jogadores = [
         { jogos: 305, gols: 69, assistencias: 90 }
       ),
       createClub(
-        "Internazionale",
+        "Inter de Milão",
         { inicio: "2020", fim: "2021" },
         { jogos: 60, gols: 8, assistencias: 3 }
       ),
@@ -12672,7 +13175,7 @@ export const jogadores = [
       {
         nome: "Campeonato Italiano",
         anos: "2020-21",
-        clube: "Internazionale",
+        clube: "Inter de Milão",
       },
       // Manchester United
       {
@@ -12681,7 +13184,7 @@ export const jogadores = [
         clube: "Manchester United",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2024",
         clube: "Manchester United",
       },
@@ -12789,7 +13292,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2022, 2025",
         clube: "Liverpool",
       },
@@ -13108,7 +13611,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "1962",
         clube: "Real Madrid",
       },
@@ -13343,7 +13846,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2009, 2012",
         clube: "Barcelona",
       },
@@ -13444,7 +13947,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2014, 2023",
         clube: "Real Madrid",
       },
@@ -13509,7 +14012,7 @@ export const jogadores = [
     titulos: [
       // Valencia
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2008",
         clube: "Valencia",
       },
@@ -13521,7 +14024,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "FA Cup",
+        nome: "Copa da Inglaterra",
         anos: "2011, 2019",
         clube: "Manchester City",
       },
@@ -13538,7 +14041,7 @@ export const jogadores = [
 
       // Real Sociedad
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2020",
         clube: "Real Sociedad",
       },
@@ -13661,7 +14164,7 @@ export const jogadores = [
     titulos: [
       // Real Zaragoza
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2004",
         clube: "Real Zaragoza",
       },
@@ -13673,7 +14176,7 @@ export const jogadores = [
 
       // Valencia
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2008",
         clube: "Valencia",
       },
@@ -13685,7 +14188,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2012",
         clube: "Barcelona",
       },
@@ -13854,7 +14357,7 @@ export const jogadores = [
         clube: "Atlético de Madrid",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2013",
         clube: "Atlético de Madrid",
       },
@@ -13937,7 +14440,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2024–25",
         clube: "Barcelona",
       },
@@ -14032,7 +14535,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "7 Títulos",
         clube: "Barcelona",
       },
@@ -14199,7 +14702,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2015, 2016, 2017, 2018, 2021",
         clube: "Barcelona",
       },
@@ -14352,7 +14855,7 @@ export const jogadores = [
         anos: "2017, 2020, 2022",
         clube: "Real Madrid",
       },
-      { nome: "Copa del Rey", anos: "2023", clube: "Real Madrid" },
+      { nome: "Copa do Rei", anos: "2023", clube: "Real Madrid" },
       {
         nome: "Supercopa da UEFA",
         anos: "2016, 2017, 2022",
@@ -14451,7 +14954,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2020–21, 2024–25",
         clube: "Barcelona",
       },
@@ -14803,7 +15306,7 @@ export const jogadores = [
         { jogos: 73, gols: 12, assistencias: 17 }
       ),
       createClub(
-        "Internazionale",
+        "Inter de Milão",
         { inicio: "2020", fim: "2021" },
         { jogos: 45, gols: 7, assistencias: 10 }
       ),
@@ -14835,7 +15338,7 @@ export const jogadores = [
         clube: "Borussia Dortmund",
       },
       // Internazionale
-      { nome: "Campeonato Italiano", anos: "2021", clube: "Internazionale" },
+      { nome: "Campeonato Italiano", anos: "2021", clube: "Inter de Milão" },
       // Paris Saint-Germain
       {
         nome: "Campeonato Francês",
@@ -14867,6 +15370,7 @@ export const jogadores = [
       // Prêmios Individuais Notáveis
       {
         nome: "Futebolista Marroquino do Ano",
+        logo: "individual",
         anos: "2021, 2022",
         categoria: "individual",
       },
@@ -14976,7 +15480,7 @@ export const jogadores = [
 
       // Barcelona
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2021",
         clube: "Barcelona",
       },
@@ -15570,20 +16074,152 @@ export const jogadores = [
     nome: "Michel Platini",
     background: "gold",
     descricao:
-      "Meia-atacante francês considerado um dos maiores jogadores da história do futebol. Platini era conhecido por sua elegância, visão de jogo e chutes precisos, sendo fundamental para a conquista da Eurocopa de 1984.",
-    pagina: "https://www.instagram.com/michelplatini/",
-    time3: "Juventus",
+      "Gênio do meio-campo e tricampeão consecutivo da Bola de Ouro (1983, 1984 e 1985). Foi o maestro da Seleção Francesa que conquistou a Eurocopa de 1984. Seu período na Juventus o consagrou como um dos maiores da história do futebol europeu.",
+    pagina: "https://pt.wikipedia.org/wiki/Michel_Platini",
     nacionalidade: "França",
     imagem:
       "https://i.pinimg.com/564x/e2/b5/e6/e2b5e6dc32a7da44771bba520bfe199c.jpg",
     numero: "10",
-    posicao: "Meia-atacante",
+    posicao: "Meio-campista (Meia-atacante)",
     dataNascimento: "21/06/1955",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    ultima_atualizacao: "31/10/25",
+    curiosidades:
+      "Platini é um dos três jogadores (ao lado de Cruyff e Van Basten) a ganhar a Bola de Ouro por três vezes consecutivas. Ele detém o recorde de gols marcados em uma única edição da Eurocopa (9 gols em 1984).",
+    clubes: [
+      createClub(
+        "AS Nancy-Lorraine",
+        { inicio: "1972", fim: "1979" },
+        { jogos: 234, gols: 137, assistencias: 20 }
+      ),
+      createClub(
+        "AS Saint-Étienne",
+        { inicio: "1979", fim: "1982" },
+        { jogos: 145, gols: 82, assistencias: 10 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "1982", fim: "1987" },
+        { jogos: 258, gols: 125, assistencias: 40 }
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "1976", fim: "1987" },
+      estatisticas: { jogos: 72, gols: 41, assistencias: 17 },
+    },
+    titulos: [
+      // Individuais
+      {
+        nome: "Bola de Ouro",
+        anos: "1983, 1984, 1985",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundo (World Soccer)",
+        logo: "World Soccer",
+        anos: "1984, 1985",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Eurocopa",
+        logo: "Eurocopa",
+        anos: "1984",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Eurocopa",
+        logo: "Eurocopa",
+        anos: "1984",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "1983, 1984, 1985",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da UEFA Champions League",
+        logo: "UEFA Champions League",
+        anos: "1985",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Francês do Ano",
+        logo: "individual",
+        anos: "1976, 1977",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+
+      // França
+      {
+        nome: "Eurocopa",
+        anos: "1984",
+        clube: "França",
+        logoVariavel: true,
+      },
+      {
+        nome: "Finalíssima",
+        anos: "1985",
+        clube: "França",
+      },
+
+      // Juventus
+      {
+        nome: "UEFA Champions League",
+        anos: "1985",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1985",
+        clube: "Juventus",
+      },
+      {
+        nome: "Recopa Europeia",
+        anos: "1984",
+        clube: "Juventus",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1984",
+        clube: "Juventus",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "1984, 1986",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "1983",
+        clube: "Juventus",
+      },
+
+      // Saint-Étienne
+      {
+        nome: "Campeonato Francês",
+        anos: "1981",
+        clube: "Saint-Étienne",
+      },
+
+      // AS Nancy-Lorraine
+      {
+        nome: "Copa da França",
+        anos: "1978",
+        clube: "AS Nancy-Lorraine",
+      },
+    ],
+    tags: ["Platini", "Le Roi"],
+    ultima_atualizacao: "31/10/25",
   },
 
   // N'Golo Kanté
@@ -15737,7 +16373,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2017-18, 2020-21",
         clube: "Barcelona",
       },
@@ -16111,7 +16747,7 @@ export const jogadores = [
         { jogos: 159, gols: 20, assistencias: 0 }
       ),
       createClub(
-        "Internazionale",
+        "Inter de Milão",
         { inicio: "1999", fim: "2002" },
         { jogos: 93, gols: 14, assistencias: 0 }
       ),
@@ -16418,7 +17054,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "1978",
         clube: "Barcelona",
       },
@@ -17158,7 +17794,7 @@ export const jogadores = [
         anos: "2006, 2009",
         clube: "Manchester United",
       },
-      { nome: "FA Cup", anos: "2004", clube: "Manchester United" },
+      { nome: "Copa da Inglaterra", anos: "2004", clube: "Manchester United" },
 
       // Real Madrid
       {
@@ -17166,7 +17802,7 @@ export const jogadores = [
         anos: "2012, 2017",
         clube: "Real Madrid",
       },
-      { nome: "Copa del Rey", anos: "2011, 2014", clube: "Real Madrid" },
+      { nome: "Copa do Rei", anos: "2011, 2014", clube: "Real Madrid" },
       {
         nome: "UEFA Champions League",
         anos: "2014, 2016, 2017, 2018",
@@ -17197,7 +17833,7 @@ export const jogadores = [
 
       //Individuais
       {
-        nome: "Prêmio Golden Foot",
+        nome: "Golden Foot Award",
         anos: "2020",
         categoria: "individual",
       },
@@ -17615,7 +18251,7 @@ export const jogadores = [
     nome: "Zlatan Ibrahimović",
     background: "diamond",
     descricao:
-      "Atacante sueco conhecido por sua personalidade forte, habilidade técnica e gols espetaculares. Ibrahimović é um dos maiores jogadores da história do futebol e atuou em diversos clubes de ponta, como Ajax, Juventus, Inter de Milão, Barcelona, Milan, Paris Saint-Germain e Manchester United.",
+      "Atacante sueco conhecido por sua personalidade forte, habilidade técnica e gols espetaculares. Ibrahimović é um dos maiores jogadores da história, notável por conquistar ligas nacionais em quatro dos cinco principais países europeus (Holanda, Itália, Espanha e França).",
     pagina: "https://www.instagram.com/iamzlatanibrahimovic/",
     numero: "9",
     posicao: "Atacante",
@@ -17624,6 +18260,9 @@ export const jogadores = [
     nacionalidade: "Suécia",
     imagem:
       "https://rp-online.de/imgs/32/9/5/0/0/4/1/7/7/tok_2756f3f4788d2bf5d542fcd8f27feb8c/w2100_h1313_x1382_y883_AP_32A2EC00A42791F9-aadde8a1187e0900.jpg",
+    ultima_atualizacao: "30/10/25",
+    curiosidades:
+      "Zlatan é o maior artilheiro da história da Suécia (62 gols) e um dos poucos jogadores a marcar mais de 500 gols na carreira por clubes. Seu gol de bicicleta contra a Inglaterra em 2012 lhe rendeu o Prêmio Puskás.",
     clubes: [
       createClub(
         "Malmo FF",
@@ -17641,7 +18280,7 @@ export const jogadores = [
         { jogos: 92, gols: 26, assistencias: 12 }
       ),
       createClub(
-        "Internazionale",
+        "Inter de Milão",
         { inicio: "2006", fim: "2009" },
         { jogos: 117, gols: 66, assistencias: 30 }
       ),
@@ -17682,131 +18321,202 @@ export const jogadores = [
       estatisticas: { jogos: 122, gols: 62, assistencias: 25 },
     },
     titulos: [
+      // TÍTULOS INDIVIDUAIS
       {
-        nome: "Campeonato Holandês",
-        anos: "2002, 2004",
-        clube: "Ajax",
+        nome: "Futebolista Sueco do Ano",
+        logo: "individual",
+        anos: "2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2020",
+        categoria: "individual",
       },
       {
-        nome: "Copa da Holanda",
-        anos: "2002",
-        clube: "Ajax",
+        nome: "Prêmio FIFA Ferenc Puskás",
+        anos: "2013",
+        categoria: "individual",
       },
       {
-        nome: "Supercopa da Holanda",
-        anos: "2002",
-        clube: "Ajax",
+        nome: "Golden Foot Award",
+        anos: "2012",
+        categoria: "individual",
       },
       {
-        nome: "Copa da Itália",
-        anos: "2007",
-        clube: "Internazionale",
+        nome: "Melhor Jogador do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2008, 2009, 2011",
+        categoria: "individual",
       },
       {
-        nome: "Supercopa da Itália",
-        anos: "2006, 2008",
-        clube: "Internazionale",
+        nome: "Melhor Jogador da Ligue 1 (UNFP)",
+        logo: "UNFP",
+        anos: "2013, 2014, 2016",
+        categoria: "individual",
       },
       {
-        nome: "Campeonato Italiano",
-        anos: "2007, 2008, 2009",
-        clube: "Internazionale",
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2013",
+        categoria: "individual",
       },
       {
-        nome: "Mundial de Clubes",
-        anos: "2009",
-        clube: "Barcelona",
+        nome: "Equipe do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2007, 2009, 2013, 2014",
+        categoria: "individual",
       },
       {
-        nome: "Supercopa da UEFA",
-        anos: "2009",
-        clube: "Barcelona",
+        nome: "Troféu Alan Hardaker (MVP da Copa da Liga Inglesa)",
+        logo: "Copa da Liga Inglesa",
+        anos: "2017",
+        categoria: "individual",
       },
       {
-        nome: "Supercopa da Espanha",
-        anos: "2009, 2010",
-        clube: "Barcelona",
-      },
-      {
-        nome: "Campeonato Espanhol",
-        anos: "2010",
-        clube: "Barcelona",
-      },
-      {
-        nome: "Supercopa da Itália",
-        anos: "2011",
-        clube: "AC Milan",
-      },
-      {
-        nome: "Campeonato Francês",
+        nome: "Equipe Ideal da Ligue 1 (UNFP)",
+        logo: "UNFP",
         anos: "2013, 2014, 2015, 2016",
-        clube: "Paris Saint-Germain",
+        categoria: "individual",
       },
       {
-        nome: "Copa da França",
-        anos: "2015, 2016",
-        clube: "Paris Saint-Germain",
+        nome: "Time da Temporada da UEFA Champions League",
+        logo: "UEFA Champions League",
+        anos: "2014",
+        categoria: "individual",
       },
       {
-        nome: "Copa da Liga Francesa",
-        anos: "2014, 2015, 2016",
-        clube: "Paris Saint-Germain",
+        nome: "Líder de Assistências da Serie A",
+        logo: "Campeonato Italiano",
+        anos: "2008, 2011",
+        categoria: "individual",
       },
       {
-        nome: "Supercopa da França",
-        anos: "2013, 2014, 2015",
-        clube: "Paris Saint-Germain",
+        nome: "Líder de Assistências da Ligue 1",
+        logo: "Campeonato Francês",
+        anos: "2014",
+        categoria: "individual",
       },
       {
-        nome: "FA Cup",
-        anos: "2016",
+        nome: "Melhor Jogador Estrangeiro do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2005, 2008, 2009, 2011",
+        categoria: "individual",
+      },
+
+      // Manchester United
+      {
+        nome: "UEFA Europa League",
+        anos: "2017",
         clube: "Manchester United",
+        categoria: "coletivo",
       },
       {
         nome: "Copa da Liga Inglesa",
         anos: "2017",
         clube: "Manchester United",
+        categoria: "coletivo",
       },
       {
-        nome: "UEFA Europa League",
-        anos: "2017",
+        nome: "Supercopa da Inglaterra",
+        anos: "2016",
         clube: "Manchester United",
+        categoria: "coletivo",
       },
+
+      // Paris Saint-Germain
+      {
+        nome: "Campeonato Francês",
+        anos: "2013, 2014, 2015, 2016",
+        clube: "Paris Saint-Germain",
+        categoria: "coletivo",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2015, 2016",
+        clube: "Paris Saint-Germain",
+        categoria: "coletivo",
+      },
+      {
+        nome: "Copa da Liga Francesa",
+        anos: "2014, 2015, 2016",
+        clube: "Paris Saint-Germain",
+        categoria: "coletivo",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2013, 2014, 2015",
+        clube: "Paris Saint-Germain",
+        categoria: "coletivo",
+      },
+
+      // AC Milan
       {
         nome: "Campeonato Italiano",
         anos: "2011, 2022",
         clube: "AC Milan",
+        categoria: "coletivo",
       },
       {
-        nome: "Futebolista Sueco do Ano",
-        anos: "2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2020",
-        clube: "Individual",
-        categoria: "individual",
+        nome: "Supercopa da Itália",
+        anos: "2011",
+        clube: "AC Milan",
+        categoria: "coletivo",
+      },
+
+      // Barcelona
+      {
+        nome: "Mundial de Clubes",
+        anos: "2009",
+        clube: "Barcelona",
+        categoria: "coletivo",
       },
       {
-        nome: "FIFA 100",
-        anos: "2004",
-        clube: "Individual",
-        categoria: "individual",
+        nome: "Supercopa da UEFA",
+        anos: "2009",
+        clube: "Barcelona",
+        categoria: "coletivo",
       },
       {
-        nome: "Prêmio Golden Foot",
-        anos: "2012",
-        clube: "Individual",
-        categoria: "individual",
+        nome: "Supercopa da Espanha",
+        anos: "2009, 2010",
+        clube: "Barcelona",
+        categoria: "coletivo",
       },
       {
-        nome: "Prêmio Puskás",
-        anos: "2013",
-        clube: "Individual",
-        categoria: "individual",
+        nome: "Campeonato Espanhol",
+        anos: "2010",
+        clube: "Barcelona",
+        categoria: "coletivo",
+      },
+
+      // Inter de Milão
+      {
+        nome: "Campeonato Italiano",
+        anos: "2007, 2008, 2009",
+        clube: "Inter de Milão",
+        categoria: "coletivo",
       },
       {
-        nome: "10º melhor jogador do ano",
-        logo: "Marca",
-        anos: "2013",
-        clube: "Individual",
-        categoria: "individual",
+        nome: "Supercopa da Itália",
+        anos: "2006, 2008",
+        clube: "Inter de Milão",
+        categoria: "coletivo",
+      },
+
+      // Ajax
+      {
+        nome: "Campeonato Holandês",
+        anos: "2002, 2004",
+        clube: "Ajax",
+        categoria: "coletivo",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "2002",
+        clube: "Ajax",
+        categoria: "coletivo",
+      },
+      {
+        nome: "Supercopa da Holanda",
+        anos: "2002",
+        clube: "Ajax",
+        categoria: "coletivo",
       },
     ],
     tags: [
@@ -17816,9 +18526,8 @@ export const jogadores = [
       "Ibrahimovic",
       "Zlatan",
       "Ibramovick",
-      "PSG",
+      "Leão",
     ],
-    ultima_atualizacao: "30/10/25",
   },
 
   // URUGUAI --------------------------------------------------------------------------------------------------------------------
@@ -17899,7 +18608,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Copa del Rey",
+        nome: "Copa do Rei",
         anos: "2023",
         clube: "Real Madrid",
       },

@@ -12,6 +12,15 @@ body {
   overflow: hidden;
 }
 
+img {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  outline: none;
+}
+
 .architects-daughter-regular {
   font-family: "Architects Daughter", cursive;
   font-weight: 400;
@@ -59,12 +68,11 @@ section {
 
   & input {
     width: 32vw;
-    border: none;
-    padding: 1rem;
-    margin: 0;
-    border-radius: 1.5rem;
-    color: #45474b;
+    padding: 0.875rem;
     font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
   }
 }
 
@@ -75,14 +83,18 @@ button {
 }
 
 .pagina__btn {
-  padding: 1rem 1.2rem;
+  padding: 0.9rem 1.2rem;
   background-color: #018f08;
   color: #f5f7f8;
   font-weight: bold;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   position: absolute;
   right: 0;
   z-index: 1;
+}
+
+.pagina__btn:hover {
+  opacity: 0.9;
 }
 
 ul {
@@ -209,9 +221,12 @@ ul {
 
 .jogador {
   position: relative;
+  font-family: "Architects Daughter", serif;
   background-image: url(/img__fundos/Fundo_resultado.png);
+  background-position: top right;
   background-size: cover;
-  padding: 4rem;
+  background-repeat: no-repeat;
+  padding: 2rem 4rem;
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
@@ -235,7 +250,7 @@ ul {
   gap: 2rem;
 }
 
-.div-left {
+.div-left div {
   position: relative;
   display: flex;
   flex: 1;
@@ -243,19 +258,33 @@ ul {
   margin: 1rem 1rem 1rem 0;
 }
 
+.cards {
+  perspective: 500px;
+}
+
+.card {
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform 0.5s;
+  rotate: 1deg;
+}
+
+.card:hover {
+  transform: translateZ(6px) rotateX(5deg) rotateY(5deg);
+}
+
 .dado-imagem-background {
   position: absolute;
   top: -10px;
   left: -18px;
   width: 115%;
-  rotate: 1deg;
   z-index: 1;
 }
 
 .img-grampo {
   position: absolute;
   left: 80px;
-  top: 4px;
+  top: -17px;
   width: 60px;
   z-index: 10;
 }
@@ -265,7 +294,6 @@ ul {
   width: 300px;
   height: 400px;
   z-index: 2;
-  rotate: 1deg;
   opacity: 0.95;
 }
 
@@ -278,7 +306,6 @@ ul {
   object-fit: contain;
   object-position: bottom;
   max-width: 250px;
-  rotate: 1deg;
   opacity: 0.95;
   z-index: 12;
 }
@@ -286,25 +313,23 @@ ul {
 .img-superior,
 .img-inferior {
   position: absolute;
-  rotate: 1deg;
 }
 
 .img-superior {
   bottom: 0;
   left: -1.5px;
-  width: 150px;
+  max-width: 150px;
   z-index: 10;
 }
 
 .img-inferior {
   bottom: -14px;
   left: -14px;
-  width: 110px;
+  max-width: 90px;
   z-index: 11;
 }
 
 .div-info {
-  font-family: "Architects Daughter", serif;
   font-weight: 400;
   font-style: normal;
   text-align: start;
@@ -356,43 +381,17 @@ ul {
 }
 
 /* TABELA DE TITULOS /////////////////////////////////////////////////////////////////////////*/
-.mostrar-esconder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: none;
-  border-radius: 10px;
-  background-color: transparent;
-  color: #000000;
-  font-weight: 500;
-  cursor: pointer;
-  gap: 10px;
-}
-
-.mostrar-esconder:hover {
-  opacity: 0.8;
-}
-
-table {
-  background-color: #fff;
-  border-collapse: collapse;
-  width: 90%;
-}
-
-th,
-td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: center;
-  justify-content: center;
-}
-
-th {
-  background-color: #f2f2f2;
-}
-
 .conteudo-oculto {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 0.5s cubic-bezier(0.65, 0.65, 0.35, 1),
+    opacity 0.3s ease-in;
+}
+
+.conteudo-oculto.aberto {
+  height: auto;
+  opacity: 1;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -400,6 +399,7 @@ th {
   text-align: start;
   gap: 1rem;
   width: 100%;
+  margin-top: 70px;
 }
 
 .tabelas {
@@ -410,6 +410,29 @@ th {
   text-align: center;
   gap: 1rem;
   width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+th {
+  font-size: 20px;
+  color: red;
+  border-top: 1px solid #000000;
+}
+
+td {
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  justify-content: center;
 }
 
 .tabela-titulos,
@@ -433,18 +456,10 @@ th {
   width: 100%;
 }
 
-.titulo-status-img {
-  position: absolute;
-  top: -50px;
-  left: 70px;
-  width: auto;
-  height: auto;
-  display: none;
-  background-color: #f7f7f7;
-  padding: 5px 8px;
-  border-radius: 6px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.664);
-  z-index: 10;
+.item-titulo {
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-titulo img {
@@ -463,6 +478,22 @@ th {
       object-fit: contain;
     }
   }
+}
+
+.titulo-status-img {
+  position: absolute;
+  top: -60px;
+  left: 80px;
+  width: auto;
+  height: auto;
+  display: none;
+  background-image: url(/img__fundos/Fundo_Titulo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.458));
+  padding: 35px 40px 40px 25px;
+  border-radius: 6px;
+  z-index: 100;
 }
 
 .campeonato {
@@ -491,21 +522,41 @@ th {
 
 .clube-status {
   position: absolute;
-  top: -50px;
-  right: -70px;
+  top: -100px;
+  right: -140px;
   display: none;
   flex-direction: column;
   gap: 5px;
-  background-color: #f7f7f7;
+  background-image: url(/img__fundos/Fundo_Info.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: max-content;
-  padding: 5px 8px;
-  border-radius: 6px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.664);
-  z-index: 10;
+  min-width: 160px;
+  max-width: 250px;
+  padding: 30px;
+  z-index: 100;
+  rotate: 3deg;
+  transition: 0.4s ease-in-out;
 
   h3 {
     font-size: 16px;
   }
+}
+
+.mostrar-esconder {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  gap: 10px;
+  z-index: 10;
+}
+
+.mostrar-esconder:hover {
+  opacity: 0.8;
 }
 
 /*DIV DOS RESULTADOS DOS CLUBES E SELEÇÕES /////////////////////////////////////////////////////////*/
@@ -544,15 +595,15 @@ footer {
 
 /*ESTILIZAÇÃO DA CLASSE /////////////////////////////////////////////////////////*/
 
+.dado-imagem-background {
+  filter: drop-shadow(2px 4px 5px rgba(40, 40, 40, 0.6));
+}
+
 #gold {
   filter: drop-shadow(0 0 5px rgba(255, 217, 28, 0.458));
 
   & h2 {
     color: #bf930d;
-  }
-
-  & .dado-imagem-background {
-    filter: drop-shadow(2px 4px 5px rgba(255, 217, 28, 0.458));
   }
 }
 
@@ -562,10 +613,6 @@ footer {
   & h2 {
     color: #13d6f0;
   }
-
-  & .dado-imagem-background {
-    filter: drop-shadow(2px 4px 5px rgba(42, 216, 255, 0.458));
-  }
 }
 
 #titanium {
@@ -573,10 +620,6 @@ footer {
 
   & h2 {
     color: #4d4d4d;
-  }
-
-  & .dado-imagem-background {
-    filter: drop-shadow(2px 4px 5px rgba(40, 40, 40, 0.6));
   }
 }
 
@@ -586,10 +629,6 @@ footer {
   & h2 {
     color: #6d6d6d;
   }
-
-  & .dado-imagem-background {
-    filter: drop-shadow(2px 4px 5px rgba(117, 117, 117, 0.867));
-  }
 }
 
 #promise {
@@ -598,23 +637,14 @@ footer {
   & h2 {
     color: #16e903;
   }
-
-  & .dado-imagem-background {
-    filter: drop-shadow(2px 4px 5px rgba(41, 236, 51, 0.711));
-  }
 }
 
 #default {
-  filter: drop-shadow(0 0 15px rgba(42, 42, 42, 0.458));
-
-  & .dado-imagem-background {
-    filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.458));
-  }
+  filter: drop-shadow(0 0 5px rgba(42, 42, 42, 0.458));
 }
 
 #red {
-  background-color: #eb8787;
-  box-shadow: 0 10px 20px rgba(213, 19, 19, 0.725);
+  filter: drop-shadow(0 0 5px rgba(181, 23, 23, 0.718));
 
   & .div-superior .div-left .dado-imagem-clube-selecao {
     filter: drop-shadow(0 0 2px rgba(181, 23, 23, 0.718));
@@ -622,8 +652,7 @@ footer {
 }
 
 #yellow {
-  background-color: #fcffb1;
-  box-shadow: 0 10px 20px rgba(213, 206, 19, 0.725);
+  filter: drop-shadow(0 0 5px rgba(201, 186, 51, 0.711));
 
   & .div-superior .div-left .dado-imagem-clube-selecao {
     filter: drop-shadow(0 0 2px rgba(201, 186, 51, 0.711));
@@ -631,8 +660,7 @@ footer {
 }
 
 #green {
-  background-color: #669e4f;
-  box-shadow: 0 10px 20px rgba(22, 174, 30, 0.725);
+  filter: drop-shadow(0 0 5px rgba(45, 182, 65, 0.711));
 
   & .div-superior .div-left .dado-imagem-clube-selecao {
     filter: drop-shadow(0 0 2px rgba(45, 182, 65, 0.711));
@@ -640,8 +668,7 @@ footer {
 }
 
 #purple {
-  background-color: #9e4f64;
-  box-shadow: 0 10px 20px rgba(174, 22, 68, 0.725);
+  filter: drop-shadow(0 0 5px rgba(182, 45, 72, 0.711));
 
   & .div-superior .div-left .dado-imagem-clube-selecao {
     filter: drop-shadow(0 0 2px rgba(182, 45, 72, 0.711));
@@ -649,8 +676,7 @@ footer {
 }
 
 #blue {
-  background-color: #3a2b8c;
-  box-shadow: 0 10px 20px rgba(30, 22, 174, 0.725);
+  filter: drop-shadow(0 0 5px rgba(59, 45, 182, 0.711));
 
   & .div-superior .div-left .dado-imagem-clube-selecao {
     filter: drop-shadow(0 0 2px rgba(59, 45, 182, 0.711));
@@ -658,8 +684,7 @@ footer {
 }
 
 #golden {
-  background-color: #8c7f2b;
-  box-shadow: 0 10px 20px rgba(152, 125, 37, 0.725);
+  filter: drop-shadow(0 0 5px rgba(182, 141, 45, 0.711));
 
   & .div-superior .div-left .dado-imagem-clube-selecao {
     filter: drop-shadow(0 0 2px rgba(182, 141, 45, 0.711));
@@ -667,8 +692,7 @@ footer {
 }
 
 #highGreen {
-  background-color: #2b8c52;
-  box-shadow: 0 10px 20px rgba(22, 174, 113, 0.725);
+  filter: drop-shadow(0 0 5px rgba(45, 182, 104, 0.711));
 
   & .div-superior .div-left .dado-imagem-clube-selecao {
     filter: drop-shadow(0 0 2px rgba(45, 182, 104, 0.711));
@@ -676,8 +700,7 @@ footer {
 }
 
 #black {
-  background-color: #dadada;
-  box-shadow: 0 10px 20px rgba(178, 178, 178, 0.725);
+  filter: drop-shadow(0 0 5px rgba(181, 181, 181, 0.711));
 
   & .div-superior .div-left .dado-imagem-clube-selecao {
     filter: drop-shadow(0 0 2px rgba(181, 181, 181, 0.711));
@@ -685,8 +708,7 @@ footer {
 }
 
 #lightBlue {
-  background-color: #3b97cc;
-  box-shadow: 0 10px 20px rgba(30, 155, 208, 0.725);
+  filter: drop-shadow(0 0 5px rgba(30, 141, 197, 0.711));
 
   & .div-superior .div-left .dado-imagem-clube-selecao {
     filter: drop-shadow(0 0 2px rgba(30, 141, 197, 0.711));
@@ -740,15 +762,12 @@ footer {
   .jogador {
     width: 80vw;
     max-width: 600px;
-    margin: 0;
-    padding: 1rem;
-    height: inherit;
-    max-height: initial;
+    padding: 2rem 4rem;
   }
 
   .img-grampo {
-    left: 160px;
-    top: -3px;
+    left: 200px;
+    top: -17px;
   }
 
   .img-superior {
@@ -756,7 +775,8 @@ footer {
   }
 
   .img-inferior {
-    width: 95px;
+    max-height: 90px;
+    max-width: 85px;
   }
 
   .numero-nome-time {
@@ -774,7 +794,6 @@ footer {
   }
 
   .div-info {
-    font-family: "Architects Daughter", serif;
     text-align: start;
     font-size: 1rem;
     flex: 2;
@@ -805,14 +824,6 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-
-  .item-titulo {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    min-height: 70px;
-    height: auto;
   }
 
   .campeonato {
@@ -864,7 +875,6 @@ footer {
     width: 80vw;
     margin: 0;
     padding: 1.5rem;
-    background-image: url(/img__fundos/Fundo_resultado-mobile.png);
   }
 
   .img-grampo {

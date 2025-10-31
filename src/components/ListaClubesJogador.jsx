@@ -5,7 +5,7 @@ const getClubesOrdenados = (clubes, larguraTela) => {
     return [];
   }
 
-  const clubesOrdenados = [...clubes].sort((a, b) => {
+  const clubesOrdenados = [...(clubes || [])].sort((a, b) => {
     return parseInt(a.periodo.inicio) - parseInt(b.periodo.inicio);
   });
 
