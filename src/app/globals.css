@@ -211,12 +211,12 @@ ul {
   position: relative;
   background-image: url(/img__fundos/Fundo_resultado.png);
   background-size: cover;
-  border-radius: 0.6rem;
-  padding: 2rem 3rem;
+  padding: 4rem;
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 80vw;
   gap: 1rem;
 }
 
@@ -250,6 +250,14 @@ ul {
   width: 115%;
   rotate: 1deg;
   z-index: 1;
+}
+
+.img-grampo {
+  position: absolute;
+  left: 80px;
+  top: 4px;
+  width: 60px;
+  z-index: 10;
 }
 
 .dado-imagem {
@@ -439,6 +447,12 @@ th {
   z-index: 10;
 }
 
+.img-titulo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
 .img-titulo:hover {
   .titulo-status-img {
     display: flex;
@@ -531,67 +545,70 @@ footer {
 /*ESTILIZAÇÃO DA CLASSE /////////////////////////////////////////////////////////*/
 
 #gold {
-  background-color: #ffd260;
-  box-shadow: 0 20px 20px rgba(255, 217, 28, 0.458);
+  filter: drop-shadow(0 0 5px rgba(255, 217, 28, 0.458));
 
   & h2 {
     color: #bf930d;
   }
 
   & .dado-imagem-background {
-    filter: drop-shadow(5px 10px 5px rgba(255, 217, 28, 0.458));
+    filter: drop-shadow(2px 4px 5px rgba(255, 217, 28, 0.458));
   }
 }
 
 #diamond {
-  background-color: #4fd9ec;
-  box-shadow: 0 20px 20px rgba(28, 244, 255, 0.458);
+  filter: drop-shadow(0 0 5px rgba(42, 216, 255, 0.458));
 
   & h2 {
     color: #13d6f0;
   }
 
   & .dado-imagem-background {
-    filter: drop-shadow(5px 10px 5px rgba(42, 216, 255, 0.458));
+    filter: drop-shadow(2px 4px 5px rgba(42, 216, 255, 0.458));
   }
 }
 
 #titanium {
-  background-color: #3c4048;
-  box-shadow: 0 20px 20px rgba(20, 20, 20, 0.5);
+  filter: drop-shadow(0 0 5px rgba(60, 60, 60, 0.6));
 
   & h2 {
     color: #4d4d4d;
   }
 
   & .dado-imagem-background {
-    filter: drop-shadow(5px 10px 5px rgba(60, 60, 60, 0.6));
+    filter: drop-shadow(2px 4px 5px rgba(40, 40, 40, 0.6));
   }
 }
 
 #plate {
-  background-color: #d2d2d2;
-  box-shadow: 0 20px 20px rgba(255, 255, 255, 0.458);
+  filter: drop-shadow(0 0 5px rgba(202, 202, 202, 0.867));
 
   & h2 {
     color: #6d6d6d;
   }
 
   & .dado-imagem-background {
-    filter: drop-shadow(5px 10px 5px rgba(202, 202, 202, 0.867));
+    filter: drop-shadow(2px 4px 5px rgba(117, 117, 117, 0.867));
   }
 }
 
 #promise {
-  background-color: #b7ffb1;
-  box-shadow: 0 20px 20px rgba(31, 86, 20, 0.458);
+  filter: drop-shadow(0 0 5px rgba(147, 255, 150, 0.803));
 
   & h2 {
     color: #16e903;
   }
 
   & .dado-imagem-background {
-    filter: drop-shadow(5px 10px 5px rgba(41, 236, 51, 0.711));
+    filter: drop-shadow(2px 4px 5px rgba(41, 236, 51, 0.711));
+  }
+}
+
+#default {
+  filter: drop-shadow(0 0 15px rgba(42, 42, 42, 0.458));
+
+  & .dado-imagem-background {
+    filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.458));
   }
 }
 
@@ -677,14 +694,15 @@ footer {
 }
 
 /* Para telas até 1250px ////////////////////////////////////////////////////////*/
-@media (max-width: 1250px) {
+@media (max-width: 1290px) {
   .jogador {
-    width: 70vw;
+    width: 80vw;
+    max-width: 850px;
   }
 }
 
 /* Para telas um pouco menores (tablets) ////////////////////////////////////////////////////////*/
-@media (max-width: 960px) {
+@media (max-width: 860px) {
   .container-loading {
     background-position: center;
   }
@@ -726,6 +744,11 @@ footer {
     padding: 1rem;
     height: inherit;
     max-height: initial;
+  }
+
+  .img-grampo {
+    left: 160px;
+    top: -3px;
   }
 
   .img-superior {
@@ -840,19 +863,23 @@ footer {
   .jogador {
     width: 80vw;
     margin: 0;
-    padding: 1rem;
-    height: inherit;
-    max-height: initial;
+    padding: 1.5rem;
     background-image: url(/img__fundos/Fundo_resultado-mobile.png);
   }
 
+  .img-grampo {
+    left: 100px;
+    top: -15px;
+    width: 50px;
+  }
+
   .dado_imgMarca {
-    height: 180px;
+    max-height: 150px;
+    max-width: 200px;
     position: absolute;
   }
 
   .dado-imagem {
-    padding: 0;
     width: 250px;
     height: 320px;
   }

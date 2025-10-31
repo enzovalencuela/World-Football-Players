@@ -15,6 +15,7 @@ function CardJogador({ jogador }) {
 
   return (
     <div className="jogador" id={jogador.background}>
+      <img className="img-grampo" src="/img__fundos/Fundo_Grampo.png" alt="" />
       <div className="div-superior">
         <div className="div-left">
           <img

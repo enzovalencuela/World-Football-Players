@@ -648,7 +648,11 @@ export const clubes = [
         categoria: "individual",
         anos: "2 vezes",
       },
-      { nome: "Serie A", categoria: "individual", anos: "19 vezes" },
+      {
+        nome: "Campeonato Italiano",
+        categoria: "individual",
+        anos: "19 vezes",
+      },
       { nome: "Copa da Itália", categoria: "individual", anos: "5 vezes" },
       { nome: "Supercopa Italiana", categoria: "individual", anos: "7 vezes" },
       {
@@ -687,7 +691,11 @@ export const clubes = [
         categoria: "individual",
         anos: "3 vezes",
       },
-      { nome: "Serie A", categoria: "individual", anos: "19 vezes" },
+      {
+        nome: "Campeonato Italiano",
+        categoria: "individual",
+        anos: "19 vezes",
+      },
       { nome: "Copa da Itália", categoria: "individual", anos: "8 vezes" },
       { nome: "Supercopa Italiana", categoria: "individual", anos: "5 vezes" },
       {
@@ -717,7 +725,7 @@ export const clubes = [
     localizacao: "Turim, Itália",
     titulos: [
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         categoria: "individual",
         anos: "2020, 2019, 2018, 2017, 2016, 2015, 2013, 2012, 2011, 2003, ... 36 vezes",
       },

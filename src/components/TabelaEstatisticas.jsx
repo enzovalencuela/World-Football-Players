@@ -45,7 +45,7 @@ function TabelaEstatisticas({ jogador }) {
         {jogador.clubes.map(
           (clube, index) =>
             clube.estatisticas && (
-              <tr key={clube.nome || index}>
+              <tr key={index}>
                 <td>{clube.nome}</td>
                 <td>{clube.estatisticas.jogos}</td>
                 <td>{clube.estatisticas.gols}</td>

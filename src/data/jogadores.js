@@ -378,7 +378,7 @@ export const jogadores = [
   // Jamal Musiala
   {
     nome: "Jamal Musiala",
-    background: "#",
+    background: "default",
     descricao:
       "Jovem meia-atacante alemão, considerado uma das maiores revelações de sua geração. Conhecido por seu drible hipnotizante, controle de bola em espaços curtos ('Bambi') e capacidade de decidir jogos. Peça central no Bayern de Munique e na Seleção Alemã, onde já foi co-artilheiro da Eurocopa (2024).",
     pagina: "https://www.instagram.com/jamalmusiala10/",
@@ -554,7 +554,7 @@ export const jogadores = [
   // Julian Draxler
   {
     nome: "Julian Draxler",
-    background: "#",
+    background: "default",
     descricao:
       "Meia-atacante alemão conhecido por sua habilidade técnica, dribles e visão de jogo. Draxler teve passagens por clubes como Schalke 04, Wolfsburg e Paris Saint-Germain.",
     pagina: "https://www.instagram.com/draxlerofficial/",
@@ -915,7 +915,7 @@ export const jogadores = [
   // Niclas Füllkrug
   {
     nome: "Niclas Füllkrug",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante alemão conhecido por sua habilidade nas finalizações e representou a Alemanha na Copa do Mundo de 2022.",
     pagina: "https://www.instagram.com/niclas.fuellkrug24/",
@@ -1292,7 +1292,7 @@ export const jogadores = [
   //Agustin Rossi
   {
     nome: "Agustin Rossi",
-    background: "#",
+    background: "default",
     descricao:
       "Goleiro argentino conhecido por suas defesas difíceis e segurança sob as traves. Um dos destaques do Flamengo.",
     pagina: "#",
@@ -1471,7 +1471,7 @@ export const jogadores = [
   // Carlos Alcaraz
   {
     nome: "Carlos Alcaraz",
-    background: "#",
+    background: "default",
     descricao:
       "Meia argentino com grande técnica e visão de jogo. Chegou ao Flamengo em 2024 e rapidamente se adaptou ao estilo de jogo do time.",
     pagina: "https://www.instagram.com/_alcaraz22/",
@@ -1493,7 +1493,7 @@ export const jogadores = [
   // Carlos Tevez
   {
     nome: "Carlos Tévez",
-    background: "#",
+    background: "default",
     descricao:
       "Considerado um dos maiores atacantes argentinos da sua geração, Carlos Tévez é conhecido por sua força física, dribles e gols decisivos. Tendo jogado por grandes clubes como Boca Juniors, Manchester United e Juventus, conquistou diversos títulos e se tornou um ídolo da torcida.",
     pagina: "https://www.instagram.com/__carlitostevez/",
@@ -1747,7 +1747,7 @@ export const jogadores = [
 
       // Napoli
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "1987, 1990",
         clube: "Napoli",
       },
@@ -1798,7 +1798,7 @@ export const jogadores = [
   // Enzo Fernández
   {
     nome: "Enzo Fernández",
-    background: "#",
+    background: "default",
     descricao:
       "Meio-campista argentino que se destacou no Benfica e na Copa do Mundo de 2022. Conhecido por sua visão de jogo e passes precisos.",
     pagina: "https://www.instagram.com/enzofernandez24/",
@@ -1818,7 +1818,7 @@ export const jogadores = [
   // Germán Cano
   {
     nome: "Germán Cano",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante argentino com faro de gol, Cano é conhecido por sua precisão nos finalizações e por ser um verdadeiro artilheiro. Atualmente, é o principal jogador do Fluminense e um dos artilheiros do Campeonato Brasileiro.",
     pagina: "https://www.instagram.com/germancano/",
@@ -1840,7 +1840,7 @@ export const jogadores = [
   //Gonzalo Higuaín
   {
     nome: "Gonzalo Higuaín",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante argentino conhecido por sua finalização precisa, Higuaín já atuou por grandes clubes como Real Madrid e Juventus.",
     pagina: "https://www.instagram.com/ghiguain9/",
@@ -2031,7 +2031,7 @@ export const jogadores = [
   // Julián Álvarez
   {
     nome: "Julián Álvarez",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante jovem e promissor, conhecido por sua versatilidade e finalização precisa. Campeão mundial com a Argentina em 2022, Álvarez tem se destacado no Manchester City.",
     pagina: "https://www.instagram.com/julianalvarez9/",
@@ -2084,7 +2084,7 @@ export const jogadores = [
     titulos: [
       // Inter de Milão
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2020-21, 2023-24",
         clube: "Internazionale",
       },
@@ -2144,21 +2144,21 @@ export const jogadores = [
       },
       {
         nome: "Artilheiro da Serie A",
-        logo: "Serie A",
+        logo: "Campeonato Italiano",
         anos: "2023-24",
         clube: "Individual",
         categoria: "individual",
       },
       {
         nome: "Time do Ano da Serie A",
-        logo: "Serie A",
+        logo: "Campeonato Italiano",
         anos: "2023-24",
         clube: "Individual",
         categoria: "individual",
       },
       {
         nome: "Jogador do Mês da Serie A",
-        logo: "Serie A",
+        logo: "Campeonato Italiano",
         anos: "Outubro 2023",
         clube: "Individual",
         categoria: "individual",
@@ -2171,19 +2171,7 @@ export const jogadores = [
         categoria: "individual",
       },
     ],
-    tags: [
-      "Lautaro",
-      "Martinez",
-      "Lautaro Martinez",
-      "Inter de Milão",
-      "Argentina",
-      "Centroavante",
-      "Atacante",
-      "El Toro",
-      "Serie A",
-      "Capitão",
-      "LM10",
-    ],
+    tags: ["Lautaro", "Martinez", "Lautaro Martinez", "El Toro", "LM10"],
   },
 
   // Mascherano
@@ -2212,7 +2200,7 @@ export const jogadores = [
   {
     nome: "Mauro Icardi",
     apelido: "El Niño",
-    background: "#",
+    background: "default",
     descricao:
       "Considerado um dos melhores finalizadores da sua geração, Icardi se destaca por sua precisão nos chutes e habilidade dentro da área. Seus gols foram decisivos em diversas conquistas ao longo de sua carreira.",
     pagina: "https://www.instagram.com/mauroicardi/",
@@ -2233,7 +2221,7 @@ export const jogadores = [
   // Paulo Dybala
   {
     nome: "Paulo Dybala",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante argentino conhecido por sua habilidade com a bola, chutes precisos e visão de jogo. Ficou mais conhecido pelo seu futebol na Juventus e atualmente joga no Roma.",
     pagina: "https://www.instagram.com/paulodybala/",
@@ -2488,7 +2476,7 @@ export const jogadores = [
   // Eden Hazard
   {
     nome: "Eden Hazard",
-    background: "#",
+    background: "default",
     descricao:
       "Considerado um dos jogadores mais habilidosos de sua geração, Hazard é conhecido por seus dribles desconcertantes e finalizações precisas. Teve destaque no Chelsea e na seleção belga.",
     pagina: "https://www.instagram.com/hazardeden10/",
@@ -2935,7 +2923,7 @@ export const jogadores = [
     titulos: [
       // Internazionale
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2006, 2007, 2008, 2009",
         clube: "Internazionale",
       },
@@ -3049,7 +3037,7 @@ export const jogadores = [
     titulos: [
       // Juventus
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2016, 2017, 2018, 2019, 2020",
         clube: "Juventus",
       },
@@ -3411,7 +3399,7 @@ export const jogadores = [
   // Ayrton Lucas
   {
     nome: "Ayrton Lucas",
-    background: "#",
+    background: "default",
     pagina: "https://www.instagram.com/ayrtonlucas/",
     nacionalidade: "Brasil",
     numero: "6",
@@ -3771,7 +3759,7 @@ export const jogadores = [
   // Cafu
   {
     nome: "Cafu",
-    background: "gold",
+    background: "diamond",
     pagina: "https://www.instagram.com/cafuoficial/",
     nacionalidade: "Brasil",
     numero: "2",
@@ -3952,7 +3940,7 @@ export const jogadores = [
         clube: "AC Milan",
       },
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2004",
         clube: "AC Milan",
       },
@@ -3969,7 +3957,7 @@ export const jogadores = [
 
       // Roma
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2001",
         clube: "Roma",
       },
@@ -4027,7 +4015,7 @@ export const jogadores = [
   // Carlinhos (Carlos Moisés de Lima)
   {
     nome: "Carlinhos",
-    background: "#",
+    background: "default",
     descricao:
       "Centroavante brasileiro conhecido por sua força física e poder de finalização. Ganhou notoriedade ao ser vice-artilheiro do Campeonato Carioca pelo Nova Iguaçu em 2024, o que lhe rendeu a contratação pelo Flamengo. Atualmente, está emprestado ao Vitória.",
     pagina: "https://www.instagram.com/carlinhos_l9",
@@ -4162,7 +4150,7 @@ export const jogadores = [
   // Carlos Alberto Torres
   {
     nome: "Carlos Alberto Torres",
-    background: "diamond",
+    background: "gold",
     descricao:
       "O eterno 'Capita' do Tri. Lateral-direito com técnica, força e liderança incomparáveis, imortalizado por levantar a Taça Jules Rimet em 1970 e marcar um dos gols mais bonitos da história das Copas.",
     pagina: "https://www.instagram.com/capita70/",
@@ -4682,7 +4670,7 @@ export const jogadores = [
       },
 
       // Juventus
-      { nome: "Serie A", anos: "2017", clube: "Juventus" },
+      { nome: "Campeonato Italiano", anos: "2017", clube: "Juventus" },
       { nome: "Copa Da Itália", anos: "2017", clube: "Juventus" },
 
       // Paris Saint-Germain
@@ -4761,7 +4749,7 @@ export const jogadores = [
   // Danilo Andrade
   {
     nome: "Danilo Andrade",
-    background: "#",
+    background: "default",
     descricao:
       "Meia de grande talento e habilidade, Danilo se destacou por sua visão de jogo e passes precisos. Teve passagens marcantes por Goiás, São Paulo e Corinthians.",
     pagina: "https://www.instagram.com/20_danilo/",
@@ -4895,7 +4883,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2019/20, 2020/21, 2021/22",
         clube: "Juventus",
       },
@@ -5158,7 +5146,7 @@ export const jogadores = [
   // Denilson Show
   {
     nome: "Denilson Show",
-    background: "#",
+    background: "default",
     descricao:
       "Ex-jogador de futebol brasileiro, conhecido por sua habilidade com a bola nos pés e sua alegria dentro de campo. Campeão mundial em 2002, Denilson encantou a todos com seus dribles e passes precisos.",
     pagina: "https://www.instagram.com/denilsonshowoficial/",
@@ -5234,7 +5222,7 @@ export const jogadores = [
         clube: "Milan",
       },
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2004",
         clube: "Milan",
       },
@@ -5294,7 +5282,7 @@ export const jogadores = [
   // Diego Alves
   {
     nome: "Diego Alves",
-    background: "#",
+    background: "default",
     descricao:
       "Goleiro brasileiro conhecido por suas defesas difíceis e personalidade marcante. Atuou por grandes clubes como Flamengo e Valencia.",
     pagina: "https://www.instagram.com/diegoalves/",
@@ -5314,7 +5302,7 @@ export const jogadores = [
   // Diego Ribas
   {
     nome: "Diego Ribas",
-    background: "#",
+    background: "plate",
     descricao:
       "Meio-campista talentoso, conhecido por sua visão de jogo, técnica apurada e forte liderança. Diego brilhou no Santos ao lado de Robinho e foi fundamental em clubes europeus como Werder Bremen e Atlético de Madrid. Encerrou a carreira como capitão e ídolo do Flamengo.",
     pagina: "https://www.instagram.com/diegoribas10/",
@@ -5426,12 +5414,13 @@ export const jogadores = [
       },
     ],
     tags: ["Diego Ribas"],
+    ultima_atualizacao: "30/10/25",
   },
 
   // Djalma Santos
   {
     nome: "Djalma Santos",
-    background: "gold",
+    background: "diamond",
     descricao:
       "Considerado um dos maiores laterais-direitos de todos os tempos. Inovador no apoio e impecável na marcação, disputou quatro Copas do Mundo (bicampeão em 1958 e 1962). Notável por sua lealdade, é um dos poucos a receber o Troféu Belfort Duarte, pois jamais foi expulso na carreira.",
     pagina: "https://pt.wikipedia.org/wiki/Djalma_Santos",
@@ -5588,30 +5577,130 @@ export const jogadores = [
     ultima_atualizacao: "28/10/25",
   },
 
-  // Douglas Costa
+  // Douglas Costa (Douglas Costa de Souza)
   {
     nome: "Douglas Costa",
-    background: "#",
+    background: "titanium",
     descricao:
-      "Um ponta-direita brasileiro conhecido por sua velocidade, dribles e habilidade de fazer jogadas individuais. Douglas Costa já jogou em grandes clubes europeus e se destacou pela Seleção Brasileira.",
+      "Pontua-direita de extrema velocidade, conhecido por seus dribles e potência no chute. Teve passagens por clubes de elite na Europa e foi figura na Seleção Brasileira.",
     pagina: "https://www.instagram.com/douglascosta/",
     nacionalidade: "Brasil",
     imagem:
-      "https://www.rbsdirect.com.br/filestore/2/8/2/6/4/0/5_24ef7b27287fa17/5046282_282e133883ec924.jpg?version=1575255600",
-    numero: "11",
+      "https://f.i.uol.com.br/fotografia/2018/03/27/15221930685abad2acccea9_1522193068_3x2_rt.jpg",
+    numero: "10",
     posicao: "Ponta-direita",
     dataNascimento: "14/09/1990",
-    status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    status: "Sem Clube",
+    clubes: [
+      createClub(
+        "Grêmio",
+        { inicio: "2008", fim: "2010" },
+        { jogos: 37, gols: 2, assistencias: 4 }
+      ),
+      createClub(
+        "Shakhtar Donetsk",
+        { inicio: "2010", fim: "2015" },
+        { jogos: 203, gols: 38, assistencias: 40 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 77, gols: 14, assistencias: 27 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2017", fim: "2020" },
+        { jogos: 103, gols: 8, assistencias: 15 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 20, gols: 1, assistencias: 3 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2021", fim: "2022" },
+        { jogos: 28, gols: 3, assistencias: 2 }
+      ),
+      createClub(
+        "Los Angeles Galaxy",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 51, gols: 8, assistencias: 4 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 14, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Sydney FC",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 25, gols: 6, assistencias: 8 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2014", fim: "2018" },
+      estatisticas: { jogos: 31, gols: 4, assistencias: 7 },
+    },
+    titulos: [
+      // Shakhtar
+      {
+        nome: "Campeonato Ucraniano",
+        anos: "2010, 2011, 2012, 2013, 2014",
+        clube: "Shakhtar Donetsk",
+      },
+      {
+        nome: "Copa da Ucrânia",
+        anos: "2011, 2012, 2013",
+        clube: "Shakhtar Donetsk",
+      },
+
+      // Bayern de Munique
+      {
+        nome: "Mundial de Clubes",
+        anos: "2020",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Campeonato Alemão",
+        anos: "2016, 2017, 2021",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "2016",
+        clube: "Bayern de Munique",
+      },
+
+      // Juventus
+      {
+        nome: "Campeonato Italiano",
+        anos: "2018, 2019, 2020",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2018",
+        clube: "Juventus",
+      },
+
+      // Seleção
+      {
+        nome: "Campeonato Sul-Americano Sub-20",
+        logo: "Copa Sul-Americana",
+        anos: "2009",
+        clube: "Brasil",
+      },
+    ],
+    tags: ["Douglas Costa", "Douglas Costa de Souza"],
+    ultima_atualizacao: "30/10/25",
   },
 
   // Dudu
   {
     nome: "Dudu",
-    background: "#",
+    background: "default",
     descricao:
       "Ponta ou meia-atacante brasileiro conhecido por sua habilidade, velocidade e dribles, Dudu é um dos maiores ídolos recentes do Palmeiras. Sua trajetória inclui passagens por grandes clubes brasileiros e internacionais.",
     pagina: "https://www.instagram.com/duduoficial/",
@@ -5815,7 +5904,7 @@ export const jogadores = [
   // Edílson Capetinha
   {
     nome: "Edílson Capetinha",
-    background: "#",
+    background: "default",
     descricao:
       "Conhecido por sua habilidade e personalidade marcante, Edílson Capetinha foi um atacante rápido e driblador, que se destacou por seus gols importantes e comemorações exuberantes. Fez parte da Seleção Brasileira campeã mundial em 2002.",
     pagina: "https://www.instagram.com/edilsoncapetinhaoficial/",
@@ -6521,7 +6610,7 @@ export const jogadores = [
   // Fernandinho
   {
     nome: "Fernandinho",
-    background: "#",
+    background: "default",
     descricao:
       "Volante brasileiro conhecido por sua versatilidade e capacidade de marcação, Fernandinho se destacou no Shakhtar Donetsk e Manchester City, atualmente joga no Athletico-PR.",
     pagina: "https://www.instagram.com/fernandinho/",
@@ -6541,7 +6630,7 @@ export const jogadores = [
   // Filipe Luís
   {
     nome: "Filipe Luís",
-    background: "#",
+    background: "default",
     descricao:
       "Lateral-esquerdo brasileiro conhecido por sua experiência e qualidade defensiva. Foi um dos principais jogadores do Atlético de Madrid e do Chelsea.",
     pagina: "https://www.instagram.com/filipeluis/",
@@ -6561,7 +6650,7 @@ export const jogadores = [
   // Flávio Caça Rato
   {
     nome: "Flávio Caça Rato",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante folclórico e ídolo incontestável do Santa Cruz. Conhecido por sua raça, gols decisivos e irreverência, como o famoso gol do título da Série C (2013). Uma lenda do futebol pernambucano, frequentemente apelidado de 'CR7 Brasileiro' pelos torcedores.",
     pagina: "https://www.instagram.com/cr7.flavio/",
@@ -6946,7 +7035,7 @@ export const jogadores = [
   // Gabriel Menino
   {
     nome: "Gabriel Menino",
-    background: "#",
+    background: "default",
     descricao:
       "Meia versátil e com muita energia, Gabriel Menino é conhecido por sua força física e capacidade de marcar gols. É uma das grandes promessas do futebol brasileiro.",
     pagina: "https://www.instagram.com/gabrielmenino/",
@@ -7335,7 +7424,7 @@ export const jogadores = [
   // Gustavo Scarpa
   {
     nome: "Gustavo Scarpa",
-    background: "#",
+    background: "default",
     descricao:
       "Meia talentoso e elegante, Gustavo Scarpa é conhecido por sua visão de jogo e passes precisos. Atualmente, é um dos principais jogadores do Atlético Mineiro.",
     pagina: "https://www.instagram.com/gustavoscarpa/",
@@ -7355,7 +7444,7 @@ export const jogadores = [
   // Hernanes
   {
     nome: "Hernanes",
-    background: "#",
+    background: "default",
     descricao:
       "Conhecido como 'O Profeta', Hernanes é um meio-campista brasileiro com grande habilidade técnica. Destaca-se por seus passes precisos, chutes de longa distância e visão de jogo. Atuou em diversos clubes importantes do Brasil e da Europa.",
     pagina: "https://www.instagram.com/hernanes/",
@@ -7693,7 +7782,7 @@ export const jogadores = [
   // Júlio César
   {
     nome: "Júlio César",
-    background: "#",
+    background: "default",
     descricao:
       "Um dos maiores goleiros brasileiros de todos os tempos, Júlio César era conhecido por suas defesas espetaculares, liderança e tranquilidade. Ele foi fundamental para a conquista de diversos títulos com o Flamengo e a Internazionale de Milão.",
     pagina: "https://www.instagram.com/juliocesaroficial/",
@@ -7713,7 +7802,7 @@ export const jogadores = [
   // Juninho Pernambucano
   {
     nome: "Juninho Pernambucano",
-    background: "#",
+    background: "default",
     descricao:
       "Um dos maiores meio-campistas da história do futebol, conhecido mundialmente por suas cobranças de falta perfeitas. Foi ídolo em clubes como Vasco da Gama e Olympique Lyonnais.",
     pagina: "https://www.instagram.com/juninhopeoficial/",
@@ -7753,7 +7842,7 @@ export const jogadores = [
   // Léo Ortiz (Leonardo Rech Ortiz)
   {
     nome: "Léo Ortiz",
-    background: "#",
+    background: "default",
     descricao:
       "Zagueiro (e volante) brasileiro conhecido pela qualidade na saída de bola, liderança e versatilidade. Foi um dos pilares do Red Bull Bragantino e um dos zagueiros mais caros do Flamengo. Também foi convocado para a Seleção Brasileira.",
     pagina: "https://www.instagram.com/leortiz33/",
@@ -7866,7 +7955,7 @@ export const jogadores = [
   // Léo Pereira (Leonardo Pereira)
   {
     nome: "Léo Pereira",
-    background: "#",
+    background: "default",
     descricao:
       "Zagueiro brasileiro conhecido pela velocidade, bom passe e liderança na defesa. Destaque no Athletico Paranaense, firmou-se como titular no Flamengo, onde é bicampeão da Libertadores.",
     pagina: "https://www.instagram.com/leopereira4",
@@ -7976,7 +8065,7 @@ export const jogadores = [
   // Lincoln
   {
     nome: "Lincoln",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante promissor, conhecido por sua velocidade e habilidade nos dribles. Lincoln é considerado uma das maiores promessas do futebol brasileiro.",
     pagina: "https://www.instagram.com/lincolnoficial/",
@@ -8170,7 +8259,7 @@ export const jogadores = [
   // Luiz Araújo (Luiz de Araújo Guimarães Neto)
   {
     nome: "Luiz Araújo",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante (Ponta Direita) conhecido pela velocidade, habilidade no drible e chuta forte de perna esquerda. Formado no São Paulo, foi campeão francês pelo Lille e contratado pelo Flamengo após passagem na MLS.",
     pagina: "https://www.instagram.com/l.araujo11oficial/",
@@ -8372,7 +8461,7 @@ export const jogadores = [
   //Miranda
   {
     nome: "Miranda",
-    background: "#",
+    background: "default",
     descricao:
       "Zagueiro brasileiro conhecido por sua liderança e experiência, Miranda já defendeu grandes clubes como Atlético de Madrid e Internazionale, além da Seleção Brasileira.",
     pagina: "https://www.instagram.com/mirandaoficial/",
@@ -8573,7 +8662,7 @@ export const jogadores = [
   // Matheus Cunha (Matheus Cunha Queiroz)
   {
     nome: "Matheus Cunha",
-    background: "#",
+    background: "default",
     descricao:
       "Goleiro brasileiro formado nas categorias de base do São Paulo e consolidado no elenco profissional do Flamengo, onde conquistou títulos importantes, incluindo a Copa Libertadores e a Copa do Brasil.",
     pagina: "https://www.instagram.com/matheuscunha_01/",
@@ -8651,7 +8740,7 @@ export const jogadores = [
   // Matheus Gonçalves (Matheus Gonçalves Martins)
   {
     nome: "Matheus Gonçalves",
-    background: "#",
+    background: "default",
     descricao:
       "Jovem atacante (ponta direita) revelado nas categorias de base do Flamengo, onde conquistou a tríplice coroa Sub-17. Após passagem pelo profissional, foi vendido ao Al-Ahli, da Arábia Saudita, em 2025.",
     pagina: "https://www.instagram.com/oficialm10_/",
@@ -8886,44 +8975,205 @@ export const jogadores = [
     ultima_atualizacao: "27/10/25",
   },
 
-  //Paulinho
+  // Paulinho (José Paulo Bezerra Maciel Júnior)
   {
     nome: "Paulinho",
-    background: "#",
+    background: "diamond",
     descricao:
-      "Volante brasileiro conhecido por sua força física e habilidade na marcação, Paulinho já atuou por grandes clubes como Corinthians e Tottenham, além da Seleção Brasileira.",
-    pagina: "https://www.instagram.com/paulinho/",
+      "Volante de grande poder de chegada ao ataque, Paulinho foi um dos pilares do time campeão da Libertadores e Mundial do Corinthians (2012). Teve passagens por grandes clubes europeus como Tottenham e Barcelona, e foi titular da Seleção Brasileira na Copa das Confederações de 2013 e Copas do Mundo de 2014 e 2018.",
+    pagina: "https://www.instagram.com/paulinhop8/",
     nacionalidade: "Brasil",
     imagem:
-      "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2018/06/27/5b340c97edaab.png",
-    numero: "15",
-    posicao: "Volante",
+      "https://soutimao.com.br/wp-content/uploads/2023/06/paulinho-corinthians.jpg",
+    numero: "8",
+    posicao: "Volante / Meia Central",
     dataNascimento: "25/07/1988",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
-  },
+    status: "Aposentado",
+    clubes: [
+      createClub(
+        "Bragantino",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 45, gols: 14, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2010", fim: "2013" },
+        { jogos: 167, gols: 34, assistencias: 0 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2013", fim: "2015" },
+        { jogos: 67, gols: 10, assistencias: 0 }
+      ),
+      createClub(
+        "Guangzhou Evergrande",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 95, gols: 27, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 49, gols: 9, assistencias: 0 }
+      ),
+      createClub(
+        "Guangzhou Evergrande",
+        { inicio: "2018", fim: "2021" },
+        { jogos: 81, gols: 47, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2022", fim: "2024" },
+        { jogos: 52, gols: 6, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2011", fim: "2018" },
+      estatisticas: { jogos: 56, gols: 13, assistencias: 0 },
+    },
+    titulos: [
+      // Corinthians
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2011",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2012",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2012",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2013",
+        clube: "Corinthians",
+      },
 
-  // Pedrinho (ex-Corinthians, Atlético-MG, Benfica)
-  {
-    nome: "Pedrinho",
-    background: "#",
-    descricao:
-      "Habilidoso meia-atacante brasileiro, conhecido por sua velocidade e dribles. Atuou por Corinthians, Atlético-MG e Benfica, destacando-se por sua habilidade e gols.",
-    pagina: "https://www.instagram.com/pedrovictor38_/",
-    nacionalidade: "Brasil",
-    imagem:
-      "https://conteudo.imguol.com.br/c/esporte/e5/2019/08/17/pedrinho-jogador-do-corinthians-enfrenta-o-botafogo-na-arena-1566077435320_v2_3x4.jpg",
-    numero: "38",
-    posicao: "Meia-atacante",
-    dataNascimento: "13/09/1997",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      // Seleção Brasileira
+      {
+        nome: "Copa das Confederações",
+        anos: "2013",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Guangzhou Evergrande
+      {
+        nome: "Superliga Chinesa",
+        anos: "2015, 2019",
+        clube: "Guangzhou Evergrande",
+      },
+      {
+        nome: "Liga dos Campeões da AFC",
+        anos: "2015",
+        clube: "Guangzhou Evergrande",
+      },
+      {
+        nome: "Copa da China",
+        anos: "2016",
+        clube: "Guangzhou Evergrande",
+      },
+      {
+        nome: "Supercopa da China",
+        anos: "2016, 2017",
+        clube: "Guangzhou Evergrande",
+      },
+
+      // Barcelona
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2017–18",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa del Rey",
+        anos: "2017–18",
+        clube: "Barcelona",
+      },
+
+      // Prêmios Individuais
+      {
+        nome: "Bola de Prata da ESPN",
+        logo: "ESPN",
+        anos: "2011",
+        categoria: "individual",
+      },
+      {
+        nome: "Prêmio Craque do Brasileirão",
+        logo: "Campeonato Brasileiro",
+        anos: "2011, 2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da América",
+        logo: "El País",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Volante da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "100º melhor jogador do ano de 2012",
+        logo: "The Guardian",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Bronze do Mundial de Clubes",
+        logo: "Mundial de Clubes",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Paulista",
+        logo: "Campeonato Paulista",
+        anos: "2012, 2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Bronze da Copa das Confederações",
+        logo: "Copa das Confederações",
+        anos: "2013",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção da Copa das Confederações",
+        logo: "Copa das Confederações",
+        anos: "2013",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Melhor Jogador da Superliga Chinesa",
+        logo: "Superliga Chinesa",
+        anos: "2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da AFC",
+        logo: "AFC",
+        anos: "2015",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Paulinho", "José Paulo Bezerra Maciel Júnior"],
+    ultima_atualizacao: "30/10/25",
   },
 
   // Pedro
@@ -9529,7 +9779,7 @@ export const jogadores = [
   // Raphael Veiga
   {
     nome: "Raphael Veiga",
-    background: "#",
+    background: "default",
     descricao:
       "Meia talentoso e artilheiro, Raphael Veiga é conhecido por seus chutes poderosos e visão de jogo. Atualmente, é um dos principais jogadores do Palmeiras.",
     pagina: "https://www.instagram.com/raphael_veiga/",
@@ -9618,7 +9868,7 @@ export const jogadores = [
   //Reinier
   {
     nome: "Reinier",
-    background: "#",
+    background: "default",
     descricao:
       "Meia-atacante com grande potencial técnico e driblador habilidoso. Conhecido por sua visão de jogo e capacidade de finalizar.",
     pagina: "https://www.instagram.com/reinierjesus/",
@@ -9635,30 +9885,119 @@ export const jogadores = [
     tags: [],
   },
 
-  //Renato Augusto
+  // Renato Augusto
   {
     nome: "Renato Augusto",
-    background: "#",
+    background: "plate",
     descricao:
-      "Meia elegante e técnico, Renato Augusto é conhecido por sua visão de jogo e passes precisos. Atualmente, é um dos líderes do Corinthians.",
+      "Meia elegante e técnico, Renato Augusto é conhecido por sua visão de jogo e passes precisos. Ídolo do Corinthians e medalhista de ouro olímpico (2016), encerrou sua carreira aos 37 anos, em setembro de 2025.",
     pagina: "https://www.instagram.com/renatoaugusto/",
     nacionalidade: "Brasil",
     imagem:
-      "https://odia.ig.com.br/_midias/jpg/2024/03/01/1200x1920/1_renato_augusto-32166853.jpg?65e23a17bdf23",
+      "https://cdn.meutimao.com.br/_upload/jogador/renato-soares-de-oliveira-augusto-no-corinthians_z_corinthians.jpg",
     numero: "8",
     posicao: "Meia",
     dataNascimento: "08/02/1988",
-    status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    status: "Aposentado",
+    clubes: [
+      createClub(
+        "Flamengo",
+        { inicio: "2005", fim: "2008" },
+        { jogos: 104, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Bayer Leverkusen",
+        { inicio: "2008", fim: "2012" },
+        { jogos: 108, gols: 8, assistencias: 14 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2013", fim: "2015" },
+        { jogos: 119, gols: 14, assistencias: 22 }
+      ),
+      createClub(
+        "Beijing Guoan",
+        { inicio: "2016", fim: "2021" },
+        { jogos: 150, gols: 40, assistencias: 35 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2021", fim: "2023" },
+        { jogos: 124, gols: 15, assistencias: 15 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 35, gols: 1, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2011", fim: "2018" },
+      estatisticas: { jogos: 32, gols: 5, assistencias: 3 },
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa do Brasil",
+        anos: "2006",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2007, 2008",
+        clube: "Flamengo",
+      },
+      // Corinthians
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2013",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2015",
+        clube: "Corinthians",
+      },
+
+      // Beijing Guoan
+      {
+        nome: "Copa da China",
+        anos: "2018",
+        clube: "Beijing Guoan",
+      },
+
+      // Fluminense
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2024",
+        clube: "Fluminense",
+      },
+
+      // Seleção Olímpica
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2016",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Prêmio Craque do Brasileirão",
+        logo: "Campeonato Brasileiro",
+        anos: "2015",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Renato Augusto"],
+    ultima_atualizacao: "30/10/25",
   },
 
   // Renê
   {
     nome: "Renê",
-    background: "#",
+    background: "default",
     descricao:
       "Lateral-esquerdo brasileiro conhecido por sua habilidade nos lançamentos e pela sua força física. Atualmente joga pelo Internacional.",
     pagina: "https://www.instagram.com/reneoficial/",
@@ -9967,7 +10306,7 @@ export const jogadores = [
   // Roberto Carlos
   {
     nome: "Roberto Carlos",
-    background: "gold",
+    background: "diamond",
     descricao:
       "Lateral-esquerdo brasileiro conhecido por seus chutes potentes e precisos, especialmente as faltas. Foi um dos principais jogadores da seleção brasileira campeã mundial em 2002.",
     pagina: "https://www.instagram.com/robertocarlosoficial/",
@@ -10137,7 +10476,7 @@ export const jogadores = [
   // Robinho
   {
     nome: "Robinho",
-    background: "#",
+    background: "default",
     descricao:
       "Um dos maiores dribladores do futebol brasileiro, Robinho era conhecido por sua velocidade, habilidade com a bola e finalizações precisas. Ele encantou torcidas por onde passou, principalmente no Santos.",
     pagina: "https://www.instagram.com/robinhooficial/",
@@ -10156,7 +10495,7 @@ export const jogadores = [
   // Rodinei (Rodinei Marcelo de Almeida)
   {
     nome: "Rodinei",
-    background: "#",
+    background: "default",
     descricao:
       "Lateral-direito brasileiro conhecido por sua intensidade ofensiva. Teve passagens marcantes por Ponte Preta, Flamengo e Internacional, sendo peça-chave nas conquistas da Libertadores e da Copa do Brasil de 2022 pelo Fla e, mais recentemente, campeão da Liga Conferência da UEFA pelo Olympiacos.",
     pagina: "https://www.instagram.com/pretinhorodi_oficial/",
@@ -10351,7 +10690,7 @@ export const jogadores = [
   // Rodrigo Muniz
   {
     nome: "Rodrigo Muniz",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante promissor, Rodrigo Muniz é conhecido por sua força física e habilidade para marcar gols. Atualmente, ele defende o Fulham, na Inglaterra.",
     pagina: "https://www.instagram.com/rodrigomuniz/",
@@ -10373,19 +10712,201 @@ export const jogadores = [
     nome: "Romário",
     background: "gold",
     descricao:
-      "É um dos maiores artilheiros do história do futebol, e o quarto maior artilheiro da Seleção Brasileira segundo a FIFA, com 55 gols marcados contando apenas jogos oficiais, ficando em segundo lugar na posição até outubro de 2004[3] quando foi ultrapassado por Ronaldo, após a sua aposentadoria da Seleção.",
-    pagina: "https://www.instagram.com/romario/",
+      "Gênio da grande área e um dos maiores artilheiros da história do futebol mundial. Foi o principal responsável pelo tetracampeonato da Seleção Brasileira na Copa do Mundo de 1994 e eleito o Melhor Jogador do Mundo no mesmo ano. Aos 58 anos (em 2024), retornou aos gramados para jogar no America-RJ, clube que também preside com o objetivo de jogar ao lado do filho.",
+    pagina: "https://www.instagram.com/romariofaria",
     nacionalidade: "Brasil",
     imagem:
       "https://i.pinimg.com/736x/0d/dc/02/0ddc026d4756d61834d8dd45d2fae54d.jpg",
     numero: "11",
-    posicao: "Atacante",
-    dataNascimento: "	29/01/1966",
+    posicao: "Atacante/Centroavante",
+    dataNascimento: "29/01/1966",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Vasco da Gama",
+        { inicio: "1985", fim: "1988" },
+        { jogos: 196, gols: 139, assistencias: 0 }
+      ),
+      createClub(
+        "PSV Eindhoven",
+        { inicio: "1988", fim: "1993" },
+        { jogos: 167, gols: 165, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "1993", fim: "1994" },
+        { jogos: 84, gols: 53, assistencias: 0 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "1995", fim: "1999" },
+        { jogos: 240, gols: 204, assistencias: 0 }
+      ),
+      createClub(
+        "Valencia",
+        { inicio: "1996", fim: "1997" },
+        { jogos: 21, gols: 14, assistencias: 0 }
+      ),
+      createClub(
+        "Vasco da Gama",
+        { inicio: "1999", fim: "2002" },
+        { jogos: 140, gols: 131, assistencias: 0 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2002", fim: "2003" },
+        { jogos: 33, gols: 26, assistencias: 0 }
+      ),
+      createClub(
+        "Al-Sadd",
+        { inicio: "2003", fim: "2003" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2003", fim: "2004" },
+        { jogos: 21, gols: 13, assistencias: 0 }
+      ),
+      createClub(
+        "Miami FC",
+        { inicio: "2006", fim: "2006" },
+        { jogos: 29, gols: 22, assistencias: 0 }
+      ),
+      createClub(
+        "Adelaide United",
+        { inicio: "2006", fim: "2006" },
+        { jogos: 4, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "America-RJ",
+        { inicio: "2009", fim: "2009" },
+        { jogos: 1, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "America-RJ",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 1, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1987", fim: "2005" },
+      estatisticas: { jogos: 70, gols: 55, assistencias: 0 },
+    },
+    titulos: [
+      // Individuais
+      {
+        nome: "Melhor Jogador do Mundo FIFA",
+        logo: "FIFA World Player of the Year",
+        anos: "1994",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1994",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogador do Ano na Holanda",
+        anos: "1989",
+        categoria: "individual",
+      },
+
+      // Brasil
+      {
+        nome: "Copa do Mundo",
+        anos: "1994",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1989",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // PSV Eindhoven
+      {
+        nome: "Campeonato Holandês",
+        anos: "1989, 1991, 1992",
+        clube: "PSV Eindhoven",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "1989, 1990",
+        clube: "PSV Eindhoven",
+      },
+      {
+        nome: "Supercopa da Holanda",
+        anos: "1993",
+        clube: "PSV Eindhoven",
+      },
+
+      // Barcelona
+      {
+        nome: "Campeonato Espanhol",
+        anos: "1994",
+        clube: "Barcelona",
+      },
+
+      // Vasco
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2000",
+        clube: "Vasco da Gama",
+      },
+
+      // Flamengo
+      {
+        nome: "Taça Guanabara",
+        anos: "1995, 1996",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "1996, 1999",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa Mercosul",
+        anos: "1999",
+        clube: "Flamengo",
+      },
+
+      // Vasco da Gama
+      {
+        nome: "Taça Guanabara",
+        anos: "1986, 1987, 1990",
+        clube: "Vasco da Gama",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "1987, 1988",
+        clube: "Vasco da Gama",
+      },
+      {
+        nome: "Copa Mercosul",
+        anos: "2000",
+        clube: "Vasco da Gama",
+      },
+    ],
+    tags: ["Romário", "Baixinho", "Romario"],
+    ultima_atualizacao: "30/10/25",
   },
 
   // Ronaldinho Gaúcho
@@ -10542,7 +11063,7 @@ export const jogadores = [
 
       // AC Milan
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2011",
         clube: "AC Milan",
       },
@@ -10569,7 +11090,7 @@ export const jogadores = [
   // Vitinho
   {
     nome: "Vitinho",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante brasileiro conhecido por sua habilidade nos dribles e velocidade. Teve passagens marcantes por clubes como Flamengo e Internacional.",
     pagina: "https://www.instagram.com/vitinhooficial/",
@@ -10747,24 +11268,125 @@ export const jogadores = [
     ultima_atualizacao: "29/10/25",
   },
 
-  // William Arão
+  // Willian Arão (Willian Souza Arão da Silva)
   {
-    nome: "William Arão",
-    background: "#",
+    nome: "Willian Arão",
+    background: "plate",
     descricao:
-      "Volante conhecido por sua força física, marcação e boa distribuição de bola. Arão é um dos líderes do time e fundamental para o equilíbrio da equipe.",
-    pagina: "https://www.instagram.com/w_arao/",
+      "Volante versátil e com excelente visão de jogo, Willian Arão foi um dos pilares do time multicampeão do Flamengo na 'Era de Ouro'. Atualmente, defende o Santos.",
+    pagina: "https://www.instagram.com/willianarao/",
     nacionalidade: "Brasil",
     imagem:
-      "https://s2-ge.glbimg.com/F6cxRN9PbhdZLboPLoHzS2Kgnqc=/0x0:1080x1083/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/9/m/iJWnfGRsy3aBZ0T1Ao8A/arao2.jfif",
-    numero: "55",
-    posicao: "Meia",
-    dataNascimento: "12/04/1992",
+      "https://conteudo.imguol.com.br/c/esporte/07/2025/07/04/willian-arao-do-santos-1751645091903_v2_4x3.jpg",
+    numero: "15",
+    posicao: "Volante",
+    dataNascimento: "12/03/1992",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    clubes: [
+      createClub(
+        "Corinthians",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 17, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Botafogo",
+        { inicio: "2015", fim: "2015" },
+        { jogos: 58, gols: 7, assistencias: 3 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2016", fim: "2022" },
+        { jogos: 371, gols: 35, assistencias: 23 }
+      ),
+      createClub(
+        "Fenerbahce",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 45, gols: 1, assistencias: 5 }
+      ),
+      createClub(
+        "Panathinaikos",
+        { inicio: "2023", fim: "2025" },
+        { jogos: 84, gols: 4, assistencias: 4 }
+      ),
+      createClub(
+        "Santos",
+        { inicio: "2025", fim: "Atual" },
+        { jogos: 1, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2016", fim: "2020" },
+      estatisticas: { jogos: 1, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Corinthians
+      {
+        nome: "Mundial de Clubes",
+        anos: "2012",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2012",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2013",
+        clube: "Corinthians",
+      },
+
+      // Botafogo
+      {
+        nome: "Campeonato Brasileiro Série B",
+        anos: "2015",
+        clube: "Botafogo",
+      },
+
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2019, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2017, 2019, 2020, 2021",
+        clube: "Flamengo",
+      },
+
+      // Fenerbahce
+      {
+        nome: "Copa da Turquia",
+        anos: "2023",
+        clube: "Fenerbahce",
+      },
+
+      // Panathinaikos
+      {
+        nome: "Copa da Grécia",
+        anos: "2024",
+        clube: "Panathinaikos",
+      },
+    ],
+    tags: ["Willian Arão", "Willian Souza Arão da Silva"],
+    ultima_atualizacao: "30/10/25",
   },
 
   // Willian Borges
@@ -10871,7 +11493,7 @@ export const jogadores = [
   //Yuri Alberto
   {
     nome: "Yuri Alberto",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante promissor, Yuri Alberto é conhecido por sua finalização precisa e habilidade de se movimentar dentro da área. Atualmente, é um dos destaques do Corinthians.",
     pagina: "https://www.instagram.com/yurialberto/",
@@ -11086,7 +11708,7 @@ export const jogadores = [
   //Choupo-Moting
   {
     nome: "Choupo-Moting",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante camaronês conhecido por sua força física e habilidade aérea. Apesar de não ser um titular absoluto, Choupo-Moting já provou seu valor em grandes jogos, como nas finais da Liga dos Campeões com o Bayern de Munique.",
     pagina: "https://www.instagram.com/choupomoting/",
@@ -11165,7 +11787,7 @@ export const jogadores = [
         clube: "Internazionale",
       },
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2010",
         clube: "Internazionale",
       },
@@ -11213,7 +11835,7 @@ export const jogadores = [
   // Alphonso Davies
   {
     nome: "Alphonso Davies",
-    background: "#",
+    background: "default",
     descricao:
       "Lateral-esquerdo canadense conhecido por sua velocidade e habilidade nos dribles, Davies se destaca no Bayern de Munique.",
     pagina: "https://www.instagram.com/alphonsodavies/",
@@ -11235,7 +11857,7 @@ export const jogadores = [
   // Alexis Sánchez
   {
     nome: "Alexis Sánchez",
-    background: "#",
+    background: "default",
     descricao:
       "Um dos maiores atacantes da história do futebol chileno! Conhecido por sua velocidade, dribles e habilidade de finalizar, Sánchez já vestiu as camisas de grandes clubes europeus como Barcelona, Arsenal e Manchester United. Sua experiência e talento o tornam um jogador completo e inspirador.",
     pagina: "https://www.instagram.com/alexis_official/",
@@ -11255,7 +11877,7 @@ export const jogadores = [
   // Arturo Vidal
   {
     nome: "Arturo Vidal",
-    background: "#",
+    background: "default",
     descricao:
       "Volante chileno conhecido por sua energia, combatividade e habilidade nos chutes de longa distância. Foi um dos principais jogadores da Juventus, Bayern de Munique e da seleção chilena.",
     pagina: "https://www.instagram.com/kingarturo23oficial/",
@@ -11275,7 +11897,7 @@ export const jogadores = [
   // Erick Pulgar (Erick Antonio Pulgar Farfán)
   {
     nome: "Erick Pulgar",
-    background: "#",
+    background: "default",
     descricao:
       "Volante chileno de forte marcação e excelente capacidade de distribuição de jogo. Com passagens por clubes da Itália (Bologna, Fiorentina) e Turquia (Galatasaray), atualmente é um dos pilares do meio-campo do Flamengo e da Seleção Chilena.",
     pagina: "https://www.instagram.com/erickoficial/",
@@ -11381,7 +12003,7 @@ export const jogadores = [
   // James Rodríguez
   {
     nome: "James Rodríguez",
-    background: "#",
+    background: "default",
     descricao:
       "Um dos maiores talentos da sua geração, conhecido por sua visão de jogo e chutes precisos.",
     pagina: "https://www.instagram.com/jamesrodriguez10/",
@@ -11401,7 +12023,7 @@ export const jogadores = [
   // Carlos Valderrama
   {
     nome: "Carlos Valderrama",
-    background: "#",
+    background: "default",
     descricao:
       "Um ícone do futebol colombiano, conhecido por seu cabelo loiro e seu estilo de jogo elegante.",
     pagina: "//",
@@ -11421,7 +12043,7 @@ export const jogadores = [
   // Faustino Asprilla
   {
     nome: "Faustino Asprilla",
-    background: "#",
+    background: "default",
     descricao:
       "Um atacante rápido e habilidoso, conhecido por seus dribles e gols espetaculares.",
     pagina: "//",
@@ -11723,7 +12345,7 @@ export const jogadores = [
   //Ivan Perišić
   {
     nome: "Ivan Perišić",
-    background: "#",
+    background: "default",
     descricao:
       "Jogador croata versátil, conhecido por sua habilidade com a bola, cruzamentos precisos e chutes de longa distância. Atuou em diversos grandes clubes europeus.",
     pagina: "https://www.instagram.com/ivanperisic/",
@@ -11743,7 +12365,7 @@ export const jogadores = [
   // Ivan Rakitica
   {
     nome: "Ivan Rakitic",
-    background: "#",
+    background: "default",
     descricao:
       "Meia croata conhecido por sua visão de jogo, passes precisos e chutes de média distância. Foi peça fundamental nos títulos do Barcelona, incluindo a Liga dos Campeões de 2015.",
     pagina: "https://www.instagram.com/ivanrakitic/",
@@ -11763,7 +12385,7 @@ export const jogadores = [
   //Joško Gvardiol
   {
     nome: "Joško Gvardiol",
-    background: "#",
+    background: "default",
     descricao:
       "Zagueiro croata conhecido por sua força física, velocidade e habilidade com a bola. É considerado um dos maiores talentos da nova geração do futebol.",
     pagina: "https://www.instagram.com/jgvardool/",
@@ -11783,7 +12405,7 @@ export const jogadores = [
   //Kovačić
   {
     nome: "Kovačić",
-    background: "#",
+    background: "default",
     descricao:
       "Meio-campista croata conhecido por sua habilidade técnica, visão de jogo e passes precisos. Destaca-se por sua capacidade de controlar o ritmo da partida e criar oportunidades para seus companheiros.",
     pagina: "https://www.instagram.com/mateokova/",
@@ -11963,7 +12585,7 @@ export const jogadores = [
   //Marcelo Brozović
   {
     nome: "Marcelo Brozović",
-    background: "#",
+    background: "default",
     descricao:
       "Um volante croata conhecido por sua força física, excelente passe e habilidade de marcar. É um jogador fundamental para o meio-campo de sua equipe, com uma visão de jogo impressionante.",
     pagina: "https://www.instagram.com/marcelobrozovic/",
@@ -11985,7 +12607,7 @@ export const jogadores = [
   // Andreas Christensen
   {
     nome: "Andreas Christensen",
-    background: "#",
+    background: "default",
     descricao:
       "Zagueiro dinamarquês conhecido por sua elegância e precisão nos passes. Destaca-se por sua capacidade de construir o jogo a partir da defesa e por sua liderança em campo.",
     pagina: "https://www.instagram.com/andreashchristensen/",
@@ -12048,7 +12670,7 @@ export const jogadores = [
     titulos: [
       // Internazionale
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2020-21",
         clube: "Internazionale",
       },
@@ -12082,7 +12704,7 @@ export const jogadores = [
   // Kasper Schmeichel
   {
     nome: "Kasper Schmeichel",
-    background: "#",
+    background: "default",
     descricao:
       "Goleiro dinamarquês conhecido por suas defesas espetaculares e por ser um líder nato. Filho do lendário goleiro Peter Schmeichel, Kasper seguiu os passos do pai e se tornou um dos melhores goleiros da sua geração.",
     pagina: "https://www.instagram.com/kschmeichel1/",
@@ -12102,7 +12724,7 @@ export const jogadores = [
   // Pierre-Emile Højbjerg
   {
     nome: "Pierre Højbjerg",
-    background: "#",
+    background: "default",
     descricao:
       "Meio-campista dinamarquês conhecido por sua força física, desarmes e passes precisos. Destaca-se por sua capacidade de recuperar a bola e distribuir o jogo, sendo um jogador fundamental na organização do meio-campo.",
     pagina: "https://www.instagram.com/hojbjerg/",
@@ -12206,7 +12828,7 @@ export const jogadores = [
   // Andrew Robertson
   {
     nome: "Robertson",
-    background: "#",
+    background: "default",
     descricao:
       "Lateral-esquerdo escocês conhecido por sua habilidade nos cruzamentos e sua capacidade de atuar tanto na defesa quanto no ataque. É considerado um dos melhores laterais do mundo.",
     pagina: "https://www.instagram.com/andrewrobertson5/",
@@ -12513,7 +13135,7 @@ export const jogadores = [
   // Álvaro Morata
   {
     nome: "Álvaro Morata",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante forte e completo, Morata é conhecido por sua habilidade no jogo aéreo e por marcar gols decisivos. É um dos principais atacantes da seleção espanhola.",
     pagina: "https://www.instagram.com/alvaromorata/",
@@ -13496,7 +14118,7 @@ export const jogadores = [
   //Isco Alarcón
   {
     nome: "Isco Alarcón",
-    background: "#",
+    background: "default",
     descricao:
       "Meia espanhol conhecido por sua técnica e visão de jogo, Isco já atuou por Real Madrid e agora defende o [time atual].",
     pagina: "https://www.instagram.com/iscoalarcon/",
@@ -13773,7 +14395,7 @@ export const jogadores = [
   //Pablo Marí
   {
     nome: "Pablo Marí",
-    background: "#",
+    background: "default",
     descricao:
       "Zagueiro central conhecido por sua serenidade e habilidade na construção de jogadas. Possui boa visão de jogo e é forte no jogo aéreo.",
     pagina: "https://www.instagram.com/pablomari/",
@@ -13883,7 +14505,7 @@ export const jogadores = [
   // Pep Guardiola
   {
     nome: "Pep Guardiola",
-    background: "#",
+    background: "default",
     descricao:
       "Ex-volante espanhol conhecido por sua inteligência tática e visão de jogo, Guardiola foi capitão do Barcelona e conquistou diversos títulos como jogador. Atualmente, é um dos treinadores mais renomados do mundo.",
     pagina: "https://www.instagram.com/pepguardiola/",
@@ -13903,7 +14525,7 @@ export const jogadores = [
   // Raúl González
   {
     nome: "Raúl González",
-    background: "#",
+    background: "default",
     descricao:
       "Um dos maiores atacantes da história do Real Madrid, conhecido por sua eficiência e liderança.",
     pagina: "https://www.instagram.com/raulgonzalez/",
@@ -14091,7 +14713,7 @@ export const jogadores = [
   // Thiago Alcântara
   {
     nome: "Thiago Alcântara",
-    background: "#",
+    background: "default",
     descricao:
       "Ex-meio-campista conhecido por sua habilidade técnica, visão de jogo e passes precisos. Foi um dos pilares de equipes como Barcelona, Bayern de Munique e Liverpool.",
     pagina: "https://www.instagram.com/thiagoalcantara/",
@@ -14153,7 +14775,7 @@ export const jogadores = [
   // Achraf Hakimi
   {
     nome: "Achraf Hakimi",
-    background: "#",
+    background: "default",
     descricao:
       "Lateral-direito marroquino de elite, amplamente considerado um dos melhores do mundo em sua posição. É conhecido por sua velocidade estonteante, excelência ofensiva e por ter sido peça fundamental em times campeões na Itália (Inter de Milão) e na França (PSG), além de ter liderado Marrocos à histórica semifinal da Copa do Mundo de 2022.",
     pagina: "https://www.instagram.com/achrafhakimi/",
@@ -14213,7 +14835,7 @@ export const jogadores = [
         clube: "Borussia Dortmund",
       },
       // Internazionale
-      { nome: "Serie A", anos: "2021", clube: "Internazionale" },
+      { nome: "Campeonato Italiano", anos: "2021", clube: "Internazionale" },
       // Paris Saint-Germain
       {
         nome: "Campeonato Francês",
@@ -14261,7 +14883,7 @@ export const jogadores = [
   // Adrien Rabiot
   {
     nome: "Adrien Rabiot",
-    background: "#",
+    background: "default",
     descricao:
       "Meia de contenção conhecido por sua força física e habilidade de recuperar a bola. Rabiot é um jogador crucial na construção do jogo e tem se destacado em grandes clubes europeus.",
     pagina: "https://www.instagram.com/adrien_rabiot/",
@@ -14847,7 +15469,7 @@ export const jogadores = [
   // Kingsley Coman
   {
     nome: "Kingsley Coman",
-    background: "#",
+    background: "default",
     descricao:
       "Atacante francês conhecido por sua velocidade, dribles e habilidade nos cruzamentos, Coman é um dos principais jogadores do Bayern de Munique. Ele já conquistou diversos títulos importantes na Europa.",
     pagina: "https://www.instagram.com/king_coman/",
@@ -15178,7 +15800,7 @@ export const jogadores = [
   // Paul Pogba
   {
     nome: "Paul Pogba",
-    background: "#",
+    background: "default",
     descricao:
       "Um dos meio-campistas mais talentosos da sua geração, conhecido por sua habilidade técnica, passes longos precisos e chutes poderosos. Já jogou por grandes clubes como Manchester United e Juventus.",
     pagina: "http://www.paulpogba.com/",
@@ -15198,7 +15820,7 @@ export const jogadores = [
   // Presnel Kimpembe
   {
     nome: "Presnel Kimpembe",
-    background: "#",
+    background: "default",
     descricao:
       "Zagueiro central francês conhecido por sua velocidade, força física e habilidade com a bola nos pés. É um dos pilares da defesa do Paris Saint-Germain.",
     pagina: "https://www.instagram.com/kimpembe/",
@@ -15218,7 +15840,7 @@ export const jogadores = [
   // Raphaël Varane
   {
     nome: "Raphaël Varane",
-    background: "#",
+    background: "default",
     descricao:
       "Zagueiro elegante e veloz, Varane é conhecido por sua habilidade no jogo aéreo e por sua liderança em campo. É um dos pilares defensivos da sua equipe.",
     pagina: "https://www.instagram.com/raphaelvarane/",
@@ -15342,7 +15964,7 @@ export const jogadores = [
 
       // Juventus
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "1997, 1998",
         clube: "Juventus",
       },
@@ -15355,7 +15977,7 @@ export const jogadores = [
   // Khvicha Kvaratskhelia
   {
     nome: "Khvicha Kvaratskhelia",
-    background: "#",
+    background: "default",
     descricao:
       "Ponta-esquerda georgiano de classe mundial, conhecido por sua incrível habilidade de drible, agilidade e visão de jogo. Ganhou o apelido de 'Kvaradona' em Napoli, onde foi peça chave para encerrar um jejum de 33 anos na Serie A e rapidamente se transferiu para o PSG, vencendo a Champions League.",
     pagina: "https://www.instagram.com/kvara7/",
@@ -15412,7 +16034,7 @@ export const jogadores = [
       // Lokomotiv Moscou
       { nome: "Copa da Rússia", anos: "2019", clube: "Lokomotiv Moscou" },
       // Napoli
-      { nome: "Serie A", anos: "2023, 2025", clube: "Napoli" },
+      { nome: "Campeonato Italiano", anos: "2023, 2025", clube: "Napoli" },
       // Paris Saint-Germain
       {
         nome: "Campeonato Francês",
@@ -15431,7 +16053,7 @@ export const jogadores = [
         nome: "MVP da Serie A",
         anos: "2022-23",
         categoria: "individual",
-        logo: "Serie A",
+        logo: "Campeonato Italiano",
       },
       {
         nome: "Jovem do Ano da UEFA Champions League",
@@ -15458,6 +16080,251 @@ export const jogadores = [
 
   // HOLANDA -------------------------------------------------------------------------------------------------------------------------------------------------------
 
+  // Clarence Seedorf
+  {
+    nome: "Clarence Seedorf",
+    background: "diamond",
+    descricao:
+      "Lenda holandesa e único jogador a vencer a UEFA Champions League por três clubes diferentes (Ajax, Real Madrid e AC Milan, totalizando 4 títulos). Conhecido por sua inteligência tática, força física e chute potente de média distância. Encerrou sua vitoriosa carreira no Botafogo.",
+    pagina: "https://www.instagram.com/clarenceseedorf/",
+    nacionalidade: "Holanda",
+    imagem:
+      "https://e0.365dm.com/10/02/1600x900/Clarence-Seedorf-AC-Milan-Manchester-United-C_2420746.jpg?20100216234811",
+    numero: "10",
+    posicao: "Meio-Campista",
+    dataNascimento: "01/04/1976",
+    status: "Aposentado",
+    clubes: [
+      createClub(
+        "Ajax",
+        { inicio: "1992", fim: "1995" },
+        { jogos: 90, gols: 11, assistencias: 0 }
+      ),
+      createClub(
+        "Sampdoria",
+        { inicio: "1995", fim: "1996" },
+        { jogos: 34, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "1996", fim: "1999" },
+        { jogos: 159, gols: 20, assistencias: 0 }
+      ),
+      createClub(
+        "Internazionale",
+        { inicio: "1999", fim: "2002" },
+        { jogos: 93, gols: 14, assistencias: 0 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2002", fim: "2012" },
+        { jogos: 432, gols: 62, assistencias: 0 }
+      ),
+      createClub(
+        "Botafogo",
+        { inicio: "2012", fim: "2014" },
+        { jogos: 81, gols: 24, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Holanda",
+      periodo: { inicio: "1994", fim: "2008" },
+      estatisticas: { jogos: 87, gols: 11, assistencias: 0 },
+    },
+    titulos: [
+      // Ajax
+      {
+        nome: "Copa da Holanda",
+        anos: "1993",
+        clube: "Ajax",
+      },
+      {
+        nome: "Supercopa da Holanda",
+        anos: "1993, 1994",
+        clube: "Ajax",
+      },
+      {
+        nome: "Campeonato Holandês",
+        anos: "1993, 1994",
+        clube: "Ajax",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "1994",
+        clube: "Ajax",
+      },
+
+      // Real Madrid
+      {
+        nome: "Campeonato Espanhol",
+        anos: "1996–97",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "1997",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "1997",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1998",
+        clube: "Real Madrid",
+      },
+
+      // AC Milan
+      {
+        nome: "Copa da Itália",
+        anos: "2003",
+        clube: "AC Milan",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2003, 2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2003, 2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "2003–04, 2010–11",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2004, 2011",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2007",
+        clube: "AC Milan",
+      },
+
+      // Botafogo
+      {
+        nome: "Taça Guanabara",
+        anos: "2013",
+        clube: "Botafogo",
+      },
+      {
+        nome: "Taça Rio",
+        anos: "2013",
+        clube: "Botafogo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2013",
+        clube: "Botafogo",
+      },
+
+      // Prêmios Individuais
+      {
+        nome: "Melhor meia-direita da Eredivisie",
+        logo: "Campeonato Holandês",
+        anos: "1993, 1994",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro da Eredivisie",
+        logo: "Campeonato Holandês",
+        anos: "1993, 1994",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe da Temporada da ESM",
+        logo: "ESM",
+        anos: "1997",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor meio-campista da Liga dos Campeões da UEFA",
+        logo: "UEFA Champions League",
+        anos: "2003, 2007",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor meia-direita da Serie A",
+        logo: "Campeonato Italiano",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro da Serie A",
+        logo: "Campeonato Italiano",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Meio-campista da UEFA",
+        logo: "UEFA",
+        anos: "2007",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata do Mundial de Clubes",
+        logo: "Mundial de Clubes",
+        anos: "2007",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2002, 2007",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Século do Real Madrid",
+        anos: "2009",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe dos Sonhos da Serie A pelo La Gazzetta dello Sport",
+        logo: "La Gazzetta dello Sport",
+        anos: "2011",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe dos Sonhos da Liga dos Campeões da UEFA",
+        logo: "UEFA Champions League",
+        anos: "2011",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor meia-direita do Campeonato Carioca",
+        logo: "Campeonato Carioca",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro do Campeonato Carioca",
+        logo: "Campeonato Carioca",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata do Brasileirão",
+        logo: "Bola de Prata",
+        anos: "2013",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Seedorf"],
+    ultima_atualizacao: "29/10/25",
+  },
+
   // Johan Cruyff
   {
     nome: "Johan Cruyff",
@@ -15477,22 +16344,42 @@ export const jogadores = [
       createClub(
         "Ajax",
         { inicio: "1964", fim: "1973" },
-        { jogos: 245, gols: 193, assistencias: 0 }
+        { jogos: 318, gols: 250, assistencias: 0 }
       ),
       createClub(
         "Barcelona",
         { inicio: "1973", fim: "1978" },
-        { jogos: 143, gols: 48, assistencias: 0 }
+        { jogos: 223, gols: 84, assistencias: 0 }
+      ),
+      createClub(
+        "Los Angeles Aztecs",
+        { inicio: "1979", fim: "1979" },
+        { jogos: 26, gols: 15, assistencias: 0 }
+      ),
+      createClub(
+        "Washington Diplomats",
+        { inicio: "1980", fim: "1980" },
+        { jogos: 26, gols: 10, assistencias: 0 }
+      ),
+      createClub(
+        "Levante UD",
+        { inicio: "1981", fim: "1981" },
+        { jogos: 10, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Washington Diplomats",
+        { inicio: "1981", fim: "1981" },
+        { jogos: 5, gols: 2, assistencias: 0 }
       ),
       createClub(
         "Ajax",
         { inicio: "1981", fim: "1983" },
-        { jogos: 36, gols: 14, assistencias: 0 }
+        { jogos: 46, gols: 16, assistencias: 0 }
       ),
       createClub(
         "Feyenoord",
         { inicio: "1983", fim: "1984" },
-        { jogos: 33, gols: 11, assistencias: 0 }
+        { jogos: 44, gols: 13, assistencias: 0 }
       ),
     ],
     selecao: {
@@ -15513,12 +16400,15 @@ export const jogadores = [
         anos: "1966, 1967, 1968, 1970, 1972, 1973, 1982, 1983",
         clube: "Ajax",
       },
-
-      // Feyenoord
       {
-        nome: "Campeonato Holandês",
-        anos: "1984",
-        clube: "Feyenoord",
+        nome: "Copa da Holanda",
+        anos: "1966, 1969, 1970, 1971, 1982",
+        clube: "Ajax",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1972",
+        clube: "Ajax",
       },
 
       // Barcelona
@@ -15527,29 +16417,311 @@ export const jogadores = [
         anos: "1974",
         clube: "Barcelona",
       },
+      {
+        nome: "Copa del Rey",
+        anos: "1978",
+        clube: "Barcelona",
+      },
+
+      // Feyenoord
+      {
+        nome: "Campeonato Holandês",
+        anos: "1984",
+        clube: "Feyenoord",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "1984",
+        clube: "Feyenoord",
+      },
 
       // Individuais
+      {
+        nome: "Futebolista Neerlandês do Ano",
+        logo: "individual",
+        anos: "1968, 1972, 1984",
+        categoria: "individual",
+      },
       {
         nome: "Bola de Ouro",
         anos: "1971, 1973, 1974",
         categoria: "individual",
       },
       {
-        nome: "Melhor Jogador Europeu do Século XX ",
+        nome: "Desportista Neerlandês do Ano",
+        logo: "individual",
+        anos: "1973, 1974",
+        categoria: "individual",
+      },
+      {
+        nome: "Time das Estrelas da Copa do Mundo FIFA",
+        logo: "Copa do Mundo",
+        anos: "1974",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Bola de ouro da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1974",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção de Todos os Tempos da Copa do Mundo FIFA",
+        logo: "FIFA",
+        anos: "1994",
+        categoria: "individual",
+      },
+      {
+        nome: "Time dos Sonhos da Copa do Mundo FIFA",
+        logo: "FIFA",
+        anos: "2002",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção de Todos os Tempos da World Soccer",
+        logo: "World Soccer",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção de Futebol do Século XX",
+        logo: "FIFA",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Europeu do Século XX",
         logo: "IFFHS",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "2º Melhor Jogador do Século XX pelo Grande Júri FIFA",
+        logo: "FIFA",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Neerlandês do Século XX pela IFFHS",
+        logo: "IFFHS",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "13° Melhor Jogador do Século XX pela IFFHS",
+        logo: "IFFHS",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro Dream Team: Melhor Centroavante da História - segundo esquadrão",
+        logo: "France Football",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "11Leyendas",
+        logo: "Jornal AS",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "IFFHS ALL TIME WORLD MEN'S DREAM TEAM",
+        logo: "IFFHS",
+        anos: "2021",
         categoria: "individual",
       },
     ],
-    tags: [
-      "lenda",
-      "países baixos",
-      "holanda",
-      "ajax",
-      "barcelona",
-      "futebol total",
-      "ballon d'or",
-      "treinador",
+    tags: ["Cruiff", "Cryff", "Cruyff"],
+    ultima_atualizacao: "30/10/25",
+  },
+
+  // Ruud Gullit
+  {
+    nome: "Ruud Gullit",
+    background: "gold",
+    descricao:
+      "Lenda holandesa e ícone do 'Futebol Total'. Conhecido por sua incrível versatilidade, força física e elegância, Gullit podia jogar em qualquer posição do meio-campo para o ataque. Foi o líder do AC Milan dominante do final dos anos 80 e da Seleção Holandesa campeã da Eurocopa.",
+    pagina: "https://www.instagram.com/ruudgullit/",
+    nacionalidade: "Holanda",
+    imagem:
+      "https://i.pinimg.com/originals/eb/7c/14/eb7c144f8842b073fe6b44317e13df1a.jpg",
+    numero: "10",
+    posicao: "Meia-Atacante / Atacante",
+    dataNascimento: "01/09/1962",
+    status: "Aposentado",
+    clubes: [
+      createClub(
+        "HFC Haarlem",
+        { inicio: "1979", fim: "1982" },
+        { jogos: 105, gols: 38, assistencias: 0 }
+      ),
+      createClub(
+        "Feyenoord",
+        { inicio: "1982", fim: "1985" },
+        { jogos: 107, gols: 43, assistencias: 0 }
+      ),
+      createClub(
+        "PSV Eindhoven",
+        { inicio: "1985", fim: "1987" },
+        { jogos: 75, gols: 53, assistencias: 0 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "1987", fim: "1994" },
+        { jogos: 171, gols: 56, assistencias: 0 }
+      ),
+      createClub(
+        "Sampdoria",
+        { inicio: "1993", fim: "1995" },
+        { jogos: 53, gols: 25, assistencias: 0 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "1995", fim: "1998" },
+        { jogos: 63, gols: 7, assistencias: 0 }
+      ),
     ],
+    selecao: {
+      nome: "Holanda",
+      periodo: { inicio: "1981", fim: "1994" },
+      estatisticas: { jogos: 66, gols: 17, assistencias: 0 },
+    },
+    titulos: [
+      // Individuais
+      {
+        nome: "Bola de Ouro",
+        anos: "1987",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano da World Soccer",
+        logo: "World Soccer",
+        anos: "1987, 1989",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Holandês do Ano",
+        anos: "1984, 1986",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de ouro dos Países Baixos",
+        anos: "1986",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata da Eurocopa",
+        logo: "Eurocopa",
+        anos: "1988",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "1988",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "1992",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "18.º melhor jogador de futebol do século XX da IFFHS",
+        logo: "IFFHS",
+        anos: "2004",
+        categoria: "individual",
+      },
+
+      // Seleção
+      {
+        nome: "Eurocopa",
+        anos: "1988",
+        clube: "Holanda",
+        logoVariavel: true,
+      },
+
+      // HFC Haarlem
+      {
+        nome: "Eerste Divisie",
+        anos: "1980",
+        clube: "HFC Haarlem",
+      },
+
+      // AC Milan
+      {
+        nome: "UEFA Champions league",
+        anos: "1988, 1989",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "1987, 1991, 1992",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1989, 1990",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1989, 1990",
+        clube: "AC Milan",
+      },
+
+      // PSV Eindhoven
+      {
+        nome: "Campeonato Holandês",
+        anos: "1985, 1986",
+        clube: "PSV Eindhoven",
+      },
+
+      // Feyenoord
+      {
+        nome: "Campeonato Holandês",
+        anos: "1983",
+        clube: "Feyenoord",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "1983",
+        clube: "Feyenoord",
+      },
+
+      // Sampdoria
+      {
+        nome: "Copa da Itália",
+        anos: "1993",
+        clube: "Sampdoria",
+      },
+
+      // Chelsea
+      {
+        nome: "Copa da Inglaterra",
+        anos: "1997",
+        clube: "Chelsea",
+      },
+    ],
+    tags: ["Gullit"],
+    ultima_atualizacao: "29/10/25",
   },
 
   // INGLATERRA -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -16013,7 +17185,7 @@ export const jogadores = [
 
       // Juventus
       { nome: "Copa da Itália", anos: "2021", clube: "Juventus" },
-      { nome: "Serie A", anos: "2019, 2020", clube: "Juventus" },
+      { nome: "Campeonato Italiano", anos: "2019, 2020", clube: "Juventus" },
       { nome: "Supercopa da Itália", anos: "2018, 2020", clube: "Juventus" },
 
       // Al-Nassr
@@ -16274,7 +17446,7 @@ export const jogadores = [
   // Vitinha (Vítor Machado Ferreira)
   {
     nome: "Vitinha",
-    background: "#",
+    background: "default",
     descricao:
       "Meio-campista português talentoso, conhecido pela sua técnica refinada, visão de jogo e capacidade de ditar o ritmo no meio-campo. Peça-chave no Paris Saint-Germain, onde conquistou diversos títulos nacionais e a UEFA Champions League (2025), além de ser um nome regular na Seleção de Portugal.",
     pagina: "https://www.instagram.com/vitinha/",
@@ -16398,7 +17570,7 @@ export const jogadores = [
       { nome: "Bola de Ouro", anos: "2003", categoria: "individual" },
 
       // Juventus
-      { nome: "Serie A", anos: "2002, 2003", clube: "Juventus" },
+      { nome: "Campeonato Italiano", anos: "2002, 2003", clube: "Juventus" },
       {
         nome: "Supercopa da Itália",
         anos: "2002, 2003",
@@ -16412,7 +17584,7 @@ export const jogadores = [
 
       // Lazio
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2000",
         clube: "Lazio",
       },
@@ -16536,7 +17708,7 @@ export const jogadores = [
         clube: "Internazionale",
       },
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2007, 2008, 2009",
         clube: "Internazionale",
       },
@@ -16601,7 +17773,7 @@ export const jogadores = [
         clube: "Manchester United",
       },
       {
-        nome: "Serie A",
+        nome: "Campeonato Italiano",
         anos: "2011, 2022",
         clube: "AC Milan",
       },

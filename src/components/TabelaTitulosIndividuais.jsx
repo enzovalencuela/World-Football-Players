@@ -1,6 +1,15 @@
 import React from "react";
 import { gerarURLImagem } from "@/utils/JogadorUtils";
 
+const extrairPrimeiroAno = (anosString) => {
+  if (typeof anosString !== "string" || !anosString) {
+    return 0;
+  }
+
+  const match = anosString.match(/\d{4}/);
+  return match ? parseInt(match[0], 10) : 0;
+};
+
 function TabelaTitulosIndividuais({ jogador }) {
   const titulosIndividuais = (jogador.titulos || []).filter(
     (titulo) => titulo.categoria === "individual"
@@ -9,6 +18,12 @@ function TabelaTitulosIndividuais({ jogador }) {
   if (titulosIndividuais.length === 0) {
     return <p>Nenhum título individual encontrado.</p>;
   }
+
+  const titulosOrdenados = [...titulosIndividuais].sort((a, b) => {
+    const anoA = extrairPrimeiroAno(a.anos);
+    const anoB = extrairPrimeiroAno(b.anos);
+    return anoA - anoB;
+  });
 
   return (
     <table className="tabela-titulos">
@@ -20,7 +35,7 @@ function TabelaTitulosIndividuais({ jogador }) {
         </tr>
       </thead>
       <tbody>
-        {titulosIndividuais.map((titulo, index) => (
+        {titulosOrdenados.map((titulo, index) => (
           <tr className="div-titulos" key={index}>
             <td className="item-titulo img-titulo">
               <img
