@@ -2777,7 +2777,7 @@ export const jogadores = [
 
       // Individuais
       {
-        nome: "Troféu Yashin",
+        nome: "Prêmio Lev Yashin",
         anos: "2022",
         clube: "Individual",
         categoria: "individual",
@@ -3274,8 +3274,7 @@ export const jogadores = [
         categoria: "individual",
       },
       {
-        nome: "Yashin Trophy",
-        logo: "Ballon Dor",
+        nome: "Prêmio Lev Yashin",
         anos: "2019",
         clube: "Individual",
         categoria: "individual",
@@ -12082,22 +12081,20 @@ export const jogadores = [
       // Individuais
       {
         nome: "Futebolista Sul-Americano do Ano",
+        logo: "individual",
         anos: "1977, 1981, 1982",
-        clube: "Individual",
         categoria: "individual",
       },
       {
         nome: "Bola de Ouro",
         logo: "Placar",
         anos: "1974, 1982",
-        clube: "Individual",
         categoria: "individual",
       },
       {
         nome: "Bola de Bronze",
         logo: "Copa do Mundo",
         anos: "1982",
-        clube: "Individual",
         categoria: "individual",
         logoVariavel: true,
       },
@@ -17179,6 +17176,144 @@ export const jogadores = [
     ultima_atualizacao: "30/10/25",
   },
 
+  // Marco van Basten
+  {
+    nome: "Marco van Basten",
+    background: "gold",
+    descricao:
+      "Atacante holandês, considerado um dos centroavantes mais completos e elegantes da história. Três vezes Bola de Ouro, foi peça fundamental no domínio do Milan no final dos anos 80 e levou a Holanda ao seu único título: a Eurocopa de 1988, com um gol de voleio icônico. Sua carreira foi tristemente encerrada aos 28 anos devido a uma grave lesão no tornozelo.",
+    pagina: "https://pt.wikipedia.org/wiki/Marco_van_Basten",
+    nacionalidade: "Holanda",
+    imagem:
+      "https://i.pinimg.com/736x/2e/2d/59/2e2d59ff1728651c726928017b9e7dc2.jpg",
+    numero: "9",
+    posicao: "Centroavante",
+    dataNascimento: "31/10/1964",
+    status: "Aposentado",
+    curiosidades:
+      "Van Basten igualou o recorde de Johan Cruyff e Michel Platini ao conquistar a Bola de Ouro três vezes (1988, 1989 e 1992). Ele se aposentou oficialmente aos 30 anos (em 1995), mas sua última partida foi em 1993, devido a problemas crônicos no tornozelo.",
+
+    clubes: [
+      createClub(
+        "Ajax",
+        { inicio: "1981", fim: "1987" },
+        { jogos: 172, gols: 152, assistencias: 0 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "1987", fim: "1993" },
+        { jogos: 201, gols: 125, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Holanda",
+      periodo: { inicio: "1983", fim: "1992" },
+      estatisticas: { jogos: 58, gols: 24, assistencias: 0 },
+      destaque: "Campeão da Eurocopa de 1988 (Artilheiro e Melhor Jogador)",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro",
+        anos: "1988, 1989, 1992",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundo pela FIFA",
+        logo: "The Best FIFA",
+        anos: "1992",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Ouro da Europa",
+        logo: "Chuteira de Ouro",
+        anos: "1986",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Eurocopa",
+        logo: "Eurocopa",
+        anos: "1988",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da UEFA Champions League",
+        logo: "UEFA Champions League",
+        anos: "1989",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Holandês",
+        logo: "Campeonato Holandês",
+        anos: "1984, 1985, 1986, 1987",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "1990, 1992",
+        categoria: "individual",
+      },
+
+      // Holanda
+      {
+        nome: "Eurocopa",
+        anos: "1988",
+        clube: "Holanda",
+        logoVariavel: true,
+      },
+
+      // AC MILAN
+      {
+        nome: "UEFA Champions League",
+        anos: "1989, 1990",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1989, 1990",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "1988, 1992, 1993",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1989, 1990",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "1988, 1992",
+        clube: "AC Milan",
+      },
+
+      // AJAX
+      {
+        nome: "Recopa Europeia",
+        anos: "1987",
+        clube: "Ajax",
+      },
+      {
+        nome: "Campeonato Holandês",
+        anos: "1982, 1983, 1985",
+        clube: "Ajax",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "1983, 1986, 1987",
+        clube: "Ajax",
+      },
+    ],
+    tags: ["Cisne de Utrecht"],
+    ultima_atualizacao: "31/10/2025",
+  },
+
   // Ruud Gullit
   {
     nome: "Ruud Gullit",
@@ -17245,11 +17380,13 @@ export const jogadores = [
       },
       {
         nome: "Futebolista Holandês do Ano",
+        logo: "individual",
         anos: "1984, 1986",
         categoria: "individual",
       },
       {
         nome: "Chuteira de ouro dos Países Baixos",
+        logo: "individual",
         anos: "1986",
         categoria: "individual",
       },
@@ -17360,7 +17497,257 @@ export const jogadores = [
     ultima_atualizacao: "29/10/25",
   },
 
+  // HUNGRIA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Ferenc Puskás
+  {
+    nome: "Ferenc Puskás",
+    background: "gold",
+    descricao:
+      "Líder dos 'Mágicos Magiares' da Hungria e lenda do Real Madrid. Atacante com um chute de canhota poderosíssimo, Puskás foi um dos maiores artilheiros de todos os tempos. Venceu a medalha de ouro nas Olimpíadas de 1952 e foi vice-campeão da Copa do Mundo de 1954. A FIFA batizou o prêmio do gol mais bonito do ano em sua homenagem.",
+    pagina: "https://pt.wikipedia.org/wiki/Ferenc_Pusk%C3%A1s",
+    nacionalidade: "Hungria",
+    imagem:
+      "https://i.pinimg.com/736x/cb/ca/08/cbca0815cfac8b4a453de2cf485c7406.jpg",
+    numero: "10",
+    posicao: "Centroavante / Segundo Atacante",
+    dataNascimento: "01/04/1927",
+    dataFalecimento: "17/11/2006",
+    status: "Aposentado",
+    curiosidades:
+      "Puskás só jogou profissionalmente por dois clubes principais: o Kispest/Honvéd (Hungria) e o Real Madrid. Ele marcou 4 gols na final da Copa dos Campeões de 1960 contra o Eintracht Frankfurt, a única vez que tal feito foi alcançado. O prêmio para o gol mais bonito da FIFA, o Prêmio Puskás, leva seu nome desde 2009.",
+
+    clubes: [
+      createClub(
+        "Honvéd",
+        { inicio: "1943", fim: "1956" },
+        { jogos: 367, gols: 383, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "1958", fim: "1967" },
+        { jogos: 262, gols: 242, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Hungria",
+      periodo: { inicio: "1945", fim: "1956" },
+      estatisticas: { jogos: 85, gols: 84, assistencias: 0 },
+      destaque:
+        "Vice-campeão da Copa do Mundo de 1954 e invencibilidade de 4 anos",
+      outraSelecao: {
+        nome: "Espanha",
+        periodo: { inicio: "1961", fim: "1962" },
+        estatisticas: { jogos: 4, gols: 0, assistencias: 0 },
+      },
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Artilheiro do Campeonato Húngaro",
+        logo: "Campeonato Húngaro",
+        anos: "1948, 1950, 1951, 1953",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Ouro da Europa",
+        logo: "Chuteira de Ouro",
+        anos: "1948",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata",
+        logo: "France Football",
+        anos: "1960",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1954",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Taça dos Campeões Europeus",
+        logo: "UEFA Champions League",
+        anos: "1960, 1962, 1964",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Espanhol",
+        logo: "Campeonato Espanhol",
+        anos: "1960, 1961, 1963, 1964",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Húngaro do Ano",
+        logo: "individual",
+        anos: "1950",
+        categoria: "individual",
+      },
+
+      // Hungria
+      {
+        nome: "Jogos Olímpicos",
+        anos: "1952",
+        clube: "Hungria",
+        logoVariavel: true,
+      },
+
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "1959, 1960, 1966",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1960",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "1961, 1962, 1963, 1964, 1965",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "1962",
+        clube: "Real Madrid",
+      },
+
+      // Honvéd
+      {
+        nome: "Campeonato Húngaro",
+        anos: "1950, 1952, 1954, 1955",
+        clube: "Honvéd",
+      },
+    ],
+    tags: ["Major Galopante"],
+    ultima_atualizacao: "31/10/2025",
+  },
+
   // INGLATERRA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Bobby Charlton
+  {
+    nome: "Bobby Charlton",
+    background: "gold",
+    descricao:
+      "Lenda do Manchester United e herói nacional da Inglaterra, sendo o grande craque da única Copa do Mundo conquistada pelo país (1966). Sobrevivente do desastre aéreo de Munique em 1958, ele liderou a reconstrução do United, conquistando a Copa dos Campeões de 1968. Possuía um chute de longa distância devastador e técnica impecável.",
+    pagina: "https://pt.wikipedia.org/wiki/Bobby_Charlton",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://s2-oglobo.glbimg.com/MjGyH6AKhfw1Rbkp2SYPT-HRpHs=/0x0:600x813/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/8/c/y5PDr2Rr6kkZUlb48UwQ/sir-bobby-charlton-manchesterunited.jpg",
+    numero: "9",
+    posicao: "Meia Ofensivo / Atacante",
+    dataNascimento: "11/10/1937",
+    dataFalecimento: "21/10/2023",
+    status: "Aposentado",
+    curiosidades:
+      "Bobby Charlton foi um dos sobreviventes do Desastre Aéreo de Munique, em 1958, que vitimou 23 pessoas, incluindo 8 de seus 'Busby Babes' (jovens colegas do United). Ele foi condecorado como 'Sir' (cavaleiro) pela Rainha Elizabeth II em 1994 por seus serviços ao futebol. O Estádio Old Trafford possui uma arquibancada com seu nome em homenagem.",
+
+    clubes: [
+      createClub(
+        "Manchester United",
+        { inicio: "1954", fim: "1973" },
+        { jogos: 758, gols: 249, assistencias: 0 }
+      ),
+      createClub(
+        "Preston North End",
+        { inicio: "1973", fim: "1974" },
+        { jogos: 38, gols: 9, assistencias: 0 }
+      ),
+      createClub(
+        "Waterford United",
+        { inicio: "1975", fim: "1975" },
+        { jogos: 4, gols: 1, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "1958", fim: "1970" },
+      estatisticas: { jogos: 106, gols: 49, assistencias: 0 },
+      destaque: "Campeão da Copa do Mundo FIFA de 1966",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro",
+        anos: "1966",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1966",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Futebolista Inglês do Ano",
+        logo: "FWA",
+        anos: "1966",
+        categoria: "individual",
+      },
+      {
+        nome: "Time das Estrelas da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1966",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Time das Estrelas da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1970",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+
+      // Inglaterra
+      {
+        nome: "Copa do Mundo",
+        anos: "1966",
+        clube: "Inglaterra",
+        logoVariavel: true,
+      },
+      {
+        nome: "British Home Championship",
+        anos: "1960, 1961, 1964, 1965, 1966, 1968, 1969, 1970",
+        clube: "Inglaterra",
+      },
+
+      // MANCHESTER UNITED
+      {
+        nome: "UEFA Champions League",
+        anos: "1968",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "1956, 1957, 1965, 1967",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "1963",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "1956, 1957, 1965, 1967",
+        clube: "Manchester United",
+      },
+    ],
+    tags: ["Sobrevivente de Munique", "Busby Babe"],
+    ultima_atualizacao: "31/10/2025",
+  },
 
   //Harry Kane
   {
@@ -17565,7 +17952,456 @@ export const jogadores = [
     ultima_atualizacao: "27/10/25",
   },
 
+  //IRLANDA DO NORTE -------------------------------------------------------------------------------------
+
+  // George Best
+  {
+    nome: "George Best",
+    background: "gold",
+    descricao:
+      "Um dos maiores talentos individuais da história do futebol. Meia-atacante/ponta-direita, famoso por sua velocidade, equilíbrio, dribles desconcertantes e capacidade de finalização. Foi o principal jogador do Manchester United na conquista da Copa dos Campeões de 1968 e vencedor da Bola de Ouro no mesmo ano.",
+    pagina: "https://pt.wikipedia.org/wiki/George_Best",
+    nacionalidade: "Irlanda do Norte",
+    imagem:
+      "https://cdn.artphotolimited.com/images/5f60bc53bd40b8173f11e855/1000x1000/george-best-manchester-united.jpg",
+    numero: "7",
+    posicao: "Ponta-Direita / Meia-Atacante",
+    dataNascimento: "22/05/1946",
+    dataFalecimento: "25/11/2005",
+    status: "Aposentado",
+    curiosidades:
+      "Apelidado de 'O Quinto Beatle' por sua fama, talento e visual. Fazia parte da 'Santíssima Trindade' do Manchester United ao lado de Bobby Charlton e Denis Law. É famoso pela citação: 'Gastei muito dinheiro com bebida, mulheres e carros rápidos. O resto eu desperdicei.'",
+
+    clubes: [
+      createClub(
+        "Manchester United",
+        { inicio: "1963", fim: "1974" },
+        { jogos: 470, gols: 179, assistencias: 0 }
+      ),
+      createClub(
+        "Stockport County",
+        { inicio: "1975", fim: "1975" },
+        { jogos: 3, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Cork Celtic",
+        { inicio: "1975", fim: "1976" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Los Angeles Aztecs",
+        { inicio: "1976", fim: "1978" },
+        { jogos: 55, gols: 27, assistencias: 0 }
+      ),
+      createClub(
+        "Fulham",
+        { inicio: "1976", fim: "1977" },
+        { jogos: 42, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "San Jose Earthquakes",
+        { inicio: "1980", fim: "1981" },
+        { jogos: 56, gols: 21, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Irlanda do Norte",
+      periodo: { inicio: "1964", fim: "1977" },
+      estatisticas: { jogos: 37, gols: 9, assistencias: 0 },
+      destaque:
+        "Maior ídolo da história da Seleção Norte-Irlandesa, nunca disputou uma Copa do Mundo.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro",
+        anos: "1968",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Inglês do Ano",
+        logo: "FWA",
+        anos: "1968",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "1968",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro Dream Team (3º Esquadrão)",
+        logo: "France Football",
+        anos: "2020",
+        categoria: "individual",
+      },
+
+      // MANCHESTER UNITED
+      {
+        nome: "UEFA Champions League",
+        anos: "1968",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "1965, 1967",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "1965, 1967",
+        clube: "Manchester United",
+      },
+      {
+        nome: "FA Youth Cup",
+        anos: "1964",
+        clube: "Manchester United",
+      },
+    ],
+    tags: ["Quinto Beatle", "Belfast Boy", "Garrincha Europeu"],
+    ultima_atualizacao: "31/10/2025",
+  },
+
   // ITÁLIA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Franco Baresi
+  {
+    nome: "Franco Baresi",
+    background: "gold",
+    descricao:
+      "Um dos maiores defensores (libero/zagueiro) da história do futebol. Lendário capitão do AC Milan por 15 temporadas e pilar da defesa que ficou conhecida como 'Os Imortais' de Arrigo Sacchi. Notável por sua inteligência tática, liderança, antecipação e qualidade técnica, mesmo sendo um defensor.",
+    pagina: "https://pt.wikipedia.org/wiki/Franco_Baresi",
+    nacionalidade: "Itália",
+    imagem:
+      "https://assets-eu-01.kc-usercontent.com/1293c890-579f-01b7-8480-902cca7de55e/703e631b-05a7-48a7-a9c7-250c89313285/Hero-Inductee-Baresi.jpg?w=1980&q=100&format=auto",
+    numero: "6",
+    posicao: "Libero / Zagueiro Central",
+    dataNascimento: "08/05/1960",
+    status: "Aposentado",
+    curiosidades:
+      "Passou toda a sua carreira de 20 anos jogando pelo AC Milan, um raro caso de 'One-Club Man'. O Milan aposentou a camisa 6 em sua homenagem, um dos maiores tributos do futebol. Foi vice-campeão da Copa do Mundo de 1994, perdendo o pênalti que deu o título ao Brasil. Seu irmão mais velho, Giuseppe Baresi, foi capitão e ídolo do rival Inter de Milão.",
+
+    clubes: [
+      createClub(
+        "AC Milan",
+        { inicio: "1977", fim: "1997" },
+        { jogos: 720, gols: 33, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "1982", fim: "1994" },
+      estatisticas: { jogos: 81, gols: 1, assistencias: 0 },
+      destaque:
+        "Vencedor da Copa do Mundo FIFA 1982. Vice-campeão da Copa do Mundo FIFA 1994. 3º lugar na Copa do Mundo FIFA 1990.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Prata da Revista France Football",
+        logo: "France Football",
+        anos: "1989",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1990",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "1990",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Século do Milan",
+        logo: "individual",
+        anos: "1999",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador Italiano do Século XX pela FIGC",
+        logo: "FIGC",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "33º Melhor jogador do Século XX pela IFFHS",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Hall da Fama do Futebol Italiano",
+        logo: "individual",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "20º Melhor futebolista europeu do Século XX pela IFFHS",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "4º Melhor jogador italiano do Século XX pela IFFHS",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção de Futebol do Século XX da Italian FA",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção de Futebol do Século XX da Planete Foot",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro Dream Team: Melhor zagueiro da história - segundo esquadrão",
+        logo: "France Football",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Lendas do Futebol",
+        logo: "IFFHS",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "All-Time World Men's Dream Team",
+        logo: "IFFHS",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção Italiana de Todos os Tempos",
+        logo: "IFFHS",
+        anos: "2020",
+        categoria: "individual",
+      },
+
+      // AC Milan
+      {
+        nome: "UEFA Champions League",
+        anos: "1989, 1990, 1994",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "1979, 1988, 1992, 1993, 1994, 1996",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1989, 1990",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1989, 1990, 1994",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "1988, 1992, 1993, 1994",
+        clube: "AC Milan",
+      },
+
+      // Itália
+      {
+        nome: "Copa do Mundo",
+        anos: "1982",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["One-Club Man", "Il Capitano", "Immortali"],
+    ultima_atualizacao: "31/10/2025",
+  },
+
+  // Gianluigi Buffon
+  {
+    nome: "Gianluigi Buffon",
+    background: "gold",
+    descricao:
+      "Amplamente considerado o maior goleiro de sua geração e um dos melhores da história do futebol. Campeão do Mundo com a Itália (2006) e ícone da Juventus, conhecido por sua longevidade, liderança, reflexos e excelência nas defesas.",
+    pagina: "https://pt.wikipedia.org/wiki/Gianluigi_Buffon",
+    nacionalidade: "Itália",
+    imagem:
+      "https://stories.cnnbrasil.com.br/wp-content/uploads/sites/9/2023/08/cropped-Foto-Buffon-campeao-mundial-1.jpeg?w=640",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "28/01/1978",
+    status: "Aposentado (2023)",
+    curiosidades:
+      "Detém o recorde de mais jogos na Serie A (658 partidas). Por 17 anos, foi o goleiro mais caro da história (transferido do Parma para a Juventus em 2001 por cerca de 52 milhões de euros). Venceu a Copa do Mundo de 2006 sofrendo apenas 2 gols em 7 jogos. É o único goleiro a ter ficado em 2º lugar na votação da Bola de Ouro (2006) desde Lev Yashin.",
+
+    clubes: [
+      createClub(
+        "Parma",
+        { inicio: "1995", fim: "2001" },
+        { jogos: 220, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2001", fim: "2018" },
+        { jogos: 656, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 25, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2019", fim: "2021" },
+        { jogos: 29, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Parma",
+        { inicio: "2021", fim: "2023" },
+        { jogos: 45, gols: 0, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "1997", fim: "2018" },
+      estatisticas: { jogos: 176, gols: 0, assistencias: 0 },
+      destaque:
+        "Vencedor da Copa do Mundo FIFA 2006. Recordista de jogos pela seleção italiana. Prêmio Lev Yashin (Melhor Goleiro da Copa do Mundo de 2006).",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Prata da Revista France Football",
+        logo: "France Football",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro do Mundo",
+        logo: "IFFHS",
+        anos: "2003, 2004, 2006, 2007, 2017",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro do Século XXI",
+        logo: "IFFHS",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Prêmio Lev Yashin",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2003, 2004, 2006, 2016, 2017",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Golden Foot Award",
+        anos: "2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Hall da Fama do Futebol Italiano",
+        logo: "individual",
+        anos: "2021",
+        categoria: "individual",
+      },
+
+      // PARMA
+      {
+        nome: "Copa da Itália",
+        anos: "1999",
+        clube: "Parma",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "1999",
+        clube: "Parma",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "1999",
+        clube: "Parma",
+      },
+
+      // JUVENTUS
+      {
+        nome: "Campeonato Italiano",
+        anos: "2002, 2003, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2020",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2015, 2016, 2017, 2018, 2021",
+        clube: "Juventus",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2002, 2003, 2012, 2013, 2015, 2017, 2020",
+        clube: "Juventus",
+      },
+
+      // PARIS SAINT-GERMAIN
+      {
+        nome: "Campeonato Francês",
+        anos: "2019",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2018",
+        clube: "Paris Saint-Germain",
+      },
+
+      // TÍTULOS PELA SELEÇÃO
+      {
+        nome: "Copa do Mundo",
+        anos: "2006",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa Sub-21",
+        anos: "1996",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Gigi", "Goalkeeper GOAT", "Bandiera"],
+    ultima_atualizacao: "31/10/2025",
+  },
 
   // Jorginho
   {
@@ -17940,6 +18776,146 @@ export const jogadores = [
     ultima_atualizacao: "27/10/25",
   },
 
+  // Eusébio
+  {
+    nome: "Eusébio",
+    background: "gold",
+    descricao:
+      "Atacante lendário de Moçambique e naturalizado português, considerado um dos maiores goleadores e jogadores da história. Apelidado de 'Pantera Negra', dominou o futebol europeu na década de 1960, sendo o único português a vencer a Bola de Ouro antes de Cristiano Ronaldo e Luís Figo.",
+    pagina: "https://pt.wikipedia.org/wiki/Eus%C3%A9bio",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/Eusebio_%281963_version2%29.jpg",
+    numero: "10",
+    posicao: "Centroavante",
+    dataNascimento: "25/01/1942",
+    dataFalecimento: "05/01/2014",
+    status: "Aposentado",
+    curiosidades:
+      "Eusébio foi o primeiro jogador a vencer a Chuteira de Ouro da Copa do Mundo (1966) e a Chuteira de Ouro da Europa. Ele marcou impressionantes 473 gols em 440 jogos oficiais pelo Benfica. O apelido 'Pérola Negra' também era usado para se referir a ele.",
+
+    clubes: [
+      createClub(
+        "Sporting Lourenço Marques",
+        { inicio: "1957", fim: "1960" },
+        { jogos: 42, gols: 77, assistencias: 0 }
+      ),
+      createClub(
+        "Benfica",
+        { inicio: "1960", fim: "1975" },
+        { jogos: 440, gols: 473, assistencias: 0 }
+      ),
+      createClub(
+        "Boston Minutemen",
+        { inicio: "1975", fim: "1975" },
+        { jogos: 7, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Monterrey",
+        { inicio: "1975", fim: "1976" },
+        { jogos: 10, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Toronto Metros-Croatia",
+        { inicio: "1976", fim: "1976" },
+        { jogos: 25, gols: 18, assistencias: 0 }
+      ),
+      createClub(
+        "Beira-Mar",
+        { inicio: "1976", fim: "1977" },
+        { jogos: 12, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Las Vegas Quiksilver",
+        { inicio: "1977", fim: "1977" },
+        { jogos: 17, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "União de Tomar",
+        { inicio: "1977", fim: "1978" },
+        { jogos: 12, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "New Jersey Americans",
+        { inicio: "1978", fim: "1979" },
+        { jogos: 4, gols: 5, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "1961", fim: "1973" },
+      estatisticas: { jogos: 64, gols: 41, assistencias: 0 },
+      destaque: "Terceiro lugar na Copa do Mundo de 1966",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro",
+        anos: "1965",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Ouro da Europa",
+        logo: "Chuteira de Ouro",
+        anos: "1968, 1973",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Ouro da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1966",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Taça dos Campeões Europeus",
+        logo: "UEFA Champions League",
+        anos: "1965, 1966, 1968",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Português",
+        logo: "Campeonato Português",
+        anos: "1964, 1965, 1966, 1967, 1968, 1970, 1973",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Português do Ano",
+        logo: "individual",
+        anos: "1970, 1973",
+        categoria: "individual",
+      },
+
+      // Benfica
+      {
+        nome: "UEFA Champions League",
+        anos: "1962",
+        clube: "Benfica",
+      },
+      {
+        nome: "Campeonato Português",
+        anos: "1961, 1963, 1964, 1965, 1967, 1968, 1969, 1971, 1972, 1973, 1975",
+        clube: "Benfica",
+      },
+      {
+        nome: "Taça de Portugal",
+        anos: "1962, 1964, 1969, 1970, 1972",
+        clube: "Benfica",
+      },
+
+      // Toronto Metros-Croatia
+      {
+        nome: "Campeão da Liga Norte-Americana",
+        anos: "1976",
+        clube: "Toronto Metros-Croatia",
+      },
+    ],
+    tags: ["Pantera Negra", "King", "Pérola Negra"],
+    ultima_atualizacao: "31/10/2025",
+  },
+
   // João Neves
   {
     nome: "João Neves",
@@ -18242,6 +19218,118 @@ export const jogadores = [
       { nome: "Copa da República Tcheca", anos: "1996", clube: "Sparta Praga" },
     ],
     tags: ["Nedved"],
+  },
+
+  // Rússia -------------------------------------------------------------------------------------------------------------------------------
+
+  // Lev Yashin
+  {
+    nome: "Lev Yashin",
+    background: "gold",
+    descricao:
+      "Considerado o maior goleiro de todos os tempos, Yashin era conhecido por sua agilidade, reflexos e estilo de jogo inovador. Apelidado de 'Aranha Negra', ele foi o único goleiro na história a ganhar a Bola de Ouro (1963).",
+    pagina: "https://pt.wikipedia.org/wiki/Lev_Yashin",
+    nacionalidade: "Rússia",
+    imagem:
+      "https://assets.brasildefato.com.br/2024/09/image_processing20200201-29235-1o91783-750x530.jpg",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "22/10/1929",
+    dataFalecimento: "20/03/1990",
+    status: "Aposentado",
+    ultima_atualizacao: "31/10/25",
+    curiosidades:
+      "Yashin passou toda a sua carreira de 22 anos (1949-1971) jogando apenas pelo Dínamo Moscou. Estima-se que ele tenha defendido cerca de 150 pênaltis em jogos oficiais e terminado 270 partidas sem sofrer gols (clean sheets).",
+    clubes: [
+      // Dínamo Moscou
+      createClub(
+        "Dínamo Moscou",
+        { inicio: "1949", fim: "1971" },
+        { jogos: 326, gols: 0, clean_sheets: 270 }
+      ),
+    ],
+    selecao: {
+      nome: "União Soviética",
+      periodo: { inicio: "1954", fim: "1971" },
+      estatisticas: { jogos: 78, gols: 0, clean_sheets: 48 },
+    },
+
+    // TÍTULOS
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro",
+        anos: "1963",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro do Século XX",
+        logo: "FIFA",
+        anos: "1998",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro Soviético do Ano",
+        logo: "individual",
+        anos: "1960, 1963, 1966",
+        categoria: "individual",
+      },
+      {
+        nome: "Ordem de Lênin",
+        anos: "1967",
+        categoria: "individual",
+      },
+      {
+        nome: "Dream Team da Bola de Ouro (Goleiro)",
+        logo: "France Football",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Campeonato Europeu da UEFA",
+        logo: "Eurocopa",
+        anos: "1960",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Equipe do Campeonato Europeu da UEFA",
+        logo: "Eurocopa",
+        anos: "1964",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+
+      // Dínamo Moscou
+      {
+        nome: "Campeonato Soviético",
+        logo: "Campeonato Russo",
+        anos: "1954, 1955, 1957, 1959, 1963",
+        clube: "Dínamo Moscou",
+      },
+      {
+        nome: "Copa da URSS",
+        logo: "Copa da Rússia",
+        anos: "1953, 1967, 1970",
+        clube: "Dínamo Moscou",
+      },
+
+      // Rússia
+      {
+        nome: "Jogos Olímpicos",
+        anos: "1956",
+        clube: "Rússia",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "1960",
+        clube: "Rússia",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Aranha Negra"],
+    ultima_atualizacao: "31/10/25",
   },
 
   // Suécia -------------------------------------------------------------------------------------------------------------------------------

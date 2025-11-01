@@ -37,6 +37,19 @@ export function calcularIdade(dataNascimento, dataFalecimento = null) {
   }
 }
 
+export function calcularIdadeAposentadoria(dataNascimento, anoFimMax) {
+  const anoNascimento = parseInt(dataNascimento.split("/")[2]);
+  const anoAposentadoria = parseInt(anoFimMax);
+
+  if (isNaN(anoNascimento) || isNaN(anoAposentadoria)) {
+    return null;
+  }
+
+  const idade = anoAposentadoria - anoNascimento;
+
+  return idade;
+}
+
 export function gerarURLImagem(conquistas) {
   if (conquistas.logo) {
     let logoConquista = conquistas.logo;
@@ -53,17 +66,27 @@ export function gerarURLImagem(conquistas) {
 }
 
 export function calcularPeriodoAtividade(jogador) {
-  const anosInicio = jogador.clubes.map((clube) => clube.periodo.inicio);
-  const anosFim = jogador.clubes.map((clube) => clube.periodo.fim);
-  const anoInicioMin = Math.min(...anosInicio);
-  const anoFimMax = Math.max(...anosFim);
-  const periodo = `(${anoInicioMin}-${anoFimMax})`;
-
   if (!jogador.clubes || jogador.clubes.length === 0) {
     return jogador;
   }
 
-  jogador.status += " " + periodo;
+  const anosInicio = jogador.clubes.map((clube) => clube.periodo.inicio);
+  const anosFim = jogador.clubes.map((clube) => clube.periodo.fim);
+  const anoInicioMin = Math.min(...anosInicio);
+  const anoFimMax = Math.max(...anosFim);
+  let periodo = `(${anoInicioMin} - ${anoFimMax})`;
+
+  if (jogador.status === "Aposentado") {
+    const idadeAposentadoria = calcularIdadeAposentadoria(
+      jogador.dataNascimento,
+      anoFimMax
+    );
+
+    jogador.status =
+      periodo + ` Aposentou-se aos ${idadeAposentadoria} anos de idade`;
+  } else {
+    jogador.status += periodo;
+  }
 
   return jogador;
 }

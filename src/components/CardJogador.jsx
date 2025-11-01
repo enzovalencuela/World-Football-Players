@@ -49,22 +49,30 @@ function CardJogador({ jogador }) {
               <ListaClubesJogador clubes={clubeAtual} />
             )}
           </div>
-          <h3>Status</h3>
+          <h3>
+            {jogador.status === "Aposentado"
+              ? "Status"
+              : "Período de Atividade"}
+          </h3>
           <p id="info">
             {jogador.status}
             {jogador.status === "Aposentado" &&
-              ` (${calcularPeriodoAtividade(jogador)})`}
+              `${calcularPeriodoAtividade(jogador)}`}
           </p>
-          {jogador.clubes.length > 1 && (
-            <>
-              <h3>Clubes com passagens</h3>
-              <ListaClubesJogador
-                clubes={
-                  jogador.status === "Ativo" ? clubesAnteriores : jogador.clubes
-                }
-              />
-            </>
-          )}
+          {jogador.status === "Ativo"
+            ? jogador.clubes.length > 1
+            : jogador.clubes.length >= 1 && (
+                <>
+                  <h3>Clubes com passagens</h3>
+                  <ListaClubesJogador
+                    clubes={
+                      jogador.status === "Ativo"
+                        ? clubesAnteriores
+                        : jogador.clubes
+                    }
+                  />
+                </>
+              )}
           <h3>Posição</h3>
           <p id="info">{jogador.posicao}</p>
           <h3>Nascimento</h3>
