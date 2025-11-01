@@ -18403,6 +18403,137 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
+  // Giuseppe Meazza
+  {
+    nome: "Giuseppe Meazza",
+    background: "gold",
+    descricao:
+      "Lendário atacante e meia-atacante italiano, considerado o maior jogador da história da Inter de Milão e um dos maiores de todos os tempos. Bicampeão da Copa do Mundo (1934 e 1938) e notável por sua técnica, drible e capacidade de finalização. O estádio San Siro em Milão foi rebatizado em sua homenagem (Stadio Giuseppe Meazza).",
+    pagina: "https://pt.wikipedia.org/wiki/Giuseppe_Meazza",
+    nacionalidade: "Itália",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/1/19/Giuseppe_Meazza_1935.jpg",
+    numero: "9",
+    posicao: "Meia-Atacante / Atacante",
+    dataNascimento: "23/08/1910",
+    status: "Aposentado",
+    curiosidades:
+      "É o segundo maior artilheiro da história da Seleção Italiana (33 gols). É o terceiro maior artilheiro da história da Inter de Milão (284 gols). Ganhou a Copa do Mundo duas vezes (1934 e 1938), sendo capitão na segunda. O Estádio San Siro (casa do Milan e da Inter) é oficialmente chamado Stadio Giuseppe Meazza desde 1980.",
+
+    clubes: [
+      createClub(
+        "Inter de Milão",
+        { inicio: "1927", fim: "1940" },
+        { jogos: 365, gols: 242, assistencias: 0 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "1940", fim: "1942" },
+        { jogos: 37, gols: 9, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "1942", fim: "1943" },
+        { jogos: 27, gols: 10, assistencias: 0 }
+      ),
+      createClub(
+        "Varese",
+        { inicio: "1944", fim: "1944" },
+        { jogos: 8, gols: 7, assistencias: 0 }
+      ),
+      createClub(
+        "Atalanta",
+        { inicio: "1945", fim: "1946" },
+        { jogos: 27, gols: 7, assistencias: 0 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "1946", fim: "1947" },
+        { jogos: 17, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Pro Patria",
+        { inicio: "1947", fim: "1947" },
+        { jogos: 17, gols: 2, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "1930", fim: "1939" },
+      estatisticas: { jogos: 53, gols: 33, assistencias: 0 },
+      destaque:
+        "Bicampeão da Copa do Mundo FIFA (1934, 1938). Capitão da seleção em 1938. Segundo maior artilheiro da história da Itália.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Bronze da Copa do Mundo",
+        logo: "Bola de Bonze FIFA",
+        anos: "1938",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro da Copa do Mundo",
+        logo: "Bola de Ouro FIFA",
+        anos: "1934",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "1930, 1936, 1938",
+        categoria: "individual",
+      },
+      {
+        nome: "21.º melhor jogador de futebol do século XX",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção Italiana de Todos os Tempos",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+
+      // Inter de Milão
+      {
+        nome: "Campeonato Italiano",
+        anos: "1930, 1938, 1940",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "1939",
+        clube: "Inter de Milão",
+      },
+
+      // Itália
+      {
+        nome: "Copa do Mundo",
+        anos: "1934",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "1938",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa Internacional da Europa Central",
+        anos: "1930, 1935",
+        clube: "Itália",
+      },
+    ],
+    tags: ["Il Genio"],
+    ultima_atualizacao: "31/10/2025",
+  },
+
   // Jorginho
   {
     nome: "Jorginho",
@@ -18541,6 +18672,136 @@ export const jogadores = [
     ],
     tags: ["Jorginho", "Regista", "J5", "Maestro", "Jorge Luiz Frello Filho"],
     ultima_atualizacao: "27/10/25",
+  },
+
+  // Paolo Maldini
+  {
+    nome: "Paolo Maldini",
+    background: "gold",
+    descricao:
+      "Considerado um dos maiores defensores e laterais-esquerdos de todos os tempos. Lenda e 'One-Club Man' do AC Milan, onde jogou por 25 temporadas. Capitão icônico e pilar da defesa 'Os Imortais', ele foi notável por sua longevidade, elegância, inteligência tática e versatilidade.",
+    pagina: "https://pt.wikipedia.org/wiki/Paolo_Maldini",
+    nacionalidade: "Itália",
+    imagem: "https://i1.sndcdn.com/artworks-000306169167-r31lum-t500x500.jpg",
+    numero: "3",
+    posicao: "Lateral-Esquerdo / Zagueiro Central",
+    dataNascimento: "26/06/1968",
+    status: "Aposentado",
+    curiosidades:
+      "Passou toda a sua carreira no AC Milan, somando mais de 900 jogos pelo clube, um recorde. O Milan aposentou a camisa 3 em sua homenagem, reservando-a para seus filhos. Foi vice-campeão da Copa do Mundo (1994) e da Eurocopa (2000), mas nunca ganhou um título pela seleção principal. Ficou em 3º lugar na Bola de Ouro em 1994 e 2003, e em 2º no FIFA World Player em 1995.",
+
+    clubes: [
+      createClub(
+        "AC Milan",
+        { inicio: "1985", fim: "2009" },
+        { jogos: 902, gols: 33, assistencias: 43 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "1988", fim: "2002" },
+      estatisticas: { jogos: 126, gols: 7, assistencias: 0 },
+      destaque:
+        "Recordista de jogos pela Seleção Italiana por anos (superado por Buffon). Vice-campeão da Copa do Mundo FIFA 1994. Vice-campeão da Eurocopa 2000. 3º lugar na Copa do Mundo FIFA 1990.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro Dream Team: Melhor Lateral Esquerdo da História",
+        logo: "France Football",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "3º Lugar na Bola de Ouro da Revista France Football",
+        logo: "France Football",
+        anos: "1994, 2003",
+        categoria: "individual",
+      },
+      {
+        nome: "2º Lugar No FIFA World Player of the Year",
+        logo: "FIFA World Player of the Year",
+        anos: "1995",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Defensor da UEFA",
+        logo: "UEFA",
+        anos: "2007",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1994",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "UEFA",
+        anos: "1988, 1996, 2000",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Hall da Fama do Futebol Italiano",
+        logo: "Individual",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "All-Time World Men's Dream Team",
+        logo: "IFFHS",
+        anos: "2021",
+        categoria: "individual",
+      },
+
+      // AC Milan
+      {
+        nome: "UEFA Champions League",
+        anos: "1989, 1990, 1994, 2003, 2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "1988, 1992, 1993, 1994, 1996, 1999, 2004",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1989, 1990, 1994, 2003, 2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1989, 1990",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "1988, 1992, 1993, 1994, 2004",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2003",
+        clube: "AC Milan",
+      },
+    ],
+    tags: ["One-Club Man", "Il Capitano"],
+    ultima_atualizacao: "31/10/2025",
   },
 
   // PORTUGAL -------------------------------------------------------------------------------------------------------------------------------------------------------

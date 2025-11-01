@@ -59,20 +59,18 @@ function CardJogador({ jogador }) {
             {jogador.status === "Aposentado" &&
               `${calcularPeriodoAtividade(jogador)}`}
           </p>
-          {jogador.status === "Ativo"
+          {(jogador.status === "Ativo"
             ? jogador.clubes.length > 1
-            : jogador.clubes.length >= 1 && (
-                <>
-                  <h3>Clubes com passagens</h3>
-                  <ListaClubesJogador
-                    clubes={
-                      jogador.status === "Ativo"
-                        ? clubesAnteriores
-                        : jogador.clubes
-                    }
-                  />
-                </>
-              )}
+            : jogador.clubes.length >= 1) && (
+            <>
+              <h3>Clubes com passagens</h3>
+              <ListaClubesJogador
+                clubes={
+                  jogador.status === "Ativo" ? clubesAnteriores : jogador.clubes
+                }
+              />
+            </>
+          )}
           <h3>Posição</h3>
           <p id="info">{jogador.posicao}</p>
           <h3>Nascimento</h3>
