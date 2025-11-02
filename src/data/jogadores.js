@@ -719,6 +719,294 @@ export const jogadores = [
     tags: ["Paris Saint-Germain", "PSG"],
   },
 
+  // Lothar Matthäus
+  {
+    nome: "Lothar Matthäus",
+    background: "gold",
+    descricao:
+      "Um dos meio-campistas mais completos e versáteis da história. Capitão da Alemanha Ocidental na conquista da Copa do Mundo de 1990 e vencedor da Bola de Ouro no mesmo ano. Conhecido por sua liderança, força física, visão de jogo e potentes chutes de longa distância.",
+    pagina: "https://pt.wikipedia.org/wiki/Lothar_Matth%C3%A4us",
+    nacionalidade: "Alemanha",
+    imagem: "https://pbs.twimg.com/media/ETmv4RcWoAMY6wj.jpg",
+    numero: "10",
+    posicao: "Meio-Campista Central / Líbero",
+    dataNascimento: "21/03/1961",
+    status: "Aposentado",
+    curiosidades:
+      "Recordista mundial de participações em Copas do Mundo (5, ao lado de Buffon, Carbajal, Márquez e Cristiano Ronaldo). Detém o recorde de mais jogos disputados em Copas do Mundo (25). É o único jogador de campo a ganhar o prêmio FIFA World Player of the Year (em 1991, na primeira edição). Venceu o Campeonato Alemão em três décadas diferentes.",
+
+    clubes: [
+      createClub(
+        "Herzogenaurach",
+        { inicio: "1978", fim: "1979" },
+        { jogos: 22, gols: 20, assistencias: 0 }
+      ),
+      createClub(
+        "Borussia Mönchengladbach",
+        { inicio: "1979", fim: "1984" },
+        { jogos: 162, gols: 49, assistencias: 0 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "1984", fim: "1988" },
+        { jogos: 155, gols: 74, assistencias: 0 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "1988", fim: "1992" },
+        { jogos: 153, gols: 53, assistencias: 0 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "1992", fim: "2000" },
+        { jogos: 269, gols: 49, assistencias: 0 }
+      ),
+      createClub(
+        "New York MetroStars",
+        { inicio: "2000", fim: "2000" },
+        { jogos: 21, gols: 0, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Alemanha",
+      periodo: { inicio: "1980", fim: "2000" },
+      estatisticas: { jogos: 150, gols: 23, assistencias: 0 },
+      destaque:
+        "Vencedor da Copa do Mundo FIFA 1990 (Capitão). Vencedor da Eurocopa 1980. Vice-campeão da Copa do Mundo FIFA 1982 e 1986. Recordista de jogos em Copas do Mundo (25).",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro",
+        anos: "1990",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundo FIFA",
+        logo: "FIFA World Player of the Year",
+        anos: "1991",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1990",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Futebolista Alemão do Ano",
+        logo: "Individual",
+        anos: "1990, 1999",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Ano da Revista World Soccer",
+        logo: "World Soccer",
+        anos: "1990",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+
+      // BAYERN DE MUNIQUE
+      {
+        nome: "Campeonato Alemão",
+        anos: "1985, 1986, 1987, 1994, 1997, 1999, 2000",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "1986, 1998",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Liga Alemã",
+        anos: "1997, 1998, 1999",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da UEFA",
+        anos: "1996",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "1987",
+        clube: "Bayern de Munique",
+      },
+
+      // INTER DE MILÃO
+      {
+        nome: "Campeonato Italiano",
+        anos: "1989",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "1989",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Copa da UEFA",
+        anos: "1991",
+        clube: "Inter de Milão",
+      },
+
+      // PELA SELEÇÃO
+      {
+        nome: "Copa do Mundo",
+        anos: "1990",
+        clube: "Alemanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "1980",
+        clube: "Alemanha",
+        logoVariavel: true,
+      },
+    ],
+    tags: [],
+    ultima_atualizacao: "31/10/2025",
+  },
+
+  // Manuel Neuer
+  {
+    nome: "Manuel Neuer",
+    background: "gold",
+    descricao:
+      "Considerado o maior goleiro de sua geração e um dos melhores da história. Revolucionou a posição com seu estilo 'Goleiro-Líbero', atuando frequentemente fora da área com grande habilidade técnica e inteligência tática. Capitão do Bayern de Munique e campeão mundial pela Alemanha.",
+    pagina: "https://pt.wikipedia.org/wiki/Manuel_Neuer",
+    nacionalidade: "Alemanha",
+    imagem:
+      "https://tntsports.com.br/__export/1751307198778/sites/esporteinterativo/img/2025/06/30/gettyimages-2222864033.jpg_2060165269.jpg",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "27/03/1986",
+    status: "Ativo",
+    curiosidades:
+      "É famoso por seu estilo 'Goleiro-Líbero' (Sweeper-Keeper), que o permite atuar como um zagueiro extra, antecipando jogadas fora da área. Em 2011, participou da versão alemã do 'Quem Quer Ser um Milionário?' e ganhou €500.000, que doou para sua fundação de caridade. Ele é o goleiro com mais jogos sem sofrer gols (clean sheets) na história da Bundesliga.",
+
+    clubes: [
+      createClub(
+        "Schalke 04",
+        { inicio: "2006", fim: "2011" },
+        { jogos: 203, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2011", fim: "Presente" },
+        { jogos: 570, gols: 0, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Alemanha",
+      periodo: { inicio: "2009", fim: "Presente" },
+      estatisticas: { jogos: 124, gols: 0, assistencias: 0 },
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Luva de Ouro da Copa do Mundo FIFA",
+        logo: "Luva de Ouro FIFA",
+        anos: "2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro do Mundo IFFHS",
+        logo: "IFFHS",
+        anos: "2013, 2014, 2015, 2016, 2020",
+        categoria: "individual",
+      },
+      {
+        nome: "The Best FIFA - Melhor Goleiro",
+        logo: "The Best FIFA",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Alemão do Ano",
+        logo: "individual",
+        anos: "2011, 2014",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2013, 2014, 2015, 2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro (3º lugar)",
+        logo: "Bola de Ouro",
+        anos: "2014",
+        categoria: "individual",
+      },
+
+      // SELEÇÃO ALEMÃ
+      {
+        nome: "Copa do Mundo",
+        anos: "2014",
+        clube: "Alemanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Campeonato Europeu Sub-21",
+        anos: "2009",
+        clube: "Alemanha",
+      },
+
+      // BAYERN DE MUNIQUE
+      {
+        nome: "UEFA Champions League",
+        anos: "2013, 2020",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Campeonato Alemão",
+        anos: "2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2013, 2020",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2013, 2020",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "2013, 2014, 2016, 2019, 2020",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2012, 2016, 2017, 2018, 2020, 2021, 2022",
+        clube: "Bayern de Munique",
+      },
+
+      // SCHALKE 04
+      {
+        nome: "Copa da Alemanha",
+        anos: "2011",
+        clube: "Schalke 04",
+      },
+    ],
+    tags: [],
+    ultima_atualizacao: "01/11/2025",
+  },
+
   //Marco Reus
   {
     nome: "Marco Reus",
@@ -5365,6 +5653,150 @@ export const jogadores = [
     tags: ["Dida", "Didão"],
   },
 
+  // Didi (Valdir Pereira)
+  {
+    nome: "Didi",
+    background: "gold",
+    descricao:
+      "Valdir Pereira, o Didi, foi um meio-campista genial e elegante, bicampeão mundial pelo Brasil (1958, 1962). Conhecido como o 'Príncipe Etíope' e o 'Mr. Football', é o inventor do lendário chute 'Folha Seca'. Foi eleito o Melhor Jogador da Copa do Mundo de 1958 e está consistentemente ranqueado entre os 25 maiores da história por grandes instituições.",
+    pagina: "https://pt.wikipedia.org/wiki/Didi_(futebolista)",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://www.ludopedio.org.br//wp-content/uploads/didi-773x1024.jpg",
+    numero: "8",
+    posicao: "Meia Central / Meia Ofensivo",
+    dataNascimento: "08/10/1928",
+    dataFalecimento: "12/05/2001",
+    status: "Aposentado",
+    curiosidades:
+      "É o autor do primeiro gol da história do Estádio do Maracanã, em 1950. A 'Folha Seca' ficou famosa após um gol de falta contra o Peru nas eliminatórias de 1958. Em 1970, foi treinador da Seleção Peruana na Copa do Mundo.",
+
+    clubes: [
+      createClub(
+        "Fluminense",
+        { inicio: "1949", fim: "1956" },
+        { jogos: 298, gols: 91, assistencias: 0 }
+      ),
+      createClub(
+        "Botafogo",
+        { inicio: "1956", fim: "1959" },
+        { jogos: 313, gols: 114, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "1959", fim: "1960" },
+        { jogos: 19, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Botafogo",
+        { inicio: "1960", fim: "1962" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Sporting Cristal",
+        { inicio: "1962", fim: "1964" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "São Paulo",
+        { inicio: "1964", fim: "1965" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Botafogo",
+        { inicio: "1965", fim: "1966" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1952", fim: "1962" },
+      estatisticas: { jogos: 75, gols: 21, assistencias: 13 },
+      destaque:
+        "Bicampeão da Copa do Mundo FIFA (1958 e 1962). Bola de Ouro (Melhor Jogador) da Copa do Mundo FIFA de 1958. Eleito o 19º maior jogador do Século XX pela IFFHS.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro da Copa do Mundo",
+        logo: "Bola de Ouro FIFA",
+        anos: "1958",
+        categoria: "individual",
+      },
+      {
+        nome: "All-Star Team da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1958",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "All-Star Team da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1962",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Hall da Fama da FIFA",
+        logo: "FIFA",
+        anos: "1999",
+        categoria: "individual",
+      },
+
+      // SELEÇÃO BRASILEIRA
+      {
+        nome: "Copa do Mundo",
+        anos: "1958",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "1962",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Campeonato Pan-Americano",
+        anos: "1952",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // CLUBES
+      {
+        nome: "Campeonato Carioca",
+        anos: "1951",
+        clube: "Fluminense",
+      },
+      {
+        nome: "Copa Rio",
+        anos: "1952",
+        clube: "Fluminense",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "1957, 1961, 1962",
+        clube: "Botafogo",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "1959, 1960",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1960",
+        clube: "Real Madrid",
+      },
+    ],
+    tags: ["Príncipe Etíope", "Mr. Football", "Valdir Pereira"],
+    ultima_atualizacao: "01/11/2025",
+  },
+
   // Diego Alves
   {
     nome: "Diego Alves",
@@ -9061,6 +9493,109 @@ export const jogadores = [
     ultima_atualizacao: "27/10/25",
   },
 
+  // Nilton Santos
+  {
+    nome: "Nilton Santos",
+    background: "gold",
+    descricao:
+      "Considerado o melhor lateral-esquerdo de todos os tempos. Conhecido como 'Enciclopédia do Futebol' por sua inteligência tática, foi um dos pioneiros no avanço do lateral ao ataque. Jogou toda a carreira no Botafogo e foi bicampeão mundial (1958, 1962) pela Seleção Brasileira.",
+    pagina: "https://pt.wikipedia.org/wiki/N%C3%ADlton_Santos",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/grsa9ybqykir/b/portalcbf/o/nilton-santos.jpg",
+    numero: "6",
+    posicao: "Lateral Esquerdo",
+    dataNascimento: "16/05/1925",
+    dataFalecimento: "27/11/2013",
+    status: "Aposentado",
+    curiosidades:
+      "Nilton Santos jogou por apenas um clube na carreira: o Botafogo, onde detém o recorde de jogos (723 partidas). Em 1962, contra a Espanha na Copa do Mundo, avançou para o ataque e marcou um golaço, voltando para a defesa a tempo de evitar um pênalti, num lance que virou lenda. O estádio do Botafogo (Engenhão) foi renomeado em sua homenagem: Estádio Nilton Santos.",
+
+    clubes: [
+      createClub(
+        "Botafogo",
+        { inicio: "1948", fim: "1964" },
+        { jogos: 723, gols: 11, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1949", fim: "1962" },
+      estatisticas: { jogos: 86, gols: 3, assistencias: 0 },
+      destaque:
+        "Bicampeão da Copa do Mundo FIFA (1958 e 1962). Participou de 4 Copas do Mundo (1950, 1954, 1958, 1962). Eleito para o All-Star Team das Copas de 1958 e 1962.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Melhor Lateral-Esquerdo de Todos os Tempos",
+        logo: "FIFA",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "All-Star Team da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1958",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "All-Star Team da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1962",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+
+      // SELEÇÃO BRASILEIRA
+      {
+        nome: "Copa do Mundo",
+        anos: "1958",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo",
+        anos: "1962",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Campeonato Sul-Americano",
+        anos: "1949",
+        clube: "Brasil",
+      },
+      {
+        nome: "Campeonato Pan-Americano",
+        anos: "1952",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // BOTAFOGO
+      {
+        nome: "Campeonato Carioca",
+        anos: "1948, 1957, 1961, 1962",
+        clube: "Botafogo",
+      },
+      {
+        nome: "Torneio Rio-São Paulo",
+        anos: "1962, 1964",
+        clube: "Botafogo",
+      },
+    ],
+    tags: ["Enciclopédia do Futebol", "One Club Man"],
+    ultima_atualizacao: "01/11/2025",
+  },
+
   // Paulinho (José Paulo Bezerra Maciel Júnior)
   {
     nome: "Paulinho",
@@ -12099,7 +12634,7 @@ export const jogadores = [
         logoVariavel: true,
       },
     ],
-    tags: ["Zico", "Flamengo", "Brasil", "Z10", "Galo de Quintino"],
+    tags: ["Zico", "Z10", "Galo de Quintino"],
   },
 
   // BULGÁRIA ---------------------------------------------------------------------------------------------------
@@ -13221,6 +13756,188 @@ export const jogadores = [
     tags: [],
   },
 
+  // Michael Laudrup
+  {
+    nome: "Michael Laudrup",
+    background: "gold",
+    descricao:
+      "Considerado o maior jogador dinamarquês de todos os tempos. Meia-armador (ou 'enganche') de visão de jogo genial, elegância e passes imprevisíveis (inclusive 'sem olhar'). Foi peça central do 'Dream Team' do Barcelona e um dos poucos a jogar no Barça e no Real Madrid.",
+    pagina: "https://pt.wikipedia.org/wiki/Michael_Laudrup",
+    nacionalidade: "Dinamarca",
+    imagem:
+      "https://assets.goal.com/images/v3/blte4aa5cbd6b319623/2664782.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    numero: "10",
+    posicao: "Meia-Armador / Ponta-de-Lança",
+    dataNascimento: "15/06/1964",
+    status: "Aposentado",
+    curiosidades:
+      "Ausente da Eurocopa de 1992 devido a um desentendimento com o treinador Richard Møller Nielsen, ele perdeu a maior conquista da história da Dinamarca. Foi eleito o Melhor Jogador Estrangeiro no Futebol Espanhol nos últimos 25 anos (1974-1999). É irmão mais velho do também craque Brian Laudrup.",
+
+    clubes: [
+      createClub(
+        "Kjøbenhavns Boldklub",
+        { inicio: "1981", fim: "1982" },
+        { jogos: 14, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Brøndby IF",
+        { inicio: "1982", fim: "1983" },
+        { jogos: 38, gols: 24, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "1983", fim: "1989" },
+        { jogos: 151, gols: 35, assistencias: 0 }
+      ),
+      createClub(
+        "Lazio",
+        { inicio: "1983", fim: "1985" },
+        { jogos: 70, gols: 12, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "1989", fim: "1994" },
+        { jogos: 213, gols: 47, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "1994", fim: "1996" },
+        { jogos: 76, gols: 15, assistencias: 0 }
+      ),
+      createClub(
+        "Vissel Kobe",
+        { inicio: "1996", fim: "1997" },
+        { jogos: 24, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "Ajax",
+        { inicio: "1997", fim: "1998" },
+        { jogos: 26, gols: 13, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Dinamarca",
+      periodo: { inicio: "1982", fim: "1998" },
+      estatisticas: { jogos: 104, gols: 37, assistencias: 11 },
+      destaque:
+        "Liderou a geração 'Danish Dynamite'. Campeão da Copa das Confederações FIFA em 1995. Participou das Copas do Mundo de 1986 e 1998.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Jogador de Ouro da UEFA (Dinamarca)",
+        logo: "UEFA",
+        anos: "2003",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Dinamarquês do Ano",
+        logo: "Individual",
+        anos: "1982, 1985",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Estrangeiro da La Liga",
+        logo: "Campeonato Espanhol",
+        anos: "1992",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe das Estrelas da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1998",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Estrangeiro no Futebol Espanhol (1974–1999)",
+        logo: "Individual",
+        anos: "1999",
+        categoria: "individual",
+      },
+      {
+        nome: "Hall da Fama do Futebol Dinamarquês",
+        logo: "Individual",
+        anos: "2006",
+        categoria: "individual",
+      },
+
+      // BARCELONA
+      {
+        nome: "UEFA Champions League",
+        anos: "1992",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "1991, 1992, 1993, 1994",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1992",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "1990",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "1991, 1992",
+        clube: "Barcelona",
+      },
+
+      // REAL MADRID
+      {
+        nome: "Campeonato Espanhol",
+        anos: "1995",
+        clube: "Real Madrid",
+      },
+
+      // JUVENTUS
+      {
+        nome: "Copa Intercontinental",
+        anos: "1985",
+        clube: "Juventus",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "1986",
+        clube: "Juventus",
+      },
+
+      // AJAX
+      {
+        nome: "Campeonato Holandês",
+        anos: "1998",
+        clube: "Ajax",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "1998",
+        clube: "Ajax",
+      },
+
+      // PELA SELEÇÃO
+      {
+        nome: "Copa das Confederações",
+        anos: "1995",
+        clube: "Dinamarca",
+      },
+    ],
+    tags: ["Danish Dynamite"],
+    ultima_atualizacao: "31/10/2025",
+  },
+
   // Pierre-Emile Højbjerg
   {
     nome: "Pierre Højbjerg",
@@ -13343,6 +14060,129 @@ export const jogadores = [
     selecao: {},
     titulos: [],
     tags: [],
+  },
+
+  // Kenny Dalglish
+  {
+    nome: "Kenny Dalglish",
+    background: "gold",
+    descricao:
+      "Lenda escocesa do Celtic e, principalmente, do Liverpool, onde é idolatrado. Atacante/Meia-Atacante de visão e inteligência, conhecido por sua garra e por ser o 'Rei Kenny'. Um dos poucos a ter sucesso como jogador e treinador em alto nível.",
+    pagina: "https://pt.wikipedia.org/wiki/Kenny_Dalglish",
+    nacionalidade: "Escócia",
+    imagem: "https://s.hs-data.com/bilder/spieler/gross/1822.jpg",
+    numero: "7",
+    posicao: "Atacante / Meia-Atacante",
+    dataNascimento: "04/03/1951",
+    status: "Aposentado",
+    curiosidades:
+      "É o jogador com o maior número de jogos (102) e gols (30, empatado com Denis Law) pela seleção escocesa. Foi o primeiro jogador-treinador da Inglaterra a conquistar o 'Double' (Liga e Copa) pelo Liverpool em 1986. Recebeu o título de 'Sir' (Knight Bachelor) da Rainha em 2018 por seus serviços ao futebol e à caridade.",
+
+    clubes: [
+      createClub(
+        "Celtic",
+        { inicio: "1969", fim: "1977" },
+        { jogos: 322, gols: 167, assistencias: 0 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "1977", fim: "1990" },
+        { jogos: 515, gols: 172, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Escócia",
+      periodo: { inicio: "1971", fim: "1986" },
+      estatisticas: { jogos: 102, gols: 30, assistencias: 0 },
+      destaque:
+        "Recordista de jogos (102) e co-recordista de gols (30) pela Escócia. Participou das Copas do Mundo de 1974, 1978 e 1982.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Futebolista do Ano (FWA)",
+        logo: "FWA",
+        anos: "1979, 1983",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano na Inglaterra (PFA)",
+        logo: "PFA",
+        anos: "1983",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro (2º Lugar)",
+        logo: "Bola de Ouro",
+        anos: "1983",
+        categoria: "individual",
+      },
+      {
+        nome: "Maior Artilheiro do Campeonato Escocês",
+        logo: "Campeonato Escocês",
+        anos: "1976",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da PFA",
+        logo: "PFA",
+        anos: "1979, 1980, 1981, 1982, 1983, 1984",
+        categoria: "individual",
+      },
+
+      // LIVERPOOL
+      {
+        nome: "UEFA Champions League",
+        anos: "1978, 1981, 1984",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1977",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "1979, 1980, 1982, 1983, 1984, 1986",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "1981, 1982, 1983, 1984",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "1986, 1989",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "1977, 1979, 1980, 1982, 1986",
+        clube: "Liverpool",
+      },
+
+      // CELTIC
+      {
+        nome: "Campeonato Escocês",
+        anos: "1972, 1973, 1974, 1977",
+        clube: "Celtic",
+      },
+      {
+        nome: "Copa da Escócia",
+        anos: "1972, 1974, 1975, 1977",
+        clube: "Celtic",
+      },
+      {
+        nome: "Copa da Liga Escocesa",
+        anos: "1975",
+        clube: "Celtic",
+      },
+    ],
+    tags: ["King Kenny"],
+    ultima_atualizacao: "01/11/2025",
   },
 
   // ESLOVÊNIA -----------------------------------------------------------------------------------------------
@@ -13623,13 +14463,12 @@ export const jogadores = [
     ],
     tags: [
       "Di Stéfano",
-      "Real Madrid",
-      "Argentina",
-      "Espanha",
+      "Di Stefano",
+      "Alfredo Di Stefano",
       "AD9",
       "Saeta Rubia",
     ],
-    ultima_atualizacao: "28/10/25",
+    ultima_atualizacao: "01/11/25",
   },
 
   // Álvaro Morata
@@ -13655,43 +14494,92 @@ export const jogadores = [
   // Andrés Iniesta
   {
     nome: "Andrés Iniesta",
-    background: "diamond",
+    background: "gold",
     descricao:
-      "Meio-campista espanhol, amplamente considerado um dos mais talentosos da história. Iniesta era a personificação do estilo 'Tiki-Taka', conhecido por seu controle de bola hipnotizante, dribles curtos em espaços apertados e visão de jogo magistral. Marcou o gol da vitória da Espanha na final da Copa do Mundo de 2010 e foi a peça chave da era de ouro do Barcelona.",
-    pagina: "https://www.instagram.com/andresiniesta8/",
+      "Um dos meio-campistas mais brilhantes e completos da história. Peça-chave no lendário meio-campo do Barcelona e da Seleção Espanhola, conhecido por sua técnica impecável, visão de jogo, inteligência e o gol que deu o título mundial à Espanha em 2010. Apelidado de 'El Ilusionista' e 'Don Andrés'.",
+    pagina: "https://pt.wikipedia.org/wiki/Andr%C3%A9s_Iniesta",
     nacionalidade: "Espanha",
-    imagem:
-      "https://cdn.britannica.com/92/163892-050-D937D47D/Andres-Iniesta-FC-Barcelona.jpg",
+    imagem: "https://cdn.unitycms.io/images/AlDmsD7dKHLA9lEsmPEF4E.jpg",
     numero: "8",
-    posicao: "Meio-campista/Meia-atacante",
+    posicao: "Meio-Campista (Meia Central / Meia Ofensivo)",
     dataNascimento: "11/05/1984",
     status: "Aposentado",
     curiosidades:
-      "Iniesta marcou o único gol da final da Copa do Mundo de 2010 contra a Holanda. Ele foi o 'Cérebro' ao lado de Xavi no meio-campo do Barcelona e da Espanha, uma parceria que é frequentemente citada como a melhor da história. Em 2012, foi eleito o Melhor Jogador da UEFA.",
+      "Marcou o gol do título da Espanha na final da Copa do Mundo de 2010, na prorrogação contra a Holanda (1x0). É um dos únicos dois jogadores na história a ser eleito o 'Homem do Jogo' em três grandes finais distintas: Copa do Mundo (2010), Eurocopa (2012) e Liga dos Campeões da UEFA (2015). Em 2018, emocionou a todos ao deixar o Barcelona, clube onde chegou aos 12 anos. Sua última passagem foi pelo Emirates Club dos Emirados Árabes Unidos.",
+
     clubes: [
+      createClub(
+        "Barcelona B",
+        { inicio: "2001", fim: "2003" },
+        { jogos: 54, gols: 5, assistencias: 0 }
+      ),
       createClub(
         "Barcelona",
         { inicio: "2002", fim: "2018" },
-        { jogos: 674, gols: 57, assistencias: 139 }
+        { jogos: 674, gols: 57, assistencias: 135 }
       ),
       createClub(
         "Vissel Kobe",
         { inicio: "2018", fim: "2023" },
-        { jogos: 134, gols: 26, assistencias: 20 }
+        { jogos: 134, gols: 26, assistencias: 25 }
       ),
       createClub(
         "Emirates Club",
         { inicio: "2023", fim: "2024" },
-        { jogos: 30, gols: 5, assistencias: 7 }
+        { jogos: 23, gols: 5, assistencias: 1 }
       ),
     ],
+
     selecao: {
       nome: "Espanha",
       periodo: { inicio: "2006", fim: "2018" },
-      estatisticas: { jogos: 131, gols: 13, assistencias: 27 },
+      estatisticas: { jogos: 131, gols: 14, assistencias: 5 },
+      destaque:
+        "Campeão da Copa do Mundo FIFA (2010 - autor do gol do título) e Bicampeão da Eurocopa (2008, 2012). Eleito o Melhor Jogador da Eurocopa 2012.",
     },
+
     titulos: [
-      // Seleção Espanhola
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Melhor Jogador da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2012",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "UEFA Melhor Jogador da Europa",
+        logo: "UEFA",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro (2º lugar / 3º lugar)",
+        logo: "Bola de Ouro",
+        anos: "2010, 2012",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017",
+        categoria: "individual",
+      },
+      {
+        nome: "Homem do Jogo da Final da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2010",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Homem do Jogo da Final da UCL",
+        logo: "UEFA Champions League",
+        anos: "2015",
+        categoria: "individual",
+      },
+
+      // SELEÇÃO ESPANHOLA
       {
         nome: "Copa do Mundo",
         anos: "2010",
@@ -13711,7 +14599,7 @@ export const jogadores = [
         logoVariavel: true,
       },
 
-      // Barcelona
+      // BARCELONA
       {
         nome: "UEFA Champions League",
         anos: "2006, 2009, 2011, 2015",
@@ -13723,44 +14611,45 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
+        nome: "Copa do Rei",
+        anos: "2009, 2012, 2015, 2016, 2017, 2018",
+        clube: "Barcelona",
+      },
+      {
         nome: "Mundial de Clubes",
         anos: "2009, 2011, 2015",
         clube: "Barcelona",
       },
-      // Vissel Kobe
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2009, 2011, 2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2005, 2006, 2009, 2010, 2011, 2013, 2016",
+        clube: "Barcelona",
+      },
+
+      // VISSEL KOBE
+      {
+        nome: "Campeonato Japonês",
+        anos: "2023",
+        clube: "Vissel Kobe",
+      },
       {
         nome: "Copa do Imperador",
         anos: "2019",
         clube: "Vissel Kobe",
       },
-
-      // Individuais
       {
-        nome: "Melhor Jogador da UEFA",
-        logo: "UEFA",
-        anos: "2012",
-        clube: "Individual",
-        categoria: "individual",
-      },
-      {
-        nome: "Bola de Prata da Copa das Confederações",
-        logo: "Copa das Confederações",
-        anos: "2013",
-        clube: "Individual",
-        categoria: "individual",
-        logoVariavel: true,
-      },
-      {
-        nome: "Melhor Jogador da Eurocopa",
-        logo: "Eurocopa",
-        anos: "2012",
-        clube: "Individual",
-        categoria: "individual",
-        logoVariavel: true,
+        nome: "Supercopa do Japão",
+        anos: "2020",
+        clube: "Vissel Kobe",
       },
     ],
-    tags: ["Iniesta", "AI8"],
-    ultima_atualizacao: "28/10/25",
+    tags: ["El Ilusionista", "Don Andrés"],
+    ultima_atualizacao: "01/11/2025",
   },
 
   // Carles Puyol
@@ -15253,21 +16142,169 @@ export const jogadores = [
   // Xavi Hernández
   {
     nome: "Xavi Hernández",
-    background: "diamond",
+    background: "gold",
     descricao:
-      "Um dos maiores meias da história do futebol, conhecido por sua visão de jogo e passes precisos.",
-    pagina: "https://www.instagram.com/xavi/",
+      "O 'Maestro' e 'Cérebro' do lendário meio-campo do Barcelona e da Seleção Espanhola. Considerado um dos maiores meio-campistas e passadores da história. Sua visão de jogo, controle de bola e precisão nos passes definiram a era do 'Tiki-Taka' e foram cruciais para a Espanha e o Barcelona dominarem o futebol mundial por anos.",
+    pagina: "https://pt.wikipedia.org/wiki/Xavi",
     nacionalidade: "Espanha",
     imagem:
-      "https://i.pinimg.com/736x/68/51/87/685187139f0d27413a67e2ac8947b448.jpg",
+      "https://www.fcbarcelona.com/photo-resources/2019/03/12/62f67c7f-28fa-49d4-aa5f-9a0502c46c41/znYiAFfh.jpg?width=1200&height=750",
     numero: "6",
-    posicao: "Meia",
+    posicao: "Meio-Campista (Volante/Meia Central)",
     dataNascimento: "25/01/1980",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Detinha o recorde de mais jogos disputados pelo Barcelona (767, superado por Messi) e pela Seleção Espanhola. Formou com Iniesta e Busquets o que é amplamente considerado o melhor trio de meio-campo da história do futebol de clubes. Foi o 3º colocado na Bola de Ouro em três anos consecutivos (2009, 2010 e 2011).",
+
+    clubes: [
+      createClub(
+        "Barcelona B",
+        { inicio: "1997", fim: "1999" },
+        { jogos: 61, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "1998", fim: "2015" },
+        { jogos: 767, gols: 85, assistencias: 184 }
+      ),
+      createClub(
+        "Al-Sadd",
+        { inicio: "2015", fim: "2019" },
+        { jogos: 117, gols: 25, assistencias: 29 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2000", fim: "2014" },
+      estatisticas: { jogos: 133, gols: 13, assistencias: 24 },
+      destaque:
+        "Campeão da Copa do Mundo FIFA (2010) e Bicampeão da Eurocopa (2008, 2012). Eleito o Melhor Jogador da Eurocopa 2008.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Melhor Jogador da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2008",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Bola de Ouro (3º lugar)",
+        logo: "Bola de Ouro",
+        anos: "2009, 2010, 2011",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2008, 2009, 2010, 2011, 2012, 2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2008, 2009, 2010, 2011, 2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Meio-Campista da UCL",
+        logo: "UEFA Champions League",
+        anos: "2008/09",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe Ideal da Copa do Mundo FIFA",
+        logo: "Copa do Mundo",
+        anos: "2010",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+
+      // SELEÇÃO ESPANHOLA
+      {
+        nome: "Copa do Mundo",
+        anos: "2010",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2008",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2012",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo Sub-20",
+        anos: "1999",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+
+      // BARCELONA
+      {
+        nome: "UEFA Champions League",
+        anos: "2006, 2009, 2011, 2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "1999, 2005, 2006, 2009, 2010, 2011, 2013, 2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2009, 2012, 2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2009, 2011",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2009, 2011",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2005, 2006, 2009, 2010, 2011, 2013",
+        clube: "Barcelona",
+      },
+
+      // AL-SADD
+      {
+        nome: "Campeonato Catariano",
+        anos: "2019",
+        clube: "Al-Sadd",
+      },
+      {
+        nome: "Copa do Emir do Catar",
+        anos: "2017",
+        clube: "Al-Sadd",
+      },
+      {
+        nome: "Taça do Qatar",
+        anos: "2017",
+        clube: "Al-Sadd",
+      },
+      {
+        nome: "Supercopa do Catar",
+        anos: "2017",
+        clube: "Al-Sadd",
+      },
+    ],
+    tags: ["El Maestro", "El Cérebro"],
+    ultima_atualizacao: "01/11/2025",
   },
 
   //FRANÇA----------------------------------------------------------------------------------------------------
@@ -16605,6 +17642,115 @@ export const jogadores = [
     tags: ["Zidane", "Real Madrid", "Juventus", "França", "Z10", "Elegância"],
   },
 
+  // FRANÇA-POLONIA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Raymond Kopa (Raymond Kopaszewski)
+  {
+    nome: "Raymond Kopa",
+    background: "gold",
+    descricao:
+      "Primeiro jogador francês a vencer a Bola de Ouro (1958). Conhecido como o 'Napoleão da Finta' por sua baixa estatura, inteligência e dribles curtos, foi peça-chave do lendário ataque do Real Madrid que conquistou o tricampeonato europeu consecutivo (1957, 1958, 1959). Liderou a França ao 3º lugar na Copa de 1958.",
+    pagina: "https://pt.wikipedia.org/wiki/Raymond_Kopa",
+    nacionalidade: "França-Polônia",
+    imagem: "https://www.ogol.com.br/img/geral/294647_med_.jpg.jpg",
+    numero: "7",
+    posicao: "Meia Ofensivo / Ponta Direita",
+    dataNascimento: "13/10/1931",
+    dataFalecimento: "03/03/2017",
+    status: "Aposentado",
+    curiosidades:
+      "Kopa trabalhou em minas de carvão quando adolescente, o que resultou na perda de dois ossos em suas mãos. Foi contratado pelo Real Madrid em 1956, antes da primeira final da Copa dos Campeões, que ele disputou... contra o próprio Real Madrid, defendendo o Stade de Reims. Ele encerrou a carreira no Reims em 1967 e, posteriormente, fundou sua própria marca de artigos esportivos.",
+
+    clubes: [
+      createClub(
+        "Angers",
+        { inicio: "1949", fim: "1951" },
+        { jogos: 60, gols: 15, assistencias: 0 }
+      ),
+      createClub(
+        "Stade de Reims",
+        { inicio: "1951", fim: "1956" },
+        { jogos: 165, gols: 52, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "1956", fim: "1959" },
+        { jogos: 103, gols: 30, assistencias: 0 }
+      ),
+      createClub(
+        "Stade de Reims",
+        { inicio: "1959", fim: "1967" },
+        { jogos: 247, gols: 49, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "França-Polônia",
+      periodo: { inicio: "1952", fim: "1962" },
+      estatisticas: { jogos: 45, gols: 18, assistencias: 0 },
+      destaque:
+        "Terceiro lugar na Copa do Mundo FIFA de 1958 (Melhor Jogador Jovem do Torneio). Atuou em duas Copas do Mundo (1954, 1958).",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro",
+        anos: "1958",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Jovem da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1958",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Prêmio Presidente da UEFA",
+        logo: "UEFA",
+        anos: "2011",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+
+      // REAL MADRID
+      {
+        nome: "UEFA Champions LeaguE",
+        anos: "1957, 1958, 1959",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "1957, 1958",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa Latina",
+        anos: "1957",
+        clube: "Real Madrid",
+      },
+
+      // STADE DE REIMS
+      {
+        nome: "Campeonato Francês",
+        anos: "1953, 1955, 1960, 1962",
+        clube: "Stade de Reims",
+      },
+      {
+        nome: "Copa Latina",
+        anos: "1953",
+        clube: "Stade de Reims",
+      },
+    ],
+    tags: ["Napoleão da Finta", "Raymond Kopaszewski"],
+    ultima_atualizacao: "01/11/2025",
+  },
+
   // GEÓRGIA -------------------------------------------------------------------------------------------------------------------------------------------------------
 
   // Khvicha Kvaratskhelia
@@ -17749,6 +18895,172 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
+  // Bobby Moore
+  {
+    nome: "Bobby Moore",
+    background: "gold",
+    descricao:
+      "Lendário zagueiro e capitão da Seleção Inglesa na conquista da Copa do Mundo de 1966. Reconhecido por sua inteligência tática, elegância, leitura de jogo e fair play. É um ícone do West Ham United e uma lenda do futebol mundial.",
+    pagina: "https://pt.wikipedia.org/wiki/Bobby_Moore",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://cdn.whufc.com/sites/default/files/inline-images/Moore726_8.jpg",
+    numero: "6",
+    posicao: "Zagueiro Central / Líbero",
+    dataNascimento: "12/04/1941",
+    dataFalecimento: "24/02/1993",
+    status: "Aposentado",
+    curiosidades:
+      "É o único capitão da Inglaterra a erguer a taça da Copa do Mundo FIFA. Pelé o considerou o melhor defensor que já enfrentou. Uma estátua sua está erguida na entrada do novo Estádio de Wembley. Sua carreira de jogador profissional terminou por volta de 1978.",
+
+    clubes: [
+      createClub(
+        "West Ham",
+        { inicio: "1958", fim: "1974" },
+        { jogos: 544, gols: 24, assistencias: 0 }
+      ),
+      createClub(
+        "Fulham",
+        { inicio: "1974", fim: "1977" },
+        { jogos: 124, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "San Antonio Thunder",
+        { inicio: "1976", fim: "1976" },
+        { jogos: 24, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Seattle Sounders",
+        { inicio: "1978", fim: "1978" },
+        { jogos: 7, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Herning Fremad",
+        { inicio: "1978", fim: "1978" },
+        { jogos: 9, gols: 0, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "1962", fim: "1973" },
+      estatisticas: { jogos: 108, gols: 2, assistencias: 0 },
+      destaque:
+        "Capitão da Seleção Inglesa que venceu a Copa do Mundo FIFA de 1966.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Equipe das Estrelas da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1966",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Futebolista Inglês do Ano pela FWA",
+        logo: "FWA",
+        anos: "1964",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Torneio da Eurocopa",
+        logo: "Eurocopa",
+        anos: "1968",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção de Todos os Tempos da Copa do Mundo",
+        logo: "FIFA",
+        anos: "1994",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Inglaterra dos 50 Anos da UEFA",
+        logo: "UEFA",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Hall da Fama do Futebol Inglês",
+        logo: "individual",
+        anos: "2002",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção de Futebol do Século XX pela IFFHS",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "24º Melhor Jogador do Século XX pela IFFHS",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "17º Melhor Jogador Europeu do Século XX pela IFFHS",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Século PFA",
+        logo: "PFA",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Século PFA",
+        logo: "PFA",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Football League 100 Legends",
+        logo: "EFL",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "IFFHS ALL TIME WORLD MEN'S DREAM TEAM (Time B)",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+
+      // WEST HAM
+      {
+        nome: "Recopa Europeia",
+        anos: "1965",
+        clube: "West Ham",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "1964",
+        clube: "West Ham",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "1964",
+        clube: "West Ham",
+      },
+
+      // PELA SELEÇÃO
+      {
+        nome: "Copa do Mundo",
+        anos: "1966",
+        clube: "Inglaterra",
+        logoVariavel: true,
+      },
+    ],
+    tags: [],
+    ultima_atualizacao: "31/10/2025",
+  },
+
   //Harry Kane
   {
     nome: "Harry Kane",
@@ -17950,6 +19262,212 @@ export const jogadores = [
     ],
     tags: ["Kane", "Harry Kane", "Hurricane", "HK10", "HK9"],
     ultima_atualizacao: "27/10/25",
+  },
+
+  // Kevin Keegan
+  {
+    nome: "Kevin Keegan",
+    background: "gold",
+    descricao:
+      "Atacante dinâmico e carismático, conhecido por sua energia incansável e liderança, apelidado de 'King Kev'. Brilhou no lendário Liverpool dos anos 70 e se tornou uma estrela internacional no Hamburgo, onde conquistou duas Bolas de Ouro consecutivas. É um ícone do futebol inglês e o primeiro grande jogador inglês a ter sucesso no exterior.",
+    pagina: "https://pt.wikipedia.org/wiki/Kevin_Keegan",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://i.pinimg.com/474x/6e/28/c5/6e28c59da809accc40874049ff66b7c9.jpg",
+    numero: "7",
+    posicao: "Atacante (Segundo Atacante/Ponta)",
+    dataNascimento: "14/02/1951",
+    status: "Aposentado",
+    curiosidades:
+      "Foi o primeiro jogador inglês a ser bicampeão da Bola de Ouro (1978 e 1979). Sua transferência para o Hamburgo em 1977 foi uma das mais notáveis da época, fazendo dele um dos primeiros grandes jogadores britânicos a ter sucesso em ligas estrangeiras. Após se aposentar, teve uma notável carreira como treinador, sendo técnico da Seleção Inglesa.",
+
+    clubes: [
+      createClub(
+        "Scunthorpe United",
+        { inicio: "1968", fim: "1971" },
+        { jogos: 141, gols: 22, assistencias: 0 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "1971", fim: "1977" },
+        { jogos: 323, gols: 100, assistencias: 88 }
+      ),
+      createClub(
+        "Hamburgo",
+        { inicio: "1977", fim: "1980" },
+        { jogos: 111, gols: 40, assistencias: 7 }
+      ),
+      createClub(
+        "Southampton",
+        { inicio: "1980", fim: "1982" },
+        { jogos: 80, gols: 42, assistencias: 13 }
+      ),
+      createClub(
+        "Newcastle United",
+        { inicio: "1982", fim: "1984" },
+        { jogos: 85, gols: 49, assistencias: 17 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "1972", fim: "1982" },
+      estatisticas: { jogos: 63, gols: 21, assistencias: 0 },
+      destaque:
+        "Capitão da Inglaterra na Eurocopa de 1980 e na Copa do Mundo de 1982. Foi capitão da seleção 31 vezes.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro",
+        anos: "1978, 1979",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Inglês do Ano (FWA)",
+        logo: "FWA",
+        anos: "1976",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Inglês do Ano (PFA)",
+        logo: "PFA",
+        anos: "1982",
+        categoria: "individual",
+      },
+      {
+        nome: "Onze d'Or",
+        anos: "1977, 1979",
+        categoria: "individual",
+      },
+
+      // LIVERPOOL
+      {
+        nome: "UEFA Champions League",
+        anos: "1977",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da UEFA",
+        anos: "1973, 1976",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "1973, 1976, 1977",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "1974",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "1974, 1976",
+        clube: "Liverpool",
+      },
+
+      // HAMBURGO
+      {
+        nome: "Campeonato Alemão",
+        anos: "1979",
+        clube: "Hamburgo",
+      },
+
+      // NEWCASTLE UNITED
+      {
+        nome: "Campeonato Inglês 2º Divisão",
+        anos: "1984",
+        clube: "Newcastle United",
+      },
+    ],
+    tags: ["King Kev", "Mighty Mouse", "OBE"],
+    ultima_atualizacao: "01/11/2025",
+  },
+
+  // Stanley Matthews
+  {
+    nome: "Stanley Matthews",
+    background: "gold",
+    descricao:
+      "O 'Feiticeiro do Drible' e a primeira lenda internacional do futebol inglês. Ponta-direita clássico, famoso por sua técnica impecável, dribles estonteantes e uma carreira profissional que se estendeu por incríveis 33 anos. Foi o primeiro vencedor da Bola de Ouro (1956) e um símbolo de longevidade e 'fair play'.",
+    pagina: "https://pt.wikipedia.org/wiki/Stanley_Matthews",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://efemeridesdoefemello.com/wp-content/uploads/2015/02/1fev15.jpg?w=550&h=764",
+    numero: "7",
+    posicao: "Atacante (Ponta-Direita)",
+    dataNascimento: "01/02/1915",
+    dataFalecimento: "23/02/2000",
+    status: "Aposentado",
+    curiosidades:
+      "É o jogador mais velho a receber a Bola de Ouro (aos 41 anos, em 1956) e o único jogador a ter sido nomeado Cavaleiro do Império Britânico (Sir) enquanto ainda estava jogando. Jogou sua última partida na Primeira Divisão Inglesa com 50 anos e 5 dias. A final da FA Cup de 1953, que ele venceu com o Blackpool, ficou conhecida como a 'Matthews Final' devido à sua atuação decisiva.",
+
+    clubes: [
+      createClub(
+        "Stoke City",
+        { inicio: "1932", fim: "1947" },
+        { jogos: 284, gols: 51, assistencias: 0 }
+      ),
+      createClub(
+        "Blackpool",
+        { inicio: "1947", fim: "1961" },
+        { jogos: 380, gols: 17, assistencias: 0 }
+      ),
+      createClub(
+        "Stoke City",
+        { inicio: "1961", fim: "1965" },
+        { jogos: 59, gols: 3, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "1934", fim: "1957" },
+      estatisticas: { jogos: 54, gols: 11, assistencias: 0 },
+      destaque:
+        "Recorde de maior longevidade na Seleção Inglesa (23 anos entre a 1ª e a última partida). Participou das Copas do Mundo de 1950 e 1954.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro",
+        anos: "1956",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Inglês do Ano (FWA)",
+        logo: "FWA",
+        anos: "1948, 1963",
+        categoria: "individual",
+      },
+
+      // Inglaterra
+      {
+        nome: "Campeonato Interbritânico",
+        anos: "1934, 1937, 1938, 1946, 1947, 1949, 1951, 1952, 1953, 1954, 1955, 1956, 1957",
+        clube: "Inglaterra",
+      },
+
+      // Blackpool
+      {
+        nome: "Copa da Inglaterra",
+        anos: "1953",
+        clube: "Blackpool",
+      },
+
+      // Stoke City
+      {
+        nome: "Campeonato Inglês 2º Divisão",
+        anos: "1933, 1963",
+        clube: "Stoke City",
+      },
+    ],
+    tags: ["The Wizard of the Dribble", "Matthews Final"],
+    ultima_atualizacao: "01/11/2025",
   },
 
   //IRLANDA DO NORTE -------------------------------------------------------------------------------------
@@ -18804,6 +20322,136 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
+  // Roberto Baggio
+  {
+    nome: "Roberto Baggio",
+    background: "gold",
+    descricao:
+      "Lendário atacante/meia-armador italiano conhecido por sua técnica sublime, habilidade em bolas paradas, dribles e o famoso rabo de cavalo ('Il Codino Divino'). Vencedor da Bola de Ouro e Melhor do Mundo FIFA em 1993, é um dos maiores ídolos do futebol italiano.",
+    pagina: "https://pt.wikipedia.org/wiki/Roberto_Baggio",
+    nacionalidade: "Itália",
+    imagem:
+      "https://i.pinimg.com/736x/16/93/62/16936236f884db2122c3bd5b7c054afa.jpg",
+    numero: "10",
+    posicao: "Atacante / Meia-Armador / Segundo Atacante",
+    dataNascimento: "18/02/1967",
+    status: "Aposentado",
+    curiosidades:
+      "É o único jogador italiano a marcar gols em três Copas do Mundo diferentes (1990, 1994, 1998). Sua passagem mais polêmica foi a transferência da Fiorentina para a Juventus em 1990, que causou tumultos em Florença. É budista praticante. O pênalti perdido na final da Copa do Mundo de 1994 é um dos momentos mais icônicos (e tristes) da história do futebol.",
+
+    clubes: [
+      createClub(
+        "Vicenza",
+        { inicio: "1982", fim: "1985" },
+        { jogos: 47, gols: 16, assistencias: 0 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "1985", fim: "1990" },
+        { jogos: 136, gols: 55, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "1990", fim: "1995" },
+        { jogos: 201, gols: 115, assistencias: 0 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "1995", fim: "1997" },
+        { jogos: 67, gols: 19, assistencias: 0 }
+      ),
+      createClub(
+        "Bologna",
+        { inicio: "1997", fim: "1998" },
+        { jogos: 33, gols: 23, assistencias: 0 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "1998", fim: "2000" },
+        { jogos: 59, gols: 17, assistencias: 0 }
+      ),
+      createClub(
+        "Brescia",
+        { inicio: "2000", fim: "2004" },
+        { jogos: 101, gols: 46, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "1988", fim: "2004" },
+      estatisticas: { jogos: 56, gols: 27, assistencias: 12 },
+      destaque:
+        "Vice-campeão da Copa do Mundo FIFA de 1994 e 3º lugar na Copa do Mundo FIFA de 1990. Bola de Prata e eleito para a Seleção do Torneio da Copa de 1994.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Ouro",
+        anos: "1993",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundo pela FIFA",
+        logo: "FIFA World Player of The Year",
+        anos: "1993",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata da Copa do Mundo",
+        logo: "Bola de Prata FIFA",
+        anos: "1994",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1994",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Melhor Jogador Jovem Europeu",
+        logo: "Individual",
+        anos: "1990",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Serie A",
+        logo: "Campeonato Italiano",
+        anos: "2001",
+        categoria: "individual",
+      },
+
+      // JUVENTUS
+      {
+        nome: "Campeonato Italiano",
+        anos: "1995",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "1995",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da UEFA",
+        anos: "1993",
+        clube: "Juventus",
+      },
+
+      // AC MILAN
+      {
+        nome: "Campeonato Italiano",
+        anos: "1996",
+        clube: "AC Milan",
+      },
+    ],
+    tags: ["Codino Divino"],
+    ultima_atualizacao: "31/10/2025",
+  },
+
   // PORTUGAL -------------------------------------------------------------------------------------------------------------------------------------------------------
 
   // Cristiano Ronaldo
@@ -18849,7 +20497,7 @@ export const jogadores = [
       createClub(
         "Al-Nassr",
         { inicio: "2023", fim: "atual" },
-        { jogos: 123, gols: 114, assistencias: 25 }
+        { jogos: 124, gols: 116, assistencias: 25 }
       ),
     ],
     selecao: {
@@ -19034,7 +20682,7 @@ export const jogadores = [
       },
     ],
     tags: ["Cr7", "Cristiano"],
-    ultima_atualizacao: "27/10/25",
+    ultima_atualizacao: "01/11/25",
   },
 
   // Eusébio
@@ -19506,13 +21154,13 @@ export const jogadores = [
       createClub(
         "Dínamo Moscou",
         { inicio: "1949", fim: "1971" },
-        { jogos: 326, gols: 0, clean_sheets: 270 }
+        { jogos: 326, gols: 0, assistencias: 0 }
       ),
     ],
     selecao: {
       nome: "União Soviética",
       periodo: { inicio: "1954", fim: "1971" },
-      estatisticas: { jogos: 78, gols: 0, clean_sheets: 48 },
+      estatisticas: { jogos: 78, gols: 0, assistencias: 0 },
     },
 
     // TÍTULOS

@@ -54,22 +54,25 @@ export default function HomePage() {
   const resultadosFiltrados = dadosAtivos.filter((item) => {
     const termo = termoPesquisa.toLowerCase();
 
-    const correspondeCamposPrincipais =
-      item.nome?.toLowerCase().includes(termo) ||
-      item.nacionalidade?.toLowerCase().includes(termo) ||
-      item.posicao?.toLowerCase().includes(termo) ||
-      item.background?.toLowerCase().includes(termo);
-
-    const correspondeClubeOuTag =
-      (item.clubes || []).some((clube) =>
-        clube.nome?.toLowerCase().includes(termo)
-      ) ||
-      (item.tags || []).some((tag) => tag.toLowerCase().includes(termo)) ||
-      (item.titulos || []).some((titulo) =>
-        titulo.nome.toLowerCase().includes(termo)
-      );
-
-    return correspondeClubeOuTag || correspondeCamposPrincipais;
+    return item.nome?.toLowerCase().includes(termo)
+      ? true
+      : item.background?.toLowerCase().includes(termo)
+      ? true
+      : item.nacionalidade?.toLowerCase().includes(termo)
+      ? true
+      : item.posicao?.toLowerCase().includes(termo)
+      ? true
+      : (item.clubes || []).some((clube) =>
+          clube.nome?.toLowerCase().includes(termo)
+        )
+      ? true
+      : (item.tags || []).some((tag) => tag.toLowerCase().includes(termo))
+      ? true
+      : (item.titulos || []).some((titulo) =>
+          titulo.nome.toLowerCase().includes(termo)
+        )
+      ? true
+      : false;
   });
 
   let resultadosOrdenados = resultadosFiltrados;
