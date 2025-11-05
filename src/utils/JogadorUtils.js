@@ -67,7 +67,7 @@ export function gerarURLImagem(conquistas) {
 
 export function calcularPeriodoAtividade(jogador) {
   if (!jogador.clubes || jogador.clubes.length === 0) {
-    return jogador;
+    return [];
   }
 
   const anosInicio = jogador.clubes.map((clube) => clube.periodo.inicio);

@@ -1,7 +1,7 @@
 // src/app/page.js
 "use client";
 
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { jogadores } from "../data/jogadores";
 import { tecnicos } from "../data/tecnicos";
 import { selecoes } from "../data/selecoes";
@@ -17,6 +17,8 @@ const FILTRO_TECNICOS = "TECNICOS";
 const FILTRO_CLUBES = "CLUBES";
 const FILTRO_SELECOES = "SELECOES";
 
+const ITENS_POR_CARGA = 25;
+
 const filtros = [
   { nome: "Jogadores", termo: FILTRO_PADRAO },
   { nome: "Técnicos", termo: FILTRO_TECNICOS },
@@ -30,11 +32,12 @@ export default function HomePage() {
   const [categoriaAtiva, setCategoriaAtiva] = useState(FILTRO_PADRAO);
   const [buscaAcionada, setBuscaAcionada] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [itensVisiveis, setItensVisiveis] = useState(ITENS_POR_CARGA);
 
   if (loading) {
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 500);
   }
 
   const dadosAtivos = (() => {
@@ -51,80 +54,102 @@ export default function HomePage() {
     }
   })();
 
-  const resultadosFiltrados = dadosAtivos.filter((item) => {
-    const termo = termoPesquisa.toLowerCase();
+  const resultadosFinais = useMemo(() => {
+    if (!buscaAcionada) return [];
 
-    return item.nome?.toLowerCase().includes(termo)
-      ? true
-      : item.background?.toLowerCase().includes(termo)
-      ? true
-      : item.nacionalidade?.toLowerCase().includes(termo)
-      ? true
-      : item.posicao?.toLowerCase().includes(termo)
-      ? true
-      : (item.clubes || []).some((clube) =>
-          clube.nome?.toLowerCase().includes(termo)
-        )
-      ? true
-      : (item.tags || []).some((tag) => tag.toLowerCase().includes(termo))
-      ? true
-      : (item.titulos || []).some((titulo) =>
-          titulo.nome.toLowerCase().includes(termo)
-        )
-      ? true
-      : false;
-  });
-
-  let resultadosOrdenados = resultadosFiltrados;
-
-  if (categoriaAtiva === FILTRO_PADRAO) {
-    resultadosOrdenados = resultadosFiltrados.slice().sort((a, b) => {
+    const resultadosFiltrados = dadosAtivos.filter((item) => {
       const termo = termoPesquisa.toLowerCase();
 
-      const ultimoClubeA =
-        a.clubes && a.clubes.length > 0 ? a.clubes[a.clubes.length - 1] : null;
-      const ultimoClubeB =
-        b.clubes && b.clubes.length > 0 ? b.clubes[b.clubes.length - 1] : null;
-
-      const isPlayingA = ultimoClubeA?.nome?.toLowerCase().includes(termo);
-      const isPlayingB = ultimoClubeB?.nome?.toLowerCase().includes(termo);
-
-      if (isPlayingA && !isPlayingB) {
-        return -1;
-      }
-      if (!isPlayingA && isPlayingB) {
-        return 1;
-      }
-
-      const statusA = a.status === "Ativo";
-      const statusB = b.status === "Ativo";
-
-      if (statusA && !statusB) {
-        return -1;
-      }
-      if (!statusA && statusB) {
-        return 1;
-      }
-
-      return a.nome.localeCompare(b.nome);
+      return item.nome?.toLowerCase().includes(termo)
+        ? true
+        : item.background?.toLowerCase().includes(termo)
+        ? true
+        : item.nacionalidade?.toLowerCase().includes(termo)
+        ? true
+        : item.posicao?.toLowerCase().includes(termo)
+        ? true
+        : (item.clubes || []).some((clube) =>
+            clube.nome?.toLowerCase().includes(termo)
+          )
+        ? true
+        : (item.tags || []).some((tag) => tag.toLowerCase().includes(termo))
+        ? true
+        : (item.titulos || []).some((titulo) =>
+            titulo.nome.toLowerCase().includes(termo)
+          )
+        ? true
+        : false;
     });
-  }
+
+    let resultadosOrdenados = resultadosFiltrados;
+
+    if (categoriaAtiva === FILTRO_PADRAO) {
+      resultadosOrdenados = resultadosFiltrados.slice().sort((a, b) => {
+        const termo = termoPesquisa.toLowerCase();
+
+        const ultimoClubeA =
+          a.clubes && a.clubes.length > 0
+            ? a.clubes[a.clubes.length - 1]
+            : null;
+        const ultimoClubeB =
+          b.clubes && b.clubes.length > 0
+            ? b.clubes[b.clubes.length - 1]
+            : null;
+
+        const isPlayingA = ultimoClubeA?.nome?.toLowerCase().includes(termo);
+        const isPlayingB = ultimoClubeB?.nome?.toLowerCase().includes(termo);
+
+        if (isPlayingA && !isPlayingB) {
+          return -1;
+        }
+        if (!isPlayingA && isPlayingB) {
+          return 1;
+        }
+
+        const statusA = a.status === "Ativo";
+        const statusB = b.status === "Ativo";
+
+        if (statusA && !statusB) {
+          return -1;
+        }
+        if (!statusA && statusB) {
+          return 1;
+        }
+
+        return a.nome.localeCompare(b.nome);
+      });
+    }
+
+    return categoriaAtiva === FILTRO_PADRAO
+      ? resultadosOrdenados
+      : resultadosFiltrados;
+  }, [termoPesquisa, dadosAtivos, categoriaAtiva, buscaAcionada]);
+
+  const handleMostrarMais = () => {
+    setLoading(true);
+
+    setTimeout(() => {
+      setItensVisiveis((prev) => prev + ITENS_POR_CARGA);
+      setLoading(false);
+    }, 300);
+  };
 
   const renderizarCards = () => {
     let CardComponent;
     let propName;
 
-    const dadosParaRenderizar =
-      categoriaAtiva === FILTRO_PADRAO
-        ? resultadosOrdenados
-        : resultadosFiltrados;
+    const dadosParaRenderizar = resultadosFinais.slice(0, itensVisiveis);
 
-    if (dadosParaRenderizar.length === 0) {
+    if (resultadosFinais.length === 0 && buscaAcionada) {
       return (
         <p className="sem-resultados">
           Nenhum resultado encontrado para "{termoPesquisa}".
         </p>
       );
+    }
+
+    if (dadosParaRenderizar.length === 0 && !loading) {
+      return null;
     }
 
     switch (categoriaAtiva) {
@@ -157,9 +182,12 @@ export default function HomePage() {
 
     setLoading(true);
     setBuscaAcionada(true);
-
+    setItensVisiveis(ITENS_POR_CARGA);
     setTermoPesquisa(textoInput);
   };
+
+  const exibirBotaoMais =
+    buscaAcionada && itensVisiveis < resultadosFinais.length;
 
   return (
     <header className="pagina">
@@ -206,7 +234,19 @@ export default function HomePage() {
         <main className="resultados-pesquisa">
           {loading && <Loading />}
           {buscaAcionada ? (
-            renderizarCards()
+            <>
+              {renderizarCards()}
+              {exibirBotaoMais && (
+                <button
+                  className="btn-mostrar-mais"
+                  onClick={handleMostrarMais}
+                  disabled={loading}
+                >
+                  Mostrar mais
+                  <span className="fa-solid fa-chevron-down"></span>
+                </button>
+              )}
+            </>
           ) : (
             <>
               <p id="p-resultados">

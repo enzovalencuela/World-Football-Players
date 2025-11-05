@@ -120,7 +120,7 @@ function CardJogador({ jogador }) {
           className="mostrar-esconder"
           onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
         >
-          {mostrarDetalhes ? "Mostrar menos" : "Mostrar mais"}
+          {mostrarDetalhes ? "Esconder detalhes" : "Mostrar detalhes"}
           <span
             className={`fa-solid fa-chevron-${mostrarDetalhes ? "up" : "down"}`}
           ></span>

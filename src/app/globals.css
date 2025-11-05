@@ -184,6 +184,14 @@ ul {
   gap: 30px;
 }
 
+.btn-mostrar-mais {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background: none;
+  color: #fff;
+}
+
 .sem-resultados {
   color: red;
   font-weight: bold;

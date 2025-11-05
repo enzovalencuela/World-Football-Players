@@ -6316,21 +6316,116 @@ export const jogadores = [
   // Diego Alves
   {
     nome: "Diego Alves",
-    background: "default",
+    background: "plate",
     descricao:
-      "Goleiro brasileiro conhecido por suas defesas difíceis e personalidade marcante. Atuou por grandes clubes como Flamengo e Valencia.",
-    pagina: "https://www.instagram.com/diegoalves/",
+      "Goleiro brasileiro, ídolo do Flamengo e um dos maiores pegadores de pênaltis da história do futebol. Com uma longa passagem pela La Liga, ele foi fundamental nas conquistas do Flamengo na 'Era de Ouro', incluindo dois títulos da Copa Libertadores e dois Campeonatos Brasileiros.",
+    pagina: "https://pt.wikipedia.org/wiki/Diego_Alves",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/b2/2020/07/08/diego-alves-goleiro-do-flamengo-sinaliza-para-companheiros-durante-final-contra-o-fluminense-1594256515230_v2_3x4.jpg",
+      "https://assets.goal.com/images/v3/bltc1c6e08c8780d646/fla_diego_alves.jpg",
     numero: "1",
     posicao: "Goleiro",
     dataNascimento: "24/06/1985",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Diego Alves detém o recorde de pênaltis defendidos na história do Campeonato Espanhol (La Liga), com 22 defesas em 50 cobranças. Sua especialidade em penalidades lhe rendeu o apelido de 'Pegador de Pênaltis'.",
+    clubes: [
+      createClub(
+        "Atlético Mineiro",
+        { inicio: "2004", fim: "2007" },
+        { jogos: 61, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Almería",
+        { inicio: "2007", fim: "2011" },
+        { jogos: 120, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Valencia",
+        { inicio: "2011", fim: "2017" },
+        { jogos: 175, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2017", fim: "2022" },
+        { jogos: 216, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Celta de Vigo",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2011", fim: "2017" },
+      estatisticas: { jogos: 11, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2019, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2019, 2020, 2021",
+        clube: "Flamengo",
+      },
+
+      // Atlético-MG
+      {
+        nome: "Campeonato Brasileiro Série B",
+        anos: "2006",
+        clube: "Atlético Mineiro",
+      },
+
+      // Brasil
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Recordista de Pênaltis Defendidos",
+        logo: "Campeonato Espanhol",
+        anos: "Histórico",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Carioca",
+        logo: "Campeonato Carioca",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2019",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Diego Alves", "Pegador de Pênaltis"],
+    ultima_atualizacao: "05/11/2025",
   },
 
   // Diego Ribas
@@ -7663,21 +7758,104 @@ export const jogadores = [
   // Fernandinho
   {
     nome: "Fernandinho",
-    background: "default",
+    background: "titanium",
     descricao:
-      "Volante brasileiro conhecido por sua versatilidade e capacidade de marcação, Fernandinho se destacou no Shakhtar Donetsk e Manchester City, atualmente joga no Athletico-PR.",
+      "Volante brasileiro com uma das carreiras mais vitoriosas da história do Manchester City, onde foi capitão e peça central na 'Era Guardiola'. É reconhecido pela sua versatilidade, liderança e capacidade de desarmar e construir jogo. Também teve uma passagem vitoriosa pelo Shakhtar Donetsk.",
     pagina: "https://www.instagram.com/fernandinho/",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/43/2018/10/20/fernandinho-comemora-gol-durante-manchester-city-x-burnley-neste-sabado-1540051315426_v2_450x600.jpg",
+      "https://sportbuzz.com.br/wp-content/uploads/2024/08/fernandinho-athletico-pr.jpg.webp",
     numero: "5",
     posicao: "Volante",
     dataNascimento: "04/05/1985",
-    status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    status: "Ativo",
+    curiosidades:
+      "Fernandinho foi o autor do gol que deu o título do Mundial Sub-20 de 2003 ao Brasil, em uma vitória por 1 a 0 sobre a Espanha. Pelo Manchester City, é um dos jogadores estrangeiros com mais títulos na história do clube.",
+    clubes: [
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2003", fim: "2005" },
+        { jogos: 83, gols: 14, assistencias: 0 }
+      ),
+      createClub(
+        "Shakhtar Donetsk",
+        { inicio: "2005", fim: "2013" },
+        { jogos: 284, gols: 53, assistencias: 46 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2013", fim: "2022" },
+        { jogos: 383, gols: 26, assistencias: 33 }
+      ),
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2022", fim: "Atual" },
+        { jogos: 135, gols: 19, assistencias: 13 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2011", fim: "2019" },
+      estatisticas: { jogos: 53, gols: 2, assistencias: 0 },
+    },
+    titulos: [
+      // Manchester City
+      {
+        nome: "Campeonato Inglês",
+        anos: "2014, 2018, 2019, 2021, 2022",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2014, 2016, 2018, 2019, 2020, 2021",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2019",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2018, 2019",
+        clube: "Manchester City",
+      },
+
+      // Shakhtar Donetsk
+      {
+        nome: "Copa da UEFA",
+        anos: "2009",
+        clube: "Shakhtar Donetsk",
+      },
+      {
+        nome: "Campeonato Ucraniano",
+        anos: "2006, 2008, 2010, 2011, 2012, 2013",
+        clube: "Shakhtar Donetsk",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo Sub-20",
+        anos: "2003",
+        clube: "Brasil",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Jogador da Temporada do Campeonato Ucraniano",
+        logo: "Campeonato Ucraniano",
+        anos: "2008",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Fernandinho", "Capitão"],
+    ultima_atualizacao: "05/11/2025",
   },
 
   // Filipe Luís
@@ -10935,20 +11113,120 @@ export const jogadores = [
   // Raphael Veiga
   {
     nome: "Raphael Veiga",
-    background: "default",
+    background: "plate",
     descricao:
-      "Meia talentoso e artilheiro, Raphael Veiga é conhecido por seus chutes poderosos e visão de jogo. Atualmente, é um dos principais jogadores do Palmeiras.",
-    pagina: "https://www.instagram.com/raphael_veiga/",
+      "Meia-campista brasileiro, ídolo e um dos maiores artilheiros da história recente do Palmeiras. Conhecido por sua precisão em cobranças de pênalti e falta, além de ser decisivo em finais, Veiga é o armador e principal goleador do clube na 'Era Abel Ferreira', sendo peça chave nas conquistas da Libertadores e do Campeonato Brasileiro.",
+    pagina: "https://pt.wikipedia.org/wiki/Raphael_Veiga",
     nacionalidade: "Brasil",
-    imagem: "https://pbs.twimg.com/media/F5JCyvuWQAASJlw.jpg:large",
+    imagem:
+      "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2025-02/Raphael%20Veiga%20Palmeiras%2002202025.jpg?itok=F3hS8Y95",
     numero: "23",
-    posicao: "Meia",
+    posicao: "Meia Ofensivo",
     dataNascimento: "19/06/1995",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "É o maior artilheiro do Palmeiras no Século XXI e o maior goleador da história do Allianz Parque. Veiga é reconhecido por sua altíssima eficiência em pênaltis, sendo um dos melhores cobradores em atividade no futebol brasileiro.",
+    clubes: [
+      createClub(
+        "Coritiba",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 24, gols: 3, assistencias: 3 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2017", fim: "2017" },
+        { jogos: 30, gols: 2, assistencias: 2 }
+      ),
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2018", fim: "2018" },
+        { jogos: 48, gols: 9, assistencias: 8 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2019", fim: "Atual" },
+        { jogos: 373, gols: 109, assistencias: 57 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2023", fim: "Atual" },
+      estatisticas: { jogos: 6, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Palmeiras
+      {
+        nome: "Copa Libertadores",
+        anos: "2020, 2021",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2022",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2020, 2022, 2023, 2024",
+        clube: "Palmeiras",
+      },
+
+      // Atlético Paranaense
+      {
+        nome: "Copa Sul-Americana",
+        anos: "2018",
+        clube: "Atlético Paranaense",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Bola de Prata (ESPN)",
+        logo: "ESPN",
+        anos: "2021, 2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Meia do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Copa do Brasil",
+        logo: "Copa do Brasil",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Supercopa do Brasil",
+        logo: "Supercopa do Brasil",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2021",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Raphael Veiga", "VEIGA"],
+    ultima_atualizacao: "05/11/2025",
   },
 
   // Raphinha
@@ -11464,19 +11742,167 @@ export const jogadores = [
     nome: "Roberto Carlos",
     background: "diamond",
     descricao:
-      "Lateral-esquerdo brasileiro conhecido por seus chutes potentes e precisos, especialmente as faltas. Foi um dos principais jogadores da seleção brasileira campeã mundial em 2002.",
-    pagina: "https://www.instagram.com/robertocarlosoficial/",
+      "Lateral-esquerdo brasileiro conhecido por seus chutes potentes e precisos, especialmente as faltas e as 'trivelas'. Foi um dos principais jogadores da 'Era Galáctica' do Real Madrid e peça fundamental na Seleção Brasileira que conquistou a Copa do Mundo de 2002. Sua velocidade, resistência e poder de ataque o tornaram um dos maiores laterais da história.",
+    pagina: "https://pt.wikipedia.org/wiki/Roberto_Carlos_(futebolista)",
     nacionalidade: "Brasil",
     imagem:
       "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/M4G6JQ2SMFM7VK2V6Z5RRR3RYI.jpg",
-    posicao: "Lateral-esquerdo",
     numero: "6",
+    posicao: "Lateral-esquerdo",
     dataNascimento: "10/04/1973",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Roberto Carlos é famoso por seu gol de falta contra a França em 1997, onde a bola fez uma curva inacreditável (a trivela), considerado um dos gols mais improváveis e cientificamente complexos da história do futebol. A velocidade de seu chute chegava perto de 140 km/h.",
+    clubes: [
+      createClub(
+        "União São João",
+        { inicio: "1991", fim: "1992" },
+        { jogos: 67, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Atlético Mineiro",
+        { inicio: "1992", fim: "1993" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "1993", fim: "1995" },
+        { jogos: 135, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "1995", fim: "1996" },
+        { jogos: 34, gols: 7, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "1996", fim: "2007" },
+        { jogos: 527, gols: 69, assistencias: 0 }
+      ),
+      createClub(
+        "Fenerbahçe",
+        { inicio: "2007", fim: "2009" },
+        { jogos: 104, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 64, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Anzhi Makhachkala",
+        { inicio: "2011", fim: "2012" },
+        { jogos: 31, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Delhi Dynamos",
+        { inicio: "2015", fim: "2015" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1992", fim: "2006" },
+      estatisticas: { jogos: 125, gols: 11, assistencias: 0 },
+    },
+    titulos: [
+      // Títulos Individuais
+      {
+        nome: "Bola de Ouro (2º Lugar)",
+        logo: "Bola de Ouro",
+        anos: "2002",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Defensor do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2002, 2003",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "1998",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Lendas",
+        logo: "IFFHS",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2002",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+
+      // Palmeiras
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "1993, 1994",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "1993, 1994",
+        clube: "Palmeiras",
+      },
+
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "1998, 2000, 2002",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "1997, 2001, 2003, 2007",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1998, 2002",
+        clube: "Real Madrid",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa do Mundo",
+        anos: "2002",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa América",
+        anos: "1999",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa das Confederações",
+        anos: "1997",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Roberto Carlos", "RC"],
+    ultima_atualizacao: "05/11/2025",
   },
 
   // Roberto Firmino
@@ -13130,24 +13556,80 @@ export const jogadores = [
     ultima_atualizacao: "29/10/25",
   },
 
-  //Yuri Alberto
+  // Yuri Alberto
   {
     nome: "Yuri Alberto",
     background: "default",
     descricao:
-      "Atacante promissor, Yuri Alberto é conhecido por sua finalização precisa e habilidade de se movimentar dentro da área. Atualmente, é um dos destaques do Corinthians.",
-    pagina: "https://www.instagram.com/yurialberto/",
+      "Centroavante brasileiro com passagens por Santos, Internacional e Zenit (Rússia), atualmente no Corinthians. É conhecido por sua velocidade, mobilidade e faro de gol. Foi artilheiro do Campeonato Brasileiro de 2024 e se tornou o maior goleador da Neo Química Arena na história do clube.",
+    pagina: "https://pt.wikipedia.org/wiki/Yuri_Alberto",
     nacionalidade: "Brasil",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Sulamericana_CUP_2023_Semifinal_-_Corinthians_x_Fortaleza-CE_%2853553783422%29_%28cropped%29.jpg/250px-Sulamericana_CUP_2023_Semifinal_-_Corinthians_x_Fortaleza-CE_%2853553783422%29_%28cropped%29.jpg",
+      "https://conteudo.imguol.com.br/c/esporte/1d/2025/05/18/yuri-alberto-comemora-apos-marcar-para-o-corinthians-contra-o-santos-pelo-campeonato-brasileiro-2025-1747600261814_v2_1x1.jpg",
     numero: "9",
-    posicao: "Atacante",
-    dataNascimento: "10/01/2000",
+    posicao: "Centroavante",
+    dataNascimento: "18/03/2001",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Yuri Alberto é o jogador mais jovem a atingir a marca de 50 gols pelo Corinthians no Século XXI e o maior artilheiro da Neo Química Arena. Ele também fez parte do elenco campeão russo pelo Zenit.",
+    clubes: [
+      createClub(
+        "Santos",
+        { inicio: "2017", fim: "2020" },
+        { jogos: 27, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Internacional",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 85, gols: 31, assistencias: 5 }
+      ),
+      createClub(
+        "Zenit",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 14, gols: 6, assistencias: 3 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2022", fim: "Atual" },
+        { jogos: 198, gols: 72, assistencias: 20 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2023", fim: "Atual" },
+      estatisticas: { jogos: 2, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Zenit
+      {
+        nome: "Campeonato Russo",
+        anos: "2021/2022",
+        clube: "Zenit",
+      },
+
+      // Corinthians
+      {
+        nome: "Campeonato Paulista",
+        anos: "2025",
+        clube: "Corinthians",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Artilheiro do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2024",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Paulista",
+        logo: "Campeonato Paulista",
+        anos: "2025",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Yuri Alberto"],
+    ultima_atualizacao: "05/11/2025",
   },
 
   // Zico
@@ -13418,7 +13900,7 @@ export const jogadores = [
         anos: "2005, 2006, 2009",
         clube: "Barcelona",
       },
-      // Internazionale
+      // Inter de Milão
       {
         nome: "UEFA Champions League",
         anos: "2010",
@@ -13435,7 +13917,7 @@ export const jogadores = [
         clube: "Inter de Milão",
       },
 
-      // Seleção Camaronesa
+      // Camarões
       {
         nome: "Copa Africana de Nações",
         anos: "2000, 2002",
@@ -19044,6 +19526,115 @@ export const jogadores = [
     ultima_atualizacao: "29/10/25",
   },
 
+  // Frank Rijkaard
+{
+  nome: "Frank Rijkaard",
+  background: "gold",
+  descricao:
+    "Lenda holandesa e um dos maiores volantes da história. Foi peça-chave no lendário 'Trio Holandês' do AC Milan, conquistando duas Copas Europeias. Brilhou também no Ajax e na Seleção Holandesa, vencendo a Eurocopa. Após a aposentadoria, teve sucesso como técnico, liderando o Barcelona ao título da Liga dos Campeões de 2006.",
+  pagina: "https://pt.wikipedia.org/wiki/Frank_Rijkaard",
+  nacionalidade: "Holanda",
+  imagem:
+    "https://fairplay.pt/wp-content/uploads/2020/11/franrija.jpg",
+  numero: "8",
+  posicao: "Volante / Zagueiro",
+  dataNascimento: "30/09/1962",
+  status: "Aposentado",
+  curiosidades:
+    "Rijkaard foi o treinador responsável por dar a primeira chance a Lionel Messi no time principal do Barcelona. Ele é um dos únicos a vencer a Liga dos Campeões como jogador (três vezes) e como treinador (uma vez).",
+  clubes: [
+    createClub(
+      "Ajax",
+      { inicio: "1980", fim: "1987" },
+      { jogos: 206, gols: 49, assistencias: 0 }
+    ),
+    createClub(
+      "Real Zaragoza",
+      { inicio: "1988", fim: "1988" },
+      { jogos: 11, gols: 0, assistencias: 0 }
+    ),
+    createClub(
+      "AC Milan",
+      { inicio: "1988", fim: "1993" },
+      { jogos: 201, gols: 26, assistencias: 0 }
+    ),
+    createClub(
+      "Ajax",
+      { inicio: "1993", fim: "1995" },
+      { jogos: 59, gols: 9, assistencias: 0 }
+    ),
+  ],
+  selecao: {
+    nome: "Holanda",
+    periodo: { inicio: "1981", fim: "1994" },
+    estatisticas: { jogos: 73, gols: 10, assistencias: 0 },
+  },
+  titulos: [
+    // Ajax
+    {
+      nome: "Campeonato Holandês",
+      anos: "1982, 1983, 1985, 1994, 1995",
+      clube: "Ajax",
+    },
+    {
+      nome: "Recopa Europeia",
+      anos: "1987",
+      clube: "Ajax",
+    },
+    {
+      nome: "UEFA Champions League",
+      anos: "1995",
+      clube: "Ajax",
+    },
+
+    // AC Milan
+    {
+      nome: "UEFA Champions League",
+      anos: "1989, 1990",
+      clube: "AC Milan",
+    },
+    {
+      nome: "Copa Intercontinental",
+      anos: "1989, 1990",
+      clube: "AC Milan",
+    },
+    {
+      nome: "Supercopa da UEFA",
+      anos: "1989, 1990, 1995",
+      clube: "AC Milan",
+    },
+    {
+      nome: "Campeonato Italiano",
+      anos: "1992, 1993",
+      clube: "AC Milan",
+    },
+
+    // Holanda
+    {
+      nome: "Eurocopa",
+      anos: "1988",
+      clube: "Holanda",
+      logoVariavel: true,
+    },
+
+    // Títulos Individuais
+    {
+      nome: "Futebolista Neerlandês do Ano",
+      logo: "Individual",
+      anos: "1985, 1987",
+      categoria: "individual",
+    },
+    {
+      nome: "Bola de Ouro Dream Team (2º Esquadrão)",
+      logo: "France Football",
+      anos: "Histórico",
+      categoria: "individual",
+    },
+  ],
+  tags: ["Frank Rijkaard"],
+  ultima_atualizacao: "05/11/2025",
+},
+
   // Johan Cruyff
   {
     nome: "Johan Cruyff",
@@ -19400,6 +19991,121 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
+    // Robin van Persie
+{
+  nome: "Robin van Persie",
+  background: "titanium",
+  descricao:
+    "Atacante holandês, considerado um dos melhores da sua geração. É o maior artilheiro da história da Seleção Holandesa. Brilhou na Premier League, sendo artilheiro e Jogador do Ano por Arsenal e Manchester United, onde conquistou o Campeonato Inglês de 2013.",
+  pagina: "https://pt.wikipedia.org/wiki/Robin_van_Persie",
+  nacionalidade: "Holanda",
+  imagem:
+    "https://e0.365dm.com/14/06/1600x900/football-international-friendly-robin-van-persie-holland-netherlands_3160009.jpg?20170905165030",
+  numero: "9",
+  posicao: "Centroavante / Segundo Atacante",
+  dataNascimento: "06/08/1983",
+  status: "Aposentado",
+  curiosidades:
+    "Van Persie é famoso pelo seu gol de peixinho contra a Espanha na Copa do Mundo de 2014, que foi indicado ao Prêmio Puskas. Ele é, historicamente, o maior artilheiro da Seleção Holandesa.",
+  clubes: [
+    createClub(
+      "Feyenoord",
+      { inicio: "2001", fim: "2004" },
+      { jogos: 78, gols: 21, assistencias: 0 }
+    ),
+    createClub(
+      "Arsenal",
+      { inicio: "2004", fim: "2012" },
+      { jogos: 278, gols: 133, assistencias: 61 }
+    ),
+    createClub(
+      "Manchester United",
+      { inicio: "2012", fim: "2015" },
+      { jogos: 105, gols: 58, assistencias: 21 }
+    ),
+    createClub(
+      "Fenerbahçe",
+      { inicio: "2015", fim: "2018" },
+      { jogos: 87, gols: 36, assistencias: 7 }
+    ),
+    createClub(
+      "Feyenoord",
+      { inicio: "2018", fim: "2019" },
+      { jogos: 45, gols: 25, assistencias: 2 }
+    ),
+  ],
+  selecao: {
+    nome: "Holanda",
+    periodo: { inicio: "2005", fim: "2017" },
+    estatisticas: { jogos: 102, gols: 50, assistencias: 0 },
+  },
+  titulos: [
+    // Feyenoord
+    {
+      nome: "Copa da UEFA",
+      anos: "2002",
+      clube: "Feyenoord",
+    },
+    {
+      nome: "Supercopa da Holanda",
+      anos: "2018",
+      clube: "Feyenoord",
+    },
+
+    // Arsenal
+    {
+      nome: "Supercopa da Inglaterra",
+      anos: "2004",
+      clube: "Arsenal",
+    },
+    {
+      nome: "Copa da Inglaterra",
+      anos: "2005",
+      clube: "Arsenal",
+    },
+    
+    // Manchester United
+    {
+      nome: "Campeonato Inglês",
+      anos: "2013",
+      clube: "Manchester United",
+    },
+    {
+      nome: "Supercopa da Inglaterra",
+      anos: "2013",
+      clube: "Manchester United",
+    },
+
+    // Títulos/Prêmios Individuais
+    {
+      nome: "Jogador do Ano (PFA)",
+      logo: "PFA",
+      anos: "2012",
+      categoria: "individual",
+    },
+    {
+      nome: "Jogador do Ano (FWA)",
+      logo: "FWA",
+      anos: "2012",
+      categoria: "individual",
+    },
+    {
+      nome: "Chuteira de Ouro da Campeonato Inglês",
+      logo: "Campeonato Inglês",
+      anos: "2012, 2013",
+      categoria: "individual",
+    },
+    {
+      nome: "Maior Artilheiro da Seleção Holandesa",
+      logo: "Individual",
+      anos: "Histórico",
+      categoria: "individual",
+    },
+  ],
+  tags: ["Robin van Persie", "RVP"],
+  ultima_atualizacao: "05/11/2025",
+},
+
   // Ruud Gullit
   {
     nome: "Ruud Gullit",
@@ -19582,6 +20288,142 @@ export const jogadores = [
     tags: ["Gullit"],
     ultima_atualizacao: "29/10/25",
   },
+
+// Virgil van Dijk
+{
+  nome: "Virgil van Dijk",
+  background: "diamond",
+  descricao:
+    "Zagueiro holandês considerado um dos melhores defensores do século. Liderou o Liverpool nas conquistas da UEFA Champions League (2019) e da Premier League (2020). Foi eleito o Melhor Jogador da UEFA de 2019, o primeiro defensor a vencer o prêmio, e ficou em segundo lugar na votação da Bola de Ouro.",
+  pagina: "https://pt.wikipedia.org/wiki/Virgil_van_Dijk",
+  nacionalidade: "Holanda",
+  imagem:
+    "https://sportsview.co.uk/wp-content/uploads/2025/03/liverpool-v-newcastle-united-carabao-cup-final-1-scaled.jpg",
+  numero: "4",
+  posicao: "Zagueiro",
+  dataNascimento: "08/07/1991",
+  status: "Ativo",
+  curiosidades:
+    "Van Dijk foi o zagueiro mais caro da história do futebol na época de sua transferência para o Liverpool em 2018. Ele é conhecido por não ter sido driblado por um longo período, em uma sequência impressionante entre março de 2018 e agosto de 2019.",
+  clubes: [
+    createClub(
+      "Groningen",
+      { inicio: "2011", fim: "2013" },
+      { jogos: 66, gols: 7, assistencias: 4 }
+    ),
+    createClub(
+      "Celtic",
+      { inicio: "2013", fim: "2015" },
+      { jogos: 115, gols: 15, assistencias: 7 }
+    ),
+    createClub(
+      "Southampton",
+      { inicio: "2015", fim: "2017" },
+      { jogos: 80, gols: 7, assistencias: 2 }
+    ),
+    createClub(
+      "Liverpool",
+      { inicio: "2018", fim: "Atual" },
+      { jogos: 275, gols: 23, assistencias: 11 }
+    ),
+  ],
+  selecao: {
+    nome: "Holanda",
+    periodo: { inicio: "2015", fim: "Atual" },
+    estatisticas: { jogos: 87, gols: 11, assistencias: 3 },
+  },
+  titulos: [
+    // Celtic
+    {
+      nome: "Campeonato Escocês",
+      anos: "2013/2014, 2014/2015",
+      clube: "Celtic",
+    },
+    {
+      nome: "Copa da Liga Escocesa",
+      anos: "2014/2015",
+      clube: "Celtic",
+    },
+
+    // Liverpool
+    {
+      nome: "UEFA Champions League",
+      anos: "2019",
+      clube: "Liverpool",
+    },
+    {
+      nome: "Supercopa da UEFA",
+      anos: "2019",
+      clube: "Liverpool",
+    },
+    {
+      nome: "Mundial de Clubes",
+      anos: "2019",
+      clube: "Liverpool",
+    },
+    {
+      nome: "Campeonato Inglês",
+      anos: "2020, 2025",
+      clube: "Liverpool",
+    },
+    {
+      nome: "Copa da Liga Inglesa",
+      anos: "2022, 2024",
+      clube: "Liverpool",
+    },
+    {
+      nome: "Copa da Inglaterra",
+      anos: "2022",
+      clube: "Liverpool",
+    },
+    {
+      nome: "Supercopa da Inglaterra",
+      anos: "2022",
+      clube: "Liverpool",
+    },
+    
+
+    // Títulos Individuais
+    {
+      nome: "Melhor Jogador da UEFA",
+      logo: "UEFA",
+      anos: "2019",
+      categoria: "individual",
+    },
+    {
+      nome: "Melhor Defensor da UEFA",
+      logo: "UEFA",
+      anos: "2019",
+      categoria: "individual",
+    },
+    {
+      nome: "Jogador do Ano (PFA)",
+      logo: "PFA",
+      anos: "2019, 2022",
+      categoria: "individual",
+    },
+    {
+      nome: "Melhor Jogador do campeonato Inglês",
+      logo: "campeonato Inglês",
+      anos: "2019",
+      categoria: "individual",
+    },
+    {
+      nome: "FIFPro World XI",
+      logo: "FIFPro",
+      anos: "2019, 2020, 2022, 2024, 2025",
+      categoria: "individual",
+    },
+    {
+      nome: "Bola de Ouro (2º lugar)",
+      logo: "Bola de Ouro",
+      anos: "2019",
+      categoria: "individual",
+    },
+  ],
+  tags: ["Virgil van Dijk", "VVD"],
+  ultima_atualizacao: "05/11/2025",
+},
 
   // HUNGRIA -------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -20326,6 +21168,124 @@ export const jogadores = [
     tags: ["King Kev", "Mighty Mouse", "OBE"],
     ultima_atualizacao: "01/11/2025",
   },
+
+  // Frank Lampard
+{
+  nome: "Frank Lampard",
+  background: "diamond",
+  descricao:
+    "Lenda do Chelsea e um dos maiores meio-campistas da história da Premier League. É o maior artilheiro da história do Chelsea (211 gols). Liderou o clube nas conquistas da UEFA Champions League (2012) e 3x Campeonato Inglês. Foi o 2º colocado na Bola de Ouro e no prêmio de Melhor Jogador do Mundo da FIFA em 2005.",
+  pagina: "https://pt.wikipedia.org/wiki/Frank_Lampard",
+  nacionalidade: "Inglaterra",
+  imagem:
+    "https://editorial.uefa.com/resources/01fb-0e7d372ffa27-79b0f0ea5b15-1000/frank_lampard_chelsea_fc_.jpeg",
+  numero: "8",
+  posicao: "Meia Central / Meia Ofensivo",
+  dataNascimento: "20/06/1978",
+  status: "Aposentado",
+  curiosidades:
+    "É o único meio-campista a marcar mais de 150 gols na Premier League e o jogador com mais partidas consecutivas na história da competição (164). É o maior artilheiro da história do Chelsea, com 211 gols em 648 jogos.",
+  clubes: [
+    createClub(
+      "West Ham",
+      { inicio: "1995", fim: "2001" },
+      { jogos: 185, gols: 38, assistencias: 6 }
+    ),
+    createClub(
+      "Chelsea",
+      { inicio: "2001", fim: "2014" },
+      { jogos: 648, gols: 211, assistencias: 150 }
+    ),
+    createClub(
+      "Manchester City",
+      { inicio: "2014", fim: "2015" },
+      { jogos: 38, gols: 8, assistencias: 2 }
+    ),
+    createClub(
+      "New York City FC",
+      { inicio: "2015", fim: "2016" },
+      { jogos: 31, gols: 15, assistencias: 2 }
+    ),
+  ],
+  selecao: {
+    nome: "Inglaterra",
+    periodo: { inicio: "1999", fim: "2014" },
+    estatisticas: { jogos: 106, gols: 29, assistencias: 17 },
+  },
+  titulos: [
+    // Chelsea
+    {
+      nome: "UEFA Champions League",
+      anos: "2012",
+      clube: "Chelsea",
+    },
+    {
+      nome: "UEFA Europa League",
+      anos: "2013",
+      clube: "Chelsea",
+    },
+    {
+      nome: "Campeonato Inglês",
+      anos: "2005, 2006, 2010",
+      clube: "Chelsea",
+    },
+    {
+      nome: "Copa da Inglaterra",
+      anos: "2007, 2009, 2010, 2012",
+      clube: "Chelsea",
+    },
+    {
+      nome: "Copa da Liga Inglesa",
+      anos: "2005, 2007",
+      clube: "Chelsea",
+    },
+    {
+      nome: "Supercopa da Inglaterra",
+      anos: "2005, 2009",
+      clube: "Chelsea",
+    },
+
+    // Títulos Individuais
+    {
+      nome: "Bola de Ouro (2º lugar)",
+      logo: "Bola de Ouro",
+      anos: "2005",
+      categoria: "individual",
+    },
+    {
+      nome: "Melhor Jogador do Mundo FIFA (2º lugar)",
+      logo: "FIFA World Player of The Year",
+      anos: "2005",
+      categoria: "individual",
+    },
+    {
+      nome: "Jogador do Ano (PFA)",
+      logo: "PFA",
+      anos: "2005",
+      categoria: "individual",
+    },
+    {
+      nome: "Melhor Jogador do Campeonato Inglês",
+      logo: "Campeonato Inglês",
+      anos: "2005",
+      categoria: "individual",
+    },
+    {
+      nome: "Meio-campista do Ano da UEFA",
+      logo: "UEFA",
+      anos: "2008",
+      categoria: "individual",
+    },
+    {
+      nome: "Maior Artilheiro do Chelsea",
+      logo: "Individual",
+      anos: "Histórico",
+      categoria: "individual",
+    },
+  ],
+  tags: ["Frank Lampard", "Super Frank"],
+  ultima_atualizacao: "05/11/2025",
+},
 
   // Stanley Matthews
   {
