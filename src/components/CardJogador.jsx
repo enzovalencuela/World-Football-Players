@@ -91,8 +91,12 @@ function CardJogador({ jogador }) {
             <TabelaTitulosPorEquipe jogador={jogador} />
           </div>
         </div>
-        <h3>Curiosidade</h3>
-        <p>{jogador.curiosidades}</p>
+        {jogador.curiosidades && (
+          <>
+            <h3>Curiosidade</h3>
+            <p>{jogador.curiosidades}</p>
+          </>
+        )}
         {jogador.ultima_atualizacao && (
           <p>Última Atualização: {jogador.ultima_atualizacao}</p>
         )}
