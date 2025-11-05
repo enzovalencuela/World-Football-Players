@@ -14,6 +14,20 @@ function CardJogador({ jogador }) {
   const clubeAtual = clubes.length > 0 ? [clubes[clubes.length - 1]] : null;
   const clubesAnteriores = clubes.slice(0, -1);
 
+  const jogadorTemConteudoExtra = () => {
+    const temEstatisticasClube = jogador.clubes?.some((c) => c.estatisticas);
+    const temEstatisticasSelecao = !!jogador.selecao?.estatisticas;
+    const temTitulos = jogador.titulos?.length > 0;
+    const temCuriosidades = !!jogador.curiosidades;
+
+    return (
+      temEstatisticasClube ||
+      temEstatisticasSelecao ||
+      temTitulos ||
+      temCuriosidades
+    );
+  };
+
   return (
     <div className="jogador" id={jogador.background}>
       <img className="img-grampo" src="/img__fundos/Fundo_Grampo.png" alt="" />
@@ -101,15 +115,17 @@ function CardJogador({ jogador }) {
           <p>Última Atualização: {jogador.ultima_atualizacao}</p>
         )}
       </div>
-      <button
-        className="mostrar-esconder"
-        onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
-      >
-        {mostrarDetalhes ? "Mostrar menos" : "Mostrar mais"}
-        <span
-          className={`fa-solid fa-chevron-${mostrarDetalhes ? "up" : "down"}`}
-        ></span>
-      </button>
+      {jogadorTemConteudoExtra() && (
+        <button
+          className="mostrar-esconder"
+          onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
+        >
+          {mostrarDetalhes ? "Mostrar menos" : "Mostrar mais"}
+          <span
+            className={`fa-solid fa-chevron-${mostrarDetalhes ? "up" : "down"}`}
+          ></span>
+        </button>
+      )}
     </div>
   );
 }

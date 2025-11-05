@@ -7426,7 +7426,7 @@ export const jogadores = [
     ],
     selecao: {
       nome: "Brasil",
-      periodo: { inicio: "2015", fim: "2022" },
+      periodo: { inicio: "2015", fim: "Presente" },
       estatisticas: { jogos: 29, gols: 0, assistencias: 0 },
     },
     titulos: [

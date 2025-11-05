@@ -12,7 +12,7 @@ function TabelaTitulosPorEquipe({ jogador }) {
   );
 
   if (titulosPorEquipe.length === 0) {
-    return <p>Nenhum título por equipe encontrado.</p>;
+    return [];
   }
 
   const titulosOrdenados = [...titulosPorEquipe].sort((a, b) => {

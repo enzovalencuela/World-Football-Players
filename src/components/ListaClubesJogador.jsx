@@ -11,7 +11,7 @@ const getClubesOrdenados = (clubes, larguraTela) => {
 
   const MAX_CLUBES_PEQUENO = 6;
   const MAX_CLUBES_MEDIO = 12;
-  const MAX_CLUBES_GRANDE = 10;
+  const MAX_CLUBES_GRANDE = 9;
   const LARGURA_CORTE_PEQUENO = 800;
   const LARGURA_CORTE_GRANDE = 1200;
 

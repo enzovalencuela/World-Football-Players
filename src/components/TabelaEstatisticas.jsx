@@ -27,7 +27,7 @@ function calcularTotais(jogador) {
 
 function TabelaEstatisticas({ jogador }) {
   if (!jogador.clubes || jogador.clubes.length === 0) {
-    return <p>Sem informações estatísticas disponíveis.</p>;
+    return [];
   }
   const totais = calcularTotais(jogador);
 

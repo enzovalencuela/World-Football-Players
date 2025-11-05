@@ -169,7 +169,7 @@ export default function HomePage() {
           <form className="barra-pesquisa" onSubmit={handleSubmit}>
             <input
               type="text"
-              placeholder="digite o atleta, time ou país"
+              placeholder="digite o atleta, equipe ou país"
               id="campo-pesquisa"
               value={textoInput}
               onChange={(e) => setTextoInput(e.target.value)}
@@ -178,6 +178,7 @@ export default function HomePage() {
               {textoInput === "" ? "Pesquisar todos" : "Pesquisar"}
             </button>
           </form>
+          {/* 
           <div className="btn-filtros">
             <ul>
               {filtros.map((filtro, index) => (
@@ -199,6 +200,7 @@ export default function HomePage() {
               ))}
             </ul>
           </div>
+          */}
         </section>
 
         <main className="resultados-pesquisa">

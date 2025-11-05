@@ -70,7 +70,7 @@ section {
     width: 32vw;
     padding: 0.875rem;
     font-size: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     border: none;
     outline: none;
   }
@@ -87,7 +87,7 @@ button {
   background-color: #018f08;
   color: #f5f7f8;
   font-weight: bold;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   position: absolute;
   right: 0;
   z-index: 1;
@@ -762,7 +762,7 @@ footer {
   .jogador {
     width: 80vw;
     max-width: 600px;
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
   }
 
   .img-grampo {
