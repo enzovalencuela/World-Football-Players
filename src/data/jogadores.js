@@ -51,28 +51,26 @@ export const jogadores = [
       {
         nome: "Bola de Ouro",
         anos: "1972, 1976",
-        clube: "individual",
         categoria: "individual",
       },
       {
         nome: "Futebolista Alemão do Ano",
         logo: "Verband Deutscher Sportjournalisten",
         anos: "1966, 1968, 1974 e 1976",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção da Bundesliga",
         logo: "Campeonato Alemão",
         anos: "1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973 1974, 1975, 1976, 1977",
-        clube: "individual",
         categoria: "individual",
       },
       {
         nome: "Melhor jogador jovem da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1966",
-        clube: "individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -80,7 +78,7 @@ export const jogadores = [
         nome: "Bola de Bronze da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1966",
-        clube: "individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -88,7 +86,7 @@ export const jogadores = [
         nome: "Equipe das estrelas da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1966",
-        clube: "individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -96,14 +94,14 @@ export const jogadores = [
         nome: "FIFA XI",
         logo: "FIFA",
         anos: "1968",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Equipe das estrelas da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1970",
-        clube: "individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -111,14 +109,14 @@ export const jogadores = [
         nome: "Equipe das Estrelas da Eurocopa",
         logo: "UEFA",
         anos: "1972",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Prata da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1974",
-        clube: "individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -126,7 +124,7 @@ export const jogadores = [
         nome: "Equipe das estrelas da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1974",
-        clube: "individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -134,117 +132,117 @@ export const jogadores = [
         nome: "Equipe das Estrelas da Eurocopa",
         logo: "UEFA",
         anos: "1976",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Futebol do Século XX",
         logo: "Placar",
         anos: "1981",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Ordem de Mérito",
         logo: "FIFA",
         anos: "1984",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Futebol do Século XX",
         logo: "Italian FA",
         anos: "1988",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Todos os Tempos da Copa do Mundo",
         logo: "FIFA",
         anos: "1994",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Futebol do Século XX",
         logo: "Voetbal International",
         anos: "1999",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "3º Melhor futebolista do século",
         logo: "IFFHS",
         anos: "2000",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Futebol do Século XX",
         logo: "Jornal A Tarde",
         anos: "2004",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "FIFA 100",
         anos: "2004",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Golden Foot Award",
         anos: "2010",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor onze de todos os tempos",
         logo: "World Soccer",
         anos: "2013",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor equipe de todos os tempos da Eurocopa",
         logo: "UEFA",
         anos: "2016",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Hall da Fama do Futebol Alemão",
         logo: "Federação Alemã de Futebol",
         anos: "2020",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor onze do Bayern de Munique",
         logo: "individual",
         anos: "2020",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Ouro Dream Team: Melhor Zagueiro da História",
         logo: "France Football",
         anos: "2020",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "11Leyendas",
         logo: "Jornal AS",
         anos: "2021",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "All Time World Men's Dream Team",
         logo: "IFFHS",
         anos: "2021",
-        clube: "individual",
+
         categoria: "individual",
       },
 
@@ -1081,41 +1079,41 @@ export const jogadores = [
       {
         nome: "Futebolista Alemão do Ano",
         anos: "2012, 2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Jogador da Temporada da Bundesliga",
         logo: "Campeonato Alemão",
         anos: "2011-12, 2013-14, 2015-16, 2018-19",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Time do Ano da Bundesliga",
         logo: "Campeonato Alemão",
         anos: "2011-12, 2013-14, 2014-15, 2015-16, 2018-19",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Jogador do Mês da Bundesliga",
         logo: "Campeonato Alemão",
         anos: "Setembro 2018, Novembro 2018, Dezembro 2018, Março 2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Equipe do Ano da UEFA Champions League",
         logo: "UEFA Champions League",
         anos: "2013-14",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador do Borussia Dortmund da Temporada",
         anos: "2013-14, 2015-16, 2018-19",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -1238,34 +1236,34 @@ export const jogadores = [
         nome: "Futebolista Alemão do Ano",
         logo: "Federação Alemã de Futebol",
         anos: "2002, 2003, 2005",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Meio-Campista da UEFA",
         logo: "UEFA",
         anos: "2002",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "FIFA 100",
         anos: "2004",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Equipe do Ano da UEFA",
         logo: "UEFA",
         anos: "2002",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Prata da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "2002",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -1273,7 +1271,7 @@ export const jogadores = [
         nome: "Equipe das Estrelas da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "2002",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -1352,7 +1350,7 @@ export const jogadores = [
       {
         nome: "FIFA 100",
         anos: "2004",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -1414,30 +1412,104 @@ export const jogadores = [
         anos: "2014",
         clube: "Alemanha",
       },
-      // ... outros títulos
     ],
     tags: [],
   },
 
-  //Ter Stegen
+  // Ter Stegen
   {
     nome: "Ter Stegen",
     background: "titanium",
     descricao:
-      "Goleiro alemão conhecido por suas defesas difíceis e habilidade com os pés, Ter Stegen foi um dos pilares do Barcelona por muitos anos.",
+      "Goleiro alemão de classe mundial, conhecido por sua excelente habilidade de 'sweeper-keeper' (goleiro-líbero) e por sua consistência debaixo das traves. É um dos pilares defensivos do Barcelona desde sua chegada e um dos melhores goleiros do futebol moderno, destacando-se pela calma e precisão nos passes.",
     pagina: "https://www.instagram.com/mterstegen1/",
     nacionalidade: "Alemanha",
     imagem:
-      "https://i.pinimg.com/736x/ca/48/22/ca48220e5fc8f5efdf7c972b842de539.jpg",
+      "https://www.football-espana.net/wp-content/uploads/2024/09/Ter-Stegen-Barcelona.jpg",
     numero: "1",
     posicao: "Goleiro",
     dataNascimento: "30/04/1992",
+    status: "Ativo",
     curiosidades:
-      "Ter Stegen iniciou sua carreira no Borussia Mönchengladbach antes de se transferir para o Barcelona.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "Começou sua carreira no Borussia Mönchengladbach e foi o goleiro titular na final da Liga dos Campeões de 2015, quando o Barcelona conquistou a Tríplice Coroa. É um dos goleiros mais técnicos do mundo com os pés, sendo crucial na construção de jogo do Barcelona. Em 2023, ganhou seu primeiro Troféu Zamora (Melhor Goleiro da La Liga) por ter a melhor média de gols sofridos.",
+
+    clubes: [
+      createClub(
+        "Borussia Mönchengladbach II",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 13, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Borussia Mönchengladbach",
+        { inicio: "2011", fim: "2014" },
+        { jogos: 127, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2014", fim: "Presente" },
+        { jogos: 430, gols: 0, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Alemanha",
+      periodo: { inicio: "2012", fim: "Presente" },
+      estatisticas: { jogos: 44, gols: 0, assistencias: 0 },
+      destaque:
+        "Goleiro titular no título da Copa das Confederações FIFA (2017). Frequentemente convocado, alternando a titularidade com Manuel Neuer.",
+    },
+
+    titulos: [
+      // BARCELONA
+      {
+        nome: "UEFA Champions League",
+        anos: "2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2015, 2016, 2018, 2019, 2023, 2025",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2015, 2016, 2017, 2018, 2021, 2025",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2016, 2018, 2023",
+        clube: "Barcelona",
+      },
+
+      // SELEÇÃO ALEMÃ
+      {
+        nome: "Copa das Confederações",
+        anos: "2017",
+        clube: "Alemanha",
+        logoVariavel: true,
+      },
+
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Melhor Goleiro da La Liga",
+        logo: "Campeonato Espanhol",
+        anos: "2022-23",
+        categoria: "individual",
+      },
+    ],
+    tags: ["MATS"],
+    ultima_atualizacao: "03/11/2025",
   },
 
   // Thomas Müller
@@ -1514,7 +1586,7 @@ export const jogadores = [
         nome: "Chuteira de Ouro da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "2010",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -1522,7 +1594,7 @@ export const jogadores = [
         nome: "Melhor Jogador Jovem da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "2010",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -1530,21 +1602,21 @@ export const jogadores = [
         nome: "Melhor Jogador da Bundesliga",
         logo: "Campeonato Alemão",
         anos: "2010",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Time do Ano da UEFA",
         logo: "UEFA",
         anos: "2013",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Equipe do Ano da FIFA FIFPro World XI",
         logo: "FIFPro",
         anos: "2014",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -1941,14 +2013,14 @@ export const jogadores = [
       {
         nome: "FIFA 100",
         anos: "2004",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Ouro da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1986",
-        clube: "individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -1956,7 +2028,7 @@ export const jogadores = [
         nome: "All-Star Team da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1986",
-        clube: "individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -1964,7 +2036,7 @@ export const jogadores = [
         nome: "All-Star Team da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1990",
-        clube: "individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -1972,48 +2044,48 @@ export const jogadores = [
         nome: "Melhor Jogador do Mundo",
         logo: "Guerin Sportivo",
         anos: "1979, 1986, 1987",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador do Mundo",
         logo: "World Soccer",
         anos: "1986",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Onze d'Or",
         anos: "1986, 1987",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Guerin d'Oro",
         logo: "Guerin Sportivo",
         anos: "1986, 1987",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Rei da América",
         logo: "El Mundo",
         anos: "1979, 1980",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador Argentino do Ano",
         logo: "individual",
         anos: "1979, 1980, 1981, 1986",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Bronze da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1990",
-        clube: "individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -2021,84 +2093,84 @@ export const jogadores = [
         nome: "2.º Maior jogador Sulamericano do século XX",
         logo: "IFFHS",
         anos: "1999",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "2.º Maior jogador do século XX",
         logo: "France Football",
         anos: "1999",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador do Século XX (votos de internautas)",
         logo: "FIFA",
         anos: "2000",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "3.º Maior Jogador do Século XX pelo Grande Júri FIFA",
         logo: "FIFA",
         anos: "2000",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Time dos Sonhos da FIFA",
         logo: "FIFA",
         anos: "2002",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção Argentina de Todos os Tempos",
         logo: "AFA",
         anos: "2016",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador da Historia",
         logo: "Four Four Two",
         anos: "2017",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor jogador das Copas do Mundo",
         logo: "Four Four Two",
         anos: "2018",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Onze ideal histórico das Copas América",
         logo: "CONMEBOL",
         anos: "2019",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Ouro Dream Team: Melhor Meio-campista Ofensivo da História",
         logo: "France Football",
         anos: "2020",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "11Leyendas",
         logo: "Jornal AS",
         anos: "2021",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "IFFHS ALL TIME WORLD MEN'S DREAM TEAM",
         logo: "IFFHS",
         anos: "2021",
-        clube: "individual",
+
         categoria: "individual",
       },
 
@@ -2231,28 +2303,204 @@ export const jogadores = [
     tags: [],
   },
 
+  // Javier Mascherano
+  {
+    nome: "Javier Mascherano",
+    background: "diamond",
+    descricao:
+      "Lendário volante e zagueiro argentino, conhecido mundialmente por sua garra, inteligência tática e capacidade de liderança, que lhe rendeu o apelido de 'El Jefecito'. Foi uma peça-chave no Barcelona e um pilar da Seleção Argentina por mais de uma década, sendo o segundo jogador com mais jogos pela Albiceleste.",
+    pagina: "https://pt.wikipedia.org/wiki/Javier_Mascherano",
+    nacionalidade: "Argentina",
+    imagem:
+      "https://akcdn.detik.net.id/community/media/visual/2017/11/08/4c83da0d-b7db-4412-b18b-c9ce5efc1e57_34.jpg?w=1200",
+    numero: "14",
+    posicao: "Volante / Zagueiro",
+    dataNascimento: "08/06/1984",
+    status: "Aposentado",
+    curiosidades:
+      "Mascherano detém o recorde de ser o único argentino, ao lado de Carlos Tévez, a ganhar duas medalhas de ouro olímpicas (2004 e 2008). No Barcelona, apesar de ter jogado quase 334 partidas, marcou apenas um gol. Atualmente, atua como treinador, tendo comandado as seleções de base da Argentina e recentemente o Inter Miami (MLS).",
+
+    clubes: [
+      createClub(
+        "River Plate",
+        { inicio: "2003", fim: "2005" },
+        { jogos: 71, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2005", fim: "2006" },
+        { jogos: 26, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "West Ham",
+        { inicio: "2006", fim: "2007" },
+        { jogos: 7, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2007", fim: "2010" },
+        { jogos: 139, gols: 2, assistencias: 5 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2010", fim: "2018" },
+        { jogos: 334, gols: 1, assistencias: 8 }
+      ),
+      createClub(
+        "Hebei China Fortune",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 54, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Estudiantes de La Plata",
+        { inicio: "2020", fim: "2020" },
+        { jogos: 11, gols: 0, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "2003", fim: "2018" },
+      estatisticas: { jogos: 147, gols: 3, assistencias: 3 },
+      destaque:
+        "Vice-campeão da Copa do Mundo FIFA 2014, bicampeão olímpico (2004, 2008) e capitão durante o ciclo da Copa do Mundo.",
+    },
+
+    titulos: [
+      // BARCELONA
+      {
+        nome: "UEFA Champions League",
+        anos: "2011, 2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2011, 2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2011, 2013, 2015, 2016",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2012, 2015, 2016, 2017",
+        clube: "Barcelona",
+      },
+
+      // CORINTHIANS
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2005",
+        clube: "Corinthians",
+      },
+
+      // SELEÇÃO ARGENTINA
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2004",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2008",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["El Jefecito"],
+    ultima_atualizacao: "03/11/2025",
+  },
+
   // Javier Zanetti
   {
     nome: "Javier Zanetti",
     background: "diamond",
     descricao:
-      "Uma lenda do futebol, Zanetti é conhecido por sua lealdade à Internazionale, onde jogou por quase duas décadas. Ele era um exemplo de profissionalismo em campo e um líder nato.",
-    pagina: "https://www.instagram.com/javierzanetti/",
+      "Lendário lateral-direito/volante argentino, ícone da Inter de Milão e um dos jogadores mais respeitados de sua geração. Conhecido por sua versatilidade, consistência inquebrável, e por ser o capitão da equipe na histórica conquista da Tríplice Coroa em 2010. Detém o recorde de mais jogos pela Inter.",
+    pagina: "https://pt.wikipedia.org/wiki/Javier_Zanetti",
     nacionalidade: "Argentina",
     imagem:
-      "https://ilmanifesto.it/cdn-cgi/image/format=auto,width=1400/https://static.ilmanifesto.it/2013/08/08/Javier-Zanetti1.jpg",
-    titulos:
-      "Serie A, Copa da Itália, Supercopa Italiana, Liga dos Campeões, Copa UEFA",
+      "https://i.pinimg.com/736x/0f/79/e1/0f79e12410451170c751a9ca6ceb4ade.jpg",
     numero: "4",
-    posicao: "Lateral-direito",
+    posicao: "Lateral-Direito / Volante",
     dataNascimento: "10/08/1973",
     status: "Aposentado",
     curiosidades:
-      "Zanetti foi capitão da Internazionale por muitos anos e é considerado um dos maiores jogadores da história do clube. Ele também jogou pela seleção argentina em diversas Copas do Mundo.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "É o jogador com mais partidas na história da Inter de Milão (858 jogos). Sua camisa 4 foi aposentada pelo clube como homenagem. Detém o recorde de ser o estrangeiro com mais partidas na Serie A. Era conhecido por seu condicionamento físico impecável, que lhe permitiu jogar em alto nível até os 40 anos.",
+
+    clubes: [
+      createClub(
+        "Talleres RE",
+        { inicio: "1992", fim: "1993" },
+        { jogos: 33, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Banfield",
+        { inicio: "1993", fim: "1995" },
+        { jogos: 66, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "1995", fim: "2014" },
+        { jogos: 858, gols: 21, assistencias: 58 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "1994", fim: "2011" },
+      estatisticas: { jogos: 145, gols: 5, assistencias: 13 },
+      destaque:
+        "Recordista de jogos pela Argentina por muitos anos. Participou das Copas do Mundo de 1998 e 2002 e de cinco Copas América.",
+    },
+
+    titulos: [
+      // INTERNAZIONALE
+      {
+        nome: "UEFA Champions League",
+        anos: "2010",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2010",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Copa da UEFA",
+        anos: "1998",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "2006, 2007, 2008, 2009, 2010",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2005, 2006, 2010, 2011",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2005, 2006, 2008, 2010",
+        clube: "Inter de Milão",
+      },
+
+      // SELEÇÃO ARGENTINA
+      {
+        nome: "Prata nos Jogos Olímpicos",
+        logo: "Jogos Olímpicos",
+        anos: "1996",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["El Pupi"],
+    ultima_atualizacao: "03/11/2025",
   },
 
   // Juan Román Riquelme
@@ -2361,35 +2609,35 @@ export const jogadores = [
         nome: "Futebolista Sul-Americano do Ano",
         logo: "El País",
         anos: "2001",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador da Copa Libertadores",
         logo: "Copa Libertadores",
         anos: "2000, 2001, 2007",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Jogador Argentino do Ano",
         logo: "Associação de Jornalistas da Argentina",
         anos: "2000, 2001, 2008, 2011",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador da Liga Espanhola",
         logo: "Marca",
         anos: "2004/05",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Prata da Copa das Confederações",
         logo: "Copa das Confederações",
         anos: "2005",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -2508,7 +2756,7 @@ export const jogadores = [
         nome: "Equipe ideal da Copa América",
         logo: "Copa América",
         anos: "2024",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -2516,54 +2764,32 @@ export const jogadores = [
         nome: "Artilheiro da Serie A",
         logo: "Campeonato Italiano",
         anos: "2023-24",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Time do Ano da Serie A",
         logo: "Campeonato Italiano",
         anos: "2023-24",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Jogador do Mês da Serie A",
         logo: "Campeonato Italiano",
         anos: "Outubro 2023",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "100 Melhores Jogadores do Ano",
         logo: "The Guardian",
         anos: "2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
     tags: ["Lautaro", "Martinez", "Lautaro Martinez", "El Toro", "LM10"],
-  },
-
-  // Mascherano
-  {
-    nome: "Mascherano",
-    background: "titanium",
-    descricao:
-      "Volante de marcação forte e inteligente, Mascherano era conhecido por sua liderança e capacidade de desarmar jogadas. Foi um dos pilares da seleção argentina por muitos anos.",
-    pagina: "https://www.instagram.com/javiermascherano/",
-    nacionalidade: "Argentina",
-    imagem:
-      "https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2016/01/21143207/Javier-Mascherano.jpg",
-    numero: "14",
-    posicao: "Volante",
-    dataNascimento: "08/06/1984",
-    status: "Aposentado",
-    curiosidades:
-      "Mascherano também atuou como zagueiro em algumas oportunidades, mostrando sua versatilidade.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
   },
 
   // Mauro Icardi
@@ -2613,23 +2839,127 @@ export const jogadores = [
   // Sergio Agüero
   {
     nome: "Sergio Agüero",
-    background: "titanium",
+    background: "diamond",
     descricao:
-      "Lenda do Manchester City e ídolo da torcida argentina, Agüero era conhecido por sua habilidade de marcar gols importantes. É o maior artilheiro da história do City.",
-    pagina: "https://www.instagram.com/kunaguero/",
+      "Atacante argentino letal e ágil, amplamente considerado um dos melhores centroavantes de sua geração e uma lenda do Manchester City. É o maior artilheiro da história do City e o maior goleador estrangeiro da história da Premier League. Seu gol em 2012 é um dos momentos mais icônicos do futebol inglês.",
+    pagina: "https://pt.wikipedia.org/wiki/Sergio_Ag%C3%BCero",
     nacionalidade: "Argentina",
     imagem:
-      "https://media.gettyimages.com/id/1176148803/pt/foto/manchester-england-sergio-aguero-of-manchester-city-celebrates-after-scoring-his-teams-second.jpg?s=612x612&w=gi&k=20&c=x6LvUh7mYS1zGzO2pmlkOkJ5o--VTfKT1pZTEH1Fc9w=",
+      "https://static.independent.co.uk/2021/08/09/12/2017481b2505454187ce12a4cc9c79a9Y29udGVudHNlYXJjaGFwaSwxNjI4NTkzMzk4-2.60020419.jpg",
     numero: "10",
-    posicao: "Atacante",
+    posicao: "Atacante (Centroavante/Segundo Atacante)",
     dataNascimento: "02/06/1988",
     status: "Aposentado",
     curiosidades:
-      "Agüero é lembrado por seu gol histórico no último minuto contra o Queens Park Rangers, que garantiu o título da Premier League para o Manchester City em 2012.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "É o jogador estrangeiro com mais gols na história da Premier League e o quarto no ranking geral. Seu apelido 'Kun' veio de um personagem de desenho animado japonês chamado 'Kum Kum'. Foi o autor do gol nos acréscimos contra o QPR que garantiu o primeiro título da Premier League ao Manchester City em 2012.",
+
+    clubes: [
+      createClub(
+        "Independiente",
+        { inicio: "2003", fim: "2006" },
+        { jogos: 56, gols: 23, assistencias: 4 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2006", fim: "2011" },
+        { jogos: 234, gols: 101, assistencias: 45 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2011", fim: "2021" },
+        { jogos: 389, gols: 260, assistencias: 73 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 5, gols: 1, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "2006", fim: "2021" },
+      estatisticas: { jogos: 101, gols: 41, assistencias: 19 },
+      destaque:
+        "Terceiro maior artilheiro da história da Seleção Argentina. Campeão da Copa América (2021) e Ouro Olímpico (2008).",
+    },
+
+    titulos: [
+      // MANCHESTER CITY
+      {
+        nome: "Campeonato Inglês",
+        anos: "2012, 2014, 2018, 2019, 2021",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2014, 2016, 2018, 2019, 2020",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2019",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2012, 2018, 2019",
+        clube: "Manchester City",
+      },
+
+      // ATLÉTICO DE MADRID
+      {
+        nome: "UEFA Europa League",
+        anos: "2010",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2010",
+        clube: "Atlético de Madrid",
+      },
+
+      // SELEÇÃO ARGENTINA
+      {
+        nome: "Copa América",
+        anos: "2021",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2008",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo Sub-20",
+        anos: "2005",
+        clube: "Argentina",
+      },
+      {
+        nome: "Copa do Mundo Sub-20",
+        anos: "2007",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Chuteira de Ouro da Premier League",
+        logo: "Campeonato Inglês",
+        anos: "2015",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Premier League",
+        logo: "Campeonato Inglês",
+        anos: "2014",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Kun"],
+    ultima_atualizacao: "03/11/2025",
   },
 
   // Lionel Messi
@@ -2930,14 +3260,14 @@ export const jogadores = [
         nome: "Jogador do Ano da PFA",
         logo: "Campeonato Inglês",
         anos: "2020, 2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Playmaker do Mundo",
         logo: "IFFHS",
         anos: "2020, 2021, 2022, 2023",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -2950,21 +3280,134 @@ export const jogadores = [
     nome: "Romelu Lukaku",
     background: "titanium",
     descricao:
-      "Conhecido por sua força física e habilidade de marcar gols, Romelu Lukaku é um dos atacantes mais temidos do futebol mundial. Com uma carreira marcada por passagens por grandes clubes como Chelsea, Manchester United e Inter de Milão, o belga conquistou diversos títulos e se destacou pela sua capacidade de decidir jogos importantes.",
-    pagina: "https://www.instagram.com/romelulukaku/",
+      "Centroavante belga potente e de grande presença física, conhecido por sua capacidade de finalização e força no ataque. É o maior artilheiro da história da Seleção Belga e tem uma carreira marcada por passagens por grandes clubes na Premier League e na Serie A, incluindo uma recente transferência para o Napoli.",
+    pagina: "https://pt.wikipedia.org/wiki/Romelu_Lukaku",
     nacionalidade: "Bélgica",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/f1/2022/11/27/lukaku-em-acao-pela-belgica-durante-partida-contra-o-marrocos-na-copa-do-mundo-1669560569630_v2_720x1024.jpg",
+      "https://sportal.eu/wp-content/uploads/2025/03/a-lukaku-sono-tornati-a-brillare-gli-occhi-le-foto_1291830Photogallery.jpg",
     numero: "9",
     posicao: "Atacante",
-    dataNascimento: "13 de maio de 1993",
+    dataNascimento: "13/05/1993",
     status: "Ativo",
     curiosidades:
-      "Lukaku começou sua carreira profissional no Anderlecht, na Bélgica. Sua força física e habilidade para finalizar o fizeram se destacar rapidamente nos principais campeonatos europeus.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "É o maior artilheiro da história da Seleção Belga. Fala fluentemente seis idiomas: francês, holandês, inglês, português, espanhol e alemão. Em sua infância, prometeu à mãe, que passava por dificuldades financeiras, que se tornaria jogador profissional aos 16 anos, o que ele cumpriu no Anderlecht.",
+
+    clubes: [
+      createClub(
+        "Anderlecht",
+        { inicio: "2009", fim: "2011" },
+        { jogos: 73, gols: 33, assistencias: 0 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2011", fim: "2014" },
+        { jogos: 10, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "West Bromwich",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 35, gols: 17, assistencias: 0 }
+      ),
+      createClub(
+        "Everton",
+        { inicio: "2013", fim: "2017" },
+        { jogos: 166, gols: 87, assistencias: 29 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2017", fim: "2019" },
+        { jogos: 96, gols: 42, assistencias: 13 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "2019", fim: "2021" },
+        { jogos: 95, gols: 64, assistencias: 16 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2021", fim: "2024" },
+        { jogos: 44, gols: 15, assistencias: 2 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 37, gols: 14, assistencias: 7 }
+      ),
+      createClub(
+        "Roma",
+        { inicio: "2023", fim: "2024" },
+        { jogos: 47, gols: 21, assistencias: 4 }
+      ),
+      createClub(
+        "Napoli",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Bélgica",
+      periodo: { inicio: "2010", fim: "Presente" },
+      estatisticas: { jogos: 124, gols: 89, assistencias: 17 },
+      destaque:
+        "Maior artilheiro da história da Seleção Belga e peça chave da 'Geração de Ouro' que conquistou o terceiro lugar na Copa do Mundo de 2018.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Melhor Jogador da Serie A",
+        logo: "Campeonato Italiano",
+        anos: "2020-21",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Ano da Premier League (PFA)",
+        logo: "PFA",
+        anos: "2016-17",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Bronze da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2018",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+
+      // INTERNAZIONALE
+      {
+        nome: "Campeonato Italiano",
+        anos: "2020-21",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2023",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2022",
+        clube: "Inter de Milão",
+      },
+
+      // CHELSEA
+      {
+        nome: "Mundial de Clubes",
+        anos: "2021",
+        clube: "Chelsea",
+      },
+
+      // ANDERLECHT
+      {
+        nome: "Campeonato Belga",
+        anos: "2009-10",
+        clube: "Anderlecht",
+      },
+    ],
+    tags: ["Big Rom"],
+    ultima_atualizacao: "03/11/2025",
   },
 
   // Thibaut Courtois
@@ -3067,35 +3510,35 @@ export const jogadores = [
       {
         nome: "Prêmio Lev Yashin",
         anos: "2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "FIFA The Best Goalkeeper",
         logo: "FIFA",
         anos: "2018, 2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Luva de Ouro da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "2018",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "Troféu Zamora",
         anos: "2013, 2014, 2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Luva de Ouro da Premier League",
         logo: "Campeonato Inglês",
         anos: "2017",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -3106,23 +3549,97 @@ export const jogadores = [
   // Vincent Kompany
   {
     nome: "Vincent Kompany",
-    background: "titanium",
+    background: "diamond",
     descricao:
-      "Ex-zagueiro belga, conhecido por sua liderança e habilidade aérea. Atuou por muitos anos no Manchester City, onde foi capitão e ídolo da torcida.",
-    pagina: "https://www.instagram.com/vincentkompany/",
+      "Zagueiro belga lendário, conhecido por sua força física, inteligência defensiva e excepcional liderança. Foi o capitão que guiou o Manchester City em sua ascensão, conquistando múltiplos títulos da Premier League. Considerado um dos melhores defensores da história do campeonato inglês.",
+    pagina: "https://pt.wikipedia.org/wiki/Vincent_Kompany",
     nacionalidade: "Bélgica",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/0/02/Vincent_Kompany.jpg",
+      "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/08/20/14/vincent-kompany.jpg",
     numero: "4",
     posicao: "Zagueiro",
     dataNascimento: "10/04/1986",
     status: "Aposentado",
     curiosidades:
-      "Kompany é considerado um dos maiores capitães da história do Manchester City. Ele também teve uma breve passagem como jogador e treinador do Anderlecht, seu clube de formação.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+      "Kompany foi o primeiro jogador do Manchester City a levantar a taça da Premier League em 2012. Ganhou o prêmio de Melhor Jogador da Premier League na temporada 2011-12. Seu último gol pelo City, um chute de longa distância contra o Leicester em 2019, foi crucial para garantir o título da liga naquela temporada. É atualmente treinador, assumindo o Bayern de Munique após passagens pelo Anderlecht e Burnley.",
+
+    clubes: [
+      createClub(
+        "Anderlecht",
+        { inicio: "2003", fim: "2006" },
+        { jogos: 73, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Hamburgo",
+        { inicio: "2006", fim: "2008" },
+        { jogos: 51, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2008", fim: "2019" },
+        { jogos: 360, gols: 20, assistencias: 11 }
+      ),
+      createClub(
+        "Anderlecht",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 15, gols: 0, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Bélgica",
+      periodo: { inicio: "2004", fim: "2019" },
+      estatisticas: { jogos: 89, gols: 4, assistencias: 0 },
+      destaque:
+        "Capitão da 'Geração de Ouro' da Bélgica que alcançou o terceiro lugar na Copa do Mundo de 2018.",
+    },
+
+    titulos: [
+      // MANCHESTER CITY
+      {
+        nome: "Campeonato Inglês",
+        anos: "2012, 2014, 2018, 2019",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2014, 2016, 2018, 2019",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2011, 2019",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2012, 2018",
+        clube: "Manchester City",
+      },
+
+      // ANDERLECHT
+      {
+        nome: "Campeonato Belga",
+        anos: "2004, 2006",
+        clube: "Anderlecht",
+      },
+
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Melhor Jogador da Premier League",
+        logo: "Campeonato Inglês",
+        anos: "2011-12",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Premier League",
+        logo: "PFA",
+        anos: "2011, 2012, 2014",
+        categoria: "individual",
+      },
+    ],
     tags: [],
+    ultima_atualizacao: "03/11/2025",
   },
 
   // BRASIL--------------------------------------------------------------------------------------------------------------------------------------
@@ -3217,7 +3734,7 @@ export const jogadores = [
   // Adriano Imperador
   {
     nome: "Adriano Imperador",
-    background: "titanium",
+    background: "diamond",
     pagina: "https://www.instagram.com/adrianoimperador/",
     nacionalidade: "Brasil",
     numero: "9",
@@ -3342,15 +3859,14 @@ export const jogadores = [
       // Individuais
       {
         nome: "Bola de Ouro da Copa América",
-        logoVariavel: "Copa América",
+        logo: "Copa América",
         anos: "2004",
-        clube: "Individual",
         categoria: "individual",
+        logoVariavel: true,
       },
       {
-        nome: "Artilheiro da Copa das Confederações",
+        nome: "Chuteira de Ouro Copa das Confederações",
         anos: "2005",
-        clube: "Individual",
         categoria: "individual",
       },
     ],
@@ -3558,20 +4074,20 @@ export const jogadores = [
         nome: "Melhor Goleiro",
         logo: "The Best FIFA",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Prêmio Lev Yashin",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Luva de Ouro",
         logo: "Campeonato Inglês",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -3988,7 +4504,7 @@ export const jogadores = [
         nome: "Artilheiro da La Liga",
         logo: "Campeonato Espanhol",
         anos: "1993",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -4053,28 +4569,28 @@ export const jogadores = [
         nome: "Rei da América",
         logo: "Copa Libertadores",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador da Libertadores",
         logo: "Copa Libertadores",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Artilheiro da Libertadores",
         logo: "Copa Libertadores",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Craque do Brasileirão",
         logo: "Campeonato Brasileiro",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
       // Flamengo
@@ -4178,91 +4694,91 @@ export const jogadores = [
         nome: "Bola de Prata da Revista Placar",
         logo: "Placar",
         anos: "1992, 1993",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção do Campeonato Brasileiro",
         logo: "Placar",
         anos: "1992, 1993",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção do Campeonato Paulista",
         logo: "Campeonato Paulista",
         anos: "1994",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Jogador Sul-Americano do Ano",
         logo: "El País",
         anos: "1994",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor lateral-direito das Américas",
         logo: "El País",
         anos: "1992, 1993, 1994, 1995",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção das Américas",
         logo: "El País",
         anos: "1992, 1993, 1994, 1995",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor lateral-direito da Europa",
         logo: "UEFA",
         anos: "2004, 2005",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção da Europa",
         logo: "UEFA",
         anos: "2004, 2005",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor lateral-direito do Mundo",
         logo: "FIFA",
         anos: "2005",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção do Mundo",
         logo: "FIFA",
         anos: "2005",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Ouro Dream Team: Melhor lateral-direito da História",
         logo: "France Football",
         anos: "2020",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "ALL TIME WORLD MEN'S DREAM TEAM",
         logo: "IFFHS",
         anos: "2020",
-        clube: "individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção Brasileira de Todos os Tempos",
         logo: "IFFHS",
         anos: "2021",
-        clube: "individual",
+
         categoria: "individual",
       },
 
@@ -4650,7 +5166,7 @@ export const jogadores = [
         nome: "All-Star Team da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1970",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -4658,41 +5174,41 @@ export const jogadores = [
         nome: "Time dos sonhos do Botafogo",
         logo: "Placar",
         anos: "1982, 1994, 2006",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Futebol do Século XX",
         logo: "Voetbal International",
         anos: "1999",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "FIFA 100",
         anos: "2004",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Ouro Dream Team (2º Esquadrão - Melhor Lateral)",
         logo: "France Football",
         anos: "2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "All-Time World Men's Dream Team (Time B)",
         logo: "IFFHS",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Todos os Tempos do Brasil",
         logo: "IFFHS",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -4801,7 +5317,7 @@ export const jogadores = [
         nome: "FIFPro World XI",
         logo: "FIFPro",
         anos: "2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -4909,21 +5425,21 @@ export const jogadores = [
         nome: "Melhor Goleiro do Mundial de Clubes",
         logo: "Mundial de Clubes",
         anos: "2012",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Prata da Revista Placar",
         logo: "Placar",
         anos: "2015, 2017",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Prêmio Craque do Brasileirão",
         logo: "Campeonato Brasileiro",
         anos: "2015",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -6029,7 +6545,7 @@ export const jogadores = [
         nome: "Seleção da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1954",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -6037,7 +6553,7 @@ export const jogadores = [
         nome: "Seleção da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1958",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -6045,49 +6561,49 @@ export const jogadores = [
         nome: "Seleção da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1962",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "Troféu Belfort Duarte",
         anos: "1955",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Futebol do Século XX",
         logo: "Placar",
         anos: "1981",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Todos os Tempos da Copa do Mundo",
         logo: "FIFA",
         anos: "1994",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "FIFA 100",
         anos: "2004",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "All-Time World Men's Dream Team (Time B)",
         logo: "IFFHS",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Todos os Tempos do Brasil",
         logo: "IFFHS",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -6323,14 +6839,14 @@ export const jogadores = [
         nome: "Defensor do Mês",
         logo: "Primeira Liga",
         anos: "5 vezes (2018/19)",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Equipe do Ano",
         logo: "Primeira Liga",
         anos: "2018/19",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -6343,17 +6859,17 @@ export const jogadores = [
     nome: "Ederson",
     background: "titanium",
     descricao:
-      "Goleiro brasileiro, amplamente considerado um dos melhores do mundo em sua posição. É conhecido por suas defesas espetaculares, mas principalmente por sua habilidade inigualável com os pés, atuando como um líbero e sendo peça fundamental no esquema de jogo de Pep Guardiola no Manchester City.",
+      "Goleiro brasileiro, considerado um dos melhores do mundo em sua posição. É conhecido por suas defesas espetaculares e, principalmente, por sua habilidade inigualável com os pés, atuando como um líbero. Foi peça fundamental na era de ouro do Manchester City e, recentemente, transferiu-se para o Fenerbahçe.",
     pagina: "https://www.instagram.com/ederson93/",
     nacionalidade: "Brasil",
     imagem:
-      "https://dynamo.kiev.ua/media/posts/2024/05/17/GettyImages-2152970887.jpg",
+      "https://iaspr.tmgrup.com.tr/album/2025/10/05/fenerbahcede-taraftarlari-korkutan-haber-ederson-1759668850888.jpg",
     numero: "31",
     posicao: "Goleiro",
     dataNascimento: "17/08/1993",
     status: "Ativo",
     curiosidades:
-      "Ederson detém o recorde mundial do Guinness por realizar o chute mais longo de um goleiro. Ele é amplamente elogiado por sua capacidade de iniciar ataques com passes longos e precisos.",
+      "Ederson detém o recorde mundial do Guinness por realizar o chute mais longo de um goleiro. Ele é amplamente elogiado por sua capacidade de iniciar ataques com passes longos e precisos. Sua transferência para o Fenerbahçe no verão de 2024 foi uma das mais notáveis da janela.",
     clubes: [
       createClub(
         "Benfica",
@@ -6362,14 +6878,21 @@ export const jogadores = [
       ),
       createClub(
         "Manchester City",
-        { inicio: "2017", fim: "Presente" },
+        { inicio: "2017", fim: "2025" },
         { jogos: 380, gols: 0, assistencias: 5 }
+      ),
+      createClub(
+        "Fenerbahçe",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 15, gols: 0, assistencias: 0 }
       ),
     ],
     selecao: {
       nome: "Brasil",
       periodo: { inicio: "2017", fim: "Presente" },
       estatisticas: { jogos: 35, gols: 0, assistencias: 0 },
+      destaque:
+        "Goleiro reserva na Copa do Mundo de 2022 e titular em grande parte das eliminatórias. Campeão da Copa América em 2019.",
     },
     titulos: [
       // Manchester City
@@ -6380,7 +6903,7 @@ export const jogadores = [
       },
       {
         nome: "Campeonato Inglês",
-        anos: "2018, 2019, 2021, 2022, 2023",
+        anos: "2018, 2019, 2021, 2022, 2023, 2024",
         clube: "Manchester City",
       },
       {
@@ -6398,6 +6921,18 @@ export const jogadores = [
         anos: "2023",
         clube: "Manchester City",
       },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+
+      // Benfica
+      {
+        nome: "Campeonato Português",
+        anos: "2016, 2017",
+        clube: "Benfica",
+      },
 
       // Seleção Brasileira
       {
@@ -6408,15 +6943,15 @@ export const jogadores = [
       },
     ],
     tags: [
-      "Ederson",
-      "Goleiro",
+      "Goleiro-Líbero",
+      "Fenerbahçe",
       "Manchester City",
       "Brasil",
-      "E31",
-      "Líbero",
+      "Goleiro Passador",
       "Campeão da Champions",
+      "Vencedor da Luva de Ouro da Premier League",
     ],
-    ultima_atualizacao: "27/10/25",
+    ultima_atualizacao: "03/11/2025",
   },
 
   // Edílson Capetinha
@@ -6661,7 +7196,7 @@ export const jogadores = [
         nome: "Artilheiro da Copa América",
         logo: "Copa América",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -6669,7 +7204,7 @@ export const jogadores = [
         nome: "Melhor jogador da final da Copa América",
         logo: "Copa América",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -6677,7 +7212,7 @@ export const jogadores = [
         nome: "Equipe ideal da Copa América",
         logo: "Copa América",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -6685,7 +7220,7 @@ export const jogadores = [
         nome: "Bola de Prata do Brasileirão",
         logo: "Bola de Prata",
         anos: "2018",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -6826,21 +7361,21 @@ export const jogadores = [
         nome: "Prêmio Craque do Brasileirão",
         logo: "Campeonato Brasileiro",
         anos: "2013, 2014",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Ouro da Revista Placar",
         logo: "Placar",
         anos: "2013, 2014",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Prata da ESPN",
         logo: "ESPN",
         anos: "2013, 2014, 2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -7645,7 +8180,7 @@ export const jogadores = [
         nome: "Melhor Jogador da Copa do Mndo",
         logo: "Copa do Mundo",
         anos: "1962",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -7653,7 +8188,7 @@ export const jogadores = [
         nome: "Chuteira de Ouro",
         logo: "Copa do Mundo",
         anos: "1962",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -7661,7 +8196,7 @@ export const jogadores = [
         nome: "Seleção da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1958",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -7669,7 +8204,7 @@ export const jogadores = [
         nome: "Seleção da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1962",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -7677,49 +8212,49 @@ export const jogadores = [
         nome: "Hall da Fama",
         logo: "FIFA",
         anos: "1999",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção de Futebol da América do Sul do Século XX",
         logo: "IFFHS",
         anos: "2000",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Time dos sonhos do Botafogo",
         logo: "Placar",
         anos: "1982, 1994, 2006",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Lendas do Futebol",
         logo: "IFFHS",
         anos: "2016",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Ouro Dream Team (Segunda Equipe)",
         logo: "France Football",
         anos: "2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Maior ídolo da História do Botafogo",
         logo: "O Globo",
         anos: "2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção Brasileira de Todos os Tempos",
         logo: "IFFHS",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -9120,56 +9655,56 @@ export const jogadores = [
         nome: "Rei da América",
         logo: "Copa Libertadores",
         anos: "2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador da Libertadores",
         logo: "Copa Libertadores",
         anos: "2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção da Libertadores",
         logo: "Copa Libertadores",
         anos: "2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Prata do Brasileirão",
         logo: "Bola de Prata",
         anos: "2016, 2019, 2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Craque do Brasileirão",
         logo: "Campeonato Brasileiro",
         anos: "2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador do Campeonato Baiano",
         logo: "Campeonato Baiano",
         anos: "2016",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Artilheiro do Campeonato Baiano",
         logo: "Campeonato Baiano",
         anos: "2016",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Artilheiro da Copa do Brasil",
         logo: "Copa do Brasil",
         anos: "2016",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -10782,14 +11317,14 @@ export const jogadores = [
       {
         nome: "Bola de Ouro",
         anos: "1999",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador do Mundo",
         logo: "FIFA",
         anos: "1999",
-        clube: "Individual",
+
         categoria: "individual",
       },
 
@@ -10903,14 +11438,14 @@ export const jogadores = [
         nome: "Bola de Prata da Revista Placar",
         logo: "Placar",
         anos: "1971, 1973",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Time das Estrelas da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "1970",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -11986,24 +12521,92 @@ export const jogadores = [
     ultima_atualizacao: "31/10/25",
   },
 
-  // Sócrates
+  // Sócrates (Doutor)
   {
     nome: "Sócrates",
-    background: "diamond",
+    background: "gold",
     descricao:
-      "Considerado um dos maiores jogadores brasileiros de todos os tempos, Sócrates era conhecido por seu talento com a bola, visão de jogo e liderança. Além de sua carreira brilhante nos gramados, ele era médico e um grande ativista político.",
-    pagina: "https://www.instagram.com/socratesbrasileiro/",
+      "Meio-campista de extrema inteligência, elegância e visão de jogo. Capitão da lendária Seleção Brasileira de 1982 e um dos líderes intelectuais da 'Democracia Corinthiana'. Apelidado de 'Doutor' por sua formação em Medicina, era conhecido por seus passes precisos e pelo famoso toque de calcanhar.",
+    pagina: "https://pt.wikipedia.org/wiki/S%C3%B3crates_(futebolista)",
     nacionalidade: "Brasil",
     imagem:
       "https://s2-ge.glbimg.com/ljdhSITgqpxxLYlb1bf9DeGmUjE=/0x0:683x1024/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/v/D/bLQYAbSEmBHlSlkCXvtg/gettyimages-650937640.jpg",
     numero: "8",
-    posicao: "Meia",
+    posicao: "Meio-Campista (Meia Ofensivo/Meia Central)",
     dataNascimento: "19/02/1954",
+    dataFalecimento: "04/12/2011",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Formado em Medicina pela USP, era uma voz ativa contra a ditadura militar no Brasil. No Corinthians, ele e outros jogadores implementaram a 'Democracia Corinthiana', um movimento de autogestão onde todos, de jogadores a roupeiros, votavam nas decisões do clube. Sua marca registrada era o 'calcanhar de ouro'.",
+
+    clubes: [
+      createClub(
+        "Botafogo-SP",
+        { inicio: "1974", fim: "1978" },
+        { jogos: 135, gols: 67, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "1978", fim: "1984" },
+        { jogos: 298, gols: 172, assistencias: 0 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "1984", fim: "1985" },
+        { jogos: 29, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "1986", fim: "1987" },
+        { jogos: 20, gols: 5, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1979", fim: "1986" },
+      estatisticas: { jogos: 60, gols: 22, assistencias: 0 },
+      destaque:
+        "Capitão da Seleção Brasileira nas Copas do Mundo de 1982 e 1986. Considerado o líder técnico e tático da 'Seleção de 82', uma das maiores equipes que nunca venceram o torneio.",
+    },
+
+    titulos: [
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Bola de Prata da Revista Placar",
+        logo: "Placar",
+        anos: "1980, 1982, 1983",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Sul-Americano",
+        logo: "Individual",
+        anos: "1983",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        logo: "FIFA",
+        anos: "2004",
+        categoria: "individual",
+      },
+
+      // CORINTHIANS
+      {
+        nome: "Campeonato Paulista",
+        anos: "1979, 1982, 1983",
+        clube: "Corinthians",
+      },
+
+      // FLAMENGO
+      {
+        nome: "Campeonato Carioca",
+        anos: "1986",
+        clube: "Flamengo",
+      },
+    ],
+    tags: ["Doutor", "Democracia Corinthiana", "Calcanhar de Ouro"],
+    ultima_atualizacao: "01/11/2025",
   },
 
   // Taffarel
@@ -12209,13 +12812,13 @@ export const jogadores = [
       {
         nome: "The Best FIFA",
         anos: "2024",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Globe Soccer Awards",
         anos: "2024",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -12692,21 +13295,21 @@ export const jogadores = [
       {
         nome: "Bola de Ouro",
         anos: "1994",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Chuteira de Ouro",
         logo: "UEFA",
         anos: "1990",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Chuteira de Ouro",
         logo: "Copa do Mundo",
         anos: "1994",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -12850,7 +13453,7 @@ export const jogadores = [
         nome: "Futebolista Africano do Ano",
         logo: "CAF",
         anos: "2003, 2004, 2005, 2010",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -13020,19 +13623,145 @@ export const jogadores = [
     nome: "Radamel Falcao",
     background: "titanium",
     descricao:
-      "Um dos maiores artilheiros colombianos de todos os tempos, conhecido por sua força física e habilidade de marcar gols.",
-    pagina: "https://www.instagram.com/falcaogarcia/",
+      "Centroavante colombiano conhecido como 'El Tigre', um dos atacantes mais clínicos e letais de sua geração. Famoso por seu cabeceio, finalização impecável e domínio na Liga Europa, onde detém recordes de gols. É o maior artilheiro da história da Seleção Colombiana.",
+    pagina: "https://pt.wikipedia.org/wiki/Radamel_Falcao",
     nacionalidade: "Colômbia",
-    imagem:
-      "https://media.gettyimages.com/id/1367435292/pt/foto/barranquilla-colombia-radamel-falcao-of-colombia-stands-for-the-national-anthem-prior-to-a.jpg?s=612x612&w=gi&k=20&c=BeVAkl_gEcyxVfS9otsV0B5HEREkUZOdgOy8cVwcAaA=",
+    imagem: "https://cdn.conmebol.com/wp-content/uploads/2014/05/radamel.jpg",
     numero: "9",
-    posicao: "Centroavante",
+    posicao: "Atacante",
     dataNascimento: "10/02/1986",
-    status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    status: "Sem clube",
+    curiosidades:
+      "É o maior artilheiro da história da Seleção Colombiana. Detém o recorde de gols marcados em uma única edição da Liga Europa (17 gols, em 2011, pelo Porto). É o único jogador a vencer a Liga Europa consecutivamente por dois clubes diferentes (Porto em 2011 e Atlético de Madrid em 2012).",
+
+    clubes: [
+      createClub(
+        "River Plate",
+        { inicio: "2005", fim: "2009" },
+        { jogos: 109, gols: 45, assistencias: 0 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "2009", fim: "2011" },
+        { jogos: 87, gols: 72, assistencias: 13 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2011", fim: "2013" },
+        { jogos: 91, gols: 70, assistencias: 9 }
+      ),
+      createClub(
+        "Monaco",
+        { inicio: "2013", fim: "2019" },
+        { jogos: 140, gols: 83, assistencias: 10 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 29, gols: 4, assistencias: 4 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 12, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Galatasaray",
+        { inicio: "2019", fim: "2021" },
+        { jogos: 43, gols: 20, assistencias: 3 }
+      ),
+      createClub(
+        "Rayo Vallecano",
+        { inicio: "2021", fim: "2024" },
+        { jogos: 79, gols: 13, assistencias: 0 }
+      ),
+      createClub(
+        "Millonarios",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 26, gols: 11, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Colômbia",
+      periodo: { inicio: "2005", fim: "Presente" },
+      estatisticas: { jogos: 104, gols: 36, assistencias: 5 },
+      destaque:
+        "Maior artilheiro da história da Seleção Colombiana. Liderou a equipe no retorno às Copas do Mundo em 2014 e 2018.",
+    },
+
+    titulos: [
+      // PORTO
+      {
+        nome: "UEFA Europa League",
+        anos: "2011",
+        clube: "Porto",
+      },
+      {
+        nome: "Campeonato Português",
+        anos: "2011",
+        clube: "Porto",
+      },
+      {
+        nome: "Copa de Portugal",
+        anos: "2010, 2011",
+        clube: "Porto",
+      },
+
+      // ATLÉTICO DE MADRID
+      {
+        nome: "UEFA Europa League",
+        anos: "2012",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2012",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2013",
+        clube: "Atlético de Madrid",
+      },
+
+      // MONACO
+      {
+        nome: "Campeonato Francês",
+        anos: "2017",
+        clube: "Monaco",
+      },
+
+      // GALATASARAY
+      {
+        nome: "Supercopa da Turquia",
+        anos: "2019",
+        clube: "Galatasaray",
+      },
+
+      // RIVER PLATE
+      {
+        nome: "Campeonato Argentino",
+        anos: "2008",
+        clube: "River Plate",
+      },
+
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Artilheiro da UEFA Europa League",
+        logo: "UEFA Europa League",
+        anos: "2011, 2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Prata do Mundial de Clubes",
+        logo: "Mundial de Clubes",
+        anos: "2012",
+        categoria: "individual",
+      },
+    ],
+    tags: ["El Tigre"],
+    ultima_atualizacao: "03/11/2025",
   },
 
   // James Rodríguez
@@ -13166,20 +13895,20 @@ export const jogadores = [
         nome: "Chuteira de Ouro",
         logo: "Campeonato Inglês",
         anos: "2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Prêmio Puskás",
         logo: "FIFA",
         anos: "2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Jogador Asiático do Ano",
         anos: "2015, 2017, 2019, 2020, 2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -13192,21 +13921,136 @@ export const jogadores = [
   // Yaya Touré
   {
     nome: "Yaya Touré",
-    background: "titanium",
+    background: "diamond",
     descricao:
-      "Um dos maiores meio-campistas da sua geração, Yaya Touré era conhecido por sua força física, habilidade com a bola e visão de jogo. Ele foi fundamental para os sucessos do Barcelona e do Manchester City.",
-    pagina: "https://www.instagram.com/yaya.toure/",
-    nacionalidade: "Costa_do_Marfim",
+      "Meio-campista da Costa do Marfim conhecido por sua força física, técnica refinada e capacidade incomparável de carregar a bola e marcar gols. Foi uma força dominante no meio-campo do Manchester City, sendo decisivo em três títulos da Premier League. Vencedor de quatro prêmios de Futebolista Africano do Ano.",
+    pagina: "https://pt.wikipedia.org/wiki/Yaya_Tour%C3%A9",
+    nacionalidade: "Costa do Marfim",
     imagem:
-      "https://s2-ge.glbimg.com/DXeJyG6LQgK7dEhF-bwMEF-iAkQ=/0x0:3000x2011/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2017/A/3/OzErNNTPiCAYZif5ozMA/020-450630754.jpg",
-    numero: "19",
-    posicao: "Meia",
+      "https://kmgestionsport.com/wp-content/uploads/2023/05/yaya-toure.jpg",
+    numero: "42",
+    posicao: "Meio-Campista (Volante/Meia Central)",
     dataNascimento: "13/05/1983",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
+    curiosidades:
+      "Ganhou o prêmio de Futebolista Africano do Ano quatro vezes consecutivas (2011, 2012, 2013, 2014). Foi o autor do gol da vitória na final da FA Cup de 2011, que encerrou um jejum de 35 anos sem títulos do Manchester City. É irmão mais novo de Kolo Touré, com quem jogou no City e na seleção.",
+
+    clubes: [
+      createClub(
+        "Beveren",
+        { inicio: "2001", fim: "2003" },
+        { jogos: 70, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Metalurh Donetsk",
+        { inicio: "2003", fim: "2005" },
+        { jogos: 39, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Olympiacos",
+        { inicio: "2005", fim: "2006" },
+        { jogos: 26, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Monaco",
+        { inicio: "2006", fim: "2007" },
+        { jogos: 30, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2007", fim: "2010" },
+        { jogos: 118, gols: 6, assistencias: 6 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2010", fim: "2018" },
+        { jogos: 316, gols: 79, assistencias: 50 }
+      ),
+      createClub(
+        "Qingdao Huanghai",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 14, gols: 2, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Costa do Marfim",
+      periodo: { inicio: "2004", fim: "2015" },
+      estatisticas: { jogos: 97, gols: 19, assistencias: 0 },
+      destaque:
+        "Capitão e principal figura na conquista da Copa das Nações Africanas (CAN) em 2015, após anos de vice-campeonatos.",
+    },
+
+    titulos: [
+      // MANCHESTER CITY
+      {
+        nome: "Campeonato Inglês",
+        anos: "2012, 2014, 2018",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2014, 2016",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2011",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2012",
+        clube: "Manchester City",
+      },
+
+      // BARCELONA
+      {
+        nome: "UEFA Champions League",
+        anos: "2009",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2009",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2009, 2010",
+        clube: "Barcelona",
+      },
+
+      // OUTROS CLUBES
+      {
+        nome: "Campeonato Grego",
+        anos: "2006",
+        clube: "Olympiacos",
+      },
+
+      // SELEÇÃO
+      {
+        nome: "Copa das Nações Africanas",
+        anos: "2015",
+        clube: "Costa do Marfim",
+      },
+
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Futebolista Africano do Ano",
+        logo: "CAF",
+        anos: "2011, 2012, 2013, 2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Premier League",
+        logo: "PFA",
+        anos: "2012, 2014",
+        categoria: "individual",
+      },
+    ],
     tags: [],
+    ultima_atualizacao: "03/11/2025",
   },
 
   // COSTA RICA ------------------------------------------------------------------------------------------------
@@ -13339,35 +14183,35 @@ export const jogadores = [
         nome: "Melhor Goleiro da UEFA",
         logo: "UEFA",
         anos: "2018",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Goleiro do Ano da CONCACAF",
         logo: "CONCACAF",
         anos: "2016, 2017, 2018",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Goleiro da Ligue 1",
         logo: "Campeonato Francês",
         anos: "2020/21",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Goleiro da La Liga",
         logo: "Campeonato Espanhol",
         anos: "2014",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Goleiro da Década",
         logo: "IFFHS",
         anos: "2011–2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -13582,34 +14426,34 @@ export const jogadores = [
         nome: "Ballon d'Or",
         logo: "Bola de Ouro",
         anos: "2018",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "The Best FIFA Men's Player",
         logo: "FIFA",
         anos: "2018",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "UEFA Men's Player of the Year Award",
         logo: "UEFA",
         anos: "2018",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Golden Foot Award",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador da Copa do Mundo da FIFA",
         logo: "FIFA",
         anos: "2018",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -14026,13 +14870,13 @@ export const jogadores = [
         nome: "Chuteira de Ouro",
         logo: "Campeonato Inglês",
         anos: "2018, 2019, 2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Futebolista Africano do Ano",
         anos: "2017, 2018",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -14255,7 +15099,7 @@ export const jogadores = [
         nome: "Troféu Ricardo Zamora",
         logo: "Campeonato Espanhol",
         anos: "2016, 2017, 2018, 2019, 2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -14314,96 +15158,96 @@ export const jogadores = [
       {
         nome: "Bola de Ouro",
         anos: "1957, 1959",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Super Bola de Ouro",
         anos: "1989",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Prêmios do Jubileu da UEFA",
         logo: "UEFA",
         anos: "2003",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "FIFA 100",
         anos: "2000",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "4º Melhor Jogador do Século XX",
         logo: "IFFHS",
         anos: "2000",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "3º Melhor Jogador Europeu do Século XX",
         logo: "IFFHS",
         anos: "2000",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "3º Melhor Jogador Sul-Americano do Século XX",
         logo: "IFFHS",
         anos: "2000",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Troféu Pichichi",
         logo: "Campeonato Espanhol",
         anos: "1954, 1956, 1957, 1958, 1959",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Ordem de Mérito",
         logo: "FIFA",
         anos: "1994",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Lendas",
         logo: "IFFHS",
         anos: "1994",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Ouro Dream Team",
         logo: "France Football",
         anos: "1994",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "11Leyendas",
         logo: "Jornal AS",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "ALL TIME WORLD MEN'S DREAM TEAM (Time B)",
         logo: "IFFHS",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "ALL TIME ARGENTINA MEN'S DREAM TEAM",
         logo: "IFFHS",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
 
@@ -14747,28 +15591,28 @@ export const jogadores = [
         nome: "Time do Ano da UEFA",
         logo: "UEFA",
         anos: "2002, 2005, 2006, 2008, 2009, 2010",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "FIFPro World XI",
         logo: "FIFPro",
         anos: "2007, 2008, 2010",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Defensor do Ano da UEFA",
         logo: "UEFA",
         anos: "2006",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Time da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "2010",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -14957,28 +15801,28 @@ export const jogadores = [
         nome: "Equipe do Ano PFA da Premier League",
         logo: "Campeonato Inglês",
         anos: "2012, 2018",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção da Eurocopa",
         logo: "Eurocopa",
         anos: "2012",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "Jogador da Temporada do Manchester City",
         anos: "2012, 2017",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Assistente da Temporada",
         logo: "Campeonato Inglês",
         anos: "2012",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -15135,7 +15979,7 @@ export const jogadores = [
         nome: "Bola de Bronze da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "2010",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -15143,7 +15987,7 @@ export const jogadores = [
         nome: "Chuteira de Prata da Copa do Mundo",
         logo: "Copa do Mundo",
         anos: "2010",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -15151,7 +15995,7 @@ export const jogadores = [
         nome: "Artilheiro da Eurocopa",
         logo: "Eurocopa",
         anos: "2008",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -15159,14 +16003,14 @@ export const jogadores = [
         nome: "Artilheiro Espanhol da La Liga",
         logo: "Campeonato Espanhol",
         anos: "2006, 2007, 2009, 2010",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "MLS MVP",
         logo: "MLS",
         anos: "2016",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -15342,13 +16186,13 @@ export const jogadores = [
       {
         nome: "Troféu Kopa",
         anos: "2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Golden Boy",
         anos: "2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -15462,21 +16306,21 @@ export const jogadores = [
         nome: "Time do Ano da FIFA (FIFA World XI)",
         logo: "FIFA",
         anos: "2010, 2011, 2012, 2016",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Time do Ano da UEFA",
         logo: "UEFA",
         anos: "2010, 2011, 2012, 2015, 2016",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Jogador Revelação da La Liga",
         logo: "Campeonato Espanhol",
         anos: "2009",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -15489,19 +16333,115 @@ export const jogadores = [
     nome: "Iker Casillas",
     background: "diamond",
     descricao:
-      "Um dos maiores goleiros da história do futebol, conhecido por suas defesas espetaculares e liderança.",
-    pagina: "https://www.instagram.com/ikercasillasoficial/",
+      "Goleiro espanhol lendário, considerado um dos maiores da história e um ícone do Real Madrid e da Seleção Espanhola. Foi o capitão da 'Fúria' na conquista da tríplice coroa (Euro 2008, Copa 2010, Euro 2012). Conhecido por sua agilidade, reflexos e atuações decisivas em momentos cruciais.",
+    pagina: "https://pt.wikipedia.org/wiki/Iker_Casillas",
     nacionalidade: "Espanha",
     imagem:
-      "https://s.glbimg.com/es/ge/f/original/2012/09/12/iker_casillas_real_madrid_2.jpg",
+      "https://st1.uvnimg.com/32/80/cbd40de44aca80da2b610d1da3e8/GettyImages-485279823.jpg",
     numero: "1",
     posicao: "Goleiro",
     dataNascimento: "20/05/1981",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Estreou no time principal do Real Madrid com 18 anos. É o segundo jogador com mais jogos na história do Real Madrid (725). Foi o goleiro mais jovem a disputar e vencer uma final de UEFA Champions League, com 19 anos, em 2000. Superou um infarto que sofreu durante um treino no Porto em 2019.",
+
+    clubes: [
+      createClub(
+        "Real Madrid C",
+        { inicio: "1998", fim: "1999" },
+        { jogos: 26, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid B",
+        { inicio: "1999", fim: "2000" },
+        { jogos: 4, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "1999", fim: "2015" },
+        { jogos: 725, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "2015", fim: "2020" },
+        { jogos: 156, gols: 0, assistencias: 0 }
+      ),
+    ],
+
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "2000", fim: "2016" },
+      estatisticas: { jogos: 167, gols: 0, assistencias: 0 },
+      destaque:
+        "Capitão da Seleção na conquista da Copa do Mundo FIFA 2010 e das Eurocopas de 2008 e 2012. Detentor do recorde de mais partidas sem sofrer gols pela Seleção.",
+    },
+
+    titulos: [
+      // REAL MADRID
+      {
+        nome: "UEFA Champions League",
+        anos: "2000, 2002, 2014",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2002, 2014",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2001, 2003, 2007, 2008, 2012",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2011, 2014",
+        clube: "Real Madrid",
+      },
+
+      // PORTO
+      {
+        nome: "Campeonato Português",
+        anos: "2018, 2020",
+        clube: "Porto",
+      },
+
+      // SELEÇÃO ESPANHOLA
+      {
+        nome: "Copa do Mundo",
+        anos: "2010",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2008",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa",
+        anos: "2012",
+        clube: "Espanha",
+        logoVariavel: true,
+      },
+
+      // TÍTULOS INDIVIDUAIS
+      {
+        nome: "Luva de Ouro da Copa do Mundo",
+        logo: "Luva de Ouro FIFA",
+        anos: "2010",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro do Mundo (IFFHS)",
+        logo: "IFFHS",
+        anos: "2008, 2009, 2010, 2011, 2012",
+        categoria: "individual",
+      },
+    ],
+    tags: ["San Iker"],
+    ultima_atualizacao: "03/11/2025",
   },
 
   //Isco Alarcón
@@ -15658,14 +16598,14 @@ export const jogadores = [
         nome: "Golden Boy",
         logo: "Ballon Dor",
         anos: "2024, 2025",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador Jovem",
         logo: "Campeonato Espanhol",
         anos: "2023-24",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -15869,20 +16809,20 @@ export const jogadores = [
       {
         nome: "Troféu Kopa",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Golden Boy",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador Jovem da Eurocopa",
         logo: "Eurocopa",
         anos: "2020",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -16960,14 +17900,14 @@ export const jogadores = [
       {
         nome: "Bola de Ouro",
         anos: "2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador da UEFA",
         logo: "UEFA",
         anos: "2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
 
@@ -17259,7 +18199,7 @@ export const jogadores = [
   // N'Golo Kanté
   {
     nome: "N'Golo Kanté",
-    background: "titanium",
+    background: "diamond",
     descricao:
       "Volante francês mundialmente aclamado por sua incansável capacidade de recuperação de bola, resistência física e humildade. Kanté foi peça central no título milagroso do Leicester City (2016) e subsequentemente liderou o meio-campo do Chelsea na conquista da Liga dos Campeões (2021) e da França na Copa do Mundo (2018).",
     pagina: "https://www.instagram.com/nglkante/",
@@ -17344,7 +18284,7 @@ export const jogadores = [
         nome: "Jogador do Ano da PFA",
         logo: "Campeonato Inglês",
         anos: "2017",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -17445,21 +18385,21 @@ export const jogadores = [
         nome: "Melhor Jogador Jovem da Ligue 1",
         logo: "Campeonato Francês",
         anos: "2015-16",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Revelação da Temporada da Bundesliga",
         logo: "Campeonato Alemão",
         anos: "2016-17",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bola de Ouro",
         logo: "Bola de Ouro",
         anos: "2025",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -17590,14 +18530,14 @@ export const jogadores = [
       {
         nome: "Bola de Ouro",
         anos: "1998",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador do Mundo",
         logo: "FIFA",
         anos: "1998, 2000, 2003",
-        clube: "Individual",
+
         categoria: "individual",
       },
 
@@ -19181,82 +20121,82 @@ export const jogadores = [
         nome: "10º colocado na Ballon d'Or",
         logo: "Bola de Ouro",
         anos: "2024",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "8º melhor jogador do ano",
         logo: "IFFHS",
         anos: "2024",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Troféu Gerd Muller",
         anos: "2024",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção da Liga dos Campeões da UEFA",
         logo: "UEFA Champions League",
         anos: "2023",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Bota de Ouro da UEFA",
         logo: "UEFA",
         anos: "2023",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Time da temporada da Bundesliga",
         logo: "Campeonato Alemão",
         anos: "2023",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Chuteira de Ouro da Copa do Mundo da FIFA",
         logo: "FIFA",
         anos: "2018",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Equipe do Ano da PFA",
         logo: "PFA",
         anos: "2014, 2015, 2016, 2017 e 2020",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Jogador Jovem do Ano da PFA",
         logo: "PFA",
         anos: "2014-15",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Artilheiro da Bundesliga",
         logo: "Campeonato Alemão",
         anos: "2023-24",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Jogador do Mês da Premier League",
         logo: "Campeonato Inglês",
         anos: "Janeiro 2015, Fevereiro 2015, Março 2016, Fevereiro 2017, Setembro 2017, Dezembro 2017, Março 2022",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Melhor Jogador do Tottenham Hotspur da Temporada",
         anos: "2014-15, 2020-21, 2022-23",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
@@ -20148,14 +21088,14 @@ export const jogadores = [
         nome: "Seleção da Liga Europa da UEFA",
         logo: "UEFA Europa League",
         anos: "2019",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção da Eurocopa",
         logo: "Eurocopa",
         anos: "2020",
-        clube: "Individual",
+
         categoria: "individual",
         logoVariavel: true,
       },
@@ -20163,28 +21103,28 @@ export const jogadores = [
         nome: "Melhor Jogador da UEFA",
         logo: "UEFA",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "Seleção da Liga dos Campeões da UEFA",
         logo: "UEFA Champions League",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "FIFPro World XI",
         logo: "FIFPro",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
       {
         nome: "3º Lugar na Bola de Ouro",
         logo: "Bola de Ouro",
         anos: "2021",
-        clube: "Individual",
+
         categoria: "individual",
       },
     ],
