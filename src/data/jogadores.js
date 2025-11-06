@@ -2967,7 +2967,7 @@ export const jogadores = [
     nome: "Lionel Messi",
     background: "gold",
     descricao:
-      "Atacante argentino considerado um dos maiores jogadores de todos os tempos. Conhecido por sua habilidade, dribles e visão de jogo, Messi conquistou diversos títulos com o Barcelona e a Seleção Argentina.",
+      "Atacante argentino, amplamente considerado o maior jogador de todos os tempos. Conhecido por sua agilidade excepcional, dribles curtos e visão de jogo inigualável, Messi é o único a ter vencido a Copa do Mundo FIFA (2022) e a Copa América (2021, 2024) como protagonista, após uma carreira lendária no Barcelona.",
     pagina: "https://www.instagram.com/leomessi/",
     numero: "10",
     posicao: "Atacante",
@@ -2975,7 +2975,9 @@ export const jogadores = [
     status: "Ativo",
     nacionalidade: "Argentina",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Lionel-Messi-Argentina-2022-FIFA-World-Cup_sharpness.jpg/1200px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_sharpness.jpg",
+      "https://ca-times.brightspotcdn.com/dims4/default/472037c/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F01%2Fa0%2F839f14ba65fbd82a1d3b17006819%2Fba97a787dee84deb890a7fced8cb8e00",
+    curiosidades:
+      "Messi é o recordista absoluto de Bolas de Ouro (8) e Chuteiras de Ouro da Europa (6). Ele também detém o recorde de mais gols marcados em um único ano (91 gols em 2012). No Barcelona, formou o icônico trio 'MSN' com Suárez e Neymar. Sua rivalidade com Cristiano Ronaldo é frequentemente citada como a maior da história do esporte.",
     clubes: [
       createClub(
         "Barcelona",
@@ -2989,13 +2991,13 @@ export const jogadores = [
       ),
       createClub(
         "Inter Miami",
-        { inicio: "2023", fim: "atual" },
+        { inicio: "2023", fim: "Presente" },
         { jogos: 84, gols: 75, assistencias: 37 }
       ),
     ],
     selecao: {
       nome: "Argentina",
-      periodo: { inicio: 2005, fim: "atual" },
+      periodo: { inicio: "2005", fim: "Presente" },
       estatisticas: { jogos: 191, gols: 112, assistencias: 58 },
     },
     titulos: [
@@ -3030,6 +3032,7 @@ export const jogadores = [
         anos: "2009, 2011, 2015",
         clube: "Barcelona",
       },
+
       // Paris Saint-Germain
       {
         nome: "Campeonato Francês",
@@ -3041,22 +3044,15 @@ export const jogadores = [
         anos: "2022",
         clube: "Paris Saint-Germain",
       },
+
       // Inter Miami
-      {
-        nome: "Leagues Cup",
-        anos: "2023",
-        clube: "Inter Miami",
-      },
-      {
-        nome: "MLS Supporters' Shield",
-        anos: "2024",
-        clube: "Inter Miami",
-      },
+      { nome: "Leagues Cup", anos: "2023", clube: "Inter Miami" },
+      { nome: "MLS Supporters' Shield", anos: "2024", clube: "Inter Miami" },
 
       // Argentina
       {
         nome: "Copa América",
-        anos: "2024",
+        anos: "2007",
         clube: "Argentina",
         logoVariavel: true,
       },
@@ -3073,10 +3069,21 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
+        nome: "Copa América",
+        anos: "2024",
+        clube: "Argentina",
+        logoVariavel: true,
+      },
+      {
         nome: "Jogos Olímpicos",
         anos: "2008",
         clube: "Argentina",
         logoVariavel: true,
+      },
+      {
+        nome: "Finalíssima",
+        anos: "2022",
+        clube: "Argentina",
       },
 
       // Individuais
@@ -3084,91 +3091,98 @@ export const jogadores = [
         nome: "Bola de Ouro",
         anos: "2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023",
         categoria: "individual",
+        logo: "Bola de Ouro",
       },
       {
         nome: "The Best FIFA",
         anos: "2019, 2022, 2023",
         categoria: "individual",
+        logo: "FIFA",
       },
       {
-        nome: "Chuteira de Ouro",
-        anos: "2009, 2011, 2012, 2016, 1017, 2018",
+        nome: "Chuteira de Ouro da Europa",
+        anos: "2010, 2012, 2013, 2017, 2018, 2019",
         categoria: "individual",
+        logo: "Chuteira de Ouro",
       },
       {
-        nome: "FIFA World Cup Golden Ball",
-        anos: "2014, 2022",
+        nome: "Bola de Ouro da Copa do Mundo",
+        anos: "2014",
         categoria: "individual",
+        logo: "Bola de Ouro FIFA",
       },
       {
-        nome: "FIFA Club World Cup Golden Ball",
-        logo: "FIFA World Cup Golden Ball",
-        anos: "2014, 2022",
+        nome: "Bola de Ouro do Mundial de Clubes",
+        anos: "2009, 2011",
         categoria: "individual",
+        logo: "Mundial de Clubes",
       },
       {
-        nome: "FIFA Club World Cup Silver Ball",
-        logo: "FIFA World Cup Silver Ball",
-        anos: "2014, 2022",
+        nome: "Bola de Prata do Mundial de Clubes",
+        anos: "2015",
         categoria: "individual",
+        logo: "Mundial de Clubes",
       },
       {
         nome: "Jogador do Ano da UEFA",
-        logo: "UEFA",
         anos: "2011, 2015",
         categoria: "individual",
+        logo: "UEFA",
       },
       {
-        nome: "Copa América Melhor Jogador",
-        logo: "Copa América",
+        nome: "Bola de Ouro da Copa América",
         anos: "2015",
         categoria: "individual",
+        logo: "Copa América",
+        logoVariavel: true,
+      },
+      {
+        nome: "Bola de Ouro da Copa América",
+        anos: "2021",
+        categoria: "individual",
+        logo: "Copa América",
         logoVariavel: true,
       },
       {
         nome: "Artilharia da UEFA Champions League",
-        logo: "UEFA Champions League",
         anos: "2009, 2010, 2011, 2012, 2015, 2019",
         categoria: "individual",
+        logo: "UEFA Champions League",
+      },
+      {
+        nome: "Artilheiro do Campeonato Espanhol",
+        anos: "2010, 2012, 2013, 2017, 2018, 2019, 2020",
+        categoria: "individual",
+        logo: "Campeonato Espanhol",
+      },
+      {
+        nome: "Prêmio Laureus (Esportista do Ano)",
+        anos: "2020, 2023",
+        categoria: "individual",
+        logo: "Prêmio Laureus",
+      },
+      {
+        nome: "Bola de Ouro da Copa do Mundo",
+        anos: "2022",
+        categoria: "individual",
+        logo: "Copa do Mundo",
+        logoVariavel: true,
+      },
+      {
+        nome: "Prêmio Landon Donovan MVP (MLS)",
+        anos: "2024",
+        categoria: "individual",
+        logo: "MLS",
       },
       {
         nome: "Bola de Ouro Dream Team",
-        logo: "France Football",
         anos: "2020",
         categoria: "individual",
-      },
-      {
-        nome: "Copa América Melhor Jogador",
-        logo: "Copa América",
-        anos: "2021",
-        categoria: "individual",
-        logoVariavel: true,
-      },
-      {
-        nome: "Copa América Chuteira de Ouro",
-        logo: "Copa América",
-        anos: "2021",
-        categoria: "individual",
-        logoVariavel: true,
-      },
-      {
-        nome: "Troféu Pichichi",
-        anos: "2010, 2012, 2013, 2017, 2018, 2019, 2021",
-        categoria: "individual",
-      },
-      {
-        nome: "Prêmio Laureus",
-        anos: "2020, 2023",
-        categoria: "individual",
-      },
-      {
-        nome: "Prêmio Landon Donovan MVP",
-        anos: "2024",
-        categoria: "individual",
+        logo: "France Football",
       },
     ],
-    tags: ["PSG"],
-    ultima_atualizacao: "28/10/25",
+    tags: ["Lionel Messi", "Messi", "Leo Messi", "GOAT", "MSN"],
+    ultima_atualizacao: "06/11/2025",
   },
 
   // BÉLGICA --------------------------------------------------------------------------------------------------
@@ -10059,7 +10073,7 @@ export const jogadores = [
     nome: "Neymar Jr.",
     background: "diamond",
     descricao:
-      "Atacante brasileiro conhecido por sua habilidade, dribles e finalizações. Considerado um dos melhores jogadores de sua geração, Neymar brilhou por Santos, Barcelona e PSG, teve passagem pelo Al-Hilal e retornou ao Santos em 2025.",
+      "Atacante brasileiro conhecido por sua habilidade, dribles e finalizações. Considerado um dos melhores jogadores de sua geração, Neymar brilhou por Santos, Barcelona e PSG. Atualmente, representa o Santos em sua segunda passagem.",
     pagina: "https://www.instagram.com/neymarjr/",
     numero: "10",
     posicao: "Atacante",
@@ -10067,7 +10081,9 @@ export const jogadores = [
     status: "Ativo",
     nacionalidade: "Brasil",
     imagem:
-      "https://cdn.esbrasil.com.br/wp-content/uploads/2024/09/6d2nqshw9lodueisju2k2bwyl.jpg",
+      "https://thefootball.com.br/wp-content/uploads/2025/07/Neymar-gol-Flamengo-Santos.jpg",
+    curiosidades:
+      "Neymar é o maior artilheiro da história da Seleção Brasileira, superando a marca de Pelé em jogos oficiais. Formou, ao lado de Lionel Messi e Luis Suárez, o trio 'MSN' no Barcelona, um dos ataques mais poderosos da história.",
     clubes: [
       createClub(
         "Santos",
@@ -10091,13 +10107,13 @@ export const jogadores = [
       ),
       createClub(
         "Santos",
-        { inicio: "2025", fim: "atual" },
+        { inicio: "2025", fim: "Presente" },
         { jogos: 21, gols: 6, assistencias: 3 }
       ),
     ],
     selecao: {
       nome: "Brasil",
-      periodo: { inicio: "2010", fim: "atual" },
+      periodo: { inicio: "2010", fim: "Presente" },
       estatisticas: { jogos: 128, gols: 79, assistencias: 40 },
     },
     titulos: [
@@ -10107,48 +10123,16 @@ export const jogadores = [
         anos: "2010, 2011, 2012",
         clube: "Santos",
       },
-      {
-        nome: "Copa do Brasil",
-        anos: "2010",
-        clube: "Santos",
-      },
-      {
-        nome: "Copa Libertadores",
-        anos: "2011",
-        clube: "Santos",
-      },
-      {
-        nome: "Recopa Sul-Americana",
-        anos: "2012",
-        clube: "Santos",
-      },
+      { nome: "Copa do Brasil", anos: "2010", clube: "Santos" },
+      { nome: "Copa Libertadores", anos: "2011", clube: "Santos" },
+      { nome: "Recopa Sul-Americana", anos: "2012", clube: "Santos" },
 
-      //Barcelona
-      {
-        nome: "Campeonato Espanhol",
-        anos: "2015, 2016",
-        clube: "Barcelona",
-      },
-      {
-        nome: "Copa do Rei",
-        anos: "2015, 2016, 2017",
-        clube: "Barcelona",
-      },
-      {
-        nome: "UEFA Champions League",
-        anos: "2015",
-        clube: "Barcelona",
-      },
-      {
-        nome: "Mundial de Clubes",
-        anos: "2015",
-        clube: "Barcelona",
-      },
-      {
-        nome: "Supercopa da Espanha",
-        anos: "2013",
-        clube: "Barcelona",
-      },
+      // Barcelona
+      { nome: "Campeonato Espanhol", anos: "2015, 2016", clube: "Barcelona" },
+      { nome: "Copa do Rei", anos: "2015, 2016, 2017", clube: "Barcelona" },
+      { nome: "UEFA Champions League", anos: "2015", clube: "Barcelona" },
+      { nome: "Mundial de Clubes", anos: "2015", clube: "Barcelona" },
+      { nome: "Supercopa da Espanha", anos: "2013, 2016", clube: "Barcelona" },
 
       // Paris Saint-Germain
       {
@@ -10173,13 +10157,9 @@ export const jogadores = [
       },
 
       // Al-Hilal
-      {
-        nome: "Campeonato Saudita",
-        anos: "2024",
-        clube: "Al-Hilal",
-      },
+      { nome: "Campeonato Saudita", anos: "2024", clube: "Al-Hilal" },
 
-      //Seleção Brasileira
+      // Seleção Brasileira
       {
         nome: "Jogos Olímpicos",
         anos: "2016",
@@ -10192,18 +10172,42 @@ export const jogadores = [
         clube: "Brasil",
         logoVariavel: true,
       },
+
+      // Títulos Individuais
+      {
+        nome: "Rei da América",
+        logo: "Copa Libertadores",
+        anos: "2011, 2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Copa das Confederações",
+        logo: "Copa das Confederações",
+        anos: "2013",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Bola de Bronze da FIFA (Melhor do Mundo)",
+        logo: "FIFA",
+        anos: "2015",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da FIFA/FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2015, 2017",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Copa do Rei",
+        logo: "Copa do Rei",
+        anos: "2015",
+        categoria: "individual",
+      },
     ],
-    tags: [
-      "Neymar",
-      "Neymar Jr.",
-      "Neymar Junior",
-      "Ney",
-      "NJR",
-      "Menino da Vila",
-      "Barcelona",
-      "PSG",
-    ],
-    ultima_atualizacao: "27/10/25",
+    tags: ["Neymar", "Neymar Jr.", "Ney", "NJR", "Menino da Vila", "MSN"],
+    ultima_atualizacao: "06/11/2025",
   },
 
   // Nilton Santos
@@ -24620,8 +24624,15 @@ export const jogadores = [
         categoria: "individual",
       },
     ],
-tags: ["Luís Figo", "Luis Figo", "Figo", "Luiz Figo", "Luis Fiego", "Luís Filipe Madeira Caeiro Figo"],
-  ultima_atualizacao: "05/11/2025",
+    tags: [
+      "Luís Figo",
+      "Luis Figo",
+      "Figo",
+      "Luiz Figo",
+      "Luis Fiego",
+      "Luís Filipe Madeira Caeiro Figo",
+    ],
+    ultima_atualizacao: "05/11/2025",
   },
 
   // Nuno Mendes
@@ -24861,6 +24872,162 @@ tags: ["Luís Figo", "Luis Figo", "Figo", "Luiz Figo", "Luis Fiego", "Luís Fili
     tags: ["Nedved"],
   },
 
+  // Peter Čech
+  {
+    nome: "Peter Čech",
+    background: "diamond",
+    descricao:
+      "Goleiro tcheco lendário, amplamente considerado um dos melhores da história da Premier League. Detém o recorde de 'clean sheets' (jogos sem sofrer gols) na Premier League e foi o pilar defensivo nas conquistas da UEFA Champions League e da UEFA Europa League pelo Chelsea.",
+    pagina: "https://pt.wikipedia.org/wiki/Petr_%C4%8Cech",
+    nacionalidade: "República Tcheca",
+    imagem:
+      "https://i.pinimg.com/736x/f8/dd/ac/f8ddace0f81dff2bd13f748ac75b04ad.jpg",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "20/05/1982",
+    status: "Aposentado",
+    curiosidades:
+      "É famoso por usar um capacete protetor desde 2006, após sofrer uma grave fratura no crânio em uma partida. Ele detém o recorde de mais 'clean sheets' na história da Premier League (202 jogos). Após se aposentar do futebol, ele iniciou uma carreira como goleiro de hóquei no gelo.",
+    clubes: [
+      createClub(
+        "FK Chmel Blšany",
+        { inicio: "1999", fim: "2001" },
+        { jogos: 27, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Sparta Praga",
+        { inicio: "2001", fim: "2002" },
+        { jogos: 30, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Stade Rennais",
+        { inicio: "2002", fim: "2004" },
+        { jogos: 78, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2004", fim: "2015" },
+        { jogos: 494, gols: 0, assistencias: 8 }
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "2015", fim: "2019" },
+        { jogos: 139, gols: 0, assistencias: 4 }
+      ),
+    ],
+    selecao: {
+      nome: "República Tcheca",
+      periodo: { inicio: "2002", fim: "2016" },
+      estatisticas: { jogos: 124, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Chelsea
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2005, 2007, 2015",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2005, 2006, 2010, 2015",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2005, 2009",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2007, 2009, 2010, 2012",
+        clube: "Chelsea",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2012",
+        clube: "Chelsea",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2013",
+        clube: "Chelsea",
+      },
+
+      // Arsenal
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2015, 2017",
+        clube: "Arsenal",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2017",
+        clube: "Arsenal",
+      },
+
+      // República Tcheca
+      {
+        nome: "Eurocopa Sub-21",
+        anos: "2002",
+        clube: "República Tcheca",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Goleiro do Campeonato Francês",
+        logo: "Campeonato Francês",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro do Mundo (IFFHS)",
+        logo: "IFFHS",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro da UEFA",
+        logo: "UEFA",
+        anos: "2005, 2007, 2008, 2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Luva de Ouro da Premier League",
+        logo: "Campeonato Inglês",
+        anos: "2005, 2010, 2014, 2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Checo do Ano",
+        logo: "Individual",
+        anos: "2005, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro Checa",
+        logo: "Individual",
+        anos: "2005, 2006, 2007, 2008, 2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Petr Čech",
+      "Peter Cech",
+      "Petr Cech",
+      "Cech",
+      "Chech",
+      "Peter Chech",
+      "Goleiro Capacete",
+    ],
+    ultima_atualizacao: "06/11/2025",
+  },
+
   // Rússia -------------------------------------------------------------------------------------------------------------------------------
 
   // Lev Yashin
@@ -24971,6 +25138,186 @@ tags: ["Luís Figo", "Luis Figo", "Figo", "Luiz Figo", "Luis Fiego", "Luís Fili
     ],
     tags: ["Aranha Negra"],
     ultima_atualizacao: "31/10/25",
+  },
+
+  // SENEGAL -------------------------------------------------------------------------------------------------------------------------------
+
+  // Sadio Mané
+  {
+    nome: "Sadio Mané",
+    background: "diamond",
+    descricao:
+      "Atacante senegalês conhecido por sua velocidade, capacidade de finalização e ética de trabalho. Foi um terço do lendário trio de ataque (Firmino-Mané-Salah) que levou o Liverpool de volta ao topo europeu e mundial, além de ser o herói nacional de Senegal ao conquistar a Copa Africana de Nações.",
+    pagina: "https://pt.wikipedia.org/wiki/Sadio_Man%C3%A9",
+    nacionalidade: "Senegal",
+    imagem:
+      "https://tntsports.com.br/__export/1720883174968/sites/esporteinterativo/img/2024/07/13/mane_al_nassr.png_383488136.png",
+    numero: "10",
+    posicao: "Ponta Esquerda / Segundo Atacante",
+    dataNascimento: "10/04/1992",
+    status: "Ativo",
+    curiosidades:
+      "Em 2022, ele foi o primeiro vencedor do Prêmio Sócrates, concedido pela revista France Football por ações de solidariedade. Ele financiou a construção de escolas e hospitais em seu vilarejo natal, Bambali, no Senegal. Sadio Mané detém o recorde do hat-trick mais rápido da história da Premier League: 2 minutos e 56 segundos pelo Southampton contra o Aston Villa, em 2015.",
+    clubes: [
+      createClub(
+        "Metz",
+        { inicio: "2012", fim: "2012" },
+        { jogos: 22, gols: 2, assistencias: 1 }
+      ),
+      createClub(
+        "Red Bull Salzburg",
+        { inicio: "2012", fim: "2014" },
+        { jogos: 87, gols: 45, assistencias: 32 }
+      ),
+      createClub(
+        "Southampton",
+        { inicio: "2014", fim: "2016" },
+        { jogos: 75, gols: 25, assistencias: 14 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2016", fim: "2022" },
+        { jogos: 269, gols: 120, assistencias: 48 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 38, gols: 12, assistencias: 6 }
+      ),
+      createClub(
+        "Al-Nassr",
+        { inicio: "2023", fim: "Atual" },
+        { jogos: 60, gols: 25, assistencias: 11 }
+      ),
+    ],
+    selecao: {
+      nome: "Senegal",
+      periodo: { inicio: "2012", fim: "Atual" },
+      estatisticas: { jogos: 107, gols: 43, assistencias: 24 },
+    },
+    titulos: [
+      // Red Bull Salzburg
+      {
+        nome: "Campeonato Austríaco",
+        anos: "2014",
+        clube: "Red Bull Salzburg",
+      },
+      {
+        nome: "Copa da Áustria",
+        anos: "2014",
+        clube: "Red Bull Salzburg",
+      },
+
+      // Liverpool
+      {
+        nome: "UEFA Champions League",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2020",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+
+      // 🇩🇪 Bayern de Munique
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2022",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Campeonato Alemão",
+        anos: "2023",
+        clube: "Bayern de Munique",
+      },
+
+      // 🇸🇦 Al-Nassr
+      {
+        nome: "Liga dos Campeões Árabe",
+        anos: "2023",
+        clube: "Al-Nassr",
+      },
+
+      // Seleção do Senegal
+      {
+        nome: "Copa Africana de Nações",
+        anos: "2022",
+        clube: "Senegal",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Onze d'Or",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista Africano do Ano",
+        logo: "Individual",
+        anos: "2019, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Copa Africana de Nações",
+        logo: "Copa Africana de Nações",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Premier League",
+        logo: "Campeonato Inglês",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Equipe do Ano PFA da Premier League",
+        logo: "Campeonato Inglês",
+        anos: "2017, 2019, 2020, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Prêmio Sócrates",
+        LOGO: "France Football",
+        anos: "2022",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Sadio Mané",
+      "Sadio Mane",
+      "Mane",
+      "Mané",
+      "Saido Mane",
+      "Sadio Manen",
+    ],
+    ultima_atualizacao: "06/11/2025",
   },
 
   // Suécia -------------------------------------------------------------------------------------------------------------------------------
@@ -25260,6 +25607,696 @@ tags: ["Luís Figo", "Luis Figo", "Figo", "Luiz Figo", "Luis Fiego", "Luís Fili
   },
 
   // URUGUAI --------------------------------------------------------------------------------------------------------------------
+
+  // Diego Forlán
+  {
+    nome: "Diego Forlán",
+    background: "diamond",
+    descricao:
+      "Lendário atacante uruguaio, conhecido pela sua potência de chute e visão de jogo. Foi peça central na Seleção Uruguaia campeã da Copa América 2011 e eleito o Bola de Ouro da Copa do Mundo FIFA 2010. Brilhou por clubes como Villarreal e Atlético de Madrid, onde ganhou duas Chuteiras de Ouro.",
+    pagina: "https://pt.wikipedia.org/wiki/Diego_Forl%C3%A1n",
+    nacionalidade: "Uruguai",
+    imagem:
+      "https://s6.tvp.pl/images2/6/3/5/uid_635e1267d101c74341592c0359b66ed31465966811170_width_1200_play_0_pos_0_gs_0_height_678_diego-forlan-fot-getty-images.jpg",
+    numero: "10",
+    posicao: "Segundo Atacante / Centroavante",
+    dataNascimento: "19/05/1979",
+    status: "Aposentado",
+    curiosidades:
+      "Forlán conquistou a Chuteira de Ouro da Europa por dois clubes diferentes (Villarreal e Atlético de Madrid). É o único uruguaio a ganhar a Bola de Ouro da Copa do Mundo (2010). Sua família tem uma forte tradição no futebol: seu pai e seu avô materno também jogaram pela seleção uruguaia.",
+    clubes: [
+      createClub(
+        "Independiente",
+        { inicio: "1997", fim: "2002" },
+        { jogos: 91, gols: 40, assistencias: 1 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2002", fim: "2004" },
+        { jogos: 98, gols: 17, assistencias: 9 }
+      ),
+      createClub(
+        "Villarreal",
+        { inicio: "2004", fim: "2007" },
+        { jogos: 128, gols: 60, assistencias: 10 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2007", fim: "2011" },
+        { jogos: 198, gols: 96, assistencias: 34 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "2011", fim: "2012" },
+        { jogos: 20, gols: 2, assistencias: 1 }
+      ),
+      createClub(
+        "Internacional",
+        { inicio: "2012", fim: "2014" },
+        { jogos: 55, gols: 22, assistencias: 5 }
+      ),
+      createClub(
+        "Cerezo Osaka",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 51, gols: 19, assistencias: 5 }
+      ),
+      createClub(
+        "Peñarol",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 34, gols: 8, assistencias: 3 }
+      ),
+      createClub(
+        "Mumbai City",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 11, gols: 5, assistencias: 3 }
+      ),
+      createClub(
+        "Kitchee",
+        { inicio: "2018", fim: "2018" },
+        { jogos: 14, gols: 6, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "2002", fim: "2015" },
+      estatisticas: { jogos: 112, gols: 36, assistencias: 7 },
+    },
+    titulos: [
+      // Manchester United
+      {
+        nome: "Campeonato Inglês",
+        anos: "2003",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2003",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2004",
+        clube: "Manchester United",
+      },
+
+      // Atlético de Madrid
+      {
+        nome: "UEFA Europa League",
+        anos: "2010",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2010",
+        clube: "Atlético de Madrid",
+      },
+
+      // Peñarol
+      {
+        nome: "Campeonato Uruguaio",
+        anos: "2016",
+        clube: "Peñarol",
+      },
+
+      // Kitchee
+      {
+        nome: "Campeonato Hong Kong",
+        anos: "2018",
+        clube: "Kitchee",
+      },
+      {
+        nome: "Copa da Hong Kong",
+        anos: "2018",
+        clube: "Kitchee",
+      },
+
+      // Seleção do Uruguai
+      {
+        nome: "Copa América",
+        anos: "2011",
+        clube: "Uruguai",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Chuteira de Ouro da Europa",
+        logo: "Chuteira de Ouro",
+        anos: "2005, 2009",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Espanhol",
+        logo: "Campeonato Espanhol",
+        anos: "2005, 2009",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro da Copa do Mundo",
+        logo: "Bola de Ouro FIFA",
+        anos: "2010",
+        categoria: "individual",
+      },
+      {
+        nome: "Gol do Torneio da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2010",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2010",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Time da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2010",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+    ],
+    tags: [
+      "Diego Forlán",
+      "Diego Forlan",
+      "Forlán",
+      "Forlan",
+      "Cachavacha",
+      "Djego Forlan",
+    ],
+    ultima_atualizacao: "06/11/2025",
+  },
+
+  // Diego Godín
+  {
+    nome: "Diego Godín",
+    background: "diamond",
+    descricao:
+      "Zagueiro lendário e capitão da Seleção Uruguaia, Godín é o recordista de partidas pela Celeste (161 jogos). Foi ícone do Atlético de Madrid, conhecido por sua liderança, raça e gols decisivos, como o que lhe deu o título da La Liga 2013–14.",
+    pagina: "https://pt.wikipedia.org/wiki/Diego_God%C3%ADn",
+    nacionalidade: "Uruguai",
+    imagem:
+      "https://estoesatleti.es/filesedc/uploads/image/post/diego-godin-atletico-de-madrid-2019_1600_1067.webp",
+    numero: "2",
+    posicao: "Zagueiro",
+    dataNascimento: "16/02/1986",
+    status: "Aposentado",
+    curiosidades:
+      "Godín é o jogador com mais partidas na história da Seleção Uruguaia (161). Marcou um gol crucial na final da Liga dos Campeões de 2014 e o gol que garantiu o título espanhol para o Atlético de Madrid em 2014, ambos contra o Barcelona. Ele era conhecido por sua amizade com Griezmann, que se recusou a comemorar um gol contra o Uruguai na Copa de 2018 em respeito a Godín e Giménez.",
+    clubes: [
+      createClub(
+        "CA Cerro",
+        { inicio: "2003", fim: "2006" },
+        { jogos: 64, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Nacional",
+        { inicio: "2006", fim: "2007" },
+        { jogos: 46, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Villarreal",
+        { inicio: "2007", fim: "2010" },
+        { jogos: 116, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2010", fim: "2019" },
+        { jogos: 389, gols: 27, assistencias: 11 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 36, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Cagliari",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 40, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Atlético Mineiro",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 9, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Vélez Sarsfield",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 22, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "2005", fim: "2022" },
+      estatisticas: { jogos: 161, gols: 8, assistencias: 3 },
+    },
+    titulos: [
+      // Seleção do Uruguai
+      {
+        nome: "Copa América",
+        anos: "2011",
+        clube: "Uruguai",
+        logoVariavel: true,
+      },
+
+      // Atlético de Madrid
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2014",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2013",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2014",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2012, 2018",
+        clube: "Atlético de Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2010, 2012, 2018",
+        clube: "Atlético de Madrid",
+      },
+
+      // Atlético Mineiro
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2022",
+        clube: "Atlético Mineiro",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2022",
+        clube: "Atlético Mineiro",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Defensor do Campeonato Espanhol",
+        logo: "Campeonato Espanhol",
+        anos: "2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da Temporada da Liga dos Campeões da UEFA",
+        logo: "UEFA Champions League",
+        anos: "2014, 2016, 2017",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2018",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Time da Temporada da UEFA Europa League",
+        logo: "UEFA Europa League",
+        anos: "2018",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Diego Godín", "Godín", "Godin", "El Faraón"],
+    ultima_atualizacao: "06/11/2025",
+  },
+
+  // Edinson Cavani
+  {
+    nome: "Edinson Cavani",
+    background: "diamond",
+    descricao:
+      "Lendário atacante uruguaio, conhecido como 'El Matador' pela sua capacidade goleadora, dedicação tática e potência de chute. É o segundo maior artilheiro da história da Seleção Uruguaia e foi o principal goleador da história do Paris Saint-Germain por muitos anos.",
+    pagina: "https://pt.wikipedia.org/wiki/Edinson_Cavani",
+    nacionalidade: "Uruguai",
+    imagem: "https://s.hs-data.com/picmon/b3/2dLP_99239i_l.jpg",
+    numero: "9",
+    posicao: "Centroavante / Segundo Atacante",
+    dataNascimento: "14/02/1987",
+    status: "Ativo",
+    curiosidades:
+      "É o segundo maior artilheiro da história da Seleção Uruguaia, atrás apenas de Luis Suárez. Foi o maior artilheiro da história do Paris Saint-Germain (com 200 gols) até ser superado por Kylian Mbappé. Sua paixão pelo futebol uruguaio o levou a retornar à América do Sul para jogar no Boca Juniors, um sonho pessoal.",
+    clubes: [
+      createClub(
+        "Danubio",
+        { inicio: "2005", fim: "2007" },
+        { jogos: 30, gols: 12, assistencias: 0 }
+      ),
+      createClub(
+        "Palermo",
+        { inicio: "2007", fim: "2010" },
+        { jogos: 117, gols: 37, assistencias: 3 }
+      ),
+      createClub(
+        "Napoli",
+        { inicio: "2010", fim: "2013" },
+        { jogos: 138, gols: 104, assistencias: 14 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2013", fim: "2020" },
+        { jogos: 301, gols: 200, assistencias: 43 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 59, gols: 19, assistencias: 7 }
+      ),
+      createClub(
+        "Valencia",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 28, gols: 7, assistencias: 2 }
+      ),
+      createClub(
+        "Boca Juniors",
+        { inicio: "2023", fim: "Atual" },
+        { jogos: 60, gols: 19, assistencias: 6 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "2008", fim: "2024" },
+      estatisticas: { jogos: 136, gols: 58, assistencias: 14 },
+    },
+    titulos: [
+      // Danubio
+      {
+        nome: "Campeonato Uruguaio",
+        anos: "2007",
+        clube: "Danubio",
+      },
+
+      // Napoli
+      {
+        nome: "Copa da Itália",
+        anos: "2012",
+        clube: "Napoli",
+      },
+
+      // Paris Saint-Germain
+      {
+        nome: "Campeonato Francês",
+        anos: "2014, 2015, 2016, 2018, 2019, 2020",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2015, 2016, 2017, 2018, 2020",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da Liga Francesa",
+        anos: "2014, 2015, 2016, 2017, 2018, 2020",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2014, 2015, 2017, 2018",
+        clube: "Paris Saint-Germain",
+      },
+
+      // Boca Juniors
+      {
+        nome: "Copa da Liga Argentina",
+        anos: "2024",
+        clube: "Boca Juniors",
+      },
+
+      // Seleção do Uruguai
+      {
+        nome: "Copa América",
+        anos: "2011",
+        clube: "Uruguai",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Artilheiro do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Francês",
+        logo: "Campeonato Francês",
+        anos: "2017, 2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Francês",
+        logo: "Campeonato Francês",
+        anos: "2017",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano do Campeonato Francês",
+        logo: "UNFP",
+        anos: "2014, 2017, 2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da Temporada da UEFA Europa League",
+        logo: "UEFA Europa League",
+        anos: "2012",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Edinson Cavani", "Cavani", "El Matador"],
+    ultima_atualizacao: "06/11/2025",
+  },
+
+  // Luis Suárez
+  {
+    nome: "Luis Suárez",
+    background: "diamond",
+    descricao:
+      "Centroavante uruguaio lendário, conhecido como 'El Pistolero' pela sua precisão cirúrgica e determinação. É o maior artilheiro da história da Seleção Uruguaia e formou o icônico trio MSN no Barcelona. Venceu a Chuteira de Ouro da Europa duas vezes.",
+    pagina: "https://www.instagram.com/luissuarez9",
+    nacionalidade: "Uruguai",
+    imagem:
+      "https://deportetotalusa.com/wp-content/uploads/2024/08/luis-suarez-2.jpg",
+    numero: "9",
+    posicao: "Centroavante",
+    dataNascimento: "24/01/1987",
+    status: "Ativo",
+    curiosidades:
+      "Suárez é o único jogador a ganhar as Chuteiras de Ouro da Europa fora do domínio de Lionel Messi e Cristiano Ronaldo (que dominaram o prêmio entre 2008 e 2019). Ele formou, ao lado de Messi e Neymar, o trio 'MSN' no Barcelona, considerado um dos ataques mais letais da história do futebol. É o maior artilheiro da história da Seleção Uruguaia.",
+    clubes: [
+      createClub(
+        "Nacional",
+        { inicio: "2005", fim: "2006" },
+        { jogos: 34, gols: 12, assistencias: 4 }
+      ),
+      createClub(
+        "Groningen",
+        { inicio: "2006", fim: "2007" },
+        { jogos: 37, gols: 15, assistencias: 6 }
+      ),
+      createClub(
+        "Ajax",
+        { inicio: "2007", fim: "2011" },
+        { jogos: 159, gols: 111, assistencias: 58 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2011", fim: "2014" },
+        { jogos: 133, gols: 82, assistencias: 47 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2014", fim: "2020" },
+        { jogos: 283, gols: 198, assistencias: 109 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 83, gols: 34, assistencias: 6 }
+      ),
+      createClub(
+        "Nacional",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 16, gols: 8, assistencias: 3 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 54, gols: 29, assistencias: 17 }
+      ),
+      createClub(
+        "Inter Miami",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 60, gols: 42, assistencias: 14 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "2007", fim: "Presente" },
+      estatisticas: { jogos: 143, gols: 69, assistencias: 39 },
+    },
+    titulos: [
+      // Nacional
+      {
+        nome: "Campeonato Uruguaio",
+        anos: "2006, 2022",
+        clube: "Nacional",
+      },
+
+      // Ajax
+      {
+        nome: "Copa da Holanda",
+        anos: "2010",
+        clube: "Ajax",
+      },
+      {
+        nome: "Campeonato Holandês",
+        anos: "2011",
+        clube: "Ajax",
+      },
+
+      // Liverpool
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2012",
+        clube: "Liverpool",
+      },
+
+      // Barcelona
+      {
+        nome: "UEFA Champions League",
+        anos: "2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2015",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2015, 2016, 2018, 2019",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2015, 2016, 2017, 2018",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2016, 2018",
+        clube: "Barcelona",
+      },
+
+      // Atlético de Madrid
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2021",
+        clube: "Atlético de Madrid",
+      },
+
+      // Grêmio
+      {
+        nome: "Campeonato Gaúcho",
+        anos: "2023",
+        clube: "Grêmio",
+      },
+      {
+        nome: "Recopa Gaúcha",
+        anos: "2023",
+        clube: "Grêmio",
+      },
+
+      // Seleção do Uruguai
+      {
+        nome: "Copa América",
+        anos: "2011",
+        clube: "Uruguai",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Chuteira de Ouro da Europa",
+        logo: "Chuteira de Ouro",
+        anos: "2014, 2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Premier League",
+        logo: "Campeonato Inglês",
+        anos: "2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Espanhol",
+        logo: "Campeonato Espanhol",
+        anos: "2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Holandês",
+        logo: "Campeonato Holandês",
+        anos: "2010",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Copa América",
+        logo: "Copa América",
+        anos: "2011",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogador do Ano da Inglaterra",
+        logo: "PFA",
+        anos: "2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Rei da América",
+        logo: "Copa Libertadores",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro do Campeonato Brasileiro",
+        logo: "ESPN",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Mundial de Clubes",
+        logo: "Mundial de Clubes",
+        anos: "2015",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Luis Suárez", "Suárez", "Suarez", "El Pistolero", "MSN"],
+    ultima_atualizacao: "06/11/2025",
+  },
 
   // Valverde
   {

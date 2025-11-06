@@ -19,12 +19,14 @@ const FILTRO_SELECOES = "SELECOES";
 
 const ITENS_POR_CARGA = 20;
 
+/*
 const filtros = [
   { nome: "Jogadores", termo: FILTRO_PADRAO },
   { nome: "Técnicos", termo: FILTRO_TECNICOS },
   { nome: "Clubes", termo: FILTRO_CLUBES },
   { nome: "Seleções", termo: FILTRO_SELECOES },
 ];
+*/
 
 export default function HomePage() {
   const [termoPesquisa, setTermoPesquisa] = useState("");
