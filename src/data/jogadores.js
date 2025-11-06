@@ -2458,7 +2458,7 @@ export const jogadores = [
     },
 
     titulos: [
-      // INTERNAZIONALE
+      // INTER de Milão
       {
         nome: "UEFA Champions League",
         anos: "2010",
@@ -19527,113 +19527,112 @@ export const jogadores = [
   },
 
   // Frank Rijkaard
-{
-  nome: "Frank Rijkaard",
-  background: "gold",
-  descricao:
-    "Lenda holandesa e um dos maiores volantes da história. Foi peça-chave no lendário 'Trio Holandês' do AC Milan, conquistando duas Copas Europeias. Brilhou também no Ajax e na Seleção Holandesa, vencendo a Eurocopa. Após a aposentadoria, teve sucesso como técnico, liderando o Barcelona ao título da Liga dos Campeões de 2006.",
-  pagina: "https://pt.wikipedia.org/wiki/Frank_Rijkaard",
-  nacionalidade: "Holanda",
-  imagem:
-    "https://fairplay.pt/wp-content/uploads/2020/11/franrija.jpg",
-  numero: "8",
-  posicao: "Volante / Zagueiro",
-  dataNascimento: "30/09/1962",
-  status: "Aposentado",
-  curiosidades:
-    "Rijkaard foi o treinador responsável por dar a primeira chance a Lionel Messi no time principal do Barcelona. Ele é um dos únicos a vencer a Liga dos Campeões como jogador (três vezes) e como treinador (uma vez).",
-  clubes: [
-    createClub(
-      "Ajax",
-      { inicio: "1980", fim: "1987" },
-      { jogos: 206, gols: 49, assistencias: 0 }
-    ),
-    createClub(
-      "Real Zaragoza",
-      { inicio: "1988", fim: "1988" },
-      { jogos: 11, gols: 0, assistencias: 0 }
-    ),
-    createClub(
-      "AC Milan",
-      { inicio: "1988", fim: "1993" },
-      { jogos: 201, gols: 26, assistencias: 0 }
-    ),
-    createClub(
-      "Ajax",
-      { inicio: "1993", fim: "1995" },
-      { jogos: 59, gols: 9, assistencias: 0 }
-    ),
-  ],
-  selecao: {
-    nome: "Holanda",
-    periodo: { inicio: "1981", fim: "1994" },
-    estatisticas: { jogos: 73, gols: 10, assistencias: 0 },
+  {
+    nome: "Frank Rijkaard",
+    background: "gold",
+    descricao:
+      "Lenda holandesa e um dos maiores volantes da história. Foi peça-chave no lendário 'Trio Holandês' do AC Milan, conquistando duas Copas Europeias. Brilhou também no Ajax e na Seleção Holandesa, vencendo a Eurocopa. Após a aposentadoria, teve sucesso como técnico, liderando o Barcelona ao título da Liga dos Campeões de 2006.",
+    pagina: "https://pt.wikipedia.org/wiki/Frank_Rijkaard",
+    nacionalidade: "Holanda",
+    imagem: "https://fairplay.pt/wp-content/uploads/2020/11/franrija.jpg",
+    numero: "8",
+    posicao: "Volante / Zagueiro",
+    dataNascimento: "30/09/1962",
+    status: "Aposentado",
+    curiosidades:
+      "Rijkaard foi o treinador responsável por dar a primeira chance a Lionel Messi no time principal do Barcelona. Ele é um dos únicos a vencer a Liga dos Campeões como jogador (três vezes) e como treinador (uma vez).",
+    clubes: [
+      createClub(
+        "Ajax",
+        { inicio: "1980", fim: "1987" },
+        { jogos: 206, gols: 49, assistencias: 0 }
+      ),
+      createClub(
+        "Real Zaragoza",
+        { inicio: "1988", fim: "1988" },
+        { jogos: 11, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "1988", fim: "1993" },
+        { jogos: 201, gols: 26, assistencias: 0 }
+      ),
+      createClub(
+        "Ajax",
+        { inicio: "1993", fim: "1995" },
+        { jogos: 59, gols: 9, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Holanda",
+      periodo: { inicio: "1981", fim: "1994" },
+      estatisticas: { jogos: 73, gols: 10, assistencias: 0 },
+    },
+    titulos: [
+      // Ajax
+      {
+        nome: "Campeonato Holandês",
+        anos: "1982, 1983, 1985, 1994, 1995",
+        clube: "Ajax",
+      },
+      {
+        nome: "Recopa Europeia",
+        anos: "1987",
+        clube: "Ajax",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "1995",
+        clube: "Ajax",
+      },
+
+      // AC Milan
+      {
+        nome: "UEFA Champions League",
+        anos: "1989, 1990",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1989, 1990",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1989, 1990, 1995",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "1992, 1993",
+        clube: "AC Milan",
+      },
+
+      // Holanda
+      {
+        nome: "Eurocopa",
+        anos: "1988",
+        clube: "Holanda",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Futebolista Neerlandês do Ano",
+        logo: "Individual",
+        anos: "1985, 1987",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro Dream Team (2º Esquadrão)",
+        logo: "France Football",
+        anos: "Histórico",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Frank Rijkaard"],
+    ultima_atualizacao: "05/11/2025",
   },
-  titulos: [
-    // Ajax
-    {
-      nome: "Campeonato Holandês",
-      anos: "1982, 1983, 1985, 1994, 1995",
-      clube: "Ajax",
-    },
-    {
-      nome: "Recopa Europeia",
-      anos: "1987",
-      clube: "Ajax",
-    },
-    {
-      nome: "UEFA Champions League",
-      anos: "1995",
-      clube: "Ajax",
-    },
-
-    // AC Milan
-    {
-      nome: "UEFA Champions League",
-      anos: "1989, 1990",
-      clube: "AC Milan",
-    },
-    {
-      nome: "Copa Intercontinental",
-      anos: "1989, 1990",
-      clube: "AC Milan",
-    },
-    {
-      nome: "Supercopa da UEFA",
-      anos: "1989, 1990, 1995",
-      clube: "AC Milan",
-    },
-    {
-      nome: "Campeonato Italiano",
-      anos: "1992, 1993",
-      clube: "AC Milan",
-    },
-
-    // Holanda
-    {
-      nome: "Eurocopa",
-      anos: "1988",
-      clube: "Holanda",
-      logoVariavel: true,
-    },
-
-    // Títulos Individuais
-    {
-      nome: "Futebolista Neerlandês do Ano",
-      logo: "Individual",
-      anos: "1985, 1987",
-      categoria: "individual",
-    },
-    {
-      nome: "Bola de Ouro Dream Team (2º Esquadrão)",
-      logo: "France Football",
-      anos: "Histórico",
-      categoria: "individual",
-    },
-  ],
-  tags: ["Frank Rijkaard"],
-  ultima_atualizacao: "05/11/2025",
-},
 
   // Johan Cruyff
   {
@@ -19991,120 +19990,120 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
-    // Robin van Persie
-{
-  nome: "Robin van Persie",
-  background: "titanium",
-  descricao:
-    "Atacante holandês, considerado um dos melhores da sua geração. É o maior artilheiro da história da Seleção Holandesa. Brilhou na Premier League, sendo artilheiro e Jogador do Ano por Arsenal e Manchester United, onde conquistou o Campeonato Inglês de 2013.",
-  pagina: "https://pt.wikipedia.org/wiki/Robin_van_Persie",
-  nacionalidade: "Holanda",
-  imagem:
-    "https://e0.365dm.com/14/06/1600x900/football-international-friendly-robin-van-persie-holland-netherlands_3160009.jpg?20170905165030",
-  numero: "9",
-  posicao: "Centroavante / Segundo Atacante",
-  dataNascimento: "06/08/1983",
-  status: "Aposentado",
-  curiosidades:
-    "Van Persie é famoso pelo seu gol de peixinho contra a Espanha na Copa do Mundo de 2014, que foi indicado ao Prêmio Puskas. Ele é, historicamente, o maior artilheiro da Seleção Holandesa.",
-  clubes: [
-    createClub(
-      "Feyenoord",
-      { inicio: "2001", fim: "2004" },
-      { jogos: 78, gols: 21, assistencias: 0 }
-    ),
-    createClub(
-      "Arsenal",
-      { inicio: "2004", fim: "2012" },
-      { jogos: 278, gols: 133, assistencias: 61 }
-    ),
-    createClub(
-      "Manchester United",
-      { inicio: "2012", fim: "2015" },
-      { jogos: 105, gols: 58, assistencias: 21 }
-    ),
-    createClub(
-      "Fenerbahçe",
-      { inicio: "2015", fim: "2018" },
-      { jogos: 87, gols: 36, assistencias: 7 }
-    ),
-    createClub(
-      "Feyenoord",
-      { inicio: "2018", fim: "2019" },
-      { jogos: 45, gols: 25, assistencias: 2 }
-    ),
-  ],
-  selecao: {
-    nome: "Holanda",
-    periodo: { inicio: "2005", fim: "2017" },
-    estatisticas: { jogos: 102, gols: 50, assistencias: 0 },
+  // Robin van Persie
+  {
+    nome: "Robin van Persie",
+    background: "titanium",
+    descricao:
+      "Atacante holandês, considerado um dos melhores da sua geração. É o maior artilheiro da história da Seleção Holandesa. Brilhou na Premier League, sendo artilheiro e Jogador do Ano por Arsenal e Manchester United, onde conquistou o Campeonato Inglês de 2013.",
+    pagina: "https://pt.wikipedia.org/wiki/Robin_van_Persie",
+    nacionalidade: "Holanda",
+    imagem:
+      "https://e0.365dm.com/14/06/1600x900/football-international-friendly-robin-van-persie-holland-netherlands_3160009.jpg?20170905165030",
+    numero: "9",
+    posicao: "Centroavante / Segundo Atacante",
+    dataNascimento: "06/08/1983",
+    status: "Aposentado",
+    curiosidades:
+      "Van Persie é famoso pelo seu gol de peixinho contra a Espanha na Copa do Mundo de 2014, que foi indicado ao Prêmio Puskas. Ele é, historicamente, o maior artilheiro da Seleção Holandesa.",
+    clubes: [
+      createClub(
+        "Feyenoord",
+        { inicio: "2001", fim: "2004" },
+        { jogos: 78, gols: 21, assistencias: 0 }
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "2004", fim: "2012" },
+        { jogos: 278, gols: 133, assistencias: 61 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2012", fim: "2015" },
+        { jogos: 105, gols: 58, assistencias: 21 }
+      ),
+      createClub(
+        "Fenerbahçe",
+        { inicio: "2015", fim: "2018" },
+        { jogos: 87, gols: 36, assistencias: 7 }
+      ),
+      createClub(
+        "Feyenoord",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 45, gols: 25, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Holanda",
+      periodo: { inicio: "2005", fim: "2017" },
+      estatisticas: { jogos: 102, gols: 50, assistencias: 0 },
+    },
+    titulos: [
+      // Feyenoord
+      {
+        nome: "Copa da UEFA",
+        anos: "2002",
+        clube: "Feyenoord",
+      },
+      {
+        nome: "Supercopa da Holanda",
+        anos: "2018",
+        clube: "Feyenoord",
+      },
+
+      // Arsenal
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2004",
+        clube: "Arsenal",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2005",
+        clube: "Arsenal",
+      },
+
+      // Manchester United
+      {
+        nome: "Campeonato Inglês",
+        anos: "2013",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2013",
+        clube: "Manchester United",
+      },
+
+      // Títulos/Prêmios Individuais
+      {
+        nome: "Jogador do Ano (PFA)",
+        logo: "PFA",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano (FWA)",
+        logo: "FWA",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Ouro da Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "2012, 2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Maior Artilheiro da Seleção Holandesa",
+        logo: "Individual",
+        anos: "Histórico",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Robin van Persie", "RVP"],
+    ultima_atualizacao: "05/11/2025",
   },
-  titulos: [
-    // Feyenoord
-    {
-      nome: "Copa da UEFA",
-      anos: "2002",
-      clube: "Feyenoord",
-    },
-    {
-      nome: "Supercopa da Holanda",
-      anos: "2018",
-      clube: "Feyenoord",
-    },
-
-    // Arsenal
-    {
-      nome: "Supercopa da Inglaterra",
-      anos: "2004",
-      clube: "Arsenal",
-    },
-    {
-      nome: "Copa da Inglaterra",
-      anos: "2005",
-      clube: "Arsenal",
-    },
-    
-    // Manchester United
-    {
-      nome: "Campeonato Inglês",
-      anos: "2013",
-      clube: "Manchester United",
-    },
-    {
-      nome: "Supercopa da Inglaterra",
-      anos: "2013",
-      clube: "Manchester United",
-    },
-
-    // Títulos/Prêmios Individuais
-    {
-      nome: "Jogador do Ano (PFA)",
-      logo: "PFA",
-      anos: "2012",
-      categoria: "individual",
-    },
-    {
-      nome: "Jogador do Ano (FWA)",
-      logo: "FWA",
-      anos: "2012",
-      categoria: "individual",
-    },
-    {
-      nome: "Chuteira de Ouro da Campeonato Inglês",
-      logo: "Campeonato Inglês",
-      anos: "2012, 2013",
-      categoria: "individual",
-    },
-    {
-      nome: "Maior Artilheiro da Seleção Holandesa",
-      logo: "Individual",
-      anos: "Histórico",
-      categoria: "individual",
-    },
-  ],
-  tags: ["Robin van Persie", "RVP"],
-  ultima_atualizacao: "05/11/2025",
-},
 
   // Ruud Gullit
   {
@@ -20289,141 +20288,140 @@ export const jogadores = [
     ultima_atualizacao: "29/10/25",
   },
 
-// Virgil van Dijk
-{
-  nome: "Virgil van Dijk",
-  background: "diamond",
-  descricao:
-    "Zagueiro holandês considerado um dos melhores defensores do século. Liderou o Liverpool nas conquistas da UEFA Champions League (2019) e da Premier League (2020). Foi eleito o Melhor Jogador da UEFA de 2019, o primeiro defensor a vencer o prêmio, e ficou em segundo lugar na votação da Bola de Ouro.",
-  pagina: "https://pt.wikipedia.org/wiki/Virgil_van_Dijk",
-  nacionalidade: "Holanda",
-  imagem:
-    "https://sportsview.co.uk/wp-content/uploads/2025/03/liverpool-v-newcastle-united-carabao-cup-final-1-scaled.jpg",
-  numero: "4",
-  posicao: "Zagueiro",
-  dataNascimento: "08/07/1991",
-  status: "Ativo",
-  curiosidades:
-    "Van Dijk foi o zagueiro mais caro da história do futebol na época de sua transferência para o Liverpool em 2018. Ele é conhecido por não ter sido driblado por um longo período, em uma sequência impressionante entre março de 2018 e agosto de 2019.",
-  clubes: [
-    createClub(
-      "Groningen",
-      { inicio: "2011", fim: "2013" },
-      { jogos: 66, gols: 7, assistencias: 4 }
-    ),
-    createClub(
-      "Celtic",
-      { inicio: "2013", fim: "2015" },
-      { jogos: 115, gols: 15, assistencias: 7 }
-    ),
-    createClub(
-      "Southampton",
-      { inicio: "2015", fim: "2017" },
-      { jogos: 80, gols: 7, assistencias: 2 }
-    ),
-    createClub(
-      "Liverpool",
-      { inicio: "2018", fim: "Atual" },
-      { jogos: 275, gols: 23, assistencias: 11 }
-    ),
-  ],
-  selecao: {
-    nome: "Holanda",
-    periodo: { inicio: "2015", fim: "Atual" },
-    estatisticas: { jogos: 87, gols: 11, assistencias: 3 },
+  // Virgil van Dijk
+  {
+    nome: "Virgil van Dijk",
+    background: "diamond",
+    descricao:
+      "Zagueiro holandês considerado um dos melhores defensores do século. Liderou o Liverpool nas conquistas da UEFA Champions League (2019) e da Premier League (2020). Foi eleito o Melhor Jogador da UEFA de 2019, o primeiro defensor a vencer o prêmio, e ficou em segundo lugar na votação da Bola de Ouro.",
+    pagina: "https://pt.wikipedia.org/wiki/Virgil_van_Dijk",
+    nacionalidade: "Holanda",
+    imagem:
+      "https://sportsview.co.uk/wp-content/uploads/2025/03/liverpool-v-newcastle-united-carabao-cup-final-1-scaled.jpg",
+    numero: "4",
+    posicao: "Zagueiro",
+    dataNascimento: "08/07/1991",
+    status: "Ativo",
+    curiosidades:
+      "Van Dijk foi o zagueiro mais caro da história do futebol na época de sua transferência para o Liverpool em 2018. Ele é conhecido por não ter sido driblado por um longo período, em uma sequência impressionante entre março de 2018 e agosto de 2019.",
+    clubes: [
+      createClub(
+        "Groningen",
+        { inicio: "2011", fim: "2013" },
+        { jogos: 66, gols: 7, assistencias: 4 }
+      ),
+      createClub(
+        "Celtic",
+        { inicio: "2013", fim: "2015" },
+        { jogos: 115, gols: 15, assistencias: 7 }
+      ),
+      createClub(
+        "Southampton",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 80, gols: 7, assistencias: 2 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2018", fim: "Atual" },
+        { jogos: 275, gols: 23, assistencias: 11 }
+      ),
+    ],
+    selecao: {
+      nome: "Holanda",
+      periodo: { inicio: "2015", fim: "Atual" },
+      estatisticas: { jogos: 87, gols: 11, assistencias: 3 },
+    },
+    titulos: [
+      // Celtic
+      {
+        nome: "Campeonato Escocês",
+        anos: "2013/2014, 2014/2015",
+        clube: "Celtic",
+      },
+      {
+        nome: "Copa da Liga Escocesa",
+        anos: "2014/2015",
+        clube: "Celtic",
+      },
+
+      // Liverpool
+      {
+        nome: "UEFA Champions League",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2020, 2025",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2022, 2024",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Jogador da UEFA",
+        logo: "UEFA",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Defensor da UEFA",
+        logo: "UEFA",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano (PFA)",
+        logo: "PFA",
+        anos: "2019, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do campeonato Inglês",
+        logo: "campeonato Inglês",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2019, 2020, 2022, 2024, 2025",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro (2º lugar)",
+        logo: "Bola de Ouro",
+        anos: "2019",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Virgil van Dijk", "VVD"],
+    ultima_atualizacao: "05/11/2025",
   },
-  titulos: [
-    // Celtic
-    {
-      nome: "Campeonato Escocês",
-      anos: "2013/2014, 2014/2015",
-      clube: "Celtic",
-    },
-    {
-      nome: "Copa da Liga Escocesa",
-      anos: "2014/2015",
-      clube: "Celtic",
-    },
-
-    // Liverpool
-    {
-      nome: "UEFA Champions League",
-      anos: "2019",
-      clube: "Liverpool",
-    },
-    {
-      nome: "Supercopa da UEFA",
-      anos: "2019",
-      clube: "Liverpool",
-    },
-    {
-      nome: "Mundial de Clubes",
-      anos: "2019",
-      clube: "Liverpool",
-    },
-    {
-      nome: "Campeonato Inglês",
-      anos: "2020, 2025",
-      clube: "Liverpool",
-    },
-    {
-      nome: "Copa da Liga Inglesa",
-      anos: "2022, 2024",
-      clube: "Liverpool",
-    },
-    {
-      nome: "Copa da Inglaterra",
-      anos: "2022",
-      clube: "Liverpool",
-    },
-    {
-      nome: "Supercopa da Inglaterra",
-      anos: "2022",
-      clube: "Liverpool",
-    },
-    
-
-    // Títulos Individuais
-    {
-      nome: "Melhor Jogador da UEFA",
-      logo: "UEFA",
-      anos: "2019",
-      categoria: "individual",
-    },
-    {
-      nome: "Melhor Defensor da UEFA",
-      logo: "UEFA",
-      anos: "2019",
-      categoria: "individual",
-    },
-    {
-      nome: "Jogador do Ano (PFA)",
-      logo: "PFA",
-      anos: "2019, 2022",
-      categoria: "individual",
-    },
-    {
-      nome: "Melhor Jogador do campeonato Inglês",
-      logo: "campeonato Inglês",
-      anos: "2019",
-      categoria: "individual",
-    },
-    {
-      nome: "FIFPro World XI",
-      logo: "FIFPro",
-      anos: "2019, 2020, 2022, 2024, 2025",
-      categoria: "individual",
-    },
-    {
-      nome: "Bola de Ouro (2º lugar)",
-      logo: "Bola de Ouro",
-      anos: "2019",
-      categoria: "individual",
-    },
-  ],
-  tags: ["Virgil van Dijk", "VVD"],
-  ultima_atualizacao: "05/11/2025",
-},
 
   // HUNGRIA -------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -20843,6 +20841,124 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
+  // Frank Lampard
+  {
+    nome: "Frank Lampard",
+    background: "diamond",
+    descricao:
+      "Lenda do Chelsea e um dos maiores meio-campistas da história da Premier League. É o maior artilheiro da história do Chelsea (211 gols). Liderou o clube nas conquistas da UEFA Champions League (2012) e 3x Campeonato Inglês. Foi o 2º colocado na Bola de Ouro e no prêmio de Melhor Jogador do Mundo da FIFA em 2005.",
+    pagina: "https://pt.wikipedia.org/wiki/Frank_Lampard",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://editorial.uefa.com/resources/01fb-0e7d372ffa27-79b0f0ea5b15-1000/frank_lampard_chelsea_fc_.jpeg",
+    numero: "8",
+    posicao: "Meia Central / Meia Ofensivo",
+    dataNascimento: "20/06/1978",
+    status: "Aposentado",
+    curiosidades:
+      "É o único meio-campista a marcar mais de 150 gols na Premier League e o jogador com mais partidas consecutivas na história da competição (164). É o maior artilheiro da história do Chelsea, com 211 gols em 648 jogos.",
+    clubes: [
+      createClub(
+        "West Ham",
+        { inicio: "1995", fim: "2001" },
+        { jogos: 185, gols: 38, assistencias: 6 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2001", fim: "2014" },
+        { jogos: 648, gols: 211, assistencias: 150 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 38, gols: 8, assistencias: 2 }
+      ),
+      createClub(
+        "New York City FC",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 31, gols: 15, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "1999", fim: "2014" },
+      estatisticas: { jogos: 106, gols: 29, assistencias: 17 },
+    },
+    titulos: [
+      // Chelsea
+      {
+        nome: "UEFA Champions League",
+        anos: "2012",
+        clube: "Chelsea",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2013",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2005, 2006, 2010",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2007, 2009, 2010, 2012",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2005, 2007",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2005, 2009",
+        clube: "Chelsea",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Bola de Ouro (2º lugar)",
+        logo: "Bola de Ouro",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundo FIFA (2º lugar)",
+        logo: "FIFA World Player of The Year",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano (PFA)",
+        logo: "PFA",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Meio-campista do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2008",
+        categoria: "individual",
+      },
+      {
+        nome: "Maior Artilheiro do Chelsea",
+        logo: "Individual",
+        anos: "Histórico",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Frank Lampard", "Super Frank"],
+    ultima_atualizacao: "05/11/2025",
+  },
+
   //Harry Kane
   {
     nome: "Harry Kane",
@@ -20930,7 +21046,7 @@ export const jogadores = [
         anos: "2014",
         clube: "Tottenham Hotspur",
       },
-      // Seleção Inglesa (Conquistas Notáveis)
+      // Seleção Inglesa
       {
         nome: "Eurocopa (Vice-campeão)",
         logo: "Eurocopa",
@@ -21169,123 +21285,128 @@ export const jogadores = [
     ultima_atualizacao: "01/11/2025",
   },
 
-  // Frank Lampard
-{
-  nome: "Frank Lampard",
-  background: "diamond",
-  descricao:
-    "Lenda do Chelsea e um dos maiores meio-campistas da história da Premier League. É o maior artilheiro da história do Chelsea (211 gols). Liderou o clube nas conquistas da UEFA Champions League (2012) e 3x Campeonato Inglês. Foi o 2º colocado na Bola de Ouro e no prêmio de Melhor Jogador do Mundo da FIFA em 2005.",
-  pagina: "https://pt.wikipedia.org/wiki/Frank_Lampard",
-  nacionalidade: "Inglaterra",
-  imagem:
-    "https://editorial.uefa.com/resources/01fb-0e7d372ffa27-79b0f0ea5b15-1000/frank_lampard_chelsea_fc_.jpeg",
-  numero: "8",
-  posicao: "Meia Central / Meia Ofensivo",
-  dataNascimento: "20/06/1978",
-  status: "Aposentado",
-  curiosidades:
-    "É o único meio-campista a marcar mais de 150 gols na Premier League e o jogador com mais partidas consecutivas na história da competição (164). É o maior artilheiro da história do Chelsea, com 211 gols em 648 jogos.",
-  clubes: [
-    createClub(
-      "West Ham",
-      { inicio: "1995", fim: "2001" },
-      { jogos: 185, gols: 38, assistencias: 6 }
-    ),
-    createClub(
-      "Chelsea",
-      { inicio: "2001", fim: "2014" },
-      { jogos: 648, gols: 211, assistencias: 150 }
-    ),
-    createClub(
-      "Manchester City",
-      { inicio: "2014", fim: "2015" },
-      { jogos: 38, gols: 8, assistencias: 2 }
-    ),
-    createClub(
-      "New York City FC",
-      { inicio: "2015", fim: "2016" },
-      { jogos: 31, gols: 15, assistencias: 2 }
-    ),
-  ],
-  selecao: {
-    nome: "Inglaterra",
-    periodo: { inicio: "1999", fim: "2014" },
-    estatisticas: { jogos: 106, gols: 29, assistencias: 17 },
-  },
-  titulos: [
-    // Chelsea
-    {
-      nome: "UEFA Champions League",
-      anos: "2012",
-      clube: "Chelsea",
+  // Michael Owen
+  {
+    nome: "Michael Owen",
+    background: "diamond",
+    descricao:
+      "Atacante inglês, Bola de Ouro em 2001 e um dos talentos mais promissores de sua geração, embora sua carreira tenha sido impactada por lesões. Foi ídolo no Liverpool, onde conquistou a tríplice coroa (FA Cup, Copa da Liga, Copa da UEFA) em 2001. É lembrado por sua velocidade explosiva e gols decisivos pela Inglaterra.",
+    pagina: "https://pt.wikipedia.org/wiki/Michael_Owen",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://static.independent.co.uk/2022/08/13/06/474dd08c78d8d4d1c099ce6e628787ccY29udGVudHNlYXJjaGFwaSwxNjYwMzc1MDAy-2.1918321.jpg",
+    numero: "10",
+    posicao: "Centroavante",
+    dataNascimento: "14/12/1979",
+    status: "Aposentado",
+    curiosidades:
+      "Owen ganhou a Bola de Ouro em 2001, aos 22 anos. Naquele ano, o Liverpool conquistou a quíntupla coroa (FA Cup, Copa da Liga, Supercopa da Inglaterra, Copa da UEFA e Supercopa da UEFA). Ele é o único jogador inglês a ter conquistado a Bola de Ouro na era moderna do futebol.",
+    clubes: [
+      createClub(
+        "Liverpool",
+        { inicio: "1996", fim: "2004" },
+        { jogos: 297, gols: 158, assistencias: 44 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2004", fim: "2005" },
+        { jogos: 45, gols: 16, assistencias: 4 }
+      ),
+      createClub(
+        "Newcastle United",
+        { inicio: "2005", fim: "2009" },
+        { jogos: 79, gols: 30, assistencias: 6 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2009", fim: "2012" },
+        { jogos: 52, gols: 17, assistencias: 3 }
+      ),
+      createClub(
+        "Stoke City",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 9, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "1998", fim: "2008" },
+      estatisticas: { jogos: 89, gols: 40, assistencias: 13 },
     },
-    {
-      nome: "UEFA Europa League",
-      anos: "2013",
-      clube: "Chelsea",
-    },
-    {
-      nome: "Campeonato Inglês",
-      anos: "2005, 2006, 2010",
-      clube: "Chelsea",
-    },
-    {
-      nome: "Copa da Inglaterra",
-      anos: "2007, 2009, 2010, 2012",
-      clube: "Chelsea",
-    },
-    {
-      nome: "Copa da Liga Inglesa",
-      anos: "2005, 2007",
-      clube: "Chelsea",
-    },
-    {
-      nome: "Supercopa da Inglaterra",
-      anos: "2005, 2009",
-      clube: "Chelsea",
-    },
+    titulos: [
+      // Liverpool
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2001, 2003",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2001",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da UEFA",
+        anos: "2001",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2001",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2001",
+        clube: "Liverpool",
+      },
 
-    // Títulos Individuais
-    {
-      nome: "Bola de Ouro (2º lugar)",
-      logo: "Bola de Ouro",
-      anos: "2005",
-      categoria: "individual",
-    },
-    {
-      nome: "Melhor Jogador do Mundo FIFA (2º lugar)",
-      logo: "FIFA World Player of The Year",
-      anos: "2005",
-      categoria: "individual",
-    },
-    {
-      nome: "Jogador do Ano (PFA)",
-      logo: "PFA",
-      anos: "2005",
-      categoria: "individual",
-    },
-    {
-      nome: "Melhor Jogador do Campeonato Inglês",
-      logo: "Campeonato Inglês",
-      anos: "2005",
-      categoria: "individual",
-    },
-    {
-      nome: "Meio-campista do Ano da UEFA",
-      logo: "UEFA",
-      anos: "2008",
-      categoria: "individual",
-    },
-    {
-      nome: "Maior Artilheiro do Chelsea",
-      logo: "Individual",
-      anos: "Histórico",
-      categoria: "individual",
-    },
-  ],
-  tags: ["Frank Lampard", "Super Frank"],
-  ultima_atualizacao: "05/11/2025",
-},
+      // Manchester United
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2010",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2011",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2010, 2011",
+        clube: "Manchester United",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Bola de Ouro",
+        logo: "Bola de Ouro",
+        anos: "2001",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "1998",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "1998, 1999",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Jovem (PFA)",
+        logo: "PFA",
+        anos: "1998",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Michael Owen"],
+    ultima_atualizacao: "05/11/2025",
+  },
 
   // Stanley Matthews
   {
@@ -21368,6 +21489,230 @@ export const jogadores = [
     ],
     tags: ["The Wizard of the Dribble", "Matthews Final"],
     ultima_atualizacao: "01/11/2025",
+  },
+
+  // Steven Gerrard
+  {
+    nome: "Steven Gerrard",
+    background: "diamond",
+    descricao:
+      "Capitão e maior ídolo da história recente do Liverpool, Gerrard é considerado um dos maiores meio-campistas do futebol inglês. Liderou o clube na épica conquista da UEFA Champions League em 2005 (O Milagre de Istambul), sendo eleito o Jogador do Ano da UEFA. É o 3º jogador com mais partidas pelo Liverpool.",
+    pagina: "https://pt.wikipedia.org/wiki/Steven_Gerrard",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://e0.365dm.com/14/12/2048x1152/Steven-Gerrard_3236399.jpg?20141203064507",
+    numero: "8",
+    posicao: "Meia Central / Volante",
+    dataNascimento: "30/05/1980",
+    status: "Aposentado",
+    curiosidades:
+      "Gerrard é famoso por ter passado quase toda a carreira (17 anos) no Liverpool, clube de sua cidade natal, nunca tendo conquistado a Premier League. Ele é o único jogador a ter marcado gols em finais da Copa da Inglaterra, Copa da Liga Inglesa, Copa da UEFA e Liga dos Campeões.",
+    clubes: [
+      createClub(
+        "Liverpool",
+        { inicio: "1998", fim: "2015" },
+        { jogos: 710, gols: 186, assistencias: 154 }
+      ),
+      createClub(
+        "Los Angeles Galaxy",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 39, gols: 5, assistencias: 15 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2000", fim: "2014" },
+      estatisticas: { jogos: 114, gols: 21, assistencias: 23 },
+    },
+    titulos: [
+      // Liverpool
+      {
+        nome: "UEFA Champions League",
+        anos: "2005",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da UEFA",
+        anos: "2001",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2001, 2005",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2001, 2006",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2001, 2003, 2012",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2001, 2006",
+        clube: "Liverpool",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Jogador do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Final da UEFA Champions League",
+        logo: "UEFA Champions League",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano (PFA)",
+        logo: "PFA",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano FIFA FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2007, 2008, 2009",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Steven Gerrard", "Stevie G"],
+    ultima_atualizacao: "05/11/2025",
+  },
+
+  // Wayne Rooney
+  {
+    nome: "Wayne Rooney",
+    background: "diamond",
+    descricao:
+      "Maior artilheiro da história do Manchester United e um dos atacantes ingleses mais talentosos de sua geração. Conquistou todos os grandes títulos por clubes, incluindo a Champions League. Era conhecido por sua força, visão de jogo e chutes potentes.",
+    pagina: "https://pt.wikipedia.org/wiki/Wayne_Rooney",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://media.gq-magazine.co.uk/photos/5d13993d3bedf26a76db6ad3/16:9/w_1920,h_1080,c_limit/Wayne-Rooney-02-GQ-21Sep16_pa_b.jpg",
+    numero: "10",
+    posicao: "Atacante / Centroavante",
+    dataNascimento: "24/10/1985",
+    status: "Aposentado",
+    curiosidades:
+      "Rooney estreou profissionalmente aos 16 anos pelo Everton, marcando um golaço que encerrou a invencibilidade de 30 jogos do Arsenal. Ele foi o capitão do Manchester United e da Seleção Inglesa simultaneamente por vários anos, e também foi o maior artilheiro da Inglaterra por um período.",
+    clubes: [
+      createClub(
+        "Everton",
+        { inicio: "2002", fim: "2004" },
+        { jogos: 77, gols: 17, assistencias: 4 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2004", fim: "2017" },
+        { jogos: 559, gols: 253, assistencias: 146 }
+      ),
+      createClub(
+        "Everton",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 40, gols: 11, assistencias: 4 }
+      ),
+      createClub(
+        "D.C. United",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 52, gols: 25, assistencias: 14 }
+      ),
+      createClub(
+        "Derby County",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 35, gols: 7, assistencias: 3 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2003", fim: "2018" },
+      estatisticas: { jogos: 120, gols: 53, assistencias: 21 },
+    },
+    titulos: [
+      // Manchester United
+      {
+        nome: "UEFA Champions League",
+        anos: "2008",
+        clube: "Manchester United",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2017",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2008",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2007, 2008, 2009, 2011, 2013",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2016",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2006, 2009, 2010, 2017",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2007, 2010, 2011, 2016",
+        clube: "Manchester United",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Jogador Jovem (PFA)",
+        logo: "PFA",
+        anos: "2005, 2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano (PFA)",
+        logo: "PFA",
+        anos: "2010",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "2010",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano FIFA FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2008, 2011",
+        categoria: "individual",
+      },
+      {
+        nome: "Maior Artilheiro do Manchester United",
+        logo: "Individual",
+        anos: "Recorde",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Wayne Rooney", "Wazza"],
+    ultima_atualizacao: "05/11/2025",
   },
 
   //IRLANDA DO NORTE -------------------------------------------------------------------------------------
@@ -21484,6 +21829,450 @@ export const jogadores = [
   },
 
   // ITÁLIA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Alessandro Nesta
+  {
+    nome: "Alessandro Nesta",
+    background: "diamond",
+    descricao:
+      "Considerado um dos maiores defensores centrais da história. Nesta brilhou na Lazio e no AC Milan, sendo campeão mundial com a Itália em 2006. Sua elegância, velocidade e impecabilidade no desarme o tornaram um ícone defensivo.",
+    pagina: "https://pt.wikipedia.org/wiki/Alessandro_Nesta",
+    nacionalidade: "Itália",
+    imagem:
+      "https://thumbs.dreamstime.com/b/milan--italy-april-san-siro---stadium-uefa-champions-league-ac-fc-bayern-monaco-alessandro-nesta-action-match-188540937.jpg",
+    numero: "13",
+    posicao: "Zagueiro / Defesa Central",
+    dataNascimento: "19/03/1976",
+    status: "Aposentado",
+    curiosidades:
+      "Nesta é um dos poucos jogadores a ter conquistado as três principais competições europeias de clubes (Champions League, Recopa Europeia e Supercopa da UEFA). Apesar de ser zagueiro, é famoso por sua lealdade e recebeu pouquíssimos cartões vermelhos na carreira.",
+    clubes: [
+      createClub(
+        "Lazio",
+        { inicio: "1993", fim: "2002" },
+        { jogos: 261, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2002", fim: "2012" },
+        { jogos: 326, gols: 10, assistencias: 3 }
+      ),
+      createClub(
+        "CF Montréal",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 34, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Chennaiyin FC",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "1996", fim: "2006" },
+      estatisticas: { jogos: 78, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Copa do Mundo",
+        anos: "2006",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+
+      // AC Milan
+      {
+        nome: "UEFA Champions League",
+        anos: "2003, 2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2003, 2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "2004, 2011",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2003",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2004, 2011",
+        clube: "AC Milan",
+      },
+
+      // Lazio
+      {
+        nome: "Recopa Europeia",
+        anos: "1999",
+        clube: "Lazio",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1999",
+        clube: "Lazio",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "2000",
+        clube: "Lazio",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "1998, 2000",
+        clube: "Lazio",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "1998, 2000",
+        clube: "Lazio",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Zagueiro do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2000, 2001, 2002, 2003",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano UEFA",
+        logo: "UEFA",
+        anos: "2002, 2003, 2004, 2007",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano FIFA FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2005, 2007",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Alessandro Nesta", "Sandro", "Muro Italiano"],
+    ultima_atualizacao: "05/11/2025",
+  },
+
+  // Andrea Pirlo
+  {
+    nome: "Andrea Pirlo",
+    background: "diamond",
+    descricao:
+      "Maestro e 'regista' do futebol italiano, Pirlo é um dos maiores meio-campistas da história. Vencedor da Copa do Mundo FIFA (2006) e duas vezes da UEFA Champions League (AC Milan). Sua visão de jogo, precisão nos passes e cobranças de falta eram incomparáveis.",
+    pagina: "https://pt.wikipedia.org/wiki/Andrea_Pirlo",
+    nacionalidade: "Itália",
+    imagem:
+      "https://s.yimg.com/ny/api/res/1.2/3ou8luDT7HAfLTq4m1gl7Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ2MjtjZj13ZWJw/https://media.zenfs.com/en/onefootball_articles_802/ca6e11fd2250946c20e72fa4821ebdb5",
+    numero: "21",
+    posicao: "Volante / Meia Central",
+    dataNascimento: "19/05/1979",
+    status: "Aposentado",
+    curiosidades:
+      "Pirlo é famoso por ter transformado a posição de volante de contenção em volante de criação ('Regista'). Foi premiado com a Bola de Bronze na Copa do Mundo de 2006. Em 22 anos de carreira por clubes, conquistou 17 títulos.",
+    clubes: [
+      createClub(
+        "Brescia",
+        { inicio: "1995", fim: "1998" },
+        { jogos: 59, gols: 6, assistencias: 2 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "1998", fim: "2001" },
+        { jogos: 40, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Reggina",
+        { inicio: "1999", fim: "2000" },
+        { jogos: 30, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2001", fim: "2011" },
+        { jogos: 401, gols: 41, assistencias: 68 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2011", fim: "2015" },
+        { jogos: 164, gols: 19, assistencias: 38 }
+      ),
+      createClub(
+        "New York City FC",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 62, gols: 1, assistencias: 11 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "2002", fim: "2015" },
+      estatisticas: { jogos: 116, gols: 13, assistencias: 23 },
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Copa do Mundo",
+        anos: "2006",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+      {
+        nome: "Campeonato Europeu Sub-21",
+        anos: "2000",
+        clube: "Itália",
+      },
+      {
+        nome: "Medalha de Bronze Olímpica",
+        logo: "Jogos Olímpicos",
+        anos: "2004",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+
+      // AC Milan
+      {
+        nome: "UEFA Champions League",
+        anos: "2003, 2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2003, 2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "2004, 2011",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2003",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2004",
+        clube: "AC Milan",
+      },
+
+      // Juventus
+      {
+        nome: "Campeonato Italiano",
+        anos: "2012, 2013, 2014, 2015",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2015",
+        clube: "Juventus",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2012, 2013",
+        clube: "Juventus",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Bola de Bronze da Copa do Mundo",
+        logo: "Bola de Bronze FIFA",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano FIFA FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano UEFA",
+        logo: "UEFA",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2012, 2013, 2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2012",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Andrea Pirlo", "Regista", "Maestro"],
+    ultima_atualizacao: "05/11/2025",
+  },
+
+  // Fabio Cannavaro
+  {
+    nome: "Fabio Cannavaro",
+    background: "diamond",
+    descricao:
+      "Único zagueiro a ser eleito o Melhor Jogador do Mundo pela FIFA (2006) e a vencer a Bola de Ouro (2006). Foi o capitão da seleção italiana campeã da Copa do Mundo FIFA em 2006. Conhecido por sua antecipação, velocidade e liderança impecável.",
+    pagina: "https://pt.wikipedia.org/wiki/Fabio_Cannavaro",
+    nacionalidade: "Itália",
+    imagem:
+      "https://i.redd.it/happy-birthday-to-former-player-fabio-cannavaro-v0-rbfqf8y56wof1.jpg?width=906&format=pjpg&auto=webp&s=62f1848635cb3971626ca170dc0aa5efbe02cb9c",
+    numero: "5",
+    posicao: "Zagueiro / Defesa Central",
+    dataNascimento: "13/09/1973",
+    status: "Aposentado",
+    curiosidades:
+      "Sua performance na Copa do Mundo de 2006, onde a Itália sofreu apenas 2 gols (um contra e um de pênalti na final), é considerada uma das maiores atuações defensivas da história de um Mundial. O prêmio de Melhor do Mundo o colocou ao lado de Franz Beckenbauer como os únicos zagueiros a vencerem o troféu.",
+    clubes: [
+      createClub(
+        "Napoli",
+        { inicio: "1992", fim: "1995" },
+        { jogos: 73, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Parma",
+        { inicio: "1995", fim: "2002" },
+        { jogos: 288, gols: 5, assistencias: 4 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "2002", fim: "2004" },
+        { jogos: 66, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2004", fim: "2006" },
+        { jogos: 93, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2006", fim: "2009" },
+        { jogos: 118, gols: 1, assistencias: 1 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 33, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Al-Ahli",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 16, gols: 2, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "1997", fim: "2010" },
+      estatisticas: { jogos: 136, gols: 2, assistencias: 2 },
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Copa do Mundo",
+        anos: "2006",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+      {
+        nome: "Campeonato Europeu Sub-21",
+        anos: "1994, 1996",
+        clube: "Itália",
+      },
+
+      // Parma
+      {
+        nome: "Copa da UEFA",
+        anos: "1999",
+        clube: "Parma",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "1999, 2002",
+        clube: "Parma",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "1999",
+        clube: "Parma",
+      },
+
+      // Real Madrid
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2007, 2008",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2008",
+        clube: "Real Madrid",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Bola de Ouro",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundo FIFA",
+        logo: "FIFA World Player Of The Year",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata da Copa do Mundo",
+        logo: "Bola de Prata FIFA",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Defensor do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano UEFA",
+        logo: "UEFA",
+        anos: "2006",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2006, 2007",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2000",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Fabio Cannavaro"],
+    ultima_atualizacao: "05/11/2025",
+  },
 
   // Franco Baresi
   {
@@ -21821,6 +22610,125 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
+  // Giorgio Chiellini
+  {
+    nome: "Giorgio Chiellini",
+    background: "diamond",
+    descricao:
+      "Um dos maiores zagueiros da história moderna da Itália e capitão da Juventus por muitos anos. Conhecido por sua agressividade, liderança e marcação implacável, foi peça fundamental nas nove conquistas consecutivas do Campeonato Italiano pela Juventus e no título da Eurocopa de 2020 pela Itália.",
+    pagina: "https://pt.wikipedia.org/wiki/Giorgio_Chiellini",
+    nacionalidade: "Itália",
+    imagem:
+      "https://static.independent.co.uk/2021/07/06/23/GettyImages-1327343616.jpg",
+    numero: "3",
+    posicao: "Zagueiro / Defesa Central",
+    dataNascimento: "14/08/1984",
+    status: "Aposentado",
+    curiosidades:
+      "Chiellini é famoso por ter obtido um diploma universitário em Economia. Ele e Gianluigi Buffon são os únicos jogadores a vencerem nove títulos consecutivos da Série A. Liderou a Itália como capitão na conquista da Eurocopa 2020.",
+    clubes: [
+      createClub(
+        "Livorno",
+        { inicio: "2000", fim: "2004" },
+        { jogos: 65, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "2004", fim: "2005" },
+        { jogos: 42, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2005", fim: "2022" },
+        { jogos: 561, gols: 36, assistencias: 26 }
+      ),
+      createClub(
+        "Los Angeles FC",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 38, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "2004", fim: "2022" },
+      estatisticas: { jogos: 117, gols: 8, assistencias: 4 },
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Eurocopa",
+        anos: "2020",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+
+      // Juventus
+      {
+        nome: "Campeonato Italiano",
+        anos: "2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2015, 2016, 2017, 2018, 2021",
+        clube: "Juventus",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2012, 2013, 2015, 2018, 2020",
+        clube: "Juventus",
+      },
+
+      // Los Angeles FC
+      {
+        nome: "MLS Cup",
+        anos: "2022",
+        clube: "Los Angeles FC",
+      },
+      {
+        nome: "MLS Supporters' Shield",
+        anos: "2022",
+        clube: "Los Angeles FC",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Defensor do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2008, 2009, 2010",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano UEFA",
+        logo: "UEFA",
+        anos: "2017, 2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2012",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Time do Ano da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2020",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Time do Ano da MLS",
+        logo: "MLS",
+        anos: "2022",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Giorgio Chiellini"],
+    ultima_atualizacao: "05/11/2025",
+  },
+
   // Giuseppe Meazza
   {
     nome: "Giuseppe Meazza",
@@ -22092,6 +23000,150 @@ export const jogadores = [
     ultima_atualizacao: "27/10/25",
   },
 
+  // Leonardo Bonucci
+  {
+    nome: "Leonardo Bonucci",
+    background: "diamond",
+    descricao:
+      "Um dos zagueiros mais completos de sua geração. Fundamental na 'BBC' da Juventus (Barzagli, Bonucci, Chiellini), destacou-se pela qualidade de passe e liderança tática. Foi um dos pilares dos 8 Scudetti consecutivos e campeão da Eurocopa (2020) com a Itália.",
+    pagina: "https://pt.wikipedia.org/wiki/Leonardo_Bonucci",
+    nacionalidade: "Itália",
+    imagem:
+      "https://sc0.blr1.cdn.digitaloceanspaces.com/article/161346-fccvaqqsxw-1625843038.jpg",
+    numero: "19",
+    posicao: "Zagueiro / Defesa Central",
+    dataNascimento: "01/05/1987",
+    status: "Aposentado",
+    curiosidades:
+      "Bonucci foi eleito o Futebolista do Ano da Série A em 2016. Em seu auge na Juventus, foi amplamente considerado um dos melhores zagueiros do mundo. Sua transferência para o Milan em 2017 e o retorno à Juventus um ano depois foi um dos movimentos mais surpreendentes do mercado italiano.",
+    clubes: [
+      createClub(
+        "Inter de Milão",
+        { inicio: "2005", fim: "2007" },
+        { jogos: 4, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Treviso",
+        { inicio: "2007", fim: "2009" },
+        { jogos: 38, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Pisa",
+        { inicio: "2009", fim: "2009" },
+        { jogos: 18, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Bari",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 39, gols: 1, assistencias: 2 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2010", fim: "2017" },
+        { jogos: 319, gols: 19, assistencias: 9 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 51, gols: 2, assistencias: 1 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2018", fim: "2023" },
+        { jogos: 188, gols: 13, assistencias: 5 }
+      ),
+      createClub(
+        "Union Berlin",
+        { inicio: "2023", fim: "2024" },
+        { jogos: 10, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Fenerbahçe",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 13, gols: 0, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "2010", fim: "2022" },
+      estatisticas: { jogos: 121, gols: 8, assistencias: 2 },
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Eurocopa",
+        anos: "2020",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+
+      // Inter de Milão
+      {
+        nome: "Campeonato Italiano",
+        anos: "2006",
+        clube: "Inter de Milão",
+      },
+
+      // Juventus
+      {
+        nome: "Campeonato Italiano",
+        anos: "2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2015, 2016, 2017, 2021",
+        clube: "Juventus",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2012, 2013, 2015, 2018, 2020",
+        clube: "Juventus",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Jogador do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da UEFA Champions League",
+        logo: "UEFA Champions League",
+        anos: "2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2017",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano UEFA",
+        logo: "UEFA",
+        anos: "2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Serie A",
+        logo: "Campeonato Italiano",
+        anos: "2015, 2016, 2017, 2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2020",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Leonardo Bonucci", "BBC"],
+    ultima_atualizacao: "05/11/2025",
+  },
+
   // Paolo Maldini
   {
     nome: "Paolo Maldini",
@@ -22350,6 +23402,623 @@ export const jogadores = [
     ],
     tags: ["Codino Divino"],
     ultima_atualizacao: "31/10/2025",
+  },
+
+  // JAPÃO -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Shunsuke Nakamura
+  {
+    nome: "Shunsuke Nakamura",
+    background: "titanium",
+    descricao:
+      "Lendário meio-campista japonês, amplamente reconhecido pela sua técnica apurada, passes precisos e, sobretudo, por ser um mestre nas cobranças de falta. Brilhou no Celtic, onde conquistou múltiplos títulos nacionais, e foi um ícone da Seleção Japonesa.",
+    pagina: "https://pt.wikipedia.org/wiki/Shunsuke_Nakamura",
+    nacionalidade: "Japão",
+    imagem:
+      "https://i.nextmedia.com.au/Utils/ImageResizer.ashx?n=http%3A%2F%2Fi.nextmedia.com.au%2Fnews%2F74398394.jpg&h=600&w=850&c=0&s=1",
+    numero: "10",
+    posicao: "Meia Atacante / Meia Central",
+    dataNascimento: "24/06/1978",
+    status: "Aposentado",
+    curiosidades:
+      "Nakamura marcou um dos gols de falta mais memoráveis da história da UEFA Champions League contra o Manchester United em 2006. Ele foi o primeiro jogador japonês a marcar na Liga dos Campeões e foi eleito o Jogador do Ano na Escócia em 2007. Seu último clube profissional foi o Yokohama FC, onde jogou até os 44 anos.",
+    clubes: [
+      createClub(
+        "Yokohama Marinos",
+        { inicio: "1997", fim: "2002" },
+        { jogos: 174, gols: 38, assistencias: 20 }
+      ),
+      createClub(
+        "Reggina",
+        { inicio: "2002", fim: "2005" },
+        { jogos: 81, gols: 11, assistencias: 8 }
+      ),
+      createClub(
+        "Celtic",
+        { inicio: "2005", fim: "2009" },
+        { jogos: 166, gols: 33, assistencias: 35 }
+      ),
+      createClub(
+        "Espanyol",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 15, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Yokohama Marinos",
+        { inicio: "2010", fim: "2017" },
+        { jogos: 219, gols: 35, assistencias: 46 }
+      ),
+      createClub(
+        "Júbilo Iwata",
+        { inicio: "2017", fim: "2019" },
+        { jogos: 68, gols: 5, assistencias: 3 }
+      ),
+      createClub(
+        "Yokohama FC",
+        { inicio: "2019", fim: "2022" },
+        { jogos: 82, gols: 3, assistencias: 3 }
+      ),
+    ],
+    selecao: {
+      nome: "Japão",
+      periodo: { inicio: "2000", fim: "2010" },
+      estatisticas: { jogos: 98, gols: 24, assistencias: 17 },
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Copa da Ásia",
+        anos: "2000",
+        clube: "Japão",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa da Ásia",
+        anos: "2004",
+        clube: "Japão",
+        logoVariavel: true,
+      },
+
+      // Celtic
+      {
+        nome: "Campeonato Escocês",
+        anos: "2006, 2007, 2008, 2009",
+        clube: "Celtic",
+      },
+      {
+        nome: "Copa da Liga Escocesa",
+        anos: "2006, 2009",
+        clube: "Celtic",
+      },
+      {
+        nome: "Copa da Escócia",
+        anos: "2007",
+        clube: "Celtic",
+      },
+
+      // Yokohama Marinos
+      {
+        nome: "Copa da Liga Japonesa",
+        anos: "2001",
+        clube: "Yokohama Marinos",
+      },
+      {
+        nome: "Copa do Imperador",
+        anos: "2013",
+        clube: "Yokohama Marinos",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Jogador Asiático do Ano",
+        logo: "AFC",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano (PFA Scotland)",
+        logo: "PFA",
+        anos: "2007",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista do Ano (FWA Scotland)",
+        logo: "FWA",
+        anos: "2007",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Escocês",
+        logo: "Campeonato Escocês",
+        anos: "2007",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Japonês",
+        logo: "Campeonato Japonês",
+        anos: "2000, 2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da Década (AFC)",
+        logo: "AFC",
+        anos: "2000-2009",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Shunsuke Nakamura"],
+    ultima_atualizacao: "05/11/2025",
+  },
+
+  // NIGÉRIA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Jay-Jay Okocha
+  {
+    nome: "Jay-Jay Okocha",
+    background: "plate",
+    descricao:
+      "Meio-campista nigeriano, um dos maiores ícones do futebol africano. Famoso por seu repertório de dribles e jogadas de efeito, Okocha foi a personificação da técnica pura, brilhando na Bundesliga, Ligue 1 (PSG) e Premier League (Bolton).",
+    pagina: "https://pt.wikipedia.org/wiki/Jay-Jay_Okocha",
+    nacionalidade: "Nigéria",
+    imagem:
+      "https://www.ogol.com.br/img/history/imgS620I12433T20210903161854.jpg",
+    numero: "10",
+    posicao: "Meia Atacante / Meia Central",
+    dataNascimento: "14/08/1973",
+    status: "Aposentado",
+    curiosidades:
+      "Seu nome completo é Augustine Azuka Okocha. Foi contratado pelo PSG em 1998 por cerca de 14 milhões de libras, tornando-se o jogador africano mais caro da história na época. É famoso por ter sido mentor de Ronaldinho Gaúcho no PSG.",
+    clubes: [
+      createClub(
+        "Borussia Neunkirchen",
+        { inicio: "1990", fim: "1992" },
+        { jogos: 35, gols: 7, assistencias: 0 }
+      ),
+      createClub(
+        "Eintracht Frankfurt",
+        { inicio: "1992", fim: "1996" },
+        { jogos: 90, gols: 18, assistencias: 13 }
+      ),
+      createClub(
+        "Fenerbahçe",
+        { inicio: "1996", fim: "1998" },
+        { jogos: 62, gols: 30, assistencias: 15 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "1998", fim: "2002" },
+        { jogos: 84, gols: 14, assistencias: 20 }
+      ),
+      createClub(
+        "Bolton Wanderers",
+        { inicio: "2002", fim: "2006" },
+        { jogos: 145, gols: 18, assistencias: 11 }
+      ),
+      createClub(
+        "Qatar SC",
+        { inicio: "2006", fim: "2007" },
+        { jogos: 41, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Hull City",
+        { inicio: "2007", fim: "2008" },
+        { jogos: 18, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Nigéria",
+      periodo: { inicio: "1993", fim: "2006" },
+      estatisticas: { jogos: 73, gols: 14, assistencias: 8 },
+    },
+    titulos: [
+      // Seleção
+      {
+        nome: "Copa Africana de Nações",
+        anos: "1994",
+        clube: "Nigéria",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogos Olímpicos",
+        anos: "1996",
+        clube: "Nigéria",
+        logoVariavel: true,
+      },
+
+      // PSG
+      {
+        nome: "Supercopa da França",
+        anos: "1998",
+        clube: "PSG",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Jogador Africano do Ano (BBC)",
+        logo: "BBC",
+        anos: "2003, 2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano do Bolton Wanderers",
+        logo: "Individual",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Copa Africana de Nações",
+        logo: "Copa Africana de Nações",
+        anos: "1996",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Time do Ano da Copa Africana de Nações",
+        logo: "Copa Africana de Nações",
+        anos: "2000",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Time do Ano da Copa Africana de Nações",
+        logo: "Copa Africana de Nações",
+        anos: "2002",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Copa Africana de Nações",
+        logo: "Copa Africana de Nações",
+        anos: "2004",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Copa da Turquia",
+        logo: "Copa da Turquia",
+        anos: "1997",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Jay-Jay Okocha", "Jay Jay Okocha"],
+    ultima_atualizacao: "05/11/2025",
+  },
+
+  // PAÍS DE GALES -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Gareth Bale
+  {
+    nome: "Gareth Bale",
+    background: "diamond",
+    descricao:
+      "Um dos maiores jogadores britânicos de todos os tempos. Famoso por sua velocidade supersônica e chutes potentes, Bale foi decisivo em 5 conquistas da UEFA Champions League com o Real Madrid, marcando gols memoráveis, incluindo o de bicicleta na final de 2018. Ícone e artilheiro histórico da Seleção de Gales.",
+    pagina: "https://pt.wikipedia.org/wiki/Gareth_Bale",
+    nacionalidade: "País de Gales",
+    imagem:
+      "https://assets.goal.com/images/v3/bltbcc22376de8bf74c/01aaaeb92aff3fbcdafc416e9b0214403a453c56.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    numero: "11",
+    posicao: "Ponta Direita / Ponta Esquerda",
+    dataNascimento: "16/07/1989",
+    status: "Aposentado",
+    curiosidades:
+      "Bale é o maior artilheiro da história da Seleção Galesa. No seu auge no Real Madrid, foi o jogador mais caro do mundo. É conhecido por sua paixão por golfe, uma curiosidade que gerou polêmicas engraçadas com a torcida do Real Madrid.",
+    clubes: [
+      createClub(
+        "Southampton",
+        { inicio: "2005", fim: "2007" },
+        { jogos: 45, gols: 5, assistencias: 12 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2007", fim: "2013" },
+        { jogos: 203, gols: 56, assistencias: 58 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2013", fim: "2022" },
+        { jogos: 258, gols: 106, assistencias: 64 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 34, gols: 16, assistencias: 4 }
+      ),
+      createClub(
+        "Los Angeles FC",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 13, gols: 3, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "País de Gales",
+      periodo: { inicio: "2006", fim: "2022" },
+      estatisticas: { jogos: 111, gols: 41, assistencias: 22 },
+    },
+    titulos: [
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2014, 2016, 2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2014, 2016, 2017, 2018",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2014, 2016, 2017",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2017, 2020, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2017, 2020, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2014",
+        clube: "Real Madrid",
+      },
+
+      // Tottenham Hotspur
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2008",
+        clube: "Tottenham Hotspur",
+      },
+
+      // Los Angeles FC
+      {
+        nome: "MLS Cup",
+        anos: "2022",
+        clube: "Los Angeles FC",
+      },
+      {
+        nome: "MLS Supporters' Shield",
+        anos: "2022",
+        clube: "Los Angeles FC",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Jogador do Ano da Premier League",
+        logo: "PFA",
+        anos: "2011",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano da Premier League",
+        logo: "PFA",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Jovem da PFA",
+        logo: "PFA",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista do Ano (FWA)",
+        logo: "FWA",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador Galês do Ano",
+        logo: "Individual",
+        anos: "2010, 2011, 2013, 2014, 2015, 2016",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2011",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Final da UCL",
+        logo: "UEFA Champions League",
+        anos: "2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro do Mundial de Clubes",
+        logo: "Bola de Ouro FIFA",
+        anos: "2018",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Gareth Bale"],
+    ultima_atualizacao: "05/11/2025",
+  },
+
+  // POLÔNIA -------------------------------------------------------------------------------------------------------------------------------
+
+  // Robert Lewandowski
+  {
+    nome: "Robert Lewandowski",
+    background: "diamond",
+    descricao:
+      "Um dos maiores e mais consistentes centroavantes de todos os tempos. Conhecido por seu instinto matador, posicionamento e finalização implacável, Lewandowski foi fundamental nas conquistas do Bayern de Munique e da Polônia. Vencedor de dois prêmios The Best FIFA Men's Player.",
+    pagina: "https://pt.wikipedia.org/wiki/Robert_Lewandowski",
+    nacionalidade: "Polônia",
+    imagem:
+      "https://platform.barcablaugranes.com/wp-content/uploads/sites/21/chorus/uploads/chorus_asset/file/25870319/2198586272.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400",
+    numero: "9",
+    posicao: "Centroavante / Atacante",
+    dataNascimento: "21/08/1988",
+    status: "Ativo",
+    curiosidades:
+      "Detém vários recordes da Bundesliga, incluindo o de maior número de gols em uma única temporada (41). Em 2015, marcou cinco gols em nove minutos pelo Bayern contra o Wolfsburg. É o maior artilheiro da história da Seleção Polonesa.",
+    clubes: [
+      createClub(
+        "Znicz Pruszków",
+        { inicio: "2006", fim: "2008" },
+        { jogos: 66, gols: 38, assistencias: 0 }
+      ),
+      createClub(
+        "Lech Poznań",
+        { inicio: "2008", fim: "2010" },
+        { jogos: 82, gols: 41, assistencias: 20 }
+      ),
+      createClub(
+        "Borussia Dortmund",
+        { inicio: "2010", fim: "2014" },
+        { jogos: 186, gols: 103, assistencias: 42 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2014", fim: "2022" },
+        { jogos: 375, gols: 344, assistencias: 72 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2022", fim: "Atual" },
+        { jogos: 157, gols: 105, assistencias: 16 }
+      ),
+    ],
+    selecao: {
+      nome: "Polônia",
+      periodo: { inicio: "2008", fim: "Atual" },
+      estatisticas: { jogos: 158, gols: 85, assistencias: 20 },
+    },
+    titulos: [
+      // Lech Poznań
+      {
+        nome: "Campeonato Polonês",
+        anos: "2010",
+        clube: "Lech Poznań",
+      },
+      {
+        nome: "Copa da Polônia",
+        anos: "2009",
+        clube: "Lech Poznań",
+      },
+      {
+        nome: "Supercopa da Polônia",
+        anos: "2009",
+        clube: "Lech Poznań",
+      },
+
+      // Borussia Dortmund
+      {
+        nome: "Campeonato Alemão",
+        anos: "2011, 2012",
+        clube: "Borussia Dortmund",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "2012",
+        clube: "Borussia Dortmund",
+      },
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2013, 2014",
+        clube: "Borussia Dortmund",
+      },
+
+      // Bayern de Munique
+      {
+        nome: "Campeonato Alemão",
+        anos: "2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "2016, 2019, 2020",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2016, 2017, 2018, 2020, 2021",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2020",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2020",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2020",
+        clube: "Bayern de Munique",
+      },
+
+      // Barcelona
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2023",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2023",
+        clube: "Barcelona",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "The Best FIFA",
+        anos: "2020, 2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Masculino da UEFA",
+        logo: "UEFA",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Ouro Europeia",
+        logo: "Chuteira de Ouro",
+        anos: "2021, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Atacante da UEFA",
+        logo: "UEFA",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Alemão",
+        logo: "Campeonato Alemão",
+        anos: "2014, 2016, 2018, 2019, 2020, 2021, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Atleta Polonês do Ano",
+        logo: "Individual",
+        anos: "2015, 2020, 2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2020, 2021, 2022",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Robert Lewandowski"],
+    ultima_atualizacao: "05/11/2025",
   },
 
   // PORTUGAL -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -22790,6 +24459,169 @@ export const jogadores = [
       "jovem talento",
       "Paris Saint-Germain",
     ],
+  },
+
+  // Luís Figo
+  {
+    nome: "Luís Figo",
+    background: "diamond",
+    descricao:
+      "Lendário meia-atacante português e um dos grandes nomes da 'Geração de Ouro' de Portugal. Vencedor da Bola de Ouro (2000) e Melhor Jogador do Mundo FIFA (2001), Figo brilhou com sua velocidade, habilidade de drible e assistências precisas em gigantes como Sporting, Barcelona, Real Madrid e Inter de Milão.",
+    pagina: "https://pt.wikipedia.org/wiki/Lu%C3%ADs_Figo",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://editorial.uefa.com/resources/024a-0e9cdee596e6-d1ea77fef4dc-1000/luis_figo_real_madrid_.jpeg",
+    numero: "10",
+    posicao: "Ponta Direita / Meia Ofensivo",
+    dataNascimento: "04/11/1972",
+    status: "Aposentado",
+    curiosidades:
+      "Sua polêmica transferência do Barcelona para o arquirrival Real Madrid em 2000, por um valor recorde na época, é considerada uma das mais controversas da história do futebol. É o segundo jogador com mais assistências na história da Liga dos Campeões da UEFA (15).",
+    clubes: [
+      createClub(
+        "Sporting CP",
+        { inicio: "1991", fim: "1995" },
+        { jogos: 169, gols: 23, assistencias: 24 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "1995", fim: "2000" },
+        { jogos: 249, gols: 45, assistencias: 88 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2000", fim: "2005" },
+        { jogos: 245, gols: 58, assistencias: 80 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "2005", fim: "2009" },
+        { jogos: 140, gols: 11, assistencias: 28 }
+      ),
+    ],
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "1991", fim: "2006" },
+      estatisticas: { jogos: 127, gols: 32, assistencias: 35 },
+    },
+    titulos: [
+      // 🇵🇹 Sporting CP
+      {
+        nome: "Taça de Portugal",
+        anos: "1995",
+        clube: "Sporting CP",
+      },
+
+      // 🇪🇸 Barcelona
+      {
+        nome: "Supercopa da Espanha",
+        anos: "1996",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "1997, 1998",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Recopa Europeia",
+        anos: "1997",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1997",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "1998, 1999",
+        clube: "Barcelona",
+      },
+
+      // Real Madrid
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2001, 2003",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2001, 2003",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2002",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2002",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "2002",
+        clube: "Real Madrid",
+      },
+
+      // Inter de Milão
+      {
+        nome: "Supercopa da Itália",
+        anos: "2005, 2006, 2008",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2006",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "2006, 2007, 2008, 2009",
+        clube: "Inter de Milão",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Jogador Português do Ano",
+        logo: "Individual",
+        anos: "1995, 1996, 1997, 1998, 1999, 2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Meçhor Jogador Estrangeiro (Don Balón)",
+        logo: "Don Balón",
+        anos: "1999, 2000, 2001",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Futebolista do Ano (World Soccer)",
+        logo: "World Soccer",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mundo FIFA",
+        logo: "FIFA World Player Of The Year",
+        anos: "2001",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2003",
+        categoria: "individual",
+      },
+    ],
+tags: ["Luís Figo", "Luis Figo", "Figo", "Luiz Figo", "Luis Fiego", "Luís Filipe Madeira Caeiro Figo"],
+  ultima_atualizacao: "05/11/2025",
   },
 
   // Nuno Mendes

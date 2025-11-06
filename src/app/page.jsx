@@ -17,7 +17,7 @@ const FILTRO_TECNICOS = "TECNICOS";
 const FILTRO_CLUBES = "CLUBES";
 const FILTRO_SELECOES = "SELECOES";
 
-const ITENS_POR_CARGA = 25;
+const ITENS_POR_CARGA = 20;
 
 const filtros = [
   { nome: "Jogadores", termo: FILTRO_PADRAO },
