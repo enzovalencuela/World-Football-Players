@@ -7022,7 +7022,7 @@ export const jogadores = [
       },
       {
         nome: "Copa da Liga Inglesa",
-        anos: "2018, 2019, 2020, 2021",
+        anos: "2018, 2019, 2020, 2021, 2023, 2024",
         clube: "Manchester City",
       },
       {
@@ -7042,6 +7042,16 @@ export const jogadores = [
         anos: "2016, 2017",
         clube: "Benfica",
       },
+      {
+        nome: "Taça de Portugal",
+        anos: "2017",
+        clube: "Benfica",
+      },
+      {
+        nome: "Supertaça de Portugal",
+        anos: "2016",
+        clube: "Benfica",
+      },
 
       // Seleção Brasileira
       {
@@ -7050,17 +7060,17 @@ export const jogadores = [
         clube: "Brasil",
         logoVariavel: true,
       },
+
+      // Individuais
+      {
+        nome: "Luva de Ouro do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "2020, 2021, 2022",
+        categoria: "individual",
+      },
     ],
-    tags: [
-      "Goleiro-Líbero",
-      "Fenerbahçe",
-      "Manchester City",
-      "Brasil",
-      "Goleiro Passador",
-      "Campeão da Champions",
-      "Vencedor da Luva de Ouro da Premier League",
-    ],
-    ultima_atualizacao: "03/11/2025",
+    tags: ["Ederson"],
+    ultima_atualizacao: "06/11/2025",
   },
 
   // Edílson Capetinha
@@ -22614,6 +22624,111 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
+  // Gianluigi Donnarumma
+  {
+    nome: "Gianluigi Donnarumma",
+    background: "diamond",
+    descricao:
+      "Guarda-redes italiano considerado um dos melhores da sua geração. Donnarumma ganhou destaque muito jovem no Milan, firmando-se como titular da seleção italiana e conquistando a Eurocopa 2020 como Melhor Jogador. Recentemente, foi peça chave na conquista da primeira Liga dos Campeões da história do Paris Saint-Germain.",
+    pagina: "https://www.instagram.com/donnarumma",
+    numero: "99",
+    posicao: "Guarda-redes",
+    dataNascimento: "25/02/1999",
+    status: "Ativo",
+    nacionalidade: "Itália",
+    imagem:
+      "https://ichef.bbci.co.uk/ace/standard/1800/cpsprodpb/b6cb/live/a99ec380-93c5-11f0-98dc-53d10dedbfc6.jpg",
+    curiosidades:
+      "Detentor de dois Troféus Yashin (2021 e 2025), o prémio para o melhor guarda-redes do mundo, Donnarumma é o primeiro guarda-redes a ser nomeado Jogador do Torneio da Eurocopa (2020). Estreou profissionalmente pelo Milan aos 16 anos, tornando-se o segundo guarda-redes mais jovem a iniciar um jogo da Serie A.",
+    clubes: [
+      createClub(
+        "AC Milan",
+        { inicio: "2015", fim: "2021" },
+        { jogos: 251, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2021", fim: "2025" },
+        { jogos: 147, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 16, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "2016", fim: "Presente" },
+      estatisticas: { jogos: 78, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // AC Milan
+      { nome: "Supercopa da Itália", anos: "2016", clube: "AC Milan" },
+
+      // Paris Saint-Germain
+      {
+        nome: "Campeonato Francês",
+        anos: "2022, 2023, 2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2023, 2024, 2025",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "UEFA Champions League",
+        anos: "2025",
+        clube: "Paris Saint-Germain",
+      },
+      { nome: "Supercopa da UEFA", anos: "2025", clube: "Paris Saint-Germain" },
+
+      // Seleção Italiana
+      { nome: "Eurocopa", anos: "2020", clube: "Itália", logoVariavel: true },
+
+      // Títulos Individuais
+      {
+        nome: "Troféu Yashin",
+        anos: "2021, 2025",
+        categoria: "individual",
+        logo: "Bola de Ouro",
+      },
+      {
+        nome: "Melhor Jogador da Eurocopa",
+        anos: "2020",
+        categoria: "individual",
+        logo: "Eurocopa",
+        logoVariavel: true,
+      },
+      {
+        nome: "Melhor Goleiro do Campeonato Francês",
+        anos: "2022, 2024",
+        categoria: "individual",
+        logo: "Campeonato Francês",
+      },
+      {
+        nome: "FIFPro World XI",
+        anos: "2021, 2025",
+        categoria: "individual",
+        logo: "FIFPro",
+      },
+      {
+        nome: "Melhor Goleiro dao Campeonato Italiano",
+        anos: "2021",
+        categoria: "individual",
+        logo: "Campeonato Italiano",
+      },
+    ],
+    tags: ["Gianluigi Donnarumma", "Gigio"],
+    ultima_atualizacao: "06/11/2025",
+  },
+
   // Giorgio Chiellini
   {
     nome: "Giorgio Chiellini",
@@ -26086,7 +26201,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/luissuarez9",
     nacionalidade: "Uruguai",
     imagem:
-      "https://deportetotalusa.com/wp-content/uploads/2024/08/luis-suarez-2.jpg",
+      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/03/luis-suarez-inter-miami-houston-dynamo-e1741004943879.jpg?w=1200&h=900&crop=1",
     numero: "9",
     posicao: "Centroavante",
     dataNascimento: "24/01/1987",
