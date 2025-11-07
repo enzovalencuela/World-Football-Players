@@ -22462,7 +22462,7 @@ export const jogadores = [
   // Gennaro Gattuso
   {
     nome: "Gennaro Gattuso",
-    background: "Diamond",
+    background: "diamond",
     descricao:
       "Volante italiano de estilo 'guerreiro', conhecido por sua garra, intensidade e liderança dentro de campo, que lhe renderam o apelido de 'Ringhio' (Rosnado). Foi um pilar da Seleção Italiana campeã mundial em 2006 e um ícone do AC Milan, onde conquistou duas Ligas dos Campeões.",
     pagina: "https://pt.wikipedia.org/wiki/Gennaro_Gattuso",
@@ -22562,7 +22562,15 @@ export const jogadores = [
         logoVariavel: true,
       },
     ],
-    tags: ["Gattuso", "Ringhio", "Gennaro", "Ivan", "Rino", "Gatuso", "Gatusso"],
+    tags: [
+      "Gattuso",
+      "Ringhio",
+      "Gennaro",
+      "Ivan",
+      "Rino",
+      "Gatuso",
+      "Gatusso",
+    ],
     ultima_atualizacao: "06/11/2025",
   },
 
@@ -23914,7 +23922,7 @@ export const jogadores = [
   // Erling Haaland
   {
     nome: "Erling Haaland",
-    background: "Diamond",
+    background: "diamond",
     descricao:
       "Centroavante norueguês e um dos maiores goleadores da atualidade. Detentor de múltiplos recordes de gols na Premier League e na Liga dos Campeões da UEFA. Conquistou a tríplice coroa com o Manchester City (2022/23) e é conhecido por sua velocidade, força física e finalização clínica.",
     pagina: "https://www.instagram.com/erling.haaland",
@@ -24211,7 +24219,7 @@ export const jogadores = [
   // Ryan Giggs
   {
     nome: "Ryan Giggs",
-    background: "Diamond",
+    background: "diamond",
     descricao:
       "Lenda galesa do Manchester United, onde jogou toda a sua carreira profissional (1990-2014). É o jogador mais condecorado da história do futebol inglês e o recordista de partidas do clube. Extremamente rápido e habilidoso, é considerado um dos maiores pontas-esquerdas de sua geração.",
     pagina: "https://www.manutd.com/en/players-and-staff/detail/ryan-giggs",
@@ -25289,7 +25297,7 @@ export const jogadores = [
   // Rui Costa
   {
     nome: "Rui Costa",
-    background: "Diamond",
+    background: "diamond",
     descricao:
       "Lendário meia-atacante português, apelidado de 'O Maestro', conhecido por sua visão de jogo excepcional, precisão nos passes e chutes de longa distância. Foi uma figura central na 'Geração de Ouro' de Portugal e um ícone de três gigantes: Benfica, Fiorentina e AC Milan, onde conquistou a Liga dos Campeões.",
     pagina: "https://pt.wikipedia.org/wiki/Rui_Manuel_C%C3%A9sar_Costa",
