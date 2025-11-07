@@ -22459,6 +22459,113 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
+  // Gennaro Gattuso
+  {
+    nome: "Gennaro Gattuso",
+    background: "Diamond",
+    descricao:
+      "Volante italiano de estilo 'guerreiro', conhecido por sua garra, intensidade e liderança dentro de campo, que lhe renderam o apelido de 'Ringhio' (Rosnado). Foi um pilar da Seleção Italiana campeã mundial em 2006 e um ícone do AC Milan, onde conquistou duas Ligas dos Campeões.",
+    pagina: "https://pt.wikipedia.org/wiki/Gennaro_Gattuso",
+    nacionalidade: "Itália",
+    imagem:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU5lxTJsobbedmpoEPYVEVrZg436Rqi5JfXR9irelCxcdLCyMHmAW79Xk3-h0ccDQGo-PBFyEgjbflxoqhEV0lfZfdQErpF8t01GmUj_yciAY3JqpymjU5xUjzD6YM6oAWg4b0El4zqFDSztcbZCMzUl_4Bd9StqnLSuh8_nCb4vaMxDOxFptY5WphQ00/s1420/Gennaro%20Gattuso%20AC%20Milan.jpg",
+    numero: "8",
+    posicao: "Volante / Meia Central",
+    dataNascimento: "09/01/1978",
+    status: "Aposentado",
+    curiosidades:
+      "Gattuso se tornou um personagem lendário no vestiário do AC Milan por sua natureza agressiva e competitiva. Ele encerrou a carreira de jogador no FC Sion (Suíça), onde também começou sua carreira de treinador, passando por vários clubes europeus e, em 2025, assumindo o comando da Seleção Italiana.",
+    clubes: [
+      createClub(
+        "Perugia",
+        { inicio: "1995", fim: "1997" },
+        { jogos: 10, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Rangers FC",
+        { inicio: "1997", fim: "1998" },
+        { jogos: 51, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Salernitana",
+        { inicio: "1998", fim: "1999" },
+        { jogos: 25, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "1999", fim: "2012" },
+        { jogos: 468, gols: 11, assistencias: 16 }
+      ),
+      createClub(
+        "FC Sion",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 32, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "2000", fim: "2010" },
+      estatisticas: { jogos: 73, gols: 1, assistencias: 1 },
+    },
+    titulos: [
+      // Seleção Italiana
+      {
+        nome: "Copa do Mundo",
+        anos: "2006",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+      {
+        nome: "Eurocopa Sub-21",
+        anos: "2000",
+        clube: "Itália",
+      },
+
+      // AC Milan
+      {
+        nome: "UEFA Champions League",
+        anos: "2003, 2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2003, 2007",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "2004, 2011",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2003",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2004, 2011",
+        clube: "AC Milan",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Seleção da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2006",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Gattuso", "Ringhio", "Gennaro", "Ivan", "Rino", "Gatuso", "Gatusso"],
+    ultima_atualizacao: "06/11/2025",
+  },
+
   // Gianluigi Buffon
   {
     nome: "Gianluigi Buffon",
@@ -23802,6 +23909,143 @@ export const jogadores = [
     ultima_atualizacao: "05/11/2025",
   },
 
+  // NORUEGA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Erling Haaland
+  {
+    nome: "Erling Haaland",
+    background: "Diamond",
+    descricao:
+      "Centroavante norueguês e um dos maiores goleadores da atualidade. Detentor de múltiplos recordes de gols na Premier League e na Liga dos Campeões da UEFA. Conquistou a tríplice coroa com o Manchester City (2022/23) e é conhecido por sua velocidade, força física e finalização clínica.",
+    pagina: "https://www.instagram.com/erling.haaland",
+    nacionalidade: "Noruega",
+    imagem:
+      "https://images.ad.nl/ZmE2MzVlMTBhOGQ0YmNhYzZiNzMvZGlvLzI0NzYyNDEzMi9maXQtd2lkdGgvMTIwMA/erling-haaland",
+    numero: "9",
+    posicao: "Centroavante",
+    dataNascimento: "21/07/2000",
+    status: "Ativo",
+    curiosidades:
+      "Haaland detém o recorde de gols em uma única temporada da Premier League (36 gols em 2022/23). Na Copa do Mundo Sub-20 de 2019, marcou 9 gols em uma única partida contra Honduras, um recorde do torneio. É o primeiro jogador a ser artilheiro da Champions League por dois clubes diferentes (Dortmund e City).",
+    clubes: [
+      createClub(
+        "Bryne",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 16, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Molde",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 50, gols: 20, assistencias: 6 }
+      ),
+      createClub(
+        "Red Bull Salzburg",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 27, gols: 29, assistencias: 7 }
+      ),
+      createClub(
+        "Borussia Dortmund",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 89, gols: 86, assistencias: 23 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 120, gols: 125, assistencias: 27 }
+      ),
+    ],
+    selecao: {
+      nome: "Noruega",
+      periodo: { inicio: "2019", fim: "Presente" },
+      estatisticas: { jogos: 46, gols: 51, assistencias: 8 },
+    },
+    titulos: [
+      // Manchester City
+      {
+        nome: "UEFA Champions League",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2023, 2024",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2024",
+        clube: "Manchester City",
+      },
+
+      // Borussia Dortmund
+      {
+        nome: "Copa da Alemanha",
+        anos: "2021",
+        clube: "Borussia Dortmund",
+      },
+
+      // Red Bull Salzburg
+      {
+        nome: "Campeonato Austríaco",
+        anos: "2019, 2020",
+        clube: "Red Bull Salzburg",
+      },
+      {
+        nome: "Copa da Áustria",
+        anos: "2019, 2020",
+        clube: "Red Bull Salzburg",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Jogador do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Chuteira de Ouro da UEFA",
+        logo: "Chuteira de Ouro",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da UEFA Champions League",
+        logo: "UEFA Champions League",
+        anos: "2021, 2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano (PFA)",
+        logo: "PFA",
+        anos: "2023, 2024",
+        categoria: "individual",
+      },
+      {
+        nome: "Golden Boy",
+        anos: "2020",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Erling Haaland", "Haaland", "Erling", "Cometa"],
+    ultima_atualizacao: "06/11/2025",
+  },
+
   // PAÍS DE GALES -------------------------------------------------------------------------------------------------------------------------------------------------------
 
   // Gareth Bale
@@ -23962,6 +24206,108 @@ export const jogadores = [
     ],
     tags: ["Gareth Bale"],
     ultima_atualizacao: "05/11/2025",
+  },
+
+  // Ryan Giggs
+  {
+    nome: "Ryan Giggs",
+    background: "Diamond",
+    descricao:
+      "Lenda galesa do Manchester United, onde jogou toda a sua carreira profissional (1990-2014). É o jogador mais condecorado da história do futebol inglês e o recordista de partidas do clube. Extremamente rápido e habilidoso, é considerado um dos maiores pontas-esquerdas de sua geração.",
+    pagina: "https://www.manutd.com/en/players-and-staff/detail/ryan-giggs",
+    nacionalidade: "País de Gales",
+    imagem:
+      "https://assets.manutd.com/AssetPicker/images/0/0/10/126/687715/Legends-Profile_Ryan-Giggs1523461920015.jpg",
+    numero: "11",
+    posicao: "Ponta-esquerda / Meio-campista",
+    dataNascimento: "29/11/1973",
+    status: "Aposentado",
+    curiosidades:
+      "Giggs é o jogador com mais títulos da Premier League (13). Ele detém o recorde de jogos (963) e de assistências do Manchester United. Foi eleito o Jogador Jovem do Ano da PFA duas vezes consecutivas, feito raro.",
+    clubes: [
+      createClub(
+        "Manchester United",
+        { inicio: "1990", fim: "2014" },
+        { jogos: 963, gols: 168, assistencias: 257 }
+      ),
+    ],
+    selecao: {
+      nome: "País de Gales",
+      periodo: { inicio: "1991", fim: "2007" },
+      estatisticas: { jogos: 64, gols: 12, assistencias: 0 },
+    },
+    titulos: [
+      // Manchester United
+      {
+        nome: "UEFA Champions League",
+        anos: "1999, 2008",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1999",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2008",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1991",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "1993, 1994, 1996, 1997, 1999, 2000, 2001, 2003, 2007, 2008, 2009, 2011, 2013",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "1994, 1996, 1999, 2004",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "1992, 2006, 2009, 2010",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "1993, 1994, 1996, 1997, 2003, 2007, 2008, 2010, 2013",
+        clube: "Manchester United",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Jogador do Ano (PFA)",
+        logo: "PFA",
+        anos: "2009",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador Jovem do Ano (PFA)",
+        logo: "PFA",
+        anos: "1992, 1993",
+        categoria: "individual",
+      },
+      {
+        nome: "Personalidade Esportiva do Ano",
+        logo: "BBC",
+        anos: "2009",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "1996",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Ryan Giggs", "Giggs", "Ryan", "Gigs"],
+    ultima_atualizacao: "06/11/2025",
   },
 
   // POLÔNIA -------------------------------------------------------------------------------------------------------------------------------
@@ -24138,6 +24484,124 @@ export const jogadores = [
     ],
     tags: ["Robert Lewandowski"],
     ultima_atualizacao: "05/11/2025",
+  },
+
+  // Wojciech Szczęsny
+  {
+    nome: "Wojciech Szczęsny",
+    background: "titanium",
+    descricao:
+      "Goleiro polonês, conhecido por sua personalidade, agilidade e excelência na saída do gol. Foi o titular mais jovem do Arsenal, consolidou-se como tricampeão italiano pela Juventus e, após um breve anúncio de aposentadoria, retornou para ser campeão na La Liga com o Barcelona.",
+    pagina: "https://www.instagram.com/wojciech.szczesny1",
+    nacionalidade: "Polônia",
+    imagem:
+      "https://tntsports.com.br/__export/1742230049396/sites/esporteinterativo/img/2025/03/17/szczesny_em_jogo_contra_o_atlxtico_de_madrid.jpg_292290843.jpg",
+    numero: "25",
+    posicao: "Goleiro",
+    dataNascimento: "18/04/1990",
+    status: "Ativo",
+    curiosidades:
+      "Compartilhou a Luva de Ouro da Premier League na temporada 2013-14 com Petr Čech. Em 2024, após a Eurocopa, ele chegou a anunciar sua aposentadoria, mas voltou atrás pouco depois para assinar com o Barcelona. É filho do também goleiro polonês Maciej Szczęsny.",
+    clubes: [
+      createClub(
+        "Arsenal",
+        { inicio: "2009", fim: "2015" },
+        { jogos: 181, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Brentford",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 28, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Roma",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 81, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2017", fim: "2024" },
+        { jogos: 252, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 20, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Polônia",
+      periodo: { inicio: "2009", fim: "2024" },
+      estatisticas: { jogos: 84, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Juventus
+      {
+        nome: "Campeonato Italiano",
+        anos: "2018, 2019, 2020",
+        clube: "Juventus",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2018, 2021, 2024",
+        clube: "Juventus",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2018, 2020",
+        clube: "Juventus",
+      },
+
+      // Barcelona
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2025",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2025",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2024",
+        clube: "Barcelona",
+      },
+
+      // Arsenal
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2014, 2015",
+        clube: "Arsenal",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2014",
+        clube: "Arsenal",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Luva de Ouro da Premier League",
+        anos: "2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador Polonês do Ano",
+        logo: "Individual",
+        anos: "2022",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Wojciech Szczesny", "Szczesny", "Wojciech", "Szczensy"],
+    ultima_atualizacao: "06/11/2025",
   },
 
   // PORTUGAL -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -24820,6 +25284,145 @@ export const jogadores = [
       { nome: "UEFA Nations League", anos: "2025", clube: "Portugal" },
     ],
     tags: ["lateral-esquerdo", "portugal", "sporting", "psg", "jovem talento"],
+  },
+
+  // Rui Costa
+  {
+    nome: "Rui Costa",
+    background: "Diamond",
+    descricao:
+      "Lendário meia-atacante português, apelidado de 'O Maestro', conhecido por sua visão de jogo excepcional, precisão nos passes e chutes de longa distância. Foi uma figura central na 'Geração de Ouro' de Portugal e um ícone de três gigantes: Benfica, Fiorentina e AC Milan, onde conquistou a Liga dos Campeões.",
+    pagina: "https://pt.wikipedia.org/wiki/Rui_Manuel_C%C3%A9sar_Costa",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://www.zerozero.pt/img/jogadores/73/466273_ori__20180312104022_rui_costa.jpg",
+    numero: "10",
+    posicao: "Meia-atacante",
+    dataNascimento: "29/03/1972",
+    status: "Aposentado",
+    curiosidades:
+      "Foi descoberto por Eusébio nas categorias de base do Benfica. Está incluído na lista FIFA 100 dos melhores jogadores vivos. Após se aposentar, tornou-se dirigente e, em 2021, presidente do Sport Lisboa e Benfica.",
+    clubes: [
+      createClub(
+        "Fafe",
+        { inicio: "1990", fim: "1991" },
+        { jogos: 38, gols: 6, assistencias: 0 }
+      ),
+      createClub(
+        "Benfica",
+        { inicio: "1991", fim: "1994" },
+        { jogos: 78, gols: 13, assistencias: 13 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "1994", fim: "2001" },
+        { jogos: 277, gols: 50, assistencias: 61 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2001", fim: "2006" },
+        { jogos: 192, gols: 4, assistencias: 40 }
+      ),
+      createClub(
+        "Benfica",
+        { inicio: "2006", fim: "2008" },
+        { jogos: 59, gols: 11, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "1993", fim: "2004" },
+      estatisticas: { jogos: 94, gols: 26, assistencias: 20 },
+    },
+    titulos: [
+      // AC Milan
+      {
+        nome: "UEFA Champions League",
+        anos: "2003",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2003",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Campeonato Italiano",
+        anos: "2004",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2003",
+        clube: "AC Milan",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2004",
+        clube: "AC Milan",
+      },
+
+      // Fiorentina
+      {
+        nome: "Copa da Itália",
+        anos: "1996, 2001",
+        clube: "Fiorentina",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "1997",
+        clube: "Fiorentina",
+      },
+
+      // Benfica
+      {
+        nome: "Campeonato Português",
+        anos: "1994",
+        clube: "Benfica",
+      },
+      {
+        nome: "Copa de Portugal",
+        anos: "1993",
+        clube: "Benfica",
+      },
+
+      // Seleção Portuguesa
+      {
+        nome: "Copa do Mundo Sub-20",
+        anos: "1991",
+        clube: "Portugal",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "1996",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2000",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Equipe do Ano da FIFA",
+        logo: "FIFA",
+        anos: "1998",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFA 100",
+        anos: "2004",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Rui Costa", "Maestro", "Rui Manuel"],
+    ultima_atualizacao: "06/11/2025",
   },
 
   // Vitinha (Vítor Machado Ferreira)
@@ -25723,6 +26326,111 @@ export const jogadores = [
 
   // URUGUAI --------------------------------------------------------------------------------------------------------------------
 
+  // Álvaro Recoba
+  {
+    nome: "Álvaro Recoba",
+    background: "Plate",
+    descricao:
+      "Atacante uruguaio, lenda da Internazionale de Milão, onde jogou por 11 temporadas. Conhecido por sua técnica excepcional, velocidade, habilidade no drible e, principalmente, por sua precisão letal em chutes de longa distância e cobranças de falta, que lhe renderam o apelido de 'El Chino'.",
+    pagina: "https://www.instagram.com/chino_recoba20/",
+    nacionalidade: "Uruguai",
+    imagem:
+      "https://m.media-amazon.com/images/M/MV5BNjgzNDZiZjctZTgyYy00YWI3LWJkMjctNmYzZjQ1ZmI1YmQzXkEyXkFqcGc@._V1_.jpg",
+    numero: "20",
+    posicao: "Atacante / Meia-atacante",
+    dataNascimento: "17/03/1976",
+    status: "Aposentado",
+    curiosidades:
+      "Recoba foi, por um breve período na virada do século, o jogador mais bem pago do mundo. Ele era famoso por marcar gols diretamente de escanteio. Após se aposentar em 2015, ele continuou jogando casualmente, mas sua cerimônia de despedida oficial foi em 2016.",
+    clubes: [
+      createClub(
+        "Danubio",
+        { inicio: "1993", fim: "1995" },
+        { jogos: 34, gols: 11, assistencias: 0 }
+      ),
+      createClub(
+        "Nacional",
+        { inicio: "1996", fim: "1997" },
+        { jogos: 33, gols: 17, assistencias: 0 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "1997", fim: "2008" },
+        { jogos: 244, gols: 72, assistencias: 42 }
+      ),
+      createClub(
+        "Venezia",
+        { inicio: "1999", fim: "1999" },
+        { jogos: 19, gols: 11, assistencias: 9 }
+      ),
+      createClub(
+        "Torino",
+        { inicio: "2007", fim: "2008" },
+        { jogos: 24, gols: 1, assistencias: 3 }
+      ),
+      createClub(
+        "Panionios",
+        { inicio: "2008", fim: "2009" },
+        { jogos: 26, gols: 5, assistencias: 1 }
+      ),
+      createClub(
+        "Danubio",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 32, gols: 5, assistencias: 0 }
+      ),
+      createClub(
+        "Nacional",
+        { inicio: "2011", fim: "2015" },
+        { jogos: 82, gols: 17, assistencias: 15 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "1995", fim: "2007" },
+      estatisticas: { jogos: 69, gols: 11, assistencias: 8 },
+    },
+    titulos: [
+      // Inter de Milão
+      {
+        nome: "Campeonato Italiano",
+        anos: "2006, 2007",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2005, 2006",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2005, 2006",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Copa da UEFA",
+        anos: "1998",
+        clube: "Inter de Milão",
+      },
+
+      // Nacional
+      {
+        nome: "Campeonato Uruguaio",
+        anos: "2011, 2012, 2015",
+        clube: "Nacional",
+      },
+
+      // Seleção Uruguaia
+      {
+        nome: "Copa América",
+        anos: "1995",
+        clube: "Uruguai",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Alvaro Recoba", "Recoba", "Chino"],
+    ultima_atualizacao: "06/11/2025",
+  },
+
   // Diego Forlán
   {
     nome: "Diego Forlán",
@@ -26192,6 +26900,243 @@ export const jogadores = [
     ultima_atualizacao: "06/11/2025",
   },
 
+  // Giorgian De Arrascaeta
+  {
+    nome: "Giorgian De Arrascaeta",
+    background: "titanium",
+    descricao:
+      "Meia-atacante uruguaio, considerado o maior estrangeiro da história do Flamengo e um dos mais vitoriosos da América do Sul no século XXI. É reconhecido por sua inteligência tática, técnica refinada, passes decisivos e gols acrobáticos, sendo o maestro nas conquistas da Libertadores de 2019 e 2022.",
+    pagina: "https://www.instagram.com/g10dearrascaeta/",
+    numero: "10",
+    posicao: "Meia Ofensivo",
+    dataNascimento: "01/06/1994",
+    status: "Ativo",
+    nacionalidade: "Uruguai",
+    imagem:
+      "https://www.ogol.com.br/img/noticias/625/imgS300I953625T20251020145432.jpg",
+    curiosidades:
+      "Arrascaeta é o jogador com mais títulos na história do Flamengo (15) e o maior artilheiro estrangeiro do clube (95 gols). Em 2019, ganhou a Bola de Ouro como Craque do Campeonato Brasileiro. No Uruguai, foi vice-campeão do Mundial Sub-20 em 2013 e participou das Copas do Mundo de 2018 e 2022.",
+    clubes: [
+      createClub(
+        "Defensor Sporting",
+        { inicio: "2012", fim: "2014" },
+        { jogos: 65, gols: 18, assistencias: 17 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2015", fim: "2018" },
+        { jogos: 188, gols: 50, assistencias: 38 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2019", fim: "Presente" },
+        { jogos: 348, gols: 95, assistencias: 105 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "2014", fim: "Presente" },
+      estatisticas: { jogos: 55, gols: 10, assistencias: 13 },
+      destaque:
+        "Participou de duas Copas do Mundo (2018 e 2022) e três Copas América (2015, 2019, 2021, 2024).",
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2019, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021, 2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2019, 2020, 2021, 2024, 2025",
+        clube: "Flamengo",
+      },
+
+      // Cruzeiro
+      {
+        nome: "Copa do Brasil",
+        anos: "2017, 2018",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2018",
+        clube: "Cruzeiro",
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Ouro (ESPN)",
+        logo: "ESPN",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Meia da América (El País)",
+        logo: "El País",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata (Placar)",
+        logo: "Placar",
+        anos: "2019, 2020, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador da Copa do Brasil",
+        logo: "Copa do Brasil",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2019, 2020, 2022",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Arrascaeta"],
+    ultima_atualizacao: "06/11/2025",
+  },
+
+  // Guillermo Varela
+  {
+    nome: "Guillermo Varela",
+    background: "Plate",
+    descricao:
+      "Lateral-direito uruguaio conhecido por sua solidez defensiva e experiência internacional. Com passagens por grandes clubes como Manchester United e Dinamo de Moscou, ele se consolidou como multicampeão no futebol sul-americano com o Peñarol e, mais recentemente, com o Flamengo, onde conquistou a Libertadores e a Copa do Brasil.",
+    pagina: "",
+    nacionalidade: "Uruguai",
+    imagem:
+      "https://fla-media.mundobola.com/media/2025/07/cr-flamengo-v-esperance-de-tunis-group-d-fifa-club-world-cup-2025.jpg",
+    numero: "2",
+    posicao: "Lateral-direito",
+    dataNascimento: "24/03/1993",
+    status: "Ativo",
+    curiosidades:
+      "Varela foi o primeiro uruguaio a assinar com o Manchester United (em 2013), clube pelo qual conquistou a FA Cup. Em 2013, foi vice-campeão do Mundial Sub-20 com o Uruguai. Participou das Copas do Mundo de 2018 e 2022.",
+    clubes: [
+      createClub(
+        "Peñarol",
+        { inicio: "2010", fim: "2013" },
+        { jogos: 16, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2013", fim: "2017" },
+        { jogos: 11, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Eintracht Frankfurt",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 10, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Peñarol",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 38, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "FC Copenhagen",
+        { inicio: "2018", fim: "2020" },
+        { jogos: 59, gols: 0, assistencias: 4 }
+      ),
+      createClub(
+        "Dínamo Moscou",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 49, gols: 0, assistencias: 4 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 68, gols: 0, assistencias: 4 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "2017", fim: "Presente" },
+      estatisticas: { jogos: 24, gols: 0, assistencias: 2 },
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024, 2025",
+        clube: "Flamengo",
+      },
+
+      // Manchester United
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2016",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2013",
+        clube: "Manchester United",
+      },
+
+      // Peñarol
+      {
+        nome: "Campeonato Uruguaio",
+        anos: "2017, 2018",
+        clube: "Peñarol",
+      },
+      {
+        nome: "Supercopa Uruguaia",
+        anos: "2018",
+        clube: "Peñarol",
+      },
+
+      // FC Copenhagen
+      {
+        nome: "Campeonato Dinamarquês",
+        anos: "2019",
+        clube: "FC Copenhagen",
+      },
+    ],
+    tags: ["Guillermo Varela", "Varela"],
+    ultima_atualizacao: "06/11/2025",
+  },
+
   // Luis Suárez
   {
     nome: "Luis Suárez",
@@ -26410,6 +27355,98 @@ export const jogadores = [
       },
     ],
     tags: ["Luis Suárez", "Suárez", "Suarez", "El Pistolero", "MSN"],
+    ultima_atualizacao: "06/11/2025",
+  },
+
+  // Nicolás De La Cruz
+  {
+    nome: "Nicolás De La Cruz",
+    background: "titanium",
+    descricao:
+      "Meio-campista uruguaio, conhecido pela sua versatilidade, intensidade e alta capacidade técnica. Foi peça fundamental nas conquistas do River Plate, incluindo a Libertadores de 2018, e rapidamente se tornou um dos jogadores mais influentes do Flamengo, destacando-se na criação de jogadas e na recuperação de bola.",
+    pagina: "https://www.instagram.com/nicodelacruz10",
+    nacionalidade: "Uruguai",
+    imagem:
+      "https://s2-oglobo.glbimg.com/bdtjPlqCzI0Ogj4c0ElLcDVoDTY=/0x0:1280x1600/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/g/U/SvynXkSJCQc2XPumY9hw/delacruz.jfif",
+    numero: "12",
+    posicao: "Meio-campista / Meia-atacante",
+    dataNascimento: "01/06/1997",
+    status: "Ativo",
+    curiosidades:
+      "É meio-irmão do também jogador uruguaio Carlos Sánchez. Foi vice-campeão da Libertadores em 2019, perdendo justamente para o Flamengo, clube que viria a defender anos depois. Foi indicado ao prêmio de Rei da América do jornal El País.",
+    clubes: [
+      createClub(
+        "Liverpool",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 36, gols: 8, assistencias: 3 }
+      ),
+      createClub(
+        "River Plate",
+        { inicio: "2017", fim: "2023" },
+        { jogos: 214, gols: 36, assistencias: 40 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 25, gols: 2, assistencias: 3 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "2017", fim: "Presente" },
+      estatisticas: { jogos: 25, gols: 5, assistencias: 6 },
+    },
+    titulos: [
+      // River Plate
+      {
+        nome: "Copa Libertadores",
+        anos: "2018",
+        clube: "River Plate",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2019",
+        clube: "River Plate",
+      },
+      {
+        nome: "Campeonato Argentino",
+        anos: "2021, 2023",
+        clube: "River Plate",
+      },
+      {
+        nome: "Copa da Argentina",
+        anos: "2017, 2019",
+        clube: "River Plate",
+      },
+      {
+        nome: "Supercopa Argentina",
+        anos: "2017, 2019",
+        clube: "River Plate",
+      },
+      {
+        nome: "Trofeo de Campeones",
+        anos: "2023",
+        clube: "River Plate",
+      },
+
+      // Flamengo
+      {
+        nome: "Copa do Brasil",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024, 2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa Rei",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+    ],
+    tags: ["Nicolas De La Cruz", "De La Cruz", "Nico", "Nicolas"],
     ultima_atualizacao: "06/11/2025",
   },
 
