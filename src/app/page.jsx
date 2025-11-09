@@ -83,11 +83,21 @@ export default function HomePage() {
         : false;
     });
 
-    let resultadosOrdenados = resultadosFiltrados;
+    let resultadosOrdenados;
 
     if (categoriaAtiva === FILTRO_PADRAO) {
       resultadosOrdenados = resultadosFiltrados.slice().sort((a, b) => {
         const termo = termoPesquisa.toLowerCase();
+
+        const nomeA = a.nome.toLowerCase().includes(termo) ? true : null;
+        const nomeB = b.nome.toLowerCase().includes(termo) ? true : null;
+
+        if (nomeA && !nomeB) {
+          return -1;
+        }
+        if (!nomeA && nomeB) {
+          return 1;
+        }
 
         const ultimoClubeA =
           a.clubes && a.clubes.length > 0
@@ -122,9 +132,7 @@ export default function HomePage() {
       });
     }
 
-    return categoriaAtiva === FILTRO_PADRAO
-      ? resultadosOrdenados
-      : resultadosFiltrados;
+    return resultadosOrdenados || resultadosFiltrados;
   }, [termoPesquisa, dadosAtivos, categoriaAtiva, buscaAcionada]);
 
   const handleMostrarMais = () => {

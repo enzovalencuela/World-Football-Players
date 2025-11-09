@@ -661,7 +661,7 @@ export const clubes = [
         anos: "3 vezes",
       },
       {
-        nome: "Mundial de Clubes da FIFA",
+        nome: "Mundial de Clubes FIFA",
         categoria: "individual",
         anos: "1 vez",
       },
@@ -704,7 +704,7 @@ export const clubes = [
         anos: "3 vezes",
       },
       {
-        nome: "Mundial de Clubes da FIFA",
+        nome: "Mundial de Clubes FIFA",
         categoria: "individual",
         anos: "1 vez",
       },

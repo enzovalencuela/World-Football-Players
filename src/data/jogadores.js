@@ -68,7 +68,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor jogador jovem da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1966",
 
         categoria: "individual",
@@ -76,7 +76,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Bronze da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1966",
 
         categoria: "individual",
@@ -84,7 +84,7 @@ export const jogadores = [
       },
       {
         nome: "Equipe das estrelas da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1966",
 
         categoria: "individual",
@@ -99,7 +99,7 @@ export const jogadores = [
       },
       {
         nome: "Equipe das estrelas da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1970",
 
         categoria: "individual",
@@ -114,7 +114,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Prata da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1974",
 
         categoria: "individual",
@@ -122,7 +122,7 @@ export const jogadores = [
       },
       {
         nome: "Equipe das estrelas da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1974",
 
         categoria: "individual",
@@ -295,7 +295,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1974",
         clube: "Alemanha",
         logoVariavel: true,
@@ -361,7 +361,7 @@ export const jogadores = [
       },
       {
         nome: "Equipe das Estrelas da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1970",
         categoria: "individual",
         logoVariavel: true,
@@ -390,7 +390,7 @@ export const jogadores = [
       },
       {
         nome: "Artilheiro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1970",
         categoria: "individual",
         logoVariavel: true,
@@ -411,7 +411,7 @@ export const jogadores = [
 
       // Alemanha
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1974",
         clube: "Alemanha",
 
@@ -505,7 +505,11 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       { nome: "Supercopa da UEFA", anos: "2020", clube: "Bayern de Munique" },
-      { nome: "Mundial de Clubes", anos: "2020", clube: "Bayern de Munique" },
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2020",
+        clube: "Bayern de Munique",
+      },
     ],
     tags: [
       "craque",
@@ -576,16 +580,15 @@ export const jogadores = [
     titulos: [
       // Seleção
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2014",
         clube: "Alemanha",
         logoVariavel: true,
       },
       {
-        nome: "Euro Sub-21",
+        nome: "Eurocopa Sub-21",
         anos: "2009",
         clube: "Alemanha",
-        logoVariavel: true,
       },
       // Bayern de Munique
       {
@@ -604,7 +607,7 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2013, 2020",
         clube: "Bayern de Munique",
       },
@@ -634,48 +637,65 @@ export const jogadores = [
   // Julian Draxler
   {
     nome: "Julian Draxler",
-    background: "default",
+    background: "Titanium",
     descricao:
-      "Meia-atacante alemão conhecido por sua habilidade técnica, dribles e visão de jogo. Draxler teve passagens por clubes como Schalke 04, Wolfsburg e Paris Saint-Germain.",
+      "Meia-atacante alemão conhecido por sua habilidade técnica, dribles e visão de jogo. Draxler é Campeão do Mundo e multicampeão com o Paris Saint-Germain.",
     pagina: "https://www.instagram.com/draxlerofficial/",
     nacionalidade: "Alemanha",
     imagem:
-      "https://assets.goal.com/images/v3/blt0dd0f38fabb3a5c6/GettyImages-1748703894.jpg",
+      "https://assets.goal.com/images/v3/blt0dd0f38fabb3a5c6/GettyImages-1748703894.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     numero: "7",
-    posicao: "Meia-atacante",
-    dataNascimento: "20/09/1993",
+    posicao: "Meia-atacante / Ponta Esquerda",
+    dataNascimento: "09/20/1993",
     status: "Ativo",
     curiosidades:
-      "Draxler foi um dos jogadores mais promissores da nova geração de jogadores alemães e conquistou diversos títulos com o Paris Saint-Germain.",
+      "Draxler foi o capitão da Seleção Alemã que conquistou a Copa das Confederações FIFA em 2017, onde também foi eleito o melhor jogador do torneio (Bola de Ouro).",
     clubes: [
-      {
-        nome: "Schalke 04",
-        periodo: "2011-2015",
-      },
-      {
-        nome: "Wolfsburg",
-        periodo: "2015-2017",
-      },
-      {
-        nome: "Paris Saint-Germain",
-        periodo: "2017-2023",
-      },
-      {
-        nome: "Benfica",
-        periodo: "2022-2023",
-      },
-      {
-        nome: "Al-Ahli",
-        periodo: "2023-presente",
-      },
+      createClub(
+        "Schalke 04",
+        { inicio: "2011", fim: "2015" },
+        { jogos: 170, gols: 30, assistencias: 29 }
+      ),
+      createClub(
+        "Wolfsburg",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 45, gols: 8, assistencias: 8 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2017", fim: "2023" },
+        { jogos: 198, gols: 26, assistencias: 44 }
+      ),
+      createClub(
+        "Benfica",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 18, gols: 2, assistencias: 1 }
+      ),
+      createClub(
+        "Al-Ahli",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 21, gols: 6, assistencias: 3 }
+      ),
     ],
-    selecao: {},
+    selecao: {
+      nome: "Alemanha",
+      periodo: { inicio: "2012", fim: "2022" },
+      estatisticas: { jogos: 58, gols: 7, assistencias: 10 },
+    },
     titulos: [
+      // Schalke 04
       {
-        nome: "Primeira Liga",
-        anos: "2023",
-        clube: "Benfica",
+        nome: "Copa da Alemanha",
+        anos: "2011",
+        clube: "Schalke 04",
       },
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2011",
+        clube: "Schalke 04",
+      },
+
+      // Paris Saint-Germain
       {
         nome: "Campeonato Francês",
         anos: "2018, 2019, 2020, 2022",
@@ -683,38 +703,63 @@ export const jogadores = [
       },
       {
         nome: "Copa da França",
-        anos: "2018, 2020",
+        anos: "2017, 2018, 2020, 2021",
         clube: "Paris Saint-Germain",
       },
       {
         nome: "Copa da Liga Francesa",
-        anos: "2020",
+        anos: "2017, 2018, 2020",
         clube: "Paris Saint-Germain",
       },
       {
-        nome: "Copa das Confederações",
-        anos: "2017",
-        clube: "Alemanha",
-        logoVariavel: true,
+        nome: "Supercopa da França",
+        anos: "2017, 2018, 2019, 2020, 2022",
+        clube: "Paris Saint-Germain",
       },
+
+      // Benfica
       {
-        nome: "Copa do Mundo",
+        nome: "Campeonato Português",
+        anos: "2023",
+        clube: "Benfica",
+      },
+
+      // Seleção
+      {
+        nome: "Copa do Mundo FIFA",
         anos: "2014",
         clube: "Alemanha",
         logoVariavel: true,
       },
       {
-        nome: "Supercopa da Alemanha",
-        anos: "2011",
-        clube: "Schalke 04",
+        nome: "Copa das Confederações FIFA",
+        anos: "2017",
+        clube: "Alemanha",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Bola de Ouro da Copa das Confederações FIFA",
+        logo: "Bola de Ouro FIFA",
+        anos: "2017",
+        categoria: "individual",
       },
       {
-        nome: "Copa da Alemanha",
+        nome: "Medalha Fritz Walter (Ouro U18)",
+        logo: "Federação Alemã de Futebol",
         anos: "2011",
-        clube: "Schalke 04",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador Jovem do Ano do Campeonato Alemão",
+        logo: "Campeonato Alemão",
+        anos: "2014",
+        categoria: "individual",
       },
     ],
-    tags: ["Paris Saint-Germain", "PSG"],
+    tags: ["Julian Draxler", "Draxler", "Meia-atacante"],
+    ultima_atualizacao: "09/11/2025",
   },
 
   // Lothar Matthäus
@@ -789,7 +834,7 @@ export const jogadores = [
       },
       {
         nome: "Time da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1990",
         categoria: "individual",
         logoVariavel: true,
@@ -858,7 +903,7 @@ export const jogadores = [
 
       // PELA SELEÇÃO
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1990",
         clube: "Alemanha",
         logoVariavel: true,
@@ -951,13 +996,13 @@ export const jogadores = [
 
       // SELEÇÃO ALEMÃ
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2014",
         clube: "Alemanha",
         logoVariavel: true,
       },
       {
-        nome: "Campeonato Europeu Sub-21",
+        nome: "Eurocopa Sub-21",
         anos: "2009",
         clube: "Alemanha",
       },
@@ -974,7 +1019,7 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2013, 2020",
         clube: "Bayern de Munique",
       },
@@ -1261,7 +1306,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Prata da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2002",
 
         categoria: "individual",
@@ -1269,7 +1314,7 @@ export const jogadores = [
       },
       {
         nome: "Equipe das Estrelas da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2002",
 
         categoria: "individual",
@@ -1408,7 +1453,7 @@ export const jogadores = [
       },
       {
         img: "Copa_do_Mundo_2014",
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2014",
         clube: "Alemanha",
       },
@@ -1467,7 +1512,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2015",
         clube: "Barcelona",
       },
@@ -1494,7 +1539,7 @@ export const jogadores = [
 
       // SELEÇÃO ALEMÃ
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2017",
         clube: "Alemanha",
         logoVariavel: true,
@@ -1548,7 +1593,7 @@ export const jogadores = [
     titulos: [
       // Seleção Alemã
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2014",
         clube: "Alemanha",
         logoVariavel: true,
@@ -1571,7 +1616,7 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2013, 2021",
         clube: "Bayern de Munique",
       },
@@ -1584,7 +1629,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Chuteira de Ouro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2010",
 
         categoria: "individual",
@@ -1592,7 +1637,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Jogador Jovem da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2010",
 
         categoria: "individual",
@@ -1662,7 +1707,7 @@ export const jogadores = [
     titulos: [
       // Seleção
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2014",
         clube: "Alemanha",
         logoVariavel: true,
@@ -1674,7 +1719,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2014, 2016, 2017, 2018, 2022",
         clube: "Real Madrid",
       },
@@ -1710,7 +1755,11 @@ export const jogadores = [
         anos: "2008, 2013, 2014",
         clube: "Bayern de Munique",
       },
-      { nome: "Mundial de Clubes", anos: "2013", clube: "Bayern de Munique" },
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2013",
+        clube: "Bayern de Munique",
+      },
       { nome: "Supercopa da UEFA", anos: "2013", clube: "Bayern de Munique" },
       {
         nome: "Supercopa da Alemanha",
@@ -1857,7 +1906,7 @@ export const jogadores = [
     titulos: [
       // Seleção Argentina
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2022",
         clube: "Argentina",
         logoVariavel: true,
@@ -2018,7 +2067,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Ouro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1986",
 
         categoria: "individual",
@@ -2026,7 +2075,7 @@ export const jogadores = [
       },
       {
         nome: "All-Star Team da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1986",
 
         categoria: "individual",
@@ -2034,7 +2083,7 @@ export const jogadores = [
       },
       {
         nome: "All-Star Team da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1990",
 
         categoria: "individual",
@@ -2083,7 +2132,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Bronze da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1990",
 
         categoria: "individual",
@@ -2176,7 +2225,7 @@ export const jogadores = [
 
       // Seleção Argentina
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1986",
         clube: "Argentina",
         logoVariavel: true,
@@ -2374,7 +2423,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2011, 2015",
         clube: "Barcelona",
       },
@@ -2465,7 +2514,7 @@ export const jogadores = [
         clube: "Inter de Milão",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2010",
         clube: "Inter de Milão",
       },
@@ -2572,7 +2621,7 @@ export const jogadores = [
         clube: "Boca Juniors",
       },
       {
-        nome: "Copa Argentina",
+        nome: "Copa da Argentina",
         anos: "2012",
         clube: "Boca Juniors",
       },
@@ -2635,7 +2684,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Prata da Copa das Confederações",
-        logo: "Copa das Confederações",
+        logo: "Copa das Confederações FIFA",
         anos: "2005",
 
         categoria: "individual",
@@ -2740,7 +2789,7 @@ export const jogadores = [
         clube: "Argentina",
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2022",
         clube: "Argentina",
         logoVariavel: true,
@@ -3028,7 +3077,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2009, 2011, 2015",
         clube: "Barcelona",
       },
@@ -3057,7 +3106,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2022",
         clube: "Argentina",
         logoVariavel: true,
@@ -3165,7 +3214,7 @@ export const jogadores = [
         nome: "Bola de Ouro da Copa do Mundo",
         anos: "2022",
         categoria: "individual",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         logoVariavel: true,
       },
       {
@@ -3265,7 +3314,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2023",
         clube: "Manchester City",
       },
@@ -3383,7 +3432,7 @@ export const jogadores = [
       },
       {
         nome: "Chuteira de Bronze da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2018",
         categoria: "individual",
         logoVariavel: true,
@@ -3408,7 +3457,7 @@ export const jogadores = [
 
       // CHELSEA
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2021",
         clube: "Chelsea",
       },
@@ -3474,7 +3523,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2018, 2023",
         clube: "Real Madrid",
       },
@@ -3536,7 +3585,7 @@ export const jogadores = [
       },
       {
         nome: "Luva de Ouro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2018",
 
         categoria: "individual",
@@ -3847,7 +3896,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2005",
         clube: "Brasil",
         logoVariavel: true,
@@ -4048,7 +4097,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2019",
         clube: "Liverpool",
       },
@@ -4459,7 +4508,7 @@ export const jogadores = [
     titulos: [
       // Seleção Brasileira
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1994",
         clube: "Brasil",
         logoVariavel: true,
@@ -4471,7 +4520,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "1997",
         clube: "Brasil",
         logoVariavel: true,
@@ -4798,13 +4847,13 @@ export const jogadores = [
 
       // Seleção Brasileira
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1994",
         clube: "Brasil",
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2002",
         clube: "Brasil",
         logoVariavel: true,
@@ -4822,7 +4871,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "1997",
         clube: "Brasil",
         logoVariavel: true,
@@ -4835,7 +4884,7 @@ export const jogadores = [
         clube: "AC Milan",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2007",
         clube: "AC Milan",
       },
@@ -5112,7 +5161,7 @@ export const jogadores = [
     titulos: [
       // Brasil
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1970",
         clube: "Brasil",
         logoVariavel: true,
@@ -5178,7 +5227,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "All-Star Team da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1970",
 
         categoria: "individual",
@@ -5279,7 +5328,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2016, 2017, 2018",
         clube: "Real Madrid",
       },
@@ -5388,7 +5437,7 @@ export const jogadores = [
     titulos: [
       // Corinthians
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2012",
         clube: "Corinthians",
       },
@@ -5559,7 +5608,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2009, 2011, 2015",
         clube: "Barcelona",
       },
@@ -5608,13 +5657,13 @@ export const jogadores = [
       },
       ,
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2009",
         clube: "Brasil",
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2013",
         clube: "Brasil",
         logoVariavel: true,
@@ -5755,7 +5804,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2016",
         clube: "Real Madrid",
       },
@@ -5889,7 +5938,7 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2013",
         clube: "Bayern de Munique",
       },
@@ -5908,7 +5957,7 @@ export const jogadores = [
 
       // Seleção Brasileira
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2013",
         clube: "Brasil",
         logoVariavel: true,
@@ -6037,7 +6086,7 @@ export const jogadores = [
 
       // Seleção Brasileira
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2013",
         clube: "Brasil",
         logoVariavel: true,
@@ -6121,7 +6170,7 @@ export const jogadores = [
         clube: "Milan",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2007",
         clube: "Milan",
       },
@@ -6138,7 +6187,7 @@ export const jogadores = [
 
       // Corinthians
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2000",
         clube: "Corinthians",
       },
@@ -6155,7 +6204,7 @@ export const jogadores = [
 
       // Seleção Brasileira
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2002",
         clube: "Brasil",
         logoVariavel: true,
@@ -6167,7 +6216,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "1997",
         clube: "Brasil",
         logoVariavel: true,
@@ -6257,14 +6306,14 @@ export const jogadores = [
       },
       {
         nome: "All-Star Team da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1958",
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "All-Star Team da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1962",
         categoria: "individual",
         logoVariavel: true,
@@ -6278,13 +6327,13 @@ export const jogadores = [
 
       // SELEÇÃO BRASILEIRA
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1958",
         clube: "Brasil",
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1962",
         clube: "Brasil",
         logoVariavel: true,
@@ -6600,13 +6649,13 @@ export const jogadores = [
     titulos: [
       // Brasil
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1958",
         clube: "Brasil",
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1962",
         clube: "Brasil",
         logoVariavel: true,
@@ -6652,7 +6701,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Seleção da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1954",
 
         categoria: "individual",
@@ -6660,7 +6709,7 @@ export const jogadores = [
       },
       {
         nome: "Seleção da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1958",
 
         categoria: "individual",
@@ -6668,7 +6717,7 @@ export const jogadores = [
       },
       {
         nome: "Seleção da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1962",
 
         categoria: "individual",
@@ -6801,7 +6850,7 @@ export const jogadores = [
 
       // Bayern de Munique
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2020",
         clube: "Bayern de Munique",
       },
@@ -6909,7 +6958,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2022, 2023",
         clube: "Real Madrid",
       },
@@ -7026,7 +7075,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2023",
         clube: "Manchester City",
       },
@@ -7149,7 +7198,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2024",
         clube: "Real Madrid",
       },
@@ -7556,7 +7605,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2019",
         clube: "Liverpool",
       },
@@ -8348,13 +8397,13 @@ export const jogadores = [
     titulos: [
       // Seleção Brasileira
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1958",
         clube: "Brasil",
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1962",
         clube: "Brasil",
         logoVariavel: true,
@@ -8380,7 +8429,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Melhor Jogador da Copa do Mndo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1962",
 
         categoria: "individual",
@@ -8388,7 +8437,7 @@ export const jogadores = [
       },
       {
         nome: "Chuteira de Ouro",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1962",
 
         categoria: "individual",
@@ -8396,7 +8445,7 @@ export const jogadores = [
       },
       {
         nome: "Seleção da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1958",
 
         categoria: "individual",
@@ -8404,7 +8453,7 @@ export const jogadores = [
       },
       {
         nome: "Seleção da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1962",
 
         categoria: "individual",
@@ -8622,7 +8671,7 @@ export const jogadores = [
     titulos: [
       // Seleção Brasileira
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2002",
         clube: "Brasil",
         logoVariavel: true,
@@ -8634,7 +8683,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2005, 2009",
         clube: "Brasil",
         logoVariavel: true,
@@ -8852,7 +8901,7 @@ export const jogadores = [
         clube: "Atlético Mineiro",
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2013",
         clube: "Brasil",
         logoVariavel: true,
@@ -9410,7 +9459,7 @@ export const jogadores = [
 
       // Seleção Brasileira
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2013",
         clube: "Brasil",
         logoVariavel: true,
@@ -10141,7 +10190,7 @@ export const jogadores = [
       { nome: "Campeonato Espanhol", anos: "2015, 2016", clube: "Barcelona" },
       { nome: "Copa do Rei", anos: "2015, 2016, 2017", clube: "Barcelona" },
       { nome: "UEFA Champions League", anos: "2015", clube: "Barcelona" },
-      { nome: "Mundial de Clubes", anos: "2015", clube: "Barcelona" },
+      { nome: "Mundial de Clubes FIFA", anos: "2015", clube: "Barcelona" },
       { nome: "Supercopa da Espanha", anos: "2013, 2016", clube: "Barcelona" },
 
       // Paris Saint-Germain
@@ -10177,7 +10226,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2013",
         clube: "Brasil",
         logoVariavel: true,
@@ -10192,7 +10241,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Jogador da Copa das Confederações",
-        logo: "Copa das Confederações",
+        logo: "Copa das Confederações FIFA",
         anos: "2013",
         categoria: "individual",
         logoVariavel: true,
@@ -10264,14 +10313,14 @@ export const jogadores = [
       },
       {
         nome: "All-Star Team da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1958",
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "All-Star Team da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1962",
         categoria: "individual",
         logoVariavel: true,
@@ -10284,13 +10333,13 @@ export const jogadores = [
 
       // SELEÇÃO BRASILEIRA
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1958",
         clube: "Brasil",
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1962",
         clube: "Brasil",
         logoVariavel: true,
@@ -10392,7 +10441,7 @@ export const jogadores = [
         clube: "Corinthians",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2012",
         clube: "Corinthians",
       },
@@ -10404,7 +10453,7 @@ export const jogadores = [
 
       // Seleção Brasileira
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2013",
         clube: "Brasil",
         logoVariavel: true,
@@ -10495,14 +10544,14 @@ export const jogadores = [
       },
       {
         nome: "Bola de Bronze da Copa das Confederações",
-        logo: "Copa das Confederações",
+        logo: "Copa das Confederações FIFA",
         anos: "2013",
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "Seleção da Copa das Confederações",
-        logo: "Copa das Confederações",
+        logo: "Copa das Confederações FIFA",
         anos: "2013",
         categoria: "individual",
         logoVariavel: true,
@@ -10704,19 +10753,19 @@ export const jogadores = [
 
       //Seleção Brasileira
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1958",
         clube: "Brasil",
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1962",
         clube: "Brasil",
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1970",
         clube: "Brasil",
         logoVariavel: true,
@@ -10919,7 +10968,7 @@ export const jogadores = [
       },
       {
         nome: "Seleção da Copa do Mundo FIFA",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         logoVariavel: true,
         anos: "2018",
         clube: "Brasil",
@@ -11061,7 +11110,7 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2014",
         clube: "Bayern de Munique",
       },
@@ -11532,7 +11581,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Gol Mais Bonito da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2022",
         categoria: "individual",
         logoVariavel: true,
@@ -11546,7 +11595,7 @@ export const jogadores = [
       },
       {
         nome: "Artilheiro da Seleção Brasileira na Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2022",
         categoria: "individual",
         logoVariavel: true,
@@ -11622,7 +11671,7 @@ export const jogadores = [
 
       // Seleção Brasileira
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2002",
         clube: "Brasil",
         logoVariavel: true,
@@ -11705,7 +11754,7 @@ export const jogadores = [
     titulos: [
       // Seleção Brasileira
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1970",
         clube: "Brasil",
         logoVariavel: true,
@@ -11735,7 +11784,7 @@ export const jogadores = [
       },
       {
         nome: "Time das Estrelas da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1970",
 
         categoria: "individual",
@@ -11841,7 +11890,7 @@ export const jogadores = [
       },
       {
         nome: "Time da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1998",
         categoria: "individual",
         logoVariavel: true,
@@ -11854,7 +11903,7 @@ export const jogadores = [
       },
       {
         nome: "Time da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2002",
         categoria: "individual",
         logoVariavel: true,
@@ -11891,7 +11940,7 @@ export const jogadores = [
 
       // Seleção Brasileira
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2002",
         clube: "Brasil",
         logoVariavel: true,
@@ -11909,7 +11958,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "1997",
         clube: "Brasil",
         logoVariavel: true,
@@ -12033,7 +12082,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2019",
         clube: "Liverpool",
       },
@@ -12399,7 +12448,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Ouro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1994",
         categoria: "individual",
         logoVariavel: true,
@@ -12413,7 +12462,7 @@ export const jogadores = [
 
       // Brasil
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1994",
         clube: "Brasil",
         logoVariavel: true,
@@ -12431,7 +12480,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "1997",
         clube: "Brasil",
         logoVariavel: true,
@@ -12605,14 +12654,14 @@ export const jogadores = [
       },
       {
         nome: "Bola de Ouro da Copa das Confederações",
-        logo: "Copa das Confederações",
+        logo: "Copa das Confederações FIFA",
         anos: "1999",
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "Chuteira de Ouro da Copa das Confederações",
-        logo: "Copa das Confederações",
+        logo: "Copa das Confederações FIFA",
         anos: "1999",
         categoria: "individual",
         logoVariavel: true,
@@ -12625,14 +12674,14 @@ export const jogadores = [
 
       // Brasil
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2002",
         clube: "Brasil",
 
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "2005",
         clube: "Brasil",
         logoVariavel: true,
@@ -12803,7 +12852,7 @@ export const jogadores = [
       },
       {
         nome: "Artilheiro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2002",
         categoria: "individual",
         logoVariavel: true,
@@ -12816,7 +12865,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Ouro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1998",
         categoria: "individual",
         logoVariavel: true,
@@ -12848,13 +12897,13 @@ export const jogadores = [
 
       // Brasil
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1994",
         clube: "Brasil",
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2002",
         clube: "Brasil",
         logoVariavel: true,
@@ -12872,7 +12921,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "1997",
         clube: "Brasil",
         logoVariavel: true,
@@ -13124,7 +13173,7 @@ export const jogadores = [
         clube: "Chelsea",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2022",
         clube: "Chelsea",
       },
@@ -13242,7 +13291,11 @@ export const jogadores = [
         anos: "2020, 2022, 2024",
         clube: "Real Madrid",
       },
-      { nome: "Mundial de Clubes", anos: "2018, 2022", clube: "Real Madrid" },
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2018, 2022",
+        clube: "Real Madrid",
+      },
 
       // Flamengo
       { nome: "Campeonato Brasileiro", anos: "2019", clube: "Flamengo" },
@@ -13402,7 +13455,7 @@ export const jogadores = [
     titulos: [
       // Corinthians
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2012",
         clube: "Corinthians",
       },
@@ -13727,7 +13780,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Bronze",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1982",
         categoria: "individual",
         logoVariavel: true,
@@ -13803,7 +13856,7 @@ export const jogadores = [
       },
       {
         nome: "Chuteira de Ouro",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1994",
 
         categoria: "individual",
@@ -13926,7 +13979,7 @@ export const jogadores = [
         clube: "Inter de Milão",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2010",
         clube: "Inter de Milão",
       },
@@ -14507,7 +14560,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2009",
         clube: "Barcelona",
       },
@@ -14620,7 +14673,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2014, 2016, 2017, 2018",
         clube: "Real Madrid",
       },
@@ -14892,21 +14945,21 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2014, 2016, 2017, 2018, 2022",
         clube: "Real Madrid",
       },
       // Seleção Croata (Conquistas Notáveis)
       {
         nome: "Copa do Mundo (Vice-campeão)",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2018",
         clube: "Croácia",
         logoVariavel: true,
       },
       {
         nome: "Copa do Mundo (Terceiro lugar)",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2022",
         clube: "Croácia",
         logoVariavel: true,
@@ -15186,7 +15239,7 @@ export const jogadores = [
       },
       {
         nome: "Equipe das Estrelas da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1998",
         categoria: "individual",
         logoVariavel: true,
@@ -15269,7 +15322,7 @@ export const jogadores = [
 
       // PELA SELEÇÃO
       {
-        nome: "Copa das Confederações",
+        nome: "Copa das Confederações FIFA",
         anos: "1995",
         clube: "Dinamarca",
       },
@@ -15356,7 +15409,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2019",
         clube: "Liverpool",
       },
@@ -15907,7 +15960,7 @@ export const jogadores = [
       },
       {
         nome: "Homem do Jogo da Final da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2010",
         categoria: "individual",
         logoVariavel: true,
@@ -15921,7 +15974,7 @@ export const jogadores = [
 
       // SELEÇÃO ESPANHOLA
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2010",
         clube: "Espanha",
         logoVariavel: true,
@@ -15956,7 +16009,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2009, 2011, 2015",
         clube: "Barcelona",
       },
@@ -16031,7 +16084,7 @@ export const jogadores = [
     titulos: [
       // Espanha
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2010",
         clube: "Espanha",
         logoVariavel: true,
@@ -16067,7 +16120,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2009, 2011",
         clube: "Barcelona",
       },
@@ -16106,7 +16159,7 @@ export const jogadores = [
       },
       {
         nome: "Time da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2010",
 
         categoria: "individual",
@@ -16163,7 +16216,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2014, 2016, 2017, 2018, 2022",
         clube: "Real Madrid",
       },
@@ -16274,7 +16327,7 @@ export const jogadores = [
 
       // Seleção Espanhola
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2010",
         clube: "Espanha",
         logoVariavel: true,
@@ -16436,7 +16489,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         logo: "FIFA",
         anos: "2011",
         clube: "Barcelona",
@@ -16458,7 +16511,7 @@ export const jogadores = [
 
       // Seleção Espanhola
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2010",
         clube: "Espanha",
         logoVariavel: true,
@@ -16473,7 +16526,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Bola de Bronze da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2010",
 
         categoria: "individual",
@@ -16481,7 +16534,7 @@ export const jogadores = [
       },
       {
         nome: "Chuteira de Prata da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2010",
 
         categoria: "individual",
@@ -16771,7 +16824,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         logo: "FIFA",
         anos: "2009, 2011, 2015",
         clube: "Barcelona",
@@ -16785,7 +16838,7 @@ export const jogadores = [
 
       // Seleção Espanhola
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2010",
         clube: "Espanha",
         logoVariavel: true,
@@ -16880,7 +16933,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2002, 2014",
         clube: "Real Madrid",
       },
@@ -16904,7 +16957,7 @@ export const jogadores = [
 
       // SELEÇÃO ESPANHOLA
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2010",
         clube: "Espanha",
         logoVariavel: true,
@@ -17029,7 +17082,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2015",
         clube: "Barcelona",
       },
@@ -17184,7 +17237,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2016, 2017, 2018, 2022",
         clube: "Real Madrid",
       },
@@ -17403,7 +17456,7 @@ export const jogadores = [
     titulos: [
       // Seleção Espanhola
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2010",
         clube: "Espanha",
         logoVariavel: true,
@@ -17427,7 +17480,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2009, 2011, 2015",
         clube: "Barcelona",
       },
@@ -17489,7 +17542,7 @@ export const jogadores = [
     titulos: [
       // Seleção Espanhola
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2010",
         clube: "Espanha",
         logoVariavel: true,
@@ -17519,7 +17572,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2014, 2016, 2017, 2018",
         clube: "Real Madrid",
       },
@@ -17653,7 +17706,7 @@ export const jogadores = [
       },
       {
         nome: "Equipe Ideal da Copa do Mundo FIFA",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2010",
         categoria: "individual",
         logoVariavel: true,
@@ -17661,7 +17714,7 @@ export const jogadores = [
 
       // SELEÇÃO ESPANHOLA
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2010",
         clube: "Espanha",
         logoVariavel: true,
@@ -17702,7 +17755,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2009, 2011",
         clube: "Barcelona",
       },
@@ -17795,7 +17848,7 @@ export const jogadores = [
       // Real Madrid
       { nome: "UEFA Champions League", anos: "2018", clube: "Real Madrid" },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2017",
         clube: "Real Madrid",
       },
@@ -17920,7 +17973,7 @@ export const jogadores = [
     titulos: [
       // Seleção Francesa
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2018",
         clube: "França",
         logoVariavel: true,
@@ -18213,7 +18266,11 @@ export const jogadores = [
         anos: "2012",
         clube: "Bayern de Munique",
       },
-      { nome: "Mundial de Clubes", anos: "2013", clube: "Bayern de Munique" },
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2013",
+        clube: "Bayern de Munique",
+      },
       { nome: "Supercopa da UEFA", anos: "2013", clube: "Bayern de Munique" },
 
       // Galatasaray
@@ -18325,7 +18382,7 @@ export const jogadores = [
     titulos: [
       // Seleção Francesa
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2018",
         clube: "França",
         logoVariavel: true,
@@ -18419,7 +18476,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2014, 2016, 2017, 2018, 2022",
         clube: "Real Madrid",
       },
@@ -18499,7 +18556,7 @@ export const jogadores = [
     titulos: [
       // Seleção Nacional
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2018",
         clube: "França",
         logoVariavel: true,
@@ -18733,7 +18790,7 @@ export const jogadores = [
     titulos: [
       // Seleção Francesa
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2018",
         clube: "França",
         logoVariavel: true,
@@ -18756,7 +18813,7 @@ export const jogadores = [
         clube: "Chelsea",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2022",
         clube: "Chelsea",
       },
@@ -18871,7 +18928,7 @@ export const jogadores = [
       // Seleção Francesa
       {
         nome: "Copa do Mundo FIFA",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2018",
         clube: "França",
         logoVariavel: true,
@@ -19039,7 +19096,7 @@ export const jogadores = [
 
       // Seleção Francesa
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1998",
         clube: "França",
         logoVariavel: true,
@@ -19137,7 +19194,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Jogador Jovem da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1958",
         categoria: "individual",
         logoVariavel: true,
@@ -19418,7 +19475,7 @@ export const jogadores = [
         clube: "AC Milan",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2007",
         clube: "AC Milan",
       },
@@ -19538,6 +19595,134 @@ export const jogadores = [
     ],
     tags: ["Seedorf"],
     ultima_atualizacao: "29/10/25",
+  },
+
+  // Edwin van der Sar
+  {
+    nome: "Edwin van der Sar",
+    background: "Diamond",
+    descricao:
+      "Ex-goleiro holandês, considerado um dos melhores de sua geração. Conhecido por sua calma, envergadura e excelente habilidade com os pés, Van der Sar teve uma carreira longa e vitoriosa, sendo um pilar no Ajax, Juventus e Manchester United.",
+    pagina: "https://pt.wikipedia.org/wiki/Edwin_van_der_Sar",
+    nacionalidade: "Holanda",
+    imagem:
+      "https://karnchoudhary.wordpress.com/wp-content/uploads/2011/02/van-der-sar.jpeg",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "29/10/1970",
+    status: "Aposentado",
+    curiosidades:
+      "Van der Sar é um dos poucos jogadores a ter vencido a UEFA Champions League com dois clubes diferentes. Detém o recorde mundial de maior tempo sem sofrer gols em jogos de liga (1311 minutos na temporada 2008/09). Ele se aposentou aos 40 anos e chegou a ser o CEO do Ajax.",
+    clubes: [
+      createClub(
+        "Ajax",
+        { inicio: "1990", fim: "1999" },
+        { jogos: 312, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "1999", fim: "2001" },
+        { jogos: 88, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Fulham",
+        { inicio: "2001", fim: "2005" },
+        { jogos: 154, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2005", fim: "2011" },
+        { jogos: 266, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Holanda",
+      periodo: { inicio: "1995", fim: "2008" },
+      estatisticas: { jogos: 130, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Ajax
+      {
+        nome: "UEFA Champions League",
+        anos: "1995",
+        clube: "Ajax",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1995",
+        clube: "Ajax",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1995",
+        clube: "Ajax",
+      },
+      {
+        nome: "Campeonato Holandês",
+        anos: "1994, 1995, 1996, 1998",
+        clube: "Ajax",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "1993, 1998, 1999",
+        clube: "Ajax",
+      },
+      {
+        nome: "Supercopa da Holanda",
+        anos: "1993, 1994, 1995",
+        clube: "Ajax",
+      },
+
+      // Manchester United
+      {
+        nome: "UEFA Champions League",
+        anos: "2008",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2008",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2007, 2008, 2009, 2011",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2006, 2009",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2007, 2008, 2010",
+        clube: "Manchester United",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Goleiro Europeu",
+        logo: "Individual",
+        anos: "1995",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2008",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Time do Ano da PFA",
+        logo: "PFA",
+        anos: "2007, 2008, 2009",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Edwin van der Sar", "Van der Sar", "Sar"],
+    ultima_atualizacao: "09/11/2025",
   },
 
   // Frank Rijkaard
@@ -19778,14 +19963,14 @@ export const jogadores = [
       },
       {
         nome: "Time das Estrelas da Copa do Mundo FIFA",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1974",
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "Bola de ouro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1974",
         categoria: "individual",
         logoVariavel: true,
@@ -20004,6 +20189,120 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
+  // Memphis Depay
+  {
+    nome: "Memphis Depay",
+    background: "Plate",
+    descricao:
+      "Atacante holandês conhecido por sua velocidade, habilidade no drible, chutes de longa distância e versatilidade, podendo atuar como ponta ou centroavante. É uma das principais referências e artilheiros da Seleção Holandesa.",
+    pagina: "https://www.instagram.com/memphisdepay/",
+    nacionalidade: "Holanda",
+    imagem:
+      "https://stories.cnnbrasil.com.br/wp-content/uploads/sites/9/2025/06/memphis-depay-corinthians-estadao.jpg",
+    numero: "10",
+    posicao: "Ponta Esquerda / Centroavante",
+    dataNascimento: "13/02/1994",
+    status: "Ativo",
+    curiosidades:
+      "Memphis é também um artista de hip-hop, lançando diversas músicas sob o nome 'Memphis'. Ele utiliza apenas 'Memphis' na camisa em homenagem ao seu avô, com quem tem uma relação próxima, e devido à sua complexa relação com o pai.",
+    clubes: [
+      createClub(
+        "PSV Eindhoven",
+        { inicio: "2011", fim: "2015" },
+        { jogos: 124, gols: 50, assistencias: 29 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2015", fim: "2017" },
+        { jogos: 53, gols: 7, assistencias: 5 }
+      ),
+      createClub(
+        "Lyon",
+        { inicio: "2017", fim: "2021" },
+        { jogos: 178, gols: 76, assistencias: 55 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2021", fim: "2023" },
+        { jogos: 42, gols: 14, assistencias: 2 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "2023", fim: "2024" },
+        { jogos: 40, gols: 13, assistencias: 4 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 58, gols: 16, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Holanda",
+      periodo: { inicio: "2013", fim: "Presente" },
+      estatisticas: { jogos: 100, gols: 45, assistencias: 28 },
+    },
+    titulos: [
+      // PSV Eindhoven
+      {
+        nome: "Campeonato Holandês",
+        anos: "2015",
+        clube: "PSV Eindhoven",
+      },
+      {
+        nome: "Supercopa da Holanda",
+        anos: "2012",
+        clube: "PSV Eindhoven",
+      },
+
+      // Manchester United
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2016",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2016",
+        clube: "Manchester United",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2017",
+        clube: "Manchester United",
+      },
+
+      // Lyon
+      {
+        nome: "Campeonato Francês",
+        anos: "2020",
+        clube: "Lyon",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Jogador Jovem do Ano na Holanda",
+        logo: "Campeonato Holandês",
+        anos: "2015",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Holandês",
+        logo: "Campeonato Holandês",
+        anos: "2015",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Eurocopa Sub-17",
+        logo: "Eurocopa Sub-17",
+        anos: "2011",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Memphis Depay", "Depay", "Memphis"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // Robin van Persie
   {
     nome: "Robin van Persie",
@@ -20117,6 +20416,138 @@ export const jogadores = [
     ],
     tags: ["Robin van Persie", "RVP"],
     ultima_atualizacao: "05/11/2025",
+  },
+
+  // Ronald Koeman
+  {
+    nome: "Ronald Koeman",
+    background: "Diamond",
+    descricao:
+      "Ex-zagueiro/líbero e meio-campista holandês, famoso por sua técnica, visão de jogo e, principalmente, por ser um dos defensores mais artilheiros da história do futebol. Koeman era especialista em cobranças de falta potentes e pênaltis.",
+    pagina: "https://pt.wikipedia.org/wiki/Ronald_Koeman",
+    nacionalidade: "Holanda",
+    imagem:
+      "https://preview.redd.it/7on9ozowbc331.jpg?auto=webp&s=255c3925685602f8b9d38348f9772c4f4802393a",
+    numero: "4",
+    posicao: "Zagueiro / Líbero / Volante",
+    dataNascimento: "21/03/1963",
+    status: "Aposentado",
+    curiosidades:
+      "Koeman é o zagueiro mais artilheiro da história do futebol, com mais de 250 gols na carreira. Detém o recorde de gols marcados em uma única temporada pelo Barcelona (26 na temporada 1993/94). Seu irmão, Erwin Koeman, também foi jogador da Seleção Holandesa. Em 1988, se tornou o primeiro jogador a vencer a Copa dos Campeões/Champions League por dois clubes diferentes da Holanda (PSV e Ajax).",
+    clubes: [
+      createClub(
+        "FC Groningen",
+        { inicio: "1980", fim: "1983" },
+        { jogos: 89, gols: 33, assistencias: 0 }
+      ),
+      createClub(
+        "Ajax",
+        { inicio: "1983", fim: "1986" },
+        { jogos: 112, gols: 23, assistencias: 0 }
+      ),
+      createClub(
+        "PSV Eindhoven",
+        { inicio: "1986", fim: "1989" },
+        { jogos: 139, gols: 63, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "1989", fim: "1995" },
+        { jogos: 264, gols: 88, assistencias: 0 }
+      ),
+      createClub(
+        "Feyenoord",
+        { inicio: "1995", fim: "1997" },
+        { jogos: 78, gols: 25, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Holanda",
+      periodo: { inicio: "1982", fim: "1994" },
+      estatisticas: { jogos: 78, gols: 14, assistencias: 0 },
+    },
+    titulos: [
+      // Ajax
+      {
+        nome: "Campeonato Holandês",
+        anos: "1985",
+        clube: "Ajax",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "1986",
+        clube: "Ajax",
+      },
+
+      // PSV Eindhoven
+      {
+        nome: "UEFA Champions League",
+        anos: "1988",
+        clube: "PSV Eindhoven",
+      },
+      {
+        nome: "Campeonato Holandês",
+        anos: "1987, 1988, 1989",
+        clube: "PSV Eindhoven",
+      },
+      {
+        nome: "Copa da Holanda",
+        anos: "1988, 1989",
+        clube: "PSV Eindhoven",
+      },
+
+      // Barcelona
+      {
+        nome: "UEFA Champions League",
+        anos: "1992",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "1992",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "1991, 1992, 1993, 1994",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "1990",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "1991, 1992, 1994",
+        clube: "Barcelona",
+      },
+
+      // Seleção
+      {
+        nome: "Eurocopa",
+        anos: "1988",
+        clube: "Holanda",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Seleção do Campeonato Europeu da UEFA",
+        logo: "Eurocopa",
+        anos: "1988",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Futebolista Holandês do Ano",
+        logo: "Individual",
+        anos: "1987, 1988",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Ronald Koeman", "Koeman", "Ronald"],
+    ultima_atualizacao: "09/11/2025",
   },
 
   // Ruud Gullit
@@ -20370,7 +20801,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2019",
         clube: "Liverpool",
       },
@@ -20505,7 +20936,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Jogador da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1954",
         categoria: "individual",
         logoVariavel: true,
@@ -20624,7 +21055,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Ouro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1966",
         categoria: "individual",
         logoVariavel: true,
@@ -20637,14 +21068,14 @@ export const jogadores = [
       },
       {
         nome: "Time das Estrelas da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1966",
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "Time das Estrelas da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1970",
         categoria: "individual",
         logoVariavel: true,
@@ -20652,7 +21083,7 @@ export const jogadores = [
 
       // Inglaterra
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1966",
         clube: "Inglaterra",
         logoVariavel: true,
@@ -20747,7 +21178,7 @@ export const jogadores = [
       // TÍTULOS INDIVIDUAIS
       {
         nome: "Equipe das Estrelas da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1966",
         categoria: "individual",
         logoVariavel: true,
@@ -20845,7 +21276,7 @@ export const jogadores = [
 
       // PELA SELEÇÃO
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1966",
         clube: "Inglaterra",
         logoVariavel: true,
@@ -20853,6 +21284,354 @@ export const jogadores = [
     ],
     tags: [],
     ultima_atualizacao: "31/10/2025",
+  },
+
+  // Cole Palmer
+  {
+    nome: "Cole Palmer",
+    background: "promise",
+    descricao:
+      "Jovem meio-campista ofensivo inglês, conhecido por sua frieza, habilidade técnica e excepcional capacidade de conversão de pênaltis. Formado no Manchester City, tornou-se a principal estrela do Chelsea, onde conquistou títulos importantes e colecionou prêmios individuais em seu início de carreira.",
+    pagina: "https://www.instagram.com/colepalmer10/",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://img.chelseafc.com/image/upload/f_auto,w_1440,c_fill,g_faces,q_90/editorial/news/2025/09/17/Cole_Palmer_Chelsea_FC.jpg",
+    numero: "10",
+    posicao: "Meia Ofensivo / Ponta Direita",
+    dataNascimento: "05/06/2002",
+    status: "Ativo",
+    curiosidades:
+      "É conhecido pelo apelido 'Cold Palmer' por sua frieza sob pressão, especialmente em cobranças de pênalti. Em 2024, estabeleceu o recorde absoluto da Premier League de mais pênaltis convertidos em uma temporada sem erros (12 em 12). Ele também representa São Cristóvão e Nevis por ascendência familiar.",
+    clubes: [
+      createClub(
+        "Manchester City",
+        { inicio: "2020", fim: "2023" },
+        { jogos: 41, gols: 6, assistencias: 2 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 101, gols: 45, assistencias: 20 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2023", fim: "Presente" },
+      estatisticas: { jogos: 12, gols: 2, assistencias: 2 },
+    },
+    titulos: [
+      // Manchester City
+      {
+        nome: "UEFA Champions League",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2022, 2023, 2024",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2021",
+        clube: "Manchester City",
+      },
+
+      // Chelsea
+      {
+        nome: "Copa do Mundo de Clubes FIFA",
+        anos: "2025",
+        clube: "Chelsea",
+      },
+      {
+        nome: "UEFA Conference League",
+        anos: "2025",
+        clube: "Chelsea",
+      },
+
+      // Seleção
+      {
+        nome: "Eurocopa Sub-21",
+        anos: "2023",
+        clube: "Inglaterra",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Bola de Ouro do Mundial de Clubes",
+        logo: "Bola de Ouro FIFA",
+        anos: "2025",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador da Temporada da UEFA Conference League",
+        logo: "UEFA Conference League",
+        anos: "2025",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Jovem do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "2024",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Mês do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "Abril/2024",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2025",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Cole Palmer", "Palmer", "Cole", "Cold Palmer"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
+  // David Beckham
+  {
+    nome: "David Beckham",
+    background: "Diamond",
+    descricao:
+      "Ex-meio-campista inglês, um dos jogadores mais famosos e reconhecidos globalmente. Beckham era famoso por sua habilidade em bolas paradas, passes longos precisos e cruzamentos. Foi um dos 'Class of '92' do Manchester United e capitão da Seleção Inglesa por seis anos.",
+    pagina: "https://www.instagram.com/davidbeckham/",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://assets.goal.com/images/v3/blt1199bd74d1e75f81/53af32ba19ec1db2c589a6820cf11a6639f3757f.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    numero: "7",
+    posicao: "Meia Direita / Meia Central",
+    dataNascimento: "02/05/1975",
+    status: "Aposentado",
+    curiosidades:
+      "Beckham é o único jogador inglês a ter marcado gols em três Copas do Mundo diferentes (1998, 2002 e 2006). Ele é o primeiro jogador britânico a jogar 100 partidas na UEFA Champions League. Se aposentou no Paris Saint-Germain, sendo o único inglês a vencer títulos de liga em quatro países (Inglaterra, Espanha, EUA e França).",
+    clubes: [
+      createClub(
+        "Manchester United",
+        { inicio: "1992", fim: "2003" },
+        { jogos: 394, gols: 85, assistencias: 109 }
+      ),
+      createClub(
+        "Preston North End",
+        { inicio: "1995", fim: "1995" },
+        { jogos: 5, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2003", fim: "2007" },
+        { jogos: 159, gols: 20, assistencias: 51 }
+      ),
+      createClub(
+        "Los Angeles Galaxy",
+        { inicio: "2007", fim: "2012" },
+        { jogos: 124, gols: 20, assistencias: 42 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 33, gols: 2, assistencias: 4 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2013", fim: "2013" },
+        { jogos: 14, gols: 0, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "1996", fim: "2009" },
+      estatisticas: { jogos: 115, gols: 17, assistencias: 38 },
+    },
+    titulos: [
+      // Manchester United
+      {
+        nome: "UEFA Champions League",
+        anos: "1999",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa Intercontinental",
+        anos: "1999",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "1996, 1997, 1999, 2000, 2001, 2003",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "1996, 1999",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "1993, 1994, 1996, 1997, 2003",
+        clube: "Manchester United",
+      },
+
+      // Real Madrid
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2007",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2003",
+        clube: "Real Madrid",
+      },
+
+      // Los Angeles Galaxy
+      {
+        nome: "MLS Cup",
+        anos: "2011, 2012",
+        clube: "Los Angeles Galaxy",
+      },
+      {
+        nome: "MLS Supporters' Shield",
+        anos: "2010, 2011",
+        clube: "Los Angeles Galaxy",
+      },
+
+      // Paris Saint-Germain
+      {
+        nome: "Campeonato Francês",
+        anos: "2013",
+        clube: "Paris Saint-Germain",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "2º Lugar - Jogador do Mundo do Ano FIFA",
+        logo: "FIFA World Player of the Year",
+        anos: "1999, 2001",
+        categoria: "individual",
+      },
+      {
+        nome: "2º Lugar - Bola de Ouro",
+        logo: "Bola de Ouro",
+        anos: "1999",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Mundo (FIFPro World XI)",
+        logo: "FIFPro",
+        anos: "2005",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da PFA",
+        logo: "PFA",
+        anos: "1997, 1998, 1999, 2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano da UEFA",
+        logo: "UEFA",
+        anos: "1999",
+        categoria: "individual",
+      },
+      {
+        nome: "Hall da Fama do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "2021",
+        categoria: "individual",
+      },
+    ],
+    tags: ["David Beckham", "Beckham", "David", "Becham", "Becks"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
+  // Declan Rice
+  {
+    nome: "Declan Rice",
+    background: "titanium",
+    descricao:
+      "Meio-campista defensivo inglês conhecido por sua força física, inteligência tática e capacidade de interceptação e distribuição de jogo. Rice é um líder em campo, tendo sido capitão do West Ham na conquista da Conference League e um dos principais jogadores do Arsenal.",
+    pagina: "https://pt.wikipedia.org/wiki/Declan_Rice",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://s.yimg.com/ny/api/res/1.2/nyrBSp7rV4iHHAVOWzgsPg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2024-05/fbea5ad0-0b6f-11ef-8ff3-b5e8e6d98d11",
+    numero: "41",
+    posicao: "Volante / Meia Central",
+    dataNascimento: "14/01/1999",
+    status: "Ativo",
+    curiosidades:
+      "Rice representou a Seleção Irlandesa nas categorias de base e em três amistosos pela equipe principal antes de decidir, em 2019, jogar pela Inglaterra. Ele ganhou o prêmio de Jogador da Temporada do West Ham três vezes, e o Jogador Jovem da Temporada do West Ham três vezes.",
+    clubes: [
+      createClub(
+        "West Ham United",
+        { inicio: "2017", fim: "2023" },
+        { jogos: 245, gols: 15, assistencias: 13 }
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 100, gols: 15, assistencias: 12 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2019", fim: "Presente" },
+      estatisticas: { jogos: 70, gols: 4, assistencias: 6 },
+    },
+    titulos: [
+      // West Ham United
+      {
+        nome: "UEFA Conference League",
+        anos: "2023",
+        clube: "West Ham United",
+      },
+
+      // Arsenal
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2023",
+        clube: "Arsenal",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Jogador da Temporada da West Ham",
+        logo: "Individual",
+        anos: "2020, 2022, 2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Temporada da UEFA Europa League",
+        logo: "UEFA Europa League",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Temporada do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: "2024",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador da Temporada da UEFA Conference League",
+        logo: "UEFA Conference League",
+        anos: "2023",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Declan Rice", "Rice", "Declan", "Declen Rice", "Dec Rice"],
+    ultima_atualizacao: "09/11/2025",
   },
 
   // Dele Alli
@@ -21153,7 +21932,7 @@ export const jogadores = [
       },
       {
         nome: "Copa do Mundo (4º lugar)",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2018",
         clube: "Inglaterra",
         logoVariavel: true,
@@ -21547,7 +22326,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2023",
         clube: "Manchester City",
       },
@@ -21580,7 +22359,7 @@ export const jogadores = [
       // Títulos Individuais
       {
         nome: "Seleção da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2018",
         categoria: "individual",
         logoVariavel: true,
@@ -21853,7 +22632,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2023",
         clube: "Manchester City",
       },
@@ -22055,7 +22834,7 @@ export const jogadores = [
         clube: "Manchester United",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2008",
         clube: "Manchester United",
       },
@@ -22278,6 +23057,120 @@ export const jogadores = [
     ultima_atualizacao: "05/11/2025",
   },
 
+  // Trent Alexander-Arnold
+  {
+    nome: "Trent Alexander-Arnold",
+    background: "Diamond",
+    descricao:
+      "Lateral-direito inglês conhecido por sua excepcional capacidade de criação de jogo, passes longos precisos e cobranças de falta. É considerado um dos maiores laterais modernos, lenda do Liverpool e atualmente um dos principais jogadores do Real Madrid.",
+    pagina: "https://www.instagram.com/trentarnold66/",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://assets-us-01.kc-usercontent.com/31dbcbc6-da4c-0033-328a-d7621d0fa726/fd1b42e4-c6d1-4112-9036-dd07b3971f03/2025-07-01T210450Z_1048739043_UP1EL711MK1LQ_RTRMADP_3_SOCCER-CLUB-RMA-JUV.JPG?ver=03-06-2025?w=3840&q=75",
+    numero: "12",
+    posicao: "Lateral-direito / Volante",
+    dataNascimento: "07/10/1998",
+    status: "Ativo",
+    curiosidades:
+      "TAA é um dos poucos jogadores do Liverpool a ter ganhado todos os títulos possíveis no clube. Ele se transferiu para o Real Madrid em Maio de 2025 e escolheu o número 12, diferente do 66 que usava no Liverpool. Detém o recorde de mais assistências por um defensor na história da Premier League em uma única temporada (13 em 2019/20).",
+    clubes: [
+      createClub(
+        "Liverpool",
+        { inicio: "2016", fim: "2025" },
+        { jogos: 375, gols: 26, assistencias: 85 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 15, gols: 1, assistencias: 4 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2018", fim: "Presente" },
+      estatisticas: { jogos: 55, gols: 4, assistencias: 8 },
+    },
+    titulos: [
+      // Liverpool
+      {
+        nome: "UEFA Champions League",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2019",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2020",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2022, 2024",
+        clube: "Liverpool",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2022",
+        clube: "Liverpool",
+      },
+
+      // Real Madrid
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2024",
+        clube: "Real Madrid",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Seleção do Mundo (FIFPro World XI)",
+        logo: "FIFPro",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da PFA",
+        logo: "PFA",
+        anos: "2019, 2020, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Jovem Jogador do Ano da PFA",
+        logo: "PFA",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Liga dos Campeões da UEFA",
+        logo: "UEFA Champions League",
+        anos: "2019, 2020, 2022",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Trent Alexander-Arnold",
+      "Alexander-Arnold",
+      "Trent",
+      "TAA",
+      "Arnold",
+    ],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // Wayne Rooney
   {
     nome: "Wayne Rooney",
@@ -22339,7 +23232,7 @@ export const jogadores = [
         clube: "Manchester United",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2008",
         clube: "Manchester United",
       },
@@ -22561,7 +23454,7 @@ export const jogadores = [
     titulos: [
       // Seleção
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2006",
         clube: "Itália",
         logoVariavel: true,
@@ -22579,7 +23472,7 @@ export const jogadores = [
         clube: "AC Milan",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2007",
         clube: "AC Milan",
       },
@@ -22706,13 +23599,13 @@ export const jogadores = [
     titulos: [
       // Seleção
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2006",
         clube: "Itália",
         logoVariavel: true,
       },
       {
-        nome: "Campeonato Europeu Sub-21",
+        nome: "Eurocopa Sub-21",
         anos: "2000",
         clube: "Itália",
       },
@@ -22731,7 +23624,7 @@ export const jogadores = [
         clube: "AC Milan",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2007",
         clube: "AC Milan",
       },
@@ -22871,13 +23764,13 @@ export const jogadores = [
     titulos: [
       // Seleção
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2006",
         clube: "Itália",
         logoVariavel: true,
       },
       {
-        nome: "Campeonato Europeu Sub-21",
+        nome: "Eurocopa Sub-21",
         anos: "1994, 1996",
         clube: "Itália",
       },
@@ -23002,7 +23895,7 @@ export const jogadores = [
       },
       {
         nome: "Time da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1990",
         categoria: "individual",
         logoVariavel: true,
@@ -23120,7 +24013,7 @@ export const jogadores = [
 
       // Itália
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1982",
         clube: "Itália",
         logoVariavel: true,
@@ -23181,7 +24074,7 @@ export const jogadores = [
     titulos: [
       // Seleção Italiana
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2006",
         clube: "Itália",
         logoVariavel: true,
@@ -23199,7 +24092,7 @@ export const jogadores = [
         clube: "AC Milan",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2007",
         clube: "AC Milan",
       },
@@ -23227,7 +24120,7 @@ export const jogadores = [
       // Títulos Individuais
       {
         nome: "Seleção da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2006",
         categoria: "individual",
         logoVariavel: true,
@@ -23394,7 +24287,7 @@ export const jogadores = [
 
       // TÍTULOS PELA SELEÇÃO
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "2006",
         clube: "Itália",
         logoVariavel: true,
@@ -23403,7 +24296,6 @@ export const jogadores = [
         nome: "Eurocopa Sub-21",
         anos: "1996",
         clube: "Itália",
-        logoVariavel: true,
       },
     ],
     tags: ["Gigi", "Goalkeeper GOAT", "Bandiera"],
@@ -23744,13 +24636,13 @@ export const jogadores = [
 
       // Itália
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1934",
         clube: "Itália",
         logoVariavel: true,
       },
       {
-        nome: "Copa do Mundo",
+        nome: "Copa do Mundo FIFA",
         anos: "1938",
         clube: "Itália",
         logoVariavel: true,
@@ -23851,7 +24743,7 @@ export const jogadores = [
         clube: "Chelsea",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2022",
         clube: "Chelsea",
       },
@@ -24200,7 +25092,7 @@ export const jogadores = [
       },
       {
         nome: "Seleção da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1994",
         categoria: "individual",
         logoVariavel: true,
@@ -24256,7 +25148,7 @@ export const jogadores = [
         clube: "AC Milan",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2007",
         clube: "AC Milan",
       },
@@ -24354,7 +25246,7 @@ export const jogadores = [
       },
       {
         nome: "Seleção da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1994",
         categoria: "individual",
         logoVariavel: true,
@@ -24742,7 +25634,7 @@ export const jogadores = [
         clube: "Manchester City",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2023",
         clube: "Manchester City",
       },
@@ -24874,7 +25766,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2014, 2016, 2017, 2018",
         clube: "Real Madrid",
       },
@@ -25019,7 +25911,7 @@ export const jogadores = [
         clube: "Manchester United",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2008",
         clube: "Manchester United",
       },
@@ -25080,7 +25972,250 @@ export const jogadores = [
     ultima_atualizacao: "06/11/2025",
   },
 
+  // PERU -------------------------------------------------------------------------------------------------------------------------------
+
+  // Paolo Guerrero
+  {
+    nome: "Paolo Guerrero",
+    background: "Silver",
+    descricao:
+      "Atacante peruano, conhecido por sua força física, técnica, e faro de gol. É uma lenda no futebol sul-americano, maior artilheiro da Seleção Peruana e atualmente joga no Club Alianza Lima.",
+    pagina: "https://www.instagram.com/guerrero9/",
+    nacionalidade: "Peru",
+    imagem:
+      "https://elcomercio.pe/resizer/v2/RLDM5MQWCNEOPEVQJ3COAVRRZM.jpeg?auth=bbc129c59ef3be228090c2d97b9e05e453363efa83ca501a5bb25a9afab910e2&width=980&quality=75&smart=true",
+    numero: "34",
+    posicao: "Centroavante",
+    dataNascimento: "01/01/1984",
+    status: "Ativo",
+    curiosidades:
+      "Guerrero é o único jogador na história a ser artilheiro de três edições diferentes da Copa América (2011, 2015, 2019). Ele retornou ao futebol peruano, vestindo a camisa 34 no Alianza Lima. É o maior artilheiro estrangeiro da história do Corinthians na Arena Corinthians.",
+    clubes: [
+      createClub(
+        "Bayern de Munique II",
+        { inicio: "2002", fim: "2004" },
+        { jogos: 47, gols: 21, assistencias: 0 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2004", fim: "2006" },
+        { jogos: 45, gols: 13, assistencias: 4 }
+      ),
+      createClub(
+        "Hamburger SV",
+        { inicio: "2006", fim: "2012" },
+        { jogos: 183, gols: 47, assistencias: 29 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2012", fim: "2015" },
+        { jogos: 130, gols: 54, assistencias: 14 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2015", fim: "2018" },
+        { jogos: 88, gols: 43, assistencias: 13 }
+      ),
+      createClub(
+        "Internacional",
+        { inicio: "2019", fim: "2021" },
+        { jogos: 81, gols: 32, assistencias: 5 }
+      ),
+      createClub(
+        "Racing",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 22, gols: 3, assistencias: 2 }
+      ),
+      createClub(
+        "LDU",
+        { inicio: "2023", fim: "2024" },
+        { jogos: 14, gols: 5, assistencias: 2 }
+      ),
+      createClub(
+        "Universidad César Vallejo",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 18, gols: 8, assistencias: 2 }
+      ),
+      createClub(
+        "Club Alianza Lima",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 10, gols: 5, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Peru",
+      periodo: { inicio: "2004", fim: "Presente" },
+      estatisticas: { jogos: 120, gols: 39, assistencias: 12 },
+    },
+    titulos: [
+      // Bayern de Munique
+      {
+        nome: "Campeonato Alemão",
+        anos: "2005, 2006",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Alemanha",
+        anos: "2005, 2006",
+        clube: "Bayern de Munique",
+      },
+      {
+        nome: "Copa da Liga Alemã",
+        anos: "2004",
+        clube: "Bayern de Munique",
+      },
+
+      // Corinthians
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2012",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2013",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2013",
+        clube: "Corinthians",
+      },
+
+      // Flamengo
+      {
+        nome: "Campeonato Carioca",
+        anos: "2017",
+        clube: "Flamengo",
+      },
+
+      // LDU
+      {
+        nome: "Copa Sul-Americana",
+        anos: "2023",
+        clube: "LDU",
+      },
+      {
+        nome: "Campeonato Equatoriano",
+        anos: "2023",
+        clube: "LDU",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Artilheiro da Copa América",
+        logo: "Copa América",
+        anos: "2011",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Copa América",
+        logo: "Copa América",
+        anos: "2015",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro da Copa América",
+        logo: "Copa América",
+        anos: "2019",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro do Mundial de Clubes FIFA",
+        logo: "Mundial de Clubes FIFA",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Bronze do Mundial de Clubes FIFA",
+        logo: "Bola de Bronze FIFA",
+        anos: "2012",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Paolo Guerrero", "Guerrero", "Paolo"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // POLÔNIA -------------------------------------------------------------------------------------------------------------------------------
+
+  // Piotr Zieliński
+  {
+    nome: "Piotr Zieliński",
+    background: "Plate",
+    descricao:
+      "Meio-campista polonês conhecido por sua técnica refinada, visão de jogo, e capacidade de atuar em diversas posições do meio-campo. Foi um dos pilares da histórica equipe do Napoli que conquistou o Campeonato Italiano em 2023.",
+    pagina: "https://www.instagram.com/zielu_94/",
+    nacionalidade: "Polônia",
+    imagem:
+      "https://livesport-ott-images.ssl.cdn.cra.cz/r900xfq60/7fe8aa7e-5cf7-40ce-a69f-18957a4650e0.jpeg",
+    numero: "7",
+    posicao: "Meio-campista Central / Meia Ofensivo",
+    dataNascimento: "20/05/1994",
+    status: "Ativo",
+    curiosidades:
+      "Zieliński é o jogador de futebol polonês com mais partidas na história da Serie A. Embora tenha passado a maior parte de sua carreira na Itália, ele começou nas categorias de base do Zagłębie Lubin, na Polônia. Em 2024, após muitos anos no Napoli, transferiu-se para o rival Inter de Milão.",
+    clubes: [
+      createClub(
+        "Udinese",
+        { inicio: "2012", fim: "2016" },
+        { jogos: 21, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Empoli",
+        { inicio: "2014", fim: "2016" },
+        { jogos: 66, gols: 10, assistencias: 6 }
+      ),
+      createClub(
+        "Napoli",
+        { inicio: "2016", fim: "2024" },
+        { jogos: 364, gols: 51, assistencias: 46 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 15, gols: 3, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Polônia",
+      periodo: { inicio: "2013", fim: "Presente" },
+      estatisticas: { jogos: 95, gols: 12, assistencias: 10 },
+    },
+    titulos: [
+      // Napoli
+      {
+        nome: "Campeonato Italiano",
+        anos: "2023",
+        clube: "Napoli",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2020",
+        clube: "Napoli",
+      },
+
+      // Inter de Milão
+      {
+        nome: "Supercopa da Itália",
+        anos: "2024",
+        clube: "Inter de Milão",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Futebolista Polonês do Ano",
+        logo: "Individual",
+        anos: "2024",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Piotr Zielinski", "Zielinski", "Piotr"],
+    ultima_atualizacao: "09/11/2025",
+  },
 
   // Robert Lewandowski
   {
@@ -25192,7 +26327,7 @@ export const jogadores = [
         clube: "Bayern de Munique",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2020",
         clube: "Bayern de Munique",
       },
@@ -25376,6 +26511,116 @@ export const jogadores = [
 
   // PORTUGAL -------------------------------------------------------------------------------------------------------------------------------------------------------
 
+  // Bruno Fernandes
+  {
+    nome: "Bruno Fernandes",
+    background: "Titanium",
+    descricao:
+      "Meio-campista português conhecido por sua criatividade, passes precisos, chutes de longa distância e forte liderança. É um dos jogadores mais influentes da Premier League e capitão do Manchester United.",
+    pagina: "https://www.instagram.com/brunofigueredo10/",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://assets.manutd.com/AssetPicker/images/0/0/22/204/1494171/GettyImages_22328582711756564675466.webp",
+    numero: "8",
+    posicao: "Meia Ofensivo / Meio-campista Central",
+    dataNascimento: "08/09/1994",
+    status: "Ativo",
+    curiosidades:
+      "Bruno Fernandes foi nomeado o 'Jogador da Época Sir Matt Busby' do Manchester United quatro vezes, um feito notável em um curto período. É conhecido por sua longevidade e resistência a lesões. Bicampeão da UEFA Nations League (2019 e 2025).",
+    clubes: [
+      createClub(
+        "Novara",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 23, gols: 4, assistencias: 2 }
+      ),
+      createClub(
+        "Udinese",
+        { inicio: "2013", fim: "2016" },
+        { jogos: 95, gols: 11, assistencias: 13 }
+      ),
+      createClub(
+        "Sampdoria",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 35, gols: 5, assistencias: 3 }
+      ),
+      createClub(
+        "Sporting CP",
+        { inicio: "2017", fim: "2020" },
+        { jogos: 137, gols: 63, assistencias: 52 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2020", fim: "Presente" },
+        { jogos: 280, gols: 95, assistencias: 80 }
+      ),
+    ],
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "2017", fim: "Presente" },
+      estatisticas: { jogos: 80, gols: 25, assistencias: 24 },
+    },
+    titulos: [
+      // Sporting CP
+      {
+        nome: "Taça de Portugal",
+        anos: "2019",
+        clube: "Sporting CP",
+      },
+      {
+        nome: "Taça da Liga",
+        anos: "2018, 2019",
+        clube: "Sporting CP",
+      },
+
+      // Manchester United
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2024",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2023",
+        clube: "Manchester United",
+      },
+
+      // Seleção
+      {
+        nome: "UEFA Nations League",
+        anos: "2019, 2025",
+        clube: "Portugal",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Máximo Goleador da UEFA Europa League",
+        logo: "UEFA Europa League",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Português",
+        logo: "Campeonato Português",
+        anos: "2018, 2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da PFA",
+        logo: "PFA",
+        anos: "2020, 2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano do Manchester United",
+        logo: "Individual",
+        anos: "2020, 2021",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Bruno Fernandes", "Fernandes", "Bruno"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // Cristiano Ronaldo
   {
     nome: "Cristiano Ronaldo",
@@ -25442,7 +26687,7 @@ export const jogadores = [
         clube: "Manchester United",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2008",
         clube: "Manchester United",
       },
@@ -25481,7 +26726,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2014, 2016, 2017",
         clube: "Real Madrid",
       },
@@ -25695,7 +26940,7 @@ export const jogadores = [
       },
       {
         nome: "Chuteira de Ouro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "1966",
         categoria: "individual",
         logoVariavel: true,
@@ -25745,6 +26990,144 @@ export const jogadores = [
     ],
     tags: ["Pantera Negra", "King", "Pérola Negra"],
     ultima_atualizacao: "31/10/2025",
+  },
+
+  // João Cancelo
+  {
+    nome: "João Cancelo",
+    background: "Titanium",
+    descricao:
+      "Lateral português conhecido por sua versatilidade (capaz de jogar nas duas laterais), técnica, qualidade no passe e participação ofensiva. É considerado um dos laterais mais influentes do futebol moderno.",
+    pagina: "https://www.instagram.com/jpcancelo/",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=850,quality=75,format=webp/uploads/2025/05/WhatsApp-Image-2025-05-02-at-11.32.38-1.jpeg",
+    numero: "20",
+    posicao: "Lateral Direito / Lateral Esquerdo",
+    dataNascimento: "27/05/1994",
+    status: "Ativo",
+    curiosidades:
+      "Cancelo é um dos poucos jogadores portugueses a vencer a Serie A, a Premier League e a Bundesliga. Ele foi fundamental na conquista da UEFA Nations League por Portugal em 2019. Sua versatilidade faz dele um ativo tático valioso, muitas vezes jogando como um meio-campista 'invertido'.",
+    clubes: [
+      createClub(
+        "Benfica B",
+        { inicio: "2012", fim: "2014" },
+        { jogos: 51, gols: 3, assistencias: 3 }
+      ),
+      createClub(
+        "Benfica",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 2, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Valencia",
+        { inicio: "2014", fim: "2017" },
+        { jogos: 91, gols: 4, assistencias: 10 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 29, gols: 1, assistencias: 4 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 34, gols: 1, assistencias: 5 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2019", fim: "2024" },
+        { jogos: 154, gols: 9, assistencias: 22 }
+      ),
+      createClub(
+        "Bayern de Munique",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 21, gols: 1, assistencias: 6 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2023", fim: "2024" },
+        { jogos: 42, gols: 4, assistencias: 5 }
+      ),
+      createClub(
+        "Al-Hilal",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 40, gols: 2, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "2016", fim: "Presente" },
+      estatisticas: { jogos: 65, gols: 10, assistencias: 12 },
+    },
+    titulos: [
+      // Benfica
+      {
+        nome: "Campeonato Português",
+        anos: "2014",
+        clube: "Benfica",
+      },
+
+      // Juventus
+      {
+        nome: "Campeonato Italiano",
+        anos: "2019",
+        clube: "Juventus",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2018",
+        clube: "Juventus",
+      },
+
+      // Manchester City
+      {
+        nome: "Campeonato Inglês",
+        anos: "2021, 2022, 2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2020, 2021",
+        clube: "Manchester City",
+      },
+
+      // Bayern de Munique
+      {
+        nome: "Campeonato Alemão",
+        anos: "2023",
+        clube: "Bayern de Munique",
+      },
+
+      // Seleção
+      {
+        nome: "UEFA Nations League",
+        anos: "2019",
+        clube: "Portugal",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Time do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da PFA",
+        logo: "PFA",
+        anos: "2021, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2022",
+        categoria: "individual",
+      },
+    ],
+    tags: ["João Cancelo", "Cancelo", "Joao"],
+    ultima_atualizacao: "09/11/2025",
   },
 
   // João Neves
@@ -26708,7 +28091,7 @@ export const jogadores = [
         clube: "Liverpool",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2019",
         clube: "Liverpool",
       },
@@ -26809,6 +28192,99 @@ export const jogadores = [
   },
 
   // Suécia -------------------------------------------------------------------------------------------------------------------------------
+
+  // Alexander Isak
+  {
+    nome: "Alexander Isak",
+    background: "Plate",
+    descricao:
+      "Atacante sueco conhecido por sua velocidade, dribles e frieza na finalização. É um dos jovens atacantes mais promissores da Europa e principal referência ofensiva da Seleção Sueca.",
+    pagina: "https://www.instagram.com/alex_isak/",
+    nacionalidade: "Suécia",
+    imagem:
+      "https://s.yimg.com/ny/api/res/1.2/P117r4hqMa4AbiV9jANFeQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNztjZj13ZWJw/https://media.zenfs.com/en/anfield_index_166/2fca489510f76fc71a2b0ee59725f2f5",
+    numero: "9",
+    posicao: "Centroavante / Ponta Esquerda",
+    dataNascimento: "21/09/1999",
+    status: "Ativo",
+    curiosidades:
+      "Isak se tornou o jogador mais jovem a marcar pela Seleção Sueca, com 17 anos e 113 dias. Foi apelidado de 'Novo Ibrahimovic' no início de sua carreira. Sua passagem pelo Real Sociedad e Newcastle lhe rendeu o status de estrela da Premier League antes de sua grande transferência.",
+    clubes: [
+      createClub(
+        "AIK",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 30, gols: 13, assistencias: 2 }
+      ),
+      createClub(
+        "Borussia Dortmund",
+        { inicio: "2017", fim: "2019" },
+        { jogos: 13, gols: 1, assistencias: 1 }
+      ),
+      createClub(
+        "Willem II",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 16, gols: 13, assistencias: 7 }
+      ),
+      createClub(
+        "Real Sociedad",
+        { inicio: "2019", fim: "2022" },
+        { jogos: 132, gols: 44, assistencias: 8 }
+      ),
+      createClub(
+        "Newcastle United",
+        { inicio: "2022", fim: "2024" },
+        { jogos: 75, gols: 35, assistencias: 5 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 15, gols: 8, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Suécia",
+      periodo: { inicio: "2017", fim: "Presente" },
+      estatisticas: { jogos: 50, gols: 15, assistencias: 5 },
+    },
+    titulos: [
+      // Borussia Dortmund
+      {
+        nome: "Copa da Alemanha",
+        anos: "2017",
+        clube: "Borussia Dortmund",
+      },
+
+      // Real Sociedad
+      {
+        nome: "Copa do Rei",
+        anos: "2020",
+        clube: "Real Sociedad",
+      },
+
+      // Liverpool
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2025",
+        clube: "Liverpool",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Bola de Ouro da Suécia",
+        logo: "SFSverige",
+        anos: "2024",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Jovem do Mês da Campeonato Holandês",
+        logo: "Campeonato Holandês",
+        anos: "2019",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Alexander Isak", "Isak", "Alex"],
+    ultima_atualizacao: "09/11/2025",
+  },
 
   // Zlatan Ibrahimović
   {
@@ -27025,7 +28501,7 @@ export const jogadores = [
 
       // Barcelona
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2009",
         clube: "Barcelona",
         categoria: "coletivo",
@@ -27352,21 +28828,21 @@ export const jogadores = [
       },
       {
         nome: "Gol do Torneio da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2010",
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "Artilheiro da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2010",
         categoria: "individual",
         logoVariavel: true,
       },
       {
         nome: "Time da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2010",
         categoria: "individual",
         logoVariavel: true,
@@ -27509,7 +28985,7 @@ export const jogadores = [
       },
       {
         nome: "Time da Copa do Mundo",
-        logo: "Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
         anos: "2018",
         categoria: "individual",
         logoVariavel: true,
@@ -28009,7 +29485,7 @@ export const jogadores = [
         clube: "Barcelona",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2015",
         clube: "Barcelona",
       },
@@ -28291,7 +29767,7 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
-        nome: "Mundial de Clubes",
+        nome: "Mundial de Clubes FIFA",
         anos: "2018, 2022",
         clube: "Real Madrid",
       },
