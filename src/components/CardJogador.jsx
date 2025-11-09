@@ -29,7 +29,7 @@ function CardJogador({ jogador }) {
   };
 
   return (
-    <div className="jogador" id={jogador.background}>
+    <div className="jogador" id={jogador.background.toLowerCase()}>
       <img className="img-grampo" src="/img__fundos/Fundo_Grampo.png" alt="" />
       <div className="div-superior">
         <CardSuperior pessoa={jogador} />

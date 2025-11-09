@@ -2332,7 +2332,7 @@ export const jogadores = [
         { jogos: 26, gols: 0, assistencias: 0 }
       ),
       createClub(
-        "West Ham",
+        "West Ham United",
         { inicio: "2006", fim: "2007" },
         { jogos: 7, gols: 0, assistencias: 0 }
       ),
@@ -9450,7 +9450,7 @@ export const jogadores = [
         { jogos: 80, gols: 21, assistencias: 14 }
       ),
       createClub(
-        "West Ham",
+        "West Ham United",
         { inicio: "2022", fim: "Presente" },
         { jogos: 102, gols: 16, assistencias: 14 }
       ),
@@ -9485,7 +9485,7 @@ export const jogadores = [
       {
         nome: "UEFA Conference League",
         anos: "2023",
-        clube: "West Ham",
+        clube: "West Ham United",
       },
     ],
     tags: [],
@@ -20709,7 +20709,7 @@ export const jogadores = [
 
     clubes: [
       createClub(
-        "West Ham",
+        "West Ham United",
         { inicio: "1958", fim: "1974" },
         { jogos: 544, gols: 24, assistencias: 0 }
       ),
@@ -20830,17 +20830,17 @@ export const jogadores = [
       {
         nome: "Recopa Europeia",
         anos: "1965",
-        clube: "West Ham",
+        clube: "West Ham United",
       },
       {
         nome: "Copa da Inglaterra",
         anos: "1964",
-        clube: "West Ham",
+        clube: "West Ham United",
       },
       {
         nome: "Supercopa da Inglaterra",
         anos: "1964",
-        clube: "West Ham",
+        clube: "West Ham United",
       },
 
       // PELA SELEÇÃO
@@ -20853,6 +20853,76 @@ export const jogadores = [
     ],
     tags: [],
     ultima_atualizacao: "31/10/2025",
+  },
+
+  // Dele Alli
+  {
+    nome: "Dele Alli",
+    background: "Plate",
+    descricao:
+      "Meia-ofensivo inglês com ascendência nigeriana, conhecido por sua criatividade, habilidade de infiltração e finalização. Foi uma estrela no Tottenham no final da década de 2010, mas enfrentou um declínio de forma e lesões nos últimos anos, estando atualmente sem clube.",
+    pagina: "https://pt.wikipedia.org/wiki/Dele_Alli",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2017/09/28/2176046-45478330-2560-1440.jpg",
+    numero: "20",
+    posicao: "Meia Ofensivo / Meia Central",
+    dataNascimento: "11/04/1996",
+    status: "Sem Clube",
+    curiosidades:
+      "Dele Alli foi nomeado Jovem Jogador do Ano da PFA em temporadas consecutivas (2016 e 2017). Ele é frequentemente chamado apenas de 'Dele', optando por usar somente o primeiro nome em sua camisa. Chegou a fazer parte do sistema juvenil do QPR em Londres.",
+    clubes: [
+      createClub(
+        "Milton Keynes Dons",
+        { inicio: "2012", fim: "2015" },
+        { jogos: 88, gols: 24, assistencias: 13 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2015", fim: "2022" },
+        { jogos: 269, gols: 67, assistencias: 41 }
+      ),
+      createClub(
+        "Everton",
+        { inicio: "2022", fim: "2024" },
+        { jogos: 13, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Beşiktaş JK",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 15, gols: 3, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2015", fim: "2019" },
+      estatisticas: { jogos: 37, gols: 3, assistencias: 5 },
+    },
+    titulos: [
+      // Milton Keynes Dons
+      {
+        nome: "Promoção para a Segunda Divisão Inglesa",
+        logo: "Campeonato Inglês 2º Divisão",
+        anos: "2015",
+        clube: "Milton Keynes Dons",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Jovem Jogador do Ano (PFA)",
+        logo: "PFA",
+        anos: "2016, 2017",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano (PFA)",
+        logo: "PFA",
+        anos: "2016, 2017",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Dele Alli", "Alli", "Bamidele Jermaine Alli", "Dele", "Deli Ali"],
+    ultima_atualizacao: "09/11/2025",
   },
 
   // Frank Lampard
@@ -20873,7 +20943,7 @@ export const jogadores = [
       "É o único meio-campista a marcar mais de 150 gols na Premier League e o jogador com mais partidas consecutivas na história da competição (164). É o maior artilheiro da história do Chelsea, com 211 gols em 648 jogos.",
     clubes: [
       createClub(
-        "West Ham",
+        "West Ham United",
         { inicio: "1995", fim: "2001" },
         { jogos: 185, gols: 38, assistencias: 6 }
       ),
@@ -21176,6 +21246,108 @@ export const jogadores = [
     ultima_atualizacao: "27/10/25",
   },
 
+  // Jude Bellingham
+  {
+    nome: "Jude Bellingham",
+    background: "Diamond",
+    descricao:
+      "Meio-campista inglês considerado um dos maiores talentos de sua geração. Conhecido por sua versatilidade, técnica, força física e, notavelmente, sua capacidade de marcar gols. Venceu a Champions League e La Liga como principal destaque do Real Madrid em sua primeira temporada.",
+    pagina: "https://www.instagram.com/judebellingham/",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://ds-images.bolavip.com/news/image/740/416/?src=https://images.worldsoccertalk.com/webp/full/WST_20250809_WST_583165_jude-bellingham-real-madrid.webp",
+    numero: "5",
+    posicao: "Meia Central / Meia Ofensivo",
+    dataNascimento: "29/06/2003",
+    status: "Ativo",
+    curiosidades:
+      "Jude Bellingham se tornou o artilheiro do Real Madrid em La Liga em sua primeira temporada (2023/24). Ele vestiu a camisa 22 no Birmingham City e no Borussia Dortmund (uma junção de '4' volante, '8' meia e '10' meia-atacante). No Real Madrid, usa a camisa 5, em homenagem a Zinedine Zidane.",
+    clubes: [
+      createClub(
+        "Birmingham City",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 44, gols: 4, assistencias: 3 }
+      ),
+      createClub(
+        "Borussia Dortmund",
+        { inicio: "2020", fim: "2023" },
+        { jogos: 132, gols: 24, assistencias: 25 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 80, gols: 45, assistencias: 28 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2020", fim: "Presente" },
+      estatisticas: { jogos: 55, gols: 8, assistencias: 10 },
+    },
+    titulos: [
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2024",
+        clube: "Real Madrid",
+      },
+
+      // Borussia Dortmund
+      {
+        nome: "Copa da Alemanha",
+        anos: "2021",
+        clube: "Borussia Dortmund",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Golden Boy",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Troféu Kopa",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador da Temporada do Campeonato Espanhol",
+        logo: "Campeonato Espanhol",
+        anos: "2024",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador Jovem da Temporada do Campeonato Alemão",
+        logo: "Campeonato Alemão",
+        anos: "2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Time da Temporada da UEFA Champions League",
+        logo: "UEFA Champions League",
+        anos: "2024",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Jude Bellingham", "Bellingham", "Jude", "Belingham", "Bilingham"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // Kevin Keegan
   {
     nome: "Kevin Keegan",
@@ -21299,6 +21471,229 @@ export const jogadores = [
     ultima_atualizacao: "01/11/2025",
   },
 
+  // Kyle Walker
+  {
+    nome: "Kyle Walker",
+    background: "titanium",
+    descricao:
+      "Lateral-direito inglês conhecido por sua velocidade excepcional e consistência defensiva. Após oito temporadas de sucesso no Manchester City, onde conquistou a Tríplice Coroa em 2023, ele foi transferido para o Burnley em definitivo.",
+    pagina: "https://www.instagram.com/kylewalker2/",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://www.burnleyexpress.net/webimg/b25lY21zOmIxM2JkOTE0LWI4Y2ItNDQxNy04NTQ1LWVmMjQwYzI3Y2E0Zjo2ZjBiYjVjNS1iM2FiLTQxN2UtYTc5MC1lMjUyMTRiZDU1MWM=.jpg?crop=3:2,smart&trim=&width=640&quality=65",
+    numero: "2",
+    posicao: "Lateral-direito / Zagueiro",
+    dataNascimento: "28/05/1990",
+    status: "Ativo",
+    curiosidades:
+      "Kyle Walker detém o recorde de ser um dos jogadores mais rápidos da Premier League. Foi incluído na Seleção do Ano da PFA três vezes. Deixou o Manchester City em julho de 2025 após conquistar 17 títulos pelo clube.",
+    clubes: [
+      createClub(
+        "Sheffield United FC",
+        { inicio: "2008", fim: "2009" },
+        { jogos: 7, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Northampton Town",
+        { inicio: "2008", fim: "2008" },
+        { jogos: 9, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "2009", fim: "2017" },
+        { jogos: 183, gols: 4, assistencias: 21 }
+      ),
+      createClub(
+        "Sheffield United FC",
+        { inicio: "2009", fim: "2010" },
+        { jogos: 28, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Queens Park Rangers",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 20, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Aston Villa",
+        { inicio: "2011", fim: "2011" },
+        { jogos: 15, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2017", fim: "2025" },
+        { jogos: 319, gols: 6, assistencias: 18 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2025", fim: "2025" },
+        { jogos: 16, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Burnley",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 10, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2011", fim: "Presente" },
+      estatisticas: { jogos: 96, gols: 1, assistencias: 6 },
+    },
+    titulos: [
+      // Manchester City
+      {
+        nome: "UEFA Champions League",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2018, 2019, 2021, 2022, 2023, 2024",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2019, 2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2018, 2019, 2020, 2021",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2018, 2019, 2020, 2024",
+        clube: "Manchester City",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Seleção da Copa do Mundo",
+        logo: "Copa do Mundo",
+        anos: "2018",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2020",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2024",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Time do Ano (PFA)",
+        logo: "PFA",
+        anos: "2012, 2017, 2018",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Kyle Walker", "Walker", "Kyle"],
+    ultima_atualizacao: "08/11/2025",
+  },
+
+  // Marcus Rashford
+  {
+    nome: "Marcus Rashford",
+    background: "titanium",
+    descricao:
+      "Atacante inglês, produto da base e ídolo do Manchester United. Conhecido por sua velocidade, capacidade de drible e finalização. Além de ser um líder no ataque, é reconhecido mundialmente por seu ativismo social contra a pobreza infantil.",
+    pagina: "https://www.instagram.com/marcusrashford/",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://i0.wp.com/centredevils.co.uk/wp-content/uploads/2025/08/Marcus-Rashford-at-Barcelona.webp?fit=1200%2C800&ssl=1",
+    numero: "14",
+    posicao: "Ponta-esquerda / Atacante",
+    dataNascimento: "31/10/1997",
+    status: "Ativo",
+    curiosidades:
+      "Recebeu a Ordem do Império Britânico (MBE) em 2020 por seus esforços contra a pobreza infantil. É o jogador mais jovem a marcar em uma estreia pelo Manchester United na história europeia. Ele estreou profissionalmente com 18 anos em 2016.",
+    clubes: [
+      createClub(
+        "Manchester United",
+        { inicio: "2016", fim: "Presente" },
+        { jogos: 430, gols: 135, assistencias: 65 }
+      ),
+      createClub(
+        "Aston Villa",
+        { inicio: "2025", fim: "2025" },
+        { jogos: 17, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 14, gols: 6, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2016", fim: "Presente" },
+      estatisticas: { jogos: 70, gols: 17, assistencias: 6 },
+    },
+    titulos: [
+      // Manchester United
+      {
+        nome: "UEFA Europa League",
+        anos: "2017",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2016",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2017, 2023",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2016",
+        clube: "Manchester United",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Jogador Jovem do Ano (PFA)",
+        logo: "PFA",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano (PFA)",
+        logo: "PFA",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Ordem do Império Britânico",
+        anos: "2020",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Marcus Rashford", "Rashford", "Rashy"],
+    ultima_atualizacao: "08/11/2025",
+  },
+
   // Michael Owen
   {
     nome: "Michael Owen",
@@ -21420,6 +21815,282 @@ export const jogadores = [
     ],
     tags: ["Michael Owen"],
     ultima_atualizacao: "05/11/2025",
+  },
+
+  // Phil Foden
+  {
+    nome: "Phil Foden",
+    background: "titanium",
+    descricao:
+      "Meio-campista ofensivo inglês, produto da base e um dos maiores ídolos do Manchester City. Conhecido por sua inteligência tática, excelente controle de bola e versatilidade. É um jovem multicampeão da Champions League e da Premier League, fundamental na era dominante do City.",
+    pagina: "https://www.instagram.com/philfoden/",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://images.mykhel.com/img/2025/06/phil-foden-1750276284181-1200x675.jpg",
+    numero: "47",
+    posicao: "Meia Ofensivo / Ponta-esquerda / Meia Central",
+    dataNascimento: "28/05/2000",
+    status: "Ativo",
+    curiosidades:
+      "Foden conquistou o prêmio 'Golden Ball' como o melhor jogador na Copa do Mundo FIFA Sub-17 de 2017, vencida pela Inglaterra. Ele é o jogador mais jovem a receber uma medalha de vencedor da Premier League. Seu número 47 é uma homenagem ao seu avô.",
+    clubes: [
+      createClub(
+        "Manchester City",
+        { inicio: "2017", fim: "Presente" },
+        { jogos: 300, gols: 95, assistencias: 65 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2020", fim: "Presente" },
+      estatisticas: { jogos: 48, gols: 12, assistencias: 8 },
+    },
+    titulos: [
+      // Manchester City
+      {
+        nome: "UEFA Champions League",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2018, 2019, 2021, 2022, 2024",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2019, 2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2018, 2019, 2020, 2021",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2019, 2024",
+        clube: "Manchester City",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Futebolista do Ano (FWA)",
+        logo: "FWA",
+        anos: "2024",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador Jovem do Ano (PFA)",
+        logo: "PFA",
+        anos: "2021, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro da Copa do Mundo Sub-17",
+        logo: "Bola de Ouro FIFA",
+        anos: "2017",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Phil Foden", "Foden", "Phil"],
+    ultima_atualizacao: "08/11/2025",
+  },
+
+  // Raheem Sterling
+  {
+    nome: "Raheem Sterling",
+    background: "titanium",
+    descricao:
+      "Atacante inglês conhecido por sua velocidade, agilidade e capacidade de finalização e drible. Foi uma peça fundamental na era dominante do Manchester City, conquistando quatro títulos da Premier League, e é um jogador experiente da Seleção Inglesa.",
+    pagina: "https://www.instagram.com/sterling7/",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://www.reuters.com/resizer/v2/463C4JQUKJPSFIIOBNKWZBHVIM.jpg?auth=840fee85fe1e68e016459ea3328e17c8bcddd5eec9c57ddb2054c54814b8f5d1&height=1500&width=1200&quality=80&smart=true",
+    numero: "7",
+    posicao: "Ponta-direita / Ponta-esquerda",
+    dataNascimento: "08/12/1994",
+    status: "Ativo",
+    curiosidades:
+      "Nasceu na Jamaica e se mudou para a Inglaterra aos cinco anos de idade. Venceu os prêmios de Jogador Jovem do Ano da PFA e Futebolista do Ano da FWA na mesma temporada (2018/19), demonstrando sua importância naquela fase de sua carreira.",
+    clubes: [
+      createClub(
+        "Liverpool",
+        { inicio: "2012", fim: "2015" },
+        { jogos: 129, gols: 23, assistencias: 25 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2015", fim: "2022" },
+        { jogos: 339, gols: 131, assistencias: 94 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 105, gols: 28, assistencias: 16 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2012", fim: "Presente" },
+      estatisticas: { jogos: 85, gols: 20, assistencias: 22 },
+    },
+    titulos: [
+      // Manchester City
+      {
+        nome: "Campeonato Inglês",
+        anos: "2018, 2019, 2021, 2022",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2016, 2018, 2019, 2020, 2021",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2019",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2018, 2019, 2020",
+        clube: "Manchester City",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Futebolista do Ano (FWA)",
+        logo: "FWA",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador Jovem do Ano (PFA)",
+        logo: "PFA",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano (PFA)",
+        logo: "PFA",
+        anos: "2019, 2020, 2021",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Raheem Sterling", "Sterling", "Raheem"],
+    ultima_atualizacao: "08/11/2025",
+  },
+
+  // Rio Ferdinand
+  {
+    nome: "Rio Ferdinand",
+    background: "Diamond",
+    descricao:
+      "Ex-zagueiro inglês, considerado um dos melhores defensores da sua geração e um dos maiores ídolos do Manchester United. Conhecido por sua elegância, excelente leitura de jogo, técnica e velocidade. Foi o zagueiro mais caro do mundo duas vezes em sua carreira.",
+    pagina: "https://pt.wikipedia.org/wiki/Rio_Ferdinand",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://e0.365dm.com/13/06/1600x900/RIO-FERDINAND-SCORES_2959996.jpg?20130616075728",
+    numero: "5",
+    posicao: "Zagueiro / Líbero",
+    dataNascimento: "07/11/1978",
+    status: "Aposentado",
+    curiosidades:
+      "Ferdinand se tornou o jogador inglês mais caro da história duas vezes: primeiro ao ir para o Leeds United em 2000, e depois ao ir para o Manchester United em 2002. Foi capitão da Seleção Inglesa em 2010, mas foi cortado da Copa do Mundo por lesão. É irmão do também zagueiro Anton Ferdinand.",
+    clubes: [
+      createClub(
+        "West Ham United",
+        { inicio: "1996", fim: "2000" },
+        { jogos: 158, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "AFC Bournemouth",
+        { inicio: "1996", fim: "1997" },
+        { jogos: 10, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Leeds United",
+        { inicio: "2000", fim: "2002" },
+        { jogos: 73, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "2002", fim: "2014" },
+        { jogos: 455, gols: 8, assistencias: 10 }
+      ),
+      createClub(
+        "Queens Park Rangers",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 12, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "1997", fim: "2011" },
+      estatisticas: { jogos: 81, gols: 3, assistencias: 0 },
+    },
+    titulos: [
+      // West Ham United
+      {
+        nome: "Copa Intertoto da UEFA",
+        anos: "1999",
+        clube: "West Ham United",
+      },
+
+      // Manchester United
+      {
+        nome: "UEFA Champions League",
+        anos: "2008",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Mundial de Clubes",
+        anos: "2008",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2003, 2007, 2008, 2009, 2011, 2013",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Copa da Liga Inglesa",
+        anos: "2006, 2009, 2010",
+        clube: "Manchester United",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2003, 2007, 2008, 2011",
+        clube: "Manchester United",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Time do Ano da PFA",
+        logo: "PFA",
+        anos: "2002, 2005, 2007, 2008, 2009, 2013",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Mundo (FIFPro World XI)",
+        logo: "FIFPro",
+        anos: "2008",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Rio Ferdinand", "Ferdinand", "Rio", "Rio Gavin Ferdinand"],
+    ultima_atualizacao: "09/11/2025",
   },
 
   // Stanley Matthews
@@ -23376,6 +24047,97 @@ export const jogadores = [
     ],
     tags: ["Leonardo Bonucci", "BBC"],
     ultima_atualizacao: "05/11/2025",
+  },
+
+  // Nicolò Barella
+  {
+    nome: "Nicolò Barella",
+    background: "titanium",
+    descricao:
+      "Meio-campista italiano conhecido por sua energia inesgotável, dinâmica ofensiva e defensiva, e excelente capacidade de passe. É um dos pilares da Seleção Italiana (Campeão da Eurocopa) e peça fundamental no meio-campo da Inter de Milão (multicampeão nacional).",
+    pagina: "https://www.instagram.com/nicolo_barella/",
+    nacionalidade: "Itália",
+    imagem:
+      "https://preview.redd.it/happy-25th-birthday-nicolo-barella-v0-x7fmxwngqag81.jpg?width=1080&crop=smart&auto=webp&s=bbb4755a6acdc64874d10fd049452370e09cc785",
+    numero: "23",
+    posicao: "Meia Central / Volante",
+    dataNascimento: "07/02/1997",
+    status: "Ativo",
+    curiosidades:
+      "Barella é natural da Sardenha e cresceu nas categorias de base do Cagliari Calcio. Ele foi fundamental na conquista da Eurocopa 2020 pela Itália, sendo incluído na Seleção do Torneio. É frequentemente considerado o meio-campista 'box-to-box' italiano mais completo de sua geração.",
+    clubes: [
+      createClub(
+        "Cagliari Calcio",
+        { inicio: "2015", fim: "2019" },
+        { jogos: 112, gols: 7, assistencias: 4 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "2019", fim: "Presente" },
+        { jogos: 250, gols: 25, assistencias: 45 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "2017", fim: "Presente" },
+      estatisticas: { jogos: 67, gols: 10, assistencias: 7 },
+    },
+    titulos: [
+      // Seleção Italiana
+      {
+        nome: "Eurocopa",
+        anos: "2020",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+
+      // Inter de Milão
+      {
+        nome: "Campeonato Italiano",
+        anos: "2021, 2024",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Copa da Itália",
+        anos: "2022, 2023",
+        clube: "Inter de Milão",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2022, 2023, 2024",
+        clube: "Inter de Milão",
+      },
+
+      // Cagliari
+      {
+        nome: "Campeonato Italiano Série B",
+        anos: "2016",
+        clube: "Cagliari Calcio",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2020",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Melhor Meio-Campista do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2021, 2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Ano do Campeonato Italiano",
+        logo: "AIC",
+        anos: "2019, 2020, 2021, 2022, 2023, 2024",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Barella", "Nicolò", "Nicolo"],
+    ultima_atualizacao: "08/11/2025",
   },
 
   // Paolo Maldini

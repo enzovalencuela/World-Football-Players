@@ -45,7 +45,7 @@ function TabelaTitulosPorEquipe({ jogador }) {
             </td>
             <td className="item-titulo ">{titulo.nome}</td>
             <td className="item-titulo">{titulo.anos}</td>
-            <td className="item-titulo">
+            <td className="item-titulo img-titulo">
               <img
                 className="clubes"
                 src={`/img__equipes/Logo_${(
@@ -53,6 +53,14 @@ function TabelaTitulosPorEquipe({ jogador }) {
                 ).replace(/ /g, "_")}.png`}
                 alt=""
               />
+              <div className="clube-status-img">
+                <img
+                  src={`/img__equipes/Logo_${(
+                    titulo.clube || "Individual"
+                  ).replace(/ /g, "_")}.png`}
+                  alt=""
+                />
+              </div>
             </td>
           </tr>
         ))}

@@ -477,7 +477,8 @@ td {
 }
 
 .img-titulo:hover {
-  .titulo-status-img {
+  .titulo-status-img,
+  .clube-status-img {
     display: flex;
 
     & img {
@@ -488,10 +489,9 @@ td {
   }
 }
 
-.titulo-status-img {
+.titulo-status-img,
+.clube-status-img {
   position: absolute;
-  top: -60px;
-  left: 80px;
   width: auto;
   height: auto;
   display: none;
@@ -499,9 +499,19 @@ td {
   background-size: contain;
   background-repeat: no-repeat;
   filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.458));
-  padding: 35px 40px 40px 25px;
+  padding: 35px 25px 25px;
   border-radius: 6px;
   z-index: 100;
+}
+
+.titulo-status-img {
+  top: -60px;
+  left: 80px;
+}
+
+.clube-status-img {
+  top: -60px;
+  left: -230px;
 }
 
 .campeonato {
