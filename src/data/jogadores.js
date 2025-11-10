@@ -31,7 +31,7 @@ export const jogadores = [
         { jogos: 105, gols: 21, assistencias: 0 }
       ),
       createClub(
-        "Hamburgo",
+        "Hamburgo SV",
         { inicio: "1980", fim: "1982" },
         { jogos: 37, gols: 0, assistencias: 0 }
       ),
@@ -280,11 +280,11 @@ export const jogadores = [
         clube: "New York Cosmos",
       },
 
-      //Hamburgo
+      //Hamburgo SV
       {
         nome: "Campeonato Alemão",
         anos: "1982",
-        clube: "Hamburgo",
+        clube: "Hamburgo SV",
       },
 
       // Seleção Alemã
@@ -470,11 +470,6 @@ export const jogadores = [
     dataNascimento: "26/02/2003",
     status: "Ativo",
     clubes: [
-      createClub(
-        "Bayern de Munique II",
-        { inicio: "2020", fim: "2021" },
-        { jogos: 10, gols: 2, assistencias: 0 }
-      ),
       createClub(
         "Bayern de Munique",
         { inicio: "2020", fim: "Atual" },
@@ -758,7 +753,7 @@ export const jogadores = [
         categoria: "individual",
       },
     ],
-    tags: ["Julian Draxler", "Draxler", "Meia-atacante"],
+    tags: ["Julian Draxler", "Draxler"],
     ultima_atualizacao: "09/11/2025",
   },
 
@@ -1480,11 +1475,6 @@ export const jogadores = [
 
     clubes: [
       createClub(
-        "Borussia Mönchengladbach II",
-        { inicio: "2010", fim: "2011" },
-        { jogos: 13, gols: 0, assistencias: 0 }
-      ),
-      createClub(
         "Borussia Mönchengladbach",
         { inicio: "2011", fim: "2014" },
         { jogos: 127, gols: 0, assistencias: 0 }
@@ -1574,11 +1564,6 @@ export const jogadores = [
     curiosidades:
       "Müller detém o recorde de mais títulos da Bundesliga vencidos por um jogador (12). Ele também venceu a Chuteira de Ouro e o prêmio de Melhor Jogador Jovem na Copa do Mundo de 2010. É o maior assistente da história da Bundesliga.",
     clubes: [
-      createClub(
-        "Bayern de Munique II",
-        { inicio: "2008", fim: "2009" },
-        { jogos: 35, gols: 16, assistencias: 4 }
-      ),
       createClub(
         "Bayern de Munique",
         { inicio: "2008", fim: "Presente" },
@@ -2396,7 +2381,7 @@ export const jogadores = [
         { jogos: 334, gols: 1, assistencias: 8 }
       ),
       createClub(
-        "Hebei China Fortune",
+        "Hebei Fortune",
         { inicio: "2018", fim: "2019" },
         { jogos: 54, gols: 1, assistencias: 0 }
       ),
@@ -3024,14 +3009,14 @@ export const jogadores = [
     status: "Ativo",
     nacionalidade: "Argentina",
     imagem:
-      "https://ca-times.brightspotcdn.com/dims4/default/472037c/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F01%2Fa0%2F839f14ba65fbd82a1d3b17006819%2Fba97a787dee84deb890a7fced8cb8e00",
+      "https://www.reuters.com/resizer/v2/CM2ANLSBRJNNXNN7CLKO3UI55U.jpg?auth=fd69032c4367d05fcc0b14730c9f7564c2fb638e9a3ad05f5e9be9f8812648ab&width=3369&quality=80",
     curiosidades:
       "Messi é o recordista absoluto de Bolas de Ouro (8) e Chuteiras de Ouro da Europa (6). Ele também detém o recorde de mais gols marcados em um único ano (91 gols em 2012). No Barcelona, formou o icônico trio 'MSN' com Suárez e Neymar. Sua rivalidade com Cristiano Ronaldo é frequentemente citada como a maior da história do esporte.",
     clubes: [
       createClub(
         "Barcelona",
         { inicio: "2004", fim: "2021" },
-        { jogos: 778, gols: 672, assistencias: 303 }
+        { jogos: 778, gols: 672, assistencias: 268 }
       ),
       createClub(
         "Paris Saint-Germain",
@@ -3041,7 +3026,7 @@ export const jogadores = [
       createClub(
         "Inter Miami",
         { inicio: "2023", fim: "Presente" },
-        { jogos: 84, gols: 75, assistencias: 37 }
+        { jogos: 86, gols: 78, assistencias: 39 }
       ),
     ],
     selecao: {
@@ -3156,21 +3141,21 @@ export const jogadores = [
       },
       {
         nome: "Bola de Ouro da Copa do Mundo",
-        anos: "2014",
+        anos: "2014, 2022",
         categoria: "individual",
         logo: "Bola de Ouro FIFA",
       },
       {
         nome: "Bola de Ouro do Mundial de Clubes",
+        logo: "Bola de Ouro FIFA",
         anos: "2009, 2011",
         categoria: "individual",
-        logo: "Mundial de Clubes",
       },
       {
         nome: "Bola de Prata do Mundial de Clubes",
+        logo: "Bola de Prata FIFA",
         anos: "2015",
         categoria: "individual",
-        logo: "Mundial de Clubes",
       },
       {
         nome: "Jogador do Ano da UEFA",
@@ -3231,7 +3216,7 @@ export const jogadores = [
       },
     ],
     tags: ["Lionel Messi", "Messi", "Leo Messi", "GOAT", "MSN"],
-    ultima_atualizacao: "06/11/2025",
+    ultima_atualizacao: "09/11/2025",
   },
 
   // BÉLGICA --------------------------------------------------------------------------------------------------
@@ -3633,7 +3618,7 @@ export const jogadores = [
         { jogos: 73, gols: 5, assistencias: 0 }
       ),
       createClub(
-        "Hamburgo",
+        "Hamburgo SV",
         { inicio: "2006", fim: "2008" },
         { jogos: 51, gols: 1, assistencias: 0 }
       ),
@@ -7567,11 +7552,6 @@ export const jogadores = [
     status: "Ativo",
     clubes: [
       createClub(
-        "Real Madrid Castilla",
-        { inicio: "2012", fim: "2013" },
-        { jogos: 30, gols: 2, assistencias: 0 }
-      ),
-      createClub(
         "Real Madrid",
         { inicio: "2012", fim: "2013" },
         { jogos: 1, gols: 0, assistencias: 1 }
@@ -8806,7 +8786,7 @@ export const jogadores = [
         { jogos: 169, gols: 77, assistencias: 65 }
       ),
       createClub(
-        "Zenit São Petersburgo",
+        "Zenit",
         { inicio: "2012", fim: "2016" },
         { jogos: 148, gols: 77, assistencias: 59 }
       ),
@@ -8858,17 +8838,17 @@ export const jogadores = [
       {
         nome: "Campeonato Russo",
         anos: "2015",
-        clube: "Zenit São Petersburgo",
+        clube: "Zenit",
       },
       {
         nome: "Copa da Rússia",
         anos: "2016",
-        clube: "Zenit São Petersburgo",
+        clube: "Zenit",
       },
       {
         nome: "Supercopa da Rússia",
         anos: "2015, 2016",
-        clube: "Zenit São Petersburgo",
+        clube: "Zenit",
       },
       {
         nome: "Superliga Chinesa",
@@ -9623,8 +9603,9 @@ export const jogadores = [
         nome: "Supercopa Rei",
         anos: "2025",
         clube: "Flamengo",
-      }, // Lille
+      },
 
+      // Lille OSC
       {
         nome: "Campeonato Francês",
         anos: "2020–21",
@@ -13432,7 +13413,7 @@ export const jogadores = [
         { jogos: 371, gols: 35, assistencias: 23 }
       ),
       createClub(
-        "Fenerbahce",
+        "Fenerbahçe",
         { inicio: "2022", fim: "2023" },
         { jogos: 45, gols: 1, assistencias: 5 }
       ),
@@ -13504,11 +13485,11 @@ export const jogadores = [
         clube: "Flamengo",
       },
 
-      // Fenerbahce
+      // Fenerbahçe
       {
         nome: "Copa da Turquia",
         anos: "2023",
-        clube: "Fenerbahce",
+        clube: "Fenerbahçe",
       },
 
       // Panathinaikos
@@ -14393,12 +14374,7 @@ export const jogadores = [
       "Son foi o primeiro jogador asiático a vencer a Chuteira de Ouro da Premier League (2022). Ele também venceu o Prêmio Puskás da FIFA em 2020 por um gol espetacular que percorreu todo o campo.",
     clubes: [
       createClub(
-        "Hamburgo II",
-        { inicio: "2009", fim: "2010" },
-        { jogos: 6, gols: 1, assistencias: 0 }
-      ),
-      createClub(
-        "Hamburgo",
+        "Hamburgo SV",
         { inicio: "2010", fim: "2013" },
         { jogos: 78, gols: 20, assistencias: 3 }
       ),
@@ -15902,11 +15878,6 @@ export const jogadores = [
 
     clubes: [
       createClub(
-        "Barcelona B",
-        { inicio: "2001", fim: "2003" },
-        { jogos: 54, gols: 5, assistencias: 0 }
-      ),
-      createClub(
         "Barcelona",
         { inicio: "2002", fim: "2018" },
         { jogos: 674, gols: 57, assistencias: 135 }
@@ -16060,16 +16031,6 @@ export const jogadores = [
     imagem:
       "https://m.media-amazon.com/images/M/MV5BNWMyOTNlOTctMGMxZi00MWFlLWJjZDAtMTQ3ODA0NWQ3NWY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     clubes: [
-      createClub(
-        "Barcelona C",
-        { inicio: "1996", fim: "1997" },
-        { jogos: 1, gols: 1, assistencias: 0 }
-      ),
-      createClub(
-        "Barcelona B",
-        { inicio: "1997", fim: "1999" },
-        { jogos: 89, gols: 6, assistencias: 0 }
-      ),
       createClub(
         "Barcelona",
         { inicio: "1999", fim: "2014" },
@@ -16394,11 +16355,6 @@ export const jogadores = [
     imagem:
       "https://te.i.uol.com.br/album/mais_feios_mais_bonitos_copa_do_mundo_f_004.jpg",
     clubes: [
-      createClub(
-        "Sporting Gijón B",
-        { inicio: "1999", fim: "2001" },
-        { jogos: 65, gols: 25, assistencias: 0 }
-      ),
       createClub(
         "Sporting Gijón",
         { inicio: "2001", fim: "2003" },
@@ -16896,16 +16852,6 @@ export const jogadores = [
 
     clubes: [
       createClub(
-        "Real Madrid C",
-        { inicio: "1998", fim: "1999" },
-        { jogos: 26, gols: 0, assistencias: 0 }
-      ),
-      createClub(
-        "Real Madrid B",
-        { inicio: "1999", fim: "2000" },
-        { jogos: 4, gols: 0, assistencias: 0 }
-      ),
-      createClub(
         "Real Madrid",
         { inicio: "1999", fim: "2015" },
         { jogos: 725, gols: 0, assistencias: 0 }
@@ -17168,19 +17114,21 @@ export const jogadores = [
     ],
   },
 
-  // Marco Asensio (Marco Asensio Willemsen)
+  // Marco Asensio
   {
     nome: "Marco Asensio",
-    background: "$",
+    background: "Titanium",
     descricao:
-      "Meia-atacante/ponta espanhol conhecido por sua potente finalização de pé esquerdo e versatilidade. Foi peça importante na era de múltiplas conquistas de Liga dos Campeões do Real Madrid. Após uma passagem pelo PSG, atualmente defende o Fenerbahçe.",
+      "Meia-atacante/ponta espanhol conhecido por sua potente finalização de pé esquerdo e versatilidade. Foi peça importante na era de múltiplas conquistas de Liga dos Campeões do Real Madrid, vencendo 17 títulos principais pelo clube.",
     pagina: "https://www.instagram.com/marcoasensio10/",
     nacionalidade: "Espanha",
-    imagem: "https://s.hs-data.com/bilder/spieler/gross/257323.jpg",
+    imagem: "https://pbs.twimg.com/media/G3sq4_3XsAE1iHN.jpg",
     numero: "21",
     posicao: "Meia-atacante / Ponta",
-    dataNascimento: "21/01/1996",
+    dataNascimento: "01/21/1996",
     status: "Ativo",
+    curiosidades:
+      "Seu chute potente de longa distância é sua marca registrada, sendo frequentemente comparado a outros grandes canhotos. Uma de suas maiores decepções foi não ter sido aproveitado no Real Madrid na posição de '10', preferindo a ponta. Sua mãe é holandesa e seu nome do meio é Willemsen.",
     clubes: [
       createClub(
         "Mallorca",
@@ -17226,19 +17174,18 @@ export const jogadores = [
         clube: "Real Madrid",
       },
       {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2016, 2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      {
         nome: "Campeonato Espanhol",
         anos: "2017, 2020, 2022",
         clube: "Real Madrid",
       },
-      { nome: "Copa do Rei", anos: "2023", clube: "Real Madrid" },
       {
         nome: "Supercopa da UEFA",
         anos: "2016, 2017, 2022",
-        clube: "Real Madrid",
-      },
-      {
-        nome: "Mundial de Clubes FIFA",
-        anos: "2016, 2017, 2018, 2022",
         clube: "Real Madrid",
       },
       {
@@ -17246,6 +17193,12 @@ export const jogadores = [
         anos: "2017, 2020, 2022",
         clube: "Real Madrid",
       },
+      {
+        nome: "Copa do Rei",
+        anos: "2023",
+        clube: "Real Madrid",
+      },
+
       // Paris Saint-Germain
       {
         nome: "Campeonato Francês",
@@ -17257,17 +17210,24 @@ export const jogadores = [
         anos: "2024",
         clube: "Paris Saint-Germain",
       },
+
       // Seleção Espanhola
-      { nome: "UEFA Nations league", anos: "2023", clube: "Espanha" },
+      {
+        nome: "UEFA Nations League",
+        anos: "2023",
+        clube: "Espanha",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Seleção da Eurocopa Sub-19",
+        logo: "Eurocopa Sub-19",
+        anos: "2015",
+        categoria: "individual",
+      },
     ],
-    tags: [
-      "meia-atacante",
-      "espanha",
-      "real madrid",
-      "fenerbahçe",
-      "Paris Saint-Germain",
-      "PSG",
-    ],
+    tags: ["Marco Asensio", "Marco Asensio Willemsen", "Asensio"],
+    ultima_atualizacao: "09/11/2025",
   },
 
   //Pablo Marí
@@ -17647,11 +17607,6 @@ export const jogadores = [
 
     clubes: [
       createClub(
-        "Barcelona B",
-        { inicio: "1997", fim: "1999" },
-        { jogos: 61, gols: 4, assistencias: 0 }
-      ),
-      createClub(
         "Barcelona",
         { inicio: "1998", fim: "2015" },
         { jogos: 767, gols: 85, assistencias: 184 }
@@ -17813,11 +17768,6 @@ export const jogadores = [
     dataNascimento: "04/11/1998",
     status: "Ativo",
     clubes: [
-      createClub(
-        "Real Madrid Castilla",
-        { inicio: "2016", fim: "2017" },
-        { jogos: 28, gols: 1, assistencias: 0 }
-      ),
       createClub(
         "Real Madrid",
         { inicio: "2017", fim: "2020" },
@@ -18093,11 +18043,6 @@ export const jogadores = [
     dataNascimento: "03/06/2005",
     status: "Ativo",
     clubes: [
-      createClub(
-        "Rennes II",
-        { inicio: "2021", fim: "2023" },
-        { jogos: 11, gols: 1, assistencias: 1 }
-      ),
       createClub(
         "Rennes",
         { inicio: "2022", fim: "2024" },
@@ -20890,7 +20835,7 @@ export const jogadores = [
 
     clubes: [
       createClub(
-        "Honvéd",
+        "Honvéd Budapest",
         { inicio: "1943", fim: "1956" },
         { jogos: 367, gols: 383, assistencias: 0 }
       ),
@@ -20990,11 +20935,11 @@ export const jogadores = [
         clube: "Real Madrid",
       },
 
-      // Honvéd
+      // Honvéd Budapest
       {
         nome: "Campeonato Húngaro",
         anos: "1950, 1952, 1954, 1955",
-        clube: "Honvéd",
+        clube: "Honvéd Budapest",
       },
     ],
     tags: ["Major Galopante"],
@@ -22025,6 +21970,100 @@ export const jogadores = [
     ultima_atualizacao: "27/10/25",
   },
 
+  // Jack Grealish
+  {
+    nome: "Jack Grealish",
+    background: "Titanium",
+    descricao:
+      "Ponta/Meia-atacante inglês conhecido por seu estilo de jogo ousado, excelente drible em progressão e por ser um dos jogadores que mais sofre faltas na Europa. Peça fundamental na Tríplice Coroa do Manchester City em 2023.",
+    pagina: "https://www.instagram.com/jackgrealish/",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/10/4/8a821cfd7927410f83d660f7b9d25390",
+    numero: "18",
+    posicao: "Ponta-Esquerda / Meia-Atacante",
+    dataNascimento: "09/10/1995",
+    status: "Ativo",
+    curiosidades:
+      "Grealish é um dos poucos jogadores que optou por representar a Inglaterra em vez da República da Irlanda, apesar de ter jogado nas seleções de base irlandesas. Tornou-se a contratação mais cara da história do futebol inglês em 2021 (na época). É famoso por usar meias baixas, herdando o estilo de George Best.",
+    clubes: [
+      createClub(
+        "Aston Villa",
+        { inicio: "2012", fim: "2021" },
+        { jogos: 213, gols: 32, assistencias: 43 }
+      ),
+      createClub(
+        "Notts County",
+        { inicio: "2013", fim: "2014" },
+        { jogos: 38, gols: 5, assistencias: 7 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "2021", fim: "2025" },
+        { jogos: 135, gols: 18, assistencias: 24 }
+      ),
+      createClub(
+        "Everton",
+        { inicio: "2025", fim: "Atual" },
+        { jogos: 10, gols: 1, assistencias: 4 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2020", fim: "Atual" },
+      estatisticas: { jogos: 41, gols: 2, assistencias: 8 },
+    },
+    titulos: [
+      // Manchester City
+      {
+        nome: "UEFA Champions League",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Campeonato Inglês",
+        anos: "2022, 2023, 2024",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2024",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2023",
+        clube: "Manchester City",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Jogador do Ano do Aston Villa",
+        logo: "Individual",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da PFA",
+        logo: "PFA",
+        anos: "2020, 2021",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Jack Grealish", "Grealish", "Jackie", "Jack"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // Jude Bellingham
   {
     nome: "Jude Bellingham",
@@ -22156,7 +22195,7 @@ export const jogadores = [
         { jogos: 323, gols: 100, assistencias: 88 }
       ),
       createClub(
-        "Hamburgo",
+        "Hamburgo SV",
         { inicio: "1977", fim: "1980" },
         { jogos: 111, gols: 40, assistencias: 7 }
       ),
@@ -22232,11 +22271,11 @@ export const jogadores = [
         clube: "Liverpool",
       },
 
-      // HAMBURGO
+      // HAMBURGO SV
       {
         nome: "Campeonato Alemão",
         anos: "1979",
-        clube: "Hamburgo",
+        clube: "Hamburgo SV",
       },
 
       // NEWCASTLE UNITED
@@ -23703,6 +23742,172 @@ export const jogadores = [
     ultima_atualizacao: "05/11/2025",
   },
 
+  // Ciro Immobile
+  {
+    nome: "Ciro Immobile",
+    background: "Titanium",
+    descricao:
+      "Atacante e centroavante italiano, um dos maiores artilheiros da Serie A na década passada. É conhecido por seu faro de gol e por se tornar o maior artilheiro da história da Lazio, além de ter conquistado a Bota de Ouro Europeia em 2020.",
+    pagina: "https://www.instagram.com/ciroimmobile/",
+    nacionalidade: "Itália",
+    imagem:
+      "https://hips.hearstapps.com/hmg-prod/images/ciro-immobile-of-bologna-in-action-during-the-pre-season-news-photo-1754403991.pjpeg",
+    numero: "9",
+    posicao: "Centroavante",
+    dataNascimento: "02/20/1990",
+    status: "Ativo",
+    curiosidades:
+      "Immobile é o único jogador na história a ter vencido quatro vezes a artilharia do Campeonato Italiano. Em 2020, ele empatou o recorde de gols em uma única temporada da Serie A (36 gols), vencendo a Chuteira de Ouro da UEFA. Ele é o maior artilheiro da história da Lazio com 207 gols.",
+    clubes: [
+      createClub(
+        "Sorrento",
+        { inicio: "2007", fim: "2009" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2009", fim: "2012" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Siena",
+        { inicio: "2010", fim: "2010" },
+        { jogos: 4, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Grosseto",
+        { inicio: "2011", fim: "2011" },
+        { jogos: 16, gols: 1, assistencias: 1 }
+      ),
+      createClub(
+        "Pescara",
+        { inicio: "2011", fim: "2012" },
+        { jogos: 44, gols: 28, assistencias: 8 }
+      ),
+      createClub(
+        "Genoa",
+        { inicio: "2012", fim: "2013" },
+        { jogos: 34, gols: 5, assistencias: 3 }
+      ),
+      createClub(
+        "Torino",
+        { inicio: "2013", fim: "2014" },
+        { jogos: 34, gols: 22, assistencias: 3 }
+      ),
+      createClub(
+        "Borussia Dortmund",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 34, gols: 10, assistencias: 4 }
+      ),
+      createClub(
+        "Sevilla",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 15, gols: 4, assistencias: 1 }
+      ),
+      createClub(
+        "Torino",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 14, gols: 5, assistencias: 2 }
+      ),
+      createClub(
+        "Lazio",
+        { inicio: "2016", fim: "2024" },
+        { jogos: 340, gols: 207, assistencias: 55 }
+      ),
+      createClub(
+        "Beşiktaş",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 41, gols: 19, assistencias: 4 }
+      ),
+      createClub(
+        "Bologna",
+        { inicio: "2025", fim: "Atual" },
+        { jogos: 15, gols: 6, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "2014", fim: "Atual" },
+      estatisticas: { jogos: 57, gols: 17, assistencias: 7 },
+    },
+    titulos: [
+      // Pescara
+      {
+        nome: "Campeonato Italiano Série B",
+        anos: "2012",
+        clube: "Pescara",
+      },
+
+      // Borussia Dortmund
+      {
+        nome: "Supercopa da Alemanha",
+        anos: "2014",
+        clube: "Borussia Dortmund",
+      },
+
+      // Lazio
+      {
+        nome: "Copa da Itália",
+        anos: "2019",
+        clube: "Lazio",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2017, 2019",
+        clube: "Lazio",
+      },
+
+      // Beşiktaş
+      {
+        nome: "Supercopa da Turquia",
+        anos: "2024",
+        clube: "Beşiktaş",
+      },
+
+      // Seleção Italiana
+      {
+        nome: "Eurocopa",
+        anos: "2020",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Chuteira de Ouro UEFA",
+        logo: "Chuteira de Ouro",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2014, 2018, 2020, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da UEFA Europa League",
+        logo: "UEFA Europa League",
+        anos: "2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Italiano Série B",
+        logo: "Campeonato Italiano Série B",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2020",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Ciro Immobile", "Immobile", "Ciro"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // Fabio Cannavaro
   {
     nome: "Fabio Cannavaro",
@@ -23850,6 +24055,91 @@ export const jogadores = [
     ],
     tags: ["Fabio Cannavaro"],
     ultima_atualizacao: "05/11/2025",
+  },
+
+  // Federico Chiesa
+  {
+    nome: "Federico Chiesa",
+    background: "Titanium",
+    descricao:
+      "Ponta/atacante italiano conhecido por sua velocidade explosiva, dribles verticais e forte capacidade de finalização. Foi peça-chave na conquista da Eurocopa pela Itália, sendo um dos jogadores mais perigosos de sua geração no ataque.",
+    pagina: "https://www.instagram.com/fedexchiesa/",
+    nacionalidade: "Itália",
+    imagem:
+      "https://www.daveockop.com/wp-content/uploads/2025/04/dl.beatsnoop.com-3000-DzLZmNf1dC.webp",
+    numero: "14",
+    posicao: "Ponta-Direita / Atacante",
+    dataNascimento: "10/25/1997",
+    status: "Ativo",
+    curiosidades:
+      "É filho do ex-jogador Enrico Chiesa, que também defendeu a Seleção Italiana e jogou na Fiorentina. Sofreu uma grave lesão no ligamento cruzado do joelho em 2022, o que o afastou dos gramados por quase um ano. Foi um dos destaques da Itália na campanha vitoriosa da Eurocopa 2020.",
+    clubes: [
+      createClub(
+        "Fiorentina",
+        { inicio: "2016", fim: "2020" },
+        { jogos: 153, gols: 35, assistencias: 23 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2020", fim: "2024" },
+        { jogos: 131, gols: 32, assistencias: 28 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 25, gols: 4, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "2017", fim: "Presente" },
+      estatisticas: { jogos: 59, gols: 8, assistencias: 6 },
+    },
+    titulos: [
+      // Juventus
+      {
+        nome: "Copa da Itália",
+        anos: "2021, 2024",
+        clube: "Juventus",
+      },
+      {
+        nome: "Supercopa da Itália",
+        anos: "2020",
+        clube: "Juventus",
+      },
+
+      // Liverpool
+      {
+        nome: "Campeonato Inglês",
+        anos: "2025",
+        clube: "Liverpool",
+      },
+
+      // Seleção Italiana
+      {
+        nome: "Eurocopa",
+        anos: "2020",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2020",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Jogador Italiano do Ano",
+        logo: "AIC",
+        anos: "2021",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Federico Chiesa", "Chiesa", "Fede"],
+    ultima_atualizacao: "09/11/2025",
   },
 
   // Franco Baresi
@@ -24941,6 +25231,110 @@ export const jogadores = [
     ultima_atualizacao: "05/11/2025",
   },
 
+  // Marco Verratti
+  {
+    nome: "Marco Verratti",
+    background: "Titanium",
+    descricao:
+      "Meio-campista italiano, um dos melhores 'registas' da sua geração. Notável por sua técnica, visão de jogo, controle em espaços curtos e capacidade de ditar o ritmo da partida, Verratti foi o coração do Paris Saint-Germain por 11 temporadas.",
+    pagina: "https://www.instagram.com/marco_verratti92/",
+    nacionalidade: "Itália",
+    imagem: "https://en.nogomania.com/GetFile.ashx?id=277198",
+    numero: "6",
+    posicao: "Meia Central / Volante",
+    dataNascimento: "11/05/1992",
+    status: "Ativo",
+    curiosidades:
+      "Verratti é o jogador com mais títulos na história do Paris Saint-Germain. Embora tenha sido frequentemente criticado por indisciplina, ele tem uma das maiores médias de faltas sofridas em campo. Ele saiu do PSG para o Al-Arabi após 11 anos, se juntando a um projeto no Catar.",
+    clubes: [
+      createClub(
+        "Pescara",
+        { inicio: "2008", fim: "2012" },
+        { jogos: 78, gols: 2, assistencias: 9 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "2012", fim: "2023" },
+        { jogos: 416, gols: 11, assistencias: 61 }
+      ),
+      createClub(
+        "Al-Arabi",
+        { inicio: "2023", fim: "2025" },
+        { jogos: 39, gols: 4, assistencias: 12 }
+      ),
+      createClub(
+        "Al-Duhail",
+        { inicio: "2025", fim: "Atual" },
+        { jogos: 10, gols: 0, assistencias: 3 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "2012", fim: "Atual" },
+      estatisticas: { jogos: 55, gols: 3, assistencias: 2 },
+    },
+    titulos: [
+      // Pescara
+      {
+        nome: "Campeonato Italiano Série B",
+        anos: "2012",
+        clube: "Pescara",
+      },
+
+      // Paris Saint-Germain
+      {
+        nome: "Campeonato Francês",
+        anos: "2013, 2014, 2015, 2016, 2018, 2019, 2020, 2022, 2023",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da França",
+        anos: "2015, 2016, 2017, 2018, 2020, 2021",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Copa da Liga Francesa",
+        anos: "2014, 2015, 2016, 2017, 2018, 2020",
+        clube: "Paris Saint-Germain",
+      },
+      {
+        nome: "Supercopa da França",
+        anos: "2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022",
+        clube: "Paris Saint-Germain",
+      },
+
+      // Seleção
+      {
+        nome: "Eurocopa",
+        anos: "2020",
+        clube: "Itália",
+        logoVariavel: true,
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Jogador da Temporada do Campeonato Italiano Série B",
+        logo: "Campeonato Italiano Série B",
+        anos: "2012",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador Jovem do Campeonato Francês",
+        logo: "Campeonato Francês",
+        anos: "2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano do Campeonato Francês",
+        logo: "Campeonato Francês",
+        anos: "2013, 2014, 2015, 2016, 2017, 2018, 2019",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Marco Verratti", "Verratti", "Marco", "Veratti", "Marquito"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // Nicolò Barella
   {
     nome: "Nicolò Barella",
@@ -25992,11 +26386,6 @@ export const jogadores = [
       "Guerrero é o único jogador na história a ser artilheiro de três edições diferentes da Copa América (2011, 2015, 2019). Ele retornou ao futebol peruano, vestindo a camisa 34 no Alianza Lima. É o maior artilheiro estrangeiro da história do Corinthians na Arena Corinthians.",
     clubes: [
       createClub(
-        "Bayern de Munique II",
-        { inicio: "2002", fim: "2004" },
-        { jogos: 47, gols: 21, assistencias: 0 }
-      ),
-      createClub(
         "Bayern de Munique",
         { inicio: "2004", fim: "2006" },
         { jogos: 45, gols: 13, assistencias: 4 }
@@ -26852,6 +27241,163 @@ export const jogadores = [
     ultima_atualizacao: "01/11/25",
   },
 
+  // Deco
+  {
+    nome: "Deco",
+    background: "Diamond",
+    descricao:
+      "Meio-campista luso-brasileiro conhecido por sua visão de jogo excepcional, controle de bola e dribles curtos. Foi o motor do Porto de Mourinho e do Barcelona de Ronaldinho. Atualmente, é diretor esportivo do Barcelona.",
+    pagina: "https://www.instagram.com/deco_official/",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://conversasredondas.wordpress.com/wp-content/uploads/2022/08/deco.jpg?w=640",
+    numero: "20",
+    posicao: "Meia Central / Meia Ofensivo",
+    dataNascimento: "08/27/1977",
+    status: "Aposentado",
+    curiosidades:
+      "Deco é um dos poucos jogadores a ter vencido a UEFA Champions League por dois clubes diferentes (Porto e Barcelona). Foi eleito o Melhor Jogador do Clube da UEFA em 2004 e ficou em segundo lugar na votação da Bola de Ouro FIFA no mesmo ano. Após a aposentadoria, tornou-se diretor esportivo do Barcelona.",
+    clubes: [
+      createClub(
+        "Corinthians",
+        { inicio: "1997", fim: "1997" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Alverca",
+        { inicio: "1997", fim: "1998" },
+        { jogos: 32, gols: 13, assistencias: 0 }
+      ),
+      createClub(
+        "Salgueiros",
+        { inicio: "1998", fim: "1999" },
+        { jogos: 12, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "1999", fim: "2004" },
+        { jogos: 228, gols: 46, assistencias: 63 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2004", fim: "2008" },
+        { jogos: 161, gols: 22, assistencias: 45 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "2008", fim: "2010" },
+        { jogos: 58, gols: 6, assistencias: 10 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2010", fim: "2013" },
+        { jogos: 92, gols: 7, assistencias: 15 }
+      ),
+    ],
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "2003", fim: "2010" },
+      estatisticas: { jogos: 75, gols: 5, assistencias: 10 },
+    },
+    titulos: [
+      // Porto
+      {
+        nome: "UEFA Champions League",
+        anos: "2004",
+        clube: "Porto",
+      },
+      {
+        nome: "UEFA Europa League",
+        anos: "2003",
+        clube: "Porto",
+      },
+      {
+        nome: "Campeonato Português",
+        anos: "1999, 2003, 2004",
+        clube: "Porto",
+      },
+      {
+        nome: "Taça de Portugal",
+        anos: "2000, 2001, 2003",
+        clube: "Porto",
+      },
+
+      // Barcelona
+      {
+        nome: "UEFA Champions League",
+        anos: "2006",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2005, 2006",
+        clube: "Barcelona",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2005, 2006",
+        clube: "Barcelona",
+      },
+
+      // Chelsea
+      {
+        nome: "Campeonato Inglês",
+        anos: "2010",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2009, 2010",
+        clube: "Chelsea",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2009",
+        clube: "Chelsea",
+      },
+
+      // Fluminense
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2010, 2012",
+        clube: "Fluminense",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2012",
+        clube: "Fluminense",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Jogador do Clube da UEFA",
+        logo: "UEFA",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Meio-Campista do Clube da UEFA",
+        logo: "UEFA",
+        anos: "2004, 2006",
+        categoria: "individual",
+      },
+      {
+        nome: "2º Lugar FIFA Jogador do Mundo do Ano",
+        logo: "FIFA World Player OF the Year",
+        anos: "2004",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da UEFA",
+        logo: "UEFA",
+        anos: "2004, 2005, 2006",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Deco", "Anderson Luís de Souza", "Mágico"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // Eusébio
   {
     nome: "Eusébio",
@@ -27009,11 +27555,6 @@ export const jogadores = [
     curiosidades:
       "Cancelo é um dos poucos jogadores portugueses a vencer a Serie A, a Premier League e a Bundesliga. Ele foi fundamental na conquista da UEFA Nations League por Portugal em 2019. Sua versatilidade faz dele um ativo tático valioso, muitas vezes jogando como um meio-campista 'invertido'.",
     clubes: [
-      createClub(
-        "Benfica B",
-        { inicio: "2012", fim: "2014" },
-        { jogos: 51, gols: 3, assistencias: 3 }
-      ),
       createClub(
         "Benfica",
         { inicio: "2014", fim: "2015" },
@@ -27439,6 +27980,234 @@ export const jogadores = [
     tags: ["lateral-esquerdo", "portugal", "sporting", "psg", "jovem talento"],
   },
 
+  // Pepe
+  {
+    nome: "Pepe",
+    background: "Diamond",
+    descricao:
+      "Zagueiro português conhecido por sua agressividade, força física, liderança e longevidade notável no mais alto nível do futebol. É uma lenda do Real Madrid e do Porto.",
+    pagina: "https://www.instagram.com/official_pepe/",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/34/2024/02/27/aos-41-anos-zagueiro-pepe-continua-acumulando-recordes-pelo-porto-e-com-portugal-1709052085883_v2_3x4.jpg",
+    numero: "3",
+    posicao: "Zagueiro Central",
+    dataNascimento: "02/26/1983",
+    status: "Aposentado",
+    curiosidades:
+      "Pepe é o jogador mais velho a disputar e marcar em uma Eurocopa (2024). Seu nome de registro é Képler Laveran de Lima Ferreira. Ele foi fundamental na conquista da Eurocopa de 2016, sendo eleito o Melhor em Campo na final. Sua carreira no Porto se estende por três décadas diferentes.",
+    clubes: [
+      createClub(
+        "Marítimo",
+        { inicio: "2002", fim: "2004" },
+        { jogos: 64, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "2004", fim: "2007" },
+        { jogos: 88, gols: 6, assistencias: 1 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2007", fim: "2017" },
+        { jogos: 334, gols: 15, assistencias: 20 }
+      ),
+      createClub(
+        "Beşiktaş",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 52, gols: 7, assistencias: 3 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "2019", fim: "2024" },
+        { jogos: 201, gols: 9, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "2007", fim: "2024" },
+      estatisticas: { jogos: 141, gols: 8, assistencias: 5 },
+    },
+    titulos: [
+      // Porto
+      {
+        nome: "Campeonato Português",
+        anos: "2006, 2007, 2020, 2022",
+        clube: "Porto",
+      },
+      {
+        nome: "Taça de Portugal",
+        anos: "2006, 2020, 2022, 2023, 2024",
+        clube: "Porto",
+      },
+      {
+        nome: "Supertaça de Portugal",
+        anos: "2006, 2020, 2022, 2024",
+        clube: "Porto",
+      },
+
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2014, 2016, 2017",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2014, 2016",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2014, 2016",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2008, 2012, 2017",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2011, 2014",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2008, 2012",
+        clube: "Real Madrid",
+      },
+
+      // Seleção
+      {
+        nome: "Eurocopa",
+        anos: "2016",
+        clube: "Portugal",
+        logoVariavel: true,
+      },
+      {
+        nome: "UEFA Nations League",
+        anos: "2019",
+        clube: "Portugal",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2008",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2012",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Seleção da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2016",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Time do Ano da ESM",
+        logo: "ESM",
+        anos: "2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor em Campo da Final da Eurocopa",
+        logo: "Eurocopa",
+        anos: "2016",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+    ],
+    tags: ["Pepe", "Képler Laveran de Lima Ferreira", "Kepler"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
+  // Rafael Leão
+  {
+    nome: "Rafael Leão",
+    background: "Plate",
+    descricao:
+      "Ponta-esquerda português conhecido por sua incrível velocidade, potência física e capacidade de drible. É o jogador mais talentoso e decisivo do AC Milan.",
+    pagina: "https://www.instagram.com/iamrafaeleao93/",
+    nacionalidade: "Portugal",
+    imagem:
+      "https://milanreports.com/wp-content/uploads/2025/08/Rafael-Leao-of-AC-Milan-celebrates-after-scoring-the-opening-scaled.jpg",
+    numero: "10",
+    posicao: "Ponta-esquerda / Centroavante",
+    dataNascimento: "06/10/1999",
+    status: "Ativo",
+    curiosidades:
+      "Leão conquistou o prêmio de Melhor Jogador da Serie A na temporada 2021/2022, sendo o primeiro português a receber a honraria. Ele também detém o recorde de gol mais rápido na história da Serie A. Sua celebração, inspirada em um rapper português, é famosa mundialmente.",
+    clubes: [
+      createClub(
+        "Sporting CP",
+        { inicio: "2018", fim: "2018" },
+        { jogos: 5, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Lille OSC",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 26, gols: 8, assistencias: 2 }
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "2019", fim: "Presente" },
+        { jogos: 250, gols: 70, assistencias: 60 }
+      ),
+    ],
+    selecao: {
+      nome: "Portugal",
+      periodo: { inicio: "2019", fim: "Presente" },
+      estatisticas: { jogos: 60, gols: 12, assistencias: 10 },
+    },
+    titulos: [
+      // AC Milan
+      {
+        nome: "Campeonato Italiano",
+        anos: "2022",
+        clube: "AC Milan",
+      },
+
+      // Seleção
+      {
+        nome: "UEFA Nations League",
+        anos: "2019",
+        clube: "Portugal",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Melhor Jogador do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2022, 2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Gol Mais Rápido do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: "2020",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Rafael Leao", "Leao", "Rafael"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // Rui Costa
   {
     nome: "Rui Costa",
@@ -27593,11 +28362,6 @@ export const jogadores = [
     dataNascimento: "13/02/2000",
     status: "Ativo",
     clubes: [
-      createClub(
-        "Porto B",
-        { inicio: "2019", fim: "2020" },
-        { jogos: 14, gols: 8, assistencias: 0 }
-      ),
       createClub(
         "Porto",
         { inicio: "2019", fim: "2022" },
@@ -29715,11 +30479,6 @@ export const jogadores = [
         "Peñarol",
         { inicio: "2015", fim: "2016" },
         { jogos: 25, gols: 6, assistencias: 0 }
-      ),
-      createClub(
-        "Real Madrid Castilla",
-        { inicio: "2016", fim: "2017" },
-        { jogos: 30, gols: 3, assistencias: 0 }
       ),
       createClub(
         "Deportivo La Coruña",
