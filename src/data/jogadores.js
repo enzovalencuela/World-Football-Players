@@ -6902,7 +6902,7 @@ export const jogadores = [
         { jogos: 47, gols: 7, assistencias: 10 }
       ),
       createClub(
-        "Dynamo Kyiv",
+        "Dínamo de Kiev",
         { inicio: "2011", fim: "2014" },
         { jogos: 84, gols: 20, assistencias: 18 }
       ),
@@ -6917,7 +6917,7 @@ export const jogadores = [
         { jogos: 310, gols: 70, assistencias: 81 }
       ),
       createClub(
-        "Al Duhail",
+        "Al-Duhail",
         { inicio: "2020", fim: "2021" },
         { jogos: 35, gols: 15, assistencias: 12 }
       ),
@@ -6940,16 +6940,16 @@ export const jogadores = [
         clube: "Coritiba",
       },
 
-      // Dynamo Kyiv
+      // Dínamo de Kiev
       {
         nome: "Supercopa da Ucrânia",
         anos: "2011",
-        clube: "Dynamo Kyiv",
+        clube: "Dínamo de Kiev",
       },
       {
         nome: "Copa da Ucrânia",
         anos: "2014",
-        clube: "Dynamo Kyiv",
+        clube: "Dínamo de Kiev",
       },
 
       // Palmeiras
@@ -6984,11 +6984,11 @@ export const jogadores = [
         clube: "Palmeiras",
       },
 
-      // Al Duhail
+      // Al-Duhail
       {
-        nome: "Emir of Qatar Cup",
+        nome: "Copa do Emir do Qatar",
         anos: "2020",
-        clube: "Al Duhail",
+        clube: "Al-Duhail",
       },
 
       // Individuais
@@ -7029,7 +7029,7 @@ export const jogadores = [
     pagina: "https://pt.wikipedia.org/wiki/Ademir_da_Guia",
     nacionalidade: "Brasil",
     imagem:
-      "https://www.palmeiras.com.br/wp-content/uploads/2020/04/ademir-da-guia.jpg",
+      "https://conteudo.imguol.com.br/c/bol/entretenimento/18/2019/02/20/o-palmeirense-ademir-da-guia-esq-disputa-bola-com-jogador-do-cruzeiro-durante-empate-de-1-x-1-em-partida-valida-pelo-torneio-roberto-gomes-pedroza-em-1968-1550637999153_v2_1x1.jpg",
     numero: "10",
     posicao: "Meia-ofensivo",
     dataNascimento: "04/04/1942",
@@ -7067,20 +7067,19 @@ export const jogadores = [
       },
       {
         nome: "Campeonato Brasileiro",
-        anos: "1967 (Taça Brasil), 1967 (Torneio Roberto Gomes Pedrosa), 1969, 1972, 1973",
+        anos: "1967, 1967, 1969, 1972, 1973",
         clube: "Palmeiras",
       },
 
       // Individuais
       {
-        nome: "Bola de Prata",
+        nome: "Bola de Prata do Campeonato Brasileiro",
         logo: "Campeonato Brasileiro",
         anos: "1972, 1973",
         categoria: "individual",
       },
       {
         nome: "Prêmio Belfort Duarte",
-        logo: "CBD",
         anos: "1973",
         categoria: "individual",
       },
@@ -7102,8 +7101,7 @@ export const jogadores = [
       "Meia canhoto de toque refinado e visão privilegiada, Alex comandava ataques com passes verticais, bola parada precisa e arremates de média distância. Líder técnico da conquista da Libertadores de 1999, tornou-se ídolo global antes de brilhar no Fenerbahçe.",
     pagina: "https://pt.wikipedia.org/wiki/Alex_(futebolista,_1977)",
     nacionalidade: "Brasil",
-    imagem:
-      "https://www.palmeiras.com.br/wp-content/uploads/2020/02/alex-palmeiras.jpg",
+    imagem: "https://nossopalmeiras.com.br/wp-content/uploads/2022/12/alex.jpg",
     numero: "10",
     posicao: "Meia-ofensivo",
     dataNascimento: "09/14/1977",
@@ -7289,8 +7287,7 @@ export const jogadores = [
       "Goleiro de reflexos rápidos e liderança carismática, Marcos se destacou por defesas espetaculares, elasticidade e valentia em jogos decisivos. Pilar da Libertadores de 1999, tornou-se símbolo de lealdade ao defender o Palmeiras durante toda a carreira.",
     pagina: "https://www.instagram.com/marcosgoleiro12/",
     nacionalidade: "Brasil",
-    imagem:
-      "https://conteudo.imguol.com.br/c/esporte/e3/2020/04/21/marcos-ex-goleiro-do-palmeiras-1587500641805_v2_1x1.jpg",
+    imagem: "https://pbs.twimg.com/media/EelRDHbXsAUL_in.jpg",
     numero: "12",
     posicao: "Goleiro",
     dataNascimento: "08/08/1973",
@@ -7406,7 +7403,7 @@ export const jogadores = [
     pagina: "https://pt.wikipedia.org/wiki/Evair",
     nacionalidade: "Brasil",
     imagem:
-      "https://www.palmeiras.com.br/wp-content/uploads/2015/03/evair.jpg",
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2015/10/26/562e96fa6a62f.jpeg",
     numero: "9",
     posicao: "Centroavante",
     dataNascimento: "05/10/1965",
@@ -7485,7 +7482,7 @@ export const jogadores = [
 
       // Yokohama Flügels
       {
-        nome: "Asian Cup Winners' Cup",
+        nome: "Copa Asiática dos Campeões de Copa",
         anos: "1995",
         clube: "Yokohama Flügels",
       },
