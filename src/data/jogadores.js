@@ -6877,9 +6877,9 @@ export const jogadores = [
   // Dudu
   {
     nome: "Dudu",
-    background: "default",
+    background: "plate",
     descricao:
-      "Ponta ou meia-atacante brasileiro conhecido por sua habilidade, velocidade e dribles, Dudu é um dos maiores ídolos recentes do Palmeiras. Sua trajetória inclui passagens por grandes clubes brasileiros e internacionais.",
+      "Extremo veloz e criativo, Dudu combina dribles curtos com leitura tática apurada para quebrar defesas. Desde 2015, tornou-se a referência técnica do Palmeiras e símbolo da era mais vencedora do clube no século XXI.",
     pagina: "https://www.instagram.com/duduoficial/",
     nacionalidade: "Brasil",
     imagem:
@@ -6888,10 +6888,630 @@ export const jogadores = [
     posicao: "Ponta / Meia-atacante",
     dataNascimento: "07/01/1992",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Maior artilheiro do Allianz Parque e líder em assistências do Palmeiras no século XXI. Clube ídolo principal: Palmeiras, onde ergueu todas as taças relevantes de sua carreira. Recuperou-se de grave lesão no joelho direito em 2024 para voltar aos gramados em 2025.",
+    clubes: [
+      createClub(
+        "Cruzeiro",
+        { inicio: "2009", fim: "2011" },
+        { jogos: 61, gols: 7, assistencias: 12 }
+      ),
+      createClub(
+        "Coritiba",
+        { inicio: "2010", fim: "2010" },
+        { jogos: 47, gols: 7, assistencias: 10 }
+      ),
+      createClub(
+        "Dynamo Kyiv",
+        { inicio: "2011", fim: "2014" },
+        { jogos: 84, gols: 20, assistencias: 18 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2014", fim: "2014" },
+        { jogos: 53, gols: 17, assistencias: 8 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2015", fim: "2020" },
+        { jogos: 310, gols: 70, assistencias: 81 }
+      ),
+      createClub(
+        "Al Duhail",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 35, gols: 15, assistencias: 12 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2021", fim: "Atual" },
+        { jogos: 133, gols: 18, assistencias: 26 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2015", fim: "2017" },
+      estatisticas: { jogos: 4, gols: 0, assistencias: 1 },
+    },
+    titulos: [
+      // Coritiba
+      {
+        nome: "Campeonato Paranaense",
+        anos: "2010",
+        clube: "Coritiba",
+      },
+
+      // Dynamo Kyiv
+      {
+        nome: "Supercopa da Ucrânia",
+        anos: "2011",
+        clube: "Dynamo Kyiv",
+      },
+      {
+        nome: "Copa da Ucrânia",
+        anos: "2014",
+        clube: "Dynamo Kyiv",
+      },
+
+      // Palmeiras
+      {
+        nome: "Copa do Brasil",
+        anos: "2015",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2016, 2018, 2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2020, 2022, 2023, 2024",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2020, 2021",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2022",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+
+      // Al Duhail
+      {
+        nome: "Emir of Qatar Cup",
+        anos: "2020",
+        clube: "Al Duhail",
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Prata",
+        logo: "Campeonato Brasileiro",
+        anos: "2016, 2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Craque do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2018",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Paulista",
+        logo: "Campeonato Paulista",
+        anos: "2019, 2020",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Eduardo Pereira Rodrigues",
+      "Eduardo Pereira Rodrigues",
+      "Eduardo Perreira Rodrigues",
+      "Dudu",
+    ],
+    ultima_atualizacao: "10/11/2025",
+  },
+
+  // Ademir da Guia
+  {
+    nome: "Ademir da Guia",
+    background: "titanium",
+    descricao:
+      "Meia cerebral e elegante, Ademir da Guia ditava o ritmo dos jogos com passes curtos, visão periférica e condução serena. Foi o cérebro da Primeira Academia do Palmeiras e referência técnica do futebol brasileiro nos anos 1960 e 1970.",
+    pagina: "https://pt.wikipedia.org/wiki/Ademir_da_Guia",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://www.palmeiras.com.br/wp-content/uploads/2020/04/ademir-da-guia.jpg",
+    numero: "10",
+    posicao: "Meia-ofensivo",
+    dataNascimento: "04/04/1942",
+    status: "Aposentado",
+    curiosidades:
+      "Recordista de jogos pelo Palmeiras com 902 partidas oficiais. Apelidado de Divino pela torcida graças à classe e visão de jogo. Clube ídolo principal: Palmeiras, onde ergueu a Primeira Academia alviverde.",
+    clubes: [
+      createClub(
+        "Bangu",
+        { inicio: "1959", fim: "1961" },
+        { jogos: 108, gols: 20, assistencias: 0 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "1962", fim: "1977" },
+        { jogos: 902, gols: 153, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1962", fim: "1974" },
+      estatisticas: { jogos: 9, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Palmeiras
+      {
+        nome: "Campeonato Paulista",
+        anos: "1963, 1966, 1972, 1974, 1976",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Torneio Rio-São Paulo",
+        anos: "1965",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "1967 (Taça Brasil), 1967 (Torneio Roberto Gomes Pedrosa), 1969, 1972, 1973",
+        clube: "Palmeiras",
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Prata",
+        logo: "Campeonato Brasileiro",
+        anos: "1972, 1973",
+        categoria: "individual",
+      },
+      {
+        nome: "Prêmio Belfort Duarte",
+        logo: "CBD",
+        anos: "1973",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Ademir Ferreira da Guia",
+      "Ademir Ferreira da Guia",
+      "Ademir da Guia",
+      "Divino",
+    ],
+    ultima_atualizacao: "10/11/2025",
+  },
+
+  // Alex (Alexsandro de Souza)
+  {
+    nome: "Alex",
+    background: "titanium",
+    descricao:
+      "Meia canhoto de toque refinado e visão privilegiada, Alex comandava ataques com passes verticais, bola parada precisa e arremates de média distância. Líder técnico da conquista da Libertadores de 1999, tornou-se ídolo global antes de brilhar no Fenerbahçe.",
+    pagina: "https://pt.wikipedia.org/wiki/Alex_(futebolista,_1977)",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://www.palmeiras.com.br/wp-content/uploads/2020/02/alex-palmeiras.jpg",
+    numero: "10",
+    posicao: "Meia-ofensivo",
+    dataNascimento: "09/14/1977",
+    status: "Aposentado",
+    curiosidades:
+      "Decisivo na semifinal histórica contra o River Plate em 1999 ao marcar três gols no antigo Parque Antarctica. Viveu auge no Fenerbahçe, onde ergueu estátua e apresentou números de lenda. Clube ídolo principal para esta estrutura: Palmeiras, palco da consagração que impulsionou sua carreira internacional.",
+    clubes: [
+      createClub(
+        "Coritiba",
+        { inicio: "1995", fim: "1997" },
+        { jogos: 124, gols: 39, assistencias: 0 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "1997", fim: "2000" },
+        { jogos: 172, gols: 55, assistencias: 0 }
+      ),
+      createClub(
+        "Parma",
+        { inicio: "2000", fim: "2001" },
+        { jogos: 8, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2000", fim: "2000" },
+        { jogos: 20, gols: 7, assistencias: 0 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2001", fim: "2003" },
+        { jogos: 121, gols: 56, assistencias: 0 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2002", fim: "2002" },
+        { jogos: 34, gols: 12, assistencias: 0 }
+      ),
+      createClub(
+        "Fenerbahçe",
+        { inicio: "2004", fim: "2012" },
+        { jogos: 378, gols: 171, assistencias: 0 }
+      ),
+      createClub(
+        "Coritiba",
+        { inicio: "2013", fim: "2014" },
+        { jogos: 113, gols: 32, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1998", fim: "2005" },
+      estatisticas: { jogos: 49, gols: 12, assistencias: 0 },
+    },
+    titulos: [
+      // Coritiba
+      {
+        nome: "Campeonato Paranaense",
+        anos: "1996",
+        clube: "Coritiba",
+      },
+
+      // Palmeiras
+      {
+        nome: "Campeonato Paulista",
+        anos: "1998",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "1998",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa Mercosul",
+        anos: "1998",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "1999",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Torneio Rio-São Paulo",
+        anos: "2000",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa dos Campeões",
+        anos: "2000",
+        clube: "Palmeiras",
+      },
+
+      // Flamengo
+      {
+        nome: "Campeonato Carioca",
+        anos: "2000",
+        clube: "Flamengo",
+      },
+
+      // Cruzeiro
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2003",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2003",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2003",
+        clube: "Cruzeiro",
+      },
+
+      // Fenerbahçe
+      {
+        nome: "Campeonato Turco",
+        anos: "2005, 2007, 2011",
+        clube: "Fenerbahçe",
+      },
+      {
+        nome: "Supercopa da Turquia",
+        anos: "2007, 2009",
+        clube: "Fenerbahçe",
+      },
+      {
+        nome: "Copa da Turquia",
+        anos: "2012",
+        clube: "Fenerbahçe",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "1999",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Prata",
+        logo: "Campeonato Brasileiro",
+        anos: "1999, 2003",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro",
+        logo: "Campeonato Brasileiro",
+        anos: "2003",
+        categoria: "individual",
+      },
+      {
+        nome: "Craque do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2003",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro do Campeonato Turco",
+        logo: "Campeonato Turco",
+        anos: "2007",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Alexsandro de Souza",
+      "Alexsandro de Souza",
+      "Alexsandro Souza",
+      "Alex",
+    ],
+    ultima_atualizacao: "10/11/2025",
+  },
+
+  // Marcos
+  {
+    nome: "Marcos",
+    background: "titanium",
+    descricao:
+      "Goleiro de reflexos rápidos e liderança carismática, Marcos se destacou por defesas espetaculares, elasticidade e valentia em jogos decisivos. Pilar da Libertadores de 1999, tornou-se símbolo de lealdade ao defender o Palmeiras durante toda a carreira.",
+    pagina: "https://www.instagram.com/marcosgoleiro12/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/e3/2020/04/21/marcos-ex-goleiro-do-palmeiras-1587500641805_v2_1x1.jpg",
+    numero: "12",
+    posicao: "Goleiro",
+    dataNascimento: "08/08/1973",
+    status: "Aposentado",
+    curiosidades:
+      "Ídolo absoluto do Palmeiras e herói da Copa Libertadores de 1999. Eleito melhor goleiro da Copa do Mundo FIFA 2002 ao conduzir o Brasil ao penta. Clube ídolo principal: Palmeiras, onde atuou por toda a carreira profissional.",
+    clubes: [
+      createClub(
+        "Palmeiras",
+        { inicio: "1992", fim: "2012" },
+        { jogos: 532, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1999", fim: "2005" },
+      estatisticas: { jogos: 29, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Palmeiras
+      {
+        nome: "Campeonato Paulista",
+        anos: "1993, 1994, 1996, 2008",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "1993, 1994",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "1998",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa Mercosul",
+        anos: "1998",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "1999",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Torneio Rio-São Paulo",
+        anos: "2000",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa dos Campeões",
+        anos: "2000",
+        clube: "Palmeiras",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "1999",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Copa do Mundo FIFA",
+        anos: "2002",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Melhor Goleiro da Copa do Mundo",
+        logo: "Copa do Mundo FIFA",
+        anos: "2002",
+        categoria: "individual",
+        logoVariavel: true,
+      },
+      {
+        nome: "Bola de Prata",
+        logo: "Campeonato Brasileiro",
+        anos: "1999, 2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Ouro",
+        logo: "Campeonato Brasileiro",
+        anos: "2000",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Goleiro da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "1999",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Marcos Roberto Silveira Reis",
+      "Marcos Roberto Silveira Reis",
+      "Marcos Roberto Silva Reis",
+      "São Marcos",
+    ],
+    ultima_atualizacao: "10/11/2025",
+  },
+
+  // Evair
+  {
+    nome: "Evair",
+    background: "plate",
+    descricao:
+      "Centroavante de técnica refinada, Evair aliava finalização precisa, pivô inteligente e frieza em cobranças de pênalti. Foi o goleador que liderou o Palmeiras na quebra do jejum de títulos nos anos 1990.",
+    pagina: "https://pt.wikipedia.org/wiki/Evair",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://www.palmeiras.com.br/wp-content/uploads/2015/03/evair.jpg",
+    numero: "9",
+    posicao: "Centroavante",
+    dataNascimento: "05/10/1965",
+    status: "Aposentado",
+    curiosidades:
+      "Autor do pênalti histórico que encerrou o jejum palmeirense em 1993. Foi artilheiro do Campeonato Paulista de 1993 com 21 gols. Clube ídolo principal: Palmeiras, onde conquistou seus títulos mais emblemáticos.",
+    clubes: [
+      createClub(
+        "Guarani",
+        { inicio: "1985", fim: "1988" },
+        { jogos: 192, gols: 90, assistencias: 0 }
+      ),
+      createClub(
+        "Atalanta",
+        { inicio: "1988", fim: "1991" },
+        { jogos: 114, gols: 25, assistencias: 0 }
+      ),
+      createClub(
+        "Porto",
+        { inicio: "1991", fim: "1992" },
+        { jogos: 17, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "1993", fim: "1994" },
+        { jogos: 126, gols: 66, assistencias: 0 }
+      ),
+      createClub(
+        "Yokohama Flügels",
+        { inicio: "1995", fim: "1996" },
+        { jogos: 60, gols: 35, assistencias: 0 }
+      ),
+      createClub(
+        "Vasco da Gama",
+        { inicio: "1997", fim: "1998" },
+        { jogos: 72, gols: 32, assistencias: 0 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "1999", fim: "2000" },
+        { jogos: 63, gols: 23, assistencias: 0 }
+      ),
+      createClub(
+        "Portuguesa",
+        { inicio: "2001", fim: "2001" },
+        { jogos: 24, gols: 8, assistencias: 0 }
+      ),
+      createClub(
+        "Goiás",
+        { inicio: "2002", fim: "2002" },
+        { jogos: 28, gols: 8, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "1992", fim: "1993" },
+      estatisticas: { jogos: 9, gols: 2, assistencias: 0 },
+    },
+    titulos: [
+      // Palmeiras
+      {
+        nome: "Campeonato Paulista",
+        anos: "1993, 1994",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Torneio Rio-São Paulo",
+        anos: "1993",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "1993, 1994",
+        clube: "Palmeiras",
+      },
+
+      // Yokohama Flügels
+      {
+        nome: "Asian Cup Winners' Cup",
+        anos: "1995",
+        clube: "Yokohama Flügels",
+      },
+
+      // Vasco da Gama
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "1997",
+        clube: "Vasco da Gama",
+      },
+
+      // Individuais
+      {
+        nome: "Artilheiro do Campeonato Paulista",
+        logo: "Campeonato Paulista",
+        anos: "1993",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Evair Aparecido Paulino",
+      "Evair Aparecido Paulino",
+      "Evair Aparecido Paulinho",
+      "Evair",
+    ],
+    ultima_atualizacao: "10/11/2025",
   },
 
   // Éder Militão
