@@ -21231,6 +21231,71 @@ export const jogadores = [
     ultima_atualizacao: "31/10/2025",
   },
 
+  // Bukayo Saka
+  {
+    nome: "Bukayo Saka",
+    background: "Promise",
+    descricao:
+      "Ponta-direita/meia-atacante inglês, conhecido por sua velocidade, dribles precisos e capacidade de criar jogadas e finalizar. É o principal produto da academia do Arsenal na última década e uma estrela da nova geração inglesa.",
+    pagina: "https://www.instagram.com/bukayosaka87/",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://e0.365dm.com/24/10/2048x1152/skysports-football-bukayo-saka_6707836.jpg?20241006071456",
+    numero: "7",
+    posicao: "Ponta-Direita / Meia-Atacante",
+    dataNascimento: "09/05/2001",
+    status: "Ativo",
+    curiosidades:
+      "Seu nome, Bukayo, significa 'acrescentar alegria' em iorubá (Nigéria). Ele é o jogador mais jovem a ganhar o prêmio de Jogador do Ano do Arsenal. Em 2023, ele foi nomeado Jovem Jogador do Ano pela PFA.",
+    clubes: [
+      createClub(
+        "Arsenal",
+        { inicio: "2018", fim: "Atual" },
+        { jogos: 250, gols: 60, assistencias: 65 }
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "2020", fim: "Atual" },
+      estatisticas: { jogos: 49, gols: 12, assistencias: 7 },
+    },
+    titulos: [
+      // Arsenal
+      {
+        nome: "Copa da Inglaterra",
+        anos: "2020",
+        clube: "Arsenal",
+      },
+      {
+        nome: "Supercopa da Inglaterra",
+        anos: "2020, 2023",
+        clube: "Arsenal",
+      },
+
+      // Títulos Individuais
+      {
+        nome: "Jovem Jogador do Ano da PFA",
+        logo: "PFA",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Time do Ano da Premier League",
+        logo: "PFA",
+        anos: "2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Jogador do Ano do Arsenal",
+        logo: "Individual",
+        anos: "2021, 2022, 2023",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Bukayo Saka", "Saka", "Starboy", "B"],
+    ultima_atualizacao: "09/11/2025",
+  },
+
   // Cole Palmer
   {
     nome: "Cole Palmer",
@@ -29332,6 +29397,98 @@ export const jogadores = [
       "Ibramovick",
       "Leão",
     ],
+  },
+
+  // UCRÂNIA --------------------------------------------------------------------------------------------------------------------
+
+  // Andriy Lunin
+  {
+    nome: "Andriy Lunin",
+    background: "plate",
+    descricao:
+      "Goleiro ucraniano conhecido por sua agilidade e bom reflexo, especialmente em defesas de longa distância. Reserva do Real Madrid, ele se destacou em momentos cruciais, como na campanha da Champions League de 2024.",
+    pagina: "https://www.instagram.com/andriylunin/",
+    nacionalidade: "Ucrânia",
+    imagem:
+      "https://www.polarissports.pt/wp-content/uploads/2024/04/Lunin_01.png",
+    numero: "13",
+    posicao: "Goleiro",
+    dataNascimento: "02/11/1999",
+    status: "Ativo",
+    curiosidades:
+      "Lunin foi o segundo goleiro mais jovem a estrear pela Seleção da Ucrânia. Em 2019, ele foi o goleiro titular e capitão da Seleção Ucraniana Sub-20 que venceu a Copa do Mundo FIFA Sub-20, onde também foi eleito o Melhor Goleiro do Torneio. Ele é conhecido por ser um goleiro com bom jogo de pés.",
+    clubes: [
+      createClub(
+        "Dnipro",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 25, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Zorya Luhansk",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 36, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2018", fim: "Presente" },
+        { jogos: 55, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Leganés",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 7, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Real Valladolid",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 2, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Real Oviedo",
+        { inicio: "2020", fim: "2020" },
+        { jogos: 20, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Ucrânia",
+      periodo: { inicio: "2018", fim: "Presente" },
+      estatisticas: { jogos: 15, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2023",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2022, 2024",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2022",
+        clube: "Real Madrid",
+      },
+    ],
+    tags: ["Andriy Lunin", "Lunin", "Andriy"],
+    ultima_atualizacao: "09/11/2025",
   },
 
   // URUGUAI --------------------------------------------------------------------------------------------------------------------
