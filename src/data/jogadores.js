@@ -7020,6 +7020,928 @@ export const jogadores = [
     ultima_atualizacao: "10/11/2025",
   },
 
+  // Weverton
+  {
+    nome: "Weverton",
+    background: "titanium",
+    descricao:
+      "Goleiro de reflexos rápidos e reposição precisa, referência defensiva da era vitoriosa do Palmeiras. Líder discreto, sustenta a linha alta da equipe com leitura de jogo e segurança em bolas aéreas.",
+    pagina: "https://www.instagram.com/weverton167/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://s2-ge.glbimg.com/q5uI8FQwAWKUw9u0-F7sKnzGWxM=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/u/8/Qp6MZrv3qZ7XyXz7kKbw/weverton-palmeiras-2024.jpg",
+    numero: "21",
+    posicao: "Goleiro",
+    dataNascimento: "12/13/1987",
+    status: "Ativo",
+    curiosidades:
+      "Campeão olímpico com a Seleção Brasileira em 2016 e presença constante nas convocações de Tite e Dorival Júnior. Recordista de jogos de um goleiro pelo Palmeiras no século XXI. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Corinthians",
+        { inicio: "2006", fim: "2010" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "América de Natal",
+        { inicio: "2008", fim: "2008" },
+        { jogos: 17, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Oeste",
+        { inicio: "2009", fim: "2009" },
+        { jogos: 25, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Botafogo-SP",
+        { inicio: "2010", fim: "2011" },
+        { jogos: 15, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2012", fim: "2017" },
+        { jogos: 215, gols: 0, assistencias: 2 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2018", fim: "Atual" },
+        { jogos: 382, gols: 0, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2016", fim: "Atual" },
+      estatisticas: { jogos: 36, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Athletico Paranaense
+      {
+        nome: "Campeonato Paranaense",
+        anos: "2016",
+        clube: "Athletico Paranaense",
+      },
+
+      // Palmeiras
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2018, 2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2020, 2021",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2022",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2020, 2022, 2023, 2024",
+        clube: "Palmeiras",
+      },
+
+      // Seleção Brasileira
+      {
+        nome: "Copa América",
+        anos: "2019",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Medalha de Ouro Olímpica",
+        logo: "Jogos Olímpicos",
+        anos: "2016",
+        clube: "Brasil Olímpico",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Prata - Goleiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2018, 2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Paulista",
+        logo: "Campeonato Paulista",
+        anos: "2023",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Weverton Pereira da Silva",
+      "Weverton Pereira da Silva",
+      "Weverton Perreira da Silva",
+      "Weverton",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
+  // Gustavo Gómez
+  {
+    nome: "Gustavo Gómez",
+    background: "titanium",
+    descricao:
+      "Zagueiro paraguaio de imposição física e ótimo tempo de bola, capitão da era vencedora do Palmeiras. Combina liderança, intensidade e aproveitamento ofensivo em bolas paradas.",
+    pagina: "https://www.instagram.com/gustavogomez1993/",
+    nacionalidade: "Paraguai",
+    imagem:
+      "https://s2-ge.glbimg.com/0z0cLmdYsR0-fBi8h1cHTul3e7Y=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/x/t/vMwyc7G45cWQVXIaQ6og/gustavo-gomez-palmeiras-2024.jpg",
+    numero: "15",
+    posicao: "Zagueiro",
+    dataNascimento: "06/05/1993",
+    status: "Ativo",
+    curiosidades:
+      "Capitão estrangeiro com mais jogos na história do Palmeiras e líder do vestiário sob Abel Ferreira. Referência da seleção paraguaia desde 2016. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Libertad",
+        { inicio: "2011", fim: "2016" },
+        { jogos: 118, gols: 13, assistencias: 4 }
+      ),
+      createClub(
+        "Lanús",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 16, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Milan",
+        { inicio: "2016", fim: "2018" },
+        { jogos: 20, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2018", fim: "Atual" },
+        { jogos: 292, gols: 32, assistencias: 11 }
+      ),
+    ],
+    selecao: {
+      nome: "Paraguai",
+      periodo: { inicio: "2013", fim: "Atual" },
+      estatisticas: { jogos: 74, gols: 7, assistencias: 3 },
+    },
+    titulos: [
+      // Libertad
+      {
+        nome: "Campeonato Paraguaio",
+        anos: "2012, 2014",
+        clube: "Libertad",
+      },
+
+      // Lanús
+      {
+        nome: "Copa do Bicentenário",
+        anos: "2016",
+        clube: "Lanús",
+      },
+
+      // Palmeiras
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2018, 2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2020, 2021",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2022",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2020, 2022, 2023, 2024",
+        clube: "Palmeiras",
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Prata - Zagueiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2019, 2020, 2021, 2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Craque do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2020, 2021",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Gustavo Raúl Gómez Portillo",
+      "Gustavo Raul Gomez Portillo",
+      "Gustavo Gomez",
+      "El General",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
+  // Murilo Cerqueira
+  {
+    nome: "Murilo Cerqueira",
+    background: "plate",
+    descricao:
+      "Zagueiro canhoto com excelente saída de bola, força física e leitura para antecipar. Parceiro constante de Gustavo Gómez na linha defensiva campeã do Palmeiras.",
+    pagina: "https://www.instagram.com/murilocp_26/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://s2-ge.glbimg.com/Vz-hEgz8vliVwBEmc6kAMPxQ6uM=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/q/E/qDrqxyvZ6eHpEBz8vYsg/murilo-palmeiras-2024.jpg",
+    numero: "26",
+    posicao: "Zagueiro",
+    dataNascimento: "03/03/1997",
+    status: "Ativo",
+    curiosidades:
+      "Foi revelado pelo Cruzeiro e eleito melhor zagueiro do Campeonato Paulista logo na primeira temporada pelo Palmeiras. Formou a dupla mais segura da Era Abel ao lado de Gustavo Gómez. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Cruzeiro",
+        { inicio: "2017", fim: "2019" },
+        { jogos: 91, gols: 4, assistencias: 6 }
+      ),
+      createClub(
+        "Lokomotiv Moscou",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 58, gols: 5, assistencias: 3 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2022", fim: "Atual" },
+        { jogos: 166, gols: 11, assistencias: 8 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil Sub-23",
+      periodo: { inicio: "2019", fim: "2021" },
+      estatisticas: { jogos: 8, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Cruzeiro
+      {
+        nome: "Copa do Brasil",
+        anos: "2017, 2018",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2018, 2019",
+        clube: "Cruzeiro",
+      },
+
+      // Lokomotiv Moscou
+      {
+        nome: "Copa da Rússia",
+        anos: "2021",
+        clube: "Lokomotiv Moscou",
+      },
+
+      // Palmeiras
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2022",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2022, 2023, 2024",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+
+      // Individuais
+      {
+        nome: "Melhor Zagueiro do Campeonato Paulista",
+        logo: "Campeonato Paulista",
+        anos: "2022",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Murilo Cerqueira Paim",
+      "Murilo Cerqueira Paim",
+      "Murillo Cerqueira Paim",
+      "Murilo",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
+  // Mayke
+  {
+    nome: "Mayke",
+    background: "plate",
+    descricao:
+      "Lateral-direito de alta intensidade, combina profundidade ofensiva com consistência defensiva. É peça-chave para o controle de amplitude do Palmeiras de Abel Ferreira.",
+    pagina: "https://www.instagram.com/maykeoficial/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://s2-ge.glbimg.com/vlTx-S1i2_Yb8x7Rj1eG3F6DPd8=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/s/l/3v1bqfQhO8zeFJCZVb6Q/mayke-palmeiras-2024.jpg",
+    numero: "12",
+    posicao: "Lateral-direito / Ala",
+    dataNascimento: "11/10/1992",
+    status: "Ativo",
+    curiosidades:
+      "Foi eleito melhor lateral-direito do Brasileirão nos dois títulos seguidos com o Cruzeiro. No Palmeiras, reinventou-se como ala em linha de cinco. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Cruzeiro",
+        { inicio: "2012", fim: "2017" },
+        { jogos: 192, gols: 8, assistencias: 27 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 53, gols: 1, assistencias: 8 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2019", fim: "Atual" },
+        { jogos: 198, gols: 5, assistencias: 21 }
+      ),
+    ],
+    selecao: {},
+    titulos: [
+      // Cruzeiro
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2014",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2013, 2014",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2017",
+        clube: "Cruzeiro",
+      },
+
+      // Palmeiras
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2018, 2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2020, 2021",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2022",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2020, 2022, 2023, 2024",
+        clube: "Palmeiras",
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Prata - Lateral-direito",
+        logo: "Campeonato Brasileiro",
+        anos: "2013, 2014",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2021",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Mayke Rocha Oliveira",
+      "Mayke Rocha Oliveira",
+      "Maike Rocha Oliveira",
+      "Mayke",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
+  // Joaquín Piquerez
+  {
+    nome: "Joaquín Piquerez",
+    background: "plate",
+    descricao:
+      "Lateral-esquerdo uruguaio com leitura tática, força física e cruzamento preciso. Garantiu equilíbrio defensivo e apoio ofensivo fundamental na reconstrução do Palmeiras multicampeão.",
+    pagina: "https://www.instagram.com/joaopiquerez/",
+    nacionalidade: "Uruguai",
+    imagem:
+      "https://s2-ge.glbimg.com/kH4gUQCrwddD9n-THgpg12yP1Zk=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/e/7/U6pV8SmBSGeS6vxrTxeA/piquerez-palmeiras-2024.jpg",
+    numero: "22",
+    posicao: "Lateral-esquerdo",
+    dataNascimento: "08/24/1998",
+    status: "Ativo",
+    curiosidades:
+      "Titular da seleção uruguaia desde 2021 e um dos estrangeiros mais queridos pela torcida alviverde. Foi eleito melhor lateral-esquerdo do Brasileirão em 2022 e 2023. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Defensor Sporting",
+        { inicio: "2017", fim: "2019" },
+        { jogos: 55, gols: 3, assistencias: 8 }
+      ),
+      createClub(
+        "Peñarol",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 45, gols: 2, assistencias: 7 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2021", fim: "Atual" },
+        { jogos: 176, gols: 6, assistencias: 24 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "2021", fim: "Atual" },
+      estatisticas: { jogos: 24, gols: 0, assistencias: 4 },
+    },
+    titulos: [
+      // Peñarol
+      {
+        nome: "Campeonato Uruguaio",
+        anos: "2021",
+        clube: "Peñarol",
+      },
+
+      // Palmeiras
+      {
+        nome: "Copa Libertadores",
+        anos: "2021",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2022",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2022, 2023, 2024",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Prata - Lateral-esquerdo",
+        logo: "Campeonato Brasileiro",
+        anos: "2022, 2023",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Joaquín Piquerez Moreira",
+      "Joaquin Piquerez Moreira",
+      "Joaquim Piqueires Moreira",
+      "Piquerez",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
+  // Aníbal Moreno
+  {
+    nome: "Aníbal Moreno",
+    background: "plate",
+    descricao:
+      "Volante argentino intenso na pressão, com passe vertical e leitura para cobrir espaços. Chegou ao Palmeiras em 2024 para dar novo ritmo à saída de bola.",
+    pagina: "https://www.instagram.com/anibalmoreno8/",
+    nacionalidade: "Argentina",
+    imagem:
+      "https://s2-ge.glbimg.com/4u9UF2-NaVvMJiFTFaNcPBFe4t4=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/y/n/ba8kR8CSeWcAQX5Wo37A/anibal-moreno-palmeiras-2024.jpg",
+    numero: "5",
+    posicao: "Volante",
+    dataNascimento: "05/13/1999",
+    status: "Ativo",
+    curiosidades:
+      "Formado no Newell's, foi destaque do Racing nas campanhas continentais antes de ser o pedido principal de Abel Ferreira para 2024. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Newell's Old Boys",
+        { inicio: "2019", fim: "2021" },
+        { jogos: 56, gols: 2, assistencias: 4 }
+      ),
+      createClub(
+        "Racing Club",
+        { inicio: "2021", fim: "2023" },
+        { jogos: 132, gols: 10, assistencias: 8 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2024", fim: "Atual" },
+        { jogos: 54, gols: 4, assistencias: 6 }
+      ),
+    ],
+    selecao: {
+      nome: "Argentina Sub-23",
+      periodo: { inicio: "2019", fim: "2021" },
+      estatisticas: { jogos: 12, gols: 1, assistencias: 1 },
+    },
+    titulos: [
+      // Racing Club
+      {
+        nome: "Trofeo de Campeones",
+        anos: "2022",
+        clube: "Racing Club",
+      },
+      {
+        nome: "Supercopa Internacional",
+        anos: "2023",
+        clube: "Racing Club",
+      },
+
+      // Palmeiras
+      {
+        nome: "Campeonato Paulista",
+        anos: "2024",
+        clube: "Palmeiras",
+      },
+    ],
+    tags: [
+      "Aníbal Ismael Moreno",
+      "Anibal Ismael Moreno",
+      "Anibal Ismael Morreno",
+      "Aníbal Moreno",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
+  // Zé Rafael
+  {
+    nome: "Zé Rafael",
+    background: "plate",
+    descricao:
+      "Meio-campista completo, combina condução curta, força física e chegada à área. É o equilíbrio entre marcação e construção no meio-campo do Palmeiras desde 2019.",
+    pagina: "https://www.instagram.com/zeraffa8/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://s2-ge.glbimg.com/99T4uS_CIDd-mgPob3nNDDZsaAk=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/e/I/lpQx7RQ0dPksdy6bPjKA/ze-rafael-palmeiras-2024.jpg",
+    numero: "8",
+    posicao: "Meia / Volante",
+    dataNascimento: "06/16/1993",
+    status: "Ativo",
+    curiosidades:
+      "Reconhecido pela torcida como motor do meio, adaptou-se a jogar como primeiro volante com Abel Ferreira. É um dos líderes técnicos da 'Era Abel'. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Coritiba",
+        { inicio: "2012", fim: "2014" },
+        { jogos: 73, gols: 9, assistencias: 10 }
+      ),
+      createClub(
+        "Novo Hamburgo",
+        { inicio: "2013", fim: "2013" },
+        { jogos: 14, gols: 3, assistencias: 2 }
+      ),
+      createClub(
+        "Ceará",
+        { inicio: "2013", fim: "2013" },
+        { jogos: 22, gols: 4, assistencias: 3 }
+      ),
+      createClub(
+        "Bahia",
+        { inicio: "2015", fim: "2018" },
+        { jogos: 168, gols: 32, assistencias: 29 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2019", fim: "Atual" },
+        { jogos: 276, gols: 32, assistencias: 34 }
+      ),
+    ],
+    selecao: {},
+    titulos: [
+      // Coritiba
+      {
+        nome: "Campeonato Paranaense",
+        anos: "2013",
+        clube: "Coritiba",
+      },
+
+      // Bahia
+      {
+        nome: "Campeonato Baiano",
+        anos: "2015, 2018",
+        clube: "Bahia",
+      },
+      {
+        nome: "Copa do Nordeste",
+        anos: "2017",
+        clube: "Bahia",
+      },
+
+      // Palmeiras
+      {
+        nome: "Copa Libertadores",
+        anos: "2020, 2021",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2022",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2020, 2022, 2023, 2024",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+
+      // Individuais
+      {
+        nome: "Bola de Prata - Volante",
+        logo: "Campeonato Brasileiro",
+        anos: "2022",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "José Rafael Vivian",
+      "Jose Rafael Vivian",
+      "Jose Rafaell Vivian",
+      "Zé Rafael",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
+  // Rony
+  {
+    nome: "Rony",
+    background: "plate",
+    descricao:
+      "Atacante de muita intensidade, mobilidade e pressão constante na saída adversária. Decisivo em mata-matas, tornou-se símbolo da entrega da 'Era Abel' no Palmeiras.",
+    pagina: "https://www.instagram.com/rony10oficial/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://s2-ge.glbimg.com/E1UXrM7h-tGtnqaq7H2wJ4sv9hY=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/A/k/6yH7pLiK6vMRYbwQF4uQ/rony-palmeiras-2024.jpg",
+    numero: "10",
+    posicao: "Atacante / Ponta",
+    dataNascimento: "12/11/1995",
+    status: "Ativo",
+    curiosidades:
+      "Único jogador a marcar em quatro finais consecutivas de Libertadores. É um dos maiores artilheiros palmeirenses em torneios internacionais. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Remo",
+        { inicio: "2014", fim: "2014" },
+        { jogos: 4, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 49, gols: 11, assistencias: 9 }
+      ),
+      createClub(
+        "Náutico",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 22, gols: 5, assistencias: 4 }
+      ),
+      createClub(
+        "Albirex Niigata",
+        { inicio: "2017", fim: "2017" },
+        { jogos: 7, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 80, gols: 19, assistencias: 11 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2020", fim: "Atual" },
+        { jogos: 259, gols: 80, assistencias: 34 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2021", fim: "Atual" },
+      estatisticas: { jogos: 8, gols: 0, assistencias: 1 },
+    },
+    titulos: [
+      // Remo
+      {
+        nome: "Campeonato Paraense",
+        anos: "2014",
+        clube: "Remo",
+      },
+
+      // Athletico Paranaense
+      {
+        nome: "Copa Sul-Americana",
+        anos: "2018",
+        clube: "Athletico Paranaense",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2019",
+        clube: "Athletico Paranaense",
+      },
+
+      // Palmeiras
+      {
+        nome: "Copa Libertadores",
+        anos: "2020, 2021",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2022",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2020, 2022, 2023, 2024",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+
+      // Individuais
+      {
+        nome: "Artilheiro da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2020, 2021",
+        categoria: "individual",
+      },
+      {
+        nome: "Rei da América",
+        logo: "El País",
+        anos: "2020",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Ronielson da Silva Barbosa",
+      "Ronielson da Silva Barbosa",
+      "Ronielson da Silva Barboza",
+      "Rony",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
+  // Richard Ríos
+  {
+    nome: "Richard Ríos",
+    background: "default",
+    descricao:
+      "Volante colombiano de boa cobertura defensiva e condução em transição, revelado do futsal e adaptado ao alto nível pelo Palmeiras. Atua como coringa no meio de Abel Ferreira.",
+    pagina: "https://www.instagram.com/richardrios27/",
+    nacionalidade: "Colômbia",
+    imagem:
+      "https://s2-ge.glbimg.com/ZnL0rzNRp_UZ3brn_2OsD4o5Imw=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/D/t/5igWjPnTvOcoE73W9lJA/richard-rios-palmeiras-2024.jpg",
+    numero: "27",
+    posicao: "Volante / Meio-campista",
+    dataNascimento: "06/27/2000",
+    status: "Ativo",
+    curiosidades:
+      "Ex-jogador de futsal do Flamengo, adaptou-se ao campo e virou titular na campanha do Brasileirão 2023. Estreou pela seleção colombiana em 2023 e marcou no amistoso contra a Espanha. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Flamengo",
+        { inicio: "2019", fim: "2022" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Guarani",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 18, gols: 1, assistencias: 2 }
+      ),
+      createClub(
+        "Mazatlán",
+        { inicio: "2021", fim: "2022" },
+        { jogos: 9, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Guarani",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 45, gols: 4, assistencias: 5 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2023", fim: "Atual" },
+        { jogos: 58, gols: 4, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Colômbia",
+      periodo: { inicio: "2023", fim: "Atual" },
+      estatisticas: { jogos: 15, gols: 1, assistencias: 1 },
+    },
+    titulos: [
+      // Palmeiras
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2024",
+        clube: "Palmeiras",
+      },
+    ],
+    tags: [
+      "Richard Steven Ríos Mendoza",
+      "Richard Steven Rios Mendoza",
+      "Richard Rios",
+      "Richard Ríos",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
   // Ademir da Guia
   {
     nome: "Ademir da Guia",
@@ -8936,21 +9858,88 @@ export const jogadores = [
   // Gabriel Menino
   {
     nome: "Gabriel Menino",
-    background: "default",
+    background: "plate",
     descricao:
-      "Meia versátil e com muita energia, Gabriel Menino é conhecido por sua força física e capacidade de marcar gols. É uma das grandes promessas do futebol brasileiro.",
+      "Meio-campista versátil revelado na base do Palmeiras, capaz de atuar como volante, meia ou ala. Destaca-se pela capacidade de pressão, passes longos e chutes de média distância.",
     pagina: "https://www.instagram.com/gabrielmenino/",
     nacionalidade: "Brasil",
     imagem:
       "https://s2-ge.glbimg.com/HkmGTOMyK2VKU1cy59Se57bfscg=/0x0:2047x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/r/Q/QICO5pTfC3sRRmX1MQyg/54272838982-41e50e91b4-k.jpg",
     numero: "25",
-    posicao: "Meia",
-    dataNascimento: "29/09/2000",
+    posicao: "Meia / Ala / Volante",
+    dataNascimento: "09/29/2000",
     status: "Ativo",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Formado na base alviverde, estreou em 2020 já como titular na Libertadores. Conquistou medalha de ouro olímpica em Tóquio 2020 representando o Brasil. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Palmeiras",
+        { inicio: "2020", fim: "Atual" },
+        { jogos: 228, gols: 18, assistencias: 24 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2020", fim: "2021" },
+      estatisticas: { jogos: 2, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Palmeiras
+      {
+        nome: "Copa Libertadores",
+        anos: "2020, 2021",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2022",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2022, 2023",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2020, 2022, 2023, 2024",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2023",
+        clube: "Palmeiras",
+      },
+
+      // Seleção
+      {
+        nome: "Medalha de Ouro Olímpica",
+        logo: "Jogos Olímpicos",
+        anos: "2021",
+        clube: "Brasil Olímpico",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "Seleção da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2020",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Gabriel Vinicius Menino",
+      "Gabriel Vinicius Menino",
+      "Gabriel Vinicios Menino",
+      "Gabriel Menino",
+    ],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Garrincha
