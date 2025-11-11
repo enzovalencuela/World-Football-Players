@@ -2870,6 +2870,70 @@ export const jogadores = [
     tags: [],
   },
 
+  // Rodrigo Garro
+{
+  nome: "Rodrigo Garro",
+  background: "Plate",
+  descricao:
+    "Meia-atacante argentino conhecido pela sua visão de jogo, qualidade no passe e, principalmente, por ser um exímio cobrador de faltas. É o cérebro criativo da equipe do Corinthians desde sua chegada.",
+  pagina: "https://www.instagram.com/rodri_garro/",
+  nacionalidade: "Argentina",
+  imagem:
+    "https://tntsports.com.br/__export/1717861529898/sites/esporteinterativo/img/2024/06/08/rodrigo_garro_-_20240608-122917_2049398_2871.jpg_423682103.jpg", 
+  numero: "8",
+  posicao: "Meia-Ofensivo / Ponta-Esquerda",
+  dataNascimento: "01/04/1998",
+  status: "Ativo",
+  curiosidades:
+    "Garro começou a carreira profissional no Instituto e passou por Talleres antes de chegar ao Brasil. Suas cobranças de falta são consideradas uma de suas maiores armas ofensivas no futebol sul-americano. Sua transferência para o Corinthians foi marcada por uma longa disputa judicial envolvendo o Talleres.",
+  clubes: [
+    createClub(
+      "Instituto",
+      { inicio: "2016", fim: "2017" },
+      { jogos: 1, gols: 0, assistencias: 0 }
+    ),
+    createClub(
+      "Patronato",
+      { inicio: "2018", fim: "2019" },
+      { jogos: 16, gols: 0, assistencias: 1 }
+    ),
+    createClub(
+      "Instituto",
+      { inicio: "2020", fim: "2021" },
+      { jogos: 39, gols: 7, assistencias: 4 }
+    ),
+    createClub(
+      "Talleres",
+      { inicio: "2022", fim: "2023" },
+      { jogos: 91, gols: 12, assistencias: 10 }
+    ),
+    createClub(
+      "Corinthians",
+      { inicio: "2024", fim: "Presente" },
+      { jogos: 65, gols: 10, assistencias: 15 }
+    ),
+  ],
+  selecao: {
+    nome: "Argentina",
+    periodo: { inicio: "2025", fim: "Presente" },
+    estatisticas: { jogos: 2, gols: 0, assistencias: 0 },
+  },
+  titulos: [
+    // Corinthians
+    {
+      nome: "Campeonato Paulista",
+      anos: "2025",
+      clube: "Corinthians",
+    },
+  ],
+  tags: [
+    "Rodrigo Garro",
+    "Garro",
+    "Rodr,i",
+  ],
+  ultima_atualizacao: "10/11/2025",
+},
+
   // Sergio Agüero
   {
     nome: "Sergio Agüero",
@@ -27047,6 +27111,101 @@ export const jogadores = [
     tags: ["Ryan Giggs", "Giggs", "Ryan", "Gigs"],
     ultima_atualizacao: "06/11/2025",
   },
+
+  // PARAGUAI -------------------------------------------------------------------------------------------------------------------------------
+
+  // Ángel Romero
+{
+  nome: "Ángel Romero",
+  background: "Titanium",
+  descricao:
+    "Atacante paraguaio conhecido por sua entrega tática, velocidade e por ser o maior artilheiro estrangeiro da história do Corinthians. Versátil, atua principalmente nas pontas, sendo uma peça fundamental na fase recente do clube.",
+  pagina: "https://www.instagram.com/angelromero11/",
+  nacionalidade: "Paraguai",
+  imagem:
+    "https://static.gazetaesportiva.com/uploads/2024/09/romero.webp", 
+  numero: "11",
+  posicao: "Ponta-Direita / Ponta-Esquerda",
+  dataNascimento: "07/04/1992",
+  status: "Ativo",
+  curiosidades:
+    "Seu irmão gêmeo, Óscar Romero, também é jogador de futebol e costuma atuar como meio-campista. Romero ultrapassou o peruano Paolo Guerrero e o argentino Carlitos Tévez para se tornar o estrangeiro com mais gols pelo Corinthians. Na primeira passagem, foi peça importante nos títulos brasileiros de 2015 e 2017.",
+  clubes: [
+    createClub(
+      "Cerro Porteño",
+      { inicio: "2011", fim: "2014" },
+      { jogos: 110, gols: 30, assistencias: 12 }
+    ),
+    createClub(
+      "Corinthians",
+      { inicio: "2014", fim: "2019" },
+      { jogos: 222, gols: 38, assistencias: 12 }
+    ),
+    createClub(
+      "San Lorenzo",
+      { inicio: "2019", fim: "2021" },
+      { jogos: 55, gols: 13, assistencias: 7 }
+    ),
+    createClub(
+      "Cruz Azul",
+      { inicio: "2022", fim: "2022" },
+      { jogos: 42, gols: 5, assistencias: 3 }
+    ),
+    createClub(
+      "Corinthians",
+      { inicio: "2023", fim: "Presente" },
+      { jogos: 101, gols: 12, assistencias: 4 }
+    ),
+  ],
+  selecao: {
+    nome: "Paraguai",
+    periodo: { inicio: "2013", fim: "Presente" },
+    estatisticas: { jogos: 55, gols: 5, assistencias: 4 },
+  },
+  titulos: [
+    // Cerro Porteño
+    {
+      nome: "Campeonato Paraguaio",
+      anos: "2012, 2013",
+      clube: "Cerro Porteño",
+    },
+
+    // Corinthians
+    {
+      nome: "Campeonato Brasileiro",
+      anos: "2015, 2017",
+      clube: "Corinthians",
+    },
+    {
+      nome: "Campeonato Paulista",
+      anos: "2017, 2018, 2025",
+      clube: "Corinthians",
+    },
+
+    // Cruz Azul
+    {
+      nome: "Supercopa do México",
+      anos: "2022",
+      clube: "Cruz Azul",
+    },
+    
+    // Títulos Individuais
+    {
+      nome: "Melhor Jogador do Campeonato Paraguaio",
+      logo: "Individual",
+      anos: "2013",
+      categoria: "individual",
+    },
+  ],
+  tags: [
+    "Angel Romero",
+    "Romero",
+    "Angel",
+    "Romero Corinthians",
+    "Romero Angel",
+  ],
+  ultima_atualizacao: "10/11/2025",
+},
 
   // PERU -------------------------------------------------------------------------------------------------------------------------------
 
