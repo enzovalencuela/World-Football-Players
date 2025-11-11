@@ -1777,7 +1777,7 @@ export const jogadores = [
       "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/Rossi-Flamengo-e1758883426186.jpg?w=1200&h=900&crop=1",
     numero: "1",
     posicao: "Goleiro",
-    dataNascimento: "08/21/1995",
+    dataNascimento: "21/08/1995",
     status: "Ativo",
     curiosidades:
       "Foi eleito o melhor goleiro da Copa da Liga Argentina de 2022 e se notabilizou por defender cinco cobranças seguidas pelo Boca Juniors. No Flamengo, tornou-se referência imediata ao liderar o sistema defensivo campeão da Copa do Brasil de 2024. Clube ídolo principal: Flamengo.",
@@ -1947,7 +1947,7 @@ export const jogadores = [
     imagem: "https://static.gazetaesportiva.com/uploads/GKmS_-aW8AA1w0H.jpg",
     numero: "5",
     posicao: "Volante",
-    dataNascimento: "05/13/1999",
+    dataNascimento: "13/05/1999",
     status: "Ativo",
     curiosidades:
       "Formado no Newell's, foi destaque do Racing nas campanhas continentais antes de ser o pedido principal de Abel Ferreira para 2024. Clube ídolo principal: Palmeiras.",
@@ -2446,6 +2446,51 @@ export const jogadores = [
     selecao: {},
     titulos: [],
     tags: [],
+  },
+
+  // Fausto Vera
+  {
+    nome: "Fausto Vera",
+    background: "Default",
+    descricao:
+      "Volante argentino de grande técnica, conhecido pela qualidade na saída de bola, visão de jogo e consistência no meio-campo. É o principal volante de contenção e construção do Corinthians.",
+    pagina: "https://www.instagram.com/faustovera/",
+    nacionalidade: "Argentina",
+    imagem:
+      "https://static.corinthians.com.br/uploads/16818543606f611188ad4a81ffc2edab83b0705d76.jpg",
+    numero: "5",
+    posicao: "Volante / Meio-Campista Central",
+    dataNascimento: "26/03/2000",
+    status: "Ativo",
+    curiosidades:
+      "Fausto Vera foi o capitão da Seleção Argentina Sub-23 nos Jogos Olímpicos de Tóquio 2020 (realizados em 2021). Ele foi uma das contratações mais caras do Corinthians em 2022. Sua versatilidade permite que ele atue em diferentes funções do meio-campo.",
+    clubes: [
+      createClub(
+        "Argentinos Juniors",
+        { inicio: "2018", fim: "2022" },
+        { jogos: 78, gols: 9, assistencias: 4 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 130, gols: 4, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "2020", fim: "Presente" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Corinthians
+      {
+        nome: "Campeonato Paulista",
+        anos: "2025",
+        clube: "Corinthians",
+      },
+    ],
+    tags: ["Fausto Vera", "Vera", "Fausto", "Fausto Corinthians"],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Germán Cano
@@ -5045,6 +5090,71 @@ export const jogadores = [
     ultima_atualizacao: "27/10/25",
   },
 
+  // Bruno Fuchs
+  {
+    nome: "Bruno Fuchs",
+    background: "Default",
+    descricao:
+      "Zagueiro técnico, com bom posicionamento e excelente visão de jogo, fruto de sua passagem como meio-campista na base. Chegou ao Palmeiras em 2025 e rapidamente se tornou uma peça importante na defesa, destacando-se pelo alto índice de vitórias.",
+    pagina: "https://www.palmeiras.com.br/jogadores/bruno-de-lara-fuchs/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/6d/2025/04/03/bruno-fuchs-em-acao-com-a-camisa-do-palmeiras-na-estreia-do-brasileirao-contra-o-botafogo-1743715289642_v2_1x1.jpg",
+    numero: "3",
+    posicao: "Zagueiro",
+    dataNascimento: "04/01/1999",
+    status: "Ativo",
+    curiosidades:
+      "É campeão olímpico com a Seleção Brasileira (Tóquio 2020). Por ter atuado como meio-campista na base, possui como virtude o passe de longa distância e a visão de jogo. Tem também cidadania alemã.",
+    clubes: [
+      createClub(
+        "Internacional",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 22, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "CSKA Moscou",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 17, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Atlético Mineiro",
+        { inicio: "2023", fim: "2025" },
+        { jogos: 68, gols: 1, assistencias: 2 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 35, gols: 2, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2019", fim: "2021" },
+      estatisticas: { jogos: 7, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      {
+        nome: "Torneio de Toulon",
+        anos: "2019",
+        clube: "Brasil",
+      },
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2020",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2023, 2024, 2025",
+        clube: "Atlético Mineiro",
+      },
+    ],
+    tags: ["Bruno Fuchs"],
+    ultima_atualizacao: "11/11/2025",
+  },
+
   // Bruno Henrique
   {
     nome: "Bruno Henrique",
@@ -5173,6 +5283,67 @@ export const jogadores = [
       "Outro Patamar",
     ],
     ultima_atualizacao: "27/10/25",
+  },
+
+  // Caetano
+  {
+    nome: "Caetano",
+    background: "Default",
+    descricao:
+      "Zagueiro brasileiro, formado no Terrão do Corinthians, conhecido pela sua seriedade defensiva, bom posicionamento e força física. Tem se estabelecido como uma opção consistente para o setor defensivo.",
+    pagina: "https://www.instagram.com/caetano99/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://cdn.meutimao.com.br/fotos-do-corinthians/w614/2024/07/27/caetano_foi_um_dos_expulsos_pelo_corinthians_no_y0f0.jpg",
+    numero: "44",
+    posicao: "Zagueiro / Zagueiro Central",
+    dataNascimento: "25/06/1999",
+    status: "Ativo",
+    curiosidades:
+      "Caetano passou por empréstimos para ganhar experiência antes de se firmar no elenco principal do Corinthians. Teve uma passagem destacada pelo Goiás em 2022, onde foi titular na Série A.",
+    clubes: [
+      createClub(
+        "Corinthians",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Oeste",
+        { inicio: "2020", fim: "2020" },
+        { jogos: 15, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Coritiba",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 16, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "São Caetano",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 13, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Goiás",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 35, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 55, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {},
+    titulos: [
+      // Corinthians
+      {
+        nome: "Campeonato Paulista",
+        anos: "2025",
+        clube: "Corinthians",
+      },
+    ],
+    tags: ["Caetano", "Caetano Zagueiro", "Caetano Corinthians"],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Cafu
@@ -5747,6 +5918,60 @@ export const jogadores = [
     ],
     tags: ["Carlos Alberto Torres", "Capita"],
     ultima_atualizacao: "28/10/25",
+  },
+
+  // Carlos Miguel
+  {
+    nome: "Carlos Miguel",
+    background: "Default",
+    descricao:
+      "Goleiro de grande estatura e agilidade, conhecido por sua imponência física e potencial. Chegou ao Palmeiras em 2025 para assumir a titularidade, gerando expectativas pelo seu desempenho nas competições nacionais.",
+    pagina: "https://www.instagram.com/carlos_miguel98/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://static.gazetaesportiva.com/uploads/2025/10/carlos-miguel_lduxpalmeiras_231025.webp",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "09/10/1998",
+    status: "Ativo",
+    curiosidades:
+      "Carlos Miguel tem 2,04 metros de altura. Sua transferência para o Palmeiras, vindo de um rival, foi marcada por declarações controversas sobre o Mundial de Clubes. Seu pai, José Cláudio, também foi goleiro.",
+    clubes: [
+      createClub(
+        "Internacional",
+        { inicio: "2018", fim: "2021" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Santa Cruz",
+        { inicio: "2020", fim: "2020" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Boa Esporte",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 8, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2021", fim: "2024" },
+        { jogos: 25, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Nottingham Forest",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 3, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 6, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {},
+    titulos: [],
+    tags: ["Carlos Miguel", "Goleiro", "Carlos Miguel Palmeiras"],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Casemiro
@@ -7589,7 +7814,7 @@ export const jogadores = [
     imagem: "https://nossopalmeiras.com.br/wp-content/uploads/2022/12/alex.jpg",
     numero: "10",
     posicao: "Meia-ofensivo",
-    dataNascimento: "09/14/1977",
+    dataNascimento: "14/09/1977",
     status: "Aposentado",
     curiosidades:
       "Decisivo na semifinal histórica contra o River Plate em 1999 ao marcar três gols no antigo Parque Antarctica. Viveu auge no Fenerbahçe, onde ergueu estátua e apresentou números de lenda. Clube ídolo principal para esta estrutura: Palmeiras, palco da consagração que impulsionou sua carreira internacional.",
@@ -9430,7 +9655,7 @@ export const jogadores = [
       "https://s2-ge.glbimg.com/HkmGTOMyK2VKU1cy59Se57bfscg=/0x0:2047x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/r/Q/QICO5pTfC3sRRmX1MQyg/54272838982-41e50e91b4-k.jpg",
     numero: "25",
     posicao: "Meia / Ala / Volante",
-    dataNascimento: "09/29/2000",
+    dataNascimento: "29/09/2000",
     status: "Ativo",
     curiosidades:
       "Formado na base alviverde, estreou em 2020 já como titular na Libertadores. Conquistou medalha de ouro olímpica em Tóquio 2020 representando o Brasil. Clube ídolo principal: Palmeiras.",
@@ -9883,7 +10108,7 @@ export const jogadores = [
       "https://cdn.meutimao.com.br/_upload/noticia/2025/03/02/gustavo-henrique-supera-lesao-e-estreia-pelo-em941w.jpg",
     numero: "13",
     posicao: "Zagueiro / Zagueiro Central",
-    dataNascimento: "03/24/1993",
+    dataNascimento: "24/03/1993",
     status: "Ativo",
     curiosidades:
       "Gustavo Henrique estreou profissionalmente pelo Santos, clube onde conquistou dois títulos paulistas. Ele teve uma passagem pelo Fenerbahçe, da Turquia, antes de retornar ao futebol brasileiro pelo Corinthians. No Flamengo, era conhecido como 'Gustavão'.",
@@ -10026,7 +10251,7 @@ export const jogadores = [
       "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/hugo-souza-corinthians-flamengo-e1727966002837.jpg?w=1200&h=675&crop=1",
     numero: "22",
     posicao: "Goleiro",
-    dataNascimento: "01/31/1999",
+    dataNascimento: "31/01/1999",
     status: "Ativo",
     curiosidades:
       "Hugo Souza fez parte do elenco do Flamengo que conquistou duas Libertadores e dois Campeonatos Brasileiros. Ele foi peça-chave nas semifinais do Campeonato Carioca de 2020. O apelido 'Neneca' foi dado pelos seus companheiros de base.",
@@ -10992,7 +11217,7 @@ export const jogadores = [
       "https://conteudo.imguol.com.br/c/esporte/97/2025/02/10/maycon-retorna-aos-gramados-apos-quase-um-ano-em-recuperacao-1739190587283_v2_1080x1235.jpg",
     numero: "7",
     posicao: "Meio-Campista Central / Volante",
-    dataNascimento: "07/15/1997",
+    dataNascimento: "15/07/1997",
     status: "Ativo",
     curiosidades:
       "Maycon é um dos jogadores do Corinthians que possui as duas passagens mais recentes pelo clube em anos de títulos importantes. Sua melhor temporada em contribuições ofensivas foi a de 2017. Ele foi um dos artilheiros do clube na temporada 2025.",
@@ -11377,7 +11602,7 @@ export const jogadores = [
       "https://conteudo.imguol.com.br/c/esporte/dd/2024/06/26/matheus-bidu-comemora-gol-marcado-pelo-corinthians-durante-jogo-contra-o-cuiaba-pelo-campeonato-brasileiro-1719450112069_v2_3x4.jpg",
     numero: "21",
     posicao: "Lateral-Esquerdo",
-    dataNascimento: "01/29/1999",
+    dataNascimento: "29/01/1999",
     status: "Ativo",
     curiosidades:
       "Matheus Bidu é cria da base do Guarani, onde fez sua estreia profissional. Sua melhor temporada de desempenho foi pelo Cruzeiro, em 2022, na Série B, onde foi titular na campanha do título. No Corinthians, disputa a posição com Hugo e Fabrizio Angileri.",
@@ -12848,7 +13073,7 @@ export const jogadores = [
       "https://conteudo.imguol.com.br/c/esporte/2a/2024/05/23/raniele-durante-jogo-do-corinthians-contra-o-america-rn-pela-copa-do-brasil-1716476043631_v2_3x4.jpg",
     numero: "25",
     posicao: "Volante / Meio-Campista Defensivo",
-    dataNascimento: "12/24/1996",
+    dataNascimento: "24/12/1996",
     status: "Ativo",
     curiosidades:
       "Raniele foi revelado nas categorias de base do Ferroviário. Ele se destacou na Série A do Campeonato Brasileiro pelo Cuiabá antes de ser contratado pelo Corinthians. Sua contratação foi motivada por sua alta performance em desarmes e passes certos no campeonato nacional.",
@@ -14312,7 +14537,7 @@ export const jogadores = [
       "https://conteudo.imguol.com.br/c/esporte/49/2025/07/27/richard-rios-meia-do-benfica-em-amistoso-contra-o-fenerbahce-1753621006812_v2_1x1.jpg",
     numero: "27",
     posicao: "Volante / Meio-campista",
-    dataNascimento: "06/27/2000",
+    dataNascimento: "27/06/2000",
     status: "Ativo",
     curiosidades:
       "Ex-jogador de futsal do Flamengo, adaptou-se ao campo e virou titular na campanha do Brasileirão 2023. Estreou pela seleção colombiana em 2023 e marcou no amistoso contra a Espanha. Clube ídolo principal: Palmeiras.",
@@ -15196,6 +15421,73 @@ export const jogadores = [
     tags: [],
   },
 
+  // Vitor Roque
+  {
+    nome: "Vitor Roque",
+    background: "Promise",
+    descricao:
+      "Jovem atacante brasileiro com grande faro de gol, apelidado de 'Tigrinho', conhecido por sua velocidade e facilidade em finalizar. É uma das grandes promessas do futebol mundial, atuando no Barcelona.",
+    pagina: "https://www.instagram.com/vitor_roque9/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/08/vitor_roque_palmeiras-e1755600268953.jpg?w=1024",
+    numero: "19",
+    posicao: "Centroavante / Segundo Atacante",
+    dataNascimento: "28/02/2005",
+    status: "Ativo",
+    curiosidades:
+      "Vitor Roque foi a contratação mais cara da história do Athletico Paranaense. Ele foi o artilheiro do Campeonato Sul-Americano Sub-20 de 2023. Seu apelido 'Tigrinho' é uma homenagem ao seu pai, que também era jogador e conhecido como 'Tigrão'.",
+    clubes: [
+      createClub(
+        "América Mineiro",
+        { inicio: "2021", fim: "2022" },
+        { jogos: 16, gols: 4, assistencias: 1 }
+      ),
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 81, gols: 28, assistencias: 11 }
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 16, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Real Betis",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 33, gols: 7, assistencias: 0 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 52, gols: 20, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2023", fim: "Presente" },
+      estatisticas: { jogos: 7, gols: 1, assistencias: 0 },
+    },
+    titulos: [
+      // Athletico Paranaense
+      {
+        nome: "Campeonato Paranaense",
+        anos: "2023",
+        clube: "Athletico Paranaense",
+      },
+
+      // Palmeiras
+      {
+        nome: "Campeonato Paulista",
+        anos: "2025",
+        clube: "Palmeiras",
+      },
+    ],
+    tags: ["Vitor Roque", "Roque", "Tigrinho", "Vitor"],
+    ultima_atualizacao: "11/11/2025",
+  },
+
   // Vinícius Júnior
   {
     nome: "Vinícius Júnior",
@@ -15361,6 +15653,47 @@ export const jogadores = [
     ultima_atualizacao: "29/10/25",
   },
 
+  // Wesley Gassova
+  {
+    nome: "Wesley Gassova",
+    background: "Promise",
+    descricao:
+      "Jovem atacante brasileiro, cria da base do Corinthians, conhecido pela sua explosão, velocidade e habilidade no drible em lances de um contra um. É considerado uma das maiores promessas recentes do clube.",
+    pagina: "https://www.instagram.com/wesleygassova/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://ds-images.bolavip.com/news/image/714/535/?src=https://images.antenadosnofutebol.com.br/webp/full/ANF_20251025_ANF_340998_GettyImages-2183129156-scaled-e1761390980741.webp",
+    numero: "36",
+    posicao: "Ponta-Esquerda / Atacante",
+    dataNascimento: "03/05/2005",
+    status: "Ativo",
+    curiosidades:
+      "Wesley fez sua estreia pelo time profissional com apenas 17 anos. Ele é frequentemente comparado a outros pontas velozes revelados pelo Corinthians, como Malcom e Willian. É um dos jogadores mais rápidos do atual elenco.",
+    clubes: [
+      createClub(
+        "Corinthians",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 84, gols: 9, assistencias: 7 }
+      ),
+      createClub(
+        "Al-Nassr",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 31, gols: 3, assistencias: 0 }
+      ),
+    ],
+    selecao: {},
+    titulos: [
+      // Corinthians
+      {
+        nome: "Campeonato Paulista",
+        anos: "2025",
+        clube: "Corinthians",
+      },
+    ],
+    tags: ["Wesley Gassova", "Wesley", "Gassova", "Wesley Corinthians"],
+    ultima_atualizacao: "11/11/2025",
+  },
+
   // Weverton
   {
     nome: "Weverton",
@@ -15373,7 +15706,7 @@ export const jogadores = [
       "https://assets.goal.com/images/v3/getty-2237224980/crop/MM5DGOBQHE5DEMJUGM5G433XMU5DAORRHE4A====/GettyImages-2237224980.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     numero: "21",
     posicao: "Goleiro",
-    dataNascimento: "12/13/1987",
+    dataNascimento: "13/12/1987",
     status: "Ativo",
     curiosidades:
       "Campeão olímpico com a Seleção Brasileira em 2016 e presença constante nas convocações de Tite e Dorival Júnior. Recordista de jogos de um goleiro pelo Palmeiras no século XXI. Clube ídolo principal: Palmeiras.",
@@ -15797,7 +16130,7 @@ export const jogadores = [
       "https://conteudo.imguol.com.br/c/esporte/38/2025/02/26/ze-rafael-foi-anunciado-como-novo-reforco-do-santos-1740605799299_v2_1535x1920.jpg",
     numero: "8",
     posicao: "Meia / Volante",
-    dataNascimento: "06/16/1993",
+    dataNascimento: "16/06/1993",
     status: "Ativo",
     curiosidades:
       "Reconhecido pela torcida como motor do meio, adaptou-se a jogar como primeiro volante com Abel Ferreira. É um dos líderes técnicos da 'Era Abel'. Clube ídolo principal: Palmeiras.",
@@ -32690,7 +33023,7 @@ export const jogadores = [
       "https://livesport-ott-images.ssl.cdn.cra.cz/r900xfq60/1a50171c-fe0e-4b60-88fd-50dd89e1891b.jpeg",
     numero: "22",
     posicao: "Lateral-esquerdo",
-    dataNascimento: "08/24/1998",
+    dataNascimento: "24/08/1998",
     status: "Ativo",
     curiosidades:
       "Titular da seleção uruguaia desde 2021 e um dos estrangeiros mais queridos pela torcida alviverde. Foi eleito melhor lateral-esquerdo do Brasileirão em 2022 e 2023. Clube ídolo principal: Palmeiras.",
