@@ -1765,26 +1765,117 @@ export const jogadores = [
 
   // ARGENTINA -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  //Agustin Rossi
+  // Agustin Rossi
   {
     nome: "Agustin Rossi",
-    background: "default",
+    background: "plate",
     descricao:
-      "Goleiro argentino conhecido por suas defesas difíceis e segurança sob as traves. Um dos destaques do Flamengo.",
-    pagina: "#",
+      "Goleiro argentino especialista em defender pênaltis e construir jogo curto. Campeão nacional por Boca Juniors e peça-chave do Flamengo desde 2024, combina reflexos com liderança na área.",
+    pagina: "https://www.instagram.com/agustin.rossi1/",
     nacionalidade: "Argentina",
     imagem:
-      "https://medias.itatiaia.com.br/dims4/default/86b8c18/2147483647/strip/true/crop/4186x2357+0+0/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-radio-itatiaia.s3.us-east-1.amazonaws.com%2Fbrightspot%2F93%2F66%2F76dec9294d0bae050aedb4e8bbfa%2Fflamengo-x-fluminense-campeonato-carioca-maracana-16-03-2024-126.jpg",
+      "https://s2.glbimg.com/Lxce5U9CQE-eUk7F4bOb3TVQz9Q=/0x0:2048x1365/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2024/05/13/agustin_rossi_flamengo.jpg",
     numero: "1",
     posicao: "Goleiro",
-    dataNascimento: "09/01/1995",
+    dataNascimento: "08/21/1995",
     status: "Ativo",
     curiosidades:
-      "Chegou ao Flamengo em 2022 e logo se tornou ídolo da torcida. Conhecido por sua liderança e habilidade em cobranças de pênalti.",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+      "Foi eleito o melhor goleiro da Copa da Liga Argentina de 2022 e se notabilizou por defender cinco cobranças seguidas pelo Boca Juniors. No Flamengo, tornou-se referência imediata ao liderar o sistema defensivo campeão da Copa do Brasil de 2024. Clube ídolo principal: Flamengo.",
+    clubes: [
+      createClub(
+        "Chacarita Juniors",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 19, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Estudiantes",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 5, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Defensa y Justicia",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 16, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Boca Juniors",
+        { inicio: "2017", fim: "2023" },
+        { jogos: 146, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Deportes Antofagasta",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 4, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Lanús",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 23, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Al Nassr",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 7, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 82, gols: 0, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "2021", fim: "Presente" },
+      estatisticas: { jogos: 2, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Boca Juniors
+      {
+        nome: "Campeonato Argentino",
+        anos: "2016-17, 2017-18, 2019-20, 2022",
+        clube: "Boca Juniors",
+      },
+      {
+        nome: "Copa Argentina",
+        anos: "2019-20",
+        clube: "Boca Juniors",
+      },
+      {
+        nome: "Copa da Liga Argentina",
+        anos: "2020, 2022",
+        clube: "Boca Juniors",
+      },
+      {
+        nome: "Supercopa Argentina",
+        anos: "2018",
+        clube: "Boca Juniors",
+      },
+
+      // Flamengo
+      {
+        nome: "Copa do Brasil",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024, 2025",
+        clube: "Flamengo",
+      },
+    ],
+    tags: [
+      "Agustin Rossi",
+      "Agustin Daniel Rossi",
+      "Rossi",
+      "Agustin Rosse",
+      "Agustín Rossi",
+    ],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Alejandro Garnacho Ferreyra
@@ -4385,6 +4476,155 @@ export const jogadores = [
       },
     ],
     tags: ["Alisson Becker", "Alisson", "Ab1"],
+  },
+
+  // Allan Rodrigues de Souza
+  {
+    nome: "Allan",
+    background: "default",
+    descricao:
+      "Volante brasileiro com leitura de jogo, passes verticais e intensidade na pressão. Formado no Internacional e lapidado por empréstimos na Europa, consolidou-se como motor do Atlético Mineiro campeão de 2021 antes de assumir a saída de bola do Flamengo.",
+    pagina: "https://www.instagram.com/allanr13/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://s2.glbimg.com/HhVXNn4XrA7fF84ydvW1U0j6dNk=/0x0:2000x1333/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2024/08/21/allan_flamego_maracana.jpg",
+    numero: "21",
+    posicao: "Volante / Meia de contenção",
+    dataNascimento: "03/03/1997",
+    status: "Ativo",
+    curiosidades:
+      "Enfrentou cinco empréstimos na Europa enquanto aguardava documentação para atuar pelo Liverpool. Foi apelidado de 'motorzinho' pelos torcedores do Atlético Mineiro ao liderar o meio-campo na Tríplice Coroa de 2021. No Flamengo, assumiu a titularidade em 2024, mantendo alto índice de passes certos. Clube ídolo principal: Atlético Mineiro.",
+    clubes: [
+      createClub(
+        "Internacional",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 1, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Liverpool",
+        { inicio: "2015", fim: "2020" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "SJK Seinäjoki",
+        { inicio: "2015", fim: "2015" },
+        { jogos: 21, gols: 1, assistencias: 2 }
+      ),
+      createClub(
+        "Sint-Truiden",
+        { inicio: "2015", fim: "2016" },
+        { jogos: 9, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Hertha BSC",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Apollon Limassol",
+        { inicio: "2017", fim: "2018" },
+        { jogos: 22, gols: 2, assistencias: 3 }
+      ),
+      createClub(
+        "Eintracht Frankfurt",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 0, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 4, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Atlético Mineiro",
+        { inicio: "2020", fim: "2023" },
+        { jogos: 164, gols: 2, assistencias: 11 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 68, gols: 0, assistencias: 5 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil Sub-20",
+      periodo: { inicio: "2015", fim: "2016" },
+      estatisticas: { jogos: 12, gols: 1, assistencias: 2 },
+    },
+    titulos: [
+      // SJK Seinäjoki
+      {
+        nome: "Campeonato Finlandês",
+        anos: "2015",
+        clube: "SJK Seinäjoki",
+      },
+
+      // Apollon Limassol
+      {
+        nome: "Copa do Chipre",
+        anos: "2017",
+        clube: "Apollon Limassol",
+      },
+      {
+        nome: "Supercopa do Chipre",
+        anos: "2017",
+        clube: "Apollon Limassol",
+      },
+
+      // Atlético Mineiro
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2020, 2021, 2022, 2023",
+        clube: "Atlético Mineiro",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2021",
+        clube: "Atlético Mineiro",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2021",
+        clube: "Atlético Mineiro",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2022",
+        clube: "Atlético Mineiro",
+      },
+
+      // Flamengo
+      {
+        nome: "Copa do Brasil",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2024, 2025",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Seleção do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2021",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Allan",
+      "Allan Rodrigues de Souza",
+      "Allan Souza",
+      "Allan Rodrigues",
+    ],
+    ultima_atualizacao: "11/11/2025",
   },
 
   //Antony
@@ -9532,6 +9772,118 @@ export const jogadores = [
     ],
     tags: ["Coringa"],
     ultima_atualizacao: "28/10/25",
+  },
+
+  // Pedro
+  {
+    nome: "Pedro",
+    background: "titanium",
+    descricao:
+      "Centroavante brasileiro de imposição física, técnica refinada e excelente finalização com as duas pernas. Lapidado no Fluminense e levado à Europa pela Fiorentina, tornou-se ídolo do Flamengo ao ser protagonista nas conquistas da Libertadores 2022 e artilheiro quase anual das competições nacionais.",
+    pagina: "https://www.instagram.com/pedroguilherme/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://s2.glbimg.com/h-LAo0P5NdQ07R5_2wE8xmPKzrs=/0x0:2048x1365/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2025/07/14/pedro_flamengo_comemoracao.jpg",
+    numero: "9",
+    posicao: "Centroavante",
+    dataNascimento: "06/20/1997",
+    status: "Ativo",
+    curiosidades:
+      "Foi eleito Rei da América em 2022 após marcar 12 gols na Libertadores, tornando-se o maior artilheiro rubro-negro em uma edição do torneio. Já decidiu finais em todas as competições nacionais pelo Flamengo e ultrapassou a marca de 150 gols pelo clube. Clube ídolo principal: Flamengo.",
+    clubes: [
+      createClub(
+        "Fluminense",
+        { inicio: "2016", fim: "2019" },
+        { jogos: 93, gols: 31, assistencias: 8 }
+      ),
+      createClub(
+        "Fiorentina",
+        { inicio: "2019", fim: "2020" },
+        { jogos: 4, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2020", fim: "Presente" },
+        { jogos: 276, gols: 172, assistencias: 37 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2020", fim: "Presente" },
+      estatisticas: { jogos: 12, gols: 4, assistencias: 1 },
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2022, 2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021, 2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2020, 2021, 2024, 2025",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Rei da América",
+        logo: "El País",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata (Placar)",
+        logo: "Placar",
+        anos: "2022",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: "2022, 2023",
+        categoria: "individual",
+      },
+      {
+        nome: "Artilheiro da Copa do Brasil",
+        logo: "Copa do Brasil",
+        anos: "2020, 2024",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Pedro",
+      "Pedro Guilherme",
+      "Pedro Guilherme Abreu dos Santos",
+      "Pedrão",
+    ],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Gilberto Silva
@@ -32208,6 +32560,132 @@ export const jogadores = [
     ],
     tags: ["Guillermo Varela", "Varela"],
     ultima_atualizacao: "06/11/2025",
+  },
+
+  // Matías Viña
+  {
+    nome: "Matías Viña",
+    background: "plate",
+    descricao:
+      "Lateral-esquerdo uruguaio com grande vigor físico, leitura defensiva e chegada forte à área. Revelado pelo Nacional, foi eleito o melhor jogador do Uruguai em 2019, brilhou no Palmeiras multicampeão e levou sua versatilidade para Europa antes de chegar ao Flamengo em 2024.",
+    pagina: "https://www.instagram.com/mati.vina/",
+    nacionalidade: "Uruguai",
+    imagem:
+      "https://s2.glbimg.com/5XyOQXAQxUuDRW_8L6t2eY7rjTM=/0x0:2000x1333/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2024/08/30/matias_vina_flamengo.jpg",
+    numero: "17",
+    posicao: "Lateral-esquerdo / Ala",
+    dataNascimento: "11/09/1997",
+    status: "Ativo",
+    curiosidades:
+      "Foi eleito Craque do Campeonato Uruguaio de 2019 e destaque defensivo da Libertadores 2020. Primeiro uruguaio a erguer a Libertadores pelo Palmeiras, manteve protagonismo ao vencer a Conference League pela Roma. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Nacional",
+        { inicio: "2017", fim: "2020" },
+        { jogos: 71, gols: 5, assistencias: 10 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 77, gols: 5, assistencias: 9 }
+      ),
+      createClub(
+        "Roma",
+        { inicio: "2021", fim: "2024" },
+        { jogos: 79, gols: 4, assistencias: 6 }
+      ),
+      createClub(
+        "AFC Bournemouth",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 22, gols: 2, assistencias: 1 }
+      ),
+      createClub(
+        "Sassuolo",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 13, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 32, gols: 2, assistencias: 6 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "2019", fim: "Presente" },
+      estatisticas: { jogos: 36, gols: 1, assistencias: 4 },
+    },
+    titulos: [
+      // Nacional
+      {
+        nome: "Campeonato Uruguaio",
+        anos: "2019",
+        clube: "Nacional",
+      },
+
+      // Palmeiras
+      {
+        nome: "Copa Libertadores",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+
+      // Roma
+      {
+        nome: "UEFA Europa Conference League",
+        anos: "2022",
+        clube: "Roma",
+      },
+
+      // Flamengo
+      {
+        nome: "Copa do Brasil",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Craque do Campeonato Uruguaio",
+        logo: "AUF",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata - Lateral-esquerdo",
+        logo: "Placar",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2020",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Matías Viña", "Matias Vina", "Matias Viña", "Vina"],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Joaquín Piquerez
