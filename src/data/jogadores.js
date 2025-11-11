@@ -9679,6 +9679,82 @@ export const jogadores = [
     tags: [],
   },
 
+  // Hugo Souza
+  {
+    nome: "Hugo Souza",
+    background: "Default",
+    descricao:
+      "Goleiro brasileiro de grande estatura, conhecido por sua envergadura e reflexos. Produto da base do Flamengo, consolidou-se como titular do Corinthians por empréstimo na temporada 2025.",
+    pagina: "https://www.instagram.com/hugosouza/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/hugo-souza-corinthians-flamengo-e1727966002837.jpg?w=1200&h=675&crop=1",
+    numero: "22",
+    posicao: "Goleiro",
+    dataNascimento: "01/31/1999",
+    status: "Ativo",
+    curiosidades:
+      "Hugo Souza fez parte do elenco do Flamengo que conquistou duas Libertadores e dois Campeonatos Brasileiros. Ele foi peça-chave nas semifinais do Campeonato Carioca de 2020. O apelido 'Neneca' foi dado pelos seus companheiros de base.",
+    clubes: [
+      createClub(
+        "Flamengo",
+        { inicio: "2019", fim: "2023" },
+        { jogos: 71, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Chaves",
+        { inicio: "2023", fim: "2024" },
+        { jogos: 28, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 45, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2019", fim: "Presente" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2019, 2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2019, 2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2020, 2021",
+        clube: "Flamengo",
+      },
+      // Corinthians
+      {
+        nome: "Campeonato Paulista",
+        anos: "2025",
+        clube: "Corinthians",
+      },
+    ],
+    tags: ["Hugo Souza", "Hugo", "Neneca", "Souza"],
+    ultima_atualizacao: "10/11/2025",
+  },
+
   //Hulk
   {
     nome: "Hulk",
@@ -12290,6 +12366,88 @@ export const jogadores = [
     ],
     tags: [],
     ultima_atualizacao: "29/10/25",
+  },
+
+  // Raniele
+  {
+    nome: "Raniele",
+    background: "Default",
+    descricao:
+      "Volante brasileiro de forte marcação e grande capacidade de cobertura, crucial na proteção da defesa. Tornou-se rapidamente uma peça-chave no meio-campo do Corinthians devido à sua consistência e entrega.",
+    pagina: "https://www.instagram.com/ranielemelo_/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/2a/2024/05/23/raniele-durante-jogo-do-corinthians-contra-o-america-rn-pela-copa-do-brasil-1716476043631_v2_3x4.jpg",
+    numero: "25",
+    posicao: "Volante / Meio-Campista Defensivo",
+    dataNascimento: "12/24/1996",
+    status: "Ativo",
+    curiosidades:
+      "Raniele foi revelado nas categorias de base do Ferroviário. Ele se destacou na Série A do Campeonato Brasileiro pelo Cuiabá antes de ser contratado pelo Corinthians. Sua contratação foi motivada por sua alta performance em desarmes e passes certos no campeonato nacional.",
+    clubes: [
+      createClub(
+        "Ferroviário",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 15, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Jacuipense",
+        { inicio: "2018", fim: "2019" },
+        { jogos: 29, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Nacional-AM",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 14, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Santa Cruz",
+        { inicio: "2020", fim: "2020" },
+        { jogos: 15, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Botafogo-SP",
+        { inicio: "2021", fim: "2021" },
+        { jogos: 18, gols: 1, assistencias: 1 }
+      ),
+      createClub(
+        "Avaí",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 39, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Jacuipense",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 12, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Cuiabá",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 28, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 88, gols: 2, assistencias: 2 }
+      ),
+    ],
+    selecao: {},
+    titulos: [
+      // Corinthians
+      {
+        nome: "Campeonato Paulista",
+        anos: "2025",
+        clube: "Corinthians",
+      },
+      // Cuiabá
+      {
+        nome: "Campeonato Mato-Grossense",
+        anos: "2023",
+        clube: "Cuiabá",
+      },
+    ],
+    tags: ["Raniele", "Raniele Melo", "Melo"],
+    ultima_atualizacao: "10/11/2025",
   },
 
   // Raphael Veiga
@@ -17004,6 +17162,63 @@ export const jogadores = [
     ],
     tags: ["Salah", "MS11", "Faraó"],
     ultima_atualizacao: "27/10/25",
+  },
+
+  // EQUADOR -------------------------------------------------------------------------------------------------
+
+  // Félix Torres
+  {
+    nome: "Félix Torres",
+    background: "Plate",
+    descricao:
+      "Zagueiro equatoriano conhecido por sua força física, velocidade e excelência no jogo aéreo, tanto na defesa quanto no ataque. É titular incontestável e um dos líderes da defesa do Corinthians e da Seleção Equatoriana.",
+    pagina: "https://www.instagram.com/felixtorresc97/",
+    nacionalidade: "Equador",
+    imagem:
+      "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2025-05/Felix%20Torres%2005052025.jpg?itok=aERiKR19",
+    numero: "3",
+    posicao: "Zagueiro / Zagueiro Central",
+    dataNascimento: "01/11/1997",
+    status: "Ativo",
+    curiosidades:
+      "Félix Torres começou sua carreira no Equador jogando pelo Galácticos. Ele representou o Equador na Copa do Mundo FIFA 2022. É conhecido por ter um excelente tempo de salto, tornando-o perigoso em escanteios e faltas laterais.",
+    clubes: [
+      createClub(
+        "LDU Portoviejo",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 12, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Barcelona de Guayaquil",
+        { inicio: "2017", fim: "2019" },
+        { jogos: 47, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Santos Laguna",
+        { inicio: "2019", fim: "2023" },
+        { jogos: 147, gols: 10, assistencias: 1 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 75, gols: 5, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Equador",
+      periodo: { inicio: "2017", fim: "Presente" },
+      estatisticas: { jogos: 45, gols: 5, assistencias: 0 },
+    },
+    titulos: [
+      // Corinthians
+      {
+        nome: "Campeonato Paulista",
+        anos: "2025",
+        clube: "Corinthians",
+      },
+    ],
+    tags: ["Felix Torres", "Torres", "Felix", "Felix Corinthians"],
+    ultima_atualizacao: "10/11/2025",
   },
 
   // ESCÓCIA -------------------------------------------------------------------------------------------------
