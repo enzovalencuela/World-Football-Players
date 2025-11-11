@@ -1774,7 +1774,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/agustin.rossi1/",
     nacionalidade: "Argentina",
     imagem:
-      "https://s2.glbimg.com/Lxce5U9CQE-eUk7F4bOb3TVQz9Q=/0x0:2048x1365/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2024/05/13/agustin_rossi_flamengo.jpg",
+      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/Rossi-Flamengo-e1758883426186.jpg?w=1200&h=900&crop=1",
     numero: "1",
     posicao: "Goleiro",
     dataNascimento: "08/21/1995",
@@ -1836,7 +1836,7 @@ export const jogadores = [
         clube: "Boca Juniors",
       },
       {
-        nome: "Copa Argentina",
+        nome: "Copa da Argentina",
         anos: "2019-20",
         clube: "Boca Juniors",
       },
@@ -4487,7 +4487,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/allanr13/",
     nacionalidade: "Brasil",
     imagem:
-      "https://s2.glbimg.com/HhVXNn4XrA7fF84ydvW1U0j6dNk=/0x0:2000x1333/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2024/08/21/allan_flamego_maracana.jpg",
+      "https://conteudo.imguol.com.br/c/esporte/f0/2024/04/19/allan-meio-campista-do-flamengo-em-acao-na-final-do-campeonato-carioca-contra-o-nova-iguacu-1713540221644_v2_3x4.jpg",
     numero: "21",
     posicao: "Volante / Meia de contenção",
     dataNascimento: "03/03/1997",
@@ -9774,118 +9774,6 @@ export const jogadores = [
     ultima_atualizacao: "28/10/25",
   },
 
-  // Pedro
-  {
-    nome: "Pedro",
-    background: "titanium",
-    descricao:
-      "Centroavante brasileiro de imposição física, técnica refinada e excelente finalização com as duas pernas. Lapidado no Fluminense e levado à Europa pela Fiorentina, tornou-se ídolo do Flamengo ao ser protagonista nas conquistas da Libertadores 2022 e artilheiro quase anual das competições nacionais.",
-    pagina: "https://www.instagram.com/pedroguilherme/",
-    nacionalidade: "Brasil",
-    imagem:
-      "https://s2.glbimg.com/h-LAo0P5NdQ07R5_2wE8xmPKzrs=/0x0:2048x1365/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2025/07/14/pedro_flamengo_comemoracao.jpg",
-    numero: "9",
-    posicao: "Centroavante",
-    dataNascimento: "06/20/1997",
-    status: "Ativo",
-    curiosidades:
-      "Foi eleito Rei da América em 2022 após marcar 12 gols na Libertadores, tornando-se o maior artilheiro rubro-negro em uma edição do torneio. Já decidiu finais em todas as competições nacionais pelo Flamengo e ultrapassou a marca de 150 gols pelo clube. Clube ídolo principal: Flamengo.",
-    clubes: [
-      createClub(
-        "Fluminense",
-        { inicio: "2016", fim: "2019" },
-        { jogos: 93, gols: 31, assistencias: 8 }
-      ),
-      createClub(
-        "Fiorentina",
-        { inicio: "2019", fim: "2020" },
-        { jogos: 4, gols: 0, assistencias: 0 }
-      ),
-      createClub(
-        "Flamengo",
-        { inicio: "2020", fim: "Presente" },
-        { jogos: 276, gols: 172, assistencias: 37 }
-      ),
-    ],
-    selecao: {
-      nome: "Brasil",
-      periodo: { inicio: "2020", fim: "Presente" },
-      estatisticas: { jogos: 12, gols: 4, assistencias: 1 },
-    },
-    titulos: [
-      // Flamengo
-      {
-        nome: "Copa Libertadores",
-        anos: "2022",
-        clube: "Flamengo",
-      },
-      {
-        nome: "Campeonato Brasileiro",
-        anos: "2020",
-        clube: "Flamengo",
-      },
-      {
-        nome: "Copa do Brasil",
-        anos: "2022, 2024",
-        clube: "Flamengo",
-      },
-      {
-        nome: "Recopa Sul-Americana",
-        anos: "2020",
-        clube: "Flamengo",
-      },
-      {
-        nome: "Supercopa do Brasil",
-        anos: "2020, 2021, 2025",
-        clube: "Flamengo",
-      },
-      {
-        nome: "Campeonato Carioca",
-        anos: "2020, 2021, 2024, 2025",
-        clube: "Flamengo",
-      },
-
-      // Individuais
-      {
-        nome: "Rei da América",
-        logo: "El País",
-        anos: "2022",
-        categoria: "individual",
-      },
-      {
-        nome: "Artilheiro da Copa Libertadores",
-        logo: "Copa Libertadores",
-        anos: "2022",
-        categoria: "individual",
-      },
-      {
-        nome: "Bola de Prata (Placar)",
-        logo: "Placar",
-        anos: "2022",
-        categoria: "individual",
-      },
-      {
-        nome: "Seleção do Campeonato Brasileiro",
-        logo: "Campeonato Brasileiro",
-        anos: "2022, 2023",
-        categoria: "individual",
-      },
-      {
-        nome: "Artilheiro da Copa do Brasil",
-        logo: "Copa do Brasil",
-        anos: "2020, 2024",
-        categoria: "individual",
-      },
-    ],
-    tags: [
-      "Pedro",
-      "Pedro Guilherme",
-      "Pedro Guilherme Abreu dos Santos",
-      "Pedrão",
-    ],
-    ultima_atualizacao: "11/11/2025",
-  },
-
   // Gilberto Silva
   {
     nome: "Gilberto Silva",
@@ -9980,15 +9868,110 @@ export const jogadores = [
         clube: "Panathinaikos",
       },
     ],
-    tags: [
-      "Gilberto Silva",
-      "Arsenal",
-      "Brasil",
-      "Volante",
-      "Invencíveis",
-      "Atlético Mineiro",
-      "GS19",
+    tags: ["Gilberto Silva", "Invencíveis", "GS19"],
+  },
+
+  // Gustavo Henrique
+  {
+    nome: "Gustavo Henrique",
+    background: "Default",
+    descricao:
+      "Zagueiro brasileiro de grande porte físico, conhecido pela sua imposição no jogo aéreo e experiência. Atualmente, é uma das peças defensivas mais utilizadas na equipe do Corinthians.",
+    pagina: "https://www.instagram.com/gustavohenrique/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://cdn.meutimao.com.br/_upload/noticia/2025/03/02/gustavo-henrique-supera-lesao-e-estreia-pelo-em941w.jpg",
+    numero: "13",
+    posicao: "Zagueiro / Zagueiro Central",
+    dataNascimento: "03/24/1993",
+    status: "Ativo",
+    curiosidades:
+      "Gustavo Henrique estreou profissionalmente pelo Santos, clube onde conquistou dois títulos paulistas. Ele teve uma passagem pelo Fenerbahçe, da Turquia, antes de retornar ao futebol brasileiro pelo Corinthians. No Flamengo, era conhecido como 'Gustavão'.",
+    clubes: [
+      createClub(
+        "Santos",
+        { inicio: "2012", fim: "2019" },
+        { jogos: 213, gols: 14, assistencias: 2 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 87, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Fenerbahçe",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 23, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Real Valladolid",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 14, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 68, gols: 3, assistencias: 0 } // Estatísticas atualizadas até Nov 2025
+      ),
     ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "N/A", fim: "N/A" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Santos
+      {
+        nome: "Campeonato Paulista",
+        anos: "2015, 2016",
+        clube: "Santos",
+      },
+      // Flamengo
+      {
+        nome: "Copa Libertadores",
+        anos: "2022",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2020",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2020, 2021",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2020, 2021",
+        clube: "Flamengo",
+      },
+      // Fenerbahçe
+      {
+        nome: "Copa da Turquia",
+        anos: "2023",
+        clube: "Fenerbahçe",
+      },
+      // Corinthians
+      {
+        nome: "Campeonato Paulista",
+        anos: "2025",
+        clube: "Corinthians",
+      },
+    ],
+    tags: [
+      "Gustavo Henrique",
+      "Gustavo",
+      "Gustavão",
+      "Gustavo Henrique Corinthians",
+    ],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Gustavo Scarpa
@@ -10997,6 +10980,82 @@ export const jogadores = [
     ultima_atualizacao: "29/10/25",
   },
 
+  // Maycon
+  {
+    nome: "Maycon",
+    background: "Titanium",
+    descricao:
+      "Meio-campista brasileiro formado no Corinthians, conhecido por sua versatilidade em atuar tanto na proteção da defesa quanto na criação ofensiva. Possui experiência internacional e é multicampeão pelo clube.",
+    pagina: "https://www.instagram.com/maycon/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/97/2025/02/10/maycon-retorna-aos-gramados-apos-quase-um-ano-em-recuperacao-1739190587283_v2_1080x1235.jpg",
+    numero: "7",
+    posicao: "Meio-Campista Central / Volante",
+    dataNascimento: "07/15/1997",
+    status: "Ativo",
+    curiosidades:
+      "Maycon é um dos jogadores do Corinthians que possui as duas passagens mais recentes pelo clube em anos de títulos importantes. Sua melhor temporada em contribuições ofensivas foi a de 2017. Ele foi um dos artilheiros do clube na temporada 2025.",
+    clubes: [
+      createClub(
+        "Corinthians",
+        { inicio: "2016", fim: "2018" },
+        { jogos: 107, gols: 8, assistencias: 8 }
+      ),
+      createClub(
+        "Ponte Preta",
+        { inicio: "2016", fim: "2016" },
+        { jogos: 16, gols: 1, assistencias: 0 }
+      ), // Empréstimo
+      createClub(
+        "Shakhtar Donetsk",
+        { inicio: "2018", fim: "2022" },
+        { jogos: 98, gols: 11, assistencias: 1 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2022", fim: "Presente" },
+        { jogos: 134, gols: 10, assistencias: 8 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2017", fim: "2017" },
+      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Corinthians
+      {
+        nome: "Campeonato Brasileiro",
+        anos: "2017",
+        clube: "Corinthians",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2017, 2018, 2025",
+        clube: "Corinthians",
+      },
+      // Shakhtar Donetsk
+      {
+        nome: "Campeonato Ucraniano",
+        anos: "2019, 2020",
+        clube: "Shakhtar Donetsk",
+      },
+      {
+        nome: "Copa da Ucrânia",
+        anos: "2019",
+        clube: "Shakhtar Donetsk",
+      },
+      {
+        nome: "Supercopa da Ucrânia",
+        anos: "2021",
+        clube: "Shakhtar Donetsk",
+      },
+    ],
+    tags: ["Maycon", "Maycon Corinthians", "Maycon Volante"],
+    ultima_atualizacao: "11/11/2025",
+  },
+
   //Marcelo
   {
     nome: "Marcelo",
@@ -11304,6 +11363,63 @@ export const jogadores = [
     ],
     tags: ["Marinho"],
     ultima_atualizacao: "27/10/25",
+  },
+
+  // Matheus Bidu
+  {
+    nome: "Matheus Bidu",
+    background: "Default",
+    descricao:
+      "Lateral-esquerdo brasileiro com forte vocação ofensiva, conhecido por sua velocidade e capacidade de cruzar. Tornou-se uma opção confiável e com bom volume de jogo no setor esquerdo do Corinthians.",
+    pagina: "https://www.instagram.com/matheusbidu_06/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/dd/2024/06/26/matheus-bidu-comemora-gol-marcado-pelo-corinthians-durante-jogo-contra-o-cuiaba-pelo-campeonato-brasileiro-1719450112069_v2_3x4.jpg",
+    numero: "21",
+    posicao: "Lateral-Esquerdo",
+    dataNascimento: "01/29/1999",
+    status: "Ativo",
+    curiosidades:
+      "Matheus Bidu é cria da base do Guarani, onde fez sua estreia profissional. Sua melhor temporada de desempenho foi pelo Cruzeiro, em 2022, na Série B, onde foi titular na campanha do título. No Corinthians, disputa a posição com Hugo e Fabrizio Angileri.",
+    clubes: [
+      createClub(
+        "Guarani",
+        { inicio: "2019", fim: "2023" },
+        { jogos: 73, gols: 1, assistencias: 4 }
+      ),
+      createClub(
+        "Figueirense",
+        { inicio: "2020", fim: "2020" },
+        { jogos: 15, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 39, gols: 3, assistencias: 3 }
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 85, gols: 5, assistencias: 6 }
+      ),
+    ],
+    selecao: {},
+    titulos: [
+      // Cruzeiro
+      {
+        nome: "Campeonato Brasileiro Série B",
+        anos: "2022",
+        clube: "Cruzeiro",
+      },
+      // Corinthians
+      {
+        nome: "Campeonato Paulista",
+        anos: "2025",
+        clube: "Corinthians",
+      },
+    ],
+    tags: ["Matheus Bidu", "Bidu", "Matheus"],
+    ultima_atualizacao: "10/11/2025",
   },
 
   // Matheus Cunha (Matheus Cunha Queiroz)
@@ -32562,132 +32678,6 @@ export const jogadores = [
     ultima_atualizacao: "06/11/2025",
   },
 
-  // Matías Viña
-  {
-    nome: "Matías Viña",
-    background: "plate",
-    descricao:
-      "Lateral-esquerdo uruguaio com grande vigor físico, leitura defensiva e chegada forte à área. Revelado pelo Nacional, foi eleito o melhor jogador do Uruguai em 2019, brilhou no Palmeiras multicampeão e levou sua versatilidade para Europa antes de chegar ao Flamengo em 2024.",
-    pagina: "https://www.instagram.com/mati.vina/",
-    nacionalidade: "Uruguai",
-    imagem:
-      "https://s2.glbimg.com/5XyOQXAQxUuDRW_8L6t2eY7rjTM=/0x0:2000x1333/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2024/08/30/matias_vina_flamengo.jpg",
-    numero: "17",
-    posicao: "Lateral-esquerdo / Ala",
-    dataNascimento: "11/09/1997",
-    status: "Ativo",
-    curiosidades:
-      "Foi eleito Craque do Campeonato Uruguaio de 2019 e destaque defensivo da Libertadores 2020. Primeiro uruguaio a erguer a Libertadores pelo Palmeiras, manteve protagonismo ao vencer a Conference League pela Roma. Clube ídolo principal: Palmeiras.",
-    clubes: [
-      createClub(
-        "Nacional",
-        { inicio: "2017", fim: "2020" },
-        { jogos: 71, gols: 5, assistencias: 10 }
-      ),
-      createClub(
-        "Palmeiras",
-        { inicio: "2020", fim: "2021" },
-        { jogos: 77, gols: 5, assistencias: 9 }
-      ),
-      createClub(
-        "Roma",
-        { inicio: "2021", fim: "2024" },
-        { jogos: 79, gols: 4, assistencias: 6 }
-      ),
-      createClub(
-        "AFC Bournemouth",
-        { inicio: "2023", fim: "2023" },
-        { jogos: 22, gols: 2, assistencias: 1 }
-      ),
-      createClub(
-        "Sassuolo",
-        { inicio: "2024", fim: "2024" },
-        { jogos: 13, gols: 0, assistencias: 1 }
-      ),
-      createClub(
-        "Flamengo",
-        { inicio: "2024", fim: "Presente" },
-        { jogos: 32, gols: 2, assistencias: 6 }
-      ),
-    ],
-    selecao: {
-      nome: "Uruguai",
-      periodo: { inicio: "2019", fim: "Presente" },
-      estatisticas: { jogos: 36, gols: 1, assistencias: 4 },
-    },
-    titulos: [
-      // Nacional
-      {
-        nome: "Campeonato Uruguaio",
-        anos: "2019",
-        clube: "Nacional",
-      },
-
-      // Palmeiras
-      {
-        nome: "Copa Libertadores",
-        anos: "2020",
-        clube: "Palmeiras",
-      },
-      {
-        nome: "Copa do Brasil",
-        anos: "2020",
-        clube: "Palmeiras",
-      },
-      {
-        nome: "Campeonato Paulista",
-        anos: "2020",
-        clube: "Palmeiras",
-      },
-
-      // Roma
-      {
-        nome: "UEFA Europa Conference League",
-        anos: "2022",
-        clube: "Roma",
-      },
-
-      // Flamengo
-      {
-        nome: "Copa do Brasil",
-        anos: "2024",
-        clube: "Flamengo",
-      },
-      {
-        nome: "Supercopa do Brasil",
-        anos: "2025",
-        clube: "Flamengo",
-      },
-      {
-        nome: "Campeonato Carioca",
-        anos: "2025",
-        clube: "Flamengo",
-      },
-
-      // Individuais
-      {
-        nome: "Craque do Campeonato Uruguaio",
-        logo: "AUF",
-        anos: "2019",
-        categoria: "individual",
-      },
-      {
-        nome: "Bola de Prata - Lateral-esquerdo",
-        logo: "Placar",
-        anos: "2020",
-        categoria: "individual",
-      },
-      {
-        nome: "Seleção da Copa Libertadores",
-        logo: "Copa Libertadores",
-        anos: "2020",
-        categoria: "individual",
-      },
-    ],
-    tags: ["Matías Viña", "Matias Vina", "Matias Viña", "Vina"],
-    ultima_atualizacao: "11/11/2025",
-  },
-
   // Joaquín Piquerez
   {
     nome: "Joaquín Piquerez",
@@ -32997,6 +32987,132 @@ export const jogadores = [
     ],
     tags: ["Luis Suárez", "Suárez", "Suarez", "El Pistolero", "MSN"],
     ultima_atualizacao: "06/11/2025",
+  },
+
+  // Matías Viña
+  {
+    nome: "Matías Viña",
+    background: "plate",
+    descricao:
+      "Lateral-esquerdo uruguaio com grande vigor físico, leitura defensiva e chegada forte à área. Revelado pelo Nacional, foi eleito o melhor jogador do Uruguai em 2019, brilhou no Palmeiras multicampeão e levou sua versatilidade para Europa antes de chegar ao Flamengo em 2024.",
+    pagina: "https://www.instagram.com/mati.vina/",
+    nacionalidade: "Uruguai",
+    imagem:
+      "https://www.365scores.com/pt-br/news/magazine/wp-content/uploads/2024/02/Flamengo-x-Boa-Vista-Campeonato-Carioca-Estadio-do-Maracana-20-02-2024-MarceloCortes_NWS5911--scaled.jpg",
+    numero: "17",
+    posicao: "Lateral-esquerdo / Ala",
+    dataNascimento: "11/09/1997",
+    status: "Ativo",
+    curiosidades:
+      "Foi eleito Craque do Campeonato Uruguaio de 2019 e destaque defensivo da Libertadores 2020. Primeiro uruguaio a erguer a Libertadores pelo Palmeiras, manteve protagonismo ao vencer a Conference League pela Roma. Clube ídolo principal: Palmeiras.",
+    clubes: [
+      createClub(
+        "Nacional",
+        { inicio: "2017", fim: "2020" },
+        { jogos: 71, gols: 5, assistencias: 10 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 77, gols: 5, assistencias: 9 }
+      ),
+      createClub(
+        "Roma",
+        { inicio: "2021", fim: "2024" },
+        { jogos: 79, gols: 4, assistencias: 6 }
+      ),
+      createClub(
+        "AFC Bournemouth",
+        { inicio: "2023", fim: "2023" },
+        { jogos: 22, gols: 2, assistencias: 1 }
+      ),
+      createClub(
+        "Sassuolo",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 13, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 32, gols: 2, assistencias: 6 }
+      ),
+    ],
+    selecao: {
+      nome: "Uruguai",
+      periodo: { inicio: "2019", fim: "Presente" },
+      estatisticas: { jogos: 36, gols: 1, assistencias: 4 },
+    },
+    titulos: [
+      // Nacional
+      {
+        nome: "Campeonato Uruguaio",
+        anos: "2019",
+        clube: "Nacional",
+      },
+
+      // Palmeiras
+      {
+        nome: "Copa Libertadores",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2020",
+        clube: "Palmeiras",
+      },
+
+      // Roma
+      {
+        nome: "UEFA Conference League",
+        anos: "2022",
+        clube: "Roma",
+      },
+
+      // Flamengo
+      {
+        nome: "Copa do Brasil",
+        anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Supercopa do Brasil",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Campeonato Carioca",
+        anos: "2025",
+        clube: "Flamengo",
+      },
+
+      // Individuais
+      {
+        nome: "Craque do Campeonato Uruguaio",
+        logo: "Campeonato Uruguaio",
+        anos: "2019",
+        categoria: "individual",
+      },
+      {
+        nome: "Bola de Prata - Lateral-esquerdo",
+        logo: "Placar",
+        anos: "2020",
+        categoria: "individual",
+      },
+      {
+        nome: "Seleção da Copa Libertadores",
+        logo: "Copa Libertadores",
+        anos: "2020",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Matías Viña", "Matias Vina", "Matias Viña", "Vina"],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Nicolás De La Cruz
