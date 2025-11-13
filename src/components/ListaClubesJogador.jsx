@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
-const getClubesOrdenados = (clubes, larguraTela) => {
+const getClubesOrdenados = (clubes) => {
   if (!clubes || clubes.length === 0) {
     return [];
   }
@@ -9,50 +10,46 @@ const getClubesOrdenados = (clubes, larguraTela) => {
     return parseInt(a.periodo.inicio) - parseInt(b.periodo.inicio);
   });
 
-  const MAX_CLUBES_PEQUENO = 6;
-  const MAX_CLUBES_MEDIO = 12;
-  const MAX_CLUBES_GRANDE = 9;
-  const LARGURA_CORTE_PEQUENO = 800;
-  const LARGURA_CORTE_GRANDE = 1200;
-
-  if (
-    larguraTela <= LARGURA_CORTE_PEQUENO &&
-    clubesOrdenados.length >= MAX_CLUBES_PEQUENO
-  ) {
-    return clubesOrdenados.slice(0, MAX_CLUBES_PEQUENO);
-  } else if (
-    larguraTela >= LARGURA_CORTE_GRANDE &&
-    clubesOrdenados.length >= MAX_CLUBES_GRANDE
-  ) {
-    return clubesOrdenados.slice(0, MAX_CLUBES_GRANDE);
-  } else if (
-    larguraTela <= LARGURA_CORTE_GRANDE &&
-    larguraTela >= LARGURA_CORTE_PEQUENO &&
-    clubesOrdenados.length >= MAX_CLUBES_PEQUENO
-  ) {
-    return clubesOrdenados.slice(0, MAX_CLUBES_PEQUENO);
-  } else {
-    return clubesOrdenados.slice(0, MAX_CLUBES_MEDIO);
-  }
+  return clubesOrdenados;
 };
 
 function ListaClubesJogador({ clubes }) {
-  const [larguraTela, setLarguraTela] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setLarguraTela(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  const clubesParaMostrar = getClubesOrdenados(clubes, larguraTela);
+  const clubesParaMostrar = getClubesOrdenados(clubes);
 
   if (clubesParaMostrar.length === 0) {
     return <p>Nenhum clube encontrado.</p>;
+  }
+
+  if (clubesParaMostrar.length > 1) {
+    return (
+      <Swiper
+        breakpoints={{
+          0: { slidesPerView: 6 },
+          660: { slidesPerView: 10 },
+          860: { slidesPerView: 6 },
+          1020: { slidesPerView: 8 },
+          1200: { slidesPerView: 10 },
+        }}
+        className="clubes-tecnicos"
+      >
+        {clubesParaMostrar.map((clube, index) => {
+          const nomeClubeFormatado = clube.nome.replace(/ /g, "_");
+          const pathImagem = `/img__equipes/Logo_${nomeClubeFormatado}.png`;
+
+          return (
+            <SwiperSlide key={index} className="div-clube">
+              <img className="clubes" src={pathImagem} alt={clube.nome} />
+              <div className="clube-status">
+                <h3>{clube.nome}</h3>
+                <p>
+                  ({clube.periodo.inicio} - {clube.periodo.fim})
+                </p>
+              </div>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+    );
   }
 
   return (
@@ -62,7 +59,7 @@ function ListaClubesJogador({ clubes }) {
         const pathImagem = `/img__equipes/Logo_${nomeClubeFormatado}.png`;
 
         return (
-          <div className="div-clube" key={index}>
+          <div key={index} className="div-clube">
             <img className="clubes" src={pathImagem} alt={clube.nome} />
             <div className="clube-status">
               <h3>{clube.nome}</h3>

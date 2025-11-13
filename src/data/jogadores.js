@@ -1813,7 +1813,7 @@ export const jogadores = [
         { jogos: 23, gols: 0, assistencias: 0 }
       ),
       createClub(
-        "Al Nassr",
+        "Al-Nassr",
         { inicio: "2023", fim: "2023" },
         { jogos: 7, gols: 0, assistencias: 0 }
       ),
@@ -2856,6 +2856,89 @@ export const jogadores = [
     ],
     tags: ["El Pupi"],
     ultima_atualizacao: "03/11/2025",
+  },
+
+  // Juan Dinenno
+  {
+    nome: "Juan Dinenno",
+    background: "Plate",
+    descricao:
+      "Centroavante argentino conhecido pela sua eficácia na finalização, posicionamento de área e bom jogo aéreo. É a principal referência ofensiva do Cruzeiro na temporada.",
+    pagina: "https://www.instagram.com/juandinenno/",
+    nacionalidade: "Argentina",
+    imagem:
+      "https://ds-images.bolavip.com/news/image/800/800/?src=https://images.bolavip.com/webp/br/full/BBR_20251016_BBR_1579688_Dinenno-scaled-e1760626743807.webp",
+    numero: "9",
+    posicao: "Centroavante",
+    dataNascimento: "08/28/1994",
+    status: "Ativo",
+    curiosidades:
+      "Juan Dinenno foi o artilheiro do Pumas UNAM em várias temporadas consecutivas na Liga MX. No Brasil, ele é o centroavante mais experiente do elenco do Cruzeiro em 2025. Tem passagens por clubes na Argentina, Colômbia, Equador e Espanha.",
+    clubes: [
+      createClub(
+        "Racing",
+        { inicio: "2013", fim: "2015" },
+        { jogos: 1, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Temperley",
+        { inicio: "2014", fim: "2014" },
+        { jogos: 12, gols: 2, assistencias: 0 }
+      ),
+      createClub(
+        "Aldosivi",
+        { inicio: "2015", fim: "2015" },
+        { jogos: 12, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Deportivo Cuenca",
+        { inicio: "2016", fim: "2017" },
+        { jogos: 42, gols: 20, assistencias: 3 }
+      ),
+      createClub(
+        "Barcelona de Guayaquil",
+        { inicio: "2018", fim: "2018" },
+        { jogos: 44, gols: 18, assistencias: 4 }
+      ),
+      createClub(
+        "Deportivo Cali",
+        { inicio: "2019", fim: "2019" },
+        { jogos: 48, gols: 28, assistencias: 6 }
+      ),
+      createClub(
+        "Pumas",
+        { inicio: "2020", fim: "2023" },
+        { jogos: 147, gols: 60, assistencias: 11 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2024", fim: "2025" },
+        { jogos: 27, gols: 8, assistencias: 4 }
+      ),
+      createClub(
+        "São Paulo",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 4, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {},
+    titulos: [
+      // Cruzeiro
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2025",
+        clube: "Cruzeiro",
+      },
+      // Títulos Individuais
+      {
+        nome: "Artilheiro do Campeonato Equatoriano",
+        logo: "Campeonato Equatoriano",
+        anos: "2017",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Juan Dinenno", "Dinenno", "Juan", "Dinenno Cruzeiro"],
+    ultima_atualizacao: "12/11/2025",
   },
 
   // Juan Román Riquelme
@@ -6181,7 +6264,7 @@ export const jogadores = [
       // Individuais
       {
         nome: "Melhor Goleiro do Mundial de Clubes",
-        logo: "Mundial de Clubes",
+        logo: "Mundial de Clubes FIFA",
         anos: "2012",
 
         categoria: "individual",
@@ -7590,7 +7673,7 @@ export const jogadores = [
     background: "plate",
     descricao:
       "Extremo veloz e criativo, Dudu combina dribles curtos com leitura tática apurada para quebrar defesas. Desde 2015, tornou-se a referência técnica do Palmeiras e símbolo da era mais vencedora do clube no século XXI.",
-    pagina: "https://www.instagram.com/duduoficial/",
+    pagina: "https://www.instagram.com/7_dudu/",
     nacionalidade: "Brasil",
     imagem:
       "https://conteudo.imguol.com.br/c/esporte/d3/2023/08/28/dudu-do-palmeiras-no-jogo-contra-o-barcelona-equ-pela-libertadores-1693252363826_v2_1x1.jpg",
@@ -9271,7 +9354,7 @@ export const jogadores = [
     status: "Aposentado",
     nacionalidade: "Brasil",
     imagem:
-      "https://s2-ge.glbimg.com/Z-rq2GVZzeYOFhKlsdc_9DrarHA=/59x149:1336x937/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/y/p/bj30ELTACNBIt8SYXq8w/cacerense-x-mutum-72.jpg",
+      "https://imgsapp.pe.superesportes.com.br/app/noticia_127117037534/2014/07/31/31597/20140731122317475848a.jpg",
     clubes: [
       createClub(
         "Sport",
@@ -10673,6 +10756,60 @@ export const jogadores = [
     tags: [],
   },
 
+  // Kaio Jorge
+  {
+    nome: "Kaio Jorge",
+    background: "Promise",
+    descricao:
+      "Atacante brasileiro revelado pelo Santos, conhecido por sua inteligência tática, movimentação e faro de gol. Após passagem pela Juventus, retomou o protagonismo no Cruzeiro, onde se firmou como referência ofensiva em 2025.",
+    pagina: "https://www.instagram.com/kaiojorge/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/06/kaio_jorge_cruzeiro_palmeiras_brasileirao-e1750198899323.jpg?w=1200&h=900&crop=1",
+    numero: "9",
+    posicao: "Atacante/Centroavante",
+    dataNascimento: "24/01/2002",
+    status: "Ativo",
+    curiosidades:
+      "Kaio Jorge estreou profissionalmente pelo Santos aos 16 anos e marcou gol em final de Libertadores. Teve passagem pela Juventus antes de voltar ao Brasil. No Cruzeiro, tornou-se um dos líderes em gols na temporada 2025.",
+    clubes: [
+      createClub(
+        "Santos",
+        { inicio: "2018", fim: "2021" },
+        { jogos: 84, gols: 17, assistencias: 6 }
+      ),
+      createClub(
+        "Juventus",
+        { inicio: "2021", fim: "2024" },
+        { jogos: 12, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 47, gols: 15, assistencias: 5 }
+      ),
+    ],
+    selecao: {},
+    titulos: [
+      // Cruzeiro
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2025",
+        clube: "Cruzeiro",
+      },
+
+      // Individuais
+      {
+        nome: "Revelação do Campeonato Mineiro",
+        logo: "Campeonato Mineiro",
+        anos: "2025",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Kaio Jorge", "KaioJorge", "Kaio", "Kaio Jorge Pinto Ramos"],
+    ultima_atualizacao: "11/11/2025",
+  },
+
   //Kaká
   {
     nome: "Kaká",
@@ -11090,6 +11227,83 @@ export const jogadores = [
     tags: [],
   },
 
+  // Lucas Romero
+  {
+    nome: "Lucas Romero",
+    background: "Default",
+    descricao:
+      "Volante argentino de marcação firme e entrega intensa, referência de liderança e raça no Cruzeiro. Experiente, atua também como lateral-direito e é conhecido pela regularidade e força defensiva.",
+    pagina: "https://www.instagram.com/lucas.romero29/",
+    nacionalidade: "Argentina",
+    imagem:
+      "https://jogada10.com.br/wp-content/uploads/2025/05/54490766405_5a90f19a5c_o_Easy-Resize.com_.jpg",
+    numero: "29",
+    posicao: "Volante/Lateral-direito",
+    dataNascimento: "18/04/1994",
+    status: "Ativo",
+    curiosidades:
+      "Natural de Buenos Aires, Lucas Romero teve duas passagens pelo Cruzeiro. É chamado pela torcida de 'El General'. Fluente em português, é um dos estrangeiros com mais jogos pelo clube.",
+    clubes: [
+      createClub(
+        "Vélez Sarsfield",
+        { inicio: "2013", fim: "2016" },
+        { jogos: 94, gols: 2, assistencias: 2 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2016", fim: "2019" },
+        { jogos: 127, gols: 2, assistencias: 4 }
+      ),
+      createClub(
+        "Independiente",
+        { inicio: "2020", fim: "2022" },
+        { jogos: 94, gols: 4, assistencias: 3 }
+      ),
+      createClub(
+        "León",
+        { inicio: "2022", fim: "2023" },
+        { jogos: 24, gols: 1, assistencias: 1 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 45, gols: 1, assistencias: 2 }
+      ),
+    ],
+    selecao: {
+      nome: "Argentina Sub-20",
+      periodo: { inicio: "2013", fim: "2014" },
+      estatisticas: { jogos: 10, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Cruzeiro
+      {
+        nome: "Copa do Brasil",
+        anos: "2017, 2018",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2018",
+        clube: "Cruzeiro",
+      },
+
+      // León
+      {
+        nome: "Liga dos Campeões da CONCACAF",
+        anos: "2023",
+        clube: "León",
+      },
+    ],
+    tags: [
+      "Lucas Romero",
+      "El General",
+      "Lucas Daniel Romero",
+      "Romero Cruzeiro",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
   // Lúcio
   {
     nome: "Lúcio",
@@ -11281,24 +11495,194 @@ export const jogadores = [
     ultima_atualizacao: "11/11/2025",
   },
 
-  //Marcelo
+  // Marcelo
   {
     nome: "Marcelo",
-    background: "diamond",
+    background: "Diamond",
     descricao:
-      "Lateral-esquerdo habilidoso e ofensivo, Marcelo é considerado um dos maiores laterais da história do futebol. Famoso por seus dribles, cruzamentos e visão de jogo, ele conquistou diversos títulos pelo Real Madrid e pela Seleção Brasileira.",
-    pagina: "https://www.instagram.com/marceloviieira/",
+      "Lateral-esquerdo brasileiro habilidoso e ofensivo, Marcelo é considerado um dos maiores laterais da história do futebol. Famoso por seus dribles, cruzamentos e visão de jogo, conquistou diversos títulos pelo Real Madrid e pela Seleção Brasileira de Futebol.",
+    pagina: "https://www.instagram.com/marcelotwelve/",
     nacionalidade: "Brasil",
     imagem:
-      "https://i.pinimg.com/736x/9f/d5/87/9fd587b97780c61629ec5933895a43db.jpg",
+      "https://conteudo.imguol.com.br/c/esporte/93/2022/05/28/marcelo-do-real-madrid-segurando-a-taca-da-liga-dos-campeoes-1653775674905_v2_3x4.jpg",
     numero: "12",
     posicao: "Lateral-esquerdo",
     dataNascimento: "12/05/1988",
     status: "Aposentado",
-    clubes: [],
-    selecao: {},
-    titulos: [],
-    tags: [],
+    curiosidades:
+      "Marcelo é o jogador com mais títulos da história do Real Madrid (25) em 16 temporadas no clube. Ele marcou gol na final da Liga dos Campeões de 2014 e era conhecido por combinar habilidade ofensiva com marcação.",
+    clubes: [
+      createClub(
+        "Fluminense",
+        { inicio: "2005", fim: "2006" },
+        { jogos: 65, gols: 4, assistencias: 1 }
+      ),
+      createClub(
+        "Real Madrid",
+        { inicio: "2007", fim: "2022" },
+        { jogos: 546, gols: 38, assistencias: 104 }
+      ),
+      createClub(
+        "Olympiacos",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 10, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2023", fim: "2024" },
+        { jogos: 46, gols: 5, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2006", fim: "2018" },
+      estatisticas: { jogos: 58, gols: 6, assistencias: 0 },
+    },
+    titulos: [
+      // Real Madrid
+      {
+        nome: "UEFA Champions League",
+        anos: "2014, 2016, 2017, 2018, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Campeonato Espanhol",
+        anos: "2007, 2008, 2012, 2017, 2020, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Copa do Rei",
+        anos: "2011, 2014",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2008, 2012, 2017, 2020, 2022",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Supercopa da UEFA",
+        anos: "2014, 2016, 2017",
+        clube: "Real Madrid",
+      },
+      {
+        nome: "Mundial de Clubes FIFA",
+        anos: "2014, 2016, 2017, 2018",
+        clube: "Real Madrid",
+      },
+      // Fluminense
+      {
+        nome: "Copa Libertadores",
+        anos: "2023",
+        clube: "Fluminense",
+      },
+      {
+        nome: "Recopa Sul-Americana",
+        anos: "2024",
+        clube: "Fluminense",
+      },
+      // Seleção Brasileira
+      {
+        nome: "Copa das Confederações FIFA",
+        anos: "2013",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Medalha de Prata – Jogos Olímpicos",
+        logo: "Jogos Olímpicos",
+        anos: "2012",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+      {
+        nome: "Medalha de Bronze – Jogos Olímpicos",
+        logo: "Jogos Olímpicos",
+        anos: "2008",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Individuais
+      {
+        nome: "FIFA FIFPro World XI",
+        logo: "FIFPro",
+        anos: "2012, 2015, 2016, 2017, 2018, 2019",
+        categoria: "individual",
+      },
+    ],
+    tags: [
+      "Marcelo",
+      "Marcelo Vieira",
+      "Marcelo Vieira da Silva Júnior",
+      "Marcelo12",
+    ],
+    ultima_atualizacao: "13/11/2025",
+  },
+
+  // Marlon
+  {
+    nome: "Marlon",
+    background: "Default",
+    descricao:
+      "Lateral-esquerdo brasileiro de bom apoio ofensivo e regularidade defensiva. Desde sua chegada ao Cruzeiro, tornou-se uma das referências do time, conhecido pela técnica e pelo comprometimento tático.",
+    pagina: "https://www.instagram.com/marlonlorenzo3/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://medias.itatiaia.com.br/dims4/default/0d02e75/2147483647/strip/true/crop/1337x753+81+0/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-radio-itatiaia.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0d%2Fe8%2Ff66377c2418baa4a40ff74d62b88%2F54810693025-26ce3ec702-o.jpg",
+    numero: "3",
+    posicao: "Lateral-esquerdo",
+    dataNascimento: "07/02/1997",
+    status: "Ativo",
+    curiosidades:
+      "Natural de Criciúma (SC), Marlon se destacou no clube de sua cidade antes de atuar na Europa, com passagens por Boavista e Trabzonspor. No Cruzeiro, conquistou a torcida pela entrega e constância.",
+    clubes: [
+      createClub(
+        "Criciúma",
+        { inicio: "2014", fim: "2015" },
+        { jogos: 45, gols: 2, assistencias: 3 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "2016", fim: "2020" },
+        { jogos: 106, gols: 3, assistencias: 7 }
+      ),
+      createClub(
+        "Boavista",
+        { inicio: "2020", fim: "2021" },
+        { jogos: 42, gols: 2, assistencias: 3 }
+      ),
+      createClub(
+        "Trabzonspor",
+        { inicio: "2021", fim: "2022" },
+        { jogos: 25, gols: 1, assistencias: 2 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2023", fim: "2025" },
+        { jogos: 103, gols: 4, assistencias: 8 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 1, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: null,
+    titulos: [
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2024",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Campeonato Turco",
+        anos: "2021–22",
+        clube: "Trabzonspor",
+      },
+    ],
+    tags: ["Marlon", "Marlon Lorenzo", "Marlon Cruzeiro", "Lateral Marlon"],
+    ultima_atualizacao: "13/11/2025",
   },
 
   // Marquinhos
@@ -11809,6 +12193,143 @@ export const jogadores = [
     ],
     tags: ["Matheus Gonçalves", "Matheus Gonçalves Martins"],
     ultima_atualizacao: "29/10/25",
+  },
+
+  // Matheus Henrique
+  {
+    nome: "Matheus Henrique",
+    background: "Default",
+    descricao:
+      "Volante brasileiro, chegou ao Cruzeiro após boas passagens no Grêmio e Itália. Combina marcação, chegada ao ataque e bom posicionamento, sendo peça de transição da Raposa.",
+    pagina: "https://www.instagram.com/matheus.henrique/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/f8/2025/04/10/matheus-henrique-meio-campista-do-cruzeiro-1744310435530_v2_1x1.jpg",
+    numero: "8",
+    posicao: "Volante/Meio-campo defensivo",
+    dataNascimento: "19/12/1997",
+    status: "Ativo",
+    curiosidades:
+      "Foi ouro olímpico com o Brasil nos Jogos de Tóquio 2020. Chegou ao Cruzeiro em 2024 por negociação milionária. Sofreu lesão no menisco em 2025 e passou por recuperação.",
+    clubes: [
+      createClub(
+        "São Caetano",
+        { inicio: "2014", fim: "2016" },
+        { jogos: 28, gols: 3, assistencias: 0 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2017", fim: "2021" },
+        { jogos: 139, gols: 11, assistencias: 4 }
+      ),
+      createClub(
+        "Sassuolo",
+        { inicio: "2021", fim: "2024" },
+        { jogos: 89, gols: 6, assistencias: 5 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 50, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2021", fim: "Presente" },
+      estatisticas: { jogos: 5, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      {
+        nome: "Jogos Olímpicos",
+        anos: "2020",
+        clube: "Brasil",
+        logoVariavel: true,
+      },
+
+      // Grêmio
+      {
+        nome: "Campeonato Gaúcho",
+        anos: "2018, 2019, 2020, 2021",
+        clube: "Grêmio",
+      },
+    ],
+    tags: [
+      "Matheus Henrique",
+      "Matheus Henrique",
+      "Matheus Henrique de Souza",
+      "MH8",
+    ],
+    ultima_atualizacao: "11/11/2025",
+  },
+
+  // Matheus Pereira
+  {
+    nome: "Matheus Pereira",
+    background: "Default",
+    descricao:
+      "Meia-ofensivo brasileiro, destaque do Cruzeiro desde 2023. Visionário, bom no passe e nas bolas paradas, tornou-se o camisa 10 da Raposa e peça central no esquema ofensivo.",
+    pagina: "https://www.instagram.com/matheuspereira/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/01/matheus_pereira_cruzeiro-e1736515115245.jpg?w=1200&h=900&crop=1",
+    numero: "10",
+    posicao: "Meia/ofensivo",
+    dataNascimento: "05/05/1996",
+    status: "Ativo",
+    curiosidades:
+      "Seu primeiro filho, Theo, nasceu em abril de 2025. Em 2024 foi artilheiro/assistente do Cruzeiro. É natural de Belo Horizonte.",
+    clubes: [
+      createClub(
+        "Sporting CP",
+        { inicio: "2015", fim: "2020" },
+        { jogos: 45, gols: 6, assistencias: 9 }
+      ),
+      createClub(
+        "Al-Hilal",
+        { inicio: "2020", fim: "2023" },
+        { jogos: 55, gols: 11, assistencias: 18 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2023", fim: "Presente" },
+        { jogos: 100, gols: 16, assistencias: 21 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2023", fim: "Presente" },
+      estatisticas: { jogos: 2, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Cruzeiro
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2023",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Copa Sul-Americana",
+        anos: "2023",
+        clube: "Cruzeiro",
+      },
+
+      // Al-Hilal
+      {
+        nome: "Campeonato Saudita",
+        anos: "2021, 2022",
+        clube: "Al-Hilal",
+      },
+
+      // Individuais
+      {
+        nome: "Melhor Jogador do Campeonato Mineiro",
+        logo: "Campeonato Mineiro",
+        anos: "2024",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Matheus Pereira", "Matheus Pereira", "Matheus Pereira", "MP10"],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Mayke
@@ -12420,7 +12941,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Bronze do Mundial de Clubes",
-        logo: "Mundial de Clubes",
+        logo: "Mundial de Clubes FIFA",
         anos: "2012",
         categoria: "individual",
       },
@@ -12552,7 +13073,7 @@ export const jogadores = [
       },
       {
         nome: "Artilheiro do Mundial de Clubes",
-        logo: "Mundial de Clubes",
+        logo: "Mundial de Clubes FIFA",
         anos: "2022",
         categoria: "individual",
       },
@@ -12919,6 +13440,108 @@ export const jogadores = [
       },
     ],
     tags: [],
+  },
+
+  // Rafael Cabral
+  {
+    nome: "Rafael Cabral",
+    background: "Plate",
+    descricao:
+      "Goleiro brasileiro experiente, destaque do Cruzeiro desde 2022. Conhecido por sua liderança, reflexos e capacidade em pênaltis, tornou-se peça fundamental na reconstrução da Raposa e um dos ídolos recentes do clube.",
+    pagina: "https://www.instagram.com/rafaelcabral1/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://portaldogremista.com.br/wp-content/uploads/2025/05/portaldogremista.com.br-ex-jogador-do-gremio-e-destaques-da-mls-nesta-temporada-rafael-cabral-goleiro.webp",
+    numero: "1",
+    posicao: "Goleiro",
+    dataNascimento: "20/05/1990",
+    status: "Ativo",
+    curiosidades:
+      "Revelado pelo Santos, foi campeão da Libertadores em 2011 e da Copa do Brasil em 2010. Atuou na Europa por Napoli e Reading antes de se destacar novamente no Cruzeiro. É conhecido pela frieza em disputas de pênalti.",
+    clubes: [
+      createClub(
+        "Santos",
+        { inicio: "2010", fim: "2013" },
+        { jogos: 190, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Napoli",
+        { inicio: "2013", fim: "2018" },
+        { jogos: 80, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Reading",
+        { inicio: "2018", fim: "2022" },
+        { jogos: 101, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2022", fim: "2024" },
+        { jogos: 120, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Grêmio",
+        { inicio: "2024", fim: "2024" },
+        { jogos: 6, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "Real Salt Lake",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 6, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "2012", fim: "2013" },
+      estatisticas: { jogos: 3, gols: 0, assistencias: 0 },
+    },
+    titulos: [
+      // Santos
+      {
+        nome: "Copa Libertadores",
+        anos: "2011",
+        clube: "Santos",
+      },
+      {
+        nome: "Campeonato Paulista",
+        anos: "2010, 2011, 2012",
+        clube: "Santos",
+      },
+      {
+        nome: "Copa do Brasil",
+        anos: "2010",
+        clube: "Santos",
+      },
+
+      // Napoli
+      {
+        nome: "Copa da Itália",
+        anos: "2013-14, 2019-20",
+        clube: "Napoli",
+      },
+
+      // Cruzeiro
+      {
+        nome: "Campeonato Brasileiro Série B",
+        anos: "2022",
+        clube: "Cruzeiro",
+      },
+      {
+        nome: "Campeonato Mineiro",
+        anos: "2024",
+        clube: "Cruzeiro",
+      },
+
+      // Individuais
+      {
+        nome: "Melhor Goleiro do Campeonato Mineiro",
+        logo: "Campeonato Mineiro",
+        anos: "2023",
+        categoria: "individual",
+      },
+    ],
+    tags: ["Rafael Cabral", "Rafael", "RafaelCabral", "Rafael Cabral Barbosa"],
+    ultima_atualizacao: "11/11/2025",
   },
 
   // Rafinha
@@ -14029,7 +14652,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor jogador da final do Mundial de Clubes",
-        logo: "Mundial de Clubes",
+        logo: "Mundial de Clubes FIFA",
         anos: "2019",
         categoria: "individual",
       },
@@ -14147,12 +14770,7 @@ export const jogadores = [
         { jogos: 117, gols: 7, assistencias: 22 }
       ),
     ],
-    selecao: {
-      nome: "Nenhuma",
-      periodo: { inicio: "-", fim: "-" },
-      estatisticas: { jogos: 0, gols: 0, assistencias: 0 },
-      participacoes: [],
-    },
+    selecao: {},
     titulos: [
       // Olympiacos
       {
@@ -15829,7 +16447,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/willianarao/",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/07/2025/07/04/willian-arao-do-santos-1751645091903_v2_4x3.jpg",
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2025/10/AGIF25102021404332-scaled-aspect-ratio-512-320.jpg",
     numero: "15",
     posicao: "Volante",
     dataNascimento: "12/03/1992",
@@ -15938,7 +16556,7 @@ export const jogadores = [
       },
     ],
     tags: ["Willian Arão", "Willian Souza Arão da Silva"],
-    ultima_atualizacao: "30/10/25",
+    ultima_atualizacao: "13/11/25",
   },
 
   // Willian Borges
@@ -16116,6 +16734,71 @@ export const jogadores = [
     ],
     tags: ["Yuri Alberto"],
     ultima_atualizacao: "05/11/2025",
+  },
+
+  // Zé Ivaldo
+  {
+    nome: "Zé Ivaldo",
+    background: "Default",
+    descricao:
+      "Zagueiro brasileiro conhecido pela força física, imposição aérea e raça em campo. Ídolo recente do Cruzeiro, foi peça-chave no acesso à Série A e é lembrado pela liderança e segurança defensiva.",
+    pagina: "https://www.instagram.com/joseivaldo04/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://conteudo.imguol.com.br/c/esporte/3d/2025/09/07/ze-ivaldo-zagueiro-do-santos-1757286892927_v2_1x1.jpg",
+    numero: "5",
+    posicao: "Zagueiro",
+    dataNascimento: "14/06/1997",
+    status: "Ativo",
+    curiosidades:
+      "Revelado pelo Athletico Paranaense, Zé Ivaldo teve passagens por clubes como Cruzeiro e Coritiba. É conhecido por seu estilo aguerrido, sendo um dos zagueiros mais regulares do elenco celeste.",
+    clubes: [
+      createClub(
+        "Athletico Paranaense",
+        { inicio: "2016", fim: "2022" },
+        { jogos: 145, gols: 9, assistencias: 2 }
+      ),
+      createClub(
+        "Vitória",
+        { inicio: "2018", fim: "2018" },
+        { jogos: 24, gols: 1, assistencias: 0 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2022", fim: "2022" },
+        { jogos: 49, gols: 6, assistencias: 1 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "2023", fim: "2025" },
+        { jogos: 50, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Santos",
+        { inicio: "2025", fim: "Presente" },
+        { jogos: 26, gols: 1, assistencias: 0 }
+      ),
+    ],
+    selecao: null,
+    titulos: [
+      {
+        nome: "Campeonato Paranaense",
+        anos: "2016, 2018, 2019, 2020",
+        clube: "Athletico Paranaense",
+      },
+      {
+        nome: "Campeonato Brasileiro Série B",
+        anos: "2022",
+        clube: "Cruzeiro",
+      },
+    ],
+    tags: [
+      "Zé Ivaldo",
+      "José Ivaldo",
+      "Zagueiro Cruzeiro",
+      "Zé Ivaldo Cruzeiro",
+    ],
+    ultima_atualizacao: "13/11/2025",
   },
 
   // Zé Rafael
@@ -16841,7 +17524,7 @@ export const jogadores = [
       },
       {
         nome: "Chuteira de Prata do Mundial de Clubes",
-        logo: "Mundial de Clubes",
+        logo: "Mundial de Clubes FIFA",
         anos: "2012",
         categoria: "individual",
       },
@@ -20866,7 +21549,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Jogador do Mundial de Clubes",
-        logo: "Mundial de Clubes",
+        logo: "Mundial de Clubes FIFA",
         anos: "2013",
         categoria: "individual",
       },
@@ -22100,7 +22783,7 @@ export const jogadores = [
       },
       {
         nome: "Bola de Prata do Mundial de Clubes",
-        logo: "Mundial de Clubes",
+        logo: "Mundial de Clubes FIFA",
         anos: "2007",
         categoria: "individual",
       },
@@ -33313,7 +33996,7 @@ export const jogadores = [
       },
       {
         nome: "Artilheiro do Mundial de Clubes",
-        logo: "Mundial de Clubes",
+        logo: "Mundial de Clubes FIFA",
         anos: "2015",
         categoria: "individual",
       },

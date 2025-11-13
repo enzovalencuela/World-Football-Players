@@ -89,15 +89,17 @@ export default function HomePage() {
       resultadosOrdenados = resultadosFiltrados.slice().sort((a, b) => {
         const termo = termoPesquisa.toLowerCase();
 
-        const nomeA = a.nome.toLowerCase().includes(termo) ? true : null;
-        const nomeB = b.nome.toLowerCase().includes(termo) ? true : null;
+        const nomeA = a.nome.toLowerCase();
+        const nomeB = b.nome.toLowerCase();
 
-        if (nomeA && !nomeB) {
-          return -1;
-        }
-        if (!nomeA && nomeB) {
-          return 1;
-        }
+        if (nomeA === termo && nomeB !== termo) return -1;
+        if (nomeB === termo && nomeA !== termo) return 1;
+
+        if (nomeA.startsWith(termo) && !nomeB.startsWith(termo)) return -1;
+        if (!nomeA.startsWith(termo) && nomeB.startsWith(termo)) return 1;
+
+        if (nomeA.includes(termo) && !nomeB.includes(termo)) return -1;
+        if (!nomeA.includes(termo) && nomeB.includes(termo)) return 1;
 
         const ultimoClubeA =
           a.clubes && a.clubes.length > 0

@@ -64,9 +64,7 @@ function CardJogador({ jogador }) {
             )}
           </div>
           <h3>
-            {jogador.status === "Aposentado"
-              ? "Status"
-              : "Período de Atividade"}
+            {jogador.status === "Ativo" ? "Status" : "Período de Atividade"}
           </h3>
           <p id="info">
             {jogador.status}
