@@ -265,12 +265,7 @@ export default function HomePage() {
                 Aqui você fica por dentro de tudo do futebol mundial! Pesquise
                 por jogadores e clubes mundiais sem nenhuma dificuldade.
               </p>
-              <img
-                id="img-resultados"
-                src="/img__fundos/Fundo_messi.png"
-                alt=""
-                width="100%"
-              />
+              <img id="img-resultados" src="/img__fundos/Fundo_messi.png" />
             </>
           )}
         </main>

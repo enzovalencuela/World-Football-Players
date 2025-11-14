@@ -21785,14 +21785,14 @@ export const jogadores = [
       ),
       createClub(
         "Real Madrid",
-        { inicio: "2024", fim: "Atual" },
-        { jogos: 56, gols: 43, assistencias: 5 }
+        { inicio: "2024", fim: "Presente" },
+        { jogos: 75, gols: 62, assistencias: 1 }
       ),
     ],
     selecao: {
       nome: "França",
-      periodo: { inicio: "2017", fim: "Atual" },
-      estatisticas: { jogos: 92, gols: 52, assistencias: 29 },
+      periodo: { inicio: "2017", fim: "Presente" },
+      estatisticas: { jogos: 94, gols: 55, assistencias: 40 },
     },
     titulos: [
       // Seleção Nacional
@@ -21802,13 +21802,17 @@ export const jogadores = [
         clube: "França",
         logoVariavel: true,
       },
-      { nome: "UEFA Nations League", anos: "2021", clube: "França" },
       {
-        nome: "Campeonato Europeu Sub-19",
+        nome: "UEFA Nations League",
+        anos: "2021",
+        clube: "França",
+      },
+      {
+        nome: "Eurocopa Sub-19",
         anos: "2016",
         clube: "França",
       },
-      // Clubes (PSG)
+      // Paris Saint-Germain
       {
         nome: "Campeonato Francês",
         anos: "2018, 2019, 2020, 2022, 2023, 2024",
@@ -21829,12 +21833,21 @@ export const jogadores = [
         anos: "2019, 2020, 2022, 2023",
         clube: "Paris Saint-Germain",
       },
-      // Clubes (Monaco)
-      { nome: "Campeonato Francês", anos: "2017", clube: "Monaco" },
-      // Clubes (Real Madrid)
-      { nome: "Supercopa da Espanha", anos: "2025", clube: "Real Madrid" },
+      // Monaco
+      {
+        nome: "Campeonato Francês",
+        anos: "2017",
+        clube: "Monaco",
+      },
+      // Real Madrid
+      {
+        nome: "Supercopa da Espanha",
+        anos: "2025",
+        clube: "Real Madrid"
+      },
     ],
-    tags: ["atacante", "frança", "real madrid", "psg", "Paris Saint-Germain"],
+    tags: ["Mbappe", "Kilyan Mbappe", "Killian Mbappe", "KM10"],
+    ultima_atualizacao: "14/11/25"
   },
 
   // Michel Platini

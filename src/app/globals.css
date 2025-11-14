@@ -45,6 +45,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100%;
 }
 
 h1 {
@@ -58,24 +59,26 @@ h1 {
 section {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  align-items: center;
-  margin-block: 3rem;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  margin-block: 3rem;
 }
 
 .barra-pesquisa {
   position: relative;
+  max-width: 600px;
+  width: 100%;
+}
 
-  & input {
-    width: 100%;
-    max-width: 600px;
-    padding: 0.875rem;
-    font-size: 1rem;
-    border-radius: 1.5rem;
-    border: none;
-    outline: none;
-  }
+#campo-pesquisa {
+  width: 100%;
+  padding: 0.875rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  outline: none;
 }
 
 button {
@@ -257,14 +260,14 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
   width: 100%;
 }
 
 .div-left div {
   position: relative;
   display: flex;
-  margin: 1rem 1rem 1rem 0;
+  width: 100%;
 }
 
 .cards {
@@ -276,6 +279,8 @@ ul {
   will-change: transform;
   transition: transform 0.5s;
   rotate: 1deg;
+  width: 100%;
+  max-width: 300px;
 }
 
 .card:hover {
@@ -379,6 +384,7 @@ ul {
   flex-direction: row;
   justify-content: start;
   align-items: center;
+  gap: 20px;
 }
 
 .div-clube {
@@ -733,8 +739,8 @@ footer {
 /* Para telas até 1250px ////////////////////////////////////////////////////////*/
 @media (max-width: 1290px) {
   .jogador {
-    width: 80vw;
-    max-width: 850px;
+    max-width: 90vw;
+    padding: 2rem;
   }
 }
 
@@ -753,12 +759,6 @@ footer {
     font-size: 1.6rem;
   }
 
-  .barra-pesquisa {
-    & input {
-      width: 75vw;
-    }
-  }
-
   ul {
     gap: 3rem;
   }
@@ -769,12 +769,6 @@ footer {
 
   #p-resultados {
     width: 80vw;
-  }
-
-  .jogador {
-    width: 80vw;
-    max-width: 600px;
-    padding: 2rem 2rem;
   }
 
   .img-grampo {
@@ -851,12 +845,6 @@ footer {
     font-size: 1.6rem;
   }
 
-  .barra-pesquisa {
-    & input {
-      width: 75vw;
-    }
-  }
-
   ul {
     gap: 2rem;
   }
@@ -867,12 +855,6 @@ footer {
 
   #p-resultados {
     width: 80vw;
-  }
-
-  .jogador {
-    width: 80vw;
-    margin: 0;
-    padding: 1.5rem;
   }
 
   .img-grampo {
