@@ -1858,13 +1858,18 @@ export const jogadores = [
         clube: "Flamengo",
       },
       {
+        nome: "Campeonato Carioca",
+        anos: "2024, 2025",
+        clube: "Flamengo",
+      },
+      {
         nome: "Supercopa do Brasil",
         anos: "2025",
         clube: "Flamengo",
       },
       {
-        nome: "Campeonato Carioca",
-        anos: "2024, 2025",
+        nome: "Copa Libertadores",
+        anos: "2025",
         clube: "Flamengo",
       },
     ],
@@ -3490,7 +3495,7 @@ export const jogadores = [
       createClub(
         "Inter Miami",
         { inicio: "2023", fim: "Presente" },
-        { jogos: 86, gols: 78, assistencias: 39 }
+        { jogos: 87, gols: 78, assistencias: 44 }
       ),
     ],
     selecao: {
@@ -3546,6 +3551,7 @@ export const jogadores = [
       // Inter Miami
       { nome: "Leagues Cup", anos: "2023", clube: "Inter Miami" },
       { nome: "MLS Supporters' Shield", anos: "2024", clube: "Inter Miami" },
+      { nome: "Eastern Conference", anos: "2025", clube: "Inter Miami" },
 
       // Argentina
       {
@@ -3680,7 +3686,7 @@ export const jogadores = [
       },
     ],
     tags: ["Lionel Messi", "Messi", "Leo Messi", "GOAT", "MSN"],
-    ultima_atualizacao: "09/11/2025",
+    ultima_atualizacao: "30/11/2025",
   },
 
   // BÉLGICA --------------------------------------------------------------------------------------------------
@@ -4487,9 +4493,15 @@ export const jogadores = [
         logoVariavel: true,
       },
 
+      // Flamengo
       {
         nome: "Copa do Brasil",
         anos: "2024",
+        clube: "Flamengo",
+      },
+      {
+        nome: "Copa Libertadores",
+        anos: "2025",
         clube: "Flamengo",
       },
     ],
@@ -21843,11 +21855,11 @@ export const jogadores = [
       {
         nome: "Supercopa da Espanha",
         anos: "2025",
-        clube: "Real Madrid"
+        clube: "Real Madrid",
       },
     ],
     tags: ["Mbappe", "Kilyan Mbappe", "Killian Mbappe", "KM10"],
-    ultima_atualizacao: "14/11/25"
+    ultima_atualizacao: "14/11/25",
   },
 
   // Michel Platini
