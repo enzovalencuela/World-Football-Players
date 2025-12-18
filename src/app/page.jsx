@@ -2,7 +2,7 @@
 
 import React, { useMemo, useState } from "react";
 import { jogadores } from "../data/jogadores";
-import { tecnicos } from "../data/tecnicos";
+//import { tecnicos } from "../data/tecnicos";
 import { selecoes } from "../data/selecoes";
 import { clubes } from "../data/clubes";
 import CardJogador from "../components/CardJogador";
@@ -13,14 +13,14 @@ import Loading from "../components/Loading";
 import { processarTitulosDoJogador } from "../utils/ProcessarTitulos";
 
 const FILTRO_PADRAO = "JOGADORES";
-const FILTRO_TECNICOS = "TECNICOS";
+//const FILTRO_TECNICOS = "TECNICOS";
 const FILTRO_CLUBES = "CLUBES";
 const FILTRO_SELECOES = "SELECOES";
 const ITENS_POR_CARGA = 20;
 
 const filtros = [
   { nome: "Jogadores", termo: FILTRO_PADRAO },
-  { nome: "Técnicos", termo: FILTRO_TECNICOS },
+  //{ nome: "Técnicos", termo: FILTRO_TECNICOS },
   { nome: "Clubes", termo: FILTRO_CLUBES },
   { nome: "Seleções", termo: FILTRO_SELECOES },
 ];
@@ -39,8 +39,10 @@ export default function HomePage() {
 
   const dadosAtivos = useMemo(() => {
     switch (categoriaAtiva) {
+      /*
       case FILTRO_TECNICOS:
         return tecnicos;
+      */
       case FILTRO_CLUBES:
         return clubes;
       case FILTRO_SELECOES:
@@ -73,12 +75,10 @@ export default function HomePage() {
     setItensVisiveis(ITENS_POR_CARGA);
   };
 
-  // --- Lógica de Sugestões Otimizada ---
   const sugestoes = useMemo(() => {
     if (!textoInput || textoInput.length < 2 || buscaAcionada) return [];
     const termo = textoInput.toLowerCase();
 
-    // Pré-calcula nomes de clubes/seleções que possuem a tag pesquisada
     const clubesComTag = clubes
       .filter((c) => c.tags?.some((t) => t.toLowerCase().includes(termo)))
       .map((c) => c.nome);
@@ -99,7 +99,6 @@ export default function HomePage() {
         if (item.tags?.some((tag) => tag.toLowerCase().includes(termo)))
           return true;
 
-        // Busca nas tags relacionadas
         if (categoriaAtiva === FILTRO_PADRAO) {
           if (item.clubes?.some((c) => clubesComTag.includes(c.nome)))
             return true;
@@ -115,7 +114,6 @@ export default function HomePage() {
       .slice(0, 5);
   }, [textoInput, dadosAtivos, buscaAcionada, categoriaAtiva]);
 
-  // --- Lógica de Resultados Finais Otimizada ---
   const resultadosFinais = useMemo(() => {
     if (!buscaAcionada) return [];
     const termo = termoPesquisa.toLowerCase();
@@ -168,7 +166,6 @@ export default function HomePage() {
         if (nomeA === termo && nomeB !== termo) return -1;
         if (nomeB === termo && nomeA !== termo) return 1;
 
-        // Ordenação por quem joga no time pesquisado (Presente)
         const isPresente = (jogador) =>
           jogador.clubes?.some(
             (c) =>
@@ -190,7 +187,6 @@ export default function HomePage() {
     return filtrados;
   }, [termoPesquisa, dadosAtivos, categoriaAtiva, buscaAcionada]);
 
-  // --- Funções de interface (Mostrar mais e Renderização) ---
   const handleMostrarMais = () => {
     setLoading(true);
     setTimeout(() => {
@@ -210,7 +206,7 @@ export default function HomePage() {
     }
 
     const config = {
-      [FILTRO_TECNICOS]: { component: CardTecnico, prop: "tecnico" },
+      //[FILTRO_TECNICOS]: { component: CardTecnico, prop: "tecnico" },
       [FILTRO_CLUBES]: { component: CardClubes, prop: "clube" },
       [FILTRO_SELECOES]: { component: CardSelecao, prop: "selecao" },
       [FILTRO_PADRAO]: { component: CardJogador, prop: "jogador" },

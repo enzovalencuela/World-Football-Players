@@ -7231,7 +7231,7 @@ export const jogadores = [
         anos: ["2024"],
       },
       {
-        nome: "Prêmio Samba Gold",
+        nome: "Prêmio Samba de Ouro",
         anos: ["2024"],
       },
       {
@@ -9715,7 +9715,7 @@ export const jogadores = [
   {
     nome: "Léo Ortiz",
     nomeCompleto: "Leonardo Rech Ortiz",
-    background: "Default",
+    background: "Plate",
     descricao:
       "Zagueiro (e volante) brasileiro conhecido pela qualidade na saída de bola, liderança e versatilidade. Foi um dos pilares e capitão do Red Bull Bragantino e um dos zagueiros mais caros contratados pelo Flamengo. Também foi convocado para a Seleção Brasileira.",
     pagina: "https://www.instagram.com/leortiz33/",
@@ -9792,7 +9792,7 @@ export const jogadores = [
   {
     nome: "Léo Pereira",
     nomeCompleto: "Leonardo Pereira",
-    background: "Default",
+    background: "Plate",
     descricao:
       "Zagueiro brasileiro conhecido pela velocidade, bom passe e liderança na defesa. Destaque no Athletico Paranaense, firmou-se como titular e peça fundamental do Flamengo, onde é bicampeão da Libertadores e multicampeão nacional.",
     pagina: "https://www.instagram.com/leopereira4",
@@ -10050,9 +10050,9 @@ export const jogadores = [
     ultimaAtualizacao: "05/12/2025",
   },
 
-  // Lucas Paquetá
+  // L. Paquetá
   {
-    nome: "Lucas Paquetá",
+    nome: "L. Paquetá",
     nomeCompleto: "Lucas Tolentino Coelho de Lima",
     background: "Titanium",
     descricao:
@@ -10339,9 +10339,9 @@ export const jogadores = [
     ultimaAtualizacao: "05/12/2025",
   },
 
-  // Luiz Araújo
+  // L. Araújo
   {
-    nome: "Luiz Araújo",
+    nome: "L. Araújo",
     nomeCompleto: "Luiz de Araújo Guimarães Neto",
     background: "Default",
     descricao:
@@ -17725,7 +17725,7 @@ export const jogadores = [
         { jogos: 109, gols: 20, assistencias: 22 }
       ),
       createClub(
-        "Olympique de Marselha",
+        "Olympique de Marseille",
         { inicio: "10/08/2022", fim: "30/06/2023" },
         { jogos: 44, gols: 18, assistencias: 3 }
       ),
