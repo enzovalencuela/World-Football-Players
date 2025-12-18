@@ -3959,20 +3959,33 @@ export const jogadores = [
       estatisticas: { jogos: 40, gols: 3, assistencias: 4 },
     },
     periodos_inativos: [
+      { inicio: "19/09/2012", fim: "21/11/2012" },
+      { inicio: "11/10/2014", fim: "11/10/2014" },
       { inicio: "21/12/2012", fim: "08/09/2014" },
-      { inicio: "11/06/2015", fim: "05/10/2017" },
+      { inicio: "15/10/2017", fim: "15/10/2017" },
+      { inicio: "05/10/2015", fim: "05/10/2017" },
       { inicio: "11/07/2021", fim: "31/08/2021" },
     ],
     titulosIndividuais: [
       {
-        nome: "Equipa do Ano: O Jogo (Melhor Lateral-Esquerdo)",
+        nome: "Seleção do Ano - Melhor Lateral-Esquerdo",
         logo: "O Jogo",
         anos: ["2012", "2013"],
       },
       {
-        nome: "Gran Galà del Calcio (Melhor Lateral-Esquerdo)",
-        logo: "Gran Galà del Calcio",
-        anos: ["2016-17", "2017-18"],
+        nome: "Seleção do Campeonato Português",
+        logo: "Campeonato Português",
+        anos: ["2012", "2013"],
+      },
+      {
+        nome: "Gran Galà del Calcio",
+        logo: "AIC",
+        anos: ["2017", "2018"],
+      },
+      {
+        nome: "Seleção do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: ["2017", "2018"],
       },
     ],
     tags: ["Alex Sandro"],
@@ -32894,6 +32907,61 @@ export const jogadores = [
     ],
     tags: ["Lev Yashin", "Yashin", "Aranha Negra"],
     ultimaAtualizacao: "16/12/2025",
+  },
+
+  // Safonov
+  {
+    nome: "Safonov",
+    nomeCompleto: "Matvey Yevgenyevich Safonov",
+    background: "Plate",
+    descricao:
+      "Goleiro russo de grande envergadura e reflexos apurados. Após anos como capitão e símbolo do Krasnodar, transferiu-se para o PSG em 2024 para competir no mais alto nível europeu. É conhecido pela sua capacidade em defender pênaltis e pela frieza sob pressão.",
+    pagina: "https://www.instagram.com/mi_safonov/",
+    nacionalidade: "Rússia",
+    imagem:
+      "https://www.telecomasia.net/upload/iblock/c73/c735b5a6b7f60a712e71b03454b9d326.jpg",
+    numero: "39",
+    posicao: "Goleiro",
+    dataNascimento: "25/02/1999",
+    status: "Ativo",
+    curiosidades:
+      "Curiosamente, Safonov nasceu no mesmo dia e ano que seu ex-companheiro de equipe, Gianluigi Donnarumma. Em dezembro de 2025, foi o grande herói do título da Copa Intercontinental FIFA contra o Flamengo, defendendo 4 cobranças decisivas na disputa por pênaltis.",
+    clubes: [
+      createClub(
+        "FK Krasnodar",
+        { inicio: "01/01/2017", fim: "13/06/2024" },
+        { jogos: 175, gols: 0, assistencias: 1 }
+      ),
+      createClub(
+        "Paris Saint-Germain",
+        { inicio: "14/06/2024", fim: "Presente" },
+        { jogos: 21, gols: 0, assistencias: 0 }
+      ),
+    ],
+    selecao: {
+      nome: "Rússia",
+      periodo: { inicio: "01/06/2021", fim: "Presente" },
+      estatisticas: { jogos: 18, gols: 0, assistencias: 0 },
+    },
+    titulosIndividuais: [
+      {
+        nome: "Melhor Jogador Jovem do Campeonato Russo",
+        logo: "Campeonato Russo",
+        anos: ["2019"],
+      },
+      {
+        nome: "Melhor Goleiro do Campeonato Russo",
+        logo: "Campeonato Russo",
+        anos: ["2022"],
+      },
+      {
+        nome: "MVP da Final da Copa Intercontinental FIFA",
+        logo: "Copa Intercontinental FIFA",
+        anos: ["2025"],
+      },
+    ],
+    tags: ["Matvei Safonov"],
+    ultima_atualizacao: "17/12/2025",
   },
 
   // SENEGAL -------------------------------------------------------------------------------------------------------------------------------
