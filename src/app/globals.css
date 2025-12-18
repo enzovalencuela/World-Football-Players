@@ -1019,6 +1019,10 @@ footer {
     padding-bottom: 2rem;
   }
 
+  .ul-filtros {
+    gap: 1rem;
+  }
+
   #p-resultados {
     width: 80vw;
   }
