@@ -3055,7 +3055,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Jogador da UEFA",
-        anos: ["2010-11", "2014-15"],
+        anos: ["2011", "2015"],
       },
       {
         nome: "Melhor Criador de Jogadas do Mundo pela IFFHS",
@@ -4331,7 +4331,7 @@ export const jogadores = [
     ultimaAtualizacao: "02/12/2025",
   },
 
-  // Ayrton Lucas Dantas de Medeiros
+  // Ayrton Lucas
   {
     nome: "Ayrton Lucas",
     nomeCompleto: "Ayrton Lucas Dantas de Medeiros",
@@ -4532,11 +4532,11 @@ export const jogadores = [
     ultimaAtualizacao: "02/12/2025",
   },
 
-  // Bruno de Lara Fuchs
+  // Fuchs
   {
-    nome: "Bruno Fuchs",
+    nome: "Fuchs",
     nomeCompleto: "Bruno de Lara Fuchs",
-    background: "Promise",
+    background: "Plate",
     descricao:
       "Zagueiro técnico e moderno, conhecido pelo bom posicionamento, qualidade no passe de longa distância e visão de jogo aprimorada. Campeão Olímpico, tornou-se uma peça fundamental na defesa do Palmeiras, destacando-se pela solidez e alta taxa de vitórias.",
     pagina: "https://www.palmeiras.com.br/jogadores/bruno-de-lara-fuchs/",
@@ -4589,9 +4589,9 @@ export const jogadores = [
     ultimaAtualizacao: "02/12/2025",
   },
 
-  // Bruno Henrique
+  // B. Henrique
   {
-    nome: "Bruno Henrique",
+    nome: "B. Henrique",
     nomeCompleto: "Bruno Henrique Pinto",
     background: "Titanium",
     descricao:
@@ -5260,9 +5260,9 @@ export const jogadores = [
     ultimaAtualizacao: "02/12/2025",
   },
 
-  // Cássio Ramos
+  // Cássio
   {
-    nome: "Cássio Ramos",
+    nome: "Cássio",
     nomeCompleto: "Cássio Roberto Ramos",
     background: "Titanium",
     descricao:
@@ -7101,9 +7101,9 @@ export const jogadores = [
     ultimaAtualizacao: "03/12/2025",
   },
 
-  // Emerson Royal
+  // E. Royal
   {
-    nome: "Emerson Royal",
+    nome: "E. Royal",
     nomeCompleto: "Emerson Aparecido Leite de Souza Júnior",
     background: "Plate",
     descricao:
@@ -7245,7 +7245,7 @@ export const jogadores = [
 
   // Estevão
   {
-    nome: "Estevão Willian",
+    nome: "Estevão",
     nomeCompleto: "Estêvão Willian Almeida de Oliveira Gonçalves",
     background: "Promise",
     descricao:
@@ -7286,9 +7286,9 @@ export const jogadores = [
     ultimaAtualizacao: "03/12/2025",
   },
 
-  // Everton Cebolinha
+  // Everton
   {
-    nome: "Everton Cebolinha",
+    nome: "Everton",
     nomeCompleto: "Everton Sousa Soares",
     background: "Plate",
     descricao:
@@ -7361,9 +7361,9 @@ export const jogadores = [
     ultimaAtualizacao: "03/12/2025",
   },
 
-  // Éverton Ribeiro
+  // E. Ribeiro
   {
-    nome: "Éverton Ribeiro",
+    nome: "E. Ribeiro",
     nomeCompleto: "Éverton Augusto de Barros Ribeiro",
     background: "Titanium",
     descricao:
@@ -7563,9 +7563,9 @@ export const jogadores = [
     ultimaAtualizacao: "03/12/2025",
   },
 
-  // Fabrício Bruno
+  // Fabrício B.
   {
-    nome: "Fabrício Bruno",
+    nome: "Fabrício B.",
     nomeCompleto: "Fabrício Bruno Soares de Faria",
     background: "Plate",
     descricao:
@@ -8008,9 +8008,9 @@ export const jogadores = [
     ultimaAtualizacao: "04/12/2025",
   },
 
-  // Gabriel Barbosa
+  // Gabi
   {
-    nome: "Gabriel Barbosa",
+    nome: "Gabi",
     nomeCompleto: "Gabriel Barbosa Almeida",
     background: "Diamond",
     descricao:
@@ -8019,7 +8019,7 @@ export const jogadores = [
     nacionalidade: "Brasil",
     imagem:
       "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/01/17/532288004-542694910180da12ab0c1k-1.jpg",
-    numero: "99",
+    numero: "9",
     posicao: "Atacante",
     dataNascimento: "30/08/1996",
     dataFalecimento: null,
@@ -8096,9 +8096,9 @@ export const jogadores = [
     ultimaAtualizacao: "04/12/2025",
   },
 
-  // Gabriel Jesus
+  // G. Jesus
   {
-    nome: "Gabriel Jesus",
+    nome: "G. Jesus",
     nomeCompleto: "Gabriel Fernando de Jesus",
     background: "Titanium",
     descricao:
@@ -8168,9 +8168,9 @@ export const jogadores = [
     ultimaAtualizacao: "04/12/2025",
   },
 
-  // Gabriel Menino
+  // G. Menino
   {
-    nome: "Gabriel Menino",
+    nome: "G. Menino",
     nomeCompleto: "Gabriel Vinicius Menino de Souza",
     background: "Plate",
     descricao:
@@ -11762,7 +11762,7 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "01/02/2025", fim: "Presente" },
-        { jogos: 28, gols: 9, assistencias: 6 }
+        { jogos: 28, gols: 11, assistencias: 6 }
       ),
     ],
     selecao: {
@@ -16212,14 +16212,9 @@ export const jogadores = [
     periodos_inativos: [{ inicio: "22/07/2021", fim: "07/08/2021" }],
     titulosIndividuais: [
       {
-        nome: "Melhor Jogador Jovem da Copa Libertadores",
-        logo: "CONMEBOL",
+        nome: "Melhor Jogador Jovem da Copa Libertadores da América",
+        logo: "Copa Libertadores da América",
         anos: ["2017"],
-      },
-      {
-        nome: "Seleção do Ano da European Sports Media",
-        logo: "ESM",
-        anos: ["2022", "2024"],
       },
       {
         nome: "Melhor Jogador Jovem da Liga dos Campeões da UEFA",
@@ -16232,21 +16227,55 @@ export const jogadores = [
         anos: ["2022", "2023", "2024"],
       },
       {
-        nome: "Prêmio Samba de Ouro",
+        nome: "Seleção do Campeonato Espanhol",
+        logo: "Campeonato Espanhol",
+        anos: ["2022", "2023", "2024"],
+      },
+      {
+        nome: "Gol da Temporada do Campeonato Espanhol",
+        logo: "Campeonato Espanhol",
+        anos: ["2022"],
+      },
+      {
+        nome: "Troféu EFE",
+        anos: ["2022", "2023", "2024"],
+      },
+      {
+        nome: "Seleção do Ano da European Sports Media",
+        logo: "ESM",
+        anos: ["2024"],
+      },
+      {
+        nome: "Bola de Ouro do Mundial de Clubes FIFA",
+        logo: "Bola de Ouro FIFA",
+        anos: ["2022"],
+      },
+      {
+        nome: "Melhor Jogador do Real Madrid na Temporada",
+        logo: "Individual",
         anos: ["2023"],
       },
       {
-        nome: "Jogador da Temporada do Campeonato Espanhol",
-        logo: "Campeonato Espanhol",
-        anos: ["2024"],
-      },
-      {
-        nome: "Melhor Jogador da Champions League",
-        logo: "UEFA",
-        anos: ["2024"],
+        nome: "Prêmio Samba de Ouro",
+        anos: ["2023", "2024"],
       },
       {
         nome: "Prêmio Sócrates",
+        anos: ["2023"],
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Espanhol",
+        logo: "Campeonato Espanhol",
+        anos: ["2023"],
+      },
+      {
+        nome: "Melhor Jogador da Liga dos Campeões da UEFA",
+        logo: "Liga dos Campeões da UEFA",
+        anos: ["2024"],
+      },
+      {
+        nome: "Melhor Jogador da Final da Supercopa da Espanha",
+        logo: "Supercopa da Espanha",
         anos: ["2024"],
       },
       {
@@ -16254,12 +16283,60 @@ export const jogadores = [
         anos: ["2024"],
       },
       {
+        nome: "Seleção do Ano da FIFA",
+        logo: "FIFA",
+        anos: ["2024"],
+      },
+      {
+        nome: "FIFA FIFPro World XI",
+        anos: ["2023", "2024"],
+      },
+      {
         nome: "Melhor Jogador do Mundo",
         logo: "Globe Soccer Awards",
         anos: ["2024"],
       },
+      {
+        nome: "Melhor Atacante do Mundo",
+        logo: "Globe Soccer Awards",
+        anos: ["2024"],
+      },
+      {
+        nome: "Melhor Jogador do Mundo",
+        logo: "Sports Illustrated",
+        anos: ["2024"],
+      },
+      {
+        nome: "Melhor Jogador do Mundo",
+        logo: "Marca",
+        anos: ["2024"],
+      },
+      {
+        nome: "Melhor Jogador Jovem do Mundo",
+        logo: "Marca",
+        anos: ["2022"],
+      },
+      {
+        nome: "Seleção do Ano da IFFHS",
+        logo: "IFFHS",
+        anos: ["2024"],
+      },
+      {
+        nome: "Melhor Jogador da Final da Copa Intercontinental da FIFA",
+        logo: "Copa Intercontinental da FIFA",
+        anos: ["2024"],
+      },
+      {
+        nome: "Melhor Jogador da UEFA",
+        anos: ["2025"],
+      },
+      {
+        nome: "Chuteira de Ouro da UEFA",
+        logo: "Chuteira de Ouro",
+        anos: ["2025"],
+      },
     ],
-    tags: ["Vinícius Júnior", "Vini Jr", "VJR7", "Real Madrid", "Flamengo"],
+    tags: ["Vinicius Júnior", "Vini Jr", "VJR7"],
     ultimaAtualizacao: "09/12/2025",
   },
 
@@ -17720,9 +17797,9 @@ export const jogadores = [
     ultimaAtualizacao: "10/12/2025",
   },
 
-  // Arturo Vidal
+  // Vidal
   {
-    nome: "Arturo Vidal",
+    nome: "Vidal",
     nomeCompleto: "Arturo Erasmo Vidal Pardo",
     background: "Titanium",
     descricao:
@@ -17831,9 +17908,9 @@ export const jogadores = [
     tags: ["Arturo Erasmo Vidal Pardo", "King Arturo", "Vidal"],
     ultimaAtualizacao: "10/12/2025",
   },
-  // Erick Pulgar
+  // Erick
   {
-    nome: "Erick Pulgar",
+    nome: "Erick",
     nomeCompleto: "Erick Antonio Pulgar Farfán",
     background: "Plate",
     descricao:
@@ -17841,7 +17918,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/erickoficial/",
     nacionalidade: "Chile",
     imagem:
-      "https://tntsports.com.br/__export/1751286078691/sites/esporteinterativo/img/2025/06/30/gettyimages-2222049587.jpg_1000014774.jpg",
+      "https://fla-media.mundobola.com/media/2025/04/erick-pulgar-comemoracao-flamengo-x-juventude-brasileirao-2025-no-maracana.jpg",
     numero: "5",
     posicao: "Volante / Meio-Campista Defensivo",
     dataNascimento: "15/01/1994",
@@ -19264,8 +19341,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "UEFA Men's Player of the Year Award",
-        logo: "UEFA",
+        nome: "Melhor Jogador da UEFA",
         anos: ["2018"],
       },
       {
@@ -21525,8 +21601,7 @@ export const jogadores = [
         logoVariavel: true,
       },
       {
-        nome: "Melhor Jogador da Europa",
-        logo: "UEFA",
+        nome: "Melhor Jogador da UEFA",
         anos: ["2012"],
       },
       {
@@ -21590,11 +21665,6 @@ export const jogadores = [
         logo: "Eurocopa",
         anos: ["2012"],
         logoVariavel: true,
-      },
-      {
-        nome: "Jogador do Ano da UEFA",
-        logo: "UEFA",
-        anos: ["2011-12"],
       },
       {
         nome: "Equipe da Copa das Confederações FIFA",
@@ -22000,6 +22070,11 @@ export const jogadores = [
         logo: "Eurocopa",
         anos: ["2024"],
         logoVariavel: true,
+      },
+      {
+        nome: "The Best FIFA - 2º Lugar",
+        logo: "The Best FIFA",
+        anos: ["2025"],
       },
       {
         nome: "Equipe do Ano",
@@ -22453,6 +22528,94 @@ export const jogadores = [
     ],
     tags: ["Raul González Blanco", "Raul González", "Raul", "El Siete"],
     ultima_atualizacao: "11/12/2025",
+  },
+
+  // Rodri
+  {
+    nome: "Rodrigo",
+    nomeCompleto: "Rodrigo Hernández Cascante",
+    background: "Diamond",
+    descricao:
+      "Considerado por muitos o melhor volante da sua geração, Rodri é o equilíbrio perfeito entre força física, inteligência tática e precisão técnica. Cérebro do Manchester City de Pep Guardiola e da Seleção Espanhola, sua capacidade de controlar o ritmo do jogo e aparecer em momentos decisivos o levou ao topo do futebol mundial, culminando na conquista da Bola de Ouro.",
+    pagina: "https://www.mancity.com/players/rodrigo",
+    nacionalidade: "Espanha",
+    imagem:
+      "https://playmakerbrasil.com.br/wp-content/uploads/2025/06/TELEMMGLPICT000430218908_17509773894220_trans_NvBQzQNjv4BqMMuCGzxi0_wzXhNMMWtL-RLb3oAmT4GrAvvtRtzk0y0.webp",
+    numero: "16",
+    posicao: "Volante / Meio-campista",
+    dataNascimento: "22/06/1996",
+    dataFalecimento: null,
+    status: "Ativo",
+    curiosidades:
+      "Ao contrário da maioria dos jogadores de elite, Rodri viveu em uma residência universitária enquanto já jogava na elite do futebol espanhol para concluir sua graduação em Administração e Direção de Empresas. Não possui tatuagens e é conhecido por não utilizar redes sociais, focando exclusivamente na sua carreira e estudos.",
+    clubes: [
+      createClub(
+        "Villarreal",
+        { inicio: "01/07/2016", fim: "23/05/2018" },
+        { jogos: 84, gols: 2, assistencias: 4 }
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "24/05/2018", fim: "02/07/2019" },
+        { jogos: 47, gols: 3, assistencias: 1 }
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "03/07/2019", fim: "Presente" },
+        { jogos: 268, gols: 27, assistencias: 31 }
+      ),
+    ],
+    selecao: {
+      nome: "Espanha",
+      periodo: { inicio: "23/03/2018", fim: "Presente" },
+      estatisticas: { jogos: 61, gols: 4, assistencias: 2 },
+    },
+    periodos_inativos: [
+      { inicio: "22/07/2021", fim: "07/08/2021" },
+      { inicio: "22/09/2024", fim: "30/05/2025" },
+    ],
+    titulosIndividuais: [
+      {
+        nome: "Equipe Ideal da Liga dos Campeões da UEFA",
+        logo: "Liga dos Campeões da UEFA",
+        anos: ["2023"],
+      },
+      {
+        nome: "Melhor Jogador da Liga dos Campeões da UEFA",
+        logo: "Liga dos Campeões da UEFA",
+        anos: ["2023"],
+      },
+      {
+        nome: "Melhor Jogador da UEFA",
+        anos: ["2024"],
+      },
+      {
+        nome: "Equipe Ideal da Eurocopa",
+        logo: "Eurocopa",
+        anos: ["2024"],
+        logoVariavel: true,
+      },
+      {
+        nome: "Melhor Jogador do Mundo da UEFA",
+        logo: "UEFA",
+        anos: ["2024"],
+      },
+      {
+        nome: "Bola de Ouro",
+        anos: ["2024"],
+      },
+      {
+        nome: "Melhor Construtor de Jogo do Mundo (IFFHS)",
+        logo: "IFFHS",
+        anos: ["2024"],
+      },
+      {
+        nome: "FIFA FIFPro World XI",
+        anos: ["2024", "2025"],
+      },
+    ],
+    tags: ["Rodrigo Hernandez Cascante"],
+    ultimaAtualizacao: "18/12/2025",
   },
 
   // Sergio Ramos
@@ -23689,7 +23852,18 @@ export const jogadores = [
         anos: ["2022"],
       },
       {
+        nome: "Bola de Prata da Copa do Mundo FIFA",
+        logo: "Bola de Prata FIFA",
+        anos: ["2022"],
+      },
+      {
         nome: "Melhor Jogador Jovem da Copa do Mundo FIFA",
+        logo: "Copa do Mundo FIFA",
+        anos: ["2018"],
+        logoVariavel: true,
+      },
+      {
+        nome: "Equipe Ideal da Copa do Mundo FIFA",
         logo: "Copa do Mundo FIFA",
         anos: ["2018"],
         logoVariavel: true,
@@ -23697,28 +23871,41 @@ export const jogadores = [
       {
         nome: "Melhor Jogador da França",
         logo: "France Football",
-        anos: ["2018", "2019", "2021", "2022", "2023"],
+        anos: ["2018", "2019", "2022"],
       },
       {
         nome: "Troféu Kopa",
         anos: ["2018"],
       },
       {
+        nome: "Golden Boy",
+        logo: "Tuttosport",
+        anos: ["2017"],
+      },
+      {
         nome: "Melhor Jogador do Campeonato Francês",
         logo: "Campeonato Francês",
-        anos: ["2018–19", "2020–21", "2021–22", "2022–23", "2023–24"],
+        anos: ["2019", "2021", "2022", "2023", "2024"],
+      },
+      {
+        nome: "Melhor Jogador Jovem do Campeonato Francês",
+        logo: "Campeonato Francês",
+        anos: ["2017", "2018", "2019"],
       },
       {
         nome: "Artilheiro do Campeonato Francês",
         logo: "Campeonato Francês",
-        anos: [
-          "2018–19",
-          "2019–20",
-          "2020–21",
-          "2021–22",
-          "2022–23",
-          "2023–24",
-        ],
+        anos: ["2019", "2020", "2021", "2022", "2023", "2024"],
+      },
+      {
+        nome: "Equipe Ideal do Campeonato Francês",
+        logo: "Campeonato Francês",
+        anos: ["2017", "2018", "2019", "2021", "2022"],
+      },
+      {
+        nome: "Equipe Ideal da Liga dos Campeões da UEFA",
+        logo: "Liga dos Campeões da UEFA",
+        anos: ["2017", "2010", "2021"],
       },
       {
         nome: "Equipe do Ano da UEFA",
@@ -23726,13 +23913,57 @@ export const jogadores = [
         anos: ["2018"],
       },
       {
+        nome: "Chuteira de Ouro da UEFA",
+        logo: "Chuteira de Ouro",
+        anos: ["2025"],
+      },
+      {
+        nome: "Prêmio Gerd Müller",
+        anos: ["2024"],
+      },
+      {
         nome: "FIFA FIFPro World XI",
-        anos: ["2018", "2019", "2020", "2021", "2022", "2023"],
+        anos: ["2018", "2021", "2022", "2023", "2024", "2025"],
       },
       {
         nome: "Melhor Jogador do Ano",
         logo: "Globe Soccer Awards",
         anos: ["2021"],
+      },
+      {
+        nome: "Maior Artilheiro do Mundo (IFFHS)",
+        logo: "IFFHS",
+        anos: ["2022"],
+      },
+      {
+        nome: "Equipe Mundial do Ano (IFFHS)",
+        logo: "IFFHS",
+        anos: ["2022"],
+      },
+      {
+        nome: "Melhor Marcador da Fase Final da Liga das Nações da UEFA",
+        logo: "Liga das Nações da UEFA",
+        anos: ["2021"],
+      },
+      {
+        nome: "Onze de Bronze",
+        logo: "Onze Mundial",
+        anos: ["2019"],
+      },
+      {
+        nome: "The Best FIFA - 2º Lugar",
+        logo: "The Best FIFA",
+        anos: ["2022"],
+      },
+      {
+        nome: "Bola de Ouro - 3º Lugar",
+        logo: "Bola de Ouro",
+        anos: ["2023"],
+      },
+      {
+        nome: "The Best FIFA - 3º Lugar",
+        logo: "The Best FIFA",
+        anos: ["2023", "2025"],
       },
     ],
     tags: [
@@ -24108,11 +24339,6 @@ export const jogadores = [
         anos: ["2013"],
       },
       {
-        nome: "Melhor Jogador da Europa da UEFA",
-        logo: "UEFA",
-        anos: ["2013"],
-      },
-      {
         nome: "Melhor Jogador do Mundial de Clubes FIFA",
         logo: "Mundial de Clubes FIFA",
         anos: ["2013"],
@@ -24136,6 +24362,10 @@ export const jogadores = [
         nome: "Equipe do Ano da UEFA",
         logo: "UEFA",
         anos: ["2008", "2013"],
+      },
+      {
+        nome: "Melhor Jogador da UEFA",
+        anos: ["2013"],
       },
       {
         nome: "FIFA FIFPro World XI",
@@ -28963,7 +29193,7 @@ export const jogadores = [
     nomeCompleto: "Gianluigi Donnarumma",
     background: "Diamond",
     descricao:
-      "Guarda-redes italiano considerado um dos melhores da sua geração. Donnarumma ganhou destaque muito jovem no Milan, firmando-se como titular da seleção italiana e conquistando a Eurocopa 2020 como Melhor Jogador. Recentemente, foi peça chave na conquista da primeira Liga dos Campeões da história do Paris Saint-Germain.",
+      "Goleiro italiano considerado um dos melhores da sua geração. Donnarumma ganhou destaque muito jovem no Milan, firmando-se como titular da seleção italiana e conquistando a Eurocopa 2020 como Melhor Jogador. Recentemente, foi peça chave na conquista da primeira Liga dos Campeões da história do Paris Saint-Germain.",
     pagina: "https://www.instagram.com/donnarumma",
     nacionalidade: "Itália",
     imagem:
@@ -28974,7 +29204,7 @@ export const jogadores = [
     dataFalecimento: null,
     status: "Ativo",
     curiosidades:
-      "Detentor de dois Troféus Yashin (2021 e 2025), o prémio para o melhor guarda-redes do mundo, Donnarumma é o primeiro guarda-redes a ser nomeado Jogador do Torneio da Eurocopa (2020). Estreou profissionalmente pelo Milan aos 16 anos, tornando-se o segundo guarda-redes mais jovem a iniciar um jogo da Serie A.",
+      "Detentor de dois Troféus Yashin (2021 e 2025), o prémio para o melhor goleiro do mundo, Donnarumma é o primeiro goleiro a ser nomeado Jogador do Torneio da Eurocopa (2020). Estreou profissionalmente pelo Milan aos 16 anos, tornando-se o segundo goleiro mais jovem a iniciar um jogo da Serie A.",
     clubes: [
       createClub(
         "AC Milan",
@@ -30257,7 +30487,7 @@ export const jogadores = [
         anos: ["2020", "2021", "2022"],
       },
       {
-        nome: "FIFA FIFAPro World XI",
+        nome: "FIFA FIFPro World XI",
         anos: ["2021", "2022", "2023", "2024"],
       },
       {
@@ -30285,6 +30515,16 @@ export const jogadores = [
         anos: ["2023"],
       },
       {
+        nome: "The Best FIFA - 2º Lugar",
+        logo: "The Best FIFA",
+        anos: ["2023"],
+      },
+      {
+        nome: "Bola de Ouro - 2º Lugar",
+        logo: "Bola de Ouro",
+        anos: ["2023"],
+      },
+      {
         nome: "Prêmio Gerd Müller",
         anos: ["2023"],
       },
@@ -30297,6 +30537,16 @@ export const jogadores = [
         nome: "Jogador do Ano do Manchester City",
         logo: "Individual",
         anos: ["2023"],
+      },
+      {
+        nome: "The Best FIFA - 3º Lugar",
+        logo: "The Best FIFA",
+        anos: ["2024"],
+      },
+      {
+        nome: "Bola de Ouro - 3º Lugar",
+        logo: "Bola de Ouro",
+        anos: ["2025"],
       },
     ],
     tags: ["Erling Haaland", "Haaland", "Erling", "Cometa"],
@@ -30943,7 +31193,7 @@ export const jogadores = [
       },
       {
         nome: "Melhor Jogador da UEFA",
-        anos: ["2020", "2023"],
+        anos: ["2020"],
       },
       {
         nome: "Melhor Atacante da UEFA",
@@ -31084,9 +31334,9 @@ export const jogadores = [
 
   // PORTUGAL -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  // Bruno Fernandes
+  // B. Fernandes
   {
-    nome: "Bruno Fernandes",
+    nome: "B. Fernandes",
     nomeCompleto: "Bruno Miguel Borges Fernandes",
     background: "Titanium",
     descricao:
@@ -33772,9 +34022,9 @@ export const jogadores = [
     ultima_atualizacao: "17/12/2025",
   },
 
-  // Edinson Cavani
+  // Cavani
   {
-    nome: "Edinson Cavani",
+    nome: "Cavani",
     nomeCompleto: "Edinson Roberto Cavani Gómez",
     background: "Diamond",
     descricao:

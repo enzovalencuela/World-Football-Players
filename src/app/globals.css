@@ -544,7 +544,8 @@ ul {
 
 .nacionalidade {
   object-fit: cover;
-  width: 50px;
+  height: 32px;
+  width: auto;
 }
 
 #info {
@@ -961,8 +962,8 @@ footer {
     margin-bottom: 20px;
   }
 
-  #numero {
-    font-size: 40px;
+  .numero {
+    font-size: 60px;
   }
 
   #nome {
@@ -1049,12 +1050,24 @@ footer {
     margin-bottom: 20px;
   }
 
-  #numero {
-    font-size: 40px;
+  .numero {
+    font-size: 42px;
   }
 
   #nome {
-    font-size: 30px;
+    font-size: 26px;
+  }
+
+  #nome-completo {
+    font-size: 14px;
+  }
+
+  .nacionalidade {
+    height: 28px;
+  }
+
+  .clubes {
+    height: 30px;
   }
 
   .tabelas {

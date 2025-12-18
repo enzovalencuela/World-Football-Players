@@ -1508,7 +1508,7 @@ export const clubes = [
         ],
       },
       {
-        nome: "Trofeo de Campeones de la Liga Profesional",
+        nome: "Trofeo de Campeones",
         datas: [{ inicio: "06/11/2022", fim: "06/11/2022" }],
       },
       {
