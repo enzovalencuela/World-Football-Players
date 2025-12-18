@@ -50,30 +50,80 @@ export function calcularIdadeAposentadoria(dataNascimento, anoFimMax) {
   return idade;
 }
 
+function extrairPrimeiroAno(conquistas) {
+  let anoString = "";
+
+  if (
+    conquistas.datas &&
+    Array.isArray(conquistas.datas) &&
+    conquistas.datas.length > 0
+  ) {
+    const primeiraData = conquistas.datas[0].fim.trim();
+    const match = primeiraData.match(/\d{4}$/);
+    if (match) {
+      anoString = match[0];
+    }
+  } else if (conquistas.datas) {
+    const primeiraData = conquistas.datas.split(",")[0].trim();
+    const match = primeiraData.match(/\d{4}$/);
+    if (match) {
+      anoString = match[0];
+    }
+  } else if (
+    conquistas.anos &&
+    Array.isArray(conquistas.anos) &&
+    conquistas.anos.length > 0
+  ) {
+    anoString = conquistas.anos[0];
+  }
+
+  return anoString;
+}
+
 export function gerarURLImagem(conquistas) {
+  const ano = conquistas.logoVariavel ? extrairPrimeiroAno(conquistas) : null;
+
   if (conquistas.logo) {
     let logoConquista = conquistas.logo;
+
     if (conquistas.logoVariavel) {
-      logoConquista += `_${conquistas.anos}`;
+      logoConquista += `_${ano}`;
     }
     return `/img__titulos/Logo_${logoConquista}.png`;
   }
-  let logoConquistaNome = conquistas.nome;
+
+  let logoConquista = conquistas.nome;
+
   if (conquistas.logoVariavel) {
-    logoConquistaNome += `_${conquistas.anos}`;
+    logoConquista += `_${ano}`;
   }
-  return `/img__titulos/Logo_${logoConquistaNome}.png`;
+
+  return `/img__titulos/Logo_${logoConquista}.png`;
 }
 
 export function calcularPeriodoAtividade(jogador) {
   if (!jogador.clubes || jogador.clubes.length === 0) {
-    return [];
+    return jogador;
   }
 
-  const anosInicio = jogador.clubes.map((clube) => clube.periodo.inicio);
-  const anosFim = jogador.clubes.map((clube) => clube.periodo.fim);
+  const extrairAnoNumerico = (dataString) => {
+    if (dataString === "Presente") {
+      return new Date().getFullYear();
+    }
+    const partes = dataString.split("/");
+    return parseInt(partes[2], 10);
+  };
+
+  const anosInicio = jogador.clubes.map((clube) =>
+    extrairAnoNumerico(clube.periodo.inicio)
+  );
+  const anosFim = jogador.clubes.map((clube) =>
+    extrairAnoNumerico(clube.periodo.fim)
+  );
+
   const anoInicioMin = Math.min(...anosInicio);
   const anoFimMax = Math.max(...anosFim);
+
   let periodo = `(${anoInicioMin} - ${anoFimMax})`;
 
   if (jogador.status === "Aposentado") {

@@ -3,193 +3,112 @@ import { createClub } from "@/utils/JogadorUtils";
 export const tecnicos = [
   // Pep Guardiola
   {
-    background: "gold",
+    background: "Gold",
     nome: "Pep Guardiola",
+    nomeCompleto: "Josep Guardiola i Sala",
     nacionalidade: "Espanha",
     dataNascimento: "18/01/1971",
     status: "Ativo",
     pagina: "https://www.instagram.com/pepteam/",
-    influencias: ["Johan Cruyff, Marcelo Bielsa"],
+    descricao:
+      "Considerado um dos maiores treinadores da história, Guardiola revolucionou o futebol com seu estilo de jogo baseado na posse de bola (tiki-taka) e alta pressão. Multicampeão na Espanha, Alemanha e Inglaterra, ele é o único a conquistar a Tríplice Coroa europeia em dois clubes diferentes.",
     curiosidades:
-      "Considerado um dos maiores técnicos da história, Guardiola revolucionou o futebol com seu estilo de jogo.",
+      "Guardiola foi treinado por Johan Cruyff no Barcelona, de quem absorveu a filosofia de futebol total. Ele conquistou o inédito 'Sextete' (6 títulos em um ano) com o Barcelona em 2009. É conhecido pela intensidade e pela obsessão por detalhes táticos.",
     imagem:
       "https://veja.abril.com.br/wp-content/uploads/2016/09/esporte-futebol-tecnico-guardiola-manchester-city-20160906-02.jpg?crop=1&resize=1212,909",
+    influencias: ["Johan Cruyff", "Marcelo Bielsa"],
     clubes: [
-      createClub("Barcelona", { inicio: "2007", fim: "2012" }, { jogos: 285 }),
+      createClub(
+        "Barcelona",
+        { inicio: "01/07/2008", fim: "30/06/2012" },
+        { jogos: 247, vitorias: 179, derrotas: 21 }
+      ),
       createClub(
         "Bayern de Munique",
-        { inicio: "2013", fim: "2016" },
-        { jogos: 161 }
+        { inicio: "01/07/2013", fim: "30/06/2016" },
+        { jogos: 161, vitorias: 121, derrotas: 21 }
       ),
       createClub(
         "Manchester City",
-        { inicio: "2016", fim: "atual" },
-        { jogos: 456 }
+        { inicio: "01/07/2016", fim: "Presente" },
+        { jogos: 456, vitorias: 335, derrotas: 58 }
       ),
     ],
-    esquemasTaticos: ["4-3-3, 3-4-3"],
+    esquemasTaticos: ["4-3-3", "3-4-3", "4-1-4-1"],
     filosofiaDeJogo:
-      "Posse de bola, jogo ofensivo e construção a partir da defesa.",
+      "Posse de bola, pressão pós-perda (gegenpressing), jogo posicional e construção a partir da defesa, buscando a superioridade numérica em áreas chave.",
     titulos: [
       {
-        nome: "Campeonato Espanhol",
-        anos: "2009, 2010, 2011",
-        clube: "Barcelona",
-      },
-      {
-        nome: "Copa do Rei",
-        anos: "2009, 2012",
-        clube: "Barcelona",
-      },
-      {
-        nome: "UEFA Champions League",
-        anos: "2009, 2011",
-        clube: "Barcelona",
-      },
-      {
-        nome: "Supercopa da Espanha",
-        anos: "2009, 2010, 2011",
-        clube: "Barcelona",
-      },
-      {
-        nome: "Supercopa da UEFA",
-        anos: "2009, 2011",
-        clube: "Barcelona",
-      },
-      {
-        nome: "Mundial de Clubes",
-        anos: "2009, 2011",
-        clube: "Barcelona",
-      },
-
-      //Bayern de Munique
-      {
-        nome: "Supercopa da UEFA",
-        anos: "2013",
-        clube: "Bayern de Munique",
-      },
-      {
-        nome: "Mundial de Clubes",
-        anos: "2013",
-        clube: "Bayern de Munique",
-      },
-      {
-        nome: "Bundesliga",
-        anos: "2014, 2015, 2016",
-        clube: "Bayern de Munique",
-      },
-      {
-        nome: "Copa da Alemanha",
-        anos: "2014, 2016",
-        clube: "Bayern de Munique",
-      },
-
-      //Manchester City
-      {
-        nome: "Campeonato Inglês",
-        anos: "2018, 2019, 2021, 2022, 2023 e 2024",
-        clube: "Manchester City",
-      },
-      {
-        nome: "Copa da Liga Inglesa",
-        anos: "2018, 2019, 2020 e 2021",
-        clube: "Manchester City",
-      },
-      {
-        nome: "Supercopa da Inglaterra",
-        anos: "2018, 2019, 2024",
-        clube: "Manchester City",
-      },
-      {
-        nome: "Copa da Inglaterra",
-        anos: "2019, 2023",
-        clube: "Manchester City",
-      },
-      {
-        nome: "UEFA Champions League",
-        anos: "2023",
-        clube: "Manchester City",
-      },
-      {
-        nome: "Supercopa da UEFA",
-        anos: "2023",
-        clube: "Manchester City",
-      },
-      {
-        nome: "Mundial de Clubes",
-        anos: "2023",
-        clube: "Manchester City",
-      },
-
-      //Individuais
-      {
         nome: "Melhor treinador do ano",
-        anos: "2009, 2010",
-        categoria: "individual",
         logo: "Don Balón",
+        anos: ["2009", "2010"],
+        categoria: "individual",
       },
       {
-        nome: "Trofeo Miguel Muñoz",
-        anos: "2009, 2010",
+        nome: "Troféu Miguel Muñoz",
+        logo: "Marca",
+        anos: ["2009", "2010"],
         categoria: "individual",
       },
       {
         nome: "Treinador do ano",
-        anos: "2009, 2011, 2012",
-        categoria: "individual",
         logo: "Onze d'Or",
+        anos: ["2009", "2011", "2012"],
+        categoria: "individual",
       },
       {
         nome: "Melhor treinador do ano",
-        anos: "2009, 2011",
-        categoria: "individual",
         logo: "Revista World Soccer",
+        anos: ["2009", "2011"],
+        categoria: "individual",
       },
       {
         nome: "Melhor treinador do mundo",
-        anos: "2009, 2011, 2023",
-        categoria: "individual",
         logo: "IFFHS",
+        anos: ["2009", "2011", "2023"],
+        categoria: "individual",
       },
       {
         nome: "Melhor treinador do mundo",
-        anos: "2023",
-        categoria: "individual",
         logo: "Globe Soccer Awards",
+        anos: ["2023"],
+        categoria: "individual",
       },
       {
         nome: "Treinador do Ano da FIFA",
-        anos: "2011, 2023",
-        categoria: "individual",
         logo: "FIFA",
+        anos: ["2011", "2023"],
+        categoria: "individual",
       },
       {
         nome: "18º Melhor Treinador de Todos os Tempos",
-        anos: "2023",
-        categoria: "individual",
         logo: "ESPN",
+        anos: ["2023"],
+        categoria: "individual",
         ranking: 18,
       },
       {
         nome: "5º Melhor Treinador de Todos os Tempos",
-        anos: "2023",
-        categoria: "individual",
         logo: "Revista World Soccer",
+        anos: ["2023"],
+        categoria: "individual",
         ranking: 5,
       },
       {
         nome: "5º Melhor Treinador de Todos os Tempos",
-        anos: "2019",
-        categoria: "individual",
         logo: "France Football",
+        anos: ["2019"],
+        categoria: "individual",
         ranking: 5,
       },
       {
-        nome: "Treinadores do século XXI",
-        anos: "2023",
-        categoria: "individual",
+        nome: "Treinador do Século XXI",
         logo: "Globe Soccer Awards",
+        anos: ["2020"],
+        categoria: "individual",
       },
     ],
+    tags: ["Pep Guardiola", "Josep Guardiola i Sala", "Guardiola", "Pepe"],
+    ultima_atualizacao: "03/12/2025",
   },
 ];

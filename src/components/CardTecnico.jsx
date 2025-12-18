@@ -62,6 +62,15 @@ function CardTecnico({ tecnico }) {
           <p id="info">{tecnico.curiosidades}</p>
         </div>
       </div>
+
+      <div className={`conteudo-oculto ${mostrarDetalhes ? "aberto" : ""}`}>
+        <div className="tabelas-left">
+          <TabelaTitulosIndiividuais jogador={tecnico} />
+        </div>
+        <div className="tabelas-right">
+          <TabelaTitulosPorEquipe jogador={tecnico} />
+        </div>
+      </div>
       <button
         className="mostrar-esconder"
         onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
@@ -71,16 +80,6 @@ function CardTecnico({ tecnico }) {
           className={`fa-solid fa-chevron-${mostrarDetalhes ? "up" : "down"}`}
         ></span>
       </button>
-      {mostrarDetalhes && (
-        <div className="conteudo-oculto">
-          <div className="tabelas-left">
-            <TabelaTitulosIndiividuais jogador={tecnico} />
-          </div>
-          <div className="tabelas-right">
-            <TabelaTitulosPorEquipe jogador={tecnico} />
-          </div>
-        </div>
-      )}
     </div>
   );
 }
