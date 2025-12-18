@@ -12,7 +12,10 @@ function CardSuperior({ pessoa }) {
         <img className="dado-imagem" src={pessoa.imagem} alt="" />
         <img
           className="dado_imgMarca"
-          src={`/img__players/Logo_${pessoa.nome.replace(/ /g, "_")}.png`}
+          src={`/img__players/Logo_${pessoa.nomeCompleto.replace(
+            / /g,
+            "_"
+          )}.png`}
           alt=""
         />
         <img

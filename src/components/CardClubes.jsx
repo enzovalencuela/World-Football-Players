@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TabelaTitulosIndividuais from "./TabelaTitulosIndividuais";
+import TabelaTitulosClube from "./TabelaTitulosClube";
 
 function CardClubes({ clube }) {
   const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
@@ -8,7 +8,11 @@ function CardClubes({ clube }) {
     <div className="jogador selecao-clube" id={clube.background}>
       <div className="div-superior">
         <div className="div-left">
-          <img className="dado-imagem-clube-selecao" src={clube.img} alt="" />
+          <img
+            className="dado-imagem-clube-selecao"
+            src={`/img__equipes/Logo_${clube.nome.replace(/ /g, "_")}.png`}
+            alt=""
+          />
         </div>
         <div className="div-info">
           <div className="numero-nome-time">
@@ -25,6 +29,11 @@ function CardClubes({ clube }) {
         </div>
       </div>
       <p className="descricao-meta">{clube.descricao}</p>
+      <div className={`conteudo-oculto ${mostrarDetalhes ? "aberto" : ""}`}>
+        <div className="tabelas-right">
+          <TabelaTitulosClube equipe={clube} />
+        </div>
+      </div>
       <button
         className="mostrar-esconder"
         onClick={() => setMostrarDetalhes(!mostrarDetalhes)}
@@ -34,13 +43,6 @@ function CardClubes({ clube }) {
           className={`fa-solid fa-chevron-${mostrarDetalhes ? "up" : "down"}`}
         ></span>
       </button>
-      {mostrarDetalhes && (
-        <div className="conteudo-oculto">
-          <div className="tabelas-right">
-            <TabelaTitulosIndividuais jogador={clube} />
-          </div>
-        </div>
-      )}
     </div>
   );
 }

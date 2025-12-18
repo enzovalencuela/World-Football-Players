@@ -5,14 +5,17 @@ import { calcularIdade, calcularPeriodoAtividade } from "../utils/JogadorUtils";
 import TabelaTitulosIndiividuais from "./TabelaTitulosIndividuais";
 import TabelaTitulosPorEquipe from "./TabelaTitulosPorEquipe";
 import CardSuperior from "./CardSuperior";
+import { clubes } from "../data/clubes";
 
 function CardJogador({ jogador }) {
   const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
   const idade = calcularIdade(jogador.dataNascimento, jogador.dataFalecimento);
-
-  const clubes = jogador.clubes || [];
-  const clubeAtual = clubes.length > 0 ? [clubes[clubes.length - 1]] : null;
-  const clubesAnteriores = clubes.slice(0, -1);
+  const clubesQueJogou = jogador.clubes || [];
+  const clubeAtual =
+    clubesQueJogou.length > 0
+      ? [clubesQueJogou[clubesQueJogou.length - 1]]
+      : null;
+  const clubesAnteriores = clubesQueJogou.slice(0, -1);
 
   const jogadorTemConteudoExtra = () => {
     const temEstatisticasClube = jogador.clubes?.some((c) => c.estatisticas);
@@ -38,6 +41,7 @@ function CardJogador({ jogador }) {
             <h2 className="numero">{jogador.numero}</h2>
             <a href={jogador.pagina} target="_blank">
               <h2 id="nome">{jogador.nome}</h2>
+              <p id="nome-completo">{jogador.nomeCompleto}</p>
             </a>
             <div className="div-clube">
               <img
@@ -64,7 +68,9 @@ function CardJogador({ jogador }) {
             )}
           </div>
           <h3>
-            {jogador.status === "Ativo" ? "Status" : "Período de Atividade"}
+            {jogador.status === "Ativo" || jogador.status === "Sem clube"
+              ? "Status"
+              : "Período de Atividade"}
           </h3>
           <p id="info">
             {jogador.status}
@@ -109,8 +115,8 @@ function CardJogador({ jogador }) {
             <p>{jogador.curiosidades}</p>
           </>
         )}
-        {jogador.ultima_atualizacao && (
-          <p>Última Atualização: {jogador.ultima_atualizacao}</p>
+        {jogador.ultimaAtualizacao && (
+          <p>Última Atualização: {jogador.ultimaAtualizacao}</p>
         )}
       </div>
       {jogadorTemConteudoExtra() && (
