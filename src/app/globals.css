@@ -936,6 +936,7 @@ footer {
 
   .div-superior {
     flex-direction: column;
+    align-items: center;
   }
 
   #p-resultados {

@@ -4511,6 +4511,75 @@ export const clubes = [
     ultima_atualizacao: "02/12/2025",
   },
 
+  // Joinville
+  {
+    background: "Red",
+    nome: "Joinville",
+    nomeCompleto: "Joinville Esporte Clube",
+    confederacao: "CBF",
+    fundacao: "29/01/1976",
+    descricao:
+      "O Joinville Esporte Clube, conhecido como JEC, nasceu da fusão entre os departamentos de futebol do América e do Caxias. É um dos clubes mais vitoriosos de Santa Catarina, sendo famoso pela 'Era de Ouro' nos anos 70 e 80, quando estabeleceu o recorde de octacampeão estadual. Seu estádio é a Arena Joinville e sua torcida é uma das mais fiéis do sul do país.",
+    localizacao: "Joinville, Brasil",
+    pagina: "https://jec.com.br/",
+    cores: "Vermelho, Preto e Branco",
+    mascote: "Coelho",
+    curiosidades:
+      "O JEC detém o recorde absoluto de títulos consecutivos no Campeonato Catarinense, sendo octacampeão entre 1978 e 1985. Além disso, o clube é um dos poucos do Brasil a ter conquistado as Séries C e B do Campeonato Brasileiro em um curto intervalo de tempo (2011 e 2014).",
+    titulos: [
+      {
+        nome: "Campeonato Brasileiro Série B",
+        datas: [{ inicio: "19/04/2014", fim: "29/11/2014" }],
+      },
+      {
+        nome: "Campeonato Brasileiro Série C",
+        datas: [{ inicio: "16/07/2011", fim: "03/12/2011" }],
+      },
+      // REGIONAIS
+      {
+        nome: "Campeonato Catarinense",
+        datas: [
+          { inicio: "14/03/1976", fim: "18/08/1976" },
+          { inicio: "13/03/1977", fim: "28/08/1977" },
+          { inicio: "12/03/1978", fim: "20/12/1978" },
+          { inicio: "11/03/1979", fim: "02/12/1979" },
+          { inicio: "23/03/1980", fim: "30/11/1980" },
+          { inicio: "17/05/1981", fim: "06/12/1981" },
+          { inicio: "23/05/1982", fim: "08/12/1982" },
+          { inicio: "22/05/1983", fim: "18/12/1983" },
+          { inicio: "10/06/1984", fim: "15/12/1984" },
+          { inicio: "19/05/1985", fim: "15/12/1985" },
+          { inicio: "22/02/1987", fim: "16/08/1987" },
+          { inicio: "04/03/2000", fim: "28/06/2000" },
+          { inicio: "20/01/2001", fim: "08/07/2001" },
+        ],
+      },
+      {
+        nome: "Campeonato Catarinense 2ª Divisão",
+        datas: [
+          { inicio: "15/05/2005", fim: "14/08/2005" },
+          { inicio: "23/07/2006", fim: "19/11/2006" },
+        ],
+      },
+      {
+        nome: "Copa Santa Catarina",
+        datas: [
+          { inicio: "17/10/2009", fim: "12/12/2009" },
+          { inicio: "05/09/2011", fim: "30/10/2011" },
+          { inicio: "05/05/2012", fim: "01/07/2012" },
+          { inicio: "10/09/2013", fim: "23/11/2013" },
+          { inicio: "13/01/2021", fim: "07/02/2021" },
+        ],
+      },
+      {
+        nome: "Recopa Catarinense",
+        datas: [{ inicio: "20/01/2021", fim: "21/02/2021" }],
+      },
+    ],
+    tags: ["Joinville", "JEC", "Brasil", "Coelho", "Tricolor das Flores"],
+    ultima_atualizacao: "19/12/2025",
+  },
+
   // Londrina
   {
     background: "LightBlue",

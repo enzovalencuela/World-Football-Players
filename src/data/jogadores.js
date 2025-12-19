@@ -6639,7 +6639,7 @@ export const jogadores = [
       "Meia canhoto de toque refinado e visão privilegiada, Alex comandava ataques com passes verticais, bola parada precisa e arremates de média distância. Líder técnico da conquista da Libertadores de 1999 e do Triplete do Cruzeiro em 2003. Tornou-se um ídolo global e capitão histórico do Fenerbahçe, na Turquia.",
     pagina: "https://pt.wikipedia.org/wiki/Alex_(futebolista,_1977)",
     nacionalidade: "Brasil",
-    imagem: "https://nossopalmeiras.com.br/wp-content/uploads/2022/12/alex.jpg",
+    imagem: "https://s.glbimg.com/es/ge/f/original/2012/10/01/alex_getty.jpg",
     numero: "10",
     posicao: "Meia-ofensivo / Segundo atacante",
     dataNascimento: "14/09/1977",
@@ -6651,53 +6651,53 @@ export const jogadores = [
       createClub(
         "Coritiba",
         { inicio: "01/01/1995", fim: "30/06/1997" },
-        { jogos: 124, gols: 39, assistencias: 0 }
+        { jogos: 124, gols: 32, assistencias: 0 }
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/07/1997", fim: "31/07/2000" },
-        { jogos: 172, gols: 55, assistencias: 0 }
+        { jogos: 241, gols: 78, assistencias: 56 }
       ),
       createClub(
         "Flamengo",
         { inicio: "01/08/2000", fim: "31/12/2000" },
-        { jogos: 20, gols: 7, assistencias: 0 }
+        { jogos: 12, gols: 3, assistencias: 0 }
       ),
       createClub(
         "Parma",
         { inicio: "01/01/2001", fim: "31/07/2001" },
-        { jogos: 8, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 2, assistencias: 0 }
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/08/2001", fim: "11/05/2002" },
-        { jogos: 45, gols: 23, assistencias: 0 }
+        { jogos: 45, gols: 23, assistencias: 8 }
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/07/2002", fim: "31/12/2002" },
-        { jogos: 34, gols: 12, assistencias: 0 }
+        { jogos: 24, gols: 9, assistencias: 4 }
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2003", fim: "30/06/2004" },
-        { jogos: 76, gols: 33, assistencias: 0 }
+        { jogos: 76, gols: 41, assistencias: 53 }
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "01/07/2004", fim: "06/10/2012" },
-        { jogos: 378, gols: 171, assistencias: 136 }
+        { jogos: 378, gols: 185, assistencias: 162 }
       ),
       createClub(
         "Coritiba",
         { inicio: "01/01/2013", fim: "07/12/2014" },
-        { jogos: 113, gols: 32, assistencias: 20 }
+        { jogos: 86, gols: 42, assistencias: 18 }
       ),
     ],
     selecao: {
       nome: "Brasil",
       periodo: { inicio: "23/09/1998", fim: "08/06/2005" },
-      estatisticas: { jogos: 49, gols: 12, assistencias: 0 },
+      estatisticas: { jogos: 49, gols: 12, assistencias: 11 },
     },
     periodos_inativos: [{ inicio: "01/01/2002", fim: "31/07/2002" }],
     titulosIndividuais: [
@@ -6740,6 +6740,7 @@ export const jogadores = [
     tags: [
       "Alexsandro de Souza",
       "Alexsandro Souza",
+      "Alex de Souza",
       "Alex",
       "Cebola",
       "Capitão Alex",
@@ -11990,7 +11991,7 @@ export const jogadores = [
     pagina: "https://pt.wikipedia.org/wiki/N%C3%ADlton_Santos",
     nacionalidade: "Brasil",
     imagem:
-      "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/grsa9ybqykir/b/portalcbf/o/nilton-santos.jpg",
+      "https://i.pinimg.com/474x/56/20/75/562075c363d54d3f680ee827f4a57744.jpg",
     numero: "6",
     posicao: "Lateral Esquerdo",
     dataNascimento: "16/05/1925",
@@ -13062,6 +13063,98 @@ export const jogadores = [
     ],
     tags: ["Rafinha", "Márcio Rafael Ferreira de Souza"],
     ultimaAtualizacao: "07/12/2025",
+  },
+
+  // Ramires
+  {
+    nome: "Ramires",
+    nomeCompleto: "Ramires Santos do Nascimento",
+    background: "Titanium",
+    descricao:
+      "O 'Queniano Azul'. Conhecido por sua resistência física inesgotável e fôlego impressionante, Ramires foi um dos melhores meio-campistas 'box-to-box' de sua geração. Sua capacidade de recomposição defensiva aliada a arrancadas velozes para o ataque o tornou uma peça vital no Chelsea, sendo o autor de um dos gols mais icônicos da história do clube na semifinal da Champions contra o Barcelona.",
+    pagina:
+      "https://www.chelseafc.com/en/about-chelsea/history/former-players/ramires",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2015/11/10/5642069df3cc1.jpeg",
+    numero: "7",
+    posicao: "Volante / Meio-Campista",
+    dataNascimento: "24/03/1987",
+    dataFalecimento: null,
+    status: "Aposentado",
+    curiosidades:
+      "Ganhou o apelido de 'Queniano Azul' ainda no Cruzeiro devido à sua magreza e facilidade extrema em correr longas distâncias sem demonstrar cansaço. Apesar de ser volante, marcou gols decisivos em finais e semifinais, sendo o único jogador a marcar em uma semifinal de Champions e final de FA Cup na mesma temporada (2012).",
+    clubes: [
+      createClub(
+        "Joinville",
+        { inicio: "01/01/2004", fim: "31/12/2007" },
+        { jogos: 42, gols: 4, assistencias: 0 }
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "01/01/2007", fim: "20/05/2009" },
+        { jogos: 105, gols: 26, assistencias: 12 }
+      ),
+      createClub(
+        "Benfica",
+        { inicio: "21/05/2009", fim: "03/08/2010" },
+        { jogos: 43, gols: 5, assistencias: 3 }
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "04/08/2010", fim: "26/01/2016" },
+        { jogos: 251, gols: 34, assistencias: 25 }
+      ),
+      createClub(
+        "Jiangsu Suning",
+        { inicio: "27/01/2016", fim: "17/05/2019" },
+        { jogos: 71, gols: 17, assistencias: 13 }
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "13/06/2019", fim: "27/11/2020" },
+        { jogos: 45, gols: 1, assistencias: 1 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "06/06/2009", fim: "09/12/2014" },
+      estatisticas: { jogos: 52, gols: 4, assistencias: 4 },
+    },
+    periodos_inativos: [
+      { inicio: "14/09/2011", fim: "28/09/2011" },
+      { inicio: "15/06/2013", fim: "30/06/2013" },
+      { inicio: "01/12/2020", fim: "28/09/2022" },
+    ],
+    titulosIndividuais: [
+      {
+        nome: "Melhor Volante do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: ["2008"],
+      },
+      {
+        nome: "Bola de Prata",
+        logo: "Placar",
+        anos: ["2008"],
+      },
+      {
+        nome: "Equipe Ideal da América",
+        logo: "El País",
+        anos: ["2008"],
+      },
+      {
+        nome: "Gol do Ano do Chelsea",
+        logo: "Individual",
+        anos: ["2011", "2012"],
+      },
+      {
+        nome: "Jogador do Ano do Chelsea",
+        logo: "Individual",
+        anos: ["2012"],
+      },
+    ],
+    tags: ["Ramires", "Queniano Azul"],
+    ultimaAtualizacao: "19/12/2025",
   },
 
   // Raniele
@@ -14557,6 +14650,110 @@ export const jogadores = [
     ],
     tags: ["Rodrigo Muniz", "Muniz", "Fulham", "Centroavante"],
     ultimaAtualizacao: "08/12/2025",
+  },
+
+  // R. Ceni
+  {
+    nome: "R. Ceni",
+    nomeCompleto: "Rogério Mücke Ceni",
+    background: "Diamond",
+    descricao:
+      "O 'Mito'. Goleiro artilheiro que revolucionou a posição com sua habilidade excepcional com os pés e cobranças de falta perfeitas. Líder nato e capitão do São Paulo em suas conquistas mais gloriosas, Rogério detém o recorde mundial de gols marcados por um goleiro (131 gols) e de maior número de jogos como capitão de uma equipe.",
+    pagina:
+      "https://www.saopaulofc.net/saopaulo/historia/grandes-idolos/rogerio-ceni/",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2014/09/18/rogeriocenicomemora100golsgetty.jpg",
+    numero: "01",
+    posicao: "Goleiro",
+    dataNascimento: "22/01/1973",
+    dataFalecimento: null,
+    status: "Aposentado",
+    curiosidades:
+      "É o jogador que mais vezes vestiu a camisa de um mesmo clube na história do futebol mundial, com 1237 partidas pelo São Paulo. Marcou seu centésimo gol na carreira em um clássico contra o Corinthians em 2011. Além das faltas, era o batedor oficial de pênaltis, mantendo um aproveitamento altíssimo.",
+    clubes: [
+      createClub(
+        "Sinop",
+        { inicio: "01/01/1990", fim: "06/09/1990" },
+        { jogos: 20, gols: 0, assistencias: 0 }
+      ),
+      createClub(
+        "São Paulo",
+        { inicio: "07/09/1990", fim: "11/12/2015" },
+        { jogos: 1237, gols: 131, assistencias: 8 }
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "16/12/1997", fim: "01/07/2006" },
+      estatisticas: { jogos: 17, gols: 0, assistencias: 0 },
+    },
+    periodos_inativos: [
+      { inicio: "29/06/1999", fim: "18/07/1999" },
+      { inicio: "06/07/2004", fim: "25/07/2004" },
+      { inicio: "15/06/2005", fim: "29/06/2005" },
+      { inicio: "13/04/2009", fim: "28/08/2009" },
+      { inicio: "26/01/2012", fim: "28/07/2012" },
+    ],
+    titulosIndividuais: [
+      {
+        nome: "Bola de Prata",
+        logo: "Placar",
+        anos: ["2000", "2003", "2004", "2006", "2007", "2008"],
+      },
+      {
+        nome: "Bola de Ouro",
+        logo: "Placar",
+        anos: ["2008"],
+      },
+      {
+        nome: "Melhor Jogador do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: ["2006", "2007"],
+      },
+      {
+        nome: "Goleiro do Ano",
+        logo: "Campeonato Brasileiro",
+        anos: ["2006", "2007"],
+      },
+      {
+        nome: "Melhor Goleiro da Copa Libertadores da América",
+        logo: "Copa Libertadores da América",
+        anos: ["2005"],
+      },
+      {
+        nome: "Melhor Jogador da Copa Libertadores da América",
+        logo: "Copa Libertadores da América",
+        anos: ["2005"],
+      },
+      {
+        nome: "Melhor Jogador da Final do Mundial de Clubes FIFA",
+        logo: "Mundial de Clubes FIFA",
+        anos: ["2005"],
+      },
+      {
+        nome: "Bola de Ouro do Mundial de Clubes FIFA",
+        logo: "Bola de Ouro FIFA",
+        anos: ["2005"],
+      },
+      {
+        nome: "Equipe Ideal da América",
+        logo: "El País",
+        anos: ["2005", "2006"],
+      },
+      {
+        nome: "Troféu Mesa Redonda - Melhor Goleiro",
+        logo: "Troféu Mesa Redonda",
+        anos: ["2004", "2005", "2006", "2007"],
+      },
+      {
+        nome: "Prêmio Faz Diferença",
+        logo: "O Globo",
+        anos: ["2006"],
+      },
+    ],
+    tags: ["Rogerio Ceni", "Mito", "Goleiro Artilheiro", "Sao Paulo", "SPFC"],
+    ultimaAtualizacao: "18/12/2025",
   },
 
   // Romário
@@ -24751,6 +24948,155 @@ export const jogadores = [
 
   // HOLANDA -------------------------------------------------------------------------------------------------------------------------------------------------------
 
+  // Bergkamp
+  {
+    nome: "Bergkamp",
+    nomeCompleto: "Dennis Nicolaas Maria Bergkamp",
+    background: "Diamond",
+    descricao:
+      "O 'Holandês Não-Voador'. Um mestre da técnica e da inteligência tática, Bergkamp é frequentemente citado por seus pares como o melhor parceiro de ataque que já tiveram. Sua visão de jogo e controle de bola sublime permitiam que ele visse jogadas antes de qualquer outro, imortalizando-se com gols que desafiam a física e uma elegância rara em campo.",
+    pagina: "https://www.arsenal.com/historic/players/dennis-bergkamp",
+    nacionalidade: "Holanda",
+    imagem:
+      "https://www.tallengestore.com/cdn/shop/products/berg_c10a02f4-7497-48a0-a538-e2006f2bd851.jpg?v=1491026476",
+    numero: "10",
+    posicao: "Segundo Atacante / Meia-Atacante",
+    dataNascimento: "10/05/1969",
+    dataFalecimento: null,
+    status: "Aposentado",
+    curiosidades:
+      "Possui uma fobia severa de voar (aerofobia), o que lhe rendeu o apelido de 'Non-Flying Dutchman'. Por causa disso, ele viajava para jogos internacionais e continentais de carro, trem ou navio, muitas vezes chegando dias antes de seus companheiros. Seu gol contra o Newcastle em 2002 foi eleito o mais bonito da história da Premier League.",
+    clubes: [
+      createClub(
+        "Ajax",
+        { inicio: "01/07/1986", fim: "30/06/1993" },
+        { jogos: 237, gols: 122, assistencias: 0 }
+      ),
+      createClub(
+        "Inter de Milão",
+        { inicio: "01/07/1993", fim: "30/06/1995" },
+        { jogos: 81, gols: 22, assistencias: 0 }
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "01/07/1995", fim: "22/07/2006" },
+        { jogos: 423, gols: 120, assistencias: 94 }
+      ),
+    ],
+    selecao: {
+      nome: "Holanda",
+      periodo: { inicio: "26/09/1990", fim: "29/06/2000" },
+      estatisticas: { jogos: 79, gols: 37, assistencias: 16 },
+    },
+    periodos_inativos: [{ inicio: "15/05/2004", fim: "15/07/2004" }],
+    titulosIndividuais: [
+      {
+        nome: "Talento do Ano nos Países Baixos",
+        logo: "Campeonato Holandês",
+        anos: ["1990"],
+      },
+      {
+        nome: "Futebolista Holandês do Ano",
+        logo: "Campeonato Holandês",
+        anos: ["1991", "1992"],
+      },
+      {
+        nome: "Artilheiro do Campeonato Holandês",
+        logo: "Campeonato Holandês",
+        anos: ["1991", "1992", "1993"],
+      },
+      {
+        nome: "Artilheiro da Eurocopa",
+        logo: "Eurocopa",
+        anos: ["1992"],
+        logoVariavel: true,
+      },
+      {
+        nome: "Equipe Ideal da Eurocopa",
+        logo: "Eurocopa",
+        anos: ["1992"],
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro do Ano pela IFFHS",
+        logo: "IFFHS",
+        anos: ["1992"],
+      },
+      {
+        nome: "Bola de Ouro - 3º Lugar",
+        logo: "Bola de Ouro",
+        anos: ["1992"],
+      },
+      {
+        nome: "Bola de Ouro - 2º Lugar",
+        logo: "Bola de Ouro",
+        anos: ["1993"],
+      },
+      {
+        nome: "Melhor Jogador do Mundo FIFA - 3º Lugar",
+        logo: "FIFA World Player of the Year",
+        anos: ["1993", "1997"],
+      },
+      {
+        nome: "Artilheiro da Copa da UEFA",
+        logo: "UEFA",
+        anos: ["1994"],
+      },
+      {
+        nome: "Equipe do Ano PFA do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: ["1998"],
+      },
+      {
+        nome: "Jogador do Ano do Campeonato Inglês",
+        logo: "FWA",
+        anos: ["1998"],
+      },
+      {
+        nome: "Jogador do Ano do Campeonato Inglês",
+        logo: "PFA",
+        anos: ["1998"],
+      },
+      {
+        nome: "Equipe Ideal da Copa do Mundo FIFA",
+        logo: "Copa do Mundo FIFA",
+        anos: ["1998"],
+        logoVariavel: true,
+      },
+      {
+        nome: "Gol da Temporada do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: ["1998", "2002"],
+      },
+      {
+        nome: "Líder de Assistências do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: ["1999"],
+      },
+      {
+        nome: "FIFA 100",
+        anos: ["2004"],
+      },
+      {
+        nome: "Hall da Fama do Futebol Inglês",
+        logo: "Individual",
+        anos: ["2007"],
+      },
+      {
+        nome: "Lendas do Futebol (IFFHS)",
+        logo: "IFFHS",
+        anos: ["2016"],
+      },
+      {
+        nome: "Hall da Fama do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: ["2021"],
+      },
+    ],
+    tags: ["Dennis Bergkamp", "The Non-Flying Dutchman"],
+    ultimaAtualizacao: "18/12/2025",
+  },
+
   // Seedorf
   {
     nome: "Seedorf",
@@ -29367,7 +29713,7 @@ export const jogadores = [
     ultima_atualizacao: "12/15/2025",
   },
 
-  // Giuseppe Meazza
+  // Meazza
   {
     nome: "Meazza",
     nomeCompleto: "Giuseppe Meazza",
@@ -29697,6 +30043,119 @@ export const jogadores = [
     ],
     tags: ["Leonardo Bonucci", "Bonucci", "BBC"],
     ultima_atualizacao: "15/12/2025",
+  },
+
+  // Totti
+  {
+    nome: "Totti",
+    nomeCompleto: "Francesco Totti",
+    background: "Diamond",
+    descricao:
+      "O 'Rei de Roma'. Um dos camisas 10 mais talentosos da história, Totti combinava uma visão de jogo extraordinária, passes milimétricos e uma finalização potente. Famoso por sua lealdade inabalável à Roma e pelo icônico 'cucchiaio' (gol de cavadinha), ele personificou o papel do Trequartista e do Falso 9 ao longo de duas décadas no topo do futebol mundial.",
+    pagina: "https://www.francescototti.com/",
+    nacionalidade: "Itália",
+    imagem:
+      "https://static.gazetaesportiva.com/uploads/imagem/2016/02/21/000_DV2223052.jpg",
+    numero: "10",
+    posicao: "Meia-Atacante / Segundo Atacante",
+    dataNascimento: "27/09/1976",
+    dataFalecimento: null,
+    status: "Aposentado",
+    curiosidades:
+      "Recusou uma proposta galáctica do Real Madrid em 2004 para permanecer na Roma, afirmando que 'um título com a Roma vale por dez em qualquer outro lugar'. É o jogador mais velho a marcar um gol na história da Liga dos Campeões da UEFA, feito alcançado aos 38 anos e 59 dias contra o CSKA Moscou.",
+    clubes: [
+      createClub(
+        "Roma",
+        { inicio: "01/01/1993", fim: "28/05/2017" },
+        { jogos: 786, gols: 307, assistencias: 209 }
+      ),
+    ],
+    selecao: {
+      nome: "Itália",
+      periodo: { inicio: "30/10/1998", fim: "09/07/2006" },
+      estatisticas: { jogos: 58, gols: 9, assistencias: 24 },
+    },
+    periodos_inativos: [
+      { inicio: "13/08/2004", fim: "29/08/2004" },
+      { inicio: "19/02/2006", fim: "11/05/2006" },
+    ],
+    titulosIndividuais: [
+      {
+        nome: "Melhor Jogador Jovem do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: ["1999"],
+      },
+      {
+        nome: "Guerin d'Oro",
+        logo: "Guerin Sportivo",
+        anos: ["1998", "2004"],
+      },
+      {
+        nome: "Melhor Jogador da Final da Eurocopa",
+        logo: "Eurocopa",
+        anos: ["2000"],
+        logoVariavel: true,
+      },
+      {
+        nome: "Equipe Ideal da Eurocopa",
+        logo: "Eurocopa",
+        anos: ["2000"],
+        logoVariavel: true,
+      },
+      {
+        nome: "Futebolista Italiano do Ano",
+        logo: "AIC",
+        anos: ["2000", "2001", "2003", "2004", "2007"],
+      },
+      {
+        nome: "Futebolista do Ano do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: ["2000", "2003"],
+      },
+      {
+        nome: "Seleção da Copa do Mundo FIFA",
+        logo: "Copa do Mundo FIFA",
+        anos: ["2006"],
+        logoVariavel: true,
+      },
+      {
+        nome: "Líder de Assistências da Copa do Mundo FIFA",
+        logo: "Copa do Mundo FIFA",
+        anos: ["2006"],
+        logoVariavel: true,
+      },
+      {
+        nome: "Artilheiro do Campeonato Italiano",
+        logo: "Campeonato Italiano",
+        anos: ["2007"],
+      },
+      {
+        nome: "Chuteira de Ouro da UEFA",
+        logo: "UEFA",
+        anos: ["2007"],
+      },
+      {
+        nome: "Pallone Fair Play",
+        logo: "Campeonato Italiano",
+        anos: ["2008"],
+      },
+      {
+        nome: "Prêmio Golden Foot",
+        anos: ["2010"],
+      },
+      {
+        nome: "Prêmio Presidencial da UEFA",
+        logo: "UEFA",
+        anos: ["2017"],
+      },
+      {
+        nome: "Prêmio Carreira de Jogador",
+        logo: "Globe Soccer Awards",
+        anos: ["2017"],
+      },
+    ],
+    tags: ["Francesco Totti", "Il Capitano"],
+    ultimaAtualizacao: "18/12/2025",
   },
 
   // Verratti
