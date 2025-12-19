@@ -15094,11 +15094,11 @@ export const jogadores = [
     ultimaAtualizacao: "08/12/2025",
   },
 
-  // Ronaldinho Gaúcho
+  // Ronaldinho
   {
-    nome: "Ronaldinho Gaúcho",
+    nome: "Ronaldinho",
     nomeCompleto: "Ronaldo de Assis Moreira",
-    background: "Diamond",
+    background: "Gold",
     descricao:
       "Gênio irreverente e mágico do futebol, Ronaldinho Gaúcho é amplamente considerado um dos maiores e mais habilidosos jogadores da história. Seu estilo de jogo alegre e criativo revolucionou a posição de Meia-atacante. É um dos poucos jogadores a vencer a Copa do Mundo, a Copa América, a UEFA Champions League e a Copa Libertadores.",
     pagina: "https://www.instagram.com/ronaldinho/",
