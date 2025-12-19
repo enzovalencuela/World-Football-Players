@@ -15977,7 +15977,7 @@ export const jogadores = [
     nomeCompleto: "Thiago Emiliano da Silva",
     background: "Diamond",
     descricao:
-      "Zagueiro brasileiro de classe mundial, apelidado de 'O Monstro' por sua excelência técnica, antecipação e liderança. Foi capitão de longa data do Paris Saint-Germain e crucial na conquista da Liga dos Campeões da UEFA pelo Chelsea. Em 2024, retornou ao clube que o revelou, o Fluminense, para encerrar sua vitoriosa carreira no Brasil.",
+      "Zagueiro brasileiro de classe mundial, apelidado de 'O Monstro' por sua excelência técnica, antecipação e liderança. Foi capitão de longa data do Paris Saint-Germain e crucial na conquista da Liga dos Campeões da UEFA pelo Chelsea. Encerrou sua segunda passagem pelo Fluminense em dezembro de 2025, clube que o projetou para o futebol mundial.",
     pagina: "https://www.instagram.com/thiagosilva/",
     nacionalidade: "Brasil",
     imagem:
@@ -15986,7 +15986,7 @@ export const jogadores = [
     posicao: "Zagueiro / Zagueiro Central",
     dataNascimento: "22/09/1984",
     dataFalecimento: null,
-    status: "Ativo",
+    status: "Sem Clube",
     curiosidades:
       "Thiago Silva retornou ao Fluminense 16 anos após sua primeira passagem, sendo recebido por uma das maiores festas já vistas no Maracanã. Ele é o único jogador a atuar pelo Milan, PSG e Chelsea. Foi capitão da Seleção Brasileira por mais de 10 anos.",
     clubes: [
@@ -16022,8 +16022,8 @@ export const jogadores = [
       ),
       createClub(
         "Fluminense",
-        { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 40, gols: 3, assistencias: 1 }
+        { inicio: "01/07/2024", fim: "17/12/2025" },
+        { jogos: 66, gols: 5, assistencias: 3 }
       ),
     ],
     selecao: {

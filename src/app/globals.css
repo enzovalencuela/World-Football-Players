@@ -556,6 +556,7 @@ ul {
 
 .clubes-tecnicos {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: start;
   align-items: center;
@@ -1029,6 +1030,10 @@ footer {
     width: 80vw;
   }
 
+  .jogador {
+    padding: 1.5rem;
+  }
+
   .img-grampo {
     left: 100px;
     top: -15px;
@@ -1094,10 +1099,12 @@ footer {
     align-items: center;
     min-height: 70px;
     height: auto;
+    font-size: 0.8rem;
   }
 
   .campeonato {
-    width: 30px;
+    max-height: 35px;
+    max-width: 30px;
   }
 
   footer {

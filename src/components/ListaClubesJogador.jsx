@@ -8,7 +8,7 @@ const extractYear = (dateString) => {
   return parts.length === 3 ? parts[2] : dateString;
 };
 
-const getClubesOrdenados = (clubes, larguraTela) => {
+const getClubesOrdenados = (clubes) => {
   if (!clubes || clubes.length === 0) {
     return [];
   }
@@ -28,47 +28,11 @@ const getClubesOrdenados = (clubes, larguraTela) => {
     return dateA.getTime() - dateB.getTime();
   });
 
-  const MAX_CLUBES_PEQUENO = 6;
-  const MAX_CLUBES_MEDIO = 12;
-  const MAX_CLUBES_GRANDE = 9;
-  const LARGURA_CORTE_PEQUENO = 800;
-  const LARGURA_CORTE_GRANDE = 1200;
-
-  if (
-    larguraTela <= LARGURA_CORTE_PEQUENO &&
-    clubesOrdenados.length > MAX_CLUBES_PEQUENO
-  ) {
-    return clubesOrdenados.slice(0, MAX_CLUBES_PEQUENO);
-  } else if (
-    larguraTela >= LARGURA_CORTE_GRANDE &&
-    clubesOrdenados.length > MAX_CLUBES_GRANDE
-  ) {
-    return clubesOrdenados.slice(0, MAX_CLUBES_GRANDE);
-  } else if (
-    larguraTela <= LARGURA_CORTE_GRANDE &&
-    larguraTela >= LARGURA_CORTE_PEQUENO &&
-    clubesOrdenados.length > MAX_CLUBES_PEQUENO
-  ) {
-    return clubesOrdenados.slice(0, MAX_CLUBES_PEQUENO);
-  } else {
-    return clubesOrdenados.slice(0, MAX_CLUBES_MEDIO);
-  }
+  return clubesOrdenados;
 };
 
 function ListaClubesJogador({ clubes }) {
-  const [larguraTela, setLarguraTela] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setLarguraTela(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  const clubesParaMostrar = getClubesOrdenados(clubes, larguraTela);
+  const clubesParaMostrar = getClubesOrdenados(clubes);
 
   if (clubesParaMostrar.length === 0) {
     return <p>Nenhum clube encontrado.</p>;
