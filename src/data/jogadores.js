@@ -15977,16 +15977,16 @@ export const jogadores = [
     nomeCompleto: "Thiago Emiliano da Silva",
     background: "Diamond",
     descricao:
-      "Zagueiro brasileiro de classe mundial, apelidado de 'O Monstro' por sua excelência técnica, antecipação e liderança. Foi capitão de longa data do Paris Saint-Germain e crucial na conquista da Liga dos Campeões da UEFA pelo Chelsea. Encerrou sua segunda passagem pelo Fluminense em dezembro de 2025, clube que o projetou para o futebol mundial.",
+      "Zagueiro brasileiro de classe mundial, apelidado de 'O Monstro' por sua excelência técnica, antecipação e liderança. Foi capitão de longa data do Paris Saint-Germain e crucial na conquista da Liga dos Campeões da UEFA pelo Chelsea. Encerrou sua segunda passagem pelo Fluminense em dezembro de 2025 e assinou com o Porto.",
     pagina: "https://www.instagram.com/thiagosilva/",
     nacionalidade: "Brasil",
     imagem:
-      "https://s2-ge.glbimg.com/xZBCBx3WiGbTq-hp8_LDomLZtok=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/L/5/vekIwZSGKFzGGbJit1Rg/dur-4496.jpg",
+      "https://img.band.com.br/image/2025/12/20/thiago-silva-e-anunciado-pelo-porto-1377.png",
     numero: "3",
     posicao: "Zagueiro / Zagueiro Central",
     dataNascimento: "22/09/1984",
     dataFalecimento: null,
-    status: "Sem Clube",
+    status: "Ativo",
     curiosidades:
       "Thiago Silva retornou ao Fluminense 16 anos após sua primeira passagem, sendo recebido por uma das maiores festas já vistas no Maracanã. Ele é o único jogador a atuar pelo Milan, PSG e Chelsea. Foi capitão da Seleção Brasileira por mais de 10 anos.",
     clubes: [
@@ -16024,6 +16024,11 @@ export const jogadores = [
         "Fluminense",
         { inicio: "01/07/2024", fim: "17/12/2025" },
         { jogos: 66, gols: 5, assistencias: 3 }
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "20/12/2025", fim: "Presente" },
+        { jogos: 0, gols: 0, assistencias: 0 }
       ),
     ],
     selecao: {
