@@ -16026,7 +16026,7 @@ export const jogadores = [
         { jogos: 66, gols: 5, assistencias: 3 }
       ),
       createClub(
-        "Fluminense",
+        "Porto",
         { inicio: "20/12/2025", fim: "Presente" },
         { jogos: 0, gols: 0, assistencias: 0 }
       ),
