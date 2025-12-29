@@ -7185,11 +7185,11 @@ export const jogadores = [
     nomeCompleto: "Endrick Felipe Moreira de Sousa",
     background: "Promise",
     descricao:
-      "Atacante promissor, revelado pelo Palmeiras, onde conquistou diversos títulos e se destacou como artilheiro e revelação do Brasileirão. Transferiu-se para o Real Madrid em julho de 2024, após completar 18 anos, e é uma peça importante no futuro da Seleção Brasileira, onde já atua como titular.",
-    pagina: "https://www.instagram.com/endrick/",
+      "Atacante promissor, revelado pelo Palmeiras, onde conquistou diversos títulos e se destacou como artilheiro e revelação do Brasileirão. Transferiu-se para o Real Madrid em julho de 2024, após completar 18 anos, e é uma peça importante no futuro da Seleção Brasileira. Atualmente joga no Lyon da França por empréstimo.",
+    pagina: "https://www.instagram.com/'endrick/",
     nacionalidade: "Brasil",
     imagem:
-      "https://sports.sbt.com.br/_next/image?url=https%3A%2F%2Fsbt-sports-assets-prod.s3.sa-east-1.amazonaws.com%2FEndrick_Golden_Boy_903742464a.jpg&w=1920&q=90",
+      "https://cdn.atarde.com.br/img/Artigo-Destaque/1370000/1200x720/Fenomeno-mundial-Endrick-chega-a-Franca-batendo-re0137393200202512271311-ScaleDownProportional.webp?fallback=https%3A%2F%2Fcdn.atarde.com.br%2Fimg%2FArtigo-Destaque%2F1370000%2FFenomeno-mundial-Endrick-chega-a-Franca-batendo-re0137393200202512271311.png%3Fxid%3D6934696%26resize%3D1000%252C500%26t%3D1766939019&xid=6934696",
     numero: "9",
     posicao: "Centroavante / Segundo Atacante",
     dataNascimento: "21/07/2006",
@@ -7205,8 +7205,13 @@ export const jogadores = [
       ),
       createClub(
         "Real Madrid",
-        { inicio: "21/07/2024", fim: "Presente" },
+        { inicio: "21/07/2024", fim: "27/12/2025" },
         { jogos: 37, gols: 7, assistencias: 0 }
+      ),
+      createClub(
+        "Olympique Lyonnais",
+        { inicio: "28/12/2025", fim: "Presente" },
+        { jogos: 0, gols: 0, assistencias: 0 }
       ),
     ],
     selecao: {
@@ -13387,6 +13392,11 @@ export const jogadores = [
       {
         nome: "Equipe da Temporada da Liga dos Campeões da UEFA",
         logo: "Liga dos Campeões da UEFA",
+        anos: ["2025"],
+      },
+      {
+        nome: "Melhor jogador do Campeonato Espanhol",
+        logo: "Globe Soccer Awards",
         anos: ["2025"],
       },
     ],
@@ -20851,6 +20861,11 @@ export const jogadores = [
         logo: "Individual",
         anos: ["2016", "2017", "2018", "2020"],
       },
+      {
+        nome: "Melhor defesa do Campeonato Espanhol",
+        logo: "Globe Soccer Awards",
+        anos: ["2025"],
+      },
     ],
     tags: ["Jan Oblak", "Oblak"],
     ultimaAtualizacao: "11/12/2025",
@@ -21908,6 +21923,11 @@ export const jogadores = [
         logo: "IFFHS",
         anos: ["2021"],
       },
+      {
+        nome: "Prêmio Carreira",
+        logo: "Globe Soccer Awards",
+        anos: ["2025"],
+      },
     ],
     tags: [
       "Andres Iniesta Lujan",
@@ -22281,6 +22301,11 @@ export const jogadores = [
       {
         nome: "Equipe do Ano",
         logo: "The Best FIFA",
+        anos: ["2025"],
+      },
+      {
+        nome: "Melhor Atacante",
+        logo: "Globe Soccer Awards",
         anos: ["2025"],
       },
     ],
@@ -23492,6 +23517,11 @@ export const jogadores = [
         logo: "The Best FIFA",
         anos: ["2025"],
       },
+      {
+        nome: "Melhor jogador do Mundo",
+        logo: "Globe Soccer Awards",
+        anos: ["2025"],
+      },
     ],
     tags: ["Ousmane Dembele", "Dembele", "OD7", "OD10"],
     ultima_atualizacao: "12/12/2025",
@@ -23546,6 +23576,11 @@ export const jogadores = [
       {
         nome: "Melhor Jogador Jovem da Copa do Mundo de Clubes FIFA",
         logo: "Copa do Mundo de Clubes FIFA",
+        anos: ["2025"],
+      },
+      {
+        nome: "Melhor jovem jogador",
+        logo: "Globe Soccer Awards",
         anos: ["2025"],
       },
     ],
@@ -24392,6 +24427,11 @@ export const jogadores = [
         nome: "Bola de Prata do Mundial de Clubes FIFA",
         logo: "Bola de Prata FIFA",
         anos: ["2017"],
+      },
+      {
+        nome: "Retorno do Ano",
+        logo: "Globe Soccer Awards",
+        anos: ["2025"],
       },
     ],
     tags: ["Paul Pogba", "Pogba", "La Pioche", "PP6", "PP10"],
@@ -32283,6 +32323,11 @@ export const jogadores = [
         logo: "Liga das Nações da UEFA",
         anos: ["2019"],
       },
+      {
+        nome: "Melhor jogador do oriente médio",
+        logo: "Globe Soccer Awards",
+        anos: ["2025"],
+      },
     ],
     tags: [
       "Cristiano Ronaldo",
@@ -33319,6 +33364,11 @@ export const jogadores = [
       {
         nome: "Melhor jogador da Copa Intercontinental FIFA",
         logo: "Copa Intercontinental FIFA",
+        anos: ["2025"],
+      },
+      {
+        nome: "Melhor Meia",
+        logo: "Globe Soccer Awards",
         anos: ["2025"],
       },
     ],
