@@ -23,22 +23,22 @@ export const jogadores = [
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/1964", fim: "30/06/1977" },
-        { jogos: 584, gols: 76, assistencias: 0 }
+        { jogos: 584, gols: 76, assistencias: 0 },
       ),
       createClub(
         "New York Cosmos",
         { inicio: "01/07/1977", fim: "01/07/1980" },
-        { jogos: 105, gols: 21, assistencias: 0 }
+        { jogos: 105, gols: 21, assistencias: 0 },
       ),
       createClub(
         "Hamburgo SV",
         { inicio: "01/08/1980", fim: "31/05/1982" },
-        { jogos: 37, gols: 0, assistencias: 0 }
+        { jogos: 37, gols: 0, assistencias: 0 },
       ),
       createClub(
         "New York Cosmos",
         { inicio: "01/04/1983", fim: "30/09/1983" },
-        { jogos: 27, gols: 2, assistencias: 0 }
+        { jogos: 27, gols: 2, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -220,17 +220,17 @@ export const jogadores = [
       createClub(
         "TSV 1861 Nördlingen",
         { inicio: "01/07/1963", fim: "30/06/1964" },
-        { jogos: 50, gols: 73, assistencias: 0 }
+        { jogos: 50, gols: 73, assistencias: 0 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/1964", fim: "30/06/1979" },
-        { jogos: 605, gols: 576, assistencias: 99 }
+        { jogos: 605, gols: 576, assistencias: 99 },
       ),
       createClub(
         "Fort Lauderdale Strikers",
         { inicio: "01/05/1979", fim: "01/05/1982" },
-        { jogos: 80, gols: 40, assistencias: 0 }
+        { jogos: 80, gols: 40, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -321,7 +321,7 @@ export const jogadores = [
       createClub(
         "Bayern de Munique",
         { inicio: "20/06/2020", fim: "Presente" },
-        { jogos: 207, gols: 64, assistencias: 31 }
+        { jogos: 207, gols: 64, assistencias: 31 },
       ),
     ],
     selecao: {
@@ -387,37 +387,37 @@ export const jogadores = [
       createClub(
         "Hertha BSC",
         { inicio: "01/07/2006", fim: "30/06/2007" },
-        { jogos: 11, gols: 0, assistencias: 0 }
+        { jogos: 11, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Hamburgo SV",
         { inicio: "01/07/2007", fim: "30/06/2010" },
-        { jogos: 113, gols: 1, assistencias: 9 }
+        { jogos: 113, gols: 1, assistencias: 9 },
       ),
       createClub(
         "Manchester City",
         { inicio: "01/07/2010", fim: "30/06/2011" },
-        { jogos: 24, gols: 0, assistencias: 0 }
+        { jogos: 24, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2011", fim: "30/06/2021" },
-        { jogos: 363, gols: 10, assistencias: 25 }
+        { jogos: 363, gols: 10, assistencias: 25 },
       ),
       createClub(
         "Lyon",
         { inicio: "01/09/2021", fim: "30/06/2023" },
-        { jogos: 35, gols: 0, assistencias: 2 }
+        { jogos: 35, gols: 0, assistencias: 2 },
       ),
       createClub(
         "Salernitana",
         { inicio: "02/02/2024", fim: "30/06/2024" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "LASK",
         { inicio: "01/07/2024", fim: "01/09/2025" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -476,27 +476,27 @@ export const jogadores = [
       createClub(
         "Schalke 04",
         { inicio: "01/01/2011", fim: "30/08/2015" },
-        { jogos: 170, gols: 30, assistencias: 29 }
+        { jogos: 170, gols: 30, assistencias: 29 },
       ),
       createClub(
         "Wolfsburg",
         { inicio: "31/08/2015", fim: "02/01/2017" },
-        { jogos: 45, gols: 8, assistencias: 8 }
+        { jogos: 45, gols: 8, assistencias: 8 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "03/01/2017", fim: "31/08/2023" },
-        { jogos: 198, gols: 26, assistencias: 44 }
+        { jogos: 198, gols: 26, assistencias: 44 },
       ),
       createClub(
         "Benfica",
         { inicio: "01/09/2022", fim: "30/06/2023" },
-        { jogos: 18, gols: 2, assistencias: 1 }
+        { jogos: 18, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Al-Ahli",
         { inicio: "11/09/2023", fim: "Presente" },
-        { jogos: 21, gols: 6, assistencias: 3 }
+        { jogos: 21, gols: 6, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -546,32 +546,32 @@ export const jogadores = [
       createClub(
         "Herzogenaurach",
         { inicio: "01/07/1978", fim: "30/06/1979" },
-        { jogos: 22, gols: 20, assistencias: 0 }
+        { jogos: 22, gols: 20, assistencias: 0 },
       ),
       createClub(
         "Borussia Mönchengladbach",
         { inicio: "01/07/1979", fim: "30/06/1984" },
-        { jogos: 162, gols: 49, assistencias: 0 }
+        { jogos: 162, gols: 49, assistencias: 0 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/1984", fim: "30/06/1988" },
-        { jogos: 155, gols: 74, assistencias: 0 }
+        { jogos: 155, gols: 74, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/1988", fim: "30/06/1992" },
-        { jogos: 153, gols: 53, assistencias: 0 }
+        { jogos: 153, gols: 53, assistencias: 0 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/1992", fim: "30/06/2000" },
-        { jogos: 269, gols: 49, assistencias: 0 }
+        { jogos: 269, gols: 49, assistencias: 0 },
       ),
       createClub(
         "New York MetroStars",
         { inicio: "01/03/2000", fim: "30/09/2000" },
-        { jogos: 21, gols: 0, assistencias: 0 }
+        { jogos: 21, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -648,12 +648,12 @@ export const jogadores = [
       createClub(
         "Schalke 04",
         { inicio: "01/07/2006", fim: "30/06/2011" },
-        { jogos: 203, gols: 0, assistencias: 0 }
+        { jogos: 203, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2011", fim: "Presente" },
-        { jogos: 570, gols: 0, assistencias: 0 }
+        { jogos: 570, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -730,22 +730,22 @@ export const jogadores = [
       createClub(
         "Rot Weiss Ahlen",
         { inicio: "01/07/2006", fim: "30/06/2009" },
-        { jogos: 48, gols: 6, assistencias: 0 }
+        { jogos: 48, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Borussia Mönchengladbach",
         { inicio: "01/07/2009", fim: "30/06/2012" },
-        { jogos: 109, gols: 41, assistencias: 28 }
+        { jogos: 109, gols: 41, assistencias: 28 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "01/07/2012", fim: "30/06/2024" },
-        { jogos: 429, gols: 170, assistencias: 131 }
+        { jogos: 429, gols: 170, assistencias: 131 },
       ),
       createClub(
         "Los Angeles Galaxy",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 1, gols: 1, assistencias: 0 }
+        { jogos: 1, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -814,32 +814,32 @@ export const jogadores = [
       createClub(
         "Chemnitzer",
         { inicio: "01/07/1995", fim: "30/06/1997" },
-        { jogos: 51, gols: 10, assistencias: 0 }
+        { jogos: 51, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Kaiserslautern",
         { inicio: "01/07/1997", fim: "30/06/1999" },
-        { jogos: 57, gols: 4, assistencias: 0 }
+        { jogos: 57, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Bayer Leverkusen",
         { inicio: "01/07/1999", fim: "30/06/2002" },
-        { jogos: 107, gols: 37, assistencias: 10 }
+        { jogos: 107, gols: 37, assistencias: 10 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2002", fim: "30/06/2006" },
-        { jogos: 157, gols: 62, assistencias: 40 }
+        { jogos: 157, gols: 62, assistencias: 40 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/07/2006", fim: "30/06/2010" },
-        { jogos: 167, gols: 26, assistencias: 21 }
+        { jogos: 167, gols: 26, assistencias: 21 },
       ),
       createClub(
         "Bayer Leverkusen",
         { inicio: "01/07/2010", fim: "30/06/2012" },
-        { jogos: 35, gols: 1, assistencias: 3 }
+        { jogos: 35, gols: 1, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -914,32 +914,32 @@ export const jogadores = [
       createClub(
         "Werder Bremen",
         { inicio: "01/07/2012", fim: "30/06/2013" },
-        { jogos: 8, gols: 1, assistencias: 0 }
+        { jogos: 8, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Greuther Fürth",
         { inicio: "01/07/2013", fim: "30/06/2014" },
-        { jogos: 24, gols: 6, assistencias: 3 }
+        { jogos: 24, gols: 6, assistencias: 3 },
       ),
       createClub(
         "FC Nürnberg",
         { inicio: "01/07/2014", fim: "30/06/2016" },
-        { jogos: 57, gols: 19, assistencias: 6 }
+        { jogos: 57, gols: 19, assistencias: 6 },
       ),
       createClub(
         "Hannover 96",
         { inicio: "01/07/2016", fim: "30/06/2019" },
-        { jogos: 80, gols: 25, assistencias: 8 }
+        { jogos: 80, gols: 25, assistencias: 8 },
       ),
       createClub(
         "Werder Bremen",
         { inicio: "01/07/2019", fim: "31/08/2023" },
-        { jogos: 124, gols: 49, assistencias: 11 }
+        { jogos: 124, gols: 49, assistencias: 11 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "01/09/2023", fim: "Presente" },
-        { jogos: 60, gols: 18, assistencias: 11 }
+        { jogos: 60, gols: 18, assistencias: 11 },
       ),
     ],
     selecao: {
@@ -990,12 +990,12 @@ export const jogadores = [
       createClub(
         "Karlsruher SC",
         { inicio: "01/07/1987", fim: "30/06/1994" },
-        { jogos: 141, gols: 0, assistencias: 0 }
+        { jogos: 141, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/1994", fim: "30/06/2008" },
-        { jogos: 632, gols: 0, assistencias: 0 }
+        { jogos: 632, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -1070,17 +1070,17 @@ export const jogadores = [
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2002", fim: "12/07/2015" },
-        { jogos: 500, gols: 68, assistencias: 80 }
+        { jogos: 500, gols: 68, assistencias: 80 },
       ),
       createClub(
         "Manchester United",
         { inicio: "13/07/2015", fim: "20/03/2017" },
-        { jogos: 35, gols: 4, assistencias: 3 }
+        { jogos: 35, gols: 4, assistencias: 3 },
       ),
       createClub(
         "Chicago Fire",
         { inicio: "21/03/2017", fim: "08/10/2019" },
-        { jogos: 92, gols: 8, assistencias: 11 }
+        { jogos: 92, gols: 8, assistencias: 11 },
       ),
     ],
     selecao: {
@@ -1149,12 +1149,12 @@ export const jogadores = [
       createClub(
         "Borussia Mönchengladbach",
         { inicio: "01/07/2011", fim: "30/06/2014" },
-        { jogos: 127, gols: 0, assistencias: 0 }
+        { jogos: 127, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2014", fim: "Presente" },
-        { jogos: 430, gols: 0, assistencias: 0 }
+        { jogos: 430, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -1204,12 +1204,12 @@ export const jogadores = [
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2008", fim: "05/08/2025" },
-        { jogos: 756, gols: 250, assistencias: 238 }
+        { jogos: 756, gols: 250, assistencias: 238 },
       ),
       createClub(
         "Vancouver Whitecaps FC",
         { inicio: "06/08/2025", fim: "Presente" },
-        { jogos: 11, gols: 9, assistencias: 3 }
+        { jogos: 11, gols: 9, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -1280,22 +1280,22 @@ export const jogadores = [
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2007", fim: "11/01/2009" },
-        { jogos: 30, gols: 1, assistencias: 4 }
+        { jogos: 30, gols: 1, assistencias: 4 },
       ),
       createClub(
         "Bayer Leverkusen",
         { inicio: "12/01/2009", fim: "30/06/2010" },
-        { jogos: 48, gols: 10, assistencias: 14 }
+        { jogos: 48, gols: 10, assistencias: 14 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2010", fim: "16/07/2014" },
-        { jogos: 175, gols: 24, assistencias: 41 }
+        { jogos: 175, gols: 24, assistencias: 41 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "17/07/2014", fim: "30/06/2024" },
-        { jogos: 465, gols: 28, assistencias: 98 }
+        { jogos: 465, gols: 28, assistencias: 98 },
       ),
     ],
     selecao: {
@@ -1359,47 +1359,47 @@ export const jogadores = [
       createClub(
         "Chacarita Juniors",
         { inicio: "01/01/2014", fim: "30/06/2015" },
-        { jogos: 19, gols: 0, assistencias: 0 }
+        { jogos: 19, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Estudiantes",
         { inicio: "01/07/2015", fim: "30/06/2016" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Defensa y Justicia",
         { inicio: "01/07/2016", fim: "31/12/2016" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Boca Juniors",
         { inicio: "01/02/2017", fim: "04/02/2019" },
-        { jogos: 85, gols: 0, assistencias: 0 }
+        { jogos: 85, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Deportes Antofagasta",
         { inicio: "05/02/2019", fim: "30/06/2019" },
-        { jogos: 4, gols: 0, assistencias: 0 }
+        { jogos: 4, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Lanús",
         { inicio: "01/07/2019", fim: "30/06/2020" },
-        { jogos: 23, gols: 0, assistencias: 0 }
+        { jogos: 23, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Boca Juniors",
         { inicio: "01/07/2020", fim: "05/01/2023" },
-        { jogos: 66, gols: 0, assistencias: 0 }
+        { jogos: 66, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Al-Nassr",
         { inicio: "06/01/2023", fim: "30/06/2023" },
-        { jogos: 9, gols: 0, assistencias: 0 }
+        { jogos: 9, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/07/2023", fim: "Presente" },
-        { jogos: 85, gols: 0, assistencias: 1 }
+        { jogos: 85, gols: 0, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -1445,12 +1445,12 @@ export const jogadores = [
       createClub(
         "Manchester United",
         { inicio: "28/04/2022", fim: "30/07/2025" },
-        { jogos: 108, gols: 18, assistencias: 8 }
+        { jogos: 108, gols: 18, assistencias: 8 },
       ),
       createClub(
         "Chelsea",
         { inicio: "30/08/2025", fim: "Presente" },
-        { jogos: 15, gols: 3, assistencias: 2 }
+        { jogos: 15, gols: 3, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -1495,17 +1495,17 @@ export const jogadores = [
       createClub(
         "Newell's Old Boys",
         { inicio: "01/07/2019", fim: "28/02/2021" },
-        { jogos: 56, gols: 2, assistencias: 4 }
+        { jogos: 56, gols: 2, assistencias: 4 },
       ),
       createClub(
         "Racing",
         { inicio: "01/03/2021", fim: "31/12/2023" },
-        { jogos: 132, gols: 10, assistencias: 8 }
+        { jogos: 132, gols: 10, assistencias: 8 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/2024", fim: "Presente" },
-        { jogos: 54, gols: 4, assistencias: 6 }
+        { jogos: 54, gols: 4, assistencias: 6 },
       ),
     ],
     selecao: {},
@@ -1536,42 +1536,42 @@ export const jogadores = [
       createClub(
         "Rosário Central",
         { inicio: "01/07/2005", fim: "26/07/2007" },
-        { jogos: 39, gols: 6, assistencias: 0 }
+        { jogos: 39, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Benfica",
         { inicio: "27/07/2007", fim: "06/07/2010" },
-        { jogos: 119, gols: 15, assistencias: 28 }
+        { jogos: 119, gols: 15, assistencias: 28 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "07/07/2010", fim: "26/08/2014" },
-        { jogos: 190, gols: 36, assistencias: 84 }
+        { jogos: 190, gols: 36, assistencias: 84 },
       ),
       createClub(
         "Manchester United",
         { inicio: "27/08/2014", fim: "05/08/2015" },
-        { jogos: 32, gols: 4, assistencias: 12 }
+        { jogos: 32, gols: 4, assistencias: 12 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "06/08/2015", fim: "30/06/2022" },
-        { jogos: 295, gols: 93, assistencias: 119 }
+        { jogos: 295, gols: 93, assistencias: 119 },
       ),
       createClub(
         "Juventus",
         { inicio: "07/07/2022", fim: "30/06/2023" },
-        { jogos: 40, gols: 8, assistencias: 7 }
+        { jogos: 40, gols: 8, assistencias: 7 },
       ),
       createClub(
         "Benfica",
         { inicio: "05/07/2023", fim: "28/05/2005" },
-        { jogos: 92, gols: 36, assistencias: 24 }
+        { jogos: 92, gols: 36, assistencias: 24 },
       ),
       createClub(
         "Rosário Central",
         { inicio: "29/05/2005", fim: "Presente" },
-        { jogos: 14, gols: 7, assistencias: 0 }
+        { jogos: 14, gols: 7, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -1632,27 +1632,27 @@ export const jogadores = [
       createClub(
         "Racing",
         { inicio: "01/01/2020", fim: "09/01/2023" },
-        { jogos: 83, gols: 12, assistencias: 6 }
+        { jogos: 83, gols: 12, assistencias: 6 },
       ),
       createClub(
         "Southampton",
         { inicio: "10/01/2023", fim: "30/01/2024" },
-        { jogos: 48, gols: 5, assistencias: 3 }
+        { jogos: 48, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Juventus",
         { inicio: "31/01/2024", fim: "27/08/2024" },
-        { jogos: 10, gols: 0, assistencias: 1 }
+        { jogos: 10, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Flamengo",
         { inicio: "28/08/2024", fim: "30/01/2025" },
-        { jogos: 20, gols: 2, assistencias: 2 }
+        { jogos: 20, gols: 2, assistencias: 2 },
       ),
       createClub(
         "Everton",
         { inicio: "31/01/2025", fim: "Presente" },
-        { jogos: 20, gols: 2, assistencias: 3 }
+        { jogos: 20, gols: 2, assistencias: 3 },
       ),
     ],
     selecao: {},
@@ -1683,47 +1683,47 @@ export const jogadores = [
       createClub(
         "Boca Juniors",
         { inicio: "21/10/2001", fim: "28/12/2004" },
-        { jogos: 110, gols: 38, assistencias: 12 }
+        { jogos: 110, gols: 38, assistencias: 12 },
       ),
       createClub(
         "Corinthians",
         { inicio: "29/12/2004", fim: "13/08/2006" },
-        { jogos: 78, gols: 46, assistencias: 13 }
+        { jogos: 78, gols: 46, assistencias: 13 },
       ),
       createClub(
         "West Ham United",
         { inicio: "14/08/2006", fim: "21/07/2007" },
-        { jogos: 29, gols: 7, assistencias: 3 }
+        { jogos: 29, gols: 7, assistencias: 3 },
       ),
       createClub(
         "Manchester United",
         { inicio: "22/07/2007", fim: "13/07/2009" },
-        { jogos: 99, gols: 34, assistencias: 14 }
+        { jogos: 99, gols: 34, assistencias: 14 },
       ),
       createClub(
         "Manchester City",
         { inicio: "14/07/2009", fim: "26/06/2013" },
-        { jogos: 148, gols: 73, assistencias: 36 }
+        { jogos: 148, gols: 73, assistencias: 36 },
       ),
       createClub(
         "Juventus",
         { inicio: "27/06/2013", fim: "25/06/2015" },
-        { jogos: 95, gols: 50, assistencias: 19 }
+        { jogos: 95, gols: 50, assistencias: 19 },
       ),
       createClub(
         "Boca Juniors",
         { inicio: "26/06/2015", fim: "29/12/2016" },
-        { jogos: 60, gols: 25, assistencias: 16 }
+        { jogos: 60, gols: 25, assistencias: 16 },
       ),
       createClub(
         "Shanghai Shenhua",
         { inicio: "30/12/2016", fim: "04/01/2018" },
-        { jogos: 20, gols: 4, assistencias: 5 }
+        { jogos: 20, gols: 4, assistencias: 5 },
       ),
       createClub(
         "Boca Juniors",
         { inicio: "05/01/2018", fim: "04/06/2021" },
-        { jogos: 117, gols: 30, assistencias: 15 }
+        { jogos: 117, gols: 30, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -1785,37 +1785,37 @@ export const jogadores = [
       createClub(
         "Argentinos Juniors",
         { inicio: "20/10/1976", fim: "31/12/1980" },
-        { jogos: 167, gols: 116, assistencias: 0 }
+        { jogos: 167, gols: 116, assistencias: 0 },
       ),
       createClub(
         "Boca Juniors",
         { inicio: "20/02/1981", fim: "30/06/1982" },
-        { jogos: 40, gols: 28, assistencias: 0 }
+        { jogos: 40, gols: 28, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "04/06/1982", fim: "30/06/1984" },
-        { jogos: 58, gols: 38, assistencias: 0 }
+        { jogos: 58, gols: 38, assistencias: 0 },
       ),
       createClub(
         "Napoli",
         { inicio: "05/07/1984", fim: "30/06/1991" },
-        { jogos: 259, gols: 115, assistencias: 0 }
+        { jogos: 259, gols: 115, assistencias: 0 },
       ),
       createClub(
         "Sevilla",
         { inicio: "22/09/1992", fim: "30/06/1993" },
-        { jogos: 29, gols: 8, assistencias: 0 }
+        { jogos: 29, gols: 8, assistencias: 0 },
       ),
       createClub(
         "Newell's Old Boys",
         { inicio: "07/10/1993", fim: "01/02/1994" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Boca Juniors",
         { inicio: "30/09/1995", fim: "25/10/1997" },
-        { jogos: 30, gols: 5, assistencias: 0 }
+        { jogos: 30, gols: 5, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -1905,27 +1905,27 @@ export const jogadores = [
       createClub(
         "River Plate",
         { inicio: "27/01/2019", fim: "21/08/2020" },
-        { jogos: 53, gols: 12, assistencias: 10 }
+        { jogos: 53, gols: 12, assistencias: 10 },
       ),
       createClub(
         "Defensa y Justicia",
         { inicio: "22/08/2020", fim: "30/06/2021" },
-        { jogos: 32, gols: 1, assistencias: 2 }
+        { jogos: 32, gols: 1, assistencias: 2 },
       ),
       createClub(
         "River Plate",
         { inicio: "31/06/2021", fim: "14/07/2022" },
-        { jogos: 53, gols: 12, assistencias: 10 }
+        { jogos: 53, gols: 12, assistencias: 10 },
       ),
       createClub(
         "Benfica",
         { inicio: "15/07/2022", fim: "31/01/2023" },
-        { jogos: 29, gols: 4, assistencias: 7 }
+        { jogos: 29, gols: 4, assistencias: 7 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/02/2023", fim: "Presente" },
-        { jogos: 100, gols: 7, assistencias: 12 }
+        { jogos: 100, gols: 7, assistencias: 12 },
       ),
     ],
     selecao: {
@@ -1978,17 +1978,17 @@ export const jogadores = [
       createClub(
         "Argentinos Juniors",
         { inicio: "01/07/2018", fim: "25/07/2022" },
-        { jogos: 78, gols: 9, assistencias: 4 }
+        { jogos: 78, gols: 9, assistencias: 4 },
       ),
       createClub(
         "Corinthians",
         { inicio: "26/07/2022", fim: "15/07/2024" },
-        { jogos: 96, gols: 2, assistencias: 2 }
+        { jogos: 96, gols: 2, assistencias: 2 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "16/07/2024", fim: "Presente" },
-        { jogos: 50, gols: 3, assistencias: 4 }
+        { jogos: 50, gols: 3, assistencias: 4 },
       ),
     ],
     selecao: {},
@@ -2027,32 +2027,32 @@ export const jogadores = [
       createClub(
         "Lanús",
         { inicio: "01/07/2007", fim: "30/06/2009" },
-        { jogos: 25, gols: 2, assistencias: 0 }
+        { jogos: 25, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Independiente Medellín",
         { inicio: "01/01/2013", fim: "31/12/2014" },
-        { jogos: 101, gols: 54, assistencias: 5 }
+        { jogos: 101, gols: 54, assistencias: 5 },
       ),
       createClub(
         "Pachuca",
         { inicio: "01/01/2015", fim: "31/12/2015" },
-        { jogos: 22, gols: 4, assistencias: 0 }
+        { jogos: 22, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Independiente Medellín",
         { inicio: "01/01/2018", fim: "31/12/2019" },
-        { jogos: 98, gols: 69, assistencias: 4 }
+        { jogos: 98, gols: 69, assistencias: 4 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/01/2020", fim: "31/12/2021" },
-        { jogos: 101, gols: 43, assistencias: 4 }
+        { jogos: 101, gols: 43, assistencias: 4 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/01/2022", fim: "Presente" },
-        { jogos: 190, gols: 115, assistencias: 15 }
+        { jogos: 190, gols: 115, assistencias: 15 },
       ),
     ],
     selecao: {},
@@ -2114,37 +2114,37 @@ export const jogadores = [
       createClub(
         "River Plate",
         { inicio: "01/07/2004", fim: "01/01/2007" },
-        { jogos: 41, gols: 15, assistencias: 6 }
+        { jogos: 41, gols: 15, assistencias: 6 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/01/2007", fim: "27/07/2013" },
-        { jogos: 264, gols: 121, assistencias: 56 }
+        { jogos: 264, gols: 121, assistencias: 56 },
       ),
       createClub(
         "Napoli",
         { inicio: "27/07/2013", fim: "26/07/2016" },
-        { jogos: 146, gols: 91, assistencias: 26 }
+        { jogos: 146, gols: 91, assistencias: 26 },
       ),
       createClub(
         "Juventus",
         { inicio: "26/07/2016", fim: "01/09/2020" },
-        { jogos: 149, gols: 66, assistencias: 16 }
+        { jogos: 149, gols: 66, assistencias: 16 },
       ),
       createClub(
         "AC Milan",
         { inicio: "02/08/2018", fim: "23/01/2019" },
-        { jogos: 22, gols: 8, assistencias: 3 }
+        { jogos: 22, gols: 8, assistencias: 3 },
       ),
       createClub(
         "Chelsea",
         { inicio: "23/01/2019", fim: "30/06/2019" },
-        { jogos: 18, gols: 5, assistencias: 0 }
+        { jogos: 18, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Inter Miami",
         { inicio: "18/09/2020", fim: "17/10/2022" },
-        { jogos: 70, gols: 29, assistencias: 14 }
+        { jogos: 70, gols: 29, assistencias: 14 },
       ),
     ],
     selecao: {
@@ -2190,22 +2190,22 @@ export const jogadores = [
       createClub(
         "Libertad",
         { inicio: "01/01/2011", fim: "31/12/2015" },
-        { jogos: 118, gols: 13, assistencias: 4 }
+        { jogos: 118, gols: 13, assistencias: 4 },
       ),
       createClub(
         "Lanús",
         { inicio: "01/01/2016", fim: "31/08/2016" },
-        { jogos: 16, gols: 1, assistencias: 0 }
+        { jogos: 16, gols: 1, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "31/08/2016", fim: "28/07/2018" },
-        { jogos: 20, gols: 0, assistencias: 0 }
+        { jogos: 20, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "28/07/2018", fim: "Presente" },
-        { jogos: 390, gols: 40, assistencias: 15 }
+        { jogos: 390, gols: 40, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -2261,37 +2261,37 @@ export const jogadores = [
       createClub(
         "River Plate",
         { inicio: "03/08/2003", fim: "21/08/2005" },
-        { jogos: 71, gols: 1, assistencias: 0 }
+        { jogos: 71, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "21/08/2005", fim: "31/08/2006" },
-        { jogos: 26, gols: 0, assistencias: 0 }
+        { jogos: 26, gols: 0, assistencias: 0 },
       ),
       createClub(
         "West Ham United",
         { inicio: "31/08/2006", fim: "01/02/2007" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/02/2007", fim: "27/08/2010" },
-        { jogos: 139, gols: 2, assistencias: 5 }
+        { jogos: 139, gols: 2, assistencias: 5 },
       ),
       createClub(
         "Barcelona",
         { inicio: "27/08/2010", fim: "26/01/2018" },
-        { jogos: 334, gols: 1, assistencias: 8 }
+        { jogos: 334, gols: 1, assistencias: 8 },
       ),
       createClub(
         "Hebei Fortune",
         { inicio: "26/01/2018", fim: "01/01/2020" },
-        { jogos: 54, gols: 1, assistencias: 0 }
+        { jogos: 54, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Estudiantes de La Plata",
         { inicio: "01/01/2020", fim: "16/11/2020" },
-        { jogos: 11, gols: 0, assistencias: 0 }
+        { jogos: 11, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -2326,17 +2326,17 @@ export const jogadores = [
       createClub(
         "Talleres RE",
         { inicio: "01/07/1992", fim: "30/06/1993" },
-        { jogos: 33, gols: 1, assistencias: 0 }
+        { jogos: 33, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Banfield",
         { inicio: "01/07/1993", fim: "30/06/1995" },
-        { jogos: 66, gols: 4, assistencias: 0 }
+        { jogos: 66, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/1995", fim: "18/05/2014" },
-        { jogos: 858, gols: 21, assistencias: 58 }
+        { jogos: 858, gols: 21, assistencias: 58 },
       ),
     ],
     selecao: {
@@ -2390,47 +2390,47 @@ export const jogadores = [
       createClub(
         "Racing",
         { inicio: "01/01/2013", fim: "30/06/2014" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Temperley",
         { inicio: "01/07/2014", fim: "31/12/2014" },
-        { jogos: 12, gols: 2, assistencias: 0 }
+        { jogos: 12, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Aldosivi",
         { inicio: "01/01/2015", fim: "31/12/2015" },
-        { jogos: 12, gols: 1, assistencias: 0 }
+        { jogos: 12, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Deportivo Cuenca",
         { inicio: "01/01/2016", fim: "31/12/2017" },
-        { jogos: 42, gols: 20, assistencias: 3 }
+        { jogos: 42, gols: 20, assistencias: 3 },
       ),
       createClub(
         "Barcelona de Guayaquil",
         { inicio: "01/01/2018", fim: "31/12/2018" },
-        { jogos: 44, gols: 18, assistencias: 4 }
+        { jogos: 44, gols: 18, assistencias: 4 },
       ),
       createClub(
         "Deportivo Cali",
         { inicio: "01/01/2019", fim: "31/12/2019" },
-        { jogos: 48, gols: 28, assistencias: 6 }
+        { jogos: 48, gols: 28, assistencias: 6 },
       ),
       createClub(
         "Pumas",
         { inicio: "01/01/2020", fim: "31/12/2023" },
-        { jogos: 147, gols: 60, assistencias: 11 }
+        { jogos: 147, gols: 60, assistencias: 11 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2024", fim: "30/06/2025" },
-        { jogos: 37, gols: 10, assistencias: 5 }
+        { jogos: 37, gols: 10, assistencias: 5 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 29, gols: 10, assistencias: 3 }
+        { jogos: 29, gols: 10, assistencias: 3 },
       ),
     ],
     selecao: {},
@@ -2474,27 +2474,27 @@ export const jogadores = [
       createClub(
         "Boca Juniors",
         { inicio: "10/11/1996", fim: "30/06/2002" },
-        { jogos: 194, gols: 44, assistencias: 81 }
+        { jogos: 194, gols: 44, assistencias: 81 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2002", fim: "30/06/2003" },
-        { jogos: 42, gols: 6, assistencias: 7 }
+        { jogos: 42, gols: 6, assistencias: 7 },
       ),
       createClub(
         "Villarreal",
         { inicio: "01/07/2003", fim: "31/12/2007" },
-        { jogos: 145, gols: 45, assistencias: 59 }
+        { jogos: 145, gols: 45, assistencias: 59 },
       ),
       createClub(
         "Boca Juniors",
         { inicio: "01/01/2007", fim: "30/06/2014" },
-        { jogos: 233, gols: 55, assistencias: 64 }
+        { jogos: 233, gols: 55, assistencias: 64 },
       ),
       createClub(
         "Argentinos Juniors",
         { inicio: "01/07/2014", fim: "31/12/2015" },
-        { jogos: 18, gols: 5, assistencias: 1 }
+        { jogos: 18, gols: 5, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -2560,17 +2560,17 @@ export const jogadores = [
       createClub(
         "River Plate",
         { inicio: "01/07/2018", fim: "31/01/2022" },
-        { jogos: 122, gols: 53, assistencias: 22 }
+        { jogos: 122, gols: 53, assistencias: 22 },
       ),
       createClub(
         "Manchester City",
         { inicio: "01/07/2022", fim: "30/08/2024" },
-        { jogos: 105, gols: 36, assistencias: 18 }
+        { jogos: 105, gols: 36, assistencias: 18 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "30/08/2024", fim: "Presente" },
-        { jogos: 18, gols: 8, assistencias: 4 }
+        { jogos: 18, gols: 8, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -2627,12 +2627,12 @@ export const jogadores = [
       createClub(
         "Racing",
         { inicio: "01/01/2015", fim: "30/06/2018" },
-        { jogos: 62, gols: 27, assistencias: 6 }
+        { jogos: 62, gols: 27, assistencias: 6 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2018", fim: "Presente" },
-        { jogos: 320, gols: 150, assistencias: 48 }
+        { jogos: 320, gols: 150, assistencias: 48 },
       ),
     ],
     selecao: {
@@ -2700,22 +2700,22 @@ export const jogadores = [
       createClub(
         "Sampdoria",
         { inicio: "01/07/2011", fim: "08/07/2013" },
-        { jogos: 33, gols: 11, assistencias: 4 }
+        { jogos: 33, gols: 11, assistencias: 4 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "09/07/2013", fim: "02/09/2019" },
-        { jogos: 219, gols: 124, assistencias: 28 }
+        { jogos: 219, gols: 124, assistencias: 28 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "03/09/2019", fim: "08/09/2022" },
-        { jogos: 92, gols: 38, assistencias: 10 }
+        { jogos: 92, gols: 38, assistencias: 10 },
       ),
       createClub(
         "Galatasaray",
         { inicio: "08/09/2022", fim: "Presente" },
-        { jogos: 75, gols: 55, assistencias: 18 }
+        { jogos: 75, gols: 55, assistencias: 18 },
       ),
     ],
     selecao: {
@@ -2766,22 +2766,22 @@ export const jogadores = [
       createClub(
         "Instituto AC Córdoba",
         { inicio: "13/08/2011", fim: "30/06/2012" },
-        { jogos: 38, gols: 17, assistencias: 4 }
+        { jogos: 38, gols: 17, assistencias: 4 },
       ),
       createClub(
         "Palermo",
         { inicio: "01/07/2012", fim: "30/06/2015" },
-        { jogos: 93, gols: 21, assistencias: 20 }
+        { jogos: 93, gols: 21, assistencias: 20 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2015", fim: "30/06/2022" },
-        { jogos: 293, gols: 115, assistencias: 48 }
+        { jogos: 293, gols: 115, assistencias: 48 },
       ),
       createClub(
         "Roma",
         { inicio: "20/07/2022", fim: "Presente" },
-        { jogos: 95, gols: 45, assistencias: 25 }
+        { jogos: 95, gols: 45, assistencias: 25 },
       ),
     ],
     selecao: {
@@ -2840,27 +2840,27 @@ export const jogadores = [
       createClub(
         "Instituto AC Córdoba",
         { inicio: "01/01/2016", fim: "31/12/2017" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Patronato",
         { inicio: "01/01/2018", fim: "31/12/2019" },
-        { jogos: 16, gols: 0, assistencias: 1 }
+        { jogos: 16, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Instituto AC Córdoba",
         { inicio: "01/01/2020", fim: "31/12/2021" },
-        { jogos: 39, gols: 7, assistencias: 4 }
+        { jogos: 39, gols: 7, assistencias: 4 },
       ),
       createClub(
         "Talleres",
         { inicio: "01/01/2022", fim: "31/12/2023" },
-        { jogos: 91, gols: 12, assistencias: 10 }
+        { jogos: 91, gols: 12, assistencias: 10 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2024", fim: "Presente" },
-        { jogos: 70, gols: 12, assistencias: 18 }
+        { jogos: 70, gols: 12, assistencias: 18 },
       ),
     ],
     selecao: {
@@ -2895,22 +2895,22 @@ export const jogadores = [
       createClub(
         "Independiente",
         { inicio: "05/07/2003", fim: "30/06/2006" },
-        { jogos: 56, gols: 23, assistencias: 4 }
+        { jogos: 56, gols: 23, assistencias: 4 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/07/2006", fim: "27/07/2011" },
-        { jogos: 234, gols: 101, assistencias: 45 }
+        { jogos: 234, gols: 101, assistencias: 45 },
       ),
       createClub(
         "Manchester City",
         { inicio: "28/07/2011", fim: "30/06/2021" },
-        { jogos: 389, gols: 260, assistencias: 73 }
+        { jogos: 389, gols: 260, assistencias: 73 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2021", fim: "15/12/2021" },
-        { jogos: 5, gols: 1, assistencias: 0 }
+        { jogos: 5, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -2961,17 +2961,17 @@ export const jogadores = [
       createClub(
         "Barcelona",
         { inicio: "16/10/2004", fim: "05/08/2021" },
-        { jogos: 778, gols: 672, assistencias: 268 }
+        { jogos: 778, gols: 672, assistencias: 268 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "10/08/2021", fim: "30/06/2023" },
-        { jogos: 75, gols: 32, assistencias: 35 }
+        { jogos: 75, gols: 32, assistencias: 35 },
       ),
       createClub(
         "Inter Miami",
         { inicio: "15/07/2023", fim: "Presente" },
-        { jogos: 88, gols: 78, assistencias: 44 }
+        { jogos: 88, gols: 78, assistencias: 44 },
       ),
     ],
     selecao: {
@@ -3264,17 +3264,17 @@ export const jogadores = [
       createClub(
         "Lille OSC",
         { inicio: "01/07/2007", fim: "30/06/2012" },
-        { jogos: 194, gols: 50, assistencias: 53 }
+        { jogos: 194, gols: 50, assistencias: 53 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/07/2012", fim: "30/06/2019" },
-        { jogos: 352, gols: 110, assistencias: 92 }
+        { jogos: 352, gols: 110, assistencias: 92 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2019", fim: "03/06/2023" },
-        { jogos: 76, gols: 7, assistencias: 12 }
+        { jogos: 76, gols: 7, assistencias: 12 },
       ),
     ],
     selecao: {
@@ -3345,32 +3345,32 @@ export const jogadores = [
       createClub(
         "KRC Genk",
         { inicio: "01/01/2008", fim: "30/06/2012" },
-        { jogos: 113, gols: 17, assistencias: 37 }
+        { jogos: 113, gols: 17, assistencias: 37 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/07/2012", fim: "17/01/2014" },
-        { jogos: 9, gols: 0, assistencias: 1 }
+        { jogos: 9, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Werder Bremen",
         { inicio: "01/08/2012", fim: "30/06/2013" },
-        { jogos: 34, gols: 10, assistencias: 10 }
+        { jogos: 34, gols: 10, assistencias: 10 },
       ),
       createClub(
         "Wolfsburg",
         { inicio: "18/01/2014", fim: "30/08/2015" },
-        { jogos: 73, gols: 20, assistencias: 37 }
+        { jogos: 73, gols: 20, assistencias: 37 },
       ),
       createClub(
         "Manchester City",
         { inicio: "31/08/2015", fim: "30/06/2025" },
-        { jogos: 415, gols: 105, assistencias: 175 }
+        { jogos: 415, gols: 105, assistencias: 175 },
       ),
       createClub(
         "Napoli",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 10, gols: 2, assistencias: 4 }
+        { jogos: 10, gols: 2, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -3448,52 +3448,52 @@ export const jogadores = [
       createClub(
         "Anderlecht",
         { inicio: "06/05/2009", fim: "30/06/2011" },
-        { jogos: 73, gols: 33, assistencias: 0 }
+        { jogos: 73, gols: 33, assistencias: 0 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/07/2011", fim: "30/06/2014" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
       createClub(
         "West Bromwich",
         { inicio: "10/08/2012", fim: "30/06/2013" },
-        { jogos: 35, gols: 17, assistencias: 0 }
+        { jogos: 35, gols: 17, assistencias: 0 },
       ),
       createClub(
         "Everton",
         { inicio: "04/09/2013", fim: "09/07/2017" },
-        { jogos: 166, gols: 87, assistencias: 29 }
+        { jogos: 166, gols: 87, assistencias: 29 },
       ),
       createClub(
         "Manchester United",
         { inicio: "10/07/2017", fim: "07/08/2019" },
-        { jogos: 96, gols: 42, assistencias: 13 }
+        { jogos: 96, gols: 42, assistencias: 13 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "08/08/2019", fim: "12/08/2021" },
-        { jogos: 95, gols: 64, assistencias: 16 }
+        { jogos: 95, gols: 64, assistencias: 16 },
       ),
       createClub(
         "Chelsea",
         { inicio: "13/08/2021", fim: "30/06/2024" },
-        { jogos: 44, gols: 15, assistencias: 2 }
+        { jogos: 44, gols: 15, assistencias: 2 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "29/06/2022", fim: "30/06/2023" },
-        { jogos: 37, gols: 14, assistencias: 7 }
+        { jogos: 37, gols: 14, assistencias: 7 },
       ),
       createClub(
         "Roma",
         { inicio: "31/08/2023", fim: "30/06/2024" },
-        { jogos: 47, gols: 21, assistencias: 4 }
+        { jogos: 47, gols: 21, assistencias: 4 },
       ),
       createClub(
         "Napoli",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 50, gols: 25, assistencias: 5 }
+        { jogos: 50, gols: 25, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -3556,22 +3556,22 @@ export const jogadores = [
       createClub(
         "KRC Genk",
         { inicio: "01/01/2009", fim: "30/06/2011" },
-        { jogos: 50, gols: 0, assistencias: 0 }
+        { jogos: 50, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/07/2011", fim: "07/08/2018" },
-        { jogos: 154, gols: 0, assistencias: 0 }
+        { jogos: 154, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/07/2011", fim: "30/06/2014" },
-        { jogos: 154, gols: 0, assistencias: 0 }
+        { jogos: 154, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "08/08/2018", fim: "Presente" },
-        { jogos: 270, gols: 0, assistencias: 0 }
+        { jogos: 270, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -3643,22 +3643,22 @@ export const jogadores = [
       createClub(
         "Anderlecht",
         { inicio: "01/07/2003", fim: "30/06/2006" },
-        { jogos: 73, gols: 5, assistencias: 0 }
+        { jogos: 73, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Hamburgo SV",
         { inicio: "01/07/2006", fim: "21/08/2008" },
-        { jogos: 51, gols: 1, assistencias: 0 }
+        { jogos: 51, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Manchester City",
         { inicio: "22/08/2008", fim: "30/06/2019" },
-        { jogos: 360, gols: 20, assistencias: 11 }
+        { jogos: 360, gols: 20, assistencias: 11 },
       ),
       createClub(
         "Anderlecht",
         { inicio: "01/07/2019", fim: "17/08/2020" },
-        { jogos: 15, gols: 0, assistencias: 0 }
+        { jogos: 15, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -3716,42 +3716,42 @@ export const jogadores = [
       createClub(
         "Manchester United",
         { inicio: "01/07/2014", fim: "25/08/2016" },
-        { jogos: 13, gols: 1, assistencias: 1 }
+        { jogos: 13, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Granada",
         { inicio: "26/08/2016", fim: "30/06/2017" },
-        { jogos: 37, gols: 5, assistencias: 3 }
+        { jogos: 37, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Valencia",
         { inicio: "01/09/2017", fim: "30/06/2018" },
-        { jogos: 29, gols: 1, assistencias: 3 }
+        { jogos: 29, gols: 1, assistencias: 3 },
       ),
       createClub(
         "Manchester United",
         { inicio: "01/07/2018", fim: "01/10/2020" },
-        { jogos: 75, gols: 4, assistencias: 5 }
+        { jogos: 75, gols: 4, assistencias: 5 },
       ),
       createClub(
         "Lazio",
         { inicio: "02/10/2020", fim: "30/06/2021" },
-        { jogos: 33, gols: 1, assistencias: 4 }
+        { jogos: 33, gols: 1, assistencias: 4 },
       ),
       createClub(
         "Flamengo",
         { inicio: "20/08/2021", fim: "30/06/2022" },
-        { jogos: 53, gols: 8, assistencias: 3 }
+        { jogos: 53, gols: 8, assistencias: 3 },
       ),
       createClub(
         "Fulham",
         { inicio: "11/07/2022", fim: "30/06/2025" },
-        { jogos: 100, gols: 5, assistencias: 10 }
+        { jogos: 100, gols: 5, assistencias: 10 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 20, gols: 3, assistencias: 4 }
+        { jogos: 20, gols: 3, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -3792,57 +3792,57 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "01/07/2000", fim: "31/01/2001" },
-        { jogos: 48, gols: 12, assistencias: 0 }
+        { jogos: 48, gols: 12, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/02/2001", fim: "30/06/2002" },
-        { jogos: 13, gols: 1, assistencias: 0 }
+        { jogos: 13, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "01/07/2002", fim: "31/12/2002" },
-        { jogos: 15, gols: 6, assistencias: 2 }
+        { jogos: 15, gols: 6, assistencias: 2 },
       ),
       createClub(
         "Parma",
         { inicio: "01/01/2003", fim: "30/06/2004" },
-        { jogos: 37, gols: 23, assistencias: 1 }
+        { jogos: 37, gols: 23, assistencias: 1 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2004", fim: "31/12/2008" },
-        { jogos: 167, gols: 78, assistencias: 16 }
+        { jogos: 167, gols: 78, assistencias: 16 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/01/2008", fim: "30/06/2008" },
-        { jogos: 28, gols: 17, assistencias: 4 }
+        { jogos: 28, gols: 17, assistencias: 4 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2009", fim: "30/05/2010" },
-        { jogos: 31, gols: 19, assistencias: 1 }
+        { jogos: 31, gols: 19, assistencias: 1 },
       ),
       createClub(
         "Roma",
         { inicio: "01/07/2010", fim: "31/03/2011" },
-        { jogos: 8, gols: 0, assistencias: 0 }
+        { jogos: 8, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/04/2011", fim: "30/06/2012" },
-        { jogos: 7, gols: 2, assistencias: 0 }
+        { jogos: 7, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "01/01/2014", fim: "30/04/2014" },
-        { jogos: 3, gols: 1, assistencias: 0 }
+        { jogos: 3, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Miami United",
         { inicio: "01/01/2016", fim: "31/05/2016" },
-        { jogos: 1, gols: 1, assistencias: 0 }
+        { jogos: 1, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -3930,27 +3930,27 @@ export const jogadores = [
       createClub(
         "Athletico Paranaense",
         { inicio: "01/07/2008", fim: "30/06/2010" },
-        { jogos: 23, gols: 1, assistencias: 0 }
+        { jogos: 23, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Santos",
         { inicio: "01/07/2010", fim: "30/06/2011" },
-        { jogos: 55, gols: 3, assistencias: 3 }
+        { jogos: 55, gols: 3, assistencias: 3 },
       ),
       createClub(
         "Porto",
         { inicio: "01/07/2011", fim: "19/08/2015" },
-        { jogos: 137, gols: 3, assistencias: 10 }
+        { jogos: 137, gols: 3, assistencias: 10 },
       ),
       createClub(
         "Juventus",
         { inicio: "20/08/2015", fim: "30/06/2024" },
-        { jogos: 327, gols: 15, assistencias: 32 }
+        { jogos: 327, gols: 15, assistencias: 32 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 25, gols: 1, assistencias: 3 }
+        { jogos: 25, gols: 1, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -4013,17 +4013,17 @@ export const jogadores = [
       createClub(
         "Internacional",
         { inicio: "17/02/2013", fim: "06/07/2016" },
-        { jogos: 102, gols: 0, assistencias: 0 }
+        { jogos: 102, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Roma",
         { inicio: "07/07/2016", fim: "19/07/2018" },
-        { jogos: 64, gols: 0, assistencias: 0 }
+        { jogos: 64, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Liverpool",
         { inicio: "20/07/2018", fim: "Presente" },
-        { jogos: 280, gols: 1, assistencias: 1 }
+        { jogos: 280, gols: 1, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -4105,72 +4105,72 @@ export const jogadores = [
       createClub(
         "Liverpool",
         { inicio: "18/07/2015", fim: "31/08/2015" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "SJK Seinäjoki",
         { inicio: "01/09/2015", fim: "25/10/2015" },
-        { jogos: 21, gols: 1, assistencias: 2 }
+        { jogos: 21, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Liverpool",
         { inicio: "25/10/2015", fim: "04/01/2016" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Sint-Truiden",
         { inicio: "05/01/2016", fim: "30/06/2016" },
-        { jogos: 9, gols: 0, assistencias: 1 }
+        { jogos: 9, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/07/2016", fim: "31/08/2016" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Hertha BSC",
         { inicio: "01/09/2016", fim: "30/06/2017" },
-        { jogos: 15, gols: 0, assistencias: 0 }
+        { jogos: 15, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/07/2017", fim: "19/07/2017" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Apollon Limassol",
         { inicio: "20/07/2017", fim: "30/06/2018" },
-        { jogos: 22, gols: 2, assistencias: 3 }
+        { jogos: 22, gols: 2, assistencias: 3 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/07/2018", fim: "31/07/2018" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Eintracht Frankfurt",
         { inicio: "01/08/2018", fim: "31/12/2018" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/01/2019", fim: "31/01/2019" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/02/2019", fim: "31/01/2020" },
-        { jogos: 4, gols: 0, assistencias: 0 }
+        { jogos: 4, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "01/02/2020", fim: "01/07/2023" },
-        { jogos: 164, gols: 2, assistencias: 11 }
+        { jogos: 164, gols: 2, assistencias: 11 },
       ),
       createClub(
         "Flamengo",
         { inicio: "02/07/2023", fim: "Presente" },
-        { jogos: 68, gols: 0, assistencias: 5 }
+        { jogos: 68, gols: 0, assistencias: 5 },
       ),
     ],
     selecao: {},
@@ -4213,22 +4213,22 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "15/11/2018", fim: "30/06/2020" },
-        { jogos: 52, gols: 7, assistencias: 6 }
+        { jogos: 52, gols: 7, assistencias: 6 },
       ),
       createClub(
         "Ajax",
         { inicio: "01/07/2020", fim: "31/08/2022" },
-        { jogos: 82, gols: 25, assistencias: 21 }
+        { jogos: 82, gols: 25, assistencias: 21 },
       ),
       createClub(
         "Manchester United",
         { inicio: "01/09/2022", fim: "30/06/2025" },
-        { jogos: 96, gols: 12, assistencias: 5 }
+        { jogos: 96, gols: 12, assistencias: 5 },
       ),
       createClub(
         "Real Betis",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 20, gols: 6, assistencias: 5 }
+        { jogos: 20, gols: 6, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -4269,32 +4269,32 @@ export const jogadores = [
       createClub(
         "Grêmio",
         { inicio: "01/01/2015", fim: "08/07/2018" },
-        { jogos: 70, gols: 6, assistencias: 1 }
+        { jogos: 70, gols: 6, assistencias: 1 },
       ),
       createClub(
         "Barcelona",
         { inicio: "09/07/2018", fim: "31/08/2020" },
-        { jogos: 72, gols: 4, assistencias: 6 }
+        { jogos: 72, gols: 4, assistencias: 6 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/09/2020", fim: "31/08/2022" },
-        { jogos: 63, gols: 1, assistencias: 0 }
+        { jogos: 63, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/09/2022", fim: "30/06/2023" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "01/07/2023", fim: "30/06/2024" },
-        { jogos: 48, gols: 2, assistencias: 3 }
+        { jogos: 48, gols: 2, assistencias: 3 },
       ),
       createClub(
         "Grêmio",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 15, gols: 0, assistencias: 1 }
+        { jogos: 15, gols: 0, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -4352,37 +4352,37 @@ export const jogadores = [
       createClub(
         "Fluminense",
         { inicio: "01/01/2015", fim: "31/12/2015" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Madureira",
         { inicio: "01/01/2016", fim: "18/04/2016" },
-        { jogos: 9, gols: 0, assistencias: 0 }
+        { jogos: 9, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Fluminense",
         { inicio: "19/04/2016", fim: "31/12/2016" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Londrina",
         { inicio: "01/01/2017", fim: "30/11/2017" },
-        { jogos: 52, gols: 3, assistencias: 0 }
+        { jogos: 52, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/12/2017", fim: "16/12/2018" },
-        { jogos: 72, gols: 2, assistencias: 6 }
+        { jogos: 72, gols: 2, assistencias: 6 },
       ),
       createClub(
         "Spartak Moscou",
         { inicio: "17/12/2018", fim: "31/03/2022" },
-        { jogos: 108, gols: 4, assistencias: 10 }
+        { jogos: 108, gols: 4, assistencias: 10 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/04/2022", fim: "Presente" },
-        { jogos: 145, gols: 15, assistencias: 16 }
+        { jogos: 145, gols: 15, assistencias: 16 },
       ),
     ],
     selecao: {
@@ -4428,62 +4428,62 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "01/01/1983", fim: "31/12/1988" },
-        { jogos: 194, gols: 75, assistencias: 20 }
+        { jogos: 194, gols: 75, assistencias: 20 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/01/1989", fim: "31/07/1992" },
-        { jogos: 104, gols: 52, assistencias: 10 }
+        { jogos: 104, gols: 52, assistencias: 10 },
       ),
       createClub(
         "Deportivo La Coruña",
         { inicio: "01/08/1992", fim: "30/06/1996" },
-        { jogos: 139, gols: 86, assistencias: 18 }
+        { jogos: 139, gols: 86, assistencias: 18 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/07/1996", fim: "31/12/1996" },
-        { jogos: 15, gols: 5, assistencias: 1 }
+        { jogos: 15, gols: 5, assistencias: 1 },
       ),
       createClub(
         "Sevilla",
         { inicio: "01/01/1997", fim: "13/05/1997" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Vitória",
         { inicio: "14/05/1997", fim: "31/12/1997" },
-        { jogos: 16, gols: 8, assistencias: 1 }
+        { jogos: 16, gols: 8, assistencias: 1 },
       ),
       createClub(
         "Botafogo",
         { inicio: "01/01/1998", fim: "30/06/1999" },
-        { jogos: 25, gols: 9, assistencias: 2 }
+        { jogos: 25, gols: 9, assistencias: 2 },
       ),
       createClub(
         "Toros Neza",
         { inicio: "01/07/1999", fim: "31/12/1999" },
-        { jogos: 8, gols: 3, assistencias: 0 }
+        { jogos: 8, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Kashima Antlers",
         { inicio: "01/01/2000", fim: "26/11/2000" },
-        { jogos: 8, gols: 3, assistencias: 0 }
+        { jogos: 8, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Vitória",
         { inicio: "27/11/2000", fim: "31/12/2000" },
-        { jogos: 11, gols: 2, assistencias: 0 }
+        { jogos: 11, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/01/2001", fim: "30/06/2001" },
-        { jogos: 9, gols: 2, assistencias: 0 }
+        { jogos: 9, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Al-Ittihad",
         { inicio: "01/07/2002", fim: "31/12/2002" },
-        { jogos: 8, gols: 1, assistencias: 0 }
+        { jogos: 8, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -4553,22 +4553,22 @@ export const jogadores = [
       createClub(
         "Internacional",
         { inicio: "01/01/2019", fim: "14/08/2020" },
-        { jogos: 22, gols: 0, assistencias: 0 }
+        { jogos: 22, gols: 0, assistencias: 0 },
       ),
       createClub(
         "CSKA Moscou",
         { inicio: "14/08/2020", fim: "31/12/2022" },
-        { jogos: 17, gols: 0, assistencias: 0 }
+        { jogos: 17, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "01/01/2023", fim: "31/12/2024" },
-        { jogos: 68, gols: 1, assistencias: 2 }
+        { jogos: 68, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 35, gols: 2, assistencias: 0 }
+        { jogos: 35, gols: 2, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -4610,32 +4610,32 @@ export const jogadores = [
       createClub(
         "Uberlândia",
         { inicio: "01/01/2012", fim: "31/12/2013" },
-        { jogos: 17, gols: 4, assistencias: 0 }
+        { jogos: 17, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Itumbiara",
         { inicio: "01/01/2014", fim: "31/12/2014" },
-        { jogos: 24, gols: 12, assistencias: 0 }
+        { jogos: 24, gols: 12, assistencias: 0 },
       ),
       createClub(
         "Goiás",
         { inicio: "01/01/2015", fim: "31/12/2015" },
-        { jogos: 57, gols: 12, assistencias: 7 }
+        { jogos: 57, gols: 12, assistencias: 7 },
       ),
       createClub(
         "Wolfsburg",
         { inicio: "01/01/2016", fim: "31/01/2017" },
-        { jogos: 17, gols: 0, assistencias: 0 }
+        { jogos: 17, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Santos",
         { inicio: "01/02/2017", fim: "31/12/2018" },
-        { jogos: 86, gols: 20, assistencias: 11 }
+        { jogos: 86, gols: 20, assistencias: 11 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2019", fim: "Presente" },
-        { jogos: 326, gols: 104, assistencias: 78 }
+        { jogos: 326, gols: 104, assistencias: 78 },
       ),
     ],
     selecao: {
@@ -4736,32 +4736,32 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "01/01/2019", fim: "29/01/2020" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Oeste",
         { inicio: "30/01/2020", fim: "31/12/2020" },
-        { jogos: 15, gols: 0, assistencias: 0 }
+        { jogos: 15, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Coritiba",
         { inicio: "01/01/2021", fim: "31/05/2021" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
       createClub(
         "São Caetano",
         { inicio: "01/06/2021", fim: "31/12/2021" },
-        { jogos: 13, gols: 1, assistencias: 0 }
+        { jogos: 13, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Goiás",
         { inicio: "01/01/2022", fim: "31/12/2022" },
-        { jogos: 35, gols: 0, assistencias: 0 }
+        { jogos: 35, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2023", fim: "Presente" },
-        { jogos: 55, gols: 1, assistencias: 0 }
+        { jogos: 55, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -4792,27 +4792,27 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "01/01/1990", fim: "31/12/1994" },
-        { jogos: 250, gols: 4, assistencias: 15 }
+        { jogos: 250, gols: 4, assistencias: 15 },
       ),
       createClub(
         "Real Zaragoza",
         { inicio: "01/01/1995", fim: "30/06/1995" },
-        { jogos: 16, gols: 0, assistencias: 1 }
+        { jogos: 16, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/07/1995", fim: "30/06/1997" },
-        { jogos: 99, gols: 10, assistencias: 15 }
+        { jogos: 99, gols: 10, assistencias: 15 },
       ),
       createClub(
         "Roma",
         { inicio: "01/07/1997", fim: "30/06/2003" },
-        { jogos: 218, gols: 8, assistencias: 22 }
+        { jogos: 218, gols: 8, assistencias: 22 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/2003", fim: "30/06/2008" },
-        { jogos: 166, gols: 4, assistencias: 16 }
+        { jogos: 166, gols: 4, assistencias: 16 },
       ),
     ],
     selecao: {
@@ -4905,87 +4905,87 @@ export const jogadores = [
       createClub(
         "Novorizontino",
         { inicio: "01/01/2014", fim: "31/12/2014" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2016", fim: "31/12/2017" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Oeste",
         { inicio: "01/01/2018", fim: "31/12/2018" },
-        { jogos: 14, gols: 2, assistencias: 0 }
+        { jogos: 14, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2019", fim: "30/06/2019" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Novorizontino",
         { inicio: "01/07/2019", fim: "31/08/2019" },
-        { jogos: 11, gols: 2, assistencias: 0 }
+        { jogos: 11, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Vila Nova",
         { inicio: "01/09/2019", fim: "31/12/2019" },
-        { jogos: 8, gols: 0, assistencias: 0 }
+        { jogos: 8, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Marcílio Dias",
         { inicio: "01/01/2020", fim: "30/06/2020" },
-        { jogos: 4, gols: 0, assistencias: 0 }
+        { jogos: 4, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Atibaia",
         { inicio: "01/07/2020", fim: "31/12/2020" },
-        { jogos: 3, gols: 1, assistencias: 0 }
+        { jogos: 3, gols: 1, assistencias: 0 },
       ),
       createClub(
         "São Caetano",
         { inicio: "01/01/2021", fim: "30/06/2021" },
-        { jogos: 6, gols: 0, assistencias: 0 }
+        { jogos: 6, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Santo André",
         { inicio: "01/07/2021", fim: "31/12/2021" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Audax-RJ",
         { inicio: "01/01/2022", fim: "30/06/2022" },
-        { jogos: 12, gols: 1, assistencias: 0 }
+        { jogos: 12, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Juventus-SP",
         { inicio: "01/07/2022", fim: "31/12/2022" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Audax-RJ",
         { inicio: "01/01/2023", fim: "30/04/2023" },
-        { jogos: 6, gols: 1, assistencias: 0 }
+        { jogos: 6, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Camboriú",
         { inicio: "01/05/2023", fim: "31/12/2023" },
-        { jogos: 15, gols: 8, assistencias: 0 }
+        { jogos: 15, gols: 8, assistencias: 0 },
       ),
       createClub(
         "Nova Iguaçu",
         { inicio: "01/01/2024", fim: "15/04/2024" },
-        { jogos: 14, gols: 9, assistencias: 1 }
+        { jogos: 14, gols: 9, assistencias: 1 },
       ),
       createClub(
         "Flamengo",
         { inicio: "16/04/2024", fim: "04/02/2025" },
-        { jogos: 20, gols: 5, assistencias: 0 }
+        { jogos: 20, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Vitória",
         { inicio: "05/02/2025", fim: "Presente" },
-        { jogos: 1, gols: 1, assistencias: 0 }
+        { jogos: 1, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -5028,47 +5028,47 @@ export const jogadores = [
       createClub(
         "Fluminense",
         { inicio: "01/01/1962", fim: "31/12/1965" },
-        { jogos: 139, gols: 15, assistencias: 0 }
+        { jogos: 139, gols: 15, assistencias: 0 },
       ),
       createClub(
         "Santos",
         { inicio: "01/01/1966", fim: "31/12/1970" },
-        { jogos: 143, gols: 10, assistencias: 0 }
+        { jogos: 143, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Botafogo",
         { inicio: "01/01/1971", fim: "31/12/1972" },
-        { jogos: 17, gols: 0, assistencias: 0 }
+        { jogos: 17, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Santos",
         { inicio: "01/01/1973", fim: "31/12/1974" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/01/1975", fim: "31/12/1976" },
-        { jogos: 12, gols: 1, assistencias: 0 }
+        { jogos: 12, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/1977", fim: "30/06/1977" },
-        { jogos: 13, gols: 0, assistencias: 0 }
+        { jogos: 13, gols: 0, assistencias: 0 },
       ),
       createClub(
         "New York Cosmos",
         { inicio: "01/07/1977", fim: "31/12/1980" },
-        { jogos: 15, gols: 1, assistencias: 0 }
+        { jogos: 15, gols: 1, assistencias: 0 },
       ),
       createClub(
         "California Surf",
         { inicio: "01/01/1981", fim: "31/12/1981" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "New York Cosmos",
         { inicio: "01/01/1982", fim: "31/12/1982" },
-        { jogos: 126, gols: 6, assistencias: 0 }
+        { jogos: 126, gols: 6, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -5139,32 +5139,32 @@ export const jogadores = [
       createClub(
         "Internacional",
         { inicio: "01/01/2018", fim: "31/12/2019" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Santa Cruz",
         { inicio: "01/01/2020", fim: "31/12/2020" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Boa Esporte",
         { inicio: "01/01/2021", fim: "30/06/2021" },
-        { jogos: 8, gols: 0, assistencias: 0 }
+        { jogos: 8, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/07/2021", fim: "30/06/2024" },
-        { jogos: 25, gols: 0, assistencias: 0 }
+        { jogos: 25, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Nottingham Forest",
         { inicio: "01/07/2024", fim: "31/12/2024" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 6, gols: 0, assistencias: 0 }
+        { jogos: 6, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -5195,27 +5195,27 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "01/01/2010", fim: "31/01/2013" },
-        { jogos: 112, gols: 11, assistencias: 10 }
+        { jogos: 112, gols: 11, assistencias: 10 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/02/2013", fim: "30/06/2014" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Porto",
         { inicio: "01/07/2014", fim: "30/06/2015" },
-        { jogos: 41, gols: 4, assistencias: 3 }
+        { jogos: 41, gols: 4, assistencias: 3 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2015", fim: "22/08/2022" },
-        { jogos: 335, gols: 31, assistencias: 29 }
+        { jogos: 335, gols: 31, assistencias: 29 },
       ),
       createClub(
         "Manchester United",
         { inicio: "23/08/2022", fim: "Presente" },
-        { jogos: 90, gols: 10, assistencias: 10 }
+        { jogos: 90, gols: 10, assistencias: 10 },
       ),
     ],
     selecao: {
@@ -5281,32 +5281,32 @@ export const jogadores = [
       createClub(
         "Grêmio",
         { inicio: "01/01/2006", fim: "05/05/2007" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "PSV Eindhoven",
         { inicio: "25/07/2007", fim: "08/08/2008" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Sparta Rotterdam",
         { inicio: "08/08/2008", fim: "30/06/2009" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
       createClub(
         "PSV Eindhoven",
         { inicio: "01/07/2009", fim: "31/12/2011" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2012", fim: "20/05/2024" },
-        { jogos: 712, gols: 0, assistencias: 0 }
+        { jogos: 712, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "21/05/2024", fim: "Presente" },
-        { jogos: 57, gols: 0, assistencias: 0 }
+        { jogos: 57, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -5372,42 +5372,42 @@ export const jogadores = [
       createClub(
         "Bahia",
         { inicio: "02/01/2001", fim: "31/12/2002" },
-        { jogos: 53, gols: 2, assistencias: 0 }
+        { jogos: 53, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Sevilla",
         { inicio: "01/01/2003", fim: "30/06/2008" },
-        { jogos: 247, gols: 16, assistencias: 38 }
+        { jogos: 247, gols: 16, assistencias: 38 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2008", fim: "30/06/2016" },
-        { jogos: 391, gols: 21, assistencias: 101 }
+        { jogos: 391, gols: 21, assistencias: 101 },
       ),
       createClub(
         "Juventus",
         { inicio: "24/12/2016", fim: "23/06/2017" },
-        { jogos: 33, gols: 6, assistencias: 7 }
+        { jogos: 33, gols: 6, assistencias: 7 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/07/2017", fim: "30/06/2019" },
-        { jogos: 73, gols: 8, assistencias: 18 }
+        { jogos: 73, gols: 8, assistencias: 18 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/08/2019", fim: "10/09/2021" },
-        { jogos: 95, gols: 10, assistencias: 15 }
+        { jogos: 95, gols: 10, assistencias: 15 },
       ),
       createClub(
         "Barcelona",
         { inicio: "12/11/2021", fim: "30/06/2022" },
-        { jogos: 15, gols: 1, assistencias: 2 }
+        { jogos: 15, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Pumas UNAM",
         { inicio: "23/07/2022", fim: "20/01/2023" },
-        { jogos: 12, gols: 0, assistencias: 0 }
+        { jogos: 12, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -5477,27 +5477,27 @@ export const jogadores = [
       createClub(
         "Goiás",
         { inicio: "01/01/1999", fim: "31/12/2003" },
-        { jogos: 205, gols: 52, assistencias: 10 }
+        { jogos: 205, gols: 52, assistencias: 10 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/01/2004", fim: "31/12/2006" },
-        { jogos: 179, gols: 21, assistencias: 15 }
+        { jogos: 179, gols: 21, assistencias: 15 },
       ),
       createClub(
         "Kashima Antlers",
         { inicio: "01/01/2007", fim: "31/12/2009" },
-        { jogos: 110, gols: 20, assistencias: 10 }
+        { jogos: 110, gols: 20, assistencias: 10 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/02/2010", fim: "31/12/2018" },
-        { jogos: 359, gols: 33, assistencias: 30 }
+        { jogos: 359, gols: 33, assistencias: 30 },
       ),
       createClub(
         "Vila Nova",
         { inicio: "01/01/2019", fim: "31/12/2019" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -5539,37 +5539,37 @@ export const jogadores = [
       createClub(
         "América-MG",
         { inicio: "22/04/2009", fim: "31/12/2010" },
-        { jogos: 69, gols: 7, assistencias: 0 }
+        { jogos: 69, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Santos",
         { inicio: "01/01/2011", fim: "31/12/2011" },
-        { jogos: 46, gols: 2, assistencias: 0 }
+        { jogos: 46, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Porto",
         { inicio: "01/01/2012", fim: "30/06/2015" },
-        { jogos: 141, gols: 9, assistencias: 17 }
+        { jogos: 141, gols: 9, assistencias: 17 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2015", fim: "17/07/2017" },
-        { jogos: 56, gols: 3, assistencias: 9 }
+        { jogos: 56, gols: 3, assistencias: 9 },
       ),
       createClub(
         "Manchester City",
         { inicio: "18/07/2017", fim: "06/08/2019" },
-        { jogos: 60, gols: 4, assistencias: 5 }
+        { jogos: 60, gols: 4, assistencias: 5 },
       ),
       createClub(
         "Juventus",
         { inicio: "07/08/2019", fim: "01/08/2023" },
-        { jogos: 142, gols: 8, assistencias: 14 }
+        { jogos: 142, gols: 8, assistencias: 14 },
       ),
       createClub(
         "Flamengo",
         { inicio: "02/08/2023", fim: "Presente" },
-        { jogos: 80, gols: 6, assistencias: 10 }
+        { jogos: 80, gols: 6, assistencias: 10 },
       ),
     ],
     selecao: {
@@ -5620,42 +5620,42 @@ export const jogadores = [
       createClub(
         "Juventude",
         { inicio: "01/01/2002", fim: "31/12/2003" },
-        { jogos: 45, gols: 1, assistencias: 0 }
+        { jogos: 45, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Lille OSC",
         { inicio: "01/01/2004", fim: "31/12/2005" },
-        { jogos: 18, gols: 0, assistencias: 0 }
+        { jogos: 18, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Royal Charleroi",
         { inicio: "01/01/2006", fim: "31/12/2006" },
-        { jogos: 20, gols: 1, assistencias: 0 }
+        { jogos: 20, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Standard Liège",
         { inicio: "01/01/2007", fim: "31/12/2008" },
-        { jogos: 81, gols: 2, assistencias: 1 }
+        { jogos: 81, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Bayer Leverkusen",
         { inicio: "01/01/2009", fim: "30/06/2012" },
-        { jogos: 101, gols: 8, assistencias: 0 }
+        { jogos: 101, gols: 8, assistencias: 0 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2012", fim: "31/08/2015" },
-        { jogos: 133, gols: 5, assistencias: 6 }
+        { jogos: 133, gols: 5, assistencias: 6 },
       ),
       createClub(
         "Wolfsburg",
         { inicio: "01/09/2015", fim: "21/08/2016" },
-        { jogos: 32, gols: 1, assistencias: 0 }
+        { jogos: 32, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Nice",
         { inicio: "22/08/2016", fim: "Presente" },
-        { jogos: 334, gols: 5, assistencias: 5 }
+        { jogos: 334, gols: 5, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -5697,42 +5697,42 @@ export const jogadores = [
       createClub(
         "Vitória",
         { inicio: "01/01/2005", fim: "30/01/2007" },
-        { jogos: 47, gols: 2, assistencias: 0 }
+        { jogos: 47, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Benfica",
         { inicio: "31/01/2007", fim: "30/01/2011" },
-        { jogos: 132, gols: 6, assistencias: 5 }
+        { jogos: 132, gols: 6, assistencias: 5 },
       ),
       createClub(
         "Chelsea",
         { inicio: "31/01/2011", fim: "13/06/2014" },
-        { jogos: 143, gols: 12, assistencias: 9 }
+        { jogos: 143, gols: 12, assistencias: 9 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "14/06/2014", fim: "31/08/2016" },
-        { jogos: 89, gols: 8, assistencias: 5 }
+        { jogos: 89, gols: 8, assistencias: 5 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/09/2016", fim: "07/08/2019" },
-        { jogos: 105, gols: 6, assistencias: 6 }
+        { jogos: 105, gols: 6, assistencias: 6 },
       ),
       createClub(
         "Arsenal",
         { inicio: "08/08/2019", fim: "01/07/2021" },
-        { jogos: 73, gols: 4, assistencias: 1 }
+        { jogos: 73, gols: 4, assistencias: 1 },
       ),
       createClub(
         "Flamengo",
         { inicio: "11/09/2021", fim: "31/12/2024" },
-        { jogos: 120, gols: 2, assistencias: 2 }
+        { jogos: 120, gols: 2, assistencias: 2 },
       ),
       createClub(
         "Pafos FC",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 20, gols: 1, assistencias: 0 }
+        { jogos: 20, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -5783,57 +5783,57 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "01/01/1994", fim: "30/06/1998" },
-        { jogos: 100, gols: 31, assistencias: 15 }
+        { jogos: 100, gols: 31, assistencias: 15 },
       ),
       createClub(
         "Real Betis",
         { inicio: "01/07/1998", fim: "31/12/1999" },
-        { jogos: 48, gols: 1, assistencias: 2 }
+        { jogos: 48, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2000", fim: "31/12/2000" },
-        { jogos: 11, gols: 3, assistencias: 0 }
+        { jogos: 11, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Real Betis",
         { inicio: "01/01/2001", fim: "30/06/2005" },
-        { jogos: 138, gols: 12, assistencias: 8 }
+        { jogos: 138, gols: 12, assistencias: 8 },
       ),
       createClub(
         "Bordeaux",
         { inicio: "01/07/2005", fim: "30/06/2006" },
-        { jogos: 34, gols: 3, assistencias: 3 }
+        { jogos: 34, gols: 3, assistencias: 3 },
       ),
       createClub(
         "Al-Nassr",
         { inicio: "01/09/2006", fim: "31/12/2006" },
-        { jogos: 16, gols: 3, assistencias: 0 }
+        { jogos: 16, gols: 3, assistencias: 0 },
       ),
       createClub(
         "FC Dallas",
         { inicio: "01/03/2007", fim: "31/12/2007" },
-        { jogos: 10, gols: 1, assistencias: 1 }
+        { jogos: 10, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/2008", fim: "31/12/2008" },
-        { jogos: 28, gols: 3, assistencias: 4 }
+        { jogos: 28, gols: 3, assistencias: 4 },
       ),
       createClub(
         "Itumbiara",
         { inicio: "01/02/2009", fim: "30/04/2009" },
-        { jogos: 6, gols: 0, assistencias: 0 }
+        { jogos: 6, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Hai Phong",
         { inicio: "01/06/2009", fim: "01/07/2009" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Kavala",
         { inicio: "01/01/2010", fim: "31/03/2010" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -5879,42 +5879,42 @@ export const jogadores = [
       createClub(
         "Vitória",
         { inicio: "01/01/1992", fim: "31/12/1993" },
-        { jogos: 63, gols: 0, assistencias: 0 }
+        { jogos: 63, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/1994", fim: "30/06/1999" },
-        { jogos: 151, gols: 0, assistencias: 0 }
+        { jogos: 151, gols: 0, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/1999", fim: "31/12/1999" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2000", fim: "30/06/2002" },
-        { jogos: 204, gols: 0, assistencias: 0 }
+        { jogos: 204, gols: 0, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/2002", fim: "30/06/2010" },
-        { jogos: 302, gols: 0, assistencias: 0 }
+        { jogos: 302, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Portuguesa",
         { inicio: "01/01/2012", fim: "31/07/2012" },
-        { jogos: 32, gols: 0, assistencias: 0 }
+        { jogos: 32, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Grêmio",
         { inicio: "01/08/2012", fim: "31/12/2013" },
-        { jogos: 67, gols: 0, assistencias: 0 }
+        { jogos: 67, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Internacional",
         { inicio: "01/01/2014", fim: "03/05/2015" },
-        { jogos: 33, gols: 0, assistencias: 0 }
+        { jogos: 33, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -5973,42 +5973,42 @@ export const jogadores = [
       createClub(
         "Americano",
         { inicio: "01/01/1946", fim: "31/12/1948" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/01/1949", fim: "31/12/1956" },
-        { jogos: 298, gols: 91, assistencias: 0 }
+        { jogos: 298, gols: 91, assistencias: 0 },
       ),
       createClub(
         "Botafogo",
         { inicio: "01/01/1957", fim: "31/12/1958" },
-        { jogos: 100, gols: 42, assistencias: 0 }
+        { jogos: 100, gols: 42, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/01/1959", fim: "26/03/1961" },
-        { jogos: 19, gols: 6, assistencias: 0 }
+        { jogos: 19, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Botafogo",
         { inicio: "27/03/1961", fim: "31/12/1962" },
-        { jogos: 213, gols: 72, assistencias: 0 }
+        { jogos: 213, gols: 72, assistencias: 0 },
       ),
       createClub(
         "Sporting Cristal",
         { inicio: "01/01/1963", fim: "31/12/1964" },
-        { jogos: 24, gols: 12, assistencias: 0 }
+        { jogos: 24, gols: 12, assistencias: 0 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/01/1965", fim: "31/12/1965" },
-        { jogos: 17, gols: 3, assistencias: 0 }
+        { jogos: 17, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Botafogo",
         { inicio: "01/01/1966", fim: "31/12/1966" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -6119,27 +6119,27 @@ export const jogadores = [
       createClub(
         "Atlético Mineiro",
         { inicio: "01/01/2005", fim: "24/07/2007" },
-        { jogos: 61, gols: 0, assistencias: 0 }
+        { jogos: 61, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Almería",
         { inicio: "25/07/2007", fim: "30/06/2011" },
-        { jogos: 125, gols: 0, assistencias: 0 }
+        { jogos: 125, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Valencia",
         { inicio: "01/07/2011", fim: "16/07/2017" },
-        { jogos: 178, gols: 0, assistencias: 0 }
+        { jogos: 178, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "17/07/2017", fim: "31/12/2022" },
-        { jogos: 217, gols: 0, assistencias: 0 }
+        { jogos: 217, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Celta de Vigo",
         { inicio: "01/02/2023", fim: "30/04/2023" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -6205,52 +6205,52 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "01/01/2002", fim: "19/12/2004" },
-        { jogos: 133, gols: 38, assistencias: 15 }
+        { jogos: 133, gols: 38, assistencias: 15 },
       ),
       createClub(
         "Porto",
         { inicio: "20/08/2004", fim: "30/06/2006" },
-        { jogos: 65, gols: 6, assistencias: 8 }
+        { jogos: 65, gols: 6, assistencias: 8 },
       ),
       createClub(
         "Werder Bremen",
         { inicio: "01/07/2006", fim: "30/06/2009" },
-        { jogos: 132, gols: 54, assistencias: 49 }
+        { jogos: 132, gols: 54, assistencias: 49 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2009", fim: "31/08/2010" },
-        { jogos: 47, gols: 7, assistencias: 10 }
+        { jogos: 47, gols: 7, assistencias: 10 },
       ),
       createClub(
         "Wolfsburg",
         { inicio: "01/09/2010", fim: "30/06/2012" },
-        { jogos: 55, gols: 10, assistencias: 13 }
+        { jogos: 55, gols: 10, assistencias: 13 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/08/2011", fim: "30/06/2012" },
-        { jogos: 33, gols: 4, assistencias: 3 }
+        { jogos: 33, gols: 4, assistencias: 3 },
       ),
       createClub(
         "Wolfsburg",
         { inicio: "01/07/2012", fim: "31/01/2014" },
-        { jogos: 22, gols: 14, assistencias: 10 }
+        { jogos: 22, gols: 14, assistencias: 10 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/02/2014", fim: "30/06/2014" },
-        { jogos: 13, gols: 1, assistencias: 1 }
+        { jogos: 13, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "11/07/2014", fim: "19/07/2016" },
-        { jogos: 75, gols: 8, assistencias: 13 }
+        { jogos: 75, gols: 8, assistencias: 13 },
       ),
       createClub(
         "Flamengo",
         { inicio: "20/07/2016", fim: "31/12/2022" },
-        { jogos: 289, gols: 44, assistencias: 35 }
+        { jogos: 289, gols: 44, assistencias: 35 },
       ),
     ],
     selecao: {
@@ -6312,17 +6312,17 @@ export const jogadores = [
       createClub(
         "Portuguesa",
         { inicio: "01/01/1948", fim: "30/09/1959" },
-        { jogos: 510, gols: 33, assistencias: 0 }
+        { jogos: 510, gols: 33, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/10/1959", fim: "31/12/1968" },
-        { jogos: 502, gols: 10, assistencias: 0 }
+        { jogos: 502, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "01/01/1969", fim: "31/12/1972" },
-        { jogos: 39, gols: 2, assistencias: 0 }
+        { jogos: 39, gols: 2, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -6405,47 +6405,47 @@ export const jogadores = [
       createClub(
         "Grêmio",
         { inicio: "01/01/2008", fim: "09/01/2010" },
-        { jogos: 37, gols: 2, assistencias: 4 }
+        { jogos: 37, gols: 2, assistencias: 4 },
       ),
       createClub(
         "Shakhtar Donetsk",
         { inicio: "10/01/2010", fim: "30/06/2015" },
-        { jogos: 203, gols: 38, assistencias: 40 }
+        { jogos: 203, gols: 38, assistencias: 40 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2015", fim: "30/06/2017" },
-        { jogos: 77, gols: 14, assistencias: 27 }
+        { jogos: 77, gols: 14, assistencias: 27 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2017", fim: "04/10/2020" },
-        { jogos: 103, gols: 8, assistencias: 15 }
+        { jogos: 103, gols: 8, assistencias: 15 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "05/10/2020", fim: "05/04/2021" },
-        { jogos: 20, gols: 1, assistencias: 3 }
+        { jogos: 20, gols: 1, assistencias: 3 },
       ),
       createClub(
         "Grêmio",
         { inicio: "06/04/2021", fim: "07/01/2022" },
-        { jogos: 28, gols: 3, assistencias: 2 }
+        { jogos: 28, gols: 3, assistencias: 2 },
       ),
       createClub(
         "Los Angeles Galaxy",
         { inicio: "10/02/2022", fim: "01/01/2024" },
-        { jogos: 51, gols: 8, assistencias: 4 }
+        { jogos: 51, gols: 8, assistencias: 4 },
       ),
       createClub(
         "Fluminense",
         { inicio: "28/01/2024", fim: "02/03/2024" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Sydney FC",
         { inicio: "21/08/2024", fim: "30/06/2025" },
-        { jogos: 25, gols: 6, assistencias: 8 }
+        { jogos: 25, gols: 6, assistencias: 8 },
       ),
     ],
     selecao: {
@@ -6492,37 +6492,37 @@ export const jogadores = [
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2009", fim: "31/12/2010" },
-        { jogos: 47, gols: 7, assistencias: 10 }
+        { jogos: 47, gols: 7, assistencias: 10 },
       ),
       createClub(
         "Coritiba",
         { inicio: "10/05/2010", fim: "31/12/2010" },
-        { jogos: 25, gols: 5, assistencias: 4 }
+        { jogos: 25, gols: 5, assistencias: 4 },
       ),
       createClub(
         "Dínamo de Kiev",
         { inicio: "23/07/2011", fim: "28/05/2014" },
-        { jogos: 39, gols: 4, assistencias: 7 }
+        { jogos: 39, gols: 4, assistencias: 7 },
       ),
       createClub(
         "Grêmio",
         { inicio: "29/05/2014", fim: "31/12/2014" },
-        { jogos: 53, gols: 8, assistencias: 7 }
+        { jogos: 53, gols: 8, assistencias: 7 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "06/01/2015", fim: "15/07/2020" },
-        { jogos: 310, gols: 70, assistencias: 81 }
+        { jogos: 310, gols: 70, assistencias: 81 },
       ),
       createClub(
         "Al-Duhail",
         { inicio: "16/07/2020", fim: "30/06/2021" },
-        { jogos: 35, gols: 15, assistencias: 12 }
+        { jogos: 35, gols: 15, assistencias: 12 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/07/2021", fim: "Presente" },
-        { jogos: 133, gols: 18, assistencias: 26 }
+        { jogos: 133, gols: 18, assistencias: 26 },
       ),
     ],
     selecao: {
@@ -6600,12 +6600,12 @@ export const jogadores = [
       createClub(
         "Bangu",
         { inicio: "01/01/1959", fim: "31/05/1962" },
-        { jogos: 108, gols: 20, assistencias: 0 }
+        { jogos: 108, gols: 20, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/06/1962", fim: "30/11/1977" },
-        { jogos: 902, gols: 153, assistencias: 0 }
+        { jogos: 902, gols: 153, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -6651,47 +6651,47 @@ export const jogadores = [
       createClub(
         "Coritiba",
         { inicio: "01/01/1995", fim: "30/06/1997" },
-        { jogos: 124, gols: 32, assistencias: 0 }
+        { jogos: 124, gols: 32, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/07/1997", fim: "31/07/2000" },
-        { jogos: 241, gols: 78, assistencias: 56 }
+        { jogos: 241, gols: 78, assistencias: 56 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/08/2000", fim: "31/12/2000" },
-        { jogos: 12, gols: 3, assistencias: 0 }
+        { jogos: 12, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Parma",
         { inicio: "01/01/2001", fim: "31/07/2001" },
-        { jogos: 5, gols: 2, assistencias: 0 }
+        { jogos: 5, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/08/2001", fim: "11/05/2002" },
-        { jogos: 45, gols: 23, assistencias: 8 }
+        { jogos: 45, gols: 23, assistencias: 8 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/07/2002", fim: "31/12/2002" },
-        { jogos: 24, gols: 9, assistencias: 4 }
+        { jogos: 24, gols: 9, assistencias: 4 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2003", fim: "30/06/2004" },
-        { jogos: 76, gols: 41, assistencias: 53 }
+        { jogos: 76, gols: 41, assistencias: 53 },
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "01/07/2004", fim: "06/10/2012" },
-        { jogos: 378, gols: 185, assistencias: 162 }
+        { jogos: 378, gols: 185, assistencias: 162 },
       ),
       createClub(
         "Coritiba",
         { inicio: "01/01/2013", fim: "07/12/2014" },
-        { jogos: 86, gols: 42, assistencias: 18 }
+        { jogos: 86, gols: 42, assistencias: 18 },
       ),
     ],
     selecao: {
@@ -6770,67 +6770,67 @@ export const jogadores = [
       createClub(
         "Guarani",
         { inicio: "01/01/1985", fim: "30/06/1988" },
-        { jogos: 192, gols: 90, assistencias: 0 }
+        { jogos: 192, gols: 90, assistencias: 0 },
       ),
       createClub(
         "Atalanta",
         { inicio: "01/07/1988", fim: "30/06/1991" },
-        { jogos: 114, gols: 25, assistencias: 0 }
+        { jogos: 114, gols: 25, assistencias: 0 },
       ),
       createClub(
         "Porto",
         { inicio: "01/07/1991", fim: "31/12/1992" },
-        { jogos: 17, gols: 3, assistencias: 0 }
+        { jogos: 17, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/1993", fim: "31/12/1994" },
-        { jogos: 126, gols: 66, assistencias: 0 }
+        { jogos: 126, gols: 66, assistencias: 0 },
       ),
       createClub(
         "Yokohama Flügels",
         { inicio: "20/03/1995", fim: "31/12/1996" },
-        { jogos: 60, gols: 35, assistencias: 0 }
+        { jogos: 60, gols: 35, assistencias: 0 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "01/01/1997", fim: "30/06/1997" },
-        { jogos: 22, gols: 14, assistencias: 0 }
+        { jogos: 22, gols: 14, assistencias: 0 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/07/1997", fim: "11/03/1998" },
-        { jogos: 72, gols: 32, assistencias: 0 }
+        { jogos: 72, gols: 32, assistencias: 0 },
       ),
       createClub(
         "Coritiba",
         { inicio: "01/07/1998", fim: "31/12/1998" },
-        { jogos: 25, gols: 13, assistencias: 0 }
+        { jogos: 25, gols: 13, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/1999", fim: "31/07/2000" },
-        { jogos: 63, gols: 23, assistencias: 0 }
+        { jogos: 63, gols: 23, assistencias: 0 },
       ),
       createClub(
         "Goiás",
         { inicio: "01/08/2000", fim: "31/12/2000" },
-        { jogos: 10, gols: 2, assistencias: 0 }
+        { jogos: 10, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Portuguesa",
         { inicio: "01/01/2001", fim: "31/12/2001" },
-        { jogos: 24, gols: 8, assistencias: 0 }
+        { jogos: 24, gols: 8, assistencias: 0 },
       ),
       createClub(
         "São Paulo",
         { inicio: "20/05/2000", fim: "12/03/2001" },
-        { jogos: 11, gols: 0, assistencias: 0 }
+        { jogos: 11, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Figueirense",
         { inicio: "01/07/2002", fim: "31/12/2002" },
-        { jogos: 28, gols: 8, assistencias: 0 }
+        { jogos: 28, gols: 8, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -6877,17 +6877,17 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "01/01/2017", fim: "30/06/2018" },
-        { jogos: 57, gols: 4, assistencias: 0 }
+        { jogos: 57, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Porto",
         { inicio: "10/08/2018", fim: "30/06/2019" },
-        { jogos: 47, gols: 5, assistencias: 4 }
+        { jogos: 47, gols: 5, assistencias: 4 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2019", fim: "Presente" },
-        { jogos: 182, gols: 13, assistencias: 6 }
+        { jogos: 182, gols: 13, assistencias: 6 },
       ),
     ],
     selecao: {
@@ -6934,17 +6934,17 @@ export const jogadores = [
       createClub(
         "Benfica",
         { inicio: "01/07/2015", fim: "30/06/2017" },
-        { jogos: 58, gols: 0, assistencias: 0 }
+        { jogos: 58, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Manchester City",
         { inicio: "01/07/2017", fim: "30/06/2024" },
-        { jogos: 332, gols: 0, assistencias: 5 }
+        { jogos: 332, gols: 0, assistencias: 5 },
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 15, gols: 0, assistencias: 0 }
+        { jogos: 15, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -6991,77 +6991,77 @@ export const jogadores = [
       createClub(
         "Industrial",
         { inicio: "01/01/1988", fim: "31/12/1989" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Corinthians Alagoano",
         { inicio: "01/01/1990", fim: "31/12/1990" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Internacional",
         { inicio: "14/06/1991", fim: "12/12/1992" },
-        { jogos: 77, gols: 14, assistencias: 0 }
+        { jogos: 77, gols: 14, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/1993", fim: "31/12/1994" },
-        { jogos: 104, gols: 30, assistencias: 0 }
+        { jogos: 104, gols: 30, assistencias: 0 },
       ),
       createClub(
         "Benfica",
         { inicio: "01/01/1995", fim: "30/06/1995" },
-        { jogos: 16, gols: 3, assistencias: 0 }
+        { jogos: 16, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Kashiwa Reysol",
         { inicio: "01/07/1995", fim: "31/12/1996" },
-        { jogos: 39, gols: 12, assistencias: 0 }
+        { jogos: 39, gols: 12, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/1997", fim: "30/06/2000" },
-        { jogos: 172, gols: 55, assistencias: 0 }
+        { jogos: 172, gols: 55, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/07/2000", fim: "27/05/2001" },
-        { jogos: 30, gols: 13, assistencias: 0 }
+        { jogos: 30, gols: 13, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "28/05/2001", fim: "12/05/2002" },
-        { jogos: 59, gols: 13, assistencias: 0 }
+        { jogos: 59, gols: 13, assistencias: 0 },
       ),
       createClub(
         "Kashiwa Reysol",
         { inicio: "13/05/2002", fim: "31/12/2002" },
-        { jogos: 25, gols: 7, assistencias: 0 }
+        { jogos: 25, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Vitória",
         { inicio: "19/05/2003", fim: "31/12/2004" },
-        { jogos: 68, gols: 28, assistencias: 0 }
+        { jogos: 68, gols: 28, assistencias: 0 },
       ),
       createClub(
         "Al-Ain",
         { inicio: "01/01/2005", fim: "30/06/2005" },
-        { jogos: 13, gols: 5, assistencias: 0 }
+        { jogos: 13, gols: 5, assistencias: 0 },
       ),
       createClub(
         "São Caetano",
         { inicio: "01/07/2005", fim: "31/12/2005" },
-        { jogos: 14, gols: 3, assistencias: 0 }
+        { jogos: 14, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/01/2006", fim: "30/06/2006" },
-        { jogos: 10, gols: 1, assistencias: 0 }
+        { jogos: 10, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Bahia",
         { inicio: "01/07/2007", fim: "31/12/2008" },
-        { jogos: 27, gols: 4, assistencias: 0 }
+        { jogos: 27, gols: 4, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -7124,37 +7124,37 @@ export const jogadores = [
       createClub(
         "Ponte Preta",
         { inicio: "01/01/2016", fim: "26/04/2018" },
-        { jogos: 38, gols: 2, assistencias: 2 }
+        { jogos: 38, gols: 2, assistencias: 2 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "27/04/2018", fim: "31/01/2019" },
-        { jogos: 23, gols: 1, assistencias: 0 }
+        { jogos: 23, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Real Betis",
         { inicio: "31/01/2019", fim: "30/06/2021" },
-        { jogos: 79, gols: 5, assistencias: 10 }
+        { jogos: 79, gols: 5, assistencias: 10 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2021", fim: "31/08/2021" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "31/08/2021", fim: "30/06/2024" },
-        { jogos: 79, gols: 4, assistencias: 2 }
+        { jogos: 79, gols: 4, assistencias: 2 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/2024", fim: "25/07/2025" },
-        { jogos: 17, gols: 0, assistencias: 0 }
+        { jogos: 17, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "26/07/2025", fim: "Presente" },
-        { jogos: 15, gols: 1, assistencias: 1 }
+        { jogos: 15, gols: 1, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -7201,17 +7201,17 @@ export const jogadores = [
       createClub(
         "Palmeiras",
         { inicio: "06/10/2022", fim: "30/06/2024" },
-        { jogos: 82, gols: 21, assistencias: 4 }
+        { jogos: 82, gols: 21, assistencias: 4 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "21/07/2024", fim: "27/12/2025" },
-        { jogos: 37, gols: 7, assistencias: 0 }
+        { jogos: 37, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Olympique Lyonnais",
         { inicio: "28/12/2025", fim: "Presente" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -7271,12 +7271,12 @@ export const jogadores = [
       createClub(
         "Palmeiras",
         { inicio: "06/12/2023", fim: "30/06/2025" },
-        { jogos: 41, gols: 10, assistencias: 5 }
+        { jogos: 41, gols: 10, assistencias: 5 },
       ),
       createClub(
         "Chelsea",
         { inicio: "14/07/2025", fim: "Presente" },
-        { jogos: 15, gols: 2, assistencias: 3 }
+        { jogos: 15, gols: 2, assistencias: 3 },
       ),
     ],
     selecao: {},
@@ -7314,17 +7314,17 @@ export const jogadores = [
       createClub(
         "Grêmio",
         { inicio: "01/01/2014", fim: "14/08/2020" },
-        { jogos: 274, gols: 69, assistencias: 35 }
+        { jogos: 274, gols: 69, assistencias: 35 },
       ),
       createClub(
         "Benfica",
         { inicio: "14/08/2020", fim: "20/07/2022" },
-        { jogos: 95, gols: 15, assistencias: 17 }
+        { jogos: 95, gols: 15, assistencias: 17 },
       ),
       createClub(
         "Flamengo",
         { inicio: "21/07/2022", fim: "Presente" },
-        { jogos: 133, gols: 14, assistencias: 19 }
+        { jogos: 133, gols: 14, assistencias: 19 },
       ),
     ],
     selecao: {
@@ -7389,42 +7389,42 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "01/01/2007", fim: "31/12/2007" },
-        { jogos: 18, gols: 0, assistencias: 0 }
+        { jogos: 18, gols: 0, assistencias: 0 },
       ),
       createClub(
         "São Caetano",
         { inicio: "01/01/2008", fim: "31/12/2010" },
-        { jogos: 99, gols: 8, assistencias: 0 }
+        { jogos: 99, gols: 8, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2011", fim: "30/06/2011" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Coritiba",
         { inicio: "01/07/2011", fim: "31/12/2012" },
-        { jogos: 81, gols: 13, assistencias: 0 }
+        { jogos: 81, gols: 13, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2013", fim: "17/02/2015" },
-        { jogos: 108, gols: 23, assistencias: 29 }
+        { jogos: 108, gols: 23, assistencias: 29 },
       ),
       createClub(
         "Shabab Al-Ahli",
         { inicio: "18/02/2015", fim: "02/06/2017" },
-        { jogos: 106, gols: 26, assistencias: 25 }
+        { jogos: 106, gols: 26, assistencias: 25 },
       ),
       createClub(
         "Flamengo",
         { inicio: "03/06/2017", fim: "31/12/2023" },
-        { jogos: 394, gols: 46, assistencias: 61 }
+        { jogos: 394, gols: 46, assistencias: 61 },
       ),
       createClub(
         "Bahia",
         { inicio: "08/04/2024", fim: "Presente" },
-        { jogos: 78, gols: 9, assistencias: 15 }
+        { jogos: 78, gols: 9, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -7497,32 +7497,32 @@ export const jogadores = [
       createClub(
         "Fluminense",
         { inicio: "01/01/2012", fim: "30/06/2012" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Rio Ave",
         { inicio: "01/07/2012", fim: "31/12/2012" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "08/05/2013", fim: "08/05/2013" },
-        { jogos: 1, gols: 0, assistencias: 1 }
+        { jogos: 1, gols: 0, assistencias: 1 },
       ),
       createClub(
         "AS Monaco",
         { inicio: "19/07/2013", fim: "30/06/2018" },
-        { jogos: 233, gols: 31, assistencias: 14 }
+        { jogos: 233, gols: 31, assistencias: 14 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/07/2018", fim: "30/06/2023" },
-        { jogos: 219, gols: 11, assistencias: 9 }
+        { jogos: 219, gols: 11, assistencias: 9 },
       ),
       createClub(
         "Al-Ittihad",
         { inicio: "31/07/2023", fim: "Presente" },
-        { jogos: 56, gols: 4, assistencias: 4 }
+        { jogos: 56, gols: 4, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -7591,32 +7591,32 @@ export const jogadores = [
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2016", fim: "31/12/2016" },
-        { jogos: 34, gols: 1, assistencias: 0 }
+        { jogos: 34, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Chapecoense",
         { inicio: "01/01/2017", fim: "04/01/2019" },
-        { jogos: 56, gols: 2, assistencias: 0 }
+        { jogos: 56, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "13/01/2019", fim: "31/12/2019" },
-        { jogos: 26, gols: 0, assistencias: 0 }
+        { jogos: 26, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Red Bull Bragantino",
         { inicio: "01/01/2020", fim: "11/02/2022" },
-        { jogos: 82, gols: 3, assistencias: 2 }
+        { jogos: 82, gols: 3, assistencias: 2 },
       ),
       createClub(
         "Flamengo",
         { inicio: "12/02/2022", fim: "31/12/2024" },
-        { jogos: 148, gols: 6, assistencias: 3 }
+        { jogos: 148, gols: 6, assistencias: 3 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 43, gols: 3, assistencias: 1 }
+        { jogos: 43, gols: 3, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -7657,37 +7657,37 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "01/01/2006", fim: "30/06/2007" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "PSV Eindhoven",
         { inicio: "01/07/2007", fim: "30/06/2009" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/01/2009", fim: "30/06/2012" },
-        { jogos: 149, gols: 14, assistencias: 10 }
+        { jogos: 149, gols: 14, assistencias: 10 },
       ),
       createClub(
         "Wolfsburg",
         { inicio: "01/07/2012", fim: "30/06/2013" },
-        { jogos: 30, gols: 0, assistencias: 0 }
+        { jogos: 30, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/07/2013", fim: "31/12/2013" },
-        { jogos: 29, gols: 2, assistencias: 1 }
+        { jogos: 29, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2014", fim: "31/12/2024" },
-        { jogos: 578, gols: 12, assistencias: 70 }
+        { jogos: 578, gols: 12, assistencias: 70 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 43, gols: 1, assistencias: 2 }
+        { jogos: 43, gols: 1, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -7742,22 +7742,22 @@ export const jogadores = [
       createClub(
         "Athletico Paranaense",
         { inicio: "01/01/2003", fim: "05/07/2005" },
-        { jogos: 83, gols: 14, assistencias: 0 }
+        { jogos: 83, gols: 14, assistencias: 0 },
       ),
       createClub(
         "Shakhtar Donetsk",
         { inicio: "06/07/2005", fim: "05/06/2013" },
-        { jogos: 284, gols: 53, assistencias: 46 }
+        { jogos: 284, gols: 53, assistencias: 46 },
       ),
       createClub(
         "Manchester City",
         { inicio: "06/06/2013", fim: "30/06/2022" },
-        { jogos: 383, gols: 26, assistencias: 33 }
+        { jogos: 383, gols: 26, assistencias: 33 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "27/06/2022", fim: "20/11/2025" },
-        { jogos: 135, gols: 19, assistencias: 13 }
+        { jogos: 135, gols: 19, assistencias: 13 },
       ),
     ],
     selecao: {
@@ -7812,32 +7812,32 @@ export const jogadores = [
       createClub(
         "Figueirense",
         { inicio: "01/01/2003", fim: "21/07/2005" },
-        { jogos: 49, gols: 4, assistencias: 0 }
+        { jogos: 49, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Deportivo La Coruña",
         { inicio: "22/07/2006", fim: "22/07/2010" },
-        { jogos: 139, gols: 7, assistencias: 0 }
+        { jogos: 139, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "23/07/2010", fim: "18/07/2014" },
-        { jogos: 127, gols: 2, assistencias: 8 }
+        { jogos: 127, gols: 2, assistencias: 8 },
       ),
       createClub(
         "Chelsea",
         { inicio: "18/07/2014", fim: "28/07/2015" },
-        { jogos: 24, gols: 1, assistencias: 2 }
+        { jogos: 24, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "28/07/2015", fim: "22/07/2019" },
-        { jogos: 153, gols: 7, assistencias: 9 }
+        { jogos: 153, gols: 7, assistencias: 9 },
       ),
       createClub(
         "Flamengo",
         { inicio: "23/07/2019", fim: "31/12/2023" },
-        { jogos: 177, gols: 4, assistencias: 6 }
+        { jogos: 177, gols: 4, assistencias: 6 },
       ),
     ],
     selecao: {
@@ -7888,112 +7888,112 @@ export const jogadores = [
       createClub(
         "Sport Recife",
         { inicio: "01/01/2005", fim: "31/12/2005" },
-        { jogos: 21, gols: 5, assistencias: 0 }
+        { jogos: 21, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Salgueiro",
         { inicio: "01/01/2006", fim: "30/06/2006" },
-        { jogos: 18, gols: 2, assistencias: 0 }
+        { jogos: 18, gols: 2, assistencias: 0 },
       ),
       createClub(
         "SEV Hortolândia",
         { inicio: "01/07/2006", fim: "31/12/2007" },
-        { jogos: 10, gols: 4, assistencias: 0 }
+        { jogos: 10, gols: 4, assistencias: 0 },
       ),
       createClub(
         "NK Omiš",
         { inicio: "01/01/2008", fim: "31/12/2008" },
-        { jogos: 40, gols: 6, assistencias: 0 }
+        { jogos: 40, gols: 6, assistencias: 0 },
       ),
       createClub(
         "América de Natal",
         { inicio: "01/01/2009", fim: "31/12/2009" },
-        { jogos: 7, gols: 1, assistencias: 0 }
+        { jogos: 7, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Timbaúba",
         { inicio: "01/01/2010", fim: "30/06/2010" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Cabense",
         { inicio: "01/07/2010", fim: "31/12/2011" },
-        { jogos: 17, gols: 3, assistencias: 0 }
+        { jogos: 17, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Santa Cruz",
         { inicio: "01/01/2011", fim: "31/12/2014" },
-        { jogos: 124, gols: 20, assistencias: 0 }
+        { jogos: 124, gols: 20, assistencias: 0 },
       ),
       createClub(
         "Remo",
         { inicio: "01/01/2015", fim: "31/12/2015" },
-        { jogos: 11, gols: 2, assistencias: 0 }
+        { jogos: 11, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Guarani",
         { inicio: "01/01/2016", fim: "30/06/2016" },
-        { jogos: 8, gols: 1, assistencias: 0 }
+        { jogos: 8, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Duque de Caxias",
         { inicio: "01/07/2016", fim: "31/12/2016" },
-        { jogos: 8, gols: 0, assistencias: 0 }
+        { jogos: 8, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Tupi",
         { inicio: "01/01/2017", fim: "30/06/2017" },
-        { jogos: 11, gols: 4, assistencias: 0 }
+        { jogos: 11, gols: 4, assistencias: 0 },
       ),
       createClub(
         "América-PE",
         { inicio: "01/07/2017", fim: "31/12/2017" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Vitória da Conquista",
         { inicio: "01/01/2018", fim: "30/06/2018" },
-        { jogos: 6, gols: 1, assistencias: 0 }
+        { jogos: 6, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Trindade-GO",
         { inicio: "01/07/2018", fim: "31/12/2018" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Atlético Itapemirim-ES",
         { inicio: "01/01/2019", fim: "30/06/2019" },
-        { jogos: 9, gols: 1, assistencias: 0 }
+        { jogos: 9, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Serrano-PE",
         { inicio: "01/07/2019", fim: "30/09/2019" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Decisão-PE",
         { inicio: "01/10/2019", fim: "31/12/2019" },
-        { jogos: 8, gols: 2, assistencias: 0 }
+        { jogos: 8, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Náutico-RR",
         { inicio: "01/01/2022", fim: "30/06/2022" },
-        { jogos: 12, gols: 4, assistencias: 0 }
+        { jogos: 12, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Cacerense",
         { inicio: "01/07/2022", fim: "31/12/2022" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Atlético Torres",
         { inicio: "01/01/2023", fim: "31/12/2024" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Sete de Setembro",
         { inicio: "01/01/2025", fim: "31/12/2025" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -8036,32 +8036,32 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "01/01/2013", fim: "31/08/2016" },
-        { jogos: 157, gols: 57, assistencias: 24 }
+        { jogos: 157, gols: 57, assistencias: 24 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/09/2016", fim: "31/08/2017" },
-        { jogos: 10, gols: 1, assistencias: 0 }
+        { jogos: 10, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Benfica",
         { inicio: "01/09/2017", fim: "31/12/2017" },
-        { jogos: 5, gols: 1, assistencias: 0 }
+        { jogos: 5, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Santos",
         { inicio: "01/01/2018", fim: "31/12/2018" },
-        { jogos: 53, gols: 27, assistencias: 3 }
+        { jogos: 53, gols: 27, assistencias: 3 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2019", fim: "31/12/2024" },
-        { jogos: 308, gols: 161, assistencias: 44 }
+        { jogos: 308, gols: 161, assistencias: 44 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 40, gols: 13, assistencias: 2 }
+        { jogos: 40, gols: 13, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -8196,12 +8196,12 @@ export const jogadores = [
       createClub(
         "Palmeiras",
         { inicio: "15/01/2020", fim: "31/12/2024" },
-        { jogos: 245, gols: 18, assistencias: 24 }
+        { jogos: 245, gols: 18, assistencias: 24 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 43, gols: 1, assistencias: 0 }
+        { jogos: 43, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -8282,27 +8282,27 @@ export const jogadores = [
       createClub(
         "Botafogo",
         { inicio: "10/06/1953", fim: "21/04/1966" },
-        { jogos: 581, gols: 232, assistencias: 60 }
+        { jogos: 581, gols: 232, assistencias: 60 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/1966", fim: "31/12/1966" },
-        { jogos: 13, gols: 2, assistencias: 0 }
+        { jogos: 13, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Atlético Junior",
         { inicio: "01/05/1968", fim: "31/07/1968" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/1968", fim: "31/12/1969" },
-        { jogos: 20, gols: 4, assistencias: 1 }
+        { jogos: 20, gols: 4, assistencias: 1 },
       ),
       createClub(
         "Olaria",
         { inicio: "01/01/1972", fim: "31/12/1972" },
-        { jogos: 8, gols: 1, assistencias: 0 }
+        { jogos: 8, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -8383,37 +8383,37 @@ export const jogadores = [
       createClub(
         "Fluminense",
         { inicio: "01/01/2014", fim: "31/08/2016" },
-        { jogos: 63, gols: 8, assistencias: 4 }
+        { jogos: 63, gols: 8, assistencias: 4 },
       ),
       createClub(
         "Roma",
         { inicio: "01/09/2016", fim: "30/08/2018" },
-        { jogos: 45, gols: 2, assistencias: 2 }
+        { jogos: 45, gols: 2, assistencias: 2 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "31/08/2018", fim: "30/06/2019" },
-        { jogos: 40, gols: 3, assistencias: 3 }
+        { jogos: 40, gols: 3, assistencias: 3 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/07/2019", fim: "01/07/2021" },
-        { jogos: 109, gols: 7, assistencias: 10 }
+        { jogos: 109, gols: 7, assistencias: 10 },
       ),
       createClub(
         "Olympique de Marseille",
         { inicio: "02/07/2021", fim: "31/12/2022" },
-        { jogos: 61, gols: 13, assistencias: 7 }
+        { jogos: 61, gols: 13, assistencias: 7 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2023", fim: "03/07/2025" },
-        { jogos: 144, gols: 12, assistencias: 13 }
+        { jogos: 144, gols: 12, assistencias: 13 },
       ),
       createClub(
         "Zenit",
         { inicio: "04/07/2025", fim: "Presente" },
-        { jogos: 14, gols: 1, assistencias: 0 }
+        { jogos: 14, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -8494,32 +8494,32 @@ export const jogadores = [
       createClub(
         "América Mineiro",
         { inicio: "01/01/1997", fim: "04/03/2000" },
-        { jogos: 78, gols: 1, assistencias: 0 }
+        { jogos: 78, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "05/03/2000", fim: "30/08/2002" },
-        { jogos: 140, gols: 8, assistencias: 5 }
+        { jogos: 140, gols: 8, assistencias: 5 },
       ),
       createClub(
         "Arsenal",
         { inicio: "01/09/2002", fim: "30/06/2008" },
-        { jogos: 244, gols: 24, assistencias: 15 }
+        { jogos: 244, gols: 24, assistencias: 15 },
       ),
       createClub(
         "Panathinaikos",
         { inicio: "01/07/2008", fim: "31/12/2010" },
-        { jogos: 115, gols: 5, assistencias: 5 }
+        { jogos: 115, gols: 5, assistencias: 5 },
       ),
       createClub(
         "Grêmio",
         { inicio: "01/01/2011", fim: "31/12/2012" },
-        { jogos: 59, gols: 1, assistencias: 0 }
+        { jogos: 59, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "01/01/2013", fim: "09/12/2013" },
-        { jogos: 12, gols: 0, assistencias: 0 }
+        { jogos: 12, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -8572,27 +8572,27 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "17/06/2012", fim: "31/12/2019" },
-        { jogos: 213, gols: 14, assistencias: 2 }
+        { jogos: 213, gols: 14, assistencias: 2 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2020", fim: "31/07/2022" },
-        { jogos: 87, gols: 4, assistencias: 0 }
+        { jogos: 87, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "01/08/2022", fim: "30/06/2023" },
-        { jogos: 23, gols: 3, assistencias: 0 }
+        { jogos: 23, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Real Valladolid",
         { inicio: "01/07/2023", fim: "31/12/2023" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2024", fim: "Presente" },
-        { jogos: 68, gols: 3, assistencias: 0 }
+        { jogos: 68, gols: 3, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -8635,37 +8635,37 @@ export const jogadores = [
       createClub(
         "Fluminense",
         { inicio: "1/06/2014", fim: "31/12/2014" },
-        { jogos: 47, gols: 8, assistencias: 8 }
+        { jogos: 47, gols: 8, assistencias: 8 },
       ),
       createClub(
         "Red Bull Brasil",
         { inicio: "01/01/2015", fim: "30/05/2015" },
-        { jogos: 10, gols: 3, assistencias: 0 }
+        { jogos: 10, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/06/2015", fim: "06/05/2017" },
-        { jogos: 84, gols: 17, assistencias: 15 }
+        { jogos: 84, gols: 17, assistencias: 15 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "15/01/2018", fim: "31/12/2022" },
-        { jogos: 232, gols: 44, assistencias: 59 }
+        { jogos: 232, gols: 44, assistencias: 59 },
       ),
       createClub(
         "Nottingham Forest",
         { inicio: "01/01/2023", fim: "31/07/2023" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Olympiacos",
         { inicio: "01/08/2023", fim: "31/12/2023" },
-        { jogos: 11, gols: 0, assistencias: 1 }
+        { jogos: 11, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "01/01/2024", fim: "Presente" },
-        { jogos: 63, gols: 10, assistencias: 11 }
+        { jogos: 63, gols: 10, assistencias: 11 },
       ),
     ],
     selecao: {
@@ -8747,52 +8747,52 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "01/01/2006", fim: "31/12/2006" },
-        { jogos: 6, gols: 0, assistencias: 0 }
+        { jogos: 6, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Santo André",
         { inicio: "01/01/2007", fim: "31/12/2007" },
-        { jogos: 23, gols: 6, assistencias: 0 }
+        { jogos: 23, gols: 6, assistencias: 0 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/01/2008", fim: "05/08/2010" },
-        { jogos: 148, gols: 15, assistencias: 12 }
+        { jogos: 148, gols: 15, assistencias: 12 },
       ),
       createClub(
         "Lazio",
         { inicio: "06/08/2010", fim: "30/01/2014" },
-        { jogos: 156, gols: 41, assistencias: 23 }
+        { jogos: 156, gols: 41, assistencias: 23 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "31/01/2014", fim: "31/08/2015" },
-        { jogos: 52, gols: 5, assistencias: 7 }
+        { jogos: 52, gols: 5, assistencias: 7 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/09/2015", fim: "22/12/2016" },
-        { jogos: 35, gols: 2, assistencias: 1 }
+        { jogos: 35, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Hebei China Fortune",
         { inicio: "01/02/2017", fim: "18/07/2017" },
-        { jogos: 6, gols: 0, assistencias: 1 }
+        { jogos: 6, gols: 0, assistencias: 1 },
       ),
       createClub(
         "São Paulo",
         { inicio: "19/07/2017", fim: "31/12/2017" },
-        { jogos: 19, gols: 9, assistencias: 3 }
+        { jogos: 19, gols: 9, assistencias: 3 },
       ),
       createClub(
         "Hebei China Fortune",
         { inicio: "01/01/2018", fim: "31/12/2018" },
-        { jogos: 25, gols: 4, assistencias: 2 }
+        { jogos: 25, gols: 4, assistencias: 2 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/01/2019", fim: "31/05/2021" },
-        { jogos: 48, gols: 7, assistencias: 2 }
+        { jogos: 48, gols: 7, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -8862,17 +8862,17 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "01/01/2019", fim: "13/07/2023" },
-        { jogos: 71, gols: 0, assistencias: 0 }
+        { jogos: 71, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Chaves",
         { inicio: "14/07/2023", fim: "30/06/2024" },
-        { jogos: 28, gols: 0, assistencias: 0 }
+        { jogos: 28, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 45, gols: 0, assistencias: 0 }
+        { jogos: 45, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -8908,47 +8908,47 @@ export const jogadores = [
       createClub(
         "Vitória",
         { inicio: "26/04/2004", fim: "10/04/2005" },
-        { jogos: 2, gols: 0, assistencias: 0 }
+        { jogos: 2, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Kawasaki Frontale",
         { inicio: "11/04/2005", fim: "31/12/2005" },
-        { jogos: 12, gols: 3, assistencias: 0 }
+        { jogos: 12, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Consadole Sapporo",
         { inicio: "01/01/2006", fim: "31/12/2006" },
-        { jogos: 41, gols: 26, assistencias: 1 }
+        { jogos: 41, gols: 26, assistencias: 1 },
       ),
       createClub(
         "Tokyo Verdy",
         { inicio: "01/01/2007", fim: "31/12/2007" },
-        { jogos: 42, gols: 37, assistencias: 2 }
+        { jogos: 42, gols: 37, assistencias: 2 },
       ),
       createClub(
         "Tokyo Verdy",
         { inicio: "01/01/2008", fim: "26/07/2008" },
-        { jogos: 16, gols: 8, assistencias: 0 }
+        { jogos: 16, gols: 8, assistencias: 0 },
       ),
       createClub(
         "Porto",
         { inicio: "27/07/2008", fim: "03/09/2012" },
-        { jogos: 170, gols: 75, assistencias: 33 }
+        { jogos: 170, gols: 75, assistencias: 33 },
       ),
       createClub(
         "Zenit",
         { inicio: "03/09/2012", fim: "30/06/2016" },
-        { jogos: 148, gols: 77, assistencias: 59 }
+        { jogos: 148, gols: 77, assistencias: 59 },
       ),
       createClub(
         "Shanghai SIPG",
         { inicio: "01/07/2016", fim: "31/12/2020" },
-        { jogos: 145, gols: 79, assistencias: 54 }
+        { jogos: 145, gols: 79, assistencias: 54 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "10/02/2021", fim: "Presente" },
-        { jogos: 287, gols: 136, assistencias: 45 }
+        { jogos: 287, gols: 136, assistencias: 45 },
       ),
     ],
     selecao: {
@@ -9034,42 +9034,42 @@ export const jogadores = [
       createClub(
         "Botafogo",
         { inicio: "01/01/1959", fim: "31/12/1974" },
-        { jogos: 412, gols: 189, assistencias: 10 }
+        { jogos: 412, gols: 189, assistencias: 10 },
       ),
       createClub(
         "Olympique de Marseille",
         { inicio: "01/01/1975", fim: "30/06/1975" },
-        { jogos: 18, gols: 7, assistencias: 0 }
+        { jogos: 18, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Kaizer Chiefs",
         { inicio: "01/07/1975", fim: "08/12/1975" },
-        { jogos: 12, gols: 7, assistencias: 0 }
+        { jogos: 12, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "09/12/1975", fim: "31/12/1976" },
-        { jogos: 22, gols: 9, assistencias: 0 }
+        { jogos: 22, gols: 9, assistencias: 0 },
       ),
       createClub(
         "Portuguesa FC",
         { inicio: "01/01/1977", fim: "31/12/1977" },
-        { jogos: 31, gols: 22, assistencias: 0 }
+        { jogos: 31, gols: 22, assistencias: 0 },
       ),
       createClub(
         "Botafogo",
         { inicio: "01/01/1978", fim: "31/12/1978" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Fast Clube",
         { inicio: "01/01/1979", fim: "31/12/1979" },
-        { jogos: 10, gols: 1, assistencias: 0 }
+        { jogos: 10, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Jorge Wilstermann",
         { inicio: "01/01/1980", fim: "31/12/1981" },
-        { jogos: 15, gols: 3, assistencias: 0 }
+        { jogos: 15, gols: 3, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -9172,37 +9172,37 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "01/01/1997", fim: "31/12/2004" },
-        { jogos: 163, gols: 0, assistencias: 0 }
+        { jogos: 163, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Chievo",
         { inicio: "01/01/2005", fim: "30/06/2005" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2005", fim: "31/08/2012" },
-        { jogos: 300, gols: 0, assistencias: 0 }
+        { jogos: 300, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Queens Park Rangers",
         { inicio: "01/09/2012", fim: "13/02/2014" },
-        { jogos: 27, gols: 0, assistencias: 0 }
+        { jogos: 27, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Toronto FC",
         { inicio: "14/02/2014", fim: "30/06/2014" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Benfica",
         { inicio: "01/09/2014", fim: "28/11/2017" },
-        { jogos: 83, gols: 0, assistencias: 0 }
+        { jogos: 83, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "30/01/2018", fim: "21/04/2018" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -9312,37 +9312,37 @@ export const jogadores = [
       createClub(
         "Sport Recife",
         { inicio: "01/01/1993", fim: "18/12/1993" },
-        { jogos: 59, gols: 10, assistencias: 0 }
+        { jogos: 59, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/04/1995", fim: "30/06/2001" },
-        { jogos: 295, gols: 67, assistencias: 0 }
+        { jogos: 295, gols: 67, assistencias: 0 },
       ),
       createClub(
         "Olympique Lyonnais",
         { inicio: "01/07/2001", fim: "30/06/2009" },
-        { jogos: 344, gols: 100, assistencias: 50 }
+        { jogos: 344, gols: 100, assistencias: 50 },
       ),
       createClub(
         "Al-Gharafa",
         { inicio: "01/07/2009", fim: "30/06/2011" },
-        { jogos: 65, gols: 25, assistencias: 0 }
+        { jogos: 65, gols: 25, assistencias: 0 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/07/2011", fim: "31/12/2012" },
-        { jogos: 67, gols: 13, assistencias: 0 }
+        { jogos: 67, gols: 13, assistencias: 0 },
       ),
       createClub(
         "New York Red Bulls",
         { inicio: "01/01/2013", fim: "30/06/2013" },
-        { jogos: 13, gols: 0, assistencias: 0 }
+        { jogos: 13, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/07/2013", fim: "30/01/2014" },
-        { jogos: 31, gols: 6, assistencias: 0 }
+        { jogos: 31, gols: 6, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -9414,22 +9414,22 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "01/01/1974", fim: "30/06/1984" },
-        { jogos: 686, gols: 75, assistencias: 0 }
+        { jogos: 686, gols: 75, assistencias: 0 },
       ),
       createClub(
         "Torino",
         { inicio: "01/07/1984", fim: "30/06/1987" },
-        { jogos: 104, gols: 12, assistencias: 0 }
+        { jogos: 104, gols: 12, assistencias: 0 },
       ),
       createClub(
         "Pescara",
         { inicio: "01/07/1987", fim: "30/06/1989" },
-        { jogos: 60, gols: 5, assistencias: 0 }
+        { jogos: 60, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/07/1989", fim: "31/12/1993" },
-        { jogos: 188, gols: 11, assistencias: 0 }
+        { jogos: 188, gols: 11, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -9499,17 +9499,17 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "28/09/2018", fim: "01/08/2021" },
-        { jogos: 84, gols: 17, assistencias: 6 }
+        { jogos: 84, gols: 17, assistencias: 6 },
       ),
       createClub(
         "Juventus",
         { inicio: "02/08/2021", fim: "14/05/2024" },
-        { jogos: 12, gols: 0, assistencias: 0 }
+        { jogos: 12, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 55, gols: 18, assistencias: 6 }
+        { jogos: 55, gols: 18, assistencias: 6 },
       ),
     ],
     selecao: {},
@@ -9547,32 +9547,32 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "01/01/2001", fim: "13/08/2003" },
-        { jogos: 131, gols: 48, assistencias: 15 }
+        { jogos: 131, gols: 48, assistencias: 15 },
       ),
       createClub(
         "AC Milan",
         { inicio: "14/08/2003", fim: "30/06/2009" },
-        { jogos: 270, gols: 95, assistencias: 56 }
+        { jogos: 270, gols: 95, assistencias: 56 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2009", fim: "02/09/2013" },
-        { jogos: 120, gols: 29, assistencias: 39 }
+        { jogos: 120, gols: 29, assistencias: 39 },
       ),
       createClub(
         "AC Milan",
         { inicio: "03/09/2013", fim: "30/06/2014" },
-        { jogos: 37, gols: 9, assistencias: 5 }
+        { jogos: 37, gols: 9, assistencias: 5 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/07/2014", fim: "31/12/2014" },
-        { jogos: 24, gols: 3, assistencias: 2 }
+        { jogos: 24, gols: 3, assistencias: 2 },
       ),
       createClub(
         "Orlando City",
         { inicio: "01/01/2015", fim: "17/12/2017" },
-        { jogos: 78, gols: 25, assistencias: 19 }
+        { jogos: 78, gols: 25, assistencias: 19 },
       ),
     ],
     selecao: {
@@ -9739,27 +9739,27 @@ export const jogadores = [
       createClub(
         "Internacional",
         { inicio: "05/04/2017", fim: "31/12/2018" },
-        { jogos: 31, gols: 0, assistencias: 0 }
+        { jogos: 31, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Sport Recife",
         { inicio: "01/01/2018", fim: "31/12/2018" },
-        { jogos: 18, gols: 1, assistencias: 0 }
+        { jogos: 18, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Red Bull Brasil",
         { inicio: "01/01/2019", fim: "28/04/2019" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Red Bull Bragantino",
         { inicio: "29/04/2019", fim: "05/03/2024" },
-        { jogos: 198, gols: 14, assistencias: 7 }
+        { jogos: 198, gols: 14, assistencias: 7 },
       ),
       createClub(
         "Flamengo",
         { inicio: "06/03/2024", fim: "Presente" },
-        { jogos: 85, gols: 7, assistencias: 3 }
+        { jogos: 85, gols: 7, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -9816,37 +9816,37 @@ export const jogadores = [
       createClub(
         "Athletico Paranaense",
         { inicio: "01/01/2014", fim: "31/12/2014" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Guaratinguetá",
         { inicio: "01/01/2015", fim: "30/06/2015" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Náutico",
         { inicio: "01/07/2015", fim: "31/05/2016" },
-        { jogos: 12, gols: 1, assistencias: 0 }
+        { jogos: 12, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "01/06/2016", fim: "28/02/2017" },
-        { jogos: 21, gols: 1, assistencias: 0 }
+        { jogos: 21, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Orlando City",
         { inicio: "01/03/2017", fim: "31/12/2017" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "01/01/2018", fim: "27/01/2020" },
-        { jogos: 85, gols: 8, assistencias: 1 }
+        { jogos: 85, gols: 8, assistencias: 1 },
       ),
       createClub(
         "Flamengo",
         { inicio: "28/01/2020", fim: "Presente" },
-        { jogos: 265, gols: 17, assistencias: 6 }
+        { jogos: 265, gols: 17, assistencias: 6 },
       ),
     ],
     selecao: {},
@@ -9889,37 +9889,37 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "05/11/2016", fim: "20/01/2021" },
-        { jogos: 63, gols: 8, assistencias: 3 }
+        { jogos: 63, gols: 8, assistencias: 3 },
       ),
       createClub(
         "Vissel Kobe",
         { inicio: "21/01/2021", fim: "10/08/2022" },
-        { jogos: 31, gols: 4, assistencias: 0 }
+        { jogos: 31, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "11/08/2022", fim: "31/12/2022" },
-        { jogos: 9, gols: 1, assistencias: 2 }
+        { jogos: 9, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Vissel Kobe",
         { inicio: "01/01/2023", fim: "07/03/2024" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "SC Rheindorf Altach",
         { inicio: "01/07/2024", fim: "15/01/2025" },
-        { jogos: 2, gols: 0, assistencias: 0 }
+        { jogos: 2, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Athletic Club",
         { inicio: "16/01/2025", fim: "18/09/2025" },
-        { jogos: 16, gols: 5, assistencias: 3 }
+        { jogos: 16, gols: 5, assistencias: 3 },
       ),
       createClub(
         "FK Spartak Subotica",
         { inicio: "19/09/2025", fim: "Presente" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -9951,22 +9951,22 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "01/01/2010", fim: "31/12/2012" },
-        { jogos: 128, gols: 33, assistencias: 26 }
+        { jogos: 128, gols: 33, assistencias: 26 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/01/2013", fim: "30/01/2018" },
-        { jogos: 229, gols: 46, assistencias: 50 }
+        { jogos: 229, gols: 46, assistencias: 50 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "31/01/2018", fim: "30/06/2023" },
-        { jogos: 221, gols: 39, assistencias: 28 }
+        { jogos: 221, gols: 39, assistencias: 28 },
       ),
       createClub(
         "São Paulo",
         { inicio: "02/08/2023", fim: "Presente" },
-        { jogos: 110, gols: 28, assistencias: 18 }
+        { jogos: 110, gols: 28, assistencias: 18 },
       ),
     ],
     selecao: {
@@ -10062,9 +10062,9 @@ export const jogadores = [
     nomeCompleto: "Lucas Tolentino Coelho de Lima",
     background: "Titanium",
     descricao:
-      "Meio-campista brasileiro conhecido por sua técnica refinada, visão de jogo e versatilidade. Paquetá é um dos principais jogadores do West Ham United e figura de destaque na Seleção Brasileira.",
+      "Meio-campista brasileiro de técnica refinada e visão de jogo excepcional. Formado na base do Flamengo, Paquetá construiu uma carreira sólida na Europa, tornando-se ídolo no West Ham United antes de seu aguardado retorno ao Rubro-Negro em 2026. É peça fundamental na Seleção Brasileira.",
     pagina: "https://www.instagram.com/lucaspaqueta/",
-    numero: "10",
+    numero: "20",
     posicao: "Meio-campista",
     dataNascimento: "27/08/1997",
     dataFalecimento: null,
@@ -10078,22 +10078,27 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "01/01/2016", fim: "09/03/2018" },
-        { jogos: 95, gols: 18, assistencias: 13 }
+        { jogos: 95, gols: 18, assistencias: 13 },
       ),
       createClub(
         "AC Milan",
         { inicio: "10/01/2019", fim: "30/09/2020" },
-        { jogos: 44, gols: 2, assistencias: 3 }
+        { jogos: 44, gols: 2, assistencias: 3 },
       ),
       createClub(
         "Olympique Lyonnais",
         { inicio: "01/10/2020", fim: "28/08/2022" },
-        { jogos: 80, gols: 21, assistencias: 14 }
+        { jogos: 80, gols: 21, assistencias: 14 },
       ),
       createClub(
         "West Ham United",
-        { inicio: "29/08/2022", fim: "Presente" },
-        { jogos: 135, gols: 22, assistencias: 24 }
+        { inicio: "29/08/2022", fim: "29/01/2026" },
+        { jogos: 139, gols: 23, assistencias: 15 },
+      ),
+      createClub(
+        "Flamengo",
+        { inicio: "30/01/2026", fim: "Presente" },
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -10131,7 +10136,7 @@ export const jogadores = [
       },
     ],
     tags: ["Lucas Paqueta", "Lucas Tolentino Coelho de Lima"],
-    ultimaAtualizacao: "05/12/2025",
+    ultimaAtualizacao: "31/01/2026",
   },
 
   // Lucas Romero
@@ -10156,27 +10161,27 @@ export const jogadores = [
       createClub(
         "Vélez Sarsfield",
         { inicio: "01/01/2013", fim: "11/02/2016" },
-        { jogos: 108, gols: 3, assistencias: 5 }
+        { jogos: 108, gols: 3, assistencias: 5 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "12/02/2016", fim: "01/08/2019" },
-        { jogos: 151, gols: 3, assistencias: 4 }
+        { jogos: 151, gols: 3, assistencias: 4 },
       ),
       createClub(
         "Independiente",
         { inicio: "06/08/2019", fim: "07/01/2023" },
-        { jogos: 118, gols: 5, assistencias: 11 }
+        { jogos: 118, gols: 5, assistencias: 11 },
       ),
       createClub(
         "Club León",
         { inicio: "07/01/2023", fim: "07/01/2024" },
-        { jogos: 44, gols: 0, assistencias: 3 }
+        { jogos: 44, gols: 0, assistencias: 3 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "08/01/2024", fim: "Presente" },
-        { jogos: 66, gols: 3, assistencias: 3 }
+        { jogos: 66, gols: 3, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -10212,57 +10217,57 @@ export const jogadores = [
       createClub(
         "Guará",
         { inicio: "02/05/1996", fim: "24/05/1997" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Internacional",
         { inicio: "25/05/1997", fim: "31/12/2000" },
-        { jogos: 80, gols: 3, assistencias: 0 }
+        { jogos: 80, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Bayer Leverkusen",
         { inicio: "01/01/2001", fim: "30/06/2004" },
-        { jogos: 148, gols: 21, assistencias: 1 }
+        { jogos: 148, gols: 21, assistencias: 1 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2004", fim: "19/07/2009" },
-        { jogos: 218, gols: 12, assistencias: 11 }
+        { jogos: 218, gols: 12, assistencias: 11 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "20/07/2009", fim: "30/06/2012" },
-        { jogos: 136, gols: 5, assistencias: 0 }
+        { jogos: 136, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "04/07/2012", fim: "17/12/2012" },
-        { jogos: 4, gols: 0, assistencias: 0 }
+        { jogos: 4, gols: 0, assistencias: 0 },
       ),
       createClub(
         "São Paulo",
         { inicio: "26/12/2012", fim: "31/12/2013" },
-        { jogos: 55, gols: 2, assistencias: 1 }
+        { jogos: 55, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "30/01/2014", fim: "30/12/2014" },
-        { jogos: 29, gols: 2, assistencias: 0 }
+        { jogos: 29, gols: 2, assistencias: 0 },
       ),
       createClub(
         "FC Goa",
         { inicio: "01/06/2015", fim: "31/03/2017" },
-        { jogos: 19, gols: 0, assistencias: 0 }
+        { jogos: 19, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Gama",
         { inicio: "01/01/2018", fim: "30/06/2018" },
-        { jogos: 13, gols: 0, assistencias: 0 }
+        { jogos: 13, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Brasiliense",
         { inicio: "01/07/2018", fim: "29/01/2020" },
-        { jogos: 25, gols: 0, assistencias: 0 }
+        { jogos: 25, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -10367,27 +10372,27 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "01/01/2016", fim: "30/06/2017" },
-        { jogos: 49, gols: 9, assistencias: 7 }
+        { jogos: 49, gols: 9, assistencias: 7 },
       ),
       createClub(
         "Novorizontino",
         { inicio: "15/02/2016", fim: "06/05/2016" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Lille OSC",
         { inicio: "01/07/2017", fim: "06/08/2021" },
-        { jogos: 136, gols: 18, assistencias: 8 }
+        { jogos: 136, gols: 18, assistencias: 8 },
       ),
       createClub(
         "Atlanta United",
         { inicio: "07/08/2021", fim: "30/06/2023" },
-        { jogos: 63, gols: 13, assistencias: 9 }
+        { jogos: 63, gols: 13, assistencias: 9 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/07/2023", fim: "Presente" },
-        { jogos: 106, gols: 17, assistencias: 16 }
+        { jogos: 106, gols: 17, assistencias: 16 },
       ),
     ],
     selecao: {},
@@ -10419,27 +10424,27 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "11/02/2016", fim: "13/07/2016" },
-        { jogos: 15, gols: 1, assistencias: 1 }
+        { jogos: 15, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Ponte Preta",
         { inicio: "14/07/2016", fim: "31/12/2016" },
-        { jogos: 19, gols: 1, assistencias: 1 }
+        { jogos: 19, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2017", fim: "16/06/2018" },
-        { jogos: 92, gols: 7, assistencias: 7 }
+        { jogos: 92, gols: 7, assistencias: 7 },
       ),
       createClub(
         "Shakhtar Donetsk",
         { inicio: "17/06/2018", fim: "31/03/2022" },
-        { jogos: 114, gols: 11, assistencias: 8 }
+        { jogos: 114, gols: 11, assistencias: 8 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/04/2022", fim: "Presente" },
-        { jogos: 136, gols: 10, assistencias: 8 }
+        { jogos: 136, gols: 10, assistencias: 8 },
       ),
     ],
     selecao: {},
@@ -10471,22 +10476,22 @@ export const jogadores = [
       createClub(
         "Fluminense",
         { inicio: "01/01/2005", fim: "31/12/2006" },
-        { jogos: 65, gols: 4, assistencias: 1 }
+        { jogos: 65, gols: 4, assistencias: 1 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/01/2007", fim: "30/06/2022" },
-        { jogos: 546, gols: 38, assistencias: 104 }
+        { jogos: 546, gols: 38, assistencias: 104 },
       ),
       createClub(
         "Olympiacos",
         { inicio: "03/09/2022", fim: "18/02/2023" },
-        { jogos: 10, gols: 3, assistencias: 0 }
+        { jogos: 10, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Fluminense",
         { inicio: "24/02/2023", fim: "23/06/2024" },
-        { jogos: 58, gols: 5, assistencias: 2 }
+        { jogos: 58, gols: 5, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -10585,7 +10590,7 @@ export const jogadores = [
       createClub(
         "Palmeiras",
         { inicio: "01/01/1992", fim: "31/12/2012" },
-        { jogos: 532, gols: 0, assistencias: 0 }
+        { jogos: 532, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -10693,37 +10698,37 @@ export const jogadores = [
       createClub(
         "Criciúma",
         { inicio: "01/01/2014", fim: "31/12/2015" },
-        { jogos: 45, gols: 2, assistencias: 3 }
+        { jogos: 45, gols: 2, assistencias: 3 },
       ),
       createClub(
         "Fluminense",
         { inicio: "18/07/2017", fim: "03/08/2019" },
-        { jogos: 106, gols: 3, assistencias: 7 }
+        { jogos: 106, gols: 3, assistencias: 7 },
       ),
       createClub(
         "Boavista",
         { inicio: "04/08/2019", fim: "31/12/2020" },
-        { jogos: 42, gols: 2, assistencias: 3 }
+        { jogos: 42, gols: 2, assistencias: 3 },
       ),
       createClub(
         "Trabzonspor",
         { inicio: "01/01/2021", fim: "30/06/2021" },
-        { jogos: 25, gols: 1, assistencias: 2 }
+        { jogos: 25, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/07/2021", fim: "31/12/2022" },
-        { jogos: 19, gols: 0, assistencias: 3 }
+        { jogos: 19, gols: 0, assistencias: 3 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2023", fim: "31/12/2023" },
-        { jogos: 103, gols: 4, assistencias: 8 }
+        { jogos: 103, gols: 4, assistencias: 8 },
       ),
       createClub(
         "Grêmio",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -10755,17 +10760,17 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "10/02/2012", fim: "15/07/2012" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Roma",
         { inicio: "16/07/2012", fim: "19/07/2013" },
-        { jogos: 30, gols: 0, assistencias: 0 }
+        { jogos: 30, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "20/07/2013", fim: "Presente" },
-        { jogos: 518, gols: 45, assistencias: 13 }
+        { jogos: 518, gols: 45, assistencias: 13 },
       ),
     ],
     selecao: {
@@ -10833,37 +10838,37 @@ export const jogadores = [
       createClub(
         "Coritiba",
         { inicio: "01/01/2004", fim: "29/07/2005" },
-        { jogos: 42, gols: 2, assistencias: 0 }
+        { jogos: 42, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Sochaux",
         { inicio: "30/07/2005", fim: "12/08/2006" },
-        { jogos: 17, gols: 0, assistencias: 0 }
+        { jogos: 17, gols: 0, assistencias: 0 },
       ),
       createClub(
         "São Paulo",
         { inicio: "13/08/2006", fim: "30/06/2011" },
-        { jogos: 260, gols: 7, assistencias: 0 }
+        { jogos: 260, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/07/2011", fim: "30/06/2015" },
-        { jogos: 178, gols: 13, assistencias: 0 }
+        { jogos: 178, gols: 13, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2015", fim: "26/07/2019" },
-        { jogos: 147, gols: 1, assistencias: 0 }
+        { jogos: 147, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Jiangsu Suning",
         { inicio: "27/07/2019", fim: "31/12/2020" },
-        { jogos: 40, gols: 1, assistencias: 0 }
+        { jogos: 40, gols: 1, assistencias: 0 },
       ),
       createClub(
         "São Paulo",
         { inicio: "12/03/2021", fim: "31/12/2022" },
-        { jogos: 92, gols: 1, assistencias: 0 }
+        { jogos: 92, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -10923,77 +10928,77 @@ export const jogadores = [
       createClub(
         "Fluminense",
         { inicio: "01/01/2008", fim: "31/12/2008" },
-        { jogos: 9, gols: 0, assistencias: 0 }
+        { jogos: 9, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Internacional",
         { inicio: "01/01/2009", fim: "30/06/2009" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Caxias",
         { inicio: "01/07/2009", fim: "31/12/2009" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Paraná",
         { inicio: "01/07/2011", fim: "31/12/2011" },
-        { jogos: 7, gols: 2, assistencias: 3 }
+        { jogos: 7, gols: 2, assistencias: 3 },
       ),
       createClub(
         "Goiás",
         { inicio: "01/01/2012", fim: "31/12/2012" },
-        { jogos: 19, gols: 0, assistencias: 0 }
+        { jogos: 19, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Ituano",
         { inicio: "01/01/2013", fim: "30/06/2013" },
-        { jogos: 11, gols: 1, assistencias: 0 }
+        { jogos: 11, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Náutico",
         { inicio: "01/07/2013", fim: "31/12/2013" },
-        { jogos: 24, gols: 2, assistencias: 1 }
+        { jogos: 24, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Ceará",
         { inicio: "01/01/2014", fim: "31/12/2014" },
-        { jogos: 35, gols: 9, assistencias: 4 }
+        { jogos: 35, gols: 9, assistencias: 4 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2015", fim: "31/12/2015" },
-        { jogos: 12, gols: 1, assistencias: 0 }
+        { jogos: 12, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Vitória",
         { inicio: "01/01/2016", fim: "31/12/2016" },
-        { jogos: 43, gols: 21, assistencias: 7 }
+        { jogos: 43, gols: 21, assistencias: 7 },
       ),
       createClub(
         "Changchun Yatai",
         { inicio: "01/01/2017", fim: "31/12/2018" },
-        { jogos: 22, gols: 3, assistencias: 1 }
+        { jogos: 22, gols: 3, assistencias: 1 },
       ),
       createClub(
         "Grêmio",
         { inicio: "01/01/2019", fim: "30/06/2019" },
-        { jogos: 28, gols: 5, assistencias: 3 }
+        { jogos: 28, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Santos",
         { inicio: "01/07/2019", fim: "31/01/2022" },
-        { jogos: 113, gols: 41, assistencias: 17 }
+        { jogos: 113, gols: 41, assistencias: 17 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/02/2022", fim: "08/04/2023" },
-        { jogos: 59, gols: 6, assistencias: 6 }
+        { jogos: 59, gols: 6, assistencias: 6 },
       ),
       createClub(
         "Fortaleza",
         { inicio: "20/07/2023", fim: "Presente" },
-        { jogos: 140, gols: 20, assistencias: 15 }
+        { jogos: 140, gols: 20, assistencias: 15 },
       ),
     ],
     selecao: [],
@@ -11071,27 +11076,27 @@ export const jogadores = [
       createClub(
         "Guarani",
         { inicio: "01/01/2019", fim: "31/12/2019" },
-        { jogos: 18, gols: 0, assistencias: 0 }
+        { jogos: 18, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Figueirense",
         { inicio: "01/01/2020", fim: "31/12/2020" },
-        { jogos: 15, gols: 0, assistencias: 0 }
+        { jogos: 15, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Guarani",
         { inicio: "01/01/2021", fim: "31/12/2021" },
-        { jogos: 55, gols: 1, assistencias: 4 }
+        { jogos: 55, gols: 1, assistencias: 4 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2022", fim: "31/12/2022" },
-        { jogos: 39, gols: 3, assistencias: 3 }
+        { jogos: 39, gols: 3, assistencias: 3 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2023", fim: "Presente" },
-        { jogos: 110, gols: 7, assistencias: 8 }
+        { jogos: 110, gols: 7, assistencias: 8 },
       ),
     ],
     selecao: [],
@@ -11123,12 +11128,12 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "01/01/2016", fim: "31/12/2020" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "12/04/2021", fim: "Presente" },
-        { jogos: 110, gols: 0, assistencias: 0 }
+        { jogos: 110, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -11160,22 +11165,22 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "20/10/2022", fim: "08/04/2023" },
-        { jogos: 10, gols: 1, assistencias: 0 }
+        { jogos: 10, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Botafogo",
         { inicio: "01/07/2023", fim: "31/12/2023" },
-        { jogos: 13, gols: 0, assistencias: 1 }
+        { jogos: 13, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2024", fim: "30/06/2025" },
-        { jogos: 15, gols: 2, assistencias: 0 }
+        { jogos: 15, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Al-Ahli SFC",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 5, gols: 0, assistencias: 2 }
+        { jogos: 5, gols: 0, assistencias: 2 },
       ),
     ],
     selecao: {},
@@ -11207,22 +11212,22 @@ export const jogadores = [
       createClub(
         "São Caetano",
         { inicio: "01/01/2014", fim: "31/12/2016" },
-        { jogos: 28, gols: 3, assistencias: 0 }
+        { jogos: 28, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Grêmio",
         { inicio: "22/02/2018", fim: "17/08/2021" },
-        { jogos: 139, gols: 11, assistencias: 4 }
+        { jogos: 139, gols: 11, assistencias: 4 },
       ),
       createClub(
         "Sassuolo",
         { inicio: "18/08/2021", fim: "30/06/2024" },
-        { jogos: 89, gols: 6, assistencias: 5 }
+        { jogos: 89, gols: 6, assistencias: 5 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 50, gols: 1, assistencias: 0 }
+        { jogos: 50, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -11269,37 +11274,37 @@ export const jogadores = [
       createClub(
         "Sporting CP",
         { inicio: "01/07/2015", fim: "30/06/2017" },
-        { jogos: 20, gols: 3, assistencias: 4 }
+        { jogos: 20, gols: 3, assistencias: 4 },
       ),
       createClub(
         "Chaves",
         { inicio: "01/07/2017", fim: "30/06/2018" },
-        { jogos: 30, gols: 7, assistencias: 7 }
+        { jogos: 30, gols: 7, assistencias: 7 },
       ),
       createClub(
         "FC Nürnberg",
         { inicio: "01/09/2018", fim: "30/06/2019" },
-        { jogos: 21, gols: 3, assistencias: 2 }
+        { jogos: 21, gols: 3, assistencias: 2 },
       ),
       createClub(
         "West Bromwich Albion",
         { inicio: "01/07/2019", fim: "22/07/2021" },
-        { jogos: 79, gols: 20, assistencias: 22 }
+        { jogos: 79, gols: 20, assistencias: 22 },
       ),
       createClub(
         "Al-Hilal",
         { inicio: "23/07/2021", fim: "30/06/2023" },
-        { jogos: 55, gols: 11, assistencias: 18 }
+        { jogos: 55, gols: 11, assistencias: 18 },
       ),
       createClub(
         "Al-Wahda",
         { inicio: "01/07/2023", fim: "31/12/2023" },
-        { jogos: 10, gols: 1, assistencias: 3 }
+        { jogos: 10, gols: 1, assistencias: 3 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "08/04/2024", fim: "Presente" },
-        { jogos: 100, gols: 16, assistencias: 21 }
+        { jogos: 100, gols: 16, assistencias: 21 },
       ),
     ],
     selecao: {
@@ -11341,12 +11346,12 @@ export const jogadores = [
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2012", fim: "30/04/2017" },
-        { jogos: 192, gols: 8, assistencias: 27 }
+        { jogos: 192, gols: 8, assistencias: 27 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/05/2017", fim: "Presente" },
-        { jogos: 350, gols: 9, assistencias: 35 }
+        { jogos: 350, gols: 9, assistencias: 35 },
       ),
     ],
     selecao: [],
@@ -11399,22 +11404,22 @@ export const jogadores = [
       createClub(
         "Goiás",
         { inicio: "01/01/2017", fim: "31/12/2019" },
-        { jogos: 129, gols: 24, assistencias: 14 }
+        { jogos: 129, gols: 24, assistencias: 14 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2020", fim: "25/01/2022" },
-        { jogos: 105, gols: 23, assistencias: 14 }
+        { jogos: 105, gols: 23, assistencias: 14 },
       ),
       createClub(
         "Al-Hilal",
         { inicio: "26/01/2022", fim: "31/07/2024" },
-        { jogos: 108, gols: 20, assistencias: 23 }
+        { jogos: 108, gols: 20, assistencias: 23 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/08/2024", fim: "Presente" },
-        { jogos: 25, gols: 4, assistencias: 4 }
+        { jogos: 25, gols: 4, assistencias: 4 },
       ),
     ],
     selecao: [],
@@ -11477,17 +11482,17 @@ export const jogadores = [
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2017", fim: "30/06/2019" },
-        { jogos: 91, gols: 4, assistencias: 6 }
+        { jogos: 91, gols: 4, assistencias: 6 },
       ),
       createClub(
         "Lokomotiv Moscou",
         { inicio: "01/07/2019", fim: "31/12/2021" },
-        { jogos: 58, gols: 5, assistencias: 3 }
+        { jogos: 58, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/2022", fim: "Presente" },
-        { jogos: 195, gols: 15, assistencias: 10 }
+        { jogos: 195, gols: 15, assistencias: 10 },
       ),
     ],
     selecao: {
@@ -11544,82 +11549,82 @@ export const jogadores = [
       createClub(
         "Guarani",
         { inicio: "01/01/1984", fim: "31/07/1986" },
-        { jogos: 58, gols: 26, assistencias: 0 }
+        { jogos: 58, gols: 26, assistencias: 0 },
       ),
       createClub(
         "Bangu",
         { inicio: "01/08/1986", fim: "31/12/1986" },
-        { jogos: 16, gols: 1, assistencias: 0 }
+        { jogos: 16, gols: 1, assistencias: 0 },
       ),
       createClub(
         "São Paulo",
         { inicio: "26/02/1987", fim: "31/12/1987" },
-        { jogos: 33, gols: 5, assistencias: 0 }
+        { jogos: 33, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Guarani",
         { inicio: "01/01/1988", fim: "30/06/1988" },
-        { jogos: 19, gols: 7, assistencias: 0 }
+        { jogos: 19, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/07/1988", fim: "31/12/1988" },
-        { jogos: 30, gols: 5, assistencias: 0 }
+        { jogos: 30, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/1989", fim: "30/06/1993" },
-        { jogos: 228, gols: 80, assistencias: 0 }
+        { jogos: 228, gols: 80, assistencias: 0 },
       ),
       createClub(
         "Millonarios",
         { inicio: "01/07/1993", fim: "30/09/1993" },
-        { jogos: 10, gols: 3, assistencias: 0 }
+        { jogos: 10, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "01/10/1993", fim: "31/12/1993" },
-        { jogos: 17, gols: 2, assistencias: 0 }
+        { jogos: 17, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Santos",
         { inicio: "01/01/1994", fim: "30/06/1994" },
-        { jogos: 18, gols: 3, assistencias: 0 }
+        { jogos: 18, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Matsubara",
         { inicio: "01/07/1994", fim: "02/01/1995" },
-        { jogos: 28, gols: 10, assistencias: 0 }
+        { jogos: 28, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Guarani",
         { inicio: "03/01/1995", fim: "30/06/1995" },
-        { jogos: 13, gols: 1, assistencias: 0 }
+        { jogos: 13, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Araçatuba",
         { inicio: "01/07/1995", fim: "31/12/1995" },
-        { jogos: 2, gols: 2, assistencias: 0 }
+        { jogos: 2, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/1996", fim: "30/06/1997" },
-        { jogos: 20, gols: 1, assistencias: 0 }
+        { jogos: 20, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Osan Indaiatuba",
         { inicio: "01/07/1997", fim: "31/12/1997" },
-        { jogos: 22, gols: 5, assistencias: 0 }
+        { jogos: 22, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Paulista",
         { inicio: "01/01/1998", fim: "30/06/1998" },
-        { jogos: 11, gols: 6, assistencias: 0 }
+        { jogos: 11, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Deportivo Italia",
         { inicio: "01/07/1998", fim: "31/12/1999" },
-        { jogos: 5, gols: 1, assistencias: 0 }
+        { jogos: 5, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -11671,42 +11676,42 @@ export const jogadores = [
       createClub(
         "Athletico Paranaense",
         { inicio: "01/01/2009", fim: "01/01/2011" },
-        { jogos: 36, gols: 0, assistencias: 0 }
+        { jogos: 36, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "02/01/2011", fim: "30/06/2015" },
-        { jogos: 101, gols: 0, assistencias: 0 }
+        { jogos: 101, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2015", fim: "30/06/2017" },
-        { jogos: 22, gols: 0, assistencias: 0 }
+        { jogos: 22, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Valencia",
         { inicio: "01/07/2017", fim: "30/06/2019" },
-        { jogos: 80, gols: 0, assistencias: 0 }
+        { jogos: 80, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2019", fim: "31/07/2022" },
-        { jogos: 21, gols: 0, assistencias: 0 }
+        { jogos: 21, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Bournemouth",
         { inicio: "07/08/2022", fim: "30/06/2024" },
-        { jogos: 63, gols: 0, assistencias: 0 }
+        { jogos: 63, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Arsenal",
         { inicio: "01/07/2024", fim: "07/08/2025" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Botafogo",
         { inicio: "08/08/2025", fim: "Presente" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -11748,27 +11753,27 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "07/03/2009", fim: "03/06/2013" },
-        { jogos: 225, gols: 136, assistencias: 64 }
+        { jogos: 225, gols: 136, assistencias: 64 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2013", fim: "03/08/2017" },
-        { jogos: 186, gols: 105, assistencias: 76 }
+        { jogos: 186, gols: 105, assistencias: 76 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "03/08/2017", fim: "15/08/2023" },
-        { jogos: 173, gols: 118, assistencias: 77 }
+        { jogos: 173, gols: 118, assistencias: 77 },
       ),
       createClub(
         "Al-Hilal",
         { inicio: "01/05/2024", fim: "30/01/2025" },
-        { jogos: 9, gols: 2, assistencias: 4 }
+        { jogos: 9, gols: 2, assistencias: 4 },
       ),
       createClub(
         "Santos",
         { inicio: "01/02/2025", fim: "Presente" },
-        { jogos: 28, gols: 11, assistencias: 6 }
+        { jogos: 28, gols: 11, assistencias: 6 },
       ),
     ],
     selecao: {
@@ -12008,7 +12013,7 @@ export const jogadores = [
       createClub(
         "Botafogo",
         { inicio: "01/01/1948", fim: "31/12/1964" },
-        { jogos: 723, gols: 11, assistencias: 0 }
+        { jogos: 723, gols: 11, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -12102,27 +12107,27 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "01/01/2008", fim: "31/12/2009" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Internacional",
         { inicio: "17/06/2010", fim: "25/07/2012" },
-        { jogos: 64, gols: 13, assistencias: 13 }
+        { jogos: 64, gols: 13, assistencias: 13 },
       ),
       createClub(
         "Chelsea",
         { inicio: "25/07/2012", fim: "31/12/2016" },
-        { jogos: 203, gols: 38, assistencias: 37 }
+        { jogos: 203, gols: 38, assistencias: 37 },
       ),
       createClub(
         "Shanghai SIPG",
         { inicio: "01/01/2017", fim: "30/06/2024" },
-        { jogos: 260, gols: 85, assistencias: 138 }
+        { jogos: 260, gols: 85, assistencias: 138 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/07/2024", fim: "14/12/2025" },
-        { jogos: 45, gols: 10, assistencias: 15 }
+        { jogos: 45, gols: 10, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -12184,42 +12189,42 @@ export const jogadores = [
       createClub(
         "Santo André",
         { inicio: "01/01/2004", fim: "30/04/2008" },
-        { jogos: 76, gols: 10, assistencias: 0 }
+        { jogos: 76, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Santos",
         { inicio: "01/05/2008", fim: "01/07/2012" },
-        { jogos: 185, gols: 2, assistencias: 18 }
+        { jogos: 185, gols: 2, assistencias: 18 },
       ),
       createClub(
         "Grêmio",
         { inicio: "02/07/2012", fim: "31/12/2014" },
-        { jogos: 87, gols: 0, assistencias: 5 }
+        { jogos: 87, gols: 0, assistencias: 5 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2015", fim: "31/07/2019" },
-        { jogos: 234, gols: 4, assistencias: 13 }
+        { jogos: 234, gols: 4, assistencias: 13 },
       ),
       createClub(
         "Santos",
         { inicio: "01/08/2019", fim: "14/04/2022" },
-        { jogos: 104, gols: 1, assistencias: 4 }
+        { jogos: 104, gols: 1, assistencias: 4 },
       ),
       createClub(
         "Brusque",
         { inicio: "15/04/2022", fim: "31/12/2022" },
-        { jogos: 26, gols: 0, assistencias: 0 }
+        { jogos: 26, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Portuguesa",
         { inicio: "01/01/2023", fim: "30/04/2023" },
-        { jogos: 14, gols: 0, assistencias: 1 }
+        { jogos: 14, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Remo",
         { inicio: "01/01/2024", fim: "31/07/2024" },
-        { jogos: 18, gols: 0, assistencias: 0 }
+        { jogos: 18, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -12255,57 +12260,57 @@ export const jogadores = [
       createClub(
         "Internacional",
         { inicio: "01/01/2006", fim: "31/07/2007" },
-        { jogos: 27, gols: 12, assistencias: 2 }
+        { jogos: 27, gols: 12, assistencias: 2 },
       ),
       createClub(
         "AC Milan",
         { inicio: "02/08/2007", fim: "03/01/2013" },
-        { jogos: 150, gols: 63, assistencias: 18 }
+        { jogos: 150, gols: 63, assistencias: 18 },
       ),
       createClub(
         "Corinthians",
         { inicio: "04/01/2013", fim: "30/01/2014" },
-        { jogos: 12, gols: 2, assistencias: 1 }
+        { jogos: 12, gols: 2, assistencias: 1 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/02/2014", fim: "30/06/2015" },
-        { jogos: 61, gols: 25, assistencias: 13 }
+        { jogos: 61, gols: 25, assistencias: 13 },
       ),
       createClub(
         "Corinthians",
         { inicio: "06/01/2016", fim: "28/01/2016" },
-        { jogos: 50, gols: 15, assistencias: 7 }
+        { jogos: 50, gols: 15, assistencias: 7 },
       ),
       createClub(
         "Chelsea",
         { inicio: "29/01/2016", fim: "30/06/2016" },
-        { jogos: 2, gols: 1, assistencias: 0 }
+        { jogos: 2, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Villarreal",
         { inicio: "27/07/2016", fim: "30/01/2017" },
-        { jogos: 24, gols: 6, assistencias: 4 }
+        { jogos: 24, gols: 6, assistencias: 4 },
       ),
       createClub(
         "Tianjin Tianhai",
         { inicio: "30/01/2017", fim: "16/03/2019" },
-        { jogos: 60, gols: 36, assistencias: 8 }
+        { jogos: 60, gols: 36, assistencias: 8 },
       ),
       createClub(
         "São Paulo",
         { inicio: "27/03/2019", fim: "21/08/2020" },
-        { jogos: 35, gols: 5, assistencias: 1 }
+        { jogos: 35, gols: 5, assistencias: 1 },
       ),
       createClub(
         "Orlando City",
         { inicio: "13/02/2021", fim: "26/11/2022" },
-        { jogos: 31, gols: 4, assistencias: 5 }
+        { jogos: 31, gols: 4, assistencias: 5 },
       ),
       createClub(
         "São Paulo",
         { inicio: "26/05/2023", fim: "30/12/2023" },
-        { jogos: 20, gols: 2, assistencias: 0 }
+        { jogos: 20, gols: 2, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -12370,37 +12375,37 @@ export const jogadores = [
       createClub(
         "Red Bull Bragantino",
         { inicio: "01/01/2009", fim: "31/12/2010" },
-        { jogos: 45, gols: 14, assistencias: 0 }
+        { jogos: 45, gols: 14, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2011", fim: "01/07/2013" },
-        { jogos: 167, gols: 34, assistencias: 0 }
+        { jogos: 167, gols: 34, assistencias: 0 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "02/07/2013", fim: "30/06/2015" },
-        { jogos: 67, gols: 10, assistencias: 0 }
+        { jogos: 67, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Guangzhou",
         { inicio: "01/07/2015", fim: "14/08/2017" },
-        { jogos: 95, gols: 27, assistencias: 0 }
+        { jogos: 95, gols: 27, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "14/08/2017", fim: "09/07/2018" },
-        { jogos: 49, gols: 9, assistencias: 0 }
+        { jogos: 49, gols: 9, assistencias: 0 },
       ),
       createClub(
         "Guangzhou",
         { inicio: "09/07/2018", fim: "31/12/2021" },
-        { jogos: 81, gols: 47, assistencias: 0 }
+        { jogos: 81, gols: 47, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2022", fim: "30/06/2024" },
-        { jogos: 52, gols: 6, assistencias: 0 }
+        { jogos: 52, gols: 6, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -12503,17 +12508,17 @@ export const jogadores = [
       createClub(
         "Fluminense",
         { inicio: "01/01/2016", fim: "01/02/2017" },
-        { jogos: 93, gols: 31, assistencias: 5 }
+        { jogos: 93, gols: 31, assistencias: 5 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "02/09/2019", fim: "22/01/2020" },
-        { jogos: 4, gols: 0, assistencias: 0 }
+        { jogos: 4, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "23/01/2020", fim: "Presente" },
-        { jogos: 299, gols: 150, assistencias: 37 }
+        { jogos: 299, gols: 150, assistencias: 37 },
       ),
     ],
     selecao: {
@@ -12595,12 +12600,12 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "07/09/1956", fim: "02/10/1974" },
-        { jogos: 1116, gols: 1137, assistencias: 290 }
+        { jogos: 1116, gols: 1137, assistencias: 290 },
       ),
       createClub(
         "New York Cosmos",
         { inicio: "15/06/1975", fim: "01/10/1977" },
-        { jogos: 111, gols: 65, assistencias: 15 }
+        { jogos: 111, gols: 65, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -12795,47 +12800,47 @@ export const jogadores = [
       createClub(
         "Vasco da Gama",
         { inicio: "01/01/2009", fim: "16/07/2010" },
-        { jogos: 43, gols: 5, assistencias: 0 }
+        { jogos: 43, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "16/07/2010", fim: "30/01/2013" },
-        { jogos: 47, gols: 5, assistencias: 3 }
+        { jogos: 47, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Espanyol",
         { inicio: "30/01/2012", fim: "30/06/2012" },
-        { jogos: 16, gols: 5, assistencias: 1 }
+        { jogos: 16, gols: 5, assistencias: 1 },
       ),
       createClub(
         "Liverpool",
         { inicio: "30/01/2013", fim: "06/01/2018" },
-        { jogos: 201, gols: 54, assistencias: 45 }
+        { jogos: 201, gols: 54, assistencias: 45 },
       ),
       createClub(
         "Barcelona",
         { inicio: "06/01/2018", fim: "19/08/2022" },
-        { jogos: 92, gols: 24, assistencias: 13 }
+        { jogos: 92, gols: 24, assistencias: 13 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "19/08/2019", fim: "24/08/2020" },
-        { jogos: 38, gols: 11, assistencias: 9 }
+        { jogos: 38, gols: 11, assistencias: 9 },
       ),
       createClub(
         "Aston Villa",
         { inicio: "07/01/2022", fim: "08/09/2023" },
-        { jogos: 46, gols: 6, assistencias: 4 }
+        { jogos: 46, gols: 6, assistencias: 4 },
       ),
       createClub(
         "Al-Duhail",
         { inicio: "08/09/2023", fim: "30/06/2024" },
-        { jogos: 22, gols: 6, assistencias: 3 }
+        { jogos: 22, gols: 6, assistencias: 3 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/09/2024", fim: "Presente" },
-        { jogos: 39, gols: 8, assistencias: 0 }
+        { jogos: 39, gols: 8, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -12933,32 +12938,32 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "20/01/2010", fim: "15/07/2013" },
-        { jogos: 190, gols: 0, assistencias: 0 }
+        { jogos: 190, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Napoli",
         { inicio: "15/07/2013", fim: "31/08/2018" },
-        { jogos: 64, gols: 0, assistencias: 0 }
+        { jogos: 64, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Reading",
         { inicio: "31/08/2018", fim: "18/01/2022" },
-        { jogos: 101, gols: 0, assistencias: 0 }
+        { jogos: 101, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "18/01/2022", fim: "06/04/2024" },
-        { jogos: 120, gols: 0, assistencias: 1 }
+        { jogos: 120, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Grêmio",
         { inicio: "19/04/2024", fim: "31/12/2024" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Real Salt Lake",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 30, gols: 0, assistencias: 0 }
+        { jogos: 30, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -13000,47 +13005,47 @@ export const jogadores = [
       createClub(
         "Coritiba",
         { inicio: "01/01/2003", fim: "31/12/2005" },
-        { jogos: 53, gols: 6, assistencias: 0 }
+        { jogos: 53, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Schalke 04",
         { inicio: "22/07/2005", fim: "30/06/2010" },
-        { jogos: 198, gols: 11, assistencias: 21 }
+        { jogos: 198, gols: 11, assistencias: 21 },
       ),
       createClub(
         "Genoa",
         { inicio: "01/07/2010", fim: "30/06/2011" },
-        { jogos: 37, gols: 2, assistencias: 0 }
+        { jogos: 37, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2011", fim: "30/06/2019" },
-        { jogos: 266, gols: 6, assistencias: 29 }
+        { jogos: 266, gols: 6, assistencias: 29 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/07/2019", fim: "30/08/2020" },
-        { jogos: 46, gols: 0, assistencias: 6 }
+        { jogos: 46, gols: 0, assistencias: 6 },
       ),
       createClub(
         "Olympiacos",
         { inicio: "30/08/2020", fim: "12/04/2021" },
-        { jogos: 22, gols: 0, assistencias: 6 }
+        { jogos: 22, gols: 0, assistencias: 6 },
       ),
       createClub(
         "Grêmio",
         { inicio: "29/03/2021", fim: "31/12/2021" },
-        { jogos: 43, gols: 0, assistencias: 4 }
+        { jogos: 43, gols: 0, assistencias: 4 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/01/2022", fim: "31/12/2024" },
-        { jogos: 117, gols: 1, assistencias: 5 }
+        { jogos: 117, gols: 1, assistencias: 5 },
       ),
       createClub(
         "Coritiba",
         { inicio: "01/01/2025", fim: "31/05/2025" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -13093,32 +13098,32 @@ export const jogadores = [
       createClub(
         "Joinville",
         { inicio: "01/01/2004", fim: "31/12/2007" },
-        { jogos: 42, gols: 4, assistencias: 0 }
+        { jogos: 42, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2007", fim: "20/05/2009" },
-        { jogos: 105, gols: 26, assistencias: 12 }
+        { jogos: 105, gols: 26, assistencias: 12 },
       ),
       createClub(
         "Benfica",
         { inicio: "21/05/2009", fim: "03/08/2010" },
-        { jogos: 43, gols: 5, assistencias: 3 }
+        { jogos: 43, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Chelsea",
         { inicio: "04/08/2010", fim: "26/01/2016" },
-        { jogos: 251, gols: 34, assistencias: 25 }
+        { jogos: 251, gols: 34, assistencias: 25 },
       ),
       createClub(
         "Jiangsu Suning",
         { inicio: "27/01/2016", fim: "17/05/2019" },
-        { jogos: 71, gols: 17, assistencias: 13 }
+        { jogos: 71, gols: 17, assistencias: 13 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "13/06/2019", fim: "27/11/2020" },
-        { jogos: 45, gols: 1, assistencias: 1 }
+        { jogos: 45, gols: 1, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -13184,47 +13189,47 @@ export const jogadores = [
       createClub(
         "Ferroviário",
         { inicio: "01/01/2016", fim: "31/12/2017" },
-        { jogos: 15, gols: 0, assistencias: 0 }
+        { jogos: 15, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Jacuipense",
         { inicio: "01/01/2018", fim: "31/12/2019" },
-        { jogos: 29, gols: 2, assistencias: 0 }
+        { jogos: 29, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Nacional-AM",
         { inicio: "01/07/2019", fim: "31/12/2019" },
-        { jogos: 14, gols: 1, assistencias: 0 }
+        { jogos: 14, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Santa Cruz",
         { inicio: "01/01/2020", fim: "31/12/2020" },
-        { jogos: 15, gols: 0, assistencias: 0 }
+        { jogos: 15, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Botafogo-SP",
         { inicio: "01/01/2021", fim: "31/12/2021" },
-        { jogos: 18, gols: 1, assistencias: 1 }
+        { jogos: 18, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Avaí",
         { inicio: "01/01/2022", fim: "31/12/2022" },
-        { jogos: 39, gols: 0, assistencias: 1 }
+        { jogos: 39, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Jacuipense",
         { inicio: "01/01/2023", fim: "31/03/2023" },
-        { jogos: 12, gols: 0, assistencias: 0 }
+        { jogos: 12, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Cuiabá",
         { inicio: "01/04/2023", fim: "31/12/2023" },
-        { jogos: 28, gols: 3, assistencias: 0 }
+        { jogos: 28, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2024", fim: "Presente" },
-        { jogos: 88, gols: 2, assistencias: 2 }
+        { jogos: 88, gols: 2, assistencias: 2 },
       ),
     ],
     selecao: {},
@@ -13256,22 +13261,22 @@ export const jogadores = [
       createClub(
         "Coritiba",
         { inicio: "01/01/2016", fim: "31/12/2016" },
-        { jogos: 24, gols: 3, assistencias: 3 }
+        { jogos: 24, gols: 3, assistencias: 3 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/2017", fim: "31/12/2017" },
-        { jogos: 30, gols: 2, assistencias: 2 }
+        { jogos: 30, gols: 2, assistencias: 2 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "08/04/2018", fim: "31/12/2018" },
-        { jogos: 48, gols: 9, assistencias: 8 }
+        { jogos: 48, gols: 9, assistencias: 8 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/2019", fim: "Presente" },
-        { jogos: 373, gols: 109, assistencias: 57 }
+        { jogos: 373, gols: 109, assistencias: 57 },
       ),
     ],
     selecao: {
@@ -13338,22 +13343,22 @@ export const jogadores = [
       createClub(
         "Sporting CP",
         { inicio: "01/07/2018", fim: "01/09/2019" },
-        { jogos: 41, gols: 8, assistencias: 7 }
+        { jogos: 41, gols: 8, assistencias: 7 },
       ),
       createClub(
         "Rennes",
         { inicio: "02/09/2019", fim: "05/10/2020" },
-        { jogos: 36, gols: 8, assistencias: 7 }
+        { jogos: 36, gols: 8, assistencias: 7 },
       ),
       createClub(
         "Leeds United",
         { inicio: "06/10/2020", fim: "13/07/2022" },
-        { jogos: 67, gols: 17, assistencias: 12 }
+        { jogos: 67, gols: 17, assistencias: 12 },
       ),
       createClub(
         "Barcelona",
         { inicio: "14/07/2022", fim: "Presente" },
-        { jogos: 120, gols: 30, assistencias: 35 }
+        { jogos: 120, gols: 30, assistencias: 35 },
       ),
     ],
     selecao: {
@@ -13426,37 +13431,37 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "22/04/2019", fim: "16/01/2020" },
-        { jogos: 15, gols: 6, assistencias: 2 }
+        { jogos: 15, gols: 6, assistencias: 2 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "20/01/2020", fim: "17/08/2020" },
-        { jogos: 3, gols: 2, assistencias: 1 }
+        { jogos: 3, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "18/08/2020", fim: "16/08/2022" },
-        { jogos: 19, gols: 1, assistencias: 0 }
+        { jogos: 19, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Girona",
         { inicio: "17/08/2022", fim: "30/06/2023" },
-        { jogos: 18, gols: 2, assistencias: 0 }
+        { jogos: 18, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Frosinone",
         { inicio: "01/09/2023", fim: "29/08/2024" },
-        { jogos: 23, gols: 3, assistencias: 0 }
+        { jogos: 23, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Granada",
         { inicio: "30/08/2024", fim: "07/08/2025" },
-        { jogos: 25, gols: 1, assistencias: 0 }
+        { jogos: 25, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "08/08/2025", fim: "Presente" },
-        { jogos: 18, gols: 0, assistencias: 0 }
+        { jogos: 18, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -13492,32 +13497,32 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "01/01/2005", fim: "31/12/2008" },
-        { jogos: 104, gols: 6, assistencias: 0 }
+        { jogos: 104, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Bayer Leverkusen",
         { inicio: "01/01/2009", fim: "31/12/2012" },
-        { jogos: 108, gols: 8, assistencias: 14 }
+        { jogos: 108, gols: 8, assistencias: 14 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2013", fim: "31/12/2015" },
-        { jogos: 119, gols: 14, assistencias: 22 }
+        { jogos: 119, gols: 14, assistencias: 22 },
       ),
       createClub(
         "Beijing Guoan",
         { inicio: "01/01/2016", fim: "30/06/2021" },
-        { jogos: 150, gols: 40, assistencias: 35 }
+        { jogos: 150, gols: 40, assistencias: 35 },
       ),
       createClub(
         "Corinthians",
         { inicio: "07/20/2021", fim: "31/12/2023" },
-        { jogos: 124, gols: 15, assistencias: 15 }
+        { jogos: 124, gols: 15, assistencias: 15 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/01/2024", fim: "09/30/2025" },
-        { jogos: 35, gols: 1, assistencias: 2 }
+        { jogos: 35, gols: 1, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -13569,22 +13574,22 @@ export const jogadores = [
       createClub(
         "Sport Recife",
         { inicio: "01/01/2012", fim: "13/02/2017" },
-        { jogos: 236, gols: 4, assistencias: 13 }
+        { jogos: 236, gols: 4, assistencias: 13 },
       ),
       createClub(
         "Flamengo",
         { inicio: "13/02/2017", fim: "11/04/2022" },
-        { jogos: 207, gols: 6, assistencias: 13 }
+        { jogos: 207, gols: 6, assistencias: 13 },
       ),
       createClub(
         "Internacional",
         { inicio: "12/04/2022", fim: "30/12/2024" },
-        { jogos: 123, gols: 2, assistencias: 7 }
+        { jogos: 123, gols: 2, assistencias: 7 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 45, gols: 2, assistencias: 3 }
+        { jogos: 45, gols: 2, assistencias: 3 },
       ),
     ],
     selecao: {},
@@ -13642,27 +13647,27 @@ export const jogadores = [
       createClub(
         "América Mineiro",
         { inicio: "01/01/2015", fim: "31/12/2015" },
-        { jogos: 24, gols: 9, assistencias: 4 }
+        { jogos: 24, gols: 9, assistencias: 4 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/01/2016", fim: "08/08/2017" },
-        { jogos: 67, gols: 19, assistencias: 5 }
+        { jogos: 67, gols: 19, assistencias: 5 },
       ),
       createClub(
         "Watford",
         { inicio: "09/08/2017", fim: "24/07/2018" },
-        { jogos: 41, gols: 5, assistencias: 4 }
+        { jogos: 41, gols: 5, assistencias: 4 },
       ),
       createClub(
         "Everton",
         { inicio: "24/07/2018", fim: "30/06/2022" },
-        { jogos: 152, gols: 53, assistencias: 15 }
+        { jogos: 152, gols: 53, assistencias: 15 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "01/07/2022", fim: "Presente" },
-        { jogos: 94, gols: 22, assistencias: 11 }
+        { jogos: 94, gols: 22, assistencias: 11 },
       ),
     ],
     selecao: {
@@ -13717,72 +13722,72 @@ export const jogadores = [
       createClub(
         "Santa Cruz",
         { inicio: "01/01/1990", fim: "31/12/1992" },
-        { jogos: 30, gols: 10, assistencias: 0 }
+        { jogos: 30, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Mogi Mirim",
         { inicio: "01/01/1993", fim: "31/12/1993" },
-        { jogos: 38, gols: 21, assistencias: 0 }
+        { jogos: 38, gols: 21, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/1993", fim: "31/12/1994" },
-        { jogos: 62, gols: 21, assistencias: 0 }
+        { jogos: 62, gols: 21, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/1994", fim: "15/08/1996" },
-        { jogos: 100, gols: 55, assistencias: 10 }
+        { jogos: 100, gols: 55, assistencias: 10 },
       ),
       createClub(
         "Deportivo La Coruña",
         { inicio: "16/08/1996", fim: "14/08/1997" },
-        { jogos: 41, gols: 21, assistencias: 10 }
+        { jogos: 41, gols: 21, assistencias: 10 },
       ),
       createClub(
         "Barcelona",
         { inicio: "15/08/1997", fim: "23/07/2002" },
-        { jogos: 235, gols: 130, assistencias: 51 }
+        { jogos: 235, gols: 130, assistencias: 51 },
       ),
       createClub(
         "AC Milan",
         { inicio: "24/07/2002", fim: "01/12/2003" },
-        { jogos: 40, gols: 8, assistencias: 6 }
+        { jogos: 40, gols: 8, assistencias: 6 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2004", fim: "28/02/2004" },
-        { jogos: 11, gols: 2, assistencias: 1 }
+        { jogos: 11, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Olympiacos",
         { inicio: "01/07/2004", fim: "30/06/2007" },
-        { jogos: 101, gols: 43, assistencias: 15 }
+        { jogos: 101, gols: 43, assistencias: 15 },
       ),
       createClub(
         "AEK Atenas",
         { inicio: "01/07/2007", fim: "30/06/2008" },
-        { jogos: 35, gols: 9, assistencias: 4 }
+        { jogos: 35, gols: 9, assistencias: 4 },
       ),
       createClub(
         "Bunyodkor",
         { inicio: "01/09/2008", fim: "30/11/2010" },
-        { jogos: 76, gols: 43, assistencias: 10 }
+        { jogos: 76, gols: 43, assistencias: 10 },
       ),
       createClub(
         "São Paulo",
         { inicio: "01/01/2011", fim: "31/12/2011" },
-        { jogos: 30, gols: 5, assistencias: 4 }
+        { jogos: 30, gols: 5, assistencias: 4 },
       ),
       createClub(
         "Kabuscorp",
         { inicio: "01/01/2012", fim: "30/12/2012" },
-        { jogos: 21, gols: 11, assistencias: 2 }
+        { jogos: 21, gols: 11, assistencias: 2 },
       ),
       createClub(
         "Mogi Mirim",
         { inicio: "01/01/2014", fim: "15/03/2015" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -13878,17 +13883,17 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "01/01/1965", fim: "31/12/1974" },
-        { jogos: 474, gols: 140, assistencias: 40 }
+        { jogos: 474, gols: 140, assistencias: 40 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/01/1975", fim: "31/12/1978" },
-        { jogos: 158, gols: 55, assistencias: 15 }
+        { jogos: 158, gols: 55, assistencias: 15 },
       ),
       createClub(
         "Al-Hilal",
         { inicio: "01/01/1979", fim: "30/06/1981" },
-        { jogos: 59, gols: 23, assistencias: 5 }
+        { jogos: 59, gols: 23, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -13962,47 +13967,47 @@ export const jogadores = [
       createClub(
         "União São João",
         { inicio: "01/01/1991", fim: "31/12/1992" },
-        { jogos: 67, gols: 5, assistencias: 0 }
+        { jogos: 67, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "01/08/1992", fim: "31/12/1992" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/1993", fim: "31/07/1995" },
-        { jogos: 135, gols: 8, assistencias: 0 }
+        { jogos: 135, gols: 8, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/08/1995", fim: "30/06/1996" },
-        { jogos: 34, gols: 7, assistencias: 0 }
+        { jogos: 34, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/1996", fim: "30/06/2007" },
-        { jogos: 527, gols: 69, assistencias: 13 }
+        { jogos: 527, gols: 69, assistencias: 13 },
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "01/07/2007", fim: "31/12/2009" },
-        { jogos: 104, gols: 6, assistencias: 1 }
+        { jogos: 104, gols: 6, assistencias: 1 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2010", fim: "12/02/2011" },
-        { jogos: 64, gols: 5, assistencias: 1 }
+        { jogos: 64, gols: 5, assistencias: 1 },
       ),
       createClub(
         "Anzhi Makhachkala",
         { inicio: "12/02/2011", fim: "15/08/2012" },
-        { jogos: 31, gols: 5, assistencias: 2 }
+        { jogos: 31, gols: 5, assistencias: 2 },
       ),
       createClub(
         "Delhi Dynamos",
         { inicio: "02/07/2015", fim: "27/12/2015" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -14157,27 +14162,27 @@ export const jogadores = [
       createClub(
         "Figueirense",
         { inicio: "01/01/2009", fim: "31/12/2010" },
-        { jogos: 57, gols: 12, assistencias: 4 }
+        { jogos: 57, gols: 12, assistencias: 4 },
       ),
       createClub(
         "TSG Hoffenheim",
         { inicio: "01/01/2011", fim: "30/06/2015" },
-        { jogos: 153, gols: 49, assistencias: 36 }
+        { jogos: 153, gols: 49, assistencias: 36 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/07/2015", fim: "30/06/2023" },
-        { jogos: 362, gols: 111, assistencias: 79 }
+        { jogos: 362, gols: 111, assistencias: 79 },
       ),
       createClub(
         "Al-Ahli",
         { inicio: "04/07/2023", fim: "30/06/2025" },
-        { jogos: 65, gols: 21, assistencias: 7 }
+        { jogos: 65, gols: 21, assistencias: 7 },
       ),
       createClub(
         "Al-Sadd",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 7, gols: 2, assistencias: 0 }
+        { jogos: 7, gols: 2, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -14262,52 +14267,52 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "01/01/2002", fim: "31/08/2005" },
-        { jogos: 139, gols: 67, assistencias: 10 }
+        { jogos: 139, gols: 67, assistencias: 10 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/09/2005", fim: "01/09/2008" },
-        { jogos: 137, gols: 35, assistencias: 26 }
+        { jogos: 137, gols: 35, assistencias: 26 },
       ),
       createClub(
         "Manchester City",
         { inicio: "01/09/2008", fim: "28/01/2010" },
-        { jogos: 53, gols: 16, assistencias: 5 }
+        { jogos: 53, gols: 16, assistencias: 5 },
       ),
       createClub(
         "Santos",
         { inicio: "28/01/2010", fim: "31/07/2010" },
-        { jogos: 23, gols: 11, assistencias: 5 }
+        { jogos: 23, gols: 11, assistencias: 5 },
       ),
       createClub(
         "AC Milan",
         { inicio: "31/08/2010", fim: "06/08/2015" },
-        { jogos: 144, gols: 32, assistencias: 23 }
+        { jogos: 144, gols: 32, assistencias: 23 },
       ),
       createClub(
         "Santos",
         { inicio: "06/08/2014", fim: "30/06/2015" },
-        { jogos: 53, gols: 17, assistencias: 10 }
+        { jogos: 53, gols: 17, assistencias: 10 },
       ),
       createClub(
         "Guangzhou",
         { inicio: "16/07/2015", fim: "31/12/2015" },
-        { jogos: 11, gols: 5, assistencias: 1 }
+        { jogos: 11, gols: 5, assistencias: 1 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "11/02/2016", fim: "31/12/2017" },
-        { jogos: 109, gols: 38, assistencias: 20 }
+        { jogos: 109, gols: 38, assistencias: 20 },
       ),
       createClub(
         "İstanbul Başakşehir",
         { inicio: "17/01/2018", fim: "07/08/2020" },
-        { jogos: 47, gols: 4, assistencias: 2 }
+        { jogos: 47, gols: 4, assistencias: 2 },
       ), //
       createClub(
         "Santos",
         { inicio: "10/10/2020", fim: "16/10/2020" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -14422,47 +14427,47 @@ export const jogadores = [
       createClub(
         "Avaí",
         { inicio: "01/01/2012", fim: "31/12/2012" },
-        { jogos: 16, gols: 0, assistencias: 1 }
+        { jogos: 16, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/2013", fim: "31/05/2013" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "CRAC",
         { inicio: "01/06/2013", fim: "31/12/2013" },
-        { jogos: 20, gols: 0, assistencias: 0 }
+        { jogos: 20, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Penapolense",
         { inicio: "01/01/2014", fim: "30/05/2014" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Ponte Preta",
         { inicio: "01/06/2014", fim: "31/12/2015" },
-        { jogos: 74, gols: 2, assistencias: 9 }
+        { jogos: 74, gols: 2, assistencias: 9 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2016", fim: "31/12/2019" },
-        { jogos: 159, gols: 5, assistencias: 13 }
+        { jogos: 159, gols: 5, assistencias: 13 },
       ),
       createClub(
         "Internacional",
         { inicio: "01/01/2020", fim: "31/12/2021" },
-        { jogos: 52, gols: 3, assistencias: 9 }
+        { jogos: 52, gols: 3, assistencias: 9 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2022", fim: "31/12/2022" },
-        { jogos: 64, gols: 4, assistencias: 7 }
+        { jogos: 64, gols: 4, assistencias: 7 },
       ),
       createClub(
         "Olympiacos",
         { inicio: "11/12/2022", fim: "Presente" },
-        { jogos: 117, gols: 7, assistencias: 22 }
+        { jogos: 117, gols: 7, assistencias: 22 },
       ),
     ],
     selecao: {},
@@ -14519,17 +14524,17 @@ export const jogadores = [
       createClub(
         "São Paulo",
         { inicio: "17/02/2010", fim: "29/12/2018" },
-        { jogos: 277, gols: 13, assistencias: 4 }
+        { jogos: 277, gols: 13, assistencias: 4 },
       ),
       createClub(
         "Flamengo",
         { inicio: "29/12/2018", fim: "31/12/2023" },
-        { jogos: 152, gols: 6, assistencias: 1 }
+        { jogos: 152, gols: 6, assistencias: 1 },
       ),
       createClub(
         "Grêmio",
         { inicio: "30/05/2024", fim: "31/12/2024" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -14608,32 +14613,32 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "01/01/2020", fim: "31/12/2020" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Coritiba",
         { inicio: "01/02/2020", fim: "31/12/2020" },
-        { jogos: 6, gols: 1, assistencias: 0 }
+        { jogos: 6, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2021", fim: "13/08/2021" },
-        { jogos: 25, gols: 9, assistencias: 1 }
+        { jogos: 25, gols: 9, assistencias: 1 },
       ),
       createClub(
         "Fulham",
         { inicio: "13/08/2021", fim: "31/08/2022" },
-        { jogos: 28, gols: 5, assistencias: 0 }
+        { jogos: 28, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Middlesbrough",
         { inicio: "31/08/2022", fim: "31/05/2023" },
-        { jogos: 17, gols: 2, assistencias: 0 }
+        { jogos: 17, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Fulham",
         { inicio: "01/06/2023", fim: "Presente" },
-        { jogos: 54, gols: 17, assistencias: 3 }
+        { jogos: 54, gols: 17, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -14685,12 +14690,12 @@ export const jogadores = [
       createClub(
         "Sinop",
         { inicio: "01/01/1990", fim: "06/09/1990" },
-        { jogos: 20, gols: 0, assistencias: 0 }
+        { jogos: 20, gols: 0, assistencias: 0 },
       ),
       createClub(
         "São Paulo",
         { inicio: "07/09/1990", fim: "11/12/2015" },
-        { jogos: 1237, gols: 131, assistencias: 8 }
+        { jogos: 1237, gols: 131, assistencias: 8 },
       ),
     ],
     selecao: {
@@ -14788,72 +14793,72 @@ export const jogadores = [
       createClub(
         "Vasco da Gama",
         { inicio: "01/01/1985", fim: "31/07/1988" },
-        { jogos: 196, gols: 139, assistencias: 4 }
+        { jogos: 196, gols: 139, assistencias: 4 },
       ),
       createClub(
         "PSV Eindhoven",
         { inicio: "01/08/1988", fim: "31/12/1992" },
-        { jogos: 167, gols: 165, assistencias: 13 }
+        { jogos: 167, gols: 165, assistencias: 13 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/01/1993", fim: "31/12/1994" },
-        { jogos: 84, gols: 53, assistencias: 17 }
+        { jogos: 84, gols: 53, assistencias: 17 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/1995", fim: "31/12/1999" },
-        { jogos: 240, gols: 204, assistencias: 20 }
+        { jogos: 240, gols: 204, assistencias: 20 },
       ),
       createClub(
         "Valencia",
         { inicio: "01/01/1997", fim: "30/06/1997" },
-        { jogos: 21, gols: 14, assistencias: 2 }
+        { jogos: 21, gols: 14, assistencias: 2 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/01/2000", fim: "30/06/2002" },
-        { jogos: 140, gols: 131, assistencias: 10 }
+        { jogos: 140, gols: 131, assistencias: 10 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/07/2002", fim: "31/12/2004" },
-        { jogos: 54, gols: 39, assistencias: 4 }
+        { jogos: 54, gols: 39, assistencias: 4 },
       ),
       createClub(
         "Al-Sadd",
         { inicio: "01/03/2003", fim: "31/05/2004" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/01/2005", fim: "31/12/2005" },
-        { jogos: 42, gols: 37, assistencias: 1 }
+        { jogos: 42, gols: 37, assistencias: 1 },
       ),
       createClub(
         "Miami FC",
         { inicio: "01/04/2006", fim: "31/12/2006" },
-        { jogos: 29, gols: 22, assistencias: 1 }
+        { jogos: 29, gols: 22, assistencias: 1 },
       ),
       createClub(
         "Adelaide United",
         { inicio: "25/11/2006", fim: "15/12/2006" },
-        { jogos: 4, gols: 1, assistencias: 0 }
+        { jogos: 4, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Vasco da Gama",
         { inicio: "01/01/2007", fim: "30/06/2008" },
-        { jogos: 32, gols: 19, assistencias: 0 }
+        { jogos: 32, gols: 19, assistencias: 0 },
       ),
       createClub(
         "America-RJ",
         { inicio: "26/03/2009", fim: "15/04/2009" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "America-RJ",
         { inicio: "16/04/2024", fim: "30/04/2024" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -15060,27 +15065,27 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "01/01/2020", fim: "30/06/2021" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Mazatlán",
         { inicio: "01/07/2021", fim: "30/06/2021" },
-        { jogos: 9, gols: 0, assistencias: 1 }
+        { jogos: 9, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Guarani",
         { inicio: "01/07/2021", fim: "31/12/2022" },
-        { jogos: 63, gols: 5, assistencias: 7 }
+        { jogos: 63, gols: 5, assistencias: 7 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "06/04/2023", fim: "18/07/2025" },
-        { jogos: 138, gols: 11, assistencias: 5 }
+        { jogos: 138, gols: 11, assistencias: 5 },
       ),
       createClub(
         "Benfica",
         { inicio: "19/07/2025", fim: "Presente" },
-        { jogos: 22, gols: 0, assistencias: 0 }
+        { jogos: 22, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -15126,42 +15131,42 @@ export const jogadores = [
       createClub(
         "Grêmio",
         { inicio: "01/01/1998", fim: "31/07/2001" },
-        { jogos: 141, gols: 68, assistencias: 35 }
+        { jogos: 141, gols: 68, assistencias: 35 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/08/2001", fim: "18/07/2003" },
-        { jogos: 77, gols: 25, assistencias: 18 }
+        { jogos: 77, gols: 25, assistencias: 18 },
       ),
       createClub(
         "Barcelona",
         { inicio: "19/07/2003", fim: "15/07/2008" },
-        { jogos: 207, gols: 94, assistencias: 70 }
+        { jogos: 207, gols: 94, assistencias: 70 },
       ),
       createClub(
         "AC Milan",
         { inicio: "16/07/2008", fim: "10/01/2011" },
-        { jogos: 95, gols: 26, assistencias: 29 }
+        { jogos: 95, gols: 26, assistencias: 29 },
       ),
       createClub(
         "Flamengo",
         { inicio: "11/01/2011", fim: "31/05/2012" },
-        { jogos: 72, gols: 28, assistencias: 13 }
+        { jogos: 72, gols: 28, assistencias: 13 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "04/06/2012", fim: "31/07/2014" },
-        { jogos: 88, gols: 28, assistencias: 28 }
+        { jogos: 88, gols: 28, assistencias: 28 },
       ),
       createClub(
         "Querétaro",
         { inicio: "05/09/2014", fim: "30/06/2015" },
-        { jogos: 29, gols: 8, assistencias: 5 }
+        { jogos: 29, gols: 8, assistencias: 5 },
       ),
       createClub(
         "Fluminense",
         { inicio: "12/07/2015", fim: "28/09/2015" },
-        { jogos: 9, gols: 0, assistencias: 0 }
+        { jogos: 9, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -15349,37 +15354,37 @@ export const jogadores = [
       createClub(
         "Cruzeiro",
         { inicio: "01/01/1993", fim: "30/06/1994" },
-        { jogos: 47, gols: 44, assistencias: 6 }
+        { jogos: 47, gols: 44, assistencias: 6 },
       ),
       createClub(
         "PSV Eindhoven",
         { inicio: "01/07/1994", fim: "30/06/1996" },
-        { jogos: 57, gols: 54, assistencias: 9 }
+        { jogos: 57, gols: 54, assistencias: 9 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/1996", fim: "30/06/1997" },
-        { jogos: 49, gols: 47, assistencias: 12 }
+        { jogos: 49, gols: 47, assistencias: 12 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/1997", fim: "31/08/2002" },
-        { jogos: 99, gols: 59, assistencias: 5 }
+        { jogos: 99, gols: 59, assistencias: 5 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/09/2002", fim: "17/01/2007" },
-        { jogos: 177, gols: 104, assistencias: 35 }
+        { jogos: 177, gols: 104, assistencias: 35 },
       ),
       createClub(
         "AC Milan",
         { inicio: "18/01/2007", fim: "30/05/2008" },
-        { jogos: 20, gols: 9, assistencias: 3 }
+        { jogos: 20, gols: 9, assistencias: 3 },
       ),
       createClub(
         "Corinthians",
         { inicio: "09/12/2008", fim: "14/02/2011" },
-        { jogos: 69, gols: 35, assistencias: 10 }
+        { jogos: 69, gols: 35, assistencias: 10 },
       ),
     ],
     selecao: {
@@ -15581,37 +15586,37 @@ export const jogadores = [
       createClub(
         "Remo",
         { inicio: "01/01/2014", fim: "31/12/2014" },
-        { jogos: 4, gols: 0, assistencias: 0 }
+        { jogos: 4, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2015", fim: "30/06/2016" },
-        { jogos: 49, gols: 11, assistencias: 9 }
+        { jogos: 49, gols: 11, assistencias: 9 },
       ),
       createClub(
         "Náutico",
         { inicio: "01/07/2016", fim: "31/12/2016" },
-        { jogos: 22, gols: 5, assistencias: 4 }
+        { jogos: 22, gols: 5, assistencias: 4 },
       ),
       createClub(
         "Albirex Niigata",
         { inicio: "01/01/2017", fim: "31/12/2017" },
-        { jogos: 7, gols: 0, assistencias: 1 }
+        { jogos: 7, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "01/01/2018", fim: "31/01/2020" },
-        { jogos: 80, gols: 19, assistencias: 11 }
+        { jogos: 80, gols: 19, assistencias: 11 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/02/2020", fim: "31/12/2024" },
-        { jogos: 284, gols: 70, assistencias: 34 }
+        { jogos: 284, gols: 70, assistencias: 34 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 56, gols: 13, assistencias: 1 }
+        { jogos: 56, gols: 13, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -15668,37 +15673,37 @@ export const jogadores = [
       createClub(
         "São Bernardo",
         { inicio: "01/01/2017", fim: "30/06/2017" },
-        { jogos: 11, gols: 1, assistencias: 0 }
+        { jogos: 11, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Flamengo de Guarulhos",
         { inicio: "01/07/2017", fim: "30/06/2018" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Gil Vicente",
         { inicio: "01/07/2019", fim: "30/06/2022" },
-        { jogos: 99, gols: 26, assistencias: 11 }
+        { jogos: 99, gols: 26, assistencias: 11 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/07/2022", fim: "31/07/2022" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Valencia",
         { inicio: "01/08/2022", fim: "30/06/2023" },
-        { jogos: 41, gols: 8, assistencias: 3 }
+        { jogos: 41, gols: 8, assistencias: 3 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/07/2023", fim: "28/07/2025" },
-        { jogos: 70, gols: 9, assistencias: 8 }
+        { jogos: 70, gols: 9, assistencias: 8 },
       ),
       createClub(
         "Flamengo",
         { inicio: "29/07/2025", fim: "Presente" },
-        { jogos: 24, gols: 4, assistencias: 1 }
+        { jogos: 24, gols: 4, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -15734,37 +15739,37 @@ export const jogadores = [
       createClub(
         "Botafogo-SP",
         { inicio: "01/01/1974", fim: "31/12/1978" },
-        { jogos: 135, gols: 67, assistencias: 0 }
+        { jogos: 135, gols: 67, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/01/1979", fim: "31/12/1984" },
-        { jogos: 298, gols: 172, assistencias: 0 }
+        { jogos: 298, gols: 172, assistencias: 0 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "01/08/1984", fim: "30/06/1985" },
-        { jogos: 29, gols: 6, assistencias: 0 }
+        { jogos: 29, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/1986", fim: "31/12/1987" },
-        { jogos: 20, gols: 5, assistencias: 0 }
+        { jogos: 20, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Santos",
         { inicio: "01/01/1988", fim: "30/06/1988" },
-        { jogos: 9, gols: 2, assistencias: 0 }
+        { jogos: 9, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Botafogo-SP",
         { inicio: "01/07/1988", fim: "31/12/1989" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Garforth Town",
         { inicio: "01/10/2004", fim: "31/10/2004" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -15878,32 +15883,32 @@ export const jogadores = [
       createClub(
         "Internacional",
         { inicio: "01/01/1984", fim: "30/06/1990" },
-        { jogos: 191, gols: 0, assistencias: 0 }
+        { jogos: 191, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Parma",
         { inicio: "01/07/1990", fim: "11/01/1993" },
-        { jogos: 79, gols: 0, assistencias: 0 }
+        { jogos: 79, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Reggiana",
         { inicio: "01/07/1993", fim: "30/06/1994" },
-        { jogos: 31, gols: 0, assistencias: 0 }
+        { jogos: 31, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "01/07/1994", fim: "30/06/1997" },
-        { jogos: 153, gols: 0, assistencias: 0 }
+        { jogos: 153, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Galatasaray",
         { inicio: "01/07/1998", fim: "30/06/2001" },
-        { jogos: 106, gols: 0, assistencias: 0 }
+        { jogos: 106, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Parma",
         { inicio: "01/07/2001", fim: "30/06/2003" },
-        { jogos: 24, gols: 0, assistencias: 0 }
+        { jogos: 24, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -16003,42 +16008,42 @@ export const jogadores = [
       createClub(
         "Juventude",
         { inicio: "01/01/2004", fim: "31/12/2004" },
-        { jogos: 28, gols: 3, assistencias: 0 }
+        { jogos: 28, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Dínamo Moscou",
         { inicio: "01/01/2005", fim: "31/12/2005" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/01/2006", fim: "31/12/2008" },
-        { jogos: 146, gols: 14, assistencias: 2 }
+        { jogos: 146, gols: 14, assistencias: 2 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/01/2009", fim: "30/06/2012" },
-        { jogos: 119, gols: 6, assistencias: 2 }
+        { jogos: 119, gols: 6, assistencias: 2 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/07/2012", fim: "31/08/2020" },
-        { jogos: 315, gols: 20, assistencias: 6 }
+        { jogos: 315, gols: 20, assistencias: 6 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/09/2020", fim: "30/06/2024" },
-        { jogos: 151, gols: 9, assistencias: 4 }
+        { jogos: 151, gols: 9, assistencias: 4 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/07/2024", fim: "17/12/2025" },
-        { jogos: 66, gols: 5, assistencias: 3 }
+        { jogos: 66, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Porto",
         { inicio: "20/12/2025", fim: "Presente" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -16215,47 +16220,47 @@ export const jogadores = [
       createClub(
         "Botafogo",
         { inicio: "01/01/2011", fim: "25/08/2013" },
-        { jogos: 41, gols: 11, assistencias: 4 }
+        { jogos: 41, gols: 11, assistencias: 4 },
       ),
       createClub(
         "CSKA Moscou",
         { inicio: "26/08/2013", fim: "31/12/2014" },
-        { jogos: 51, gols: 12, assistencias: 1 }
+        { jogos: 51, gols: 12, assistencias: 1 },
       ),
       createClub(
         "Internacional",
         { inicio: "16/01/2015", fim: "31/12/2016" },
-        { jogos: 98, gols: 29, assistencias: 3 }
+        { jogos: 98, gols: 29, assistencias: 3 },
       ),
       createClub(
         "CSKA Moscou",
         { inicio: "01/01/2017", fim: "27/07/2018" },
-        { jogos: 33, gols: 6, assistencias: 4 }
+        { jogos: 33, gols: 6, assistencias: 4 },
       ),
       createClub(
         "Flamengo",
         { inicio: "28/07/2018", fim: "29/08/2022" },
-        { jogos: 215, gols: 29, assistencias: 31 }
+        { jogos: 215, gols: 29, assistencias: 31 },
       ),
       createClub(
         "Al-Ettifaq",
         { inicio: "30/08/2022", fim: "29/01/2024" },
-        { jogos: 52, gols: 9, assistencias: 3 }
+        { jogos: 52, gols: 9, assistencias: 3 },
       ),
       createClub(
         "Al-Shabab",
         { inicio: "30/01/2024", fim: "29/06/2024" },
-        { jogos: 8, gols: 1, assistencias: 2 }
+        { jogos: 8, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Al-Ettifaq",
         { inicio: "30/06/2024", fim: "29/06/2025" },
-        { jogos: 14, gols: 4, assistencias: 2 }
+        { jogos: 14, gols: 4, assistencias: 2 },
       ),
       createClub(
         "Corinthians",
         { inicio: "11/08/2025", fim: "Presente" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -16311,27 +16316,27 @@ export const jogadores = [
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2021", fim: "13/04/2022" },
-        { jogos: 16, gols: 6, assistencias: 1 }
+        { jogos: 16, gols: 6, assistencias: 1 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "14/04/2022", fim: "31/12/2023" },
-        { jogos: 81, gols: 28, assistencias: 11 }
+        { jogos: 81, gols: 28, assistencias: 11 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/01/2024", fim: "30/06/2024" },
-        { jogos: 16, gols: 2, assistencias: 0 }
+        { jogos: 16, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Real Betis",
         { inicio: "01/07/2024", fim: "31/12/2024" },
-        { jogos: 33, gols: 7, assistencias: 0 }
+        { jogos: 33, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 55, gols: 20, assistencias: 5 }
+        { jogos: 55, gols: 20, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -16408,12 +16413,12 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "13/05/2017", fim: "11/07/2018" },
-        { jogos: 69, gols: 14, assistencias: 5 }
+        { jogos: 69, gols: 14, assistencias: 5 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "30/09/2018", fim: "Presente" },
-        { jogos: 281, gols: 101, assistencias: 65 }
+        { jogos: 281, gols: 101, assistencias: 65 },
       ),
     ],
     selecao: {
@@ -16574,27 +16579,27 @@ export const jogadores = [
       createClub(
         "Atlético Tubarão",
         { inicio: "01/01/2020", fim: "31/12/2020" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2021", fim: "30/06/2022" },
-        { jogos: 4, gols: 0, assistencias: 0 }
+        { jogos: 4, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Juventus Next Gen",
         { inicio: "01/07/2022", fim: "31/12/2022" },
-        { jogos: 12, gols: 1, assistencias: 0 }
+        { jogos: 12, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2023", fim: "30/07/2025" },
-        { jogos: 132, gols: 4, assistencias: 6 }
+        { jogos: 132, gols: 4, assistencias: 6 },
       ),
       createClub(
         "Roma",
         { inicio: "31/07/2025", fim: "Presente" },
-        { jogos: 6, gols: 1, assistencias: 0 }
+        { jogos: 6, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -16646,12 +16651,12 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "01/00/2022", fim: "31/12/2023" },
-        { jogos: 84, gols: 9, assistencias: 7 }
+        { jogos: 84, gols: 9, assistencias: 7 },
       ),
       createClub(
         "Al-Nassr",
         { inicio: "01/01/2024", fim: "Presente" },
-        { jogos: 31, gols: 3, assistencias: 0 }
+        { jogos: 31, gols: 3, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -16682,47 +16687,47 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "01/01/2007", fim: "28/02/2007" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Remo",
         { inicio: "01/03/2007", fim: "30/06/2007" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Corinthians",
         { inicio: "01/07/2007", fim: "31/12/2008" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Oeste",
         { inicio: "01/01/2009", fim: "30/06/2009" },
-        { jogos: 18, gols: 0, assistencias: 0 }
+        { jogos: 18, gols: 0, assistencias: 0 },
       ),
       createClub(
         "América de Natal",
         { inicio: "01/07/2009", fim: "31/12/2009" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Botafogo-SP",
         { inicio: "01/01/2010", fim: "31/12/2010" },
-        { jogos: 22, gols: 0, assistencias: 0 }
+        { jogos: 22, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Portuguesa",
         { inicio: "01/01/2011", fim: "31/12/2011" },
-        { jogos: 105, gols: 0, assistencias: 0 }
+        { jogos: 105, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "01/01/2012", fim: "31/12/2017" },
-        { jogos: 301, gols: 0, assistencias: 2 }
+        { jogos: 301, gols: 0, assistencias: 2 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/2018", fim: "Presente" },
-        { jogos: 448, gols: 0, assistencias: 5 }
+        { jogos: 448, gols: 0, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -16810,52 +16815,52 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "01/01/2012", fim: "30/07/2013" },
-        { jogos: 17, gols: 0, assistencias: 0 }
+        { jogos: 17, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Portuguesa",
         { inicio: "01/08/2013", fim: "31/12/2013" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Chapecoense",
         { inicio: "01/01/2014", fim: "30/06/2014" },
-        { jogos: 8, gols: 0, assistencias: 0 }
+        { jogos: 8, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Grêmio",
         { inicio: "01/07/2014", fim: "31/12/2014" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Atlético-GO",
         { inicio: "01/01/2015", fim: "30/04/2015" },
-        { jogos: 14, gols: 1, assistencias: 1 }
+        { jogos: 14, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Botafogo",
         { inicio: "01/05/2015", fim: "31/12/2015" },
-        { jogos: 58, gols: 7, assistencias: 3 }
+        { jogos: 58, gols: 7, assistencias: 3 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2016", fim: "13/07/2022" },
-        { jogos: 371, gols: 35, assistencias: 23 }
+        { jogos: 371, gols: 35, assistencias: 23 },
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "14/07/2022", fim: "31/07/2023" },
-        { jogos: 45, gols: 1, assistencias: 5 }
+        { jogos: 45, gols: 1, assistencias: 5 },
       ),
       createClub(
         "Panathinaikos",
         { inicio: "01/08/2023", fim: "31/07/2025" },
-        { jogos: 84, gols: 4, assistencias: 4 }
+        { jogos: 84, gols: 4, assistencias: 4 },
       ),
       createClub(
         "Santos",
         { inicio: "01/08/2025", fim: "Presente" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -16910,42 +16915,42 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "01/01/2006", fim: "31/07/2007" },
-        { jogos: 41, gols: 2, assistencias: 2 }
+        { jogos: 41, gols: 2, assistencias: 2 },
       ),
       createClub(
         "Shakhtar Donetsk",
         { inicio: "01/08/2007", fim: "30/01/2013" },
-        { jogos: 221, gols: 37, assistencias: 63 }
+        { jogos: 221, gols: 37, assistencias: 63 },
       ),
       createClub(
         "Anzhi Makhachkala",
         { inicio: "31/01/2013", fim: "28/08/2013" },
-        { jogos: 17, gols: 1, assistencias: 6 }
+        { jogos: 17, gols: 1, assistencias: 6 },
       ),
       createClub(
         "Chelsea",
         { inicio: "29/08/2013", fim: "09/08/2020" },
-        { jogos: 339, gols: 63, assistencias: 62 }
+        { jogos: 339, gols: 63, assistencias: 62 },
       ),
       createClub(
         "Arsenal",
         { inicio: "14/08/2020", fim: "30/08/2021" },
-        { jogos: 37, gols: 1, assistencias: 7 }
+        { jogos: 37, gols: 1, assistencias: 7 },
       ),
       createClub(
         "Corinthians",
         { inicio: "31/08/2021", fim: "12/08/2022" },
-        { jogos: 44, gols: 1, assistencias: 5 }
+        { jogos: 44, gols: 1, assistencias: 5 },
       ),
       createClub(
         "Fulham",
         { inicio: "01/09/2022", fim: "31/07/2025" },
-        { jogos: 77, gols: 10, assistencias: 7 }
+        { jogos: 77, gols: 10, assistencias: 7 },
       ),
       createClub(
         "Grêmio",
         { inicio: "01/08/2025", fim: "Presente" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -17009,22 +17014,22 @@ export const jogadores = [
       createClub(
         "Santos",
         { inicio: "01/11/2017", fim: "31/07/2020" },
-        { jogos: 27, gols: 3, assistencias: 0 }
+        { jogos: 27, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Internacional",
         { inicio: "01/08/2020", fim: "30/01/2022" },
-        { jogos: 85, gols: 31, assistencias: 5 }
+        { jogos: 85, gols: 31, assistencias: 5 },
       ),
       createClub(
         "Zenit",
         { inicio: "31/01/2022", fim: "17/07/2022" },
-        { jogos: 14, gols: 6, assistencias: 3 }
+        { jogos: 14, gols: 6, assistencias: 3 },
       ),
       createClub(
         "Corinthians",
         { inicio: "18/07/2022", fim: "Presente" },
-        { jogos: 198, gols: 72, assistencias: 20 }
+        { jogos: 198, gols: 72, assistencias: 20 },
       ),
     ],
     selecao: {
@@ -17070,37 +17075,37 @@ export const jogadores = [
       createClub(
         "Athletico Paranaense",
         { inicio: "02/05/2015", fim: "16/05/2019" },
-        { jogos: 30, gols: 1, assistencias: 0 }
+        { jogos: 30, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Vitória",
         { inicio: "17/05/2019", fim: "31/12/2020" },
-        { jogos: 11, gols: 1, assistencias: 0 }
+        { jogos: 11, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "01/01/2021", fim: "08/04/2022" },
-        { jogos: 115, gols: 6, assistencias: 2 }
+        { jogos: 115, gols: 6, assistencias: 2 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "09/04/2022", fim: "31/12/2022" },
-        { jogos: 33, gols: 1, assistencias: 3 }
+        { jogos: 33, gols: 1, assistencias: 3 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "01/01/2023", fim: "31/12/2023" },
-        { jogos: 60, gols: 2, assistencias: 0 }
+        { jogos: 60, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "27/01/2024", fim: "04/01/2025" },
-        { jogos: 47, gols: 3, assistencias: 0 }
+        { jogos: 47, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Santos",
         { inicio: "05/01/2025", fim: "Presente" },
-        { jogos: 26, gols: 1, assistencias: 0 }
+        { jogos: 26, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: null,
@@ -17137,37 +17142,37 @@ export const jogadores = [
       createClub(
         "Coritiba",
         { inicio: "01/01/2012", fim: "31/12/2013" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Novo Hamburgo",
         { inicio: "01/01/2014", fim: "30/04/2014" },
-        { jogos: 14, gols: 3, assistencias: 2 }
+        { jogos: 14, gols: 3, assistencias: 2 },
       ),
       createClub(
         "Coritiba",
         { inicio: "01/05/2014", fim: "30/04/2015" },
-        { jogos: 12, gols: 0, assistencias: 10 }
+        { jogos: 12, gols: 0, assistencias: 10 },
       ),
       createClub(
         "Londrina",
         { inicio: "01/05/2015", fim: "31/12/2016" },
-        { jogos: 22, gols: 4, assistencias: 3 }
+        { jogos: 22, gols: 4, assistencias: 3 },
       ),
       createClub(
         "Bahia",
         { inicio: "01/01/2017", fim: "31/12/2018" },
-        { jogos: 168, gols: 32, assistencias: 29 }
+        { jogos: 168, gols: 32, assistencias: 29 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/01/2019", fim: "31/01/2025" },
-        { jogos: 311, gols: 32, assistencias: 34 }
+        { jogos: 311, gols: 32, assistencias: 34 },
       ),
       createClub(
         "Santos",
         { inicio: "01/02/2025", fim: "Presente" },
-        { jogos: 23, gols: 1, assistencias: 1 }
+        { jogos: 23, gols: 1, assistencias: 1 },
       ),
     ],
     selecao: {},
@@ -17215,22 +17220,22 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "01/01/1971", fim: "30/06/1983" },
-        { jogos: 488, gols: 380, assistencias: 100 }
+        { jogos: 488, gols: 380, assistencias: 100 },
       ),
       createClub(
         "Udinese",
         { inicio: "01/07/1983", fim: "30/06/1985" },
-        { jogos: 53, gols: 30, assistencias: 15 }
+        { jogos: 53, gols: 30, assistencias: 15 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/07/1985", fim: "31/12/1989" },
-        { jogos: 243, gols: 129, assistencias: 40 }
+        { jogos: 243, gols: 129, assistencias: 40 },
       ),
       createClub(
         "Kashima Antlers",
         { inicio: "01/01/1991", fim: "31/12/1994" },
-        { jogos: 88, gols: 54, assistencias: 10 }
+        { jogos: 88, gols: 54, assistencias: 10 },
       ),
     ],
     selecao: {
@@ -17448,52 +17453,52 @@ export const jogadores = [
       createClub(
         "Hebros Harmanli",
         { inicio: "01/01/1982", fim: "30/12/1994" },
-        { jogos: 32, gols: 14, assistencias: 2 }
+        { jogos: 32, gols: 14, assistencias: 2 },
       ),
       createClub(
         "CSKA Sófia",
         { inicio: "01/01/1985", fim: "30/06/1990" },
-        { jogos: 172, gols: 112, assistencias: 15 }
+        { jogos: 172, gols: 112, assistencias: 15 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/1990", fim: "30/06/1995" },
-        { jogos: 214, gols: 109, assistencias: 40 }
+        { jogos: 214, gols: 109, assistencias: 40 },
       ),
       createClub(
         "Parma",
         { inicio: "01/07/1995", fim: "30/06/1996" },
-        { jogos: 31, gols: 7, assistencias: 3 }
+        { jogos: 31, gols: 7, assistencias: 3 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/1996", fim: "30/02/1998" },
-        { jogos: 41, gols: 9, assistencias: 10 }
+        { jogos: 41, gols: 9, assistencias: 10 },
       ),
       createClub(
         "CSKA Sófia",
         { inicio: "01/03/1998", fim: "31/04/1998" },
-        { jogos: 4, gols: 1, assistencias: 0 }
+        { jogos: 4, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Al-Nassr",
         { inicio: "01/05/1998", fim: "30/11/1998" },
-        { jogos: 2, gols: 1, assistencias: 0 }
+        { jogos: 2, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Kashiwa Reysol",
         { inicio: "01/12/1998", fim: "31/12/1999" },
-        { jogos: 28, gols: 13, assistencias: 0 }
+        { jogos: 28, gols: 13, assistencias: 0 },
       ),
       createClub(
         "Chicago Fire",
         { inicio: "01/01/2000", fim: "31/12/2002" },
-        { jogos: 51, gols: 18, assistencias: 12 }
+        { jogos: 51, gols: 18, assistencias: 12 },
       ),
       createClub(
         "D.C. United",
         { inicio: "01/01/2003", fim: "31/12/2003" },
-        { jogos: 21, gols: 5, assistencias: 4 }
+        { jogos: 21, gols: 5, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -17586,42 +17591,42 @@ export const jogadores = [
       createClub(
         "Hamburgo SV",
         { inicio: "01/07/2007", fim: "30/06/2010" },
-        { jogos: 37, gols: 5, assistencias: 2 }
+        { jogos: 37, gols: 5, assistencias: 2 },
       ),
       createClub(
         "Nürnberg",
         { inicio: "01/07/2009", fim: "30/06/2010" },
-        { jogos: 27, gols: 6, assistencias: 1 }
+        { jogos: 27, gols: 6, assistencias: 1 },
       ),
       createClub(
         "Mainz 05",
         { inicio: "01/07/2011", fim: "30/06/2014" },
-        { jogos: 82, gols: 22, assistencias: 10 }
+        { jogos: 82, gols: 22, assistencias: 10 },
       ),
       createClub(
         "Schalke 04",
         { inicio: "01/07/2014", fim: "30/06/2017" },
-        { jogos: 106, gols: 22, assistencias: 17 }
+        { jogos: 106, gols: 22, assistencias: 17 },
       ),
       createClub(
         "Stoke City",
         { inicio: "01/07/2017", fim: "31/08/2018" },
-        { jogos: 32, gols: 5, assistencias: 5 }
+        { jogos: 32, gols: 5, assistencias: 5 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "31/08/2018", fim: "30/06/2020" },
-        { jogos: 51, gols: 9, assistencias: 3 }
+        { jogos: 51, gols: 9, assistencias: 3 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "05/10/2020", fim: "30/06/2024" },
-        { jogos: 122, gols: 38, assistencias: 12 }
+        { jogos: 122, gols: 38, assistencias: 12 },
       ),
       createClub(
         "New York Red Bulls",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 33, gols: 17, assistencias: 5 }
+        { jogos: 33, gols: 17, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -17660,72 +17665,72 @@ export const jogadores = [
       createClub(
         "Real Madrid",
         { inicio: "01/01/1997", fim: "30/06/1997" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "30/06/1998", fim: "30/12/1998" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Leganés",
         { inicio: "01/01/1999", fim: "30/12/1999" },
-        { jogos: 30, gols: 4, assistencias: 0 }
+        { jogos: 30, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Espanyol",
         { inicio: "01/01/2000", fim: "30/06/2000" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Mallorca",
         { inicio: "01/07/2000", fim: "30/06/2004" },
-        { jogos: 165, gols: 70, assistencias: 10 }
+        { jogos: 165, gols: 70, assistencias: 10 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2004", fim: "26/07/2009" },
-        { jogos: 199, gols: 130, assistencias: 40 }
+        { jogos: 199, gols: 130, assistencias: 40 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "27/07/2009", fim: "23/08/2011" },
-        { jogos: 102, gols: 53, assistencias: 17 }
+        { jogos: 102, gols: 53, assistencias: 17 },
       ),
       createClub(
         "Anzhi Makhachkala",
         { inicio: "24/08/2011", fim: "29/08/2013" },
-        { jogos: 73, gols: 36, assistencias: 12 }
+        { jogos: 73, gols: 36, assistencias: 12 },
       ),
       createClub(
         "Chelsea",
         { inicio: "29/08/2013", fim: "30/06/2014" },
-        { jogos: 35, gols: 12, assistencias: 6 }
+        { jogos: 35, gols: 12, assistencias: 6 },
       ),
       createClub(
         "Everton",
         { inicio: "26/08/2014", fim: "29/01/2015" },
-        { jogos: 20, gols: 4, assistencias: 2 }
+        { jogos: 20, gols: 4, assistencias: 2 },
       ),
       createClub(
         "Sampdoria",
         { inicio: "29/01/2015", fim: "30/06/2015" },
-        { jogos: 14, gols: 2, assistencias: 1 }
+        { jogos: 14, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Antalyaspor",
         { inicio: "01/07/2015", fim: "30/01/2018" },
-        { jogos: 77, gols: 44, assistencias: 8 }
+        { jogos: 77, gols: 44, assistencias: 8 },
       ),
       createClub(
         "Konyaspor",
         { inicio: "31/01/2018", fim: "31/08/2018" },
-        { jogos: 14, gols: 6, assistencias: 1 }
+        { jogos: 14, gols: 6, assistencias: 1 },
       ),
       createClub(
         "Qatar SC",
         { inicio: "01/09/2018", fim: "30/06/2019" },
-        { jogos: 6, gols: 3, assistencias: 0 }
+        { jogos: 6, gols: 3, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -17811,12 +17816,12 @@ export const jogadores = [
       createClub(
         "Vancouver Whitecaps FC",
         { inicio: "15/07/2016", fim: "30/06/2018" },
-        { jogos: 81, gols: 12, assistencias: 14 }
+        { jogos: 81, gols: 12, assistencias: 14 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2018", fim: "Presente" },
-        { jogos: 226, gols: 14, assistencias: 30 }
+        { jogos: 226, gols: 14, assistencias: 30 },
       ),
     ],
     selecao: {
@@ -17899,62 +17904,62 @@ export const jogadores = [
       createClub(
         "Cobreloa",
         { inicio: "01/01/2005", fim: "30/06/2006" },
-        { jogos: 11, gols: 4, assistencias: 0 }
+        { jogos: 11, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Colo-Colo",
         { inicio: "01/07/2006", fim: "30/06/2007" },
-        { jogos: 35, gols: 8, assistencias: 3 }
+        { jogos: 35, gols: 8, assistencias: 3 },
       ),
       createClub(
         "River Plate",
         { inicio: "01/07/2007", fim: "30/06/2008" },
-        { jogos: 31, gols: 4, assistencias: 3 }
+        { jogos: 31, gols: 4, assistencias: 3 },
       ),
       createClub(
         "Udinese",
         { inicio: "01/07/2008", fim: "20/07/2011" },
-        { jogos: 112, gols: 21, assistencias: 20 }
+        { jogos: 112, gols: 21, assistencias: 20 },
       ),
       createClub(
         "Barcelona",
         { inicio: "21/07/2011", fim: "10/07/2014" },
-        { jogos: 141, gols: 46, assistencias: 38 }
+        { jogos: 141, gols: 46, assistencias: 38 },
       ),
       createClub(
         "Arsenal",
         { inicio: "11/07/2014", fim: "22/01/2018" },
-        { jogos: 166, gols: 80, assistencias: 44 }
+        { jogos: 166, gols: 80, assistencias: 44 },
       ),
       createClub(
         "Manchester United",
         { inicio: "22/01/2018", fim: "29/08/2019" },
-        { jogos: 45, gols: 5, assistencias: 9 }
+        { jogos: 45, gols: 5, assistencias: 9 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "29/08/2019", fim: "08/08/2022" },
-        { jogos: 109, gols: 20, assistencias: 22 }
+        { jogos: 109, gols: 20, assistencias: 22 },
       ),
       createClub(
         "Olympique de Marseille",
         { inicio: "10/08/2022", fim: "30/06/2023" },
-        { jogos: 44, gols: 18, assistencias: 3 }
+        { jogos: 44, gols: 18, assistencias: 3 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "25/08/2023", fim: "30/07/2024" },
-        { jogos: 33, gols: 4, assistencias: 6 }
+        { jogos: 33, gols: 4, assistencias: 6 },
       ),
       createClub(
         "Udinese",
         { inicio: "01/08/2024", fim: "30/08/2025" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Sevilla",
         { inicio: "01/09/2025", fim: "Presente" },
-        { jogos: 11, gols: 2, assistencias: 1 }
+        { jogos: 11, gols: 2, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -18031,47 +18036,47 @@ export const jogadores = [
       createClub(
         "Colo-Colo",
         { inicio: "01/01/2005", fim: "30/06/2007" },
-        { jogos: 56, gols: 5, assistencias: 4 }
+        { jogos: 56, gols: 5, assistencias: 4 },
       ),
       createClub(
         "Bayer Leverkusen",
         { inicio: "01/07/2007", fim: "21/07/2011" },
-        { jogos: 144, gols: 21, assistencias: 24 }
+        { jogos: 144, gols: 21, assistencias: 24 },
       ),
       createClub(
         "Juventus",
         { inicio: "22/07/2011", fim: "28/07/2015" },
-        { jogos: 171, gols: 48, assistencias: 25 }
+        { jogos: 171, gols: 48, assistencias: 25 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "28/07/2015", fim: "06/08/2018" },
-        { jogos: 124, gols: 22, assistencias: 18 }
+        { jogos: 124, gols: 22, assistencias: 18 },
       ),
       createClub(
         "Barcelona",
         { inicio: "06/08/2018", fim: "22/09/2020" },
-        { jogos: 96, gols: 11, assistencias: 10 }
+        { jogos: 96, gols: 11, assistencias: 10 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "22/09/2020", fim: "11/07/2022" },
-        { jogos: 69, gols: 4, assistencias: 6 }
+        { jogos: 69, gols: 4, assistencias: 6 },
       ),
       createClub(
         "Flamengo",
         { inicio: "14/07/2022", fim: "13/07/2023" },
-        { jogos: 51, gols: 2, assistencias: 3 }
+        { jogos: 51, gols: 2, assistencias: 3 },
       ),
       createClub(
         "Athletico Paranaense",
         { inicio: "14/07/2023", fim: "31/12/2023" },
-        { jogos: 9, gols: 0, assistencias: 0 }
+        { jogos: 9, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Colo-Colo",
         { inicio: "23/01/2024", fim: "Presente" },
-        { jogos: 35, gols: 8, assistencias: 5 }
+        { jogos: 35, gols: 8, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -18142,32 +18147,32 @@ export const jogadores = [
       createClub(
         "Antofagasta",
         { inicio: "01/01/2011", fim: "31/12/2013" },
-        { jogos: 51, gols: 2, assistencias: 0 }
+        { jogos: 51, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Universidad Católica",
         { inicio: "01/01/2014", fim: "03/08/2015" },
-        { jogos: 41, gols: 8, assistencias: 0 }
+        { jogos: 41, gols: 8, assistencias: 0 },
       ),
       createClub(
         "Bologna",
         { inicio: "04/08/2015", fim: "08/08/2019" },
-        { jogos: 106, gols: 10, assistencias: 4 }
+        { jogos: 106, gols: 10, assistencias: 4 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "09/08/2019", fim: "03/02/2022" },
-        { jogos: 82, gols: 8, assistencias: 13 }
+        { jogos: 82, gols: 8, assistencias: 13 },
       ),
       createClub(
         "Galatasaray",
         { inicio: "03/02/2022", fim: "30/06/2022" },
-        { jogos: 11, gols: 0, assistencias: 0 }
+        { jogos: 11, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "29/07/2022", fim: "Presente" },
-        { jogos: 115, gols: 3, assistencias: 9 }
+        { jogos: 115, gols: 3, assistencias: 9 },
       ),
     ],
     selecao: {
@@ -18224,62 +18229,62 @@ export const jogadores = [
       createClub(
         "Unión Magdalena",
         { inicio: "01/01/1981", fim: "31/12/1983" },
-        { jogos: 87, gols: 10, assistencias: 0 }
+        { jogos: 87, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Millonarios",
         { inicio: "01/01/1984", fim: "31/12/1984" },
-        { jogos: 33, gols: 2, assistencias: 0 }
+        { jogos: 33, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Deportivo Cali",
         { inicio: "01/01/1985", fim: "30/06/1988" },
-        { jogos: 131, gols: 22, assistencias: 0 }
+        { jogos: 131, gols: 22, assistencias: 0 },
       ),
       createClub(
         "Montpellier HSC",
         { inicio: "01/07/1988", fim: "30/06/1990" },
-        { jogos: 82, gols: 4, assistencias: 0 }
+        { jogos: 82, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Real Valladolid",
         { inicio: "01/07/1990", fim: "30/06/1991" },
-        { jogos: 17, gols: 1, assistencias: 0 }
+        { jogos: 17, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Independiente Medellín",
         { inicio: "01/07/1992", fim: "31/12/1992" },
-        { jogos: 26, gols: 1, assistencias: 0 }
+        { jogos: 26, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Atlético Junior",
         { inicio: "01/01/1993", fim: "31/12/1995" },
-        { jogos: 82, gols: 7, assistencias: 0 }
+        { jogos: 82, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Tampa Bay Mutiny",
         { inicio: "01/01/1996", fim: "31/12/1997" },
-        { jogos: 53, gols: 5, assistencias: 26 }
+        { jogos: 53, gols: 5, assistencias: 26 },
       ),
       createClub(
         "Deportivo Cali",
         { inicio: "01/01/1997", fim: "30/06/1997" },
-        { jogos: 21, gols: 4, assistencias: 0 }
+        { jogos: 21, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Miami Fusion",
         { inicio: "01/01/1998", fim: "31/12/1998" },
-        { jogos: 32, gols: 3, assistencias: 17 }
+        { jogos: 32, gols: 3, assistencias: 17 },
       ),
       createClub(
         "Tampa Bay Mutiny",
         { inicio: "01/01/1999", fim: "31/12/2001" },
-        { jogos: 84, gols: 8, assistencias: 46 }
+        { jogos: 84, gols: 8, assistencias: 46 },
       ),
       createClub(
         "Colorado Rapids",
         { inicio: "01/01/2002", fim: "31/12/2002" },
-        { jogos: 41, gols: 1, assistencias: 16 }
+        { jogos: 41, gols: 1, assistencias: 16 },
       ),
     ],
     selecao: {
@@ -18344,32 +18349,32 @@ export const jogadores = [
       createClub(
         "Millonarios",
         { inicio: "01/01/2014", fim: "31/12/2015" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Sevilla",
         { inicio: "01/07/2016", fim: "30/06/2017" },
-        { jogos: 11, gols: 0, assistencias: 0 }
+        { jogos: 11, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Karpaty Lviv",
         { inicio: "12/07/2017", fim: "31/01/2019" },
-        { jogos: 41, gols: 6, assistencias: 4 }
+        { jogos: 41, gols: 6, assistencias: 4 },
       ),
       createClub(
         "River Plate",
         { inicio: "01/02/2019", fim: "17/02/2022" },
-        { jogos: 81, gols: 8, assistencias: 6 }
+        { jogos: 81, gols: 8, assistencias: 6 },
       ),
       createClub(
         "CSKA Moscou",
         { inicio: "18/02/2022", fim: "30/06/2025" },
-        { jogos: 68, gols: 14, assistencias: 14 }
+        { jogos: 68, gols: 14, assistencias: 14 },
       ),
       createClub(
         "Flamengo",
         { inicio: "04/08/2025", fim: "Presente" },
-        { jogos: 25, gols: 3, assistencias: 5 }
+        { jogos: 25, gols: 3, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -18416,32 +18421,32 @@ export const jogadores = [
       createClub(
         "Deportivo Cali",
         { inicio: "01/01/2009", fim: "31/12/2013" },
-        { jogos: 139, gols: 2, assistencias: 4 }
+        { jogos: 139, gols: 2, assistencias: 4 },
       ),
       createClub(
         "Junior Barranquilla",
         { inicio: "01/01/2014", fim: "31/12/2015" },
-        { jogos: 72, gols: 0, assistencias: 0 }
+        { jogos: 72, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2016", fim: "30/08/2019" },
-        { jogos: 171, gols: 2, assistencias: 3 }
+        { jogos: 171, gols: 2, assistencias: 3 },
       ),
       createClub(
         "Al-Hilal",
         { inicio: "31/08/2019", fim: "04/07/2023" },
-        { jogos: 121, gols: 0, assistencias: 3 }
+        { jogos: 121, gols: 0, assistencias: 3 },
       ),
       createClub(
         "Al-Shabab",
         { inicio: "05/07/2023", fim: "14/01/2025" },
-        { jogos: 45, gols: 1, assistencias: 0 }
+        { jogos: 45, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Grêmio",
         { inicio: "15/01/2025", fim: "Presente" },
-        { jogos: 28, gols: 0, assistencias: 1 }
+        { jogos: 28, gols: 0, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -18492,47 +18497,47 @@ export const jogadores = [
       createClub(
         "River Plate",
         { inicio: "01/01/2005", fim: "30/06/2009" },
-        { jogos: 109, gols: 45, assistencias: 0 }
+        { jogos: 109, gols: 45, assistencias: 0 },
       ),
       createClub(
         "Porto",
         { inicio: "15/07/2009", fim: "17/08/2011" },
-        { jogos: 87, gols: 72, assistencias: 13 }
+        { jogos: 87, gols: 72, assistencias: 13 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "18/08/2011", fim: "30/06/2013" },
-        { jogos: 91, gols: 70, assistencias: 9 }
+        { jogos: 91, gols: 70, assistencias: 9 },
       ),
       createClub(
         "Monaco",
         { inicio: "01/07/2013", fim: "01/09/2019" },
-        { jogos: 140, gols: 83, assistencias: 10 }
+        { jogos: 140, gols: 83, assistencias: 10 },
       ),
       createClub(
         "Manchester United",
         { inicio: "01/09/2014", fim: "30/06/2015" },
-        { jogos: 29, gols: 4, assistencias: 4 }
+        { jogos: 29, gols: 4, assistencias: 4 },
       ),
       createClub(
         "Chelsea",
         { inicio: "03/07/2015", fim: "30/06/2016" },
-        { jogos: 12, gols: 1, assistencias: 0 }
+        { jogos: 12, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Galatasaray",
         { inicio: "02/09/2019", fim: "31/08/2021" },
-        { jogos: 43, gols: 20, assistencias: 3 }
+        { jogos: 43, gols: 20, assistencias: 3 },
       ),
       createClub(
         "Rayo Vallecano",
         { inicio: "04/09/2021", fim: "30/06/2024" },
-        { jogos: 79, gols: 13, assistencias: 0 }
+        { jogos: 79, gols: 13, assistencias: 0 },
       ),
       createClub(
         "Millonarios",
         { inicio: "18/07/2024", fim: "31/12/2024" },
-        { jogos: 26, gols: 11, assistencias: 0 }
+        { jogos: 26, gols: 11, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -18594,67 +18599,67 @@ export const jogadores = [
       createClub(
         "Envigado",
         { inicio: "01/01/2006", fim: "31/12/2007" },
-        { jogos: 30, gols: 9, assistencias: 0 }
+        { jogos: 30, gols: 9, assistencias: 0 },
       ),
       createClub(
         "Banfield",
         { inicio: "01/01/2008", fim: "30/06/2010" },
-        { jogos: 50, gols: 5, assistencias: 8 }
+        { jogos: 50, gols: 5, assistencias: 8 },
       ),
       createClub(
         "Porto",
         { inicio: "06/07/2010", fim: "23/05/2013" },
-        { jogos: 108, gols: 32, assistencias: 42 }
+        { jogos: 108, gols: 32, assistencias: 42 },
       ),
       createClub(
         "Monaco",
         { inicio: "24/05/2013", fim: "21/07/2014" },
-        { jogos: 38, gols: 10, assistencias: 14 }
+        { jogos: 38, gols: 10, assistencias: 14 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "22/07/2014", fim: "11/07/2017" },
-        { jogos: 111, gols: 37, assistencias: 42 }
+        { jogos: 111, gols: 37, assistencias: 42 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "12/07/2017", fim: "30/06/2019" },
-        { jogos: 67, gols: 15, assistencias: 20 }
+        { jogos: 67, gols: 15, assistencias: 20 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2019", fim: "07/09/2020" },
-        { jogos: 14, gols: 1, assistencias: 2 }
+        { jogos: 14, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Everton",
         { inicio: "07/09/2020", fim: "22/09/2021" },
-        { jogos: 26, gols: 6, assistencias: 5 }
+        { jogos: 26, gols: 6, assistencias: 5 },
       ),
       createClub(
         "Al-Rayyan",
         { inicio: "22/09/2021", fim: "15/09/2022" },
-        { jogos: 16, gols: 5, assistencias: 6 }
+        { jogos: 16, gols: 5, assistencias: 6 },
       ),
       createClub(
         "Olympiacos",
         { inicio: "15/09/2022", fim: "13/04/2023" },
-        { jogos: 23, gols: 5, assistencias: 6 }
+        { jogos: 23, gols: 5, assistencias: 6 },
       ),
       createClub(
         "São Paulo",
         { inicio: "29/07/2023", fim: "02/09/2024" },
-        { jogos: 22, gols: 2, assistencias: 4 }
+        { jogos: 22, gols: 2, assistencias: 4 },
       ),
       createClub(
         "Rayo Vallecano",
         { inicio: "13/09/2024", fim: "29/01/2025" },
-        { jogos: 15, gols: 1, assistencias: 3 }
+        { jogos: 15, gols: 1, assistencias: 3 },
       ),
       createClub(
         "Club León",
         { inicio: "30/01/2025", fim: "Presente" },
-        { jogos: 15, gols: 1, assistencias: 3 }
+        { jogos: 15, gols: 1, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -18834,62 +18839,62 @@ export const jogadores = [
       createClub(
         "Cúcuta Deportivo",
         { inicio: "01/01/1988", fim: "31/12/1988" },
-        { jogos: 36, gols: 17, assistencias: 0 }
+        { jogos: 36, gols: 17, assistencias: 0 },
       ),
       createClub(
         "Atlético Nacional",
         { inicio: "01/01/1989", fim: "31/12/1992" },
-        { jogos: 97, gols: 35, assistencias: 0 }
+        { jogos: 97, gols: 35, assistencias: 0 },
       ),
       createClub(
         "Parma",
         { inicio: "01/01/1993", fim: "30/06/1996" },
-        { jogos: 104, gols: 26, assistencias: 0 }
+        { jogos: 104, gols: 26, assistencias: 0 },
       ),
       createClub(
         "Newcastle United",
         { inicio: "01/07/1996", fim: "30/06/1998" },
-        { jogos: 48, gols: 9, assistencias: 0 }
+        { jogos: 48, gols: 9, assistencias: 0 },
       ),
       createClub(
         "Parma",
         { inicio: "01/07/1998", fim: "30/06/1999" },
-        { jogos: 26, gols: 2, assistencias: 0 }
+        { jogos: 26, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/07/1999", fim: "30/06/2000" },
-        { jogos: 28, gols: 12, assistencias: 0 }
+        { jogos: 28, gols: 12, assistencias: 0 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/07/2000", fim: "30/06/2001" },
-        { jogos: 21, gols: 8, assistencias: 0 }
+        { jogos: 21, gols: 8, assistencias: 0 },
       ),
       createClub(
         "Atlético Nacional",
         { inicio: "01/07/2001", fim: "31/12/2001" },
-        { jogos: 15, gols: 3, assistencias: 0 }
+        { jogos: 15, gols: 3, assistencias: 0 },
       ),
       createClub(
         "CF Atlante",
         { inicio: "01/01/2002", fim: "31/12/2002" },
-        { jogos: 4, gols: 0, assistencias: 0 }
+        { jogos: 4, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Universidad de Chile",
         { inicio: "01/01/2003", fim: "30/06/2003" },
-        { jogos: 16, gols: 5, assistencias: 0 }
+        { jogos: 16, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Estudiantes de La Plata",
         { inicio: "01/07/2003", fim: "31/12/2003" },
-        { jogos: 14, gols: 3, assistencias: 0 }
+        { jogos: 14, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Cortuluá",
         { inicio: "01/01/2004", fim: "31/12/2004" },
-        { jogos: 2, gols: 0, assistencias: 0 }
+        { jogos: 2, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -18943,22 +18948,22 @@ export const jogadores = [
       createClub(
         "Hamburgo SV",
         { inicio: "01/07/2010", fim: "30/06/2013" },
-        { jogos: 78, gols: 20, assistencias: 3 }
+        { jogos: 78, gols: 20, assistencias: 3 },
       ),
       createClub(
         "Bayer Leverkusen",
         { inicio: "01/07/2013", fim: "28/08/2015" },
-        { jogos: 87, gols: 29, assistencias: 11 }
+        { jogos: 87, gols: 29, assistencias: 11 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "28/08/2015", fim: "30/06/2025" },
-        { jogos: 408, gols: 162, assistencias: 84 }
+        { jogos: 408, gols: 162, assistencias: 84 },
       ),
       createClub(
         "Los Angeles FC",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 20, gols: 10, assistencias: 5 }
+        { jogos: 20, gols: 10, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -19033,42 +19038,42 @@ export const jogadores = [
       createClub(
         "Beveren",
         { inicio: "01/01/2001", fim: "30/06/2003" },
-        { jogos: 70, gols: 3, assistencias: 0 }
+        { jogos: 70, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Metalurh Donetsk",
         { inicio: "01/07/2003", fim: "30/06/2005" },
-        { jogos: 39, gols: 3, assistencias: 0 }
+        { jogos: 39, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Olympiacos",
         { inicio: "01/07/2005", fim: "30/06/2006" },
-        { jogos: 26, gols: 3, assistencias: 0 }
+        { jogos: 26, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Monaco",
         { inicio: "01/07/2006", fim: "30/06/2007" },
-        { jogos: 30, gols: 5, assistencias: 0 }
+        { jogos: 30, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2007", fim: "02/07/2010" },
-        { jogos: 118, gols: 6, assistencias: 6 }
+        { jogos: 118, gols: 6, assistencias: 6 },
       ),
       createClub(
         "Manchester City",
         { inicio: "02/07/2010", fim: "30/06/2018" },
-        { jogos: 316, gols: 79, assistencias: 50 }
+        { jogos: 316, gols: 79, assistencias: 50 },
       ),
       createClub(
         "Olympiacos",
         { inicio: "02/07/2018", fim: "30/012/2018" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Qingdao Huanghai",
         { inicio: "01/07/2019", fim: "31/12/2020" },
-        { jogos: 14, gols: 2, assistencias: 0 }
+        { jogos: 14, gols: 2, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -19134,42 +19139,42 @@ export const jogadores = [
       createClub(
         "Deportivo Saprissa",
         { inicio: "01/01/2005", fim: "30/06/2010" },
-        { jogos: 75, gols: 0, assistencias: 0 }
+        { jogos: 75, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Albacete Balompié",
         { inicio: "01/07/2010", fim: "30/06/2012" },
-        { jogos: 36, gols: 0, assistencias: 0 }
+        { jogos: 36, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Levante UD",
         { inicio: "01/07/2012", fim: "02/08/2014" },
-        { jogos: 70, gols: 0, assistencias: 0 }
+        { jogos: 70, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "03/08/2014", fim: "01/09/2019" },
-        { jogos: 162, gols: 0, assistencias: 0 }
+        { jogos: 162, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "02/09/2019", fim: "30/06/2024" },
-        { jogos: 108, gols: 0, assistencias: 0 }
+        { jogos: 108, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Nottingham Forest",
         { inicio: "31/01/2023", fim: "30/06/2023" },
-        { jogos: 17, gols: 0, assistencias: 0 }
+        { jogos: 17, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Newell's Old Boys",
         { inicio: "01/07/2024", fim: "31/12/2024" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Pumas",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -19233,27 +19238,27 @@ export const jogadores = [
       createClub(
         "Hrvatski Dragovoljac",
         { inicio: "01/07/2010", fim: "30/06/2011" },
-        { jogos: 27, gols: 1, assistencias: 0 }
+        { jogos: 27, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Lokomotiva",
         { inicio: "01/07/2011", fim: "31/08/2012" },
-        { jogos: 33, gols: 5, assistencias: 0 }
+        { jogos: 33, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Dinamo Zagreb",
         { inicio: "01/09/2012", fim: "26/01/2015" },
-        { jogos: 99, gols: 13, assistencias: 13 }
+        { jogos: 99, gols: 13, assistencias: 13 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "26/01/2015", fim: "02/07/2023" },
-        { jogos: 330, gols: 31, assistencias: 43 }
+        { jogos: 330, gols: 31, assistencias: 43 },
       ),
       createClub(
         "Al-Nassr",
         { inicio: "03/07/2023", fim: "Presente" },
-        { jogos: 70, gols: 10, assistencias: 15 }
+        { jogos: 70, gols: 10, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -19300,27 +19305,27 @@ export const jogadores = [
       createClub(
         "Dinamo Zagreb",
         { inicio: "01/07/2019", fim: "30/06/2020" },
-        { jogos: 12, gols: 1, assistencias: 2 }
+        { jogos: 12, gols: 1, assistencias: 2 },
       ),
       createClub(
         "RB Leipzig",
         { inicio: "01/07/2020", fim: "31/07/2020" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Dinamo Zagreb",
         { inicio: "01/08/2020", fim: "30/06/2021" },
-        { jogos: 40, gols: 3, assistencias: 2 }
+        { jogos: 40, gols: 3, assistencias: 2 },
       ),
       createClub(
         "RB Leipzig",
         { inicio: "01/07/2021", fim: "04/08/2023" },
-        { jogos: 87, gols: 5, assistencias: 2 }
+        { jogos: 87, gols: 5, assistencias: 2 },
       ),
       createClub(
         "Manchester City",
         { inicio: "05/08/2023", fim: "Presente" },
-        { jogos: 109, gols: 11, assistencias: 8 }
+        { jogos: 109, gols: 11, assistencias: 8 },
       ),
     ],
     selecao: {
@@ -19378,27 +19383,27 @@ export const jogadores = [
       createClub(
         "Dinamo Zagreb",
         { inicio: "20/11/2010", fim: "30/01/2013" },
-        { jogos: 73, gols: 7, assistencias: 11 }
+        { jogos: 73, gols: 7, assistencias: 11 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "31/01/2013", fim: "18/08/2015" },
-        { jogos: 97, gols: 8, assistencias: 11 }
+        { jogos: 97, gols: 8, assistencias: 11 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "19/08/2015", fim: "15/08/2018" },
-        { jogos: 109, gols: 3, assistencias: 8 }
+        { jogos: 109, gols: 3, assistencias: 8 },
       ),
       createClub(
         "Chelsea",
         { inicio: "16/08/2018", fim: "02/07/2023" },
-        { jogos: 221, gols: 6, assistencias: 15 }
+        { jogos: 221, gols: 6, assistencias: 15 },
       ),
       createClub(
         "Manchester City",
         { inicio: "03/07/2023", fim: "Presente" },
-        { jogos: 85, gols: 5, assistencias: 10 }
+        { jogos: 85, gols: 5, assistencias: 10 },
       ),
     ],
     selecao: {
@@ -19450,32 +19455,32 @@ export const jogadores = [
       createClub(
         "Zrinjski Mostar",
         { inicio: "01/07/2003", fim: "30/06/2004" },
-        { jogos: 25, gols: 8, assistencias: 0 }
+        { jogos: 25, gols: 8, assistencias: 0 },
       ),
       createClub(
         "Inter Zaprešić",
         { inicio: "01/07/2004", fim: "30/06/2005" },
-        { jogos: 20, gols: 4, assistencias: 0 }
+        { jogos: 20, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Dinamo Zagreb",
         { inicio: "01/07/2005", fim: "30/06/2008" },
-        { jogos: 128, gols: 32, assistencias: 21 }
+        { jogos: 128, gols: 32, assistencias: 21 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "01/07/2008", fim: "27/08/2012" },
-        { jogos: 160, gols: 17, assistencias: 26 }
+        { jogos: 160, gols: 17, assistencias: 26 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "27/08/2012", fim: "30/06/2025" },
-        { jogos: 534, gols: 39, assistencias: 86 }
+        { jogos: 534, gols: 39, assistencias: 86 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 2, gols: 0, assistencias: 0 }
+        { jogos: 2, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -19595,57 +19600,57 @@ export const jogadores = [
       createClub(
         "Sochaux",
         { inicio: "01/01/2007", fim: "31/12/2008" },
-        { jogos: 36, gols: 0, assistencias: 0 }
+        { jogos: 36, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Roeselare",
         { inicio: "01/01/2009", fim: "30/06/2009" },
-        { jogos: 18, gols: 5, assistencias: 2 }
+        { jogos: 18, gols: 5, assistencias: 2 },
       ),
       createClub(
         "Club Brugge",
         { inicio: "01/07/2009", fim: "31/05/2011" },
-        { jogos: 89, gols: 35, assistencias: 20 }
+        { jogos: 89, gols: 35, assistencias: 20 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "01/06/2011", fim: "01/07/2012" },
-        { jogos: 64, gols: 12, assistencias: 8 }
+        { jogos: 64, gols: 12, assistencias: 8 },
       ),
       createClub(
         "Wolfsburg",
         { inicio: "01/09/2013", fim: "30/08/2015" },
-        { jogos: 88, gols: 21, assistencias: 17 }
+        { jogos: 88, gols: 21, assistencias: 17 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "31/08/2015", fim: "13/08/2019" },
-        { jogos: 163, gols: 40, assistencias: 37 }
+        { jogos: 163, gols: 40, assistencias: 37 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "13/08/2019", fim: "30/06/2020" },
-        { jogos: 35, gols: 8, assistencias: 10 }
+        { jogos: 35, gols: 8, assistencias: 10 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2020", fim: "30/06/2022" },
-        { jogos: 83, gols: 15, assistencias: 14 }
+        { jogos: 83, gols: 15, assistencias: 14 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "01/07/2022", fim: "21/01/2024" },
-        { jogos: 50, gols: 1, assistencias: 14 }
+        { jogos: 50, gols: 1, assistencias: 14 },
       ),
       createClub(
         "Hajduk Split",
         { inicio: "22/01/2024", fim: "30/06/2024" },
-        { jogos: 12, gols: 1, assistencias: 1 }
+        { jogos: 12, gols: 1, assistencias: 1 },
       ),
       createClub(
         "PSV Eindhoven",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 40, gols: 17, assistencias: 13 }
+        { jogos: 40, gols: 17, assistencias: 13 },
       ),
     ],
     selecao: {
@@ -19708,37 +19713,37 @@ export const jogadores = [
       createClub(
         "Basel",
         { inicio: "01/07/2005", fim: "30/06/2007" },
-        { jogos: 47, gols: 11, assistencias: 2 }
+        { jogos: 47, gols: 11, assistencias: 2 },
       ),
       createClub(
         "Schalke 04",
         { inicio: "01/07/2007", fim: "28/01/2011" },
-        { jogos: 135, gols: 16, assistencias: 29 }
+        { jogos: 135, gols: 16, assistencias: 29 },
       ),
       createClub(
         "Sevilla",
         { inicio: "28/01/2011", fim: "30/06/2014" },
-        { jogos: 149, gols: 36, assistencias: 37 }
+        { jogos: 149, gols: 36, assistencias: 37 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2014", fim: "01/09/2020" },
-        { jogos: 310, gols: 36, assistencias: 40 }
+        { jogos: 310, gols: 36, assistencias: 40 },
       ),
       createClub(
         "Sevilla",
         { inicio: "02/09/2020", fim: "30/01/2024" },
-        { jogos: 172, gols: 19, assistencias: 10 }
+        { jogos: 172, gols: 19, assistencias: 10 },
       ),
       createClub(
         "Al-Shabab",
         { inicio: "30/01/2024", fim: "30/06/2024" },
-        { jogos: 8, gols: 1, assistencias: 1 }
+        { jogos: 8, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Hajduk Split",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 35, gols: 2, assistencias: 3 }
+        { jogos: 35, gols: 2, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -19803,22 +19808,22 @@ export const jogadores = [
       createClub(
         "Chelsea",
         { inicio: "01/07/2013", fim: "30/06/2015" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Borussia Mönchengladbach",
         { inicio: "01/07/2015", fim: "30/06/2017" },
-        { jogos: 82, gols: 7, assistencias: 1 }
+        { jogos: 82, gols: 7, assistencias: 1 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/07/2017", fim: "30/06/2022" },
-        { jogos: 142, gols: 0, assistencias: 1 }
+        { jogos: 142, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Barcelona",
         { inicio: "04/07/2022", fim: "Presente" },
-        { jogos: 95, gols: 4, assistencias: 2 }
+        { jogos: 95, gols: 4, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -19870,32 +19875,32 @@ export const jogadores = [
       createClub(
         "Ajax",
         { inicio: "01/01/2010", fim: "30/08/2013" },
-        { jogos: 163, gols: 32, assistencias: 65 }
+        { jogos: 163, gols: 32, assistencias: 65 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "31/08/2013", fim: "28/01/2020" },
-        { jogos: 305, gols: 69, assistencias: 90 }
+        { jogos: 305, gols: 69, assistencias: 90 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "29/01/2020", fim: "17/12/2021" },
-        { jogos: 60, gols: 8, assistencias: 3 }
+        { jogos: 60, gols: 8, assistencias: 3 },
       ),
       createClub(
         "Brentford",
         { inicio: "31/01/2022", fim: "30/06/2022" },
-        { jogos: 11, gols: 1, assistencias: 4 }
+        { jogos: 11, gols: 1, assistencias: 4 },
       ),
       createClub(
         "Manchester United",
         { inicio: "15/07/2022", fim: "01/07/2025" },
-        { jogos: 106, gols: 8, assistencias: 17 }
+        { jogos: 106, gols: 8, assistencias: 17 },
       ),
       createClub(
         "Wolfsburg",
         { inicio: "02/07/2025", fim: "Presente" },
-        { jogos: 3, gols: 0, assistencias: 1 }
+        { jogos: 3, gols: 0, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -19957,37 +19962,37 @@ export const jogadores = [
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2013", fim: "01/01/2015" },
-        { jogos: 17, gols: 0, assistencias: 0 }
+        { jogos: 17, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Augsburg",
         { inicio: "02/01/2015", fim: "30/06/2015" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2015", fim: "27/08/2015" },
-        { jogos: 8, gols: 0, assistencias: 0 }
+        { jogos: 8, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Schalke 04",
         { inicio: "28/08/2015", fim: "30/06/2016" },
-        { jogos: 33, gols: 0, assistencias: 0 }
+        { jogos: 33, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Southampton",
         { inicio: "11/07/2016", fim: "11/08/2020" },
-        { jogos: 134, gols: 5, assistencias: 4 }
+        { jogos: 134, gols: 5, assistencias: 4 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "11/08/2020", fim: "21/07/2024" },
-        { jogos: 184, gols: 10, assistencias: 16 }
+        { jogos: 184, gols: 10, assistencias: 16 },
       ),
       createClub(
         "Olympique de Marseille",
         { inicio: "22/07/2024", fim: "Presente" },
-        { jogos: 26, gols: 3, assistencias: 5 }
+        { jogos: 26, gols: 3, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -20035,47 +20040,47 @@ export const jogadores = [
       createClub(
         "Kjøbenhavns Boldklub",
         { inicio: "01/01/1981", fim: "30/06/1982" },
-        { jogos: 14, gols: 3, assistencias: 0 }
+        { jogos: 14, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Brøndby IF",
         { inicio: "01/07/1982", fim: "30/06/1983" },
-        { jogos: 38, gols: 24, assistencias: 0 }
+        { jogos: 38, gols: 24, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/1983", fim: "01/07/1983" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Lazio",
         { inicio: "01/07/1983", fim: "30/06/1985" },
-        { jogos: 70, gols: 12, assistencias: 0 }
+        { jogos: 70, gols: 12, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/1985", fim: "30/06/1989" },
-        { jogos: 151, gols: 35, assistencias: 0 }
+        { jogos: 151, gols: 35, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/1989", fim: "30/06/1994" },
-        { jogos: 213, gols: 47, assistencias: 0 }
+        { jogos: 213, gols: 47, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/1994", fim: "30/06/1996" },
-        { jogos: 76, gols: 15, assistencias: 0 }
+        { jogos: 76, gols: 15, assistencias: 0 },
       ),
       createClub(
         "Vissel Kobe",
         { inicio: "01/07/1996", fim: "30/06/1997" },
-        { jogos: 24, gols: 8, assistencias: 0 }
+        { jogos: 24, gols: 8, assistencias: 0 },
       ),
       createClub(
         "Ajax",
         { inicio: "01/07/1997", fim: "30/06/1998" },
-        { jogos: 26, gols: 13, assistencias: 0 }
+        { jogos: 26, gols: 13, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -20177,37 +20182,37 @@ export const jogadores = [
       createClub(
         "Manchester City",
         { inicio: "01/07/2005", fim: "30/06/2009" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Notts County",
         { inicio: "01/08/2009", fim: "27/05/2010" },
-        { jogos: 43, gols: 0, assistencias: 0 }
+        { jogos: 43, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Leeds United",
         { inicio: "27/05/2010", fim: "30/06/2011" },
-        { jogos: 40, gols: 0, assistencias: 0 }
+        { jogos: 40, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Leicester City",
         { inicio: "01/07/2011", fim: "04/08/2022" },
-        { jogos: 479, gols: 0, assistencias: 0 }
+        { jogos: 479, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Nice",
         { inicio: "04/08/2022", fim: "01/09/2023" },
-        { jogos: 46, gols: 0, assistencias: 0 }
+        { jogos: 46, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Anderlecht",
         { inicio: "01/09/2023", fim: "30/06/2024" },
-        { jogos: 39, gols: 0, assistencias: 0 }
+        { jogos: 39, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Celtic",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 25, gols: 0, assistencias: 1 }
+        { jogos: 25, gols: 0, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -20264,32 +20269,32 @@ export const jogadores = [
       createClub(
         "Hvidovre",
         { inicio: "01/01/1984", fim: "30/06/1987" },
-        { jogos: 78, gols: 6, assistencias: 0 }
+        { jogos: 78, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Brøndby IF",
         { inicio: "01/07/1987", fim: "30/06/1991" },
-        { jogos: 119, gols: 2, assistencias: 0 }
+        { jogos: 119, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Manchester United",
         { inicio: "06/08/1991", fim: "30/06/1999" },
-        { jogos: 398, gols: 1, assistencias: 0 }
+        { jogos: 398, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Sporting CP",
         { inicio: "01/07/1999", fim: "30/06/2001" },
-        { jogos: 65, gols: 0, assistencias: 0 }
+        { jogos: 65, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Aston Villa",
         { inicio: "01/07/2001", fim: "30/06/2002" },
-        { jogos: 36, gols: 1, assistencias: 0 }
+        { jogos: 36, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Manchester City",
         { inicio: "01/07/2002", fim: "30/06/2003" },
-        { jogos: 31, gols: 0, assistencias: 0 }
+        { jogos: 31, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -20386,32 +20391,32 @@ export const jogadores = [
       createClub(
         "Al Mokawloon",
         { inicio: "01/01/2010", fim: "30/03/2012" },
-        { jogos: 44, gols: 12, assistencias: 6 }
+        { jogos: 44, gols: 12, assistencias: 6 },
       ),
       createClub(
         "Basel",
         { inicio: "01/04/2012", fim: "26/01/2014" },
-        { jogos: 79, gols: 20, assistencias: 17 }
+        { jogos: 79, gols: 20, assistencias: 17 },
       ),
       createClub(
         "Chelsea",
         { inicio: "27/01/2014", fim: "01/02/2015" },
-        { jogos: 5, gols: 0, assistencias: 1 }
+        { jogos: 5, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "02/02/2015", fim: "30/06/2015" },
-        { jogos: 26, gols: 9, assistencias: 4 }
+        { jogos: 26, gols: 9, assistencias: 4 },
       ),
       createClub(
         "Roma",
         { inicio: "06/08/2015", fim: "30/06/2017" },
-        { jogos: 83, gols: 34, assistencias: 22 }
+        { jogos: 83, gols: 34, assistencias: 22 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/07/2017", fim: "Presente" },
-        { jogos: 380, gols: 240, assistencias: 100 }
+        { jogos: 380, gols: 240, assistencias: 100 },
       ),
     ],
     selecao: {
@@ -20545,22 +20550,22 @@ export const jogadores = [
       createClub(
         "LDU Portoviejo",
         { inicio: "01/01/2016", fim: "30/06/2017" },
-        { jogos: 12, gols: 1, assistencias: 0 }
+        { jogos: 12, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Barcelona de Guayaquil",
         { inicio: "01/07/2017", fim: "30/06/2019" },
-        { jogos: 47, gols: 2, assistencias: 0 }
+        { jogos: 47, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Santos Laguna",
         { inicio: "02/07/2019", fim: "15/01/2024" },
-        { jogos: 147, gols: 10, assistencias: 1 }
+        { jogos: 147, gols: 10, assistencias: 1 },
       ),
       createClub(
         "Corinthians",
         { inicio: "16/01/2024", fim: "Presente" },
-        { jogos: 75, gols: 5, assistencias: 0 }
+        { jogos: 75, gols: 5, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -20598,22 +20603,22 @@ export const jogadores = [
       createClub(
         "Queen's Park",
         { inicio: "01/07/2012", fim: "30/06/2013" },
-        { jogos: 43, gols: 2, assistencias: 0 }
+        { jogos: 43, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Dundee United",
         { inicio: "01/07/2013", fim: "30/06/2014" },
-        { jogos: 44, gols: 5, assistencias: 6 }
+        { jogos: 44, gols: 5, assistencias: 6 },
       ),
       createClub(
         "Hull City",
         { inicio: "01/07/2014", fim: "20/07/2017" },
-        { jogos: 115, gols: 5, assistencias: 10 }
+        { jogos: 115, gols: 5, assistencias: 10 },
       ),
       createClub(
         "Liverpool",
         { inicio: "21/07/2017", fim: "Presente" },
-        { jogos: 354, gols: 12, assistencias: 68 }
+        { jogos: 354, gols: 12, assistencias: 68 },
       ),
     ],
     selecao: {
@@ -20674,12 +20679,12 @@ export const jogadores = [
       createClub(
         "Celtic",
         { inicio: "22/08/1969", fim: "09/08/1977" },
-        { jogos: 322, gols: 167, assistencias: 0 }
+        { jogos: 322, gols: 167, assistencias: 0 },
       ),
       createClub(
         "Liverpool",
         { inicio: "10/08/1977", fim: "30/06/1990" },
-        { jogos: 515, gols: 172, assistencias: 0 }
+        { jogos: 515, gols: 172, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -20796,37 +20801,37 @@ export const jogadores = [
       createClub(
         "Olimpija Ljubljana",
         { inicio: "01/08/2009", fim: "31/07/2010" },
-        { jogos: 36, gols: 0, assistencias: 0 }
+        { jogos: 36, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Benfica",
         { inicio: "01/08/2010", fim: "15/07/2014" },
-        { jogos: 30, gols: 0, assistencias: 0 }
+        { jogos: 30, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Beira-Mar",
         { inicio: "30/08/2010", fim: "30/06/2011" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Olhanense",
         { inicio: "01/07/2011", fim: "30/06/2012" },
-        { jogos: 17, gols: 0, assistencias: 0 }
+        { jogos: 17, gols: 0, assistencias: 0 },
       ),
       createClub(
         "União de Leiria",
         { inicio: "01/07/2012", fim: "01/09/2012" },
-        { jogos: 13, gols: 0, assistencias: 0 }
+        { jogos: 13, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Rio Ave",
         { inicio: "02/09/2012", fim: "30/06/2013" },
-        { jogos: 31, gols: 0, assistencias: 0 }
+        { jogos: 31, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "16/07/2014", fim: "Presente" },
-        { jogos: 509, gols: 0, assistencias: 0 }
+        { jogos: 509, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -20893,32 +20898,32 @@ export const jogadores = [
       createClub(
         "Mallorca",
         { inicio: "27/10/2013", fim: "30/06/2015" },
-        { jogos: 56, gols: 7, assistencias: 9 }
+        { jogos: 56, gols: 7, assistencias: 9 },
       ),
       createClub(
         "Espanyol",
         { inicio: "01/07/2015", fim: "30/06/2016" },
-        { jogos: 37, gols: 4, assistencias: 15 }
+        { jogos: 37, gols: 4, assistencias: 15 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2016", fim: "30/06/2023" },
-        { jogos: 286, gols: 61, assistencias: 32 }
+        { jogos: 286, gols: 61, assistencias: 32 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/07/2023", fim: "01/07/2025" },
-        { jogos: 50, gols: 9, assistencias: 12 }
+        { jogos: 50, gols: 9, assistencias: 12 },
       ),
       createClub(
         "Aston Villa",
         { inicio: "02/07/2025", fim: "30/08/2025" },
-        { jogos: 2, gols: 0, assistencias: 0 }
+        { jogos: 2, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "31/08/2025", fim: "Presente" },
-        { jogos: 3, gols: 1, assistencias: 0 }
+        { jogos: 3, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -20971,12 +20976,12 @@ export const jogadores = [
       createClub(
         "Barcelona",
         { inicio: "13/09/2008", fim: "30/06/2023" },
-        { jogos: 722, gols: 18, assistencias: 45 }
+        { jogos: 722, gols: 18, assistencias: 45 },
       ),
       createClub(
         "Inter Miami",
         { inicio: "16/07/2023", fim: "06/12/2025" },
-        { jogos: 60, gols: 1, assistencias: 8 }
+        { jogos: 60, gols: 1, assistencias: 8 },
       ),
     ],
     selecao: {
@@ -21049,12 +21054,12 @@ export const jogadores = [
       createClub(
         "Bayer Leverkusen",
         { inicio: "11/07/2012", fim: "04/07/2013" },
-        { jogos: 36, gols: 1, assistencias: 8 }
+        { jogos: 36, gols: 1, assistencias: 8 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "05/07/2013", fim: "Presente" },
-        { jogos: 462, gols: 11, assistencias: 57 }
+        { jogos: 462, gols: 11, assistencias: 57 },
       ),
     ],
     selecao: {
@@ -21116,12 +21121,12 @@ export const jogadores = [
       createClub(
         "Real Madrid",
         { inicio: "01/07/1999", fim: "11/07/2015" },
-        { jogos: 725, gols: 0, assistencias: 0 }
+        { jogos: 725, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Porto",
         { inicio: "11/07/2015", fim: "18/02/2020" },
-        { jogos: 156, gols: 0, assistencias: 0 }
+        { jogos: 156, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -21186,27 +21191,27 @@ export const jogadores = [
       createClub(
         "River Plate",
         { inicio: "15/07/1945", fim: "21/09/1953" },
-        { jogos: 90, gols: 70, assistencias: 10 }
+        { jogos: 90, gols: 70, assistencias: 10 },
       ),
       createClub(
         "Huracán",
         { inicio: "15/07/1946", fim: "31/12/1946" },
-        { jogos: 25, gols: 10, assistencias: 0 }
+        { jogos: 25, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Millonarios",
         { inicio: "01/08/1949", fim: "30/06/1953" },
-        { jogos: 101, gols: 90, assistencias: 15 }
+        { jogos: 101, gols: 90, assistencias: 15 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "23/09/1953", fim: "31/05/1964" },
-        { jogos: 396, gols: 308, assistencias: 80 }
+        { jogos: 396, gols: 308, assistencias: 80 },
       ),
       createClub(
         "Espanyol",
         { inicio: "01/07/1964", fim: "30/06/1966" },
-        { jogos: 65, gols: 14, assistencias: 5 }
+        { jogos: 65, gols: 14, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -21313,27 +21318,27 @@ export const jogadores = [
       createClub(
         "Eibar",
         { inicio: "26/08/2004", fim: "30/06/2005" },
-        { jogos: 35, gols: 5, assistencias: 0 }
+        { jogos: 35, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Celta de Vigo",
         { inicio: "01/07/2005", fim: "30/06/2006" },
-        { jogos: 34, gols: 4, assistencias: 3 }
+        { jogos: 34, gols: 4, assistencias: 3 },
       ),
       createClub(
         "Valencia",
         { inicio: "01/07/2006", fim: "30/06/2010" },
-        { jogos: 168, gols: 31, assistencias: 29 }
+        { jogos: 168, gols: 31, assistencias: 29 },
       ),
       createClub(
         "Manchester City",
         { inicio: "14/07/2010", fim: "17/08/2020" },
-        { jogos: 436, gols: 77, assistencias: 123 }
+        { jogos: 436, gols: 77, assistencias: 123 },
       ),
       createClub(
         "Real Sociedad",
         { inicio: "17/08/2020", fim: "27/07/2023" },
-        { jogos: 93, gols: 7, assistencias: 18 }
+        { jogos: 93, gols: 7, assistencias: 18 },
       ),
     ],
     selecao: {
@@ -21406,42 +21411,42 @@ export const jogadores = [
       createClub(
         "Sporting Gijón",
         { inicio: "01/07/2001", fim: "30/06/2003" },
-        { jogos: 85, gols: 40, assistencias: 0 }
+        { jogos: 85, gols: 40, assistencias: 0 },
       ),
       createClub(
         "Real Zaragoza",
         { inicio: "01/07/2003", fim: "30/06/2005" },
-        { jogos: 94, gols: 39, assistencias: 6 }
+        { jogos: 94, gols: 39, assistencias: 6 },
       ),
       createClub(
         "Valencia",
         { inicio: "01/07/2005", fim: "30/06/2010" },
-        { jogos: 226, gols: 129, assistencias: 21 }
+        { jogos: 226, gols: 129, assistencias: 21 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2010", fim: "30/06/2013" },
-        { jogos: 119, gols: 48, assistencias: 24 }
+        { jogos: 119, gols: 48, assistencias: 24 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/07/2013", fim: "30/06/2014" },
-        { jogos: 47, gols: 15, assistencias: 5 }
+        { jogos: 47, gols: 15, assistencias: 5 },
       ),
       createClub(
         "Melbourne City",
         { inicio: "01/07/2014", fim: "31/12/2014" },
-        { jogos: 4, gols: 2, assistencias: 0 }
+        { jogos: 4, gols: 2, assistencias: 0 },
       ),
       createClub(
         "New York City FC",
         { inicio: "01/01/2015", fim: "31/12/2018" },
-        { jogos: 126, gols: 80, assistencias: 21 }
+        { jogos: 126, gols: 80, assistencias: 21 },
       ),
       createClub(
         "Vissel Kobe",
         { inicio: "01/01/2019", fim: "01/01/2020" },
-        { jogos: 29, gols: 13, assistencias: 1 }
+        { jogos: 29, gols: 13, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -21510,77 +21515,77 @@ export const jogadores = [
       createClub(
         "Braga",
         { inicio: "01/07/2006", fim: "31/12/2006" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Penafiel",
         { inicio: "01/01/2007", fim: "30/06/2007" },
-        { jogos: 13, gols: 5, assistencias: 0 }
+        { jogos: 13, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/07/2007", fim: "31/12/2007" },
-        { jogos: 6, gols: 2, assistencias: 0 }
+        { jogos: 6, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Celta de Vigo",
         { inicio: "01/01/2008", fim: "30/06/2008" },
-        { jogos: 30, gols: 6, assistencias: 1 }
+        { jogos: 30, gols: 6, assistencias: 1 },
       ),
       createClub(
         "Albacete Balompié",
         { inicio: "01/07/2008", fim: "30/06/2009" },
-        { jogos: 35, gols: 10, assistencias: 0 }
+        { jogos: 35, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Real Valladolid",
         { inicio: "01/07/2009", fim: "30/06/2010" },
-        { jogos: 36, gols: 9, assistencias: 4 }
+        { jogos: 36, gols: 9, assistencias: 4 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/07/2010", fim: "27/01/2011" },
-        { jogos: 24, gols: 6, assistencias: 3 }
+        { jogos: 24, gols: 6, assistencias: 3 },
       ),
       createClub(
         "Rayo Vallecano",
         { inicio: "28/01/2012", fim: "30/06/2012" },
-        { jogos: 16, gols: 10, assistencias: 4 }
+        { jogos: 16, gols: 10, assistencias: 4 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/07/2012", fim: "15/07/2014" },
-        { jogos: 97, gols: 58, assistencias: 17 }
+        { jogos: 97, gols: 58, assistencias: 17 },
       ),
       createClub(
         "Chelsea",
         { inicio: "16/07/2014", fim: "20/09/2017" },
-        { jogos: 120, gols: 59, assistencias: 23 }
+        { jogos: 120, gols: 59, assistencias: 23 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "21/09/2017", fim: "29/12/2020" },
-        { jogos: 81, gols: 19, assistencias: 12 }
+        { jogos: 81, gols: 19, assistencias: 12 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "14/08/2021", fim: "16/01/2022" },
-        { jogos: 19, gols: 5, assistencias: 1 }
+        { jogos: 19, gols: 5, assistencias: 1 },
       ),
       createClub(
         "Wolverhampton Wanderers",
         { inicio: "12/09/2022", fim: "01/07/2023" },
-        { jogos: 25, gols: 1, assistencias: 0 }
+        { jogos: 25, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Botafogo",
         { inicio: "12/08/2023", fim: "31/12/2023" },
-        { jogos: 15, gols: 3, assistencias: 0 }
+        { jogos: 15, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Grêmio",
         { inicio: "09/02/2024", fim: "31/12/2024" },
-        { jogos: 25, gols: 7, assistencias: 2 }
+        { jogos: 25, gols: 7, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -21665,7 +21670,7 @@ export const jogadores = [
       createClub(
         "Barcelona",
         { inicio: "29/08/2021", fim: "Presente" },
-        { jogos: 111, gols: 7, assistencias: 12 }
+        { jogos: 111, gols: 7, assistencias: 12 },
       ),
     ],
     selecao: {
@@ -21714,32 +21719,32 @@ export const jogadores = [
       createClub(
         "Barcelona",
         { inicio: "08/09/1990", fim: "30/06/2001" },
-        { jogos: 384, gols: 10, assistencias: 20 }
+        { jogos: 384, gols: 10, assistencias: 20 },
       ),
       createClub(
         "Brescia",
         { inicio: "01/07/2001", fim: "30/06/2002" },
-        { jogos: 28, gols: 3, assistencias: 0 }
+        { jogos: 28, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Roma",
         { inicio: "01/07/2002", fim: "30/06/2003" },
-        { jogos: 6, gols: 0, assistencias: 0 }
+        { jogos: 6, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Brescia",
         { inicio: "01/07/2003", fim: "30/06/2003" },
-        { jogos: 13, gols: 1, assistencias: 0 }
+        { jogos: 13, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Al-Ahli",
         { inicio: "01/07/2003", fim: "30/06/2005" },
-        { jogos: 36, gols: 7, assistencias: 0 }
+        { jogos: 36, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Dorados de Sinaloa",
         { inicio: "01/01/2006", fim: "05/06/2006" },
-        { jogos: 10, gols: 1, assistencias: 0 }
+        { jogos: 10, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -21791,17 +21796,17 @@ export const jogadores = [
       createClub(
         "Barcelona",
         { inicio: "29/10/2002", fim: "30/06/2018" },
-        { jogos: 674, gols: 57, assistencias: 135 }
+        { jogos: 674, gols: 57, assistencias: 135 },
       ),
       createClub(
         "Vissel Kobe",
         { inicio: "01/07/2018", fim: "07/08/2023" },
-        { jogos: 134, gols: 26, assistencias: 25 }
+        { jogos: 134, gols: 26, assistencias: 25 },
       ),
       createClub(
         "Emirates Club",
         { inicio: "08/08/2023", fim: "30/06/2024" },
-        { jogos: 23, gols: 5, assistencias: 1 }
+        { jogos: 23, gols: 5, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -21959,27 +21964,27 @@ export const jogadores = [
       createClub(
         "Valencia",
         { inicio: "11/11/2010", fim: "30/06/2011" },
-        { jogos: 7, gols: 2, assistencias: 0 }
+        { jogos: 7, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Málaga",
         { inicio: "01/07/2011", fim: "26/06/2013" },
-        { jogos: 82, gols: 17, assistencias: 10 }
+        { jogos: 82, gols: 17, assistencias: 10 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "27/06/2013", fim: "01/07/2022" },
-        { jogos: 353, gols: 53, assistencias: 58 }
+        { jogos: 353, gols: 53, assistencias: 58 },
       ),
       createClub(
         "Sevilla",
         { inicio: "07/08/2022", fim: "21/12/2022" },
-        { jogos: 19, gols: 1, assistencias: 3 }
+        { jogos: 19, gols: 1, assistencias: 3 },
       ),
       createClub(
         "Real Betis",
         { inicio: "26/07/2023", fim: "Atualmente" },
-        { jogos: 71, gols: 21, assistencias: 19 }
+        { jogos: 71, gols: 21, assistencias: 19 },
       ),
     ],
     selecao: {
@@ -22030,17 +22035,17 @@ export const jogadores = [
       createClub(
         "Valencia",
         { inicio: "01/01/2009", fim: "30/06/2012" },
-        { jogos: 110, gols: 6, assistencias: 14 }
+        { jogos: 110, gols: 6, assistencias: 14 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2012", fim: "30/06/2023" },
-        { jogos: 459, gols: 27, assistencias: 99 }
+        { jogos: 459, gols: 27, assistencias: 99 },
       ),
       createClub(
         "Inter Miami",
         { inicio: "20/07/2023", fim: "06/12/2025" },
-        { jogos: 60, gols: 5, assistencias: 15 }
+        { jogos: 60, gols: 5, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -22097,22 +22102,22 @@ export const jogadores = [
       createClub(
         "Deportivo La Coruña",
         { inicio: "01/01/1953", fim: "31/03/1954" },
-        { jogos: 17, gols: 3, assistencias: 0 }
+        { jogos: 17, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/04/1954", fim: "30/06/1961" },
-        { jogos: 176, gols: 80, assistencias: 0 }
+        { jogos: 176, gols: 80, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/1961", fim: "30/06/1970" },
-        { jogos: 328, gols: 54, assistencias: 2 }
+        { jogos: 328, gols: 54, assistencias: 2 },
       ),
       createClub(
         "Sampdoria",
         { inicio: "01/07/1970", fim: "30/06/1973" },
-        { jogos: 73, gols: 13, assistencias: 0 }
+        { jogos: 73, gols: 13, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -22180,17 +22185,17 @@ export const jogadores = [
       createClub(
         "Manchester United",
         { inicio: "01/07/2004", fim: "30/06/2008" },
-        { jogos: 23, gols: 2, assistencias: 0 }
+        { jogos: 23, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Real Zaragoza",
         { inicio: "01/07/2006", fim: "30/06/2007" },
-        { jogos: 28, gols: 3, assistencias: 0 }
+        { jogos: 28, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2008", fim: "05/11/2022" },
-        { jogos: 616, gols: 53, assistencias: 13 }
+        { jogos: 616, gols: 53, assistencias: 13 },
       ),
     ],
     selecao: {
@@ -22263,7 +22268,7 @@ export const jogadores = [
       createClub(
         "Barcelona",
         { inicio: "29/04/2023", fim: "Presente" },
-        { jogos: 100, gols: 25, assistencias: 25 }
+        { jogos: 100, gols: 25, assistencias: 25 },
       ),
     ],
     selecao: {
@@ -22334,52 +22339,52 @@ export const jogadores = [
       createClub(
         "Real Madrid",
         { inicio: "01/07/2010", fim: "30/06/2014" },
-        { jogos: 52, gols: 11, assistencias: 4 }
+        { jogos: 52, gols: 11, assistencias: 4 },
       ),
       createClub(
         "Juventus",
         { inicio: "19/07/2014", fim: "30/06/2016" },
-        { jogos: 93, gols: 27, assistencias: 18 }
+        { jogos: 93, gols: 27, assistencias: 18 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2016", fim: "21/07/2017" },
-        { jogos: 43, gols: 20, assistencias: 6 }
+        { jogos: 43, gols: 20, assistencias: 6 },
       ),
       createClub(
         "Chelsea",
         { inicio: "21/07/2017", fim: "28/01/2019" },
-        { jogos: 72, gols: 24, assistencias: 6 }
+        { jogos: 72, gols: 24, assistencias: 6 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "28/01/2019", fim: "31/08/2020" },
-        { jogos: 61, gols: 22, assistencias: 5 }
+        { jogos: 61, gols: 22, assistencias: 5 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/09/2020", fim: "30/06/2022" },
-        { jogos: 93, gols: 36, assistencias: 21 }
+        { jogos: 93, gols: 36, assistencias: 21 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "01/07/2022", fim: "18/07/2024" },
-        { jogos: 54, gols: 22, assistencias: 5 }
+        { jogos: 54, gols: 22, assistencias: 5 },
       ),
       createClub(
         "AC Milan",
         { inicio: "19/07/2024", fim: "01/02/2025" },
-        { jogos: 25, gols: 6, assistencias: 3 }
+        { jogos: 25, gols: 6, assistencias: 3 },
       ),
       createClub(
         "Galatasaray",
         { inicio: "02/02/2025", fim: "01/08/2025" },
-        { jogos: 15, gols: 6, assistencias: 2 }
+        { jogos: 15, gols: 6, assistencias: 2 },
       ),
       createClub(
         "Como",
         { inicio: "02/08/2025", fim: "Presente" },
-        { jogos: 12, gols: 0, assistencias: 1 }
+        { jogos: 12, gols: 0, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -22442,7 +22447,7 @@ export const jogadores = [
       createClub(
         "Barcelona",
         { inicio: "02/10/1999", fim: "30/06/2014" },
-        { jogos: 593, gols: 18, assistencias: 14 }
+        { jogos: 593, gols: 18, assistencias: 14 },
       ),
     ],
     selecao: {
@@ -22510,47 +22515,47 @@ export const jogadores = [
       createClub(
         "Gimnàstic de Tarragona",
         { inicio: "02/09/2013", fim: "14/08/2016" },
-        { jogos: 96, gols: 6, assistencias: 0 }
+        { jogos: 96, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Girona",
         { inicio: "16/08/2016", fim: "30/06/2017" },
-        { jogos: 9, gols: 0, assistencias: 0 }
+        { jogos: 9, gols: 0, assistencias: 0 },
       ),
       createClub(
         "NAC Breda",
         { inicio: "01/07/2017", fim: "30/06/2018" },
-        { jogos: 32, gols: 3, assistencias: 0 }
+        { jogos: 32, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Deportivo La Coruña",
         { inicio: "01/07/2018", fim: "12/07/2019" },
-        { jogos: 38, gols: 2, assistencias: 0 }
+        { jogos: 38, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Flamengo",
         { inicio: "13/07/2019", fim: "28/01/2020" },
-        { jogos: 30, gols: 3, assistencias: 1 }
+        { jogos: 30, gols: 3, assistencias: 1 },
       ),
       createClub(
         "Arsenal",
         { inicio: "29/01/2020", fim: "19/01/2022" },
-        { jogos: 15, gols: 1, assistencias: 0 }
+        { jogos: 15, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Udinese",
         { inicio: "20/01/2022", fim: "30/06/2022" },
-        { jogos: 15, gols: 2, assistencias: 0 }
+        { jogos: 15, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Monza",
         { inicio: "31/08/2022", fim: "27/01/2025" },
-        { jogos: 66, gols: 3, assistencias: 0 }
+        { jogos: 66, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "28/01/2025", fim: "Atualmente" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -22595,12 +22600,12 @@ export const jogadores = [
       createClub(
         "Las Palmas",
         { inicio: "18/08/2019", fim: "01/07/2020" },
-        { jogos: 37, gols: 4, assistencias: 7 }
+        { jogos: 37, gols: 4, assistencias: 7 },
       ),
       createClub(
         "Barcelona",
         { inicio: "02/07/2020", fim: "Presente" },
-        { jogos: 138, gols: 18, assistencias: 10 }
+        { jogos: 138, gols: 18, assistencias: 10 },
       ),
     ],
     selecao: {
@@ -22667,22 +22672,22 @@ export const jogadores = [
       createClub(
         "Real Madrid",
         { inicio: "29/10/1994", fim: "30/06/2010" },
-        { jogos: 741, gols: 323, assistencias: 116 }
+        { jogos: 741, gols: 323, assistencias: 116 },
       ),
       createClub(
         "Schalke 04",
         { inicio: "01/07/2010", fim: "30/06/2012" },
-        { jogos: 98, gols: 40, assistencias: 21 }
+        { jogos: 98, gols: 40, assistencias: 21 },
       ),
       createClub(
         "Al-Sadd",
         { inicio: "01/07/2012", fim: "30/06/2014" },
-        { jogos: 61, gols: 15, assistencias: 0 }
+        { jogos: 61, gols: 15, assistencias: 0 },
       ),
       createClub(
         "New York Cosmos",
         { inicio: "30/10/2014", fim: "16/11/2015" },
-        { jogos: 32, gols: 9, assistencias: 0 }
+        { jogos: 32, gols: 9, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -22779,17 +22784,17 @@ export const jogadores = [
       createClub(
         "Villarreal",
         { inicio: "01/07/2016", fim: "23/05/2018" },
-        { jogos: 84, gols: 2, assistencias: 4 }
+        { jogos: 84, gols: 2, assistencias: 4 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "24/05/2018", fim: "02/07/2019" },
-        { jogos: 47, gols: 3, assistencias: 1 }
+        { jogos: 47, gols: 3, assistencias: 1 },
       ),
       createClub(
         "Manchester City",
         { inicio: "03/07/2019", fim: "Presente" },
-        { jogos: 268, gols: 27, assistencias: 31 }
+        { jogos: 268, gols: 27, assistencias: 31 },
       ),
     ],
     selecao: {
@@ -22866,27 +22871,27 @@ export const jogadores = [
       createClub(
         "Sevilla",
         { inicio: "01/02/2004", fim: "31/08/2005" },
-        { jogos: 49, gols: 3, assistencias: 0 }
+        { jogos: 49, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/09/2005", fim: "30/06/2021" },
-        { jogos: 671, gols: 101, assistencias: 40 }
+        { jogos: 671, gols: 101, assistencias: 40 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "08/07/2021", fim: "30/06/2023" },
-        { jogos: 58, gols: 6, assistencias: 1 }
+        { jogos: 58, gols: 6, assistencias: 1 },
       ),
       createClub(
         "Sevilla",
         { inicio: "04/09/2023", fim: "01/06/2025" },
-        { jogos: 60, gols: 10, assistencias: 2 }
+        { jogos: 60, gols: 10, assistencias: 2 },
       ),
       createClub(
         "Monterrey",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 20, gols: 3, assistencias: 1 }
+        { jogos: 20, gols: 3, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -22970,17 +22975,17 @@ export const jogadores = [
       createClub(
         "Barcelona",
         { inicio: "17/05/2009", fim: "14/07/2013" },
-        { jogos: 100, gols: 11, assistencias: 13 }
+        { jogos: 100, gols: 11, assistencias: 13 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "14/07/2013", fim: "18/09/2020" },
-        { jogos: 235, gols: 31, assistencias: 37 }
+        { jogos: 235, gols: 31, assistencias: 37 },
       ),
       createClub(
         "Liverpool",
         { inicio: "18/09/2020", fim: "30/06/2024" },
-        { jogos: 97, gols: 3, assistencias: 6 }
+        { jogos: 97, gols: 3, assistencias: 6 },
       ),
     ],
     selecao: {
@@ -23053,32 +23058,32 @@ export const jogadores = [
       createClub(
         "Real Sociedad",
         { inicio: "01/01/2000", fim: "31/12/2000" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Eibar",
         { inicio: "01/01/2001", fim: "30/06/2001" },
-        { jogos: 14, gols: 0, assistencias: 0 }
+        { jogos: 14, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Real Sociedad",
         { inicio: "01/07/2001", fim: "20/08/2004" },
-        { jogos: 114, gols: 10, assistencias: 0 }
+        { jogos: 114, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Liverpool",
         { inicio: "20/08/2004", fim: "05/08/2009" },
-        { jogos: 210, gols: 19, assistencias: 20 }
+        { jogos: 210, gols: 19, assistencias: 20 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "05/08/2009", fim: "11/08/2014" },
-        { jogos: 236, gols: 6, assistencias: 35 }
+        { jogos: 236, gols: 6, assistencias: 35 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "29/08/2014", fim: "20/05/2017" },
-        { jogos: 117, gols: 9, assistencias: 11 }
+        { jogos: 117, gols: 9, assistencias: 11 },
       ),
     ],
     selecao: {
@@ -23144,12 +23149,12 @@ export const jogadores = [
       createClub(
         "Barcelona",
         { inicio: "01/07/1998", fim: "30/06/2015" },
-        { jogos: 767, gols: 85, assistencias: 184 }
+        { jogos: 767, gols: 85, assistencias: 184 },
       ),
       createClub(
         "Al-Sadd",
         { inicio: "01/07/2015", fim: "20/05/2019" },
-        { jogos: 117, gols: 25, assistencias: 29 }
+        { jogos: 117, gols: 25, assistencias: 29 },
       ),
     ],
     selecao: {
@@ -23228,12 +23233,12 @@ export const jogadores = [
       createClub(
         "Lyon",
         { inicio: "01/01/2022", fim: "31/08/2023" },
-        { jogos: 40, gols: 5, assistencias: 10 }
+        { jogos: 40, gols: 5, assistencias: 10 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/09/2023", fim: "Presente" },
-        { jogos: 64, gols: 21, assistencias: 13 }
+        { jogos: 64, gols: 21, assistencias: 13 },
       ),
     ],
     selecao: {
@@ -23268,17 +23273,17 @@ export const jogadores = [
       createClub(
         "Olympique Lyonnais",
         { inicio: "01/07/2004", fim: "30/06/2009" },
-        { jogos: 148, gols: 66, assistencias: 27 }
+        { jogos: 148, gols: 66, assistencias: 27 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2009", fim: "06/06/2023" },
-        { jogos: 648, gols: 354, assistencias: 165 }
+        { jogos: 648, gols: 354, assistencias: 165 },
       ),
       createClub(
         "Al-Ittihad",
         { inicio: "07/06/2023", fim: "Presente" },
-        { jogos: 60, gols: 35, assistencias: 10 }
+        { jogos: 60, gols: 35, assistencias: 10 },
       ),
     ],
     selecao: {
@@ -23361,22 +23366,22 @@ export const jogadores = [
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/07/2013", fim: "30/06/2014" },
-        { jogos: 4, gols: 0, assistencias: 0 }
+        { jogos: 4, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2014", fim: "30/08/2015" },
-        { jogos: 22, gols: 0, assistencias: 2 }
+        { jogos: 22, gols: 0, assistencias: 2 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "30/08/2015", fim: "14/08/2025" },
-        { jogos: 336, gols: 72, assistencias: 70 }
+        { jogos: 336, gols: 72, assistencias: 70 },
       ),
       createClub(
         "Al-Nassr",
         { inicio: "15/08/2025", fim: "Presente" },
-        { jogos: 14, gols: 4, assistencias: 1 }
+        { jogos: 14, gols: 4, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -23425,22 +23430,22 @@ export const jogadores = [
       createClub(
         "Stade Rennais",
         { inicio: "01/07/2015", fim: "30/06/2016" },
-        { jogos: 29, gols: 12, assistencias: 5 }
+        { jogos: 29, gols: 12, assistencias: 5 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "01/07/2016", fim: "24/08/2017" },
-        { jogos: 49, gols: 10, assistencias: 22 }
+        { jogos: 49, gols: 10, assistencias: 22 },
       ),
       createClub(
         "Barcelona",
         { inicio: "25/08/2017", fim: "11/08/2023" },
-        { jogos: 185, gols: 40, assistencias: 43 }
+        { jogos: 185, gols: 40, assistencias: 43 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "12/08/2023", fim: "Presente" },
-        { jogos: 75, gols: 10, assistencias: 25 }
+        { jogos: 75, gols: 10, assistencias: 25 },
       ),
     ],
     selecao: {
@@ -23548,12 +23553,12 @@ export const jogadores = [
       createClub(
         "Rennes",
         { inicio: "01/07/2022", fim: "30/08/2024" },
-        { jogos: 76, gols: 8, assistencias: 8 }
+        { jogos: 76, gols: 8, assistencias: 8 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "31/08/2024", fim: "Presente" },
-        { jogos: 65, gols: 16, assistencias: 17 }
+        { jogos: 65, gols: 16, assistencias: 17 },
       ),
     ],
     selecao: {
@@ -23609,22 +23614,22 @@ export const jogadores = [
       createClub(
         "Real Sociedad",
         { inicio: "02/09/2009", fim: "28/07/2014" },
-        { jogos: 202, gols: 52, assistencias: 18 }
+        { jogos: 202, gols: 52, assistencias: 18 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "28/07/2014", fim: "14/07/2019" },
-        { jogos: 257, gols: 133, assistencias: 50 }
+        { jogos: 257, gols: 133, assistencias: 50 },
       ),
       createClub(
         "Barcelona",
         { inicio: "14/07/2019", fim: "31/08/2021" },
-        { jogos: 102, gols: 35, assistencias: 17 }
+        { jogos: 102, gols: 35, assistencias: 17 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "31/08/2021", fim: "Presente" },
-        { jogos: 163, gols: 52, assistencias: 25 }
+        { jogos: 163, gols: 52, assistencias: 25 },
       ),
     ],
     selecao: {
@@ -23748,32 +23753,32 @@ export const jogadores = [
       createClub(
         "AS Monaco",
         { inicio: "01/07/1995", fim: "18/01/1999" },
-        { jogos: 141, gols: 28, assistencias: 37 }
+        { jogos: 141, gols: 28, assistencias: 37 },
       ),
       createClub(
         "Juventus",
         { inicio: "19/01/1999", fim: "02/08/1999" },
-        { jogos: 16, gols: 3, assistencias: 1 }
+        { jogos: 16, gols: 3, assistencias: 1 },
       ),
       createClub(
         "Arsenal",
         { inicio: "03/08/1999", fim: "25/06/2007" },
-        { jogos: 377, gols: 228, assistencias: 98 }
+        { jogos: 377, gols: 228, assistencias: 98 },
       ),
       createClub(
         "Barcelona",
         { inicio: "26/06/2007", fim: "20/07/2010" },
-        { jogos: 121, gols: 49, assistencias: 26 }
+        { jogos: 121, gols: 49, assistencias: 26 },
       ),
       createClub(
         "New York Red Bulls",
         { inicio: "21/07/2010", fim: "01/12/2014" },
-        { jogos: 135, gols: 52, assistencias: 49 }
+        { jogos: 135, gols: 52, assistencias: 49 },
       ),
       createClub(
         "Arsenal",
         { inicio: "06/01/2012", fim: "15/02/2012" },
-        { jogos: 7, gols: 2, assistencias: 1 }
+        { jogos: 7, gols: 2, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -23852,27 +23857,27 @@ export const jogadores = [
       createClub(
         "Boulogne",
         { inicio: "01/07/2011", fim: "30/06/2013" },
-        { jogos: 38, gols: 3, assistencias: 0 }
+        { jogos: 38, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Caen",
         { inicio: "01/07/2013", fim: "02/08/2015" },
-        { jogos: 79, gols: 4, assistencias: 6 }
+        { jogos: 79, gols: 4, assistencias: 6 },
       ),
       createClub(
         "Leicester City",
         { inicio: "03/08/2015", fim: "15/07/2016" },
-        { jogos: 40, gols: 1, assistencias: 4 }
+        { jogos: 40, gols: 1, assistencias: 4 },
       ),
       createClub(
         "Chelsea",
         { inicio: "16/07/2016", fim: "30/06/2023" },
-        { jogos: 269, gols: 13, assistencias: 15 }
+        { jogos: 269, gols: 13, assistencias: 15 },
       ),
       createClub(
         "Al-Ittihad",
         { inicio: "01/07/2023", fim: "Presente" },
-        { jogos: 60, gols: 3, assistencias: 5 }
+        { jogos: 60, gols: 3, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -23952,12 +23957,12 @@ export const jogadores = [
       createClub(
         "Paris Saint-Germain",
         { inicio: "18/03/2015", fim: "06/09/2025" },
-        { jogos: 241, gols: 3, assistencias: 2 }
+        { jogos: 241, gols: 3, assistencias: 2 },
       ),
       createClub(
         "Qatar SC",
         { inicio: "07/09/2025", fim: "Presente" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -23992,22 +23997,22 @@ export const jogadores = [
       createClub(
         "Nice",
         { inicio: "01/07/2005", fim: "30/06/2008" },
-        { jogos: 78, gols: 0, assistencias: 0 }
+        { jogos: 78, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Lyon",
         { inicio: "01/07/2008", fim: "31/08/2012" },
-        { jogos: 201, gols: 0, assistencias: 0 }
+        { jogos: 201, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "01/09/2012", fim: "31/12/2023" },
-        { jogos: 447, gols: 0, assistencias: 0 }
+        { jogos: 447, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Los Angeles FC",
         { inicio: "01/01/2024", fim: "Presente" },
-        { jogos: 65, gols: 0, assistencias: 1 }
+        { jogos: 65, gols: 0, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -24063,17 +24068,17 @@ export const jogadores = [
       createClub(
         "AS Monaco",
         { inicio: "01/07/2015", fim: "30/08/2017" },
-        { jogos: 60, gols: 27, assistencias: 13 }
+        { jogos: 60, gols: 27, assistencias: 13 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "31/08/2017", fim: "30/06/2024" },
-        { jogos: 308, gols: 256, assistencias: 97 }
+        { jogos: 308, gols: 256, assistencias: 97 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 75, gols: 62, assistencias: 1 }
+        { jogos: 75, gols: 62, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -24235,17 +24240,17 @@ export const jogadores = [
       createClub(
         "AS Nancy-Lorraine",
         { inicio: "01/07/1972", fim: "30/06/1979" },
-        { jogos: 234, gols: 137, assistencias: 20 }
+        { jogos: 234, gols: 137, assistencias: 20 },
       ),
       createClub(
         "AS Saint-Étienne",
         { inicio: "01/07/1979", fim: "30/06/1982" },
-        { jogos: 145, gols: 82, assistencias: 10 }
+        { jogos: 145, gols: 82, assistencias: 10 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/1982", fim: "17/05/1987" },
-        { jogos: 258, gols: 125, assistencias: 40 }
+        { jogos: 258, gols: 125, assistencias: 40 },
       ),
     ],
     selecao: {
@@ -24371,27 +24376,27 @@ export const jogadores = [
       createClub(
         "Manchester United",
         { inicio: "01/07/2011", fim: "30/06/2012" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "03/08/2012", fim: "08/08/2016" },
-        { jogos: 178, gols: 34, assistencias: 40 }
+        { jogos: 178, gols: 34, assistencias: 40 },
       ),
       createClub(
         "Manchester United",
         { inicio: "07/08/2016", fim: "01/08/2021" },
-        { jogos: 226, gols: 39, assistencias: 51 }
+        { jogos: 226, gols: 39, assistencias: 51 },
       ),
       createClub(
         "Juventus",
         { inicio: "11/07/2022", fim: "11/09/2024" },
-        { jogos: 12, gols: 0, assistencias: 1 }
+        { jogos: 12, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Monaco",
         { inicio: "12/12/2025", fim: "Presente" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -24459,32 +24464,32 @@ export const jogadores = [
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/07/2012", fim: "30/01/2013" },
-        { jogos: 9, gols: 0, assistencias: 0 }
+        { jogos: 9, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Toulouse",
         { inicio: "31/01/2013", fim: "29/06/2013" },
-        { jogos: 13, gols: 1, assistencias: 3 }
+        { jogos: 13, gols: 1, assistencias: 3 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "30/06/2013", fim: "30/06/2019" },
-        { jogos: 218, gols: 23, assistencias: 14 }
+        { jogos: 218, gols: 23, assistencias: 14 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2019", fim: "30/06/2024" },
-        { jogos: 212, gols: 22, assistencias: 16 }
+        { jogos: 212, gols: 22, assistencias: 16 },
       ),
       createClub(
         "Olympique de Marseille",
         { inicio: "17/09/2024", fim: "30/08/2025" },
-        { jogos: 32, gols: 10, assistencias: 6 }
+        { jogos: 32, gols: 10, assistencias: 6 },
       ),
       createClub(
         "AC Milan",
         { inicio: "31/08/2025", fim: "Presente" },
-        { jogos: 8, gols: 0, assistencias: 1 }
+        { jogos: 8, gols: 0, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -24525,47 +24530,47 @@ export const jogadores = [
       createClub(
         "Boulogne",
         { inicio: "01/07/2001", fim: "30/06/2002" },
-        { jogos: 29, gols: 6, assistencias: 0 }
+        { jogos: 29, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Olympique Alès",
         { inicio: "01/07/2002", fim: "30/06/2003" },
-        { jogos: 19, gols: 1, assistencias: 0 }
+        { jogos: 19, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Brest",
         { inicio: "01/07/2003", fim: "30/01/2004" },
-        { jogos: 37, gols: 4, assistencias: 0 }
+        { jogos: 37, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Metz",
         { inicio: "01/02/2004", fim: "31/01/2005" },
-        { jogos: 22, gols: 2, assistencias: 0 }
+        { jogos: 22, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Galatasaray",
         { inicio: "01/02/2005", fim: "30/05/2005" },
-        { jogos: 14, gols: 1, assistencias: 0 }
+        { jogos: 14, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Olympique de Marseille",
         { inicio: "01/06/2005", fim: "30/06/2007" },
-        { jogos: 88, gols: 14, assistencias: 20 }
+        { jogos: 88, gols: 14, assistencias: 20 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2007", fim: "05/05/2019" },
-        { jogos: 425, gols: 124, assistencias: 182 }
+        { jogos: 425, gols: 124, assistencias: 182 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "21/08/2019", fim: "30/06/2021" },
-        { jogos: 51, gols: 5, assistencias: 10 }
+        { jogos: 51, gols: 5, assistencias: 10 },
       ),
       createClub(
         "Salernitana",
         { inicio: "06/09/2021", fim: "07/10/2022" },
-        { jogos: 25, gols: 1, assistencias: 3 }
+        { jogos: 25, gols: 1, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -24650,22 +24655,22 @@ export const jogadores = [
       createClub(
         "Lens",
         { inicio: "01/07/2010", fim: "30/06/2011" },
-        { jogos: 24, gols: 2, assistencias: 0 }
+        { jogos: 24, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2011", fim: "26/07/2021" },
-        { jogos: 360, gols: 17, assistencias: 7 }
+        { jogos: 360, gols: 17, assistencias: 7 },
       ),
       createClub(
         "Manchester United",
         { inicio: "28/07/2021", fim: "27/07/2024" },
-        { jogos: 95, gols: 2, assistencias: 1 }
+        { jogos: 95, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Como",
         { inicio: "28/07/2024", fim: "25/09/2024" },
-        { jogos: 1, gols: 0, assistencias: 0 }
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -24732,22 +24737,22 @@ export const jogadores = [
       createClub(
         "Cannes",
         { inicio: "01/07/1989", fim: "30/06/1992" },
-        { jogos: 71, gols: 6, assistencias: 3 }
+        { jogos: 71, gols: 6, assistencias: 3 },
       ),
       createClub(
         "Bordeaux",
         { inicio: "01/07/1992", fim: "30/06/1996" },
-        { jogos: 177, gols: 39, assistencias: 35 }
+        { jogos: 177, gols: 39, assistencias: 35 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/1996", fim: "08/07/2001" },
-        { jogos: 209, gols: 31, assistencias: 40 }
+        { jogos: 209, gols: 31, assistencias: 40 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "09/07/2001", fim: "30/06/2006" },
-        { jogos: 227, gols: 49, assistencias: 68 }
+        { jogos: 227, gols: 49, assistencias: 68 },
       ),
     ],
     selecao: {
@@ -24834,22 +24839,22 @@ export const jogadores = [
       createClub(
         "Angers",
         { inicio: "01/07/1949", fim: "30/06/1951" },
-        { jogos: 60, gols: 15, assistencias: 0 }
+        { jogos: 60, gols: 15, assistencias: 0 },
       ),
       createClub(
         "Stade de Reims",
         { inicio: "01/07/1951", fim: "30/06/1956" },
-        { jogos: 165, gols: 52, assistencias: 0 }
+        { jogos: 165, gols: 52, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/1956", fim: "30/06/1959" },
-        { jogos: 103, gols: 30, assistencias: 0 }
+        { jogos: 103, gols: 30, assistencias: 0 },
       ),
       createClub(
         "Stade de Reims",
         { inicio: "01/07/1959", fim: "30/06/1967" },
-        { jogos: 247, gols: 49, assistencias: 0 }
+        { jogos: 247, gols: 49, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -24920,37 +24925,37 @@ export const jogadores = [
       createClub(
         "Dinamo Tbilisi",
         { inicio: "01/01/2017", fim: "01/03/2018" },
-        { jogos: 5, gols: 1, assistencias: 1 }
+        { jogos: 5, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Rustavi",
         { inicio: "01/03/2018", fim: "15/02/2019" },
-        { jogos: 18, gols: 3, assistencias: 3 }
+        { jogos: 18, gols: 3, assistencias: 3 },
       ),
       createClub(
         "Lokomotiv Moscou",
         { inicio: "15/02/2019", fim: "01/07/2019" },
-        { jogos: 10, gols: 1, assistencias: 0 }
+        { jogos: 10, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Rubin Kazan",
         { inicio: "01/07/2019", fim: "24/03/2022" },
-        { jogos: 73, gols: 9, assistencias: 10 }
+        { jogos: 73, gols: 9, assistencias: 10 },
       ),
       createClub(
         "Dinamo Batumi",
         { inicio: "24/03/2022", fim: "01/07/2022" },
-        { jogos: 11, gols: 8, assistencias: 2 }
+        { jogos: 11, gols: 8, assistencias: 2 },
       ),
       createClub(
         "Napoli",
         { inicio: "01/07/2022", fim: "15/01/2025" },
-        { jogos: 107, gols: 30, assistencias: 24 }
+        { jogos: 107, gols: 30, assistencias: 24 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "17/01/2025", fim: "Presente" },
-        { jogos: 39, gols: 9, assistencias: 7 }
+        { jogos: 39, gols: 9, assistencias: 7 },
       ),
     ],
     selecao: {
@@ -25015,17 +25020,17 @@ export const jogadores = [
       createClub(
         "Ajax",
         { inicio: "01/07/1986", fim: "30/06/1993" },
-        { jogos: 237, gols: 122, assistencias: 0 }
+        { jogos: 237, gols: 122, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/1993", fim: "30/06/1995" },
-        { jogos: 81, gols: 22, assistencias: 0 }
+        { jogos: 81, gols: 22, assistencias: 0 },
       ),
       createClub(
         "Arsenal",
         { inicio: "01/07/1995", fim: "22/07/2006" },
-        { jogos: 423, gols: 120, assistencias: 94 }
+        { jogos: 423, gols: 120, assistencias: 94 },
       ),
     ],
     selecao: {
@@ -25164,32 +25169,32 @@ export const jogadores = [
       createClub(
         "Ajax",
         { inicio: "29/11/1992", fim: "30/06/1995" },
-        { jogos: 90, gols: 11, assistencias: 0 }
+        { jogos: 90, gols: 11, assistencias: 0 },
       ),
       createClub(
         "Sampdoria",
         { inicio: "01/07/1995", fim: "30/06/1996" },
-        { jogos: 34, gols: 4, assistencias: 0 }
+        { jogos: 34, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/1996", fim: "31/12/1999" },
-        { jogos: 159, gols: 20, assistencias: 0 }
+        { jogos: 159, gols: 20, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/01/2000", fim: "30/06/2002" },
-        { jogos: 93, gols: 14, assistencias: 0 }
+        { jogos: 93, gols: 14, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/2002", fim: "30/06/2012" },
-        { jogos: 432, gols: 62, assistencias: 68 }
+        { jogos: 432, gols: 62, assistencias: 68 },
       ),
       createClub(
         "Botafogo",
         { inicio: "14/07/2012", fim: "14/01/2014" },
-        { jogos: 81, gols: 24, assistencias: 17 }
+        { jogos: 81, gols: 24, assistencias: 17 },
       ),
     ],
     selecao: {
@@ -25276,22 +25281,22 @@ export const jogadores = [
       createClub(
         "Ajax",
         { inicio: "01/07/1990", fim: "30/06/1999" },
-        { jogos: 312, gols: 1, assistencias: 0 }
+        { jogos: 312, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/1999", fim: "30/06/2001" },
-        { jogos: 88, gols: 0, assistencias: 0 }
+        { jogos: 88, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Fulham",
         { inicio: "01/08/2001", fim: "09/06/2005" },
-        { jogos: 154, gols: 0, assistencias: 0 }
+        { jogos: 154, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Manchester United",
         { inicio: "10/06/2005", fim: "28/05/2011" },
-        { jogos: 266, gols: 0, assistencias: 0 }
+        { jogos: 266, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -25358,22 +25363,22 @@ export const jogadores = [
       createClub(
         "Ajax",
         { inicio: "23/08/1980", fim: "30/10/1986" },
-        { jogos: 206, gols: 49, assistencias: 0 }
+        { jogos: 206, gols: 49, assistencias: 0 },
       ),
       createClub(
         "Real Zaragoza",
         { inicio: "01/01/1987", fim: "30/06/1988" },
-        { jogos: 11, gols: 0, assistencias: 0 }
+        { jogos: 11, gols: 0, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/1988", fim: "30/06/1993" },
-        { jogos: 201, gols: 26, assistencias: 0 }
+        { jogos: 201, gols: 26, assistencias: 0 },
       ),
       createClub(
         "Ajax",
         { inicio: "01/07/1993", fim: "31/09/1995" },
-        { jogos: 59, gols: 9, assistencias: 0 }
+        { jogos: 59, gols: 9, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -25451,42 +25456,42 @@ export const jogadores = [
       createClub(
         "Ajax",
         { inicio: "15/11/1964", fim: "30/06/1973" },
-        { jogos: 318, gols: 250, assistencias: 0 }
+        { jogos: 318, gols: 250, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "13/08/1973", fim: "30/06/1978" },
-        { jogos: 223, gols: 84, assistencias: 0 }
+        { jogos: 223, gols: 84, assistencias: 0 },
       ),
       createClub(
         "Los Angeles Aztecs",
         { inicio: "27/05/1979", fim: "30/11/1979" },
-        { jogos: 26, gols: 15, assistencias: 0 }
+        { jogos: 26, gols: 15, assistencias: 0 },
       ),
       createClub(
         "Washington Diplomats",
         { inicio: "01/01/1980", fim: "30/11/1980" },
-        { jogos: 26, gols: 10, assistencias: 0 }
+        { jogos: 26, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Levante UD",
         { inicio: "01/03/1981", fim: "30/06/1981" },
-        { jogos: 10, gols: 2, assistencias: 0 }
+        { jogos: 10, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Washington Diplomats",
         { inicio: "01/08/1981", fim: "30/11/1981" },
-        { jogos: 5, gols: 2, assistencias: 0 }
+        { jogos: 5, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Ajax",
         { inicio: "06/12/1981", fim: "30/06/1983" },
-        { jogos: 46, gols: 16, assistencias: 0 }
+        { jogos: 46, gols: 16, assistencias: 0 },
       ),
       createClub(
         "Feyenoord",
         { inicio: "01/07/1983", fim: "13/05/1984" },
-        { jogos: 44, gols: 13, assistencias: 0 }
+        { jogos: 44, gols: 13, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -25617,12 +25622,12 @@ export const jogadores = [
       createClub(
         "Ajax",
         { inicio: "03/04/1982", fim: "30/06/1987" },
-        { jogos: 172, gols: 152, assistencias: 0 }
+        { jogos: 172, gols: 152, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/1987", fim: "17/08/1995" },
-        { jogos: 201, gols: 125, assistencias: 0 }
+        { jogos: 201, gols: 125, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -25720,32 +25725,32 @@ export const jogadores = [
       createClub(
         "PSV Eindhoven",
         { inicio: "26/09/2011", fim: "30/06/2015" },
-        { jogos: 124, gols: 50, assistencias: 29 }
+        { jogos: 124, gols: 50, assistencias: 29 },
       ),
       createClub(
         "Manchester United",
         { inicio: "01/07/2015", fim: "19/01/2017" },
-        { jogos: 53, gols: 7, assistencias: 5 }
+        { jogos: 53, gols: 7, assistencias: 5 },
       ),
       createClub(
         "Olympique Lyonnais",
         { inicio: "20/01/2017", fim: "30/06/2021" },
-        { jogos: 178, gols: 76, assistencias: 55 }
+        { jogos: 178, gols: 76, assistencias: 55 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2021", fim: "20/01/2023" },
-        { jogos: 42, gols: 14, assistencias: 2 }
+        { jogos: 42, gols: 14, assistencias: 2 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "20/01/2023", fim: "14/08/2024" },
-        { jogos: 40, gols: 13, assistencias: 4 }
+        { jogos: 40, gols: 13, assistencias: 4 },
       ),
       createClub(
         "Corinthians",
         { inicio: "15/08/2024", fim: "Presente" },
-        { jogos: 58, gols: 16, assistencias: 5 }
+        { jogos: 58, gols: 16, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -25797,27 +25802,27 @@ export const jogadores = [
       createClub(
         "Feyenoord",
         { inicio: "06/02/2002", fim: "16/05/2004" },
-        { jogos: 78, gols: 21, assistencias: 0 }
+        { jogos: 78, gols: 21, assistencias: 0 },
       ),
       createClub(
         "Arsenal",
         { inicio: "17/05/2004", fim: "16/08/2012" },
-        { jogos: 278, gols: 133, assistencias: 61 }
+        { jogos: 278, gols: 133, assistencias: 61 },
       ),
       createClub(
         "Manchester United",
         { inicio: "17/08/2012", fim: "13/07/2015" },
-        { jogos: 105, gols: 58, assistencias: 21 }
+        { jogos: 105, gols: 58, assistencias: 21 },
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "14/07/2015", fim: "19/01/2018" },
-        { jogos: 87, gols: 36, assistencias: 7 }
+        { jogos: 87, gols: 36, assistencias: 7 },
       ),
       createClub(
         "Feyenoord",
         { inicio: "19/01/2018", fim: "12/05/2019" },
-        { jogos: 45, gols: 25, assistencias: 2 }
+        { jogos: 45, gols: 25, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -25900,27 +25905,27 @@ export const jogadores = [
       createClub(
         "FC Groningen",
         { inicio: "01/01/1980", fim: "30/06/1983" },
-        { jogos: 89, gols: 33, assistencias: 0 }
+        { jogos: 89, gols: 33, assistencias: 0 },
       ),
       createClub(
         "Ajax",
         { inicio: "01/07/1983", fim: "30/06/1986" },
-        { jogos: 112, gols: 23, assistencias: 0 }
+        { jogos: 112, gols: 23, assistencias: 0 },
       ),
       createClub(
         "PSV Eindhoven",
         { inicio: "01/07/1986", fim: "30/06/1989" },
-        { jogos: 139, gols: 63, assistencias: 0 }
+        { jogos: 139, gols: 63, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/1989", fim: "30/06/1995" },
-        { jogos: 264, gols: 88, assistencias: 0 }
+        { jogos: 264, gols: 88, assistencias: 0 },
       ),
       createClub(
         "Feyenoord",
         { inicio: "01/07/1995", fim: "30/06/1997" },
-        { jogos: 78, gols: 25, assistencias: 0 }
+        { jogos: 78, gols: 25, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -25992,32 +25997,32 @@ export const jogadores = [
       createClub(
         "HFC Haarlem",
         { inicio: "01/08/1979", fim: "30/06/1982" },
-        { jogos: 105, gols: 38, assistencias: 0 }
+        { jogos: 105, gols: 38, assistencias: 0 },
       ),
       createClub(
         "Feyenoord",
         { inicio: "01/07/1982", fim: "30/06/1985" },
-        { jogos: 107, gols: 43, assistencias: 0 }
+        { jogos: 107, gols: 43, assistencias: 0 },
       ),
       createClub(
         "PSV Eindhoven",
         { inicio: "01/07/1985", fim: "30/06/1987" },
-        { jogos: 75, gols: 53, assistencias: 0 }
+        { jogos: 75, gols: 53, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/1987", fim: "30/06/1994" },
-        { jogos: 171, gols: 56, assistencias: 0 }
+        { jogos: 171, gols: 56, assistencias: 0 },
       ),
       createClub(
         "Sampdoria",
         { inicio: "01/07/1993", fim: "30/06/1995" },
-        { jogos: 53, gols: 25, assistencias: 0 }
+        { jogos: 53, gols: 25, assistencias: 0 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/07/1995", fim: "01/06/1998" },
-        { jogos: 63, gols: 7, assistencias: 0 }
+        { jogos: 63, gols: 7, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -26104,22 +26109,22 @@ export const jogadores = [
       createClub(
         "Groningen",
         { inicio: "01/07/2011", fim: "20/06/2013" },
-        { jogos: 66, gols: 7, assistencias: 4 }
+        { jogos: 66, gols: 7, assistencias: 4 },
       ),
       createClub(
         "Celtic",
         { inicio: "21/06/2013", fim: "30/08/2015" },
-        { jogos: 115, gols: 15, assistencias: 7 }
+        { jogos: 115, gols: 15, assistencias: 7 },
       ),
       createClub(
         "Southampton",
         { inicio: "01/09/2015", fim: "31/12/2017" },
-        { jogos: 80, gols: 7, assistencias: 2 }
+        { jogos: 80, gols: 7, assistencias: 2 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/01/2018", fim: "Presente" },
-        { jogos: 275, gols: 23, assistencias: 11 }
+        { jogos: 275, gols: 23, assistencias: 11 },
       ),
     ],
     selecao: {
@@ -26238,12 +26243,12 @@ export const jogadores = [
       createClub(
         "Honvéd Budapest",
         { inicio: "01/01/1943", fim: "30/06/1956" },
-        { jogos: 367, gols: 383, assistencias: 0 }
+        { jogos: 367, gols: 383, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "15/08/1958", fim: "30/06/1967" },
-        { jogos: 262, gols: 242, assistencias: 0 }
+        { jogos: 262, gols: 242, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -26340,17 +26345,17 @@ export const jogadores = [
       createClub(
         "Manchester United",
         { inicio: "01/10/1954", fim: "30/06/1973" },
-        { jogos: 758, gols: 249, assistencias: 100 }
+        { jogos: 758, gols: 249, assistencias: 100 },
       ),
       createClub(
         "Preston North End",
         { inicio: "01/07/1973", fim: "30/06/1974" },
-        { jogos: 38, gols: 9, assistencias: 0 }
+        { jogos: 38, gols: 9, assistencias: 0 },
       ),
       createClub(
         "Waterford United",
         { inicio: "01/01/1975", fim: "30/06/1975" },
-        { jogos: 4, gols: 1, assistencias: 0 }
+        { jogos: 4, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -26433,27 +26438,27 @@ export const jogadores = [
       createClub(
         "West Ham United",
         { inicio: "08/08/1958", fim: "14/03/1974" },
-        { jogos: 544, gols: 24, assistencias: 0 }
+        { jogos: 544, gols: 24, assistencias: 0 },
       ),
       createClub(
         "Fulham",
         { inicio: "15/03/1974", fim: "30/06/1977" },
-        { jogos: 124, gols: 1, assistencias: 0 }
+        { jogos: 124, gols: 1, assistencias: 0 },
       ),
       createClub(
         "San Antonio Thunder",
         { inicio: "01/05/1976", fim: "30/08/1976" },
-        { jogos: 24, gols: 1, assistencias: 0 }
+        { jogos: 24, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Seattle Sounders",
         { inicio: "01/05/1978", fim: "30/08/1978" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Herning Fremad",
         { inicio: "01/09/1978", fim: "31/12/1978" },
-        { jogos: 9, gols: 0, assistencias: 0 }
+        { jogos: 9, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -26563,7 +26568,7 @@ export const jogadores = [
       createClub(
         "Arsenal",
         { inicio: "01/07/2018", fim: "Presente" },
-        { jogos: 250, gols: 60, assistencias: 65 }
+        { jogos: 250, gols: 60, assistencias: 65 },
       ),
     ],
     selecao: {
@@ -26640,12 +26645,12 @@ export const jogadores = [
       createClub(
         "Manchester City",
         { inicio: "01/09/2020", fim: "01/09/2023" },
-        { jogos: 41, gols: 6, assistencias: 2 }
+        { jogos: 41, gols: 6, assistencias: 2 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/09/2023", fim: "Presente" },
-        { jogos: 101, gols: 45, assistencias: 20 }
+        { jogos: 101, gols: 45, assistencias: 20 },
       ),
     ],
     selecao: {
@@ -26706,37 +26711,37 @@ export const jogadores = [
       createClub(
         "Manchester United",
         { inicio: "01/07/1992", fim: "30/06/2003" },
-        { jogos: 394, gols: 85, assistencias: 109 }
+        { jogos: 394, gols: 85, assistencias: 109 },
       ),
       createClub(
         "Preston North End",
         { inicio: "01/01/1995", fim: "31/05/1995" },
-        { jogos: 5, gols: 2, assistencias: 0 }
+        { jogos: 5, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2003", fim: "30/06/2007" },
-        { jogos: 159, gols: 20, assistencias: 51 }
+        { jogos: 159, gols: 20, assistencias: 51 },
       ),
       createClub(
         "Los Angeles Galaxy",
         { inicio: "11/07/2007", fim: "31/12/2012" },
-        { jogos: 124, gols: 20, assistencias: 42 }
+        { jogos: 124, gols: 20, assistencias: 42 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/01/2009", fim: "30/06/2009" },
-        { jogos: 33, gols: 2, assistencias: 4 }
+        { jogos: 33, gols: 2, assistencias: 4 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/01/2010", fim: "30/06/2010" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "31/01/2013", fim: "30/06/2013" },
-        { jogos: 14, gols: 0, assistencias: 2 }
+        { jogos: 14, gols: 0, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -26853,12 +26858,12 @@ export const jogadores = [
       createClub(
         "West Ham United",
         { inicio: "01/07/2017", fim: "14/07/2023" },
-        { jogos: 245, gols: 15, assistencias: 13 }
+        { jogos: 245, gols: 15, assistencias: 13 },
       ),
       createClub(
         "Arsenal",
         { inicio: "15/07/2023", fim: "Presente" },
-        { jogos: 100, gols: 15, assistencias: 12 }
+        { jogos: 100, gols: 15, assistencias: 12 },
       ),
     ],
     selecao: {
@@ -26927,22 +26932,22 @@ export const jogadores = [
       createClub(
         "Milton Keynes Dons",
         { inicio: "01/09/2012", fim: "01/07/2015" },
-        { jogos: 88, gols: 24, assistencias: 13 }
+        { jogos: 88, gols: 24, assistencias: 13 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "02/02/2015", fim: "31/01/2022" },
-        { jogos: 269, gols: 67, assistencias: 41 }
+        { jogos: 269, gols: 67, assistencias: 41 },
       ),
       createClub(
         "Everton",
         { inicio: "31/01/2022", fim: "30/06/2024" },
-        { jogos: 13, gols: 0, assistencias: 0 }
+        { jogos: 13, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Beşiktaş JK",
         { inicio: "25/08/2022", fim: "30/06/2023" },
-        { jogos: 15, gols: 3, assistencias: 1 }
+        { jogos: 15, gols: 3, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -26994,22 +26999,22 @@ export const jogadores = [
       createClub(
         "West Ham United",
         { inicio: "01/07/1995", fim: "30/06/2001" },
-        { jogos: 185, gols: 38, assistencias: 6 }
+        { jogos: 185, gols: 38, assistencias: 6 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/07/2001", fim: "30/06/2014" },
-        { jogos: 648, gols: 211, assistencias: 150 }
+        { jogos: 648, gols: 211, assistencias: 150 },
       ),
       createClub(
         "Manchester City",
         { inicio: "06/08/2014", fim: "23/07/2014" },
-        { jogos: 38, gols: 8, assistencias: 2 }
+        { jogos: 38, gols: 8, assistencias: 2 },
       ),
       createClub(
         "New York City FC",
         { inicio: "24/07/2014", fim: "02/02/2017" },
-        { jogos: 31, gols: 15, assistencias: 2 }
+        { jogos: 31, gols: 15, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -27150,32 +27155,32 @@ export const jogadores = [
       createClub(
         "Tottenham Hotspur",
         { inicio: "01/07/2009", fim: "11/08/2023" },
-        { jogos: 435, gols: 280, assistencias: 64 }
+        { jogos: 435, gols: 280, assistencias: 64 },
       ),
       createClub(
         "Leyton Orient",
         { inicio: "07/01/2011", fim: "03/05/2011" },
-        { jogos: 18, gols: 5, assistencias: 0 }
+        { jogos: 18, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Millwall",
         { inicio: "01/01/2012", fim: "30/06/2012" },
-        { jogos: 27, gols: 9, assistencias: 5 }
+        { jogos: 27, gols: 9, assistencias: 5 },
       ),
       createClub(
         "Norwich City",
         { inicio: "31/08/2012", fim: "01/02/2013" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Leicester City",
         { inicio: "21/02/2013", fim: "30/06/2013" },
-        { jogos: 15, gols: 2, assistencias: 1 }
+        { jogos: 15, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "12/08/2023", fim: "Presente" },
-        { jogos: 47, gols: 44, assistencias: 12 }
+        { jogos: 47, gols: 44, assistencias: 12 },
       ),
     ],
     selecao: {
@@ -27273,27 +27278,27 @@ export const jogadores = [
       createClub(
         "Aston Villa",
         { inicio: "01/07/2012", fim: "12/09/2013" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Notts County",
         { inicio: "13/09/2013", fim: "05/05/2014" },
-        { jogos: 38, gols: 5, assistencias: 7 }
+        { jogos: 38, gols: 5, assistencias: 7 },
       ),
       createClub(
         "Aston Villa",
         { inicio: "06/05/2014", fim: "05/08/2021" },
-        { jogos: 213, gols: 32, assistencias: 43 }
+        { jogos: 213, gols: 32, assistencias: 43 },
       ),
       createClub(
         "Manchester City",
         { inicio: "06/08/2021", fim: "11/08/2025" },
-        { jogos: 157, gols: 17, assistencias: 24 }
+        { jogos: 157, gols: 17, assistencias: 24 },
       ),
       createClub(
         "Everton",
         { inicio: "12/08/2025", fim: "Presente" },
-        { jogos: 10, gols: 1, assistencias: 4 }
+        { jogos: 10, gols: 1, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -27346,17 +27351,17 @@ export const jogadores = [
       createClub(
         "Birmingham City",
         { inicio: "01/07/2019", fim: "30/06/2020" },
-        { jogos: 44, gols: 4, assistencias: 3 }
+        { jogos: 44, gols: 4, assistencias: 3 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "01/07/2020", fim: "30/06/2023" },
-        { jogos: 132, gols: 24, assistencias: 25 }
+        { jogos: 132, gols: 24, assistencias: 25 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2023", fim: "Presente" },
-        { jogos: 80, gols: 45, assistencias: 28 }
+        { jogos: 80, gols: 45, assistencias: 28 },
       ),
     ],
     selecao: {
@@ -27446,27 +27451,27 @@ export const jogadores = [
       createClub(
         "Scunthorpe United",
         { inicio: "01/05/1968", fim: "30/06/1971" },
-        { jogos: 141, gols: 22, assistencias: 0 }
+        { jogos: 141, gols: 22, assistencias: 0 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/07/1971", fim: "30/06/1977" },
-        { jogos: 323, gols: 100, assistencias: 88 }
+        { jogos: 323, gols: 100, assistencias: 88 },
       ),
       createClub(
         "Hamburgo SV",
         { inicio: "01/07/1977", fim: "30/06/1980" },
-        { jogos: 111, gols: 40, assistencias: 7 }
+        { jogos: 111, gols: 40, assistencias: 7 },
       ),
       createClub(
         "Southampton",
         { inicio: "01/07/1980", fim: "30/06/1982" },
-        { jogos: 80, gols: 42, assistencias: 13 }
+        { jogos: 80, gols: 42, assistencias: 13 },
       ),
       createClub(
         "Newcastle United",
         { inicio: "01/07/1982", fim: "31/05/1984" },
-        { jogos: 85, gols: 49, assistencias: 17 }
+        { jogos: 85, gols: 49, assistencias: 17 },
       ),
     ],
     selecao: {
@@ -27539,47 +27544,47 @@ export const jogadores = [
       createClub(
         "Sheffield United FC",
         { inicio: "01/07/2008", fim: "31/07/2009" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Northampton Town",
         { inicio: "14/11/2008", fim: "03/01/2009" },
-        { jogos: 9, gols: 0, assistencias: 0 }
+        { jogos: 9, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "24/07/2009", fim: "14/07/2017" },
-        { jogos: 229, gols: 4, assistencias: 21 }
+        { jogos: 229, gols: 4, assistencias: 21 },
       ),
       createClub(
         "Sheffield United FC",
         { inicio: "01/09/2009", fim: "30/06/2010" },
-        { jogos: 28, gols: 0, assistencias: 0 }
+        { jogos: 28, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Queens Park Rangers",
         { inicio: "13/09/2010", fim: "03/01/2011" },
-        { jogos: 20, gols: 0, assistencias: 0 }
+        { jogos: 20, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Aston Villa",
         { inicio: "01/02/2011", fim: "31/05/2011" },
-        { jogos: 15, gols: 1, assistencias: 0 }
+        { jogos: 15, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Manchester City",
         { inicio: "14/07/2017", fim: "30/06/2025" },
-        { jogos: 319, gols: 6, assistencias: 18 }
+        { jogos: 319, gols: 6, assistencias: 18 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/2025", fim: "31/12/2025" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Burnley",
         { inicio: "01/01/2026", fim: "Presente" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -27643,17 +27648,17 @@ export const jogadores = [
       createClub(
         "Manchester United",
         { inicio: "01/01/2016", fim: "30/06/2025" },
-        { jogos: 430, gols: 135, assistencias: 65 }
+        { jogos: 430, gols: 135, assistencias: 65 },
       ),
       createClub(
         "Aston Villa",
         { inicio: "01/07/2025", fim: "31/08/2025" },
-        { jogos: 17, gols: 4, assistencias: 0 }
+        { jogos: 17, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/09/2025", fim: "Presente" },
-        { jogos: 14, gols: 6, assistencias: 2 }
+        { jogos: 14, gols: 6, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -27718,27 +27723,27 @@ export const jogadores = [
       createClub(
         "Liverpool",
         { inicio: "01/07/1996", fim: "13/08/2004" },
-        { jogos: 297, gols: 158, assistencias: 44 }
+        { jogos: 297, gols: 158, assistencias: 44 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "14/08/2004", fim: "31/08/2005" },
-        { jogos: 45, gols: 16, assistencias: 4 }
+        { jogos: 45, gols: 16, assistencias: 4 },
       ),
       createClub(
         "Newcastle United",
         { inicio: "01/09/2005", fim: "30/06/2009" },
-        { jogos: 79, gols: 30, assistencias: 6 }
+        { jogos: 79, gols: 30, assistencias: 6 },
       ),
       createClub(
         "Manchester United",
         { inicio: "03/07/2009", fim: "30/06/2012" },
-        { jogos: 52, gols: 17, assistencias: 3 }
+        { jogos: 52, gols: 17, assistencias: 3 },
       ),
       createClub(
         "Stoke City",
         { inicio: "04/09/2012", fim: "30/06/2013" },
-        { jogos: 9, gols: 1, assistencias: 0 }
+        { jogos: 9, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -27833,7 +27838,7 @@ export const jogadores = [
       createClub(
         "Manchester City",
         { inicio: "01/07/2017", fim: "Presente" },
-        { jogos: 300, gols: 95, assistencias: 65 }
+        { jogos: 300, gols: 95, assistencias: 65 },
       ),
     ],
     selecao: {
@@ -27905,17 +27910,17 @@ export const jogadores = [
       createClub(
         "Liverpool",
         { inicio: "01/07/2012", fim: "13/07/2015" },
-        { jogos: 129, gols: 23, assistencias: 25 }
+        { jogos: 129, gols: 23, assistencias: 25 },
       ),
       createClub(
         "Manchester City",
         { inicio: "14/07/2015", fim: "12/07/2022" },
-        { jogos: 339, gols: 131, assistencias: 94 }
+        { jogos: 339, gols: 131, assistencias: 94 },
       ),
       createClub(
         "Chelsea",
         { inicio: "13/07/2022", fim: "Presente" },
-        { jogos: 105, gols: 28, assistencias: 16 }
+        { jogos: 105, gols: 28, assistencias: 16 },
       ),
     ],
     selecao: {
@@ -27983,27 +27988,27 @@ export const jogadores = [
       createClub(
         "West Ham United",
         { inicio: "01/07/1995", fim: "30/11/2000" },
-        { jogos: 158, gols: 2, assistencias: 0 }
+        { jogos: 158, gols: 2, assistencias: 0 },
       ),
       createClub(
         "AFC Bournemouth",
         { inicio: "01/10/1996", fim: "31/12/1996" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Leeds United",
         { inicio: "01/12/2000", fim: "21/07/2002" },
-        { jogos: 73, gols: 3, assistencias: 0 }
+        { jogos: 73, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Manchester United",
         { inicio: "22/07/2002", fim: "30/06/2014" },
-        { jogos: 455, gols: 8, assistencias: 10 }
+        { jogos: 455, gols: 8, assistencias: 10 },
       ),
       createClub(
         "Queens Park Rangers",
         { inicio: "17/07/2014", fim: "30/06/2015" },
-        { jogos: 12, gols: 0, assistencias: 0 }
+        { jogos: 12, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -28064,17 +28069,17 @@ export const jogadores = [
       createClub(
         "Stoke City",
         { inicio: "01/03/1932", fim: "30/04/1947" },
-        { jogos: 284, gols: 51, assistencias: 0 }
+        { jogos: 284, gols: 51, assistencias: 0 },
       ),
       createClub(
         "Blackpool",
         { inicio: "01/05/1947", fim: "30/09/1961" },
-        { jogos: 380, gols: 17, assistencias: 0 }
+        { jogos: 380, gols: 17, assistencias: 0 },
       ),
       createClub(
         "Stoke City",
         { inicio: "01/10/1961", fim: "31/12/1965" },
-        { jogos: 59, gols: 3, assistencias: 0 }
+        { jogos: 59, gols: 3, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -28165,12 +28170,12 @@ export const jogadores = [
       createClub(
         "Liverpool",
         { inicio: "05/11/1997", fim: "24/05/2015" },
-        { jogos: 710, gols: 186, assistencias: 154 }
+        { jogos: 710, gols: 186, assistencias: 154 },
       ),
       createClub(
         "Los Angeles Galaxy",
         { inicio: "01/07/2015", fim: "31/12/2016" },
-        { jogos: 39, gols: 5, assistencias: 15 }
+        { jogos: 39, gols: 5, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -28256,12 +28261,12 @@ export const jogadores = [
       createClub(
         "Liverpool",
         { inicio: "25/10/2016", fim: "31/05/2025" },
-        { jogos: 375, gols: 26, assistencias: 85 }
+        { jogos: 375, gols: 26, assistencias: 85 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/06/2025", fim: "Presente" },
-        { jogos: 15, gols: 1, assistencias: 4 }
+        { jogos: 15, gols: 1, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -28327,27 +28332,27 @@ export const jogadores = [
       createClub(
         "Everton",
         { inicio: "17/08/2002", fim: "31/08/2004" },
-        { jogos: 77, gols: 17, assistencias: 4 }
+        { jogos: 77, gols: 17, assistencias: 4 },
       ),
       createClub(
         "Manchester United",
         { inicio: "01/09/2004", fim: "08/07/2017" },
-        { jogos: 559, gols: 253, assistencias: 146 }
+        { jogos: 559, gols: 253, assistencias: 146 },
       ),
       createClub(
         "Everton",
         { inicio: "09/07/2017", fim: "28/06/2018" },
-        { jogos: 40, gols: 11, assistencias: 4 }
+        { jogos: 40, gols: 11, assistencias: 4 },
       ),
       createClub(
         "D.C. United",
         { inicio: "28/06/2018", fim: "31/12/2019" },
-        { jogos: 52, gols: 25, assistencias: 14 }
+        { jogos: 52, gols: 25, assistencias: 14 },
       ),
       createClub(
         "Derby County",
         { inicio: "01/01/2020", fim: "15/01/2021" },
-        { jogos: 35, gols: 7, assistencias: 3 }
+        { jogos: 35, gols: 7, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -28475,52 +28480,52 @@ export const jogadores = [
       createClub(
         "Manchester United",
         { inicio: "14/09/1963", fim: "01/01/1974" },
-        { jogos: 470, gols: 179, assistencias: 0 }
+        { jogos: 470, gols: 179, assistencias: 0 },
       ),
       createClub(
         "Stockport County",
         { inicio: "15/01/1975", fim: "01/05/1975" },
-        { jogos: 3, gols: 2, assistencias: 0 }
+        { jogos: 3, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Cork Celtic",
         { inicio: "01/12/1975", fim: "01/02/1976" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Los Angeles Aztecs",
         { inicio: "01/05/1976", fim: "31/12/1976" },
-        { jogos: 24, gols: 15, assistencias: 0 }
+        { jogos: 24, gols: 15, assistencias: 0 },
       ),
       createClub(
         "Fulham",
         { inicio: "01/10/1976", fim: "31/05/1977" },
-        { jogos: 32, gols: 6, assistencias: 0 }
+        { jogos: 32, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Los Angeles Aztecs",
         { inicio: "01/05/1977", fim: "31/07/1978" },
-        { jogos: 31, gols: 12, assistencias: 0 }
+        { jogos: 31, gols: 12, assistencias: 0 },
       ),
       createClub(
         "Fort Lauderdale Strikers",
         { inicio: "01/07/1978", fim: "31/12/1978" },
-        { jogos: 14, gols: 5, assistencias: 0 }
+        { jogos: 14, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Hibernian",
         { inicio: "01/09/1979", fim: "30/06/1980" },
-        { jogos: 17, gols: 3, assistencias: 0 }
+        { jogos: 17, gols: 3, assistencias: 0 },
       ),
       createClub(
         "San Jose Earthquakes",
         { inicio: "01/07/1980", fim: "31/12/1981" },
-        { jogos: 56, gols: 21, assistencias: 0 }
+        { jogos: 56, gols: 21, assistencias: 0 },
       ),
       createClub(
         "Bournemouth",
         { inicio: "01/08/1982", fim: "30/06/1983" },
-        { jogos: 5, gols: 0, assistencias: 0 }
+        { jogos: 5, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -28637,22 +28642,22 @@ export const jogadores = [
       createClub(
         "Lazio",
         { inicio: "13/03/1994", fim: "31/08/2002" },
-        { jogos: 261, gols: 3, assistencias: 0 }
+        { jogos: 261, gols: 3, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/09/2002", fim: "30/06/2012" },
-        { jogos: 326, gols: 10, assistencias: 3 }
+        { jogos: 326, gols: 10, assistencias: 3 },
       ),
       createClub(
         "CF Montréal",
         { inicio: "05/07/2012", fim: "20/10/2013" },
-        { jogos: 34, gols: 0, assistencias: 0 }
+        { jogos: 34, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Chennaiyin FC",
         { inicio: "28/11/2014", fim: "14/12/2014" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -28743,37 +28748,37 @@ export const jogadores = [
       createClub(
         "Brescia",
         { inicio: "21/05/1995", fim: "30/06/1998" },
-        { jogos: 59, gols: 6, assistencias: 2 }
+        { jogos: 59, gols: 6, assistencias: 2 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/1998", fim: "30/06/2001" },
-        { jogos: 40, gols: 0, assistencias: 1 }
+        { jogos: 40, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Reggina",
         { inicio: "01/07/1999", fim: "30/06/2000" },
-        { jogos: 30, gols: 6, assistencias: 0 }
+        { jogos: 30, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Brescia",
         { inicio: "01/01/2001", fim: "30/06/2001" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/2001", fim: "24/05/2011" },
-        { jogos: 401, gols: 41, assistencias: 68 }
+        { jogos: 401, gols: 41, assistencias: 68 },
       ),
       createClub(
         "Juventus",
         { inicio: "24/05/2011", fim: "06/07/2015" },
-        { jogos: 164, gols: 19, assistencias: 38 }
+        { jogos: 164, gols: 19, assistencias: 38 },
       ),
       createClub(
         "New York City FC",
         { inicio: "06/07/2015", fim: "06/11/2017" },
-        { jogos: 62, gols: 1, assistencias: 11 }
+        { jogos: 62, gols: 1, assistencias: 11 },
       ),
     ],
     selecao: {
@@ -28900,72 +28905,72 @@ export const jogadores = [
       createClub(
         "Sorrento",
         { inicio: "01/07/2007", fim: "30/06/2009" },
-        { jogos: 3, gols: 0, assistencias: 0 }
+        { jogos: 3, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2009", fim: "30/06/2010" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Siena",
         { inicio: "01/07/2010", fim: "31/12/2010" },
-        { jogos: 4, gols: 1, assistencias: 0 }
+        { jogos: 4, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/01/2011", fim: "04/01/2011" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Grosseto",
         { inicio: "05/01/2011", fim: "30/06/2011" },
-        { jogos: 16, gols: 1, assistencias: 1 }
+        { jogos: 16, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Pescara",
         { inicio: "01/07/2011", fim: "30/06/2012" },
-        { jogos: 44, gols: 28, assistencias: 8 }
+        { jogos: 44, gols: 28, assistencias: 8 },
       ),
       createClub(
         "Genoa",
         { inicio: "01/07/2012", fim: "30/06/2013" },
-        { jogos: 34, gols: 5, assistencias: 3 }
+        { jogos: 34, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Torino",
         { inicio: "01/07/2013", fim: "30/06/2014" },
-        { jogos: 34, gols: 22, assistencias: 3 }
+        { jogos: 34, gols: 22, assistencias: 3 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "02/07/2014", fim: "30/06/2015" },
-        { jogos: 34, gols: 10, assistencias: 4 }
+        { jogos: 34, gols: 10, assistencias: 4 },
       ),
       createClub(
         "Sevilla",
         { inicio: "12/07/2015", fim: "01/01/2016" },
-        { jogos: 15, gols: 4, assistencias: 1 }
+        { jogos: 15, gols: 4, assistencias: 1 },
       ),
       createClub(
         "Torino",
         { inicio: "14/01/2016", fim: "30/06/2016" },
-        { jogos: 14, gols: 5, assistencias: 2 }
+        { jogos: 14, gols: 5, assistencias: 2 },
       ),
       createClub(
         "Lazio",
         { inicio: "27/07/2016", fim: "01/07/2024" },
-        { jogos: 347, gols: 207, assistencias: 55 }
+        { jogos: 347, gols: 207, assistencias: 55 },
       ),
       createClub(
         "Beşiktaş",
         { inicio: "13/07/2024", fim: "31/12/2024" },
-        { jogos: 22, gols: 8, assistencias: 2 }
+        { jogos: 22, gols: 8, assistencias: 2 },
       ),
       createClub(
         "Bologna",
         { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 15, gols: 6, assistencias: 1 }
+        { jogos: 15, gols: 6, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -29032,37 +29037,37 @@ export const jogadores = [
       createClub(
         "Napoli",
         { inicio: "01/07/1992", fim: "30/06/1995" },
-        { jogos: 73, gols: 1, assistencias: 0 }
+        { jogos: 73, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Parma",
         { inicio: "01/07/1995", fim: "30/06/2002" },
-        { jogos: 288, gols: 5, assistencias: 4 }
+        { jogos: 288, gols: 5, assistencias: 4 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2002", fim: "30/06/2004" },
-        { jogos: 66, gols: 2, assistencias: 0 }
+        { jogos: 66, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2004", fim: "30/06/2006" },
-        { jogos: 93, gols: 6, assistencias: 0 }
+        { jogos: 93, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2006", fim: "30/06/2009" },
-        { jogos: 118, gols: 1, assistencias: 1 }
+        { jogos: 118, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2009", fim: "30/06/2010" },
-        { jogos: 33, gols: 0, assistencias: 0 }
+        { jogos: 33, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Al-Ahli",
         { inicio: "01/07/2010", fim: "30/06/2011" },
-        { jogos: 16, gols: 2, assistencias: 0 }
+        { jogos: 16, gols: 2, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -29193,17 +29198,17 @@ export const jogadores = [
       createClub(
         "Fiorentina",
         { inicio: "01/07/2016", fim: "05/10/2020" },
-        { jogos: 153, gols: 35, assistencias: 23 }
+        { jogos: 153, gols: 35, assistencias: 23 },
       ),
       createClub(
         "Juventus",
         { inicio: "05/10/2020", fim: "30/06/2024" },
-        { jogos: 131, gols: 32, assistencias: 28 }
+        { jogos: 131, gols: 32, assistencias: 28 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 25, gols: 4, assistencias: 1 }
+        { jogos: 25, gols: 4, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -29256,7 +29261,7 @@ export const jogadores = [
       createClub(
         "AC Milan",
         { inicio: "01/07/1977", fim: "30/06/1997" },
-        { jogos: 720, gols: 33, assistencias: 0 }
+        { jogos: 720, gols: 33, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -29363,27 +29368,27 @@ export const jogadores = [
       createClub(
         "Perugia",
         { inicio: "01/07/1995", fim: "30/06/1997" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Rangers FC",
         { inicio: "01/07/1997", fim: "30/06/1998" },
-        { jogos: 51, gols: 5, assistencias: 0 }
+        { jogos: 51, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Salernitana",
         { inicio: "01/07/1998", fim: "30/06/1999" },
-        { jogos: 25, gols: 0, assistencias: 0 }
+        { jogos: 25, gols: 0, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/1999", fim: "30/06/2012" },
-        { jogos: 468, gols: 11, assistencias: 16 }
+        { jogos: 468, gols: 11, assistencias: 16 },
       ),
       createClub(
         "FC Sion",
         { inicio: "01/07/2012", fim: "30/06/2013" },
-        { jogos: 32, gols: 1, assistencias: 0 }
+        { jogos: 32, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -29434,27 +29439,27 @@ export const jogadores = [
       createClub(
         "Parma",
         { inicio: "01/07/1995", fim: "30/06/2001" },
-        { jogos: 220, gols: 0, assistencias: 0 }
+        { jogos: 220, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2001", fim: "30/06/2018" },
-        { jogos: 656, gols: 0, assistencias: 0 }
+        { jogos: 656, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "06/07/2018", fim: "30/06/2019" },
-        { jogos: 25, gols: 0, assistencias: 0 }
+        { jogos: 25, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "04/07/2019", fim: "30/06/2021" },
-        { jogos: 29, gols: 0, assistencias: 0 }
+        { jogos: 29, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Parma",
         { inicio: "01/07/2021", fim: "02/08/2023" },
-        { jogos: 45, gols: 0, assistencias: 0 }
+        { jogos: 45, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -29600,17 +29605,17 @@ export const jogadores = [
       createClub(
         "AC Milan",
         { inicio: "25/10/2015", fim: "30/06/2021" },
-        { jogos: 251, gols: 0, assistencias: 0 }
+        { jogos: 251, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/07/2021", fim: "30/06/2025" },
-        { jogos: 147, gols: 0, assistencias: 0 }
+        { jogos: 147, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Manchester City",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -29682,22 +29687,22 @@ export const jogadores = [
       createClub(
         "Livorno",
         { inicio: "01/07/2000", fim: "30/06/2004" },
-        { jogos: 65, gols: 4, assistencias: 0 }
+        { jogos: 65, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "01/07/2004", fim: "30/06/2005" },
-        { jogos: 42, gols: 3, assistencias: 0 }
+        { jogos: 42, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2005", fim: "30/06/2022" },
-        { jogos: 561, gols: 36, assistencias: 26 }
+        { jogos: 561, gols: 36, assistencias: 26 },
       ),
       createClub(
         "Los Angeles FC",
         { inicio: "07/07/2022", fim: "31/12/2023" },
-        { jogos: 38, gols: 1, assistencias: 0 }
+        { jogos: 38, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -29780,37 +29785,37 @@ export const jogadores = [
       createClub(
         "Inter de Milão",
         { inicio: "01/07/1927", fim: "30/06/1940" },
-        { jogos: 365, gols: 242, assistencias: 0 }
+        { jogos: 365, gols: 242, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/1940", fim: "30/06/1942" },
-        { jogos: 37, gols: 9, assistencias: 0 }
+        { jogos: 37, gols: 9, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/1942", fim: "30/06/1943" },
-        { jogos: 27, gols: 10, assistencias: 0 }
+        { jogos: 27, gols: 10, assistencias: 0 },
       ),
       createClub(
         "Varese",
         { inicio: "01/01/1944", fim: "31/12/1944" },
-        { jogos: 8, gols: 7, assistencias: 0 }
+        { jogos: 8, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Atalanta",
         { inicio: "01/07/1945", fim: "30/06/1946" },
-        { jogos: 27, gols: 7, assistencias: 0 }
+        { jogos: 27, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/1946", fim: "30/06/1947" },
-        { jogos: 17, gols: 2, assistencias: 0 }
+        { jogos: 17, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Pro Patria",
         { inicio: "01/07/1947", fim: "31/12/1947" },
-        { jogos: 17, gols: 2, assistencias: 0 }
+        { jogos: 17, gols: 2, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -29873,32 +29878,32 @@ export const jogadores = [
       createClub(
         "Hellas Verona",
         { inicio: "01/07/2010", fim: "31/12/2013" },
-        { jogos: 95, gols: 11, assistencias: 2 }
+        { jogos: 95, gols: 11, assistencias: 2 },
       ),
       createClub(
         "Sambonifacese",
         { inicio: "01/07/2010", fim: "30/06/2011" },
-        { jogos: 31, gols: 1, assistencias: 2 }
+        { jogos: 31, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Napoli",
         { inicio: "01/01/2014", fim: "13/07/2018" },
-        { jogos: 160, gols: 6, assistencias: 14 }
+        { jogos: 160, gols: 6, assistencias: 14 },
       ),
       createClub(
         "Chelsea",
         { inicio: "14/07/2018", fim: "31/01/2023" },
-        { jogos: 213, gols: 29, assistencias: 8 }
+        { jogos: 213, gols: 29, assistencias: 8 },
       ),
       createClub(
         "Arsenal",
         { inicio: "31/01/2023", fim: "30/06/2025" },
-        { jogos: 60, gols: 2, assistencias: 3 }
+        { jogos: 60, gols: 2, assistencias: 3 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 20, gols: 2, assistencias: 5 }
+        { jogos: 20, gols: 2, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -29976,47 +29981,47 @@ export const jogadores = [
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2005", fim: "30/06/2007" },
-        { jogos: 4, gols: 0, assistencias: 0 }
+        { jogos: 4, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Treviso",
         { inicio: "01/07/2007", fim: "30/06/2009" },
-        { jogos: 38, gols: 2, assistencias: 0 }
+        { jogos: 38, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Pisa",
         { inicio: "01/07/2009", fim: "31/12/2009" },
-        { jogos: 18, gols: 1, assistencias: 0 }
+        { jogos: 18, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Bari",
         { inicio: "01/01/2010", fim: "30/06/2010" },
-        { jogos: 39, gols: 1, assistencias: 2 }
+        { jogos: 39, gols: 1, assistencias: 2 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2010", fim: "14/07/2017" },
-        { jogos: 319, gols: 19, assistencias: 9 }
+        { jogos: 319, gols: 19, assistencias: 9 },
       ),
       createClub(
         "AC Milan",
         { inicio: "15/07/2017", fim: "01/08/2018" },
-        { jogos: 51, gols: 2, assistencias: 1 }
+        { jogos: 51, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Juventus",
         { inicio: "02/08/2018", fim: "31/08/2023" },
-        { jogos: 188, gols: 13, assistencias: 5 }
+        { jogos: 188, gols: 13, assistencias: 5 },
       ),
       createClub(
         "Union Berlin",
         { inicio: "01/09/2023", fim: "11/01/2024" },
-        { jogos: 10, gols: 1, assistencias: 0 }
+        { jogos: 10, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "11/01/2024", fim: "31/05/2024" },
-        { jogos: 13, gols: 0, assistencias: 1 }
+        { jogos: 13, gols: 0, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -30112,7 +30117,7 @@ export const jogadores = [
       createClub(
         "Roma",
         { inicio: "01/01/1993", fim: "28/05/2017" },
-        { jogos: 786, gols: 307, assistencias: 209 }
+        { jogos: 786, gols: 307, assistencias: 209 },
       ),
     ],
     selecao: {
@@ -30224,22 +30229,22 @@ export const jogadores = [
       createClub(
         "Pescara",
         { inicio: "01/07/2008", fim: "17/07/2012" },
-        { jogos: 78, gols: 2, assistencias: 9 }
+        { jogos: 78, gols: 2, assistencias: 9 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "18/07/2012", fim: "12/09/2023" },
-        { jogos: 416, gols: 11, assistencias: 61 }
+        { jogos: 416, gols: 11, assistencias: 61 },
       ),
       createClub(
         "Al-Arabi",
         { inicio: "13/09/2023", fim: "30/06/2025" },
-        { jogos: 39, gols: 4, assistencias: 12 }
+        { jogos: 39, gols: 4, assistencias: 12 },
       ),
       createClub(
         "Al-Duhail",
         { inicio: "01/07/2025", fim: "Presente" },
-        { jogos: 10, gols: 0, assistencias: 3 }
+        { jogos: 10, gols: 0, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -30335,12 +30340,12 @@ export const jogadores = [
       createClub(
         "Cagliari Calcio",
         { inicio: "01/07/2015", fim: "11/07/2019" },
-        { jogos: 112, gols: 7, assistencias: 4 }
+        { jogos: 112, gols: 7, assistencias: 4 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "12/07/2019", fim: "Presente" },
-        { jogos: 250, gols: 25, assistencias: 45 }
+        { jogos: 250, gols: 25, assistencias: 45 },
       ),
     ],
     selecao: {
@@ -30397,7 +30402,7 @@ export const jogadores = [
       createClub(
         "AC Milan",
         { inicio: "20/01/1985", fim: "31/05/2009" },
-        { jogos: 902, gols: 33, assistencias: 43 }
+        { jogos: 902, gols: 33, assistencias: 43 },
       ),
     ],
     selecao: {
@@ -30480,37 +30485,37 @@ export const jogadores = [
       createClub(
         "Vicenza",
         { inicio: "01/07/1982", fim: "30/06/1985" },
-        { jogos: 47, gols: 16, assistencias: 0 }
+        { jogos: 47, gols: 16, assistencias: 0 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "01/07/1985", fim: "30/06/1990" },
-        { jogos: 136, gols: 55, assistencias: 0 }
+        { jogos: 136, gols: 55, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/1990", fim: "30/06/1995" },
-        { jogos: 201, gols: 115, assistencias: 0 }
+        { jogos: 201, gols: 115, assistencias: 0 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/1995", fim: "30/06/1997" },
-        { jogos: 67, gols: 19, assistencias: 0 }
+        { jogos: 67, gols: 19, assistencias: 0 },
       ),
       createClub(
         "Bologna",
         { inicio: "01/07/1997", fim: "30/06/1998" },
-        { jogos: 33, gols: 23, assistencias: 0 }
+        { jogos: 33, gols: 23, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/1998", fim: "30/06/2000" },
-        { jogos: 59, gols: 17, assistencias: 0 }
+        { jogos: 59, gols: 17, assistencias: 0 },
       ),
       createClub(
         "Brescia",
         { inicio: "01/07/2000", fim: "30/06/2004" },
-        { jogos: 101, gols: 46, assistencias: 0 }
+        { jogos: 101, gols: 46, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -30603,37 +30608,37 @@ export const jogadores = [
       createClub(
         "Yokohama Marinos",
         { inicio: "01/02/1997", fim: "30/06/2002" },
-        { jogos: 174, gols: 38, assistencias: 20 }
+        { jogos: 174, gols: 38, assistencias: 20 },
       ),
       createClub(
         "Reggina",
         { inicio: "01/07/2002", fim: "24/07/2005" },
-        { jogos: 81, gols: 11, assistencias: 8 }
+        { jogos: 81, gols: 11, assistencias: 8 },
       ),
       createClub(
         "Celtic",
         { inicio: "25/07/2005", fim: "22/06/2009" },
-        { jogos: 166, gols: 33, assistencias: 35 }
+        { jogos: 166, gols: 33, assistencias: 35 },
       ),
       createClub(
         "Espanyol",
         { inicio: "23/06/2009", fim: "31/01/2010" },
-        { jogos: 15, gols: 0, assistencias: 1 }
+        { jogos: 15, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Yokohama Marinos",
         { inicio: "01/02/2010", fim: "04/01/2017" },
-        { jogos: 219, gols: 35, assistencias: 46 }
+        { jogos: 219, gols: 35, assistencias: 46 },
       ),
       createClub(
         "Júbilo Iwata",
         { inicio: "05/01/2017", fim: "30/06/2019" },
-        { jogos: 68, gols: 5, assistencias: 3 }
+        { jogos: 68, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Yokohama FC",
         { inicio: "01/07/2019", fim: "31/12/2022" },
-        { jogos: 82, gols: 3, assistencias: 3 }
+        { jogos: 82, gols: 3, assistencias: 3 },
       ),
     ],
     selecao: {
@@ -30705,22 +30710,22 @@ export const jogadores = [
       createClub(
         "Real Madrid",
         { inicio: "01/07/2017", fim: "11/07/2018" },
-        { jogos: 17, gols: 2, assistencias: 1 }
+        { jogos: 17, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "11/07/2018", fim: "30/06/2020" },
-        { jogos: 73, gols: 12, assistencias: 17 }
+        { jogos: 73, gols: 12, assistencias: 17 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/09/2020", fim: "06/07/2021" },
-        { jogos: 45, gols: 7, assistencias: 10 }
+        { jogos: 45, gols: 7, assistencias: 10 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "06/07/2021", fim: "Presente" },
-        { jogos: 182, gols: 25, assistencias: 33 }
+        { jogos: 182, gols: 25, assistencias: 33 },
       ),
     ],
     selecao: {
@@ -30793,37 +30798,37 @@ export const jogadores = [
       createClub(
         "Borussia Neunkirchen",
         { inicio: "01/07/1990", fim: "30/06/1992" },
-        { jogos: 35, gols: 7, assistencias: 0 }
+        { jogos: 35, gols: 7, assistencias: 0 },
       ),
       createClub(
         "Eintracht Frankfurt",
         { inicio: "01/07/1992", fim: "30/06/1996" },
-        { jogos: 90, gols: 18, assistencias: 13 }
+        { jogos: 90, gols: 18, assistencias: 13 },
       ),
       createClub(
         "Fenerbahçe",
         { inicio: "01/07/1996", fim: "30/06/1998" },
-        { jogos: 62, gols: 30, assistencias: 15 }
+        { jogos: 62, gols: 30, assistencias: 15 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/07/1998", fim: "30/06/2002" },
-        { jogos: 84, gols: 14, assistencias: 20 }
+        { jogos: 84, gols: 14, assistencias: 20 },
       ),
       createClub(
         "Bolton Wanderers",
         { inicio: "01/08/2002", fim: "30/06/2006" },
-        { jogos: 145, gols: 18, assistencias: 11 }
+        { jogos: 145, gols: 18, assistencias: 11 },
       ),
       createClub(
         "Qatar SC",
         { inicio: "01/07/2006", fim: "30/06/2007" },
-        { jogos: 41, gols: 6, assistencias: 0 }
+        { jogos: 41, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Hull City",
         { inicio: "01/07/2007", fim: "30/06/2008" },
-        { jogos: 18, gols: 0, assistencias: 0 }
+        { jogos: 18, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -30921,27 +30926,27 @@ export const jogadores = [
       createClub(
         "Bryne",
         { inicio: "01/01/2016", fim: "31/12/2016" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Molde",
         { inicio: "01/02/2017", fim: "31/12/2018" },
-        { jogos: 50, gols: 20, assistencias: 6 }
+        { jogos: 50, gols: 20, assistencias: 6 },
       ),
       createClub(
         "Red Bull Salzburg",
         { inicio: "01/01/2019", fim: "31/12/2019" },
-        { jogos: 27, gols: 29, assistencias: 7 }
+        { jogos: 27, gols: 29, assistencias: 7 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "01/01/2020", fim: "30/06/2022" },
-        { jogos: 89, gols: 86, assistencias: 23 }
+        { jogos: 89, gols: 86, assistencias: 23 },
       ),
       createClub(
         "Manchester City",
         { inicio: "01/07/2022", fim: "Presente" },
-        { jogos: 168, gols: 147, assistencias: 27 }
+        { jogos: 168, gols: 147, assistencias: 27 },
       ),
     ],
     selecao: {
@@ -31081,27 +31086,27 @@ export const jogadores = [
       createClub(
         "Southampton",
         { inicio: "01/07/2005", fim: "26/05/2007" },
-        { jogos: 45, gols: 5, assistencias: 12 }
+        { jogos: 45, gols: 5, assistencias: 12 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "26/05/2007", fim: "01/09/2013" },
-        { jogos: 203, gols: 56, assistencias: 58 }
+        { jogos: 203, gols: 56, assistencias: 58 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/09/2013", fim: "30/06/2022" },
-        { jogos: 258, gols: 106, assistencias: 64 }
+        { jogos: 258, gols: 106, assistencias: 64 },
       ),
       createClub(
         "Tottenham Hotspur",
         { inicio: "19/09/2020", fim: "30/06/2021" },
-        { jogos: 34, gols: 16, assistencias: 4 }
+        { jogos: 34, gols: 16, assistencias: 4 },
       ),
       createClub(
         "Los Angeles FC",
         { inicio: "27/06/2022", fim: "09/01/2023" },
-        { jogos: 13, gols: 3, assistencias: 0 }
+        { jogos: 13, gols: 3, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -31213,7 +31218,7 @@ export const jogadores = [
       createClub(
         "Manchester United",
         { inicio: "01/07/1990", fim: "19/05/2014" },
-        { jogos: 963, gols: 168, assistencias: 257 }
+        { jogos: 963, gols: 168, assistencias: 257 },
       ),
     ],
     selecao: {
@@ -31325,27 +31330,27 @@ export const jogadores = [
       createClub(
         "Cerro Porteño",
         { inicio: "01/01/2011", fim: "30/06/2014" },
-        { jogos: 110, gols: 30, assistencias: 12 }
+        { jogos: 110, gols: 30, assistencias: 12 },
       ),
       createClub(
         "Corinthians",
         { inicio: "04/07/2014", fim: "30/06/2019" },
-        { jogos: 222, gols: 38, assistencias: 12 }
+        { jogos: 222, gols: 38, assistencias: 12 },
       ),
       createClub(
         "San Lorenzo",
         { inicio: "08/08/2019", fim: "31/08/2021" },
-        { jogos: 55, gols: 13, assistencias: 7 }
+        { jogos: 55, gols: 13, assistencias: 7 },
       ),
       createClub(
         "Cruz Azul",
         { inicio: "01/01/2022", fim: "31/12/2022" },
-        { jogos: 42, gols: 5, assistencias: 3 }
+        { jogos: 42, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Corinthians",
         { inicio: "12/01/2023", fim: "Presente" },
-        { jogos: 101, gols: 12, assistencias: 4 }
+        { jogos: 101, gols: 12, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -31396,47 +31401,47 @@ export const jogadores = [
       createClub(
         "Bayern de Munique",
         { inicio: "01/12/2004", fim: "30/06/2006" },
-        { jogos: 45, gols: 13, assistencias: 4 }
+        { jogos: 45, gols: 13, assistencias: 4 },
       ),
       createClub(
         "Hamburgo SV",
         { inicio: "01/07/2006", fim: "13/07/2012" },
-        { jogos: 183, gols: 47, assistencias: 29 }
+        { jogos: 183, gols: 47, assistencias: 29 },
       ),
       createClub(
         "Corinthians",
         { inicio: "13/07/2012", fim: "27/05/2015" },
-        { jogos: 130, gols: 54, assistencias: 14 }
+        { jogos: 130, gols: 54, assistencias: 14 },
       ),
       createClub(
         "Flamengo",
         { inicio: "27/05/2015", fim: "10/08/2018" },
-        { jogos: 88, gols: 43, assistencias: 13 }
+        { jogos: 88, gols: 43, assistencias: 13 },
       ),
       createClub(
         "Internacional",
         { inicio: "12/08/2018", fim: "28/09/2021" },
-        { jogos: 81, gols: 32, assistencias: 5 }
+        { jogos: 81, gols: 32, assistencias: 5 },
       ),
       createClub(
         "Racing",
         { inicio: "17/01/2023", fim: "06/07/2023" },
-        { jogos: 22, gols: 3, assistencias: 2 }
+        { jogos: 22, gols: 3, assistencias: 2 },
       ),
       createClub(
         "LDU",
         { inicio: "21/07/2023", fim: "01/01/2024" },
-        { jogos: 14, gols: 5, assistencias: 2 }
+        { jogos: 14, gols: 5, assistencias: 2 },
       ),
       createClub(
         "Universidad César Vallejo",
         { inicio: "01/03/2024", fim: "01/09/2024" },
-        { jogos: 18, gols: 8, assistencias: 2 }
+        { jogos: 18, gols: 8, assistencias: 2 },
       ),
       createClub(
         "Club Alianza Lima",
         { inicio: "02/09/2024", fim: "Presente" },
-        { jogos: 10, gols: 5, assistencias: 1 }
+        { jogos: 10, gols: 5, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -31594,22 +31599,22 @@ export const jogadores = [
       createClub(
         "Udinese",
         { inicio: "01/07/2012", fim: "21/07/2016" },
-        { jogos: 21, gols: 0, assistencias: 0 }
+        { jogos: 21, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Empoli",
         { inicio: "01/09/2014", fim: "30/06/2016" },
-        { jogos: 66, gols: 10, assistencias: 6 }
+        { jogos: 66, gols: 10, assistencias: 6 },
       ),
       createClub(
         "Napoli",
         { inicio: "21/07/2016", fim: "30/06/2024" },
-        { jogos: 364, gols: 51, assistencias: 46 }
+        { jogos: 364, gols: 51, assistencias: 46 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2024", fim: "Presente" },
-        { jogos: 15, gols: 3, assistencias: 2 }
+        { jogos: 15, gols: 3, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -31651,27 +31656,27 @@ export const jogadores = [
       createClub(
         "Znicz Pruszków",
         { inicio: "01/07/2006", fim: "30/06/2008" },
-        { jogos: 66, gols: 38, assistencias: 0 }
+        { jogos: 66, gols: 38, assistencias: 0 },
       ),
       createClub(
         "Lech Poznań",
         { inicio: "01/07/2008", fim: "30/06/2010" },
-        { jogos: 82, gols: 41, assistencias: 20 }
+        { jogos: 82, gols: 41, assistencias: 20 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "01/07/2010", fim: "30/06/2014" },
-        { jogos: 186, gols: 103, assistencias: 42 }
+        { jogos: 186, gols: 103, assistencias: 42 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2014", fim: "19/07/2022" },
-        { jogos: 375, gols: 344, assistencias: 72 }
+        { jogos: 375, gols: 344, assistencias: 72 },
       ),
       createClub(
         "Barcelona",
         { inicio: "19/07/2022", fim: "Presente" },
-        { jogos: 157, gols: 105, assistencias: 16 }
+        { jogos: 157, gols: 105, assistencias: 16 },
       ),
     ],
     selecao: {
@@ -31786,27 +31791,27 @@ export const jogadores = [
       createClub(
         "Arsenal",
         { inicio: "01/07/2009", fim: "30/06/2017" },
-        { jogos: 181, gols: 0, assistencias: 0 }
+        { jogos: 181, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Brentford",
         { inicio: "20/11/2009", fim: "30/06/2010" },
-        { jogos: 28, gols: 0, assistencias: 0 }
+        { jogos: 28, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Roma",
         { inicio: "29/07/2015", fim: "30/06/2017" },
-        { jogos: 81, gols: 0, assistencias: 0 }
+        { jogos: 81, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "19/07/2017", fim: "30/06/2024" },
-        { jogos: 252, gols: 0, assistencias: 0 }
+        { jogos: 252, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Barcelona",
         { inicio: "02/07/2024", fim: "Presente" },
-        { jogos: 20, gols: 0, assistencias: 0 }
+        { jogos: 20, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -31860,27 +31865,27 @@ export const jogadores = [
       createClub(
         "Novara",
         { inicio: "27/08/2012", fim: "31/08/2013" },
-        { jogos: 23, gols: 4, assistencias: 2 }
+        { jogos: 23, gols: 4, assistencias: 2 },
       ),
       createClub(
         "Udinese",
         { inicio: "31/08/2013", fim: "30/06/2016" },
-        { jogos: 95, gols: 11, assistencias: 13 }
+        { jogos: 95, gols: 11, assistencias: 13 },
       ),
       createClub(
         "Sampdoria",
         { inicio: "16/08/2016", fim: "30/06/2017" },
-        { jogos: 35, gols: 5, assistencias: 3 }
+        { jogos: 35, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Sporting CP",
         { inicio: "01/07/2017", fim: "29/01/2020" },
-        { jogos: 137, gols: 63, assistencias: 52 }
+        { jogos: 137, gols: 63, assistencias: 52 },
       ),
       createClub(
         "Manchester United",
         { inicio: "30/01/2020", fim: "Presente" },
-        { jogos: 280, gols: 95, assistencias: 80 }
+        { jogos: 280, gols: 95, assistencias: 80 },
       ),
     ],
     selecao: {
@@ -31948,32 +31953,32 @@ export const jogadores = [
       createClub(
         "Sporting CP",
         { inicio: "01/07/2002", fim: "12/08/2003" },
-        { jogos: 31, gols: 5, assistencias: 3 }
+        { jogos: 31, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Manchester United",
         { inicio: "12/08/2003", fim: "30/06/2009" },
-        { jogos: 292, gols: 118, assistencias: 69 }
+        { jogos: 292, gols: 118, assistencias: 69 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2009", fim: "10/07/2018" },
-        { jogos: 438, gols: 450, assistencias: 133 }
+        { jogos: 438, gols: 450, assistencias: 133 },
       ),
       createClub(
         "Juventus",
         { inicio: "10/07/2018", fim: "26/08/2021" },
-        { jogos: 134, gols: 101, assistencias: 38 }
+        { jogos: 134, gols: 101, assistencias: 38 },
       ),
       createClub(
         "Manchester United",
         { inicio: "27/08/2021", fim: "22/11/2022" },
-        { jogos: 54, gols: 27, assistencias: 3 }
+        { jogos: 54, gols: 27, assistencias: 3 },
       ),
       createClub(
         "Al-Nassr",
         { inicio: "30/12/2022", fim: "Presente" },
-        { jogos: 124, gols: 116, assistencias: 25 }
+        { jogos: 124, gols: 116, assistencias: 25 },
       ),
     ],
     selecao: {
@@ -32362,47 +32367,47 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "01/07/1996", fim: "30/06/1997" },
-        { jogos: 2, gols: 0, assistencias: 0 }
+        { jogos: 2, gols: 0, assistencias: 0 },
       ),
       createClub(
         "CSA",
         { inicio: "01/07/1997", fim: "31/12/1997" },
-        { jogos: 16, gols: 9, assistencias: 0 }
+        { jogos: 16, gols: 9, assistencias: 0 },
       ),
       createClub(
         "Benfica",
         { inicio: "01/01/1998", fim: "30/06/1998" },
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Alverca",
         { inicio: "01/07/1997", fim: "30/06/1998" },
-        { jogos: 32, gols: 13, assistencias: 0 }
+        { jogos: 32, gols: 13, assistencias: 0 },
       ),
       createClub(
         "Salgueiros",
         { inicio: "01/07/1998", fim: "31/12/1998" },
-        { jogos: 12, gols: 2, assistencias: 0 }
+        { jogos: 12, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Porto",
         { inicio: "01/01/1999", fim: "30/06/2004" },
-        { jogos: 229, gols: 48, assistencias: 63 }
+        { jogos: 229, gols: 48, assistencias: 63 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/2004", fim: "30/06/2008" },
-        { jogos: 161, gols: 21, assistencias: 45 }
+        { jogos: 161, gols: 21, assistencias: 45 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/07/2008", fim: "30/06/2010" },
-        { jogos: 58, gols: 6, assistencias: 10 }
+        { jogos: 58, gols: 6, assistencias: 10 },
       ),
       createClub(
         "Fluminense",
         { inicio: "01/07/2010", fim: "26/08/2013" },
-        { jogos: 91, gols: 7, assistencias: 15 }
+        { jogos: 91, gols: 7, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -32524,47 +32529,47 @@ export const jogadores = [
       createClub(
         "Sporting Lourenço Marques",
         { inicio: "01/01/1957", fim: "31/12/1960" },
-        { jogos: 42, gols: 77, assistencias: 0 }
+        { jogos: 42, gols: 77, assistencias: 0 },
       ),
       createClub(
         "Benfica",
         { inicio: "01/01/1961", fim: "30/06/1975" },
-        { jogos: 440, gols: 473, assistencias: 0 }
+        { jogos: 440, gols: 473, assistencias: 0 },
       ),
       createClub(
         "Boston Minutemen",
         { inicio: "01/01/1975", fim: "31/12/1975" },
-        { jogos: 7, gols: 2, assistencias: 0 }
+        { jogos: 7, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Monterrey",
         { inicio: "01/01/1975", fim: "30/06/1976" },
-        { jogos: 10, gols: 1, assistencias: 0 }
+        { jogos: 10, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Toronto Metros-Croatia",
         { inicio: "01/07/1976", fim: "31/12/1976" },
-        { jogos: 25, gols: 18, assistencias: 0 }
+        { jogos: 25, gols: 18, assistencias: 0 },
       ),
       createClub(
         "Beira-Mar",
         { inicio: "01/01/1976", fim: "30/06/1977" },
-        { jogos: 12, gols: 3, assistencias: 0 }
+        { jogos: 12, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Las Vegas Quiksilver",
         { inicio: "01/07/1977", fim: "31/12/1977" },
-        { jogos: 17, gols: 2, assistencias: 0 }
+        { jogos: 17, gols: 2, assistencias: 0 },
       ),
       createClub(
         "União de Tomar",
         { inicio: "01/01/1977", fim: "30/06/1978" },
-        { jogos: 12, gols: 3, assistencias: 0 }
+        { jogos: 12, gols: 3, assistencias: 0 },
       ),
       createClub(
         "New Jersey Americans",
         { inicio: "01/07/1978", fim: "30/06/1979" },
-        { jogos: 4, gols: 5, assistencias: 0 }
+        { jogos: 4, gols: 5, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -32722,42 +32727,42 @@ export const jogadores = [
       createClub(
         "Benfica",
         { inicio: "10/01/2014", fim: "30/06/2014" },
-        { jogos: 2, gols: 0, assistencias: 0 }
+        { jogos: 2, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Valencia",
         { inicio: "01/07/2014", fim: "30/06/2017" },
-        { jogos: 91, gols: 4, assistencias: 10 }
+        { jogos: 91, gols: 4, assistencias: 10 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2017", fim: "30/06/2018" },
-        { jogos: 29, gols: 1, assistencias: 4 }
+        { jogos: 29, gols: 1, assistencias: 4 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2018", fim: "06/08/2019" },
-        { jogos: 34, gols: 1, assistencias: 5 }
+        { jogos: 34, gols: 1, assistencias: 5 },
       ),
       createClub(
         "Manchester City",
         { inicio: "07/08/2019", fim: "30/01/2023" },
-        { jogos: 154, gols: 9, assistencias: 22 }
+        { jogos: 154, gols: 9, assistencias: 22 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "31/01/2023", fim: "30/06/2023" },
-        { jogos: 21, gols: 1, assistencias: 6 }
+        { jogos: 21, gols: 1, assistencias: 6 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/09/2023", fim: "30/06/2024" },
-        { jogos: 42, gols: 4, assistencias: 5 }
+        { jogos: 42, gols: 4, assistencias: 5 },
       ),
       createClub(
         "Al-Hilal",
         { inicio: "01/09/2024", fim: "Presente" },
-        { jogos: 40, gols: 2, assistencias: 2 }
+        { jogos: 40, gols: 2, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -32813,12 +32818,12 @@ export const jogadores = [
       createClub(
         "Benfica",
         { inicio: "01/01/2023", fim: "30/08/2024" },
-        { jogos: 75, gols: 4, assistencias: 4 }
+        { jogos: 75, gols: 4, assistencias: 4 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "31/08/2024", fim: "Presente" },
-        { jogos: 61, gols: 10, assistencias: 4 }
+        { jogos: 61, gols: 10, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -32861,22 +32866,22 @@ export const jogadores = [
       createClub(
         "Sporting CP",
         { inicio: "01/07/1991", fim: "30/06/1995" },
-        { jogos: 169, gols: 23, assistencias: 24 }
+        { jogos: 169, gols: 23, assistencias: 24 },
       ),
       createClub(
         "Barcelona",
         { inicio: "01/07/1995", fim: "24/07/2000" },
-        { jogos: 249, gols: 45, assistencias: 88 }
+        { jogos: 249, gols: 45, assistencias: 88 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "24/07/2000", fim: "30/06/2005" },
-        { jogos: 245, gols: 58, assistencias: 80 }
+        { jogos: 245, gols: 58, assistencias: 80 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2005", fim: "31/05/2009" },
-        { jogos: 140, gols: 11, assistencias: 28 }
+        { jogos: 140, gols: 11, assistencias: 28 },
       ),
     ],
     selecao: {
@@ -32971,12 +32976,12 @@ export const jogadores = [
       createClub(
         "Sporting CP",
         { inicio: "19/06/2020", fim: "31/08/2021" },
-        { jogos: 47, gols: 1, assistencias: 3 }
+        { jogos: 47, gols: 1, assistencias: 3 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/09/2021", fim: "Presente" },
-        { jogos: 85, gols: 4, assistencias: 10 }
+        { jogos: 85, gols: 4, assistencias: 10 },
       ),
     ],
     selecao: {
@@ -33043,27 +33048,27 @@ export const jogadores = [
       createClub(
         "Marítimo",
         { inicio: "01/07/2002", fim: "30/06/2004" },
-        { jogos: 64, gols: 4, assistencias: 0 }
+        { jogos: 64, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Porto",
         { inicio: "01/07/2004", fim: "10/07/2007" },
-        { jogos: 88, gols: 6, assistencias: 1 }
+        { jogos: 88, gols: 6, assistencias: 1 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "10/07/2007", fim: "30/06/2017" },
-        { jogos: 334, gols: 15, assistencias: 20 }
+        { jogos: 334, gols: 15, assistencias: 20 },
       ),
       createClub(
         "Beşiktaş",
         { inicio: "04/07/2017", fim: "15/12/2018" },
-        { jogos: 52, gols: 7, assistencias: 3 }
+        { jogos: 52, gols: 7, assistencias: 3 },
       ),
       createClub(
         "Porto",
         { inicio: "08/01/2019", fim: "30/06/2024" },
-        { jogos: 201, gols: 9, assistencias: 2 }
+        { jogos: 201, gols: 9, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -33127,17 +33132,17 @@ export const jogadores = [
       createClub(
         "Sporting CP",
         { inicio: "11/02/2018", fim: "31/08/2018" },
-        { jogos: 5, gols: 1, assistencias: 0 }
+        { jogos: 5, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Lille OSC",
         { inicio: "01/09/2018", fim: "31/07/2019" },
-        { jogos: 26, gols: 8, assistencias: 2 }
+        { jogos: 26, gols: 8, assistencias: 2 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/08/2019", fim: "Presente" },
-        { jogos: 268, gols: 75, assistencias: 61 }
+        { jogos: 268, gols: 75, assistencias: 61 },
       ),
     ],
     selecao: {
@@ -33190,27 +33195,27 @@ export const jogadores = [
       createClub(
         "Fafe",
         { inicio: "01/07/1990", fim: "30/06/1991" },
-        { jogos: 38, gols: 6, assistencias: 0 }
+        { jogos: 38, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Benfica",
         { inicio: "01/07/1991", fim: "30/06/1994" },
-        { jogos: 78, gols: 13, assistencias: 13 }
+        { jogos: 78, gols: 13, assistencias: 13 },
       ),
       createClub(
         "Fiorentina",
         { inicio: "01/07/1994", fim: "30/06/2001" },
-        { jogos: 277, gols: 50, assistencias: 61 }
+        { jogos: 277, gols: 50, assistencias: 61 },
       ),
       createClub(
         "AC Milan",
         { inicio: "01/07/2001", fim: "30/06/2006" },
-        { jogos: 192, gols: 4, assistencias: 40 }
+        { jogos: 192, gols: 4, assistencias: 40 },
       ),
       createClub(
         "Benfica",
         { inicio: "01/07/2006", fim: "01/07/2008" },
-        { jogos: 59, gols: 11, assistencias: 5 }
+        { jogos: 59, gols: 11, assistencias: 5 },
       ),
     ],
     selecao: {
@@ -33307,22 +33312,22 @@ export const jogadores = [
       createClub(
         "Porto",
         { inicio: "04/01/2020", fim: "31/10/2020" },
-        { jogos: 8, gols: 0, assistencias: 0 }
+        { jogos: 8, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Wolverhampton Wanderers",
         { inicio: "09/09/2020", fim: "30/06/2021" },
-        { jogos: 22, gols: 1, assistencias: 1 }
+        { jogos: 22, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Porto",
         { inicio: "01/07/2021", fim: "30/06/2022" },
-        { jogos: 47, gols: 4, assistencias: 6 }
+        { jogos: 47, gols: 4, assistencias: 6 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "01/07/2022", fim: "Presente" },
-        { jogos: 161, gols: 20, assistencias: 13 }
+        { jogos: 161, gols: 20, assistencias: 13 },
       ),
     ],
     selecao: {
@@ -33401,22 +33406,22 @@ export const jogadores = [
       createClub(
         "Dukla Praga",
         { inicio: "01/07/1991", fim: "30/06/1992" },
-        { jogos: 19, gols: 3, assistencias: 0 }
+        { jogos: 19, gols: 3, assistencias: 0 },
       ),
       createClub(
         "Sparta Praga",
         { inicio: "01/07/1992", fim: "30/06/1996" },
-        { jogos: 122, gols: 30, assistencias: 0 }
+        { jogos: 122, gols: 30, assistencias: 0 },
       ),
       createClub(
         "Lazio",
         { inicio: "01/07/1996", fim: "30/06/2001" },
-        { jogos: 208, gols: 51, assistencias: 0 }
+        { jogos: 208, gols: 51, assistencias: 0 },
       ),
       createClub(
         "Juventus",
         { inicio: "01/07/2001", fim: "30/06/2009" },
-        { jogos: 326, gols: 65, assistencias: 0 }
+        { jogos: 326, gols: 65, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -33504,27 +33509,27 @@ export const jogadores = [
       createClub(
         "FK Chmel Blšany",
         { inicio: "01/07/1999", fim: "30/06/2001" },
-        { jogos: 27, gols: 0, assistencias: 0 }
+        { jogos: 27, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Sparta Praga",
         { inicio: "01/07/2001", fim: "30/06/2002" },
-        { jogos: 30, gols: 0, assistencias: 0 }
+        { jogos: 30, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Stade Rennais",
         { inicio: "01/07/2002", fim: "30/06/2004" },
-        { jogos: 78, gols: 0, assistencias: 0 }
+        { jogos: 78, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Chelsea",
         { inicio: "01/07/2004", fim: "30/06/2015" },
-        { jogos: 494, gols: 0, assistencias: 8 }
+        { jogos: 494, gols: 0, assistencias: 8 },
       ),
       createClub(
         "Arsenal",
         { inicio: "01/07/2015", fim: "01/07/2019" },
-        { jogos: 139, gols: 0, assistencias: 4 }
+        { jogos: 139, gols: 0, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -33629,7 +33634,7 @@ export const jogadores = [
       createClub(
         "Dínamo Moscou",
         { inicio: "01/01/1949", fim: "27/05/1971" },
-        { jogos: 326, gols: 0, assistencias: 0 }
+        { jogos: 326, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -33694,12 +33699,12 @@ export const jogadores = [
       createClub(
         "FK Krasnodar",
         { inicio: "01/01/2017", fim: "13/06/2024" },
-        { jogos: 175, gols: 0, assistencias: 1 }
+        { jogos: 175, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "14/06/2024", fim: "Presente" },
-        { jogos: 21, gols: 0, assistencias: 0 }
+        { jogos: 21, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -33751,32 +33756,32 @@ export const jogadores = [
       createClub(
         "Metz",
         { inicio: "01/01/2012", fim: "31/08/2012" },
-        { jogos: 22, gols: 2, assistencias: 1 }
+        { jogos: 22, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Red Bull Salzburg",
         { inicio: "31/08/2012", fim: "01/09/2014" },
-        { jogos: 87, gols: 45, assistencias: 32 }
+        { jogos: 87, gols: 45, assistencias: 32 },
       ),
       createClub(
         "Southampton",
         { inicio: "01/09/2014", fim: "01/07/2016" },
-        { jogos: 75, gols: 25, assistencias: 14 }
+        { jogos: 75, gols: 25, assistencias: 14 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/07/2016", fim: "01/07/2022" },
-        { jogos: 269, gols: 120, assistencias: 48 }
+        { jogos: 269, gols: 120, assistencias: 48 },
       ),
       createClub(
         "Bayern de Munique",
         { inicio: "01/07/2022", fim: "01/08/2023" },
-        { jogos: 38, gols: 12, assistencias: 6 }
+        { jogos: 38, gols: 12, assistencias: 6 },
       ),
       createClub(
         "Al-Nassr",
         { inicio: "01/08/2023", fim: "Presente" },
-        { jogos: 74, gols: 30, assistencias: 15 }
+        { jogos: 74, gols: 30, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -33877,32 +33882,32 @@ export const jogadores = [
       createClub(
         "AIK",
         { inicio: "01/01/2016", fim: "23/01/2017" },
-        { jogos: 30, gols: 13, assistencias: 2 }
+        { jogos: 30, gols: 13, assistencias: 2 },
       ),
       createClub(
         "Borussia Dortmund",
         { inicio: "23/01/2017", fim: "30/06/2019" },
-        { jogos: 13, gols: 1, assistencias: 1 }
+        { jogos: 13, gols: 1, assistencias: 1 },
       ),
       createClub(
         "Willem II",
         { inicio: "23/01/2019", fim: "30/06/2019" }, // Empréstimo
-        { jogos: 16, gols: 13, assistencias: 7 }
+        { jogos: 16, gols: 13, assistencias: 7 },
       ),
       createClub(
         "Real Sociedad",
         { inicio: "01/07/2019", fim: "26/08/2022" },
-        { jogos: 132, gols: 44, assistencias: 8 }
+        { jogos: 132, gols: 44, assistencias: 8 },
       ),
       createClub(
         "Newcastle United",
         { inicio: "26/08/2022", fim: "30/08/2025" },
-        { jogos: 109, gols: 62, assistencias: 13 }
+        { jogos: 109, gols: 62, assistencias: 13 },
       ),
       createClub(
         "Liverpool",
         { inicio: "01/09/2025", fim: "Presente" },
-        { jogos: 15, gols: 8, assistencias: 2 }
+        { jogos: 15, gols: 8, assistencias: 2 },
       ),
     ],
     selecao: {
@@ -33972,52 +33977,52 @@ export const jogadores = [
       createClub(
         "Malmo FF",
         { inicio: "01/01/1999", fim: "01/07/2001" },
-        { jogos: 47, gols: 18, assistencias: 0 }
+        { jogos: 47, gols: 18, assistencias: 0 },
       ),
       createClub(
         "Ajax",
         { inicio: "01/07/2001", fim: "31/08/2004" },
-        { jogos: 110, gols: 48, assistencias: 15 }
+        { jogos: 110, gols: 48, assistencias: 15 },
       ),
       createClub(
         "Juventus",
         { inicio: "31/08/2004", fim: "10/08/2006" },
-        { jogos: 92, gols: 26, assistencias: 12 }
+        { jogos: 92, gols: 26, assistencias: 12 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "10/08/2006", fim: "27/07/2009" },
-        { jogos: 117, gols: 66, assistencias: 30 }
+        { jogos: 117, gols: 66, assistencias: 30 },
       ),
       createClub(
         "Barcelona",
         { inicio: "27/07/2009", fim: "28/08/2010" },
-        { jogos: 46, gols: 22, assistencias: 13 }
+        { jogos: 46, gols: 22, assistencias: 13 },
       ),
       createClub(
         "AC Milan",
         { inicio: "28/08/2010", fim: "17/07/2012" },
-        { jogos: 85, gols: 56, assistencias: 24 }
+        { jogos: 85, gols: 56, assistencias: 24 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "17/07/2012", fim: "01/07/2016" },
-        { jogos: 180, gols: 156, assistencias: 61 }
+        { jogos: 180, gols: 156, assistencias: 61 },
       ),
       createClub(
         "Manchester United",
         { inicio: "01/07/2016", fim: "22/03/2018" },
-        { jogos: 53, gols: 29, assistencias: 10 }
+        { jogos: 53, gols: 29, assistencias: 10 },
       ),
       createClub(
         "Los Angeles Galaxy",
         { inicio: "23/03/2018", fim: "13/11/2019" },
-        { jogos: 58, gols: 53, assistencias: 15 }
+        { jogos: 58, gols: 53, assistencias: 15 },
       ),
       createClub(
         "AC Milan",
         { inicio: "27/12/2019", fim: "04/06/2023" },
-        { jogos: 74, gols: 37, assistencias: 11 }
+        { jogos: 74, gols: 37, assistencias: 11 },
       ),
     ],
     selecao: {
@@ -34117,32 +34122,32 @@ export const jogadores = [
       createClub(
         "Dnipro",
         { inicio: "01/07/2016", fim: "30/06/2017" },
-        { jogos: 25, gols: 0, assistencias: 0 }
+        { jogos: 25, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Zorya Luhansk",
         { inicio: "01/07/2017", fim: "22/06/2018" },
-        { jogos: 36, gols: 0, assistencias: 0 }
+        { jogos: 36, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Leganés",
         { inicio: "27/08/2018", fim: "30/06/2019" },
-        { jogos: 7, gols: 0, assistencias: 0 }
+        { jogos: 7, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Real Valladolid",
         { inicio: "13/08/2019", fim: "14/01/2020" },
-        { jogos: 2, gols: 0, assistencias: 0 }
+        { jogos: 2, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Real Oviedo",
         { inicio: "15/01/2020", fim: "21/07/2020" },
-        { jogos: 20, gols: 0, assistencias: 0 }
+        { jogos: 20, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "22/06/2018", fim: "Presente" },
-        { jogos: 55, gols: 0, assistencias: 0 }
+        { jogos: 55, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -34185,42 +34190,42 @@ export const jogadores = [
       createClub(
         "Danubio",
         { inicio: "01/01/1993", fim: "31/12/1995" },
-        { jogos: 34, gols: 11, assistencias: 0 }
+        { jogos: 34, gols: 11, assistencias: 0 },
       ),
       createClub(
         "Nacional",
         { inicio: "01/01/1996", fim: "30/06/1997" },
-        { jogos: 33, gols: 17, assistencias: 0 }
+        { jogos: 33, gols: 17, assistencias: 0 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/1997", fim: "30/06/2008" },
-        { jogos: 244, gols: 72, assistencias: 42 }
+        { jogos: 244, gols: 72, assistencias: 42 },
       ),
       createClub(
         "Venezia",
         { inicio: "01/01/1999", fim: "30/06/1999" },
-        { jogos: 19, gols: 11, assistencias: 9 }
+        { jogos: 19, gols: 11, assistencias: 9 },
       ),
       createClub(
         "Torino",
         { inicio: "31/08/2007", fim: "30/06/2008" },
-        { jogos: 24, gols: 1, assistencias: 3 }
+        { jogos: 24, gols: 1, assistencias: 3 },
       ),
       createClub(
         "Panionios",
         { inicio: "01/07/2008", fim: "16/12/2009" },
-        { jogos: 26, gols: 5, assistencias: 1 }
+        { jogos: 26, gols: 5, assistencias: 1 },
       ),
       createClub(
         "Danubio",
         { inicio: "01/01/2010", fim: "30/06/2011" },
-        { jogos: 32, gols: 5, assistencias: 0 }
+        { jogos: 32, gols: 5, assistencias: 0 },
       ),
       createClub(
         "Nacional",
         { inicio: "01/07/2011", fim: "31/08/2016" },
-        { jogos: 82, gols: 17, assistencias: 15 }
+        { jogos: 82, gols: 17, assistencias: 15 },
       ),
     ],
     selecao: {
@@ -34272,52 +34277,52 @@ export const jogadores = [
       createClub(
         "Independiente",
         { inicio: "01/01/1997", fim: "22/01/2002" },
-        { jogos: 91, gols: 40, assistencias: 1 }
+        { jogos: 91, gols: 40, assistencias: 1 },
       ),
       createClub(
         "Manchester United",
         { inicio: "22/01/2002", fim: "21/08/2004" },
-        { jogos: 98, gols: 17, assistencias: 9 }
+        { jogos: 98, gols: 17, assistencias: 9 },
       ),
       createClub(
         "Villarreal",
         { inicio: "21/08/2004", fim: "30/06/2007" },
-        { jogos: 128, gols: 59, assistencias: 10 }
+        { jogos: 128, gols: 59, assistencias: 10 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "30/06/2007", fim: "31/08/2011" },
-        { jogos: 196, gols: 96, assistencias: 34 }
+        { jogos: 196, gols: 96, assistencias: 34 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "31/08/2011", fim: "06/07/2012" },
-        { jogos: 20, gols: 2, assistencias: 1 }
+        { jogos: 20, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Internacional",
         { inicio: "06/07/2012", fim: "22/01/2014" },
-        { jogos: 55, gols: 22, assistencias: 5 }
+        { jogos: 55, gols: 22, assistencias: 5 },
       ),
       createClub(
         "Cerezo Osaka",
         { inicio: "22/01/2014", fim: "22/06/2015" },
-        { jogos: 51, gols: 19, assistencias: 5 }
+        { jogos: 51, gols: 19, assistencias: 5 },
       ),
       createClub(
         "Peñarol",
         { inicio: "10/07/2015", fim: "14/06/2016" },
-        { jogos: 34, gols: 8, assistencias: 3 }
+        { jogos: 34, gols: 8, assistencias: 3 },
       ),
       createClub(
         "Mumbai City",
         { inicio: "10/08/2016", fim: "10/12/2016" },
-        { jogos: 11, gols: 5, assistencias: 3 }
+        { jogos: 11, gols: 5, assistencias: 3 },
       ),
       createClub(
         "Kitchee",
         { inicio: "04/01/2018", fim: "15/05/2018" },
-        { jogos: 14, gols: 6, assistencias: 0 }
+        { jogos: 14, gols: 6, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -34421,42 +34426,42 @@ export const jogadores = [
       createClub(
         "CA Cerro",
         { inicio: "01/01/2003", fim: "30/06/2006" },
-        { jogos: 64, gols: 6, assistencias: 0 }
+        { jogos: 64, gols: 6, assistencias: 0 },
       ),
       createClub(
         "Nacional",
         { inicio: "01/07/2006", fim: "31/07/2007" },
-        { jogos: 46, gols: 2, assistencias: 0 }
+        { jogos: 46, gols: 2, assistencias: 0 },
       ),
       createClub(
         "Villarreal",
         { inicio: "01/08/2007", fim: "04/08/2010" },
-        { jogos: 116, gols: 4, assistencias: 0 }
+        { jogos: 116, gols: 4, assistencias: 0 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "04/08/2010", fim: "30/06/2019" },
-        { jogos: 389, gols: 27, assistencias: 11 }
+        { jogos: 389, gols: 27, assistencias: 11 },
       ),
       createClub(
         "Inter de Milão",
         { inicio: "01/07/2019", fim: "24/09/2020" },
-        { jogos: 36, gols: 2, assistencias: 1 }
+        { jogos: 36, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Cagliari",
         { inicio: "24/09/2020", fim: "12/01/2022" },
-        { jogos: 40, gols: 1, assistencias: 0 }
+        { jogos: 40, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Atlético Mineiro",
         { inicio: "12/01/2022", fim: "20/06/2022" },
-        { jogos: 9, gols: 1, assistencias: 0 }
+        { jogos: 9, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Vélez Sarsfield",
         { inicio: "21/06/2022", fim: "31/07/2023" },
-        { jogos: 22, gols: 1, assistencias: 0 }
+        { jogos: 22, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -34556,37 +34561,37 @@ export const jogadores = [
       createClub(
         "Danubio",
         { inicio: "01/01/2005", fim: "31/01/2007" },
-        { jogos: 30, gols: 12, assistencias: 0 }
+        { jogos: 30, gols: 12, assistencias: 0 },
       ),
       createClub(
         "Palermo",
         { inicio: "31/01/2007", fim: "17/07/2010" },
-        { jogos: 117, gols: 37, assistencias: 3 }
+        { jogos: 117, gols: 37, assistencias: 3 },
       ),
       createClub(
         "Napoli",
         { inicio: "17/07/2010", fim: "16/07/2013" },
-        { jogos: 138, gols: 104, assistencias: 14 }
+        { jogos: 138, gols: 104, assistencias: 14 },
       ),
       createClub(
         "Paris Saint-Germain",
         { inicio: "16/07/2013", fim: "30/06/2020" },
-        { jogos: 301, gols: 200, assistencias: 43 }
+        { jogos: 301, gols: 200, assistencias: 43 },
       ),
       createClub(
         "Manchester United",
         { inicio: "05/10/2020", fim: "30/06/2022" },
-        { jogos: 59, gols: 19, assistencias: 7 }
+        { jogos: 59, gols: 19, assistencias: 7 },
       ),
       createClub(
         "Valencia",
         { inicio: "29/08/2022", fim: "29/07/2023" },
-        { jogos: 28, gols: 7, assistencias: 2 }
+        { jogos: 28, gols: 7, assistencias: 2 },
       ),
       createClub(
         "Boca Juniors",
         { inicio: "29/07/2023", fim: "Presente" },
-        { jogos: 60, gols: 25, assistencias: 6 }
+        { jogos: 60, gols: 25, assistencias: 6 },
       ),
     ],
     selecao: {
@@ -34692,17 +34697,17 @@ export const jogadores = [
       createClub(
         "Defensor Sporting",
         { inicio: "01/01/2012", fim: "31/12/2014" },
-        { jogos: 65, gols: 18, assistencias: 17 }
+        { jogos: 65, gols: 18, assistencias: 17 },
       ),
       createClub(
         "Cruzeiro",
         { inicio: "01/01/2015", fim: "31/12/2018" },
-        { jogos: 188, gols: 50, assistencias: 38 }
+        { jogos: 188, gols: 50, assistencias: 38 },
       ),
       createClub(
         "Flamengo",
         { inicio: "10/01/2019", fim: "Presente" },
-        { jogos: 380, gols: 105, assistencias: 115 }
+        { jogos: 380, gols: 105, assistencias: 115 },
       ),
     ],
     selecao: {
@@ -34783,47 +34788,47 @@ export const jogadores = [
       createClub(
         "Peñarol",
         { inicio: "01/01/2010", fim: "11/06/2013" },
-        { jogos: 16, gols: 0, assistencias: 0 }
+        { jogos: 16, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Manchester United",
         { inicio: "11/06/2013", fim: "03/09/2014" }, // Primeira passagem antes do empréstimo ao Real
-        { jogos: 0, gols: 0, assistencias: 0 }
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Real Madrid Castilla",
         { inicio: "03/09/2014", fim: "30/06/2015" },
-        { jogos: 33, gols: 1, assistencias: 0 }
+        { jogos: 33, gols: 1, assistencias: 0 },
       ),
       createClub(
         "Manchester United",
         { inicio: "01/07/2015", fim: "23/07/2016" },
-        { jogos: 11, gols: 0, assistencias: 1 }
+        { jogos: 11, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Eintracht Frankfurt",
         { inicio: "23/07/2016", fim: "30/06/2017" },
-        { jogos: 10, gols: 0, assistencias: 0 }
+        { jogos: 10, gols: 0, assistencias: 0 },
       ),
       createClub(
         "Peñarol",
         { inicio: "12/08/2017", fim: "20/12/2018" },
-        { jogos: 38, gols: 0, assistencias: 1 }
+        { jogos: 38, gols: 0, assistencias: 1 },
       ),
       createClub(
         "FC Copenhagen",
         { inicio: "20/12/2018", fim: "17/10/2020" },
-        { jogos: 59, gols: 0, assistencias: 4 }
+        { jogos: 59, gols: 0, assistencias: 4 },
       ),
       createClub(
         "Dínamo Moscou",
         { inicio: "17/10/2020", fim: "30/07/2022" },
-        { jogos: 49, gols: 0, assistencias: 4 }
+        { jogos: 49, gols: 0, assistencias: 4 },
       ),
       createClub(
         "Flamengo",
         { inicio: "30/07/2022", fim: "Presente" },
-        { jogos: 68, gols: 0, assistencias: 4 }
+        { jogos: 68, gols: 0, assistencias: 4 },
       ),
     ],
     selecao: {
@@ -34863,22 +34868,22 @@ export const jogadores = [
       createClub(
         "Defensor Sporting",
         { inicio: "01/01/2017", fim: "30/06/2019" },
-        { jogos: 55, gols: 3, assistencias: 8 }
+        { jogos: 55, gols: 3, assistencias: 8 },
       ),
       createClub(
         "CA River Plate",
         { inicio: "01/07/2019", fim: "13/01/2020" },
-        { jogos: 21, gols: 3, assistencias: 4 }
+        { jogos: 21, gols: 3, assistencias: 4 },
       ),
       createClub(
         "Peñarol",
         { inicio: "14/01/2020", fim: "31/07/2021" },
-        { jogos: 45, gols: 2, assistencias: 7 }
+        { jogos: 45, gols: 2, assistencias: 7 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/08/2021", fim: "Presente" },
-        { jogos: 176, gols: 11, assistencias: 24 }
+        { jogos: 176, gols: 11, assistencias: 24 },
       ),
     ],
     selecao: {
@@ -34939,47 +34944,47 @@ export const jogadores = [
       createClub(
         "Nacional",
         { inicio: "01/01/2005", fim: "30/06/2006" },
-        { jogos: 34, gols: 12, assistencias: 4 }
+        { jogos: 34, gols: 12, assistencias: 4 },
       ),
       createClub(
         "Groningen",
         { inicio: "01/07/2006", fim: "30/06/2007" },
-        { jogos: 37, gols: 15, assistencias: 6 }
+        { jogos: 37, gols: 15, assistencias: 6 },
       ),
       createClub(
         "Ajax",
         { inicio: "01/08/2007", fim: "30/01/2011" },
-        { jogos: 159, gols: 111, assistencias: 58 }
+        { jogos: 159, gols: 111, assistencias: 58 },
       ),
       createClub(
         "Liverpool",
         { inicio: "31/01/2011", fim: "11/07/2014" },
-        { jogos: 133, gols: 82, assistencias: 47 }
+        { jogos: 133, gols: 82, assistencias: 47 },
       ),
       createClub(
         "Barcelona",
         { inicio: "11/07/2014", fim: "24/09/2020" },
-        { jogos: 283, gols: 198, assistencias: 109 }
+        { jogos: 283, gols: 198, assistencias: 109 },
       ),
       createClub(
         "Atlético de Madrid",
         { inicio: "25/09/2020", fim: "30/06/2022" },
-        { jogos: 83, gols: 34, assistencias: 6 }
+        { jogos: 83, gols: 34, assistencias: 6 },
       ),
       createClub(
         "Nacional",
         { inicio: "26/07/2022", fim: "31/12/2022" },
-        { jogos: 16, gols: 8, assistencias: 3 }
+        { jogos: 16, gols: 8, assistencias: 3 },
       ),
       createClub(
         "Grêmio",
         { inicio: "01/01/2023", fim: "31/12/2023" },
-        { jogos: 54, gols: 29, assistencias: 17 }
+        { jogos: 54, gols: 29, assistencias: 17 },
       ),
       createClub(
         "Inter Miami",
         { inicio: "01/01/2024", fim: "Presente" },
-        { jogos: 68, gols: 48, assistencias: 19 }
+        { jogos: 68, gols: 48, assistencias: 19 },
       ),
     ],
     selecao: {
@@ -35135,32 +35140,32 @@ export const jogadores = [
       createClub(
         "Nacional",
         { inicio: "01/01/2017", fim: "31/01/2020" },
-        { jogos: 71, gols: 5, assistencias: 10 }
+        { jogos: 71, gols: 5, assistencias: 10 },
       ),
       createClub(
         "Palmeiras",
         { inicio: "01/02/2020", fim: "07/08/2021" },
-        { jogos: 77, gols: 5, assistencias: 9 }
+        { jogos: 77, gols: 5, assistencias: 9 },
       ),
       createClub(
         "Roma",
         { inicio: "08/08/2021", fim: "29/01/2023" },
-        { jogos: 44, gols: 0, assistencias: 2 }
+        { jogos: 44, gols: 0, assistencias: 2 },
       ),
       createClub(
         "AFC Bournemouth",
         { inicio: "30/01/2023", fim: "30/06/2023" },
-        { jogos: 22, gols: 2, assistencias: 1 }
+        { jogos: 22, gols: 2, assistencias: 1 },
       ),
       createClub(
         "Sassuolo",
         { inicio: "01/07/2023", fim: "25/01/2024" },
-        { jogos: 16, gols: 0, assistencias: 3 }
+        { jogos: 16, gols: 0, assistencias: 3 },
       ),
       createClub(
         "Flamengo",
         { inicio: "26/01/2024", fim: "Presente" },
-        { jogos: 32, gols: 2, assistencias: 6 }
+        { jogos: 32, gols: 2, assistencias: 6 },
       ),
     ],
     selecao: {
@@ -35220,17 +35225,17 @@ export const jogadores = [
       createClub(
         "Liverpool FC",
         { inicio: "01/01/2015", fim: "14/08/2017" },
-        { jogos: 36, gols: 8, assistencias: 3 }
+        { jogos: 36, gols: 8, assistencias: 3 },
       ),
       createClub(
         "River Plate",
         { inicio: "15/08/2017", fim: "31/12/2023" },
-        { jogos: 214, gols: 36, assistencias: 40 }
+        { jogos: 214, gols: 36, assistencias: 40 },
       ),
       createClub(
         "Flamengo",
         { inicio: "01/01/2024", fim: "Presente" },
-        { jogos: 78, gols: 6, assistencias: 12 }
+        { jogos: 78, gols: 6, assistencias: 12 },
       ),
     ],
     selecao: {
@@ -35292,22 +35297,22 @@ export const jogadores = [
       createClub(
         "Peñarol",
         { inicio: "01/01/2015", fim: "21/07/2016" },
-        { jogos: 13, gols: 0, assistencias: 2 }
+        { jogos: 13, gols: 0, assistencias: 2 },
       ),
       createClub(
         "Real Madrid Castilla",
         { inicio: "22/07/2016", fim: "21/06/2017" },
-        { jogos: 30, gols: 3, assistencias: 1 }
+        { jogos: 30, gols: 3, assistencias: 1 },
       ),
       createClub(
         "Deportivo La Coruña",
         { inicio: "22/06/2017", fim: "30/06/2018" },
-        { jogos: 25, gols: 0, assistencias: 1 }
+        { jogos: 25, gols: 0, assistencias: 1 },
       ),
       createClub(
         "Real Madrid",
         { inicio: "01/07/2018", fim: "Presente" },
-        { jogos: 312, gols: 28, assistencias: 25 }
+        { jogos: 312, gols: 28, assistencias: 25 },
       ),
     ],
     selecao: {
