@@ -31978,7 +31978,7 @@ export const jogadores = [
       createClub(
         "Al-Nassr",
         { inicio: "30/12/2022", fim: "Presente" },
-        { jogos: 124, gols: 116, assistencias: 25 },
+        { jogos: 133, gols: 125, assistencias: 26 },
       ),
     ],
     selecao: {
@@ -32342,7 +32342,7 @@ export const jogadores = [
       "CR",
       "CRONALDO",
     ],
-    ultimaAtualizacao: "15/12/2025",
+    ultimaAtualizacao: "31/01/2026",
   },
 
   // Deco
