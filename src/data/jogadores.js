@@ -1622,7 +1622,7 @@ export const jogadores = [
     nacionalidade: "Argentina",
     imagem:
       "https://lncimg.lance.com.br/uploads/2025/02/alcaraz-everton-flamengo-scaled-aspect-ratio-512-320.jpg",
-    numero: "8",
+    numero: "24",
     posicao: "Meia Central / Meia-Atacante",
     dataNascimento: "30/11/2002",
     status: "Ativo",
@@ -1659,7 +1659,7 @@ export const jogadores = [
     periodos_inativos: [],
     titulosIndividuais: [],
     tags: ["carlos alcaraz", "alcaraz"],
-    ultimaAtualizacao: "01/12/2025",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Carlos Tévez
@@ -1761,6 +1761,61 @@ export const jogadores = [
     ],
     tags: ["carlos tévez", "tevez", "carlitos", "carlitos tévez"],
     ultimaAtualizacao: "01/12/2025",
+  },
+
+  // Castellanos
+  {
+    nome: "Castellanos",
+    nomeCompleto: "Valentín Mariano José Castellanos Giménez",
+    background: "Diamond",
+    descricao:
+      "Centroavante argentino conhecido como Taty Castellanos, com passagem marcante no New York City FC e no Girona antes de fixar-se na Lazio. Em janeiro de 2026 foi contratado pelo West Ham United, reforçando o ataque da Premier League após bons números no futebol italiano.",
+    pagina: "https://pt.wikipedia.org/wiki/Valent%C3%ADn_Castellanos",
+    nacionalidade: "Argentina",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Taty_Castellanos_NYCvATL-06.12.25-041_%28cropped%29.jpg/960px-Taty_Castellanos_NYCvATL-06.12.25-041_%28cropped%29.jpg",
+    numero: "11",
+    posicao: "Centroavante",
+    dataNascimento: "03/10/1998",
+    status: "Ativo",
+    curiosidades:
+      "Foi artilheiro da MLS em 2021 pelo NYCFC. Na Lazio acumulou minutos como referência ofensiva antes da negociação milionária com o West Ham na janela de janeiro de 2026.",
+    clubes: [
+      createClub(
+        "Montevideo City Torque",
+        { inicio: "01/01/2017", fim: "07/08/2018" },
+        { jogos: 42, gols: 16, assistencias: 4 },
+      ),
+      createClub(
+        "New York City FC",
+        { inicio: "08/08/2018", fim: "29/07/2022" },
+        { jogos: 108, gols: 31, assistencias: 11 },
+      ),
+      createClub(
+        "Girona",
+        { inicio: "30/07/2022", fim: "28/07/2023" },
+        { jogos: 39, gols: 13, assistencias: 3 },
+      ),
+      createClub(
+        "Lazio",
+        { inicio: "29/07/2023", fim: "04/01/2026" },
+        { jogos: 85, gols: 22, assistencias: 10 },
+      ),
+      createClub(
+        "West Ham United",
+        { inicio: "05/01/2026", fim: "Presente" },
+        { jogos: 16, gols: 5, assistencias: 2 },
+      ),
+    ],
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "28/09/2022", fim: "Presente" },
+      estatisticas: { jogos: 12, gols: 1, assistencias: 1 },
+    },
+    periodos_inativos: [],
+    titulosIndividuais: [],
+    tags: ["Taty Castellanos", "Castellanos", "West Ham", "Lazio"],
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Diego Maradona
@@ -2539,6 +2594,72 @@ export const jogadores = [
     ultimaAtualizacao: "02/12/2025",
   },
 
+  // Almada
+  {
+    nome: "Almada",
+    nomeCompleto: "Thiago Ezequiel Almada",
+    background: "Titanium",
+    descricao:
+      "Meia-atacante argentino de técnica, drible e finalização de média distância. Foi revelado pelo Vélez Sarsfield, brilhou na MLS pelo Atlanta United e tornou-se a contratação mais cara da história do futebol brasileiro ao chegar ao Botafogo em 2024, conquistando Libertadores e Brasileirão antes de seguir para a Europa.",
+    pagina: "https://pt.wikipedia.org/wiki/Thiago_Almada",
+    nacionalidade: "Argentina",
+    imagem: "https://pbs.twimg.com/media/G-Dz6vzWwAAhBMq.jpg",
+    numero: "11",
+    posicao: "Meia-Atacante / Ponta",
+    dataNascimento: "26/04/2001",
+    dataFalecimento: null,
+    status: "Ativo",
+    curiosidades:
+      "Cresceu no bairro Fuerte Apache, o mesmo de Carlos Tevez. Foi convocado para a Copa do Mundo de 2022 como substituto de Joaquín Correa e sagrou-se campeão mundial sem entrar em campo. No Botafogo, acionou cláusula que o levou ao Lyon antes da venda ao Atlético de Madrid em 2025.",
+    clubes: [
+      createClub(
+        "Vélez Sarsfield",
+        { inicio: "01/08/2018", fim: "09/02/2022" },
+        { jogos: 99, gols: 23, assistencias: 15 },
+      ),
+      createClub(
+        "Atlanta United",
+        { inicio: "10/02/2022", fim: "29/06/2024" },
+        { jogos: 83, gols: 26, assistencias: 20 },
+      ),
+      createClub(
+        "Botafogo",
+        { inicio: "30/06/2024", fim: "11/12/2024" },
+        { jogos: 25, gols: 3, assistencias: 2 },
+      ),
+      createClub(
+        "Olympique Lyonnais",
+        { inicio: "15/01/2025", fim: "16/07/2025" },
+        { jogos: 20, gols: 2, assistencias: 3 },
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "17/07/2025", fim: "Presente" },
+        { jogos: 28, gols: 4, assistencias: 4 },
+      ),
+    ],
+    selecao: {
+      nome: "Argentina",
+      periodo: { inicio: "18/11/2022", fim: "Presente" },
+      estatisticas: { jogos: 12, gols: 4, assistencias: 2 },
+    },
+    periodos_inativos: [],
+    titulosIndividuais: [
+      {
+        nome: "Seleção da Copa Libertadores da América",
+        logo: "Copa Libertadores da América",
+        anos: ["2024"],
+      },
+      {
+        nome: "Equipe Ideal da América",
+        logo: "El País",
+        anos: ["2024"],
+      },
+    ],
+    tags: ["Thiago Almada", "Thiago Ezequiel Almada", "Almada", "Guayo"],
+    ultimaAtualizacao: "02/04/2026",
+  },
+
   // Julián Álvarez
   {
     nome: "Álvarez",
@@ -2971,7 +3092,7 @@ export const jogadores = [
       createClub(
         "Inter Miami",
         { inicio: "15/07/2023", fim: "Presente" },
-        { jogos: 88, gols: 78, assistencias: 44 },
+        { jogos: 94, gols: 83, assistencias: 44 },
       ),
     ],
     selecao: {
@@ -3238,7 +3359,7 @@ export const jogadores = [
       },
     ],
     tags: ["Lionel Messi", "Messi", "Leo Messi", "GOAT", "MSN", "La Pulga"],
-    ultimaAtualizacao: "02/12/2025",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // BÉLGICA --------------------------------------------------------------------------------------------------
@@ -4002,7 +4123,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/alissonbecker/",
     nacionalidade: "Brasil",
     imagem:
-      "https://www.ogol.com.br/wimg/n757268b/1257103-de-substituivel-a-melhor-do-mundo-alisson-marca-territorio-n.jpg",
+      "https://www.otempo.com.br/content/dam/otempo/editorias/sports/futebol-internacional/2026/3/qual-o-impacto-da-ausencia-de-alisson-na-selecao-brasileira-e-no-liverpool.jpeg",
     numero: "1",
     posicao: "Goleiro",
     dataNascimento: "02/10/1992",
@@ -4094,8 +4215,8 @@ export const jogadores = [
     pagina: "https://www.instagram.com/allanr13/",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/f0/2024/04/19/allan-meio-campista-do-flamengo-em-acao-na-final-do-campeonato-carioca-contra-o-nova-iguacu-1713540221644_v2_3x4.jpg",
-    numero: "21",
+      "https://s2-oglobo.glbimg.com/1YWT-7uKtvJ-lwQ7XeflMbucYf8=/2440x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/j/2/bPkC0YSguQ2AhaWpXtUA/allan-corinthians.jpg",
+    numero: "29",
     posicao: "Volante / Meia de contenção",
     dataNascimento: "03/03/1997",
     status: "Ativo",
@@ -4169,8 +4290,13 @@ export const jogadores = [
       ),
       createClub(
         "Flamengo",
-        { inicio: "02/07/2023", fim: "Presente" },
-        { jogos: 68, gols: 0, assistencias: 5 },
+        { inicio: "02/07/2023", fim: "10/02/2026" },
+        { jogos: 88, gols: 0, assistencias: 5 },
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "11/02/2026", fim: "Presente" },
+        { jogos: 9, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -4890,11 +5016,10 @@ export const jogadores = [
     nomeCompleto: "Carlos Moisés de Lima",
     background: "Default",
     descricao:
-      "Centroavante brasileiro conhecido por sua força física e poder de finalização. Ganhou notoriedade ao ser vice-artilheiro do Campeonato Carioca pelo Nova Iguaçu em 2024, o que lhe rendeu a contratação pelo Flamengo. Atualmente, está emprestado ao Vitória.",
+      "Centroavante brasileiro conhecido por sua força física e poder de finalização. Ganhou notoriedade ao ser vice-artilheiro do Campeonato Carioca pelo Nova Iguaçu em 2024, o que lhe rendeu a contratação pelo Flamengo. Atualmente, está emprestado ao Clube do Remo.",
     pagina: "https://www.instagram.com/carlinhos_l9",
     nacionalidade: "Brasil",
-    imagem:
-      "https://conteudo.imguol.com.br/c/esporte/15/2025/02/04/carlinhos-foi-anunciado-como-novo-reforco-do-vitoria-1738698308778_v2_450x450.jpg",
+    imagem: "https://www.remo100porcento.com/arquivos/2026/02/carlinhos-4.jpg",
     numero: "99",
     posicao: "Centroavante",
     dataNascimento: "12/02/1997",
@@ -4984,8 +5109,13 @@ export const jogadores = [
       ),
       createClub(
         "Vitória",
-        { inicio: "05/02/2025", fim: "Presente" },
-        { jogos: 1, gols: 1, assistencias: 0 },
+        { inicio: "05/02/2025", fim: "06/01/2026" },
+        { jogos: 23, gols: 4, assistencias: 1 },
+      ),
+      createClub(
+        "Remo",
+        { inicio: "07/01/2026", fim: "Presente" },
+        { jogos: 0, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
@@ -5003,7 +5133,7 @@ export const jogadores = [
       },
     ],
     tags: ["Carlinhos", "Carlos Moisés"],
-    ultimaAtualizacao: "02/12/2025",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Carlos Alberto Torres
@@ -5271,7 +5401,7 @@ export const jogadores = [
     nacionalidade: "Brasil",
     imagem:
       "https://zeiro.com.br/wp-content/uploads/2025/04/54474488699_0762e6d2ca_c.jpg",
-    numero: "12",
+    numero: "1",
     posicao: "Goleiro",
     dataNascimento: "06/06/1987",
     status: "Ativo",
@@ -5686,7 +5816,7 @@ export const jogadores = [
     nacionalidade: "Brasil",
     imagem:
       "https://s2-ge.glbimg.com/zReBRFhoo1Of4N6fvZTUsQfoUxs=/0x0:1638x2048/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/1/l/254GDKT9K8TEsI9ooV3g/gpaf0f-xkaaopyu.jpg",
-    numero: "23",
+    numero: "4",
     posicao: "Zagueiro",
     dataNascimento: "22/04/1987",
     status: "Ativo",
@@ -5740,7 +5870,13 @@ export const jogadores = [
       periodo: { inicio: "10/08/2010", fim: "13/06/2017" },
       estatisticas: { jogos: 57, gols: 3, assistencias: 3 },
     },
-    periodos_inativos: [{ inicio: "05/08/2016", fim: "21/08/2016" }],
+    periodos_inativos: [
+      { inicio: "14/09/2011", fim: "28/09/2011" },
+      { inicio: "19/09/2012", fim: "21/11/2012" },
+      { inicio: "11/10/2014", fim: "11/10/2014" },
+      { inicio: "04/08/2016", fim: "20/08/2016" },
+      { inicio: "05/08/2016", fim: "21/08/2016" },
+    ],
     titulosIndividuais: [
       {
         nome: "Jogador do Ano do Campeonato Português",
@@ -7189,7 +7325,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/'endrick/",
     nacionalidade: "Brasil",
     imagem:
-      "https://cdn.atarde.com.br/img/Artigo-Destaque/1370000/1200x720/Fenomeno-mundial-Endrick-chega-a-Franca-batendo-re0137393200202512271311-ScaleDownProportional.webp?fallback=https%3A%2F%2Fcdn.atarde.com.br%2Fimg%2FArtigo-Destaque%2F1370000%2FFenomeno-mundial-Endrick-chega-a-Franca-batendo-re0137393200202512271311.png%3Fxid%3D6934696%26resize%3D1000%252C500%26t%3D1766939019&xid=6934696",
+      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/endrick-lyon-metz-ligue-1-e1769433845868.webp?w=1000",
     numero: "9",
     posicao: "Centroavante / Segundo Atacante",
     dataNascimento: "21/07/2006",
@@ -8024,7 +8160,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/gabigol",
     nacionalidade: "Brasil",
     imagem:
-      "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/01/17/532288004-542694910180da12ab0c1k-1.jpg",
+      "https://media.bolavip.com/wp-content/uploads/sites/27/2026/01/10201329/Gabigol-6-1-e1768086881609-1200x740.webp",
     numero: "9",
     posicao: "Atacante",
     dataNascimento: "30/08/1996",
@@ -8060,8 +8196,13 @@ export const jogadores = [
       ),
       createClub(
         "Cruzeiro",
-        { inicio: "01/01/2025", fim: "Presente" },
-        { jogos: 40, gols: 13, assistencias: 2 },
+        { inicio: "01/01/2025", fim: "02/01/2026" },
+        { jogos: 52, gols: 14, assistencias: 2 },
+      ),
+      createClub(
+        "Santos",
+        { inicio: "03/01/2026", fim: "Presente" },
+        { jogos: 12, gols: 7, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -8099,7 +8240,7 @@ export const jogadores = [
       "G. Barbosa",
       "Artilheiro da Libertadores",
     ],
-    ultimaAtualizacao: "04/12/2025",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // G. Jesus
@@ -8371,8 +8512,8 @@ export const jogadores = [
     pagina: "https://www.instagram.com/gersonsantoss/",
     nacionalidade: "Brasil",
     imagem:
-      "https://s2-oglobo.glbimg.com/RPWyoX-nxvkvclJmlrpp-FU_59g=/0x0:627x569/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/0/K/Pwcli0SIestYo6acAANw/screenshot-107.png",
-    numero: "27",
+      "https://s2-oglobo.glbimg.com/Gcx2OEk5X6C7o8MGLpzsQVjcxxk=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/N/C/k2AABVRMiecDJ7X3Zb1A/114164845-belo-horizonte-mg-08-03-2026-esporte-cruzeiro-vs-atletico-gerson-do-cruzeiro-durante-jog.jpg",
+    numero: "11",
     posicao: "Volante / Meia",
     dataNascimento: "20/05/1997",
     dataFalecimento: null,
@@ -8412,8 +8553,13 @@ export const jogadores = [
       ),
       createClub(
         "Zenit",
-        { inicio: "04/07/2025", fim: "Presente" },
-        { jogos: 14, gols: 1, assistencias: 0 },
+        { inicio: "04/07/2025", fim: "09/01/2026" },
+        { jogos: 15, gols: 2, assistencias: 0 },
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "10/01/2026", fim: "Presente" },
+        { jogos: 2, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -8469,7 +8615,7 @@ export const jogadores = [
       },
     ],
     tags: ["Gerson Santos da Silva", "Gerson Santos", "Gerson", "Coringa"],
-    ultimaAtualizacao: "05/12/2025",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Gilberto Silva
@@ -9477,6 +9623,66 @@ export const jogadores = [
     ultimaAtualizacao: "10/12/2025",
   },
 
+  // John Kennedy
+  {
+    nome: "John Kennedy",
+    nomeCompleto: "John Kennedy Batista de Souza",
+    background: "Plate",
+    descricao:
+      "Centroavante brasileiro formado em Xerém, conhecido pelo faro de gol em mata-matas e pela explosão física. Marcou o gol do título inédito da Copa Libertadores de 2023 pelo Fluminense, contra o Boca Juniors, e voltou a ser decisivo em clássicos após retornar do empréstimo ao Pachuca.",
+    pagina: "https://pt.wikipedia.org/wiki/John_Kennedy_(futebolista)",
+    nacionalidade: "Brasil",
+    imagem: "https://a.espncdn.com/photo/2024/0523/r1336473_1296x729_16-9.jpg",
+    numero: "9",
+    posicao: "Centroavante",
+    dataNascimento: "18/05/2002",
+    dataFalecimento: null,
+    status: "Ativo",
+    curiosidades:
+      "Recebeu o apelido de 'Caçador de Urubu' ainda nas categorias de base por ser carrasco do Flamengo em clássicos de formação. Foi expulso após comemorar o gol da Libertadores 2023 junto à torcida no Maracanã. Passou emprestado à Ferroviária em 2023 e ao Pachuca em 2025 antes de reassumir a camisa 9 do Fluminense.",
+    clubes: [
+      createClub(
+        "Fluminense",
+        { inicio: "20/01/2021", fim: "31/01/2023" },
+        { jogos: 42, gols: 8, assistencias: 2 },
+      ),
+      createClub(
+        "Ferroviária",
+        { inicio: "01/02/2023", fim: "30/06/2023" },
+        { jogos: 11, gols: 6, assistencias: 0 },
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "01/07/2023", fim: "05/01/2025" },
+        { jogos: 86, gols: 12, assistencias: 6 },
+      ),
+      createClub(
+        "Pachuca",
+        { inicio: "06/01/2025", fim: "14/07/2025" },
+        { jogos: 22, gols: 9, assistencias: 2 },
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "15/07/2025", fim: "Presente" },
+        { jogos: 31, gols: 6, assistencias: 2 },
+      ),
+    ],
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "23/01/2024", fim: "11/02/2024" },
+      estatisticas: { jogos: 6, gols: 1, assistencias: 0 },
+    },
+    periodos_inativos: [],
+    titulosIndividuais: [],
+    tags: [
+      "John Kennedy Batista de Souza",
+      "John Kennedy",
+      "JK",
+      "Caçador de Urubu",
+    ],
+    ultimaAtualizacao: "02/04/2026",
+  },
+
   // Kaio Jorge
   {
     nome: "Kaio Jorge",
@@ -9849,7 +10055,11 @@ export const jogadores = [
         { jogos: 265, gols: 17, assistencias: 6 },
       ),
     ],
-    selecao: {},
+    selecao: {
+      nome: "Brasil",
+      periodo: { inicio: "16/03/2026", fim: "Presente" },
+      estatisticas: { jogos: 2, gols: 0, assistencias: 0 },
+    },
     periodos_inativos: [],
     titulosIndividuais: [
       {
@@ -9864,7 +10074,7 @@ export const jogadores = [
       },
     ],
     tags: ["Leo Pereira", "Leonardo Pereira"],
-    ultimaAtualizacao: "05/12/2025",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Lincoln
@@ -10071,7 +10281,7 @@ export const jogadores = [
     status: "Ativo",
     nacionalidade: "Brasil",
     imagem:
-      "https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2024/02/23/1430895059-lucas-paqueta-fulham-fc-v-west-ham-united-premier-league-2048x1366.jpg",
+      "https://conteudo.imguol.com.br/c/esporte/2b/2026/02/15/lucas-paqueta-do-flamengo-comemora-gol-marcado-em-classico-contra-o-botafogo-1771190401331_v2_4x3.jpg",
     curiosidades:
       "Seu apelido 'Paquetá' vem da ilha onde ele cresceu, na Baía de Guanabara. Em 2023, foi peça-chave na conquista da Conference League pelo West Ham United, quebrando um jejum de 43 anos do clube por um título europeu.",
     clubes: [
@@ -10098,7 +10308,7 @@ export const jogadores = [
       createClub(
         "Flamengo",
         { inicio: "30/01/2026", fim: "Presente" },
-        { jogos: 0, gols: 0, assistencias: 0 },
+        { jogos: 9, gols: 3, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -10106,7 +10316,10 @@ export const jogadores = [
       periodo: { inicio: "07/09/2018", fim: "Presente" },
       estatisticas: { jogos: 60, gols: 11, assistencias: 3 },
     },
-    periodos_inativos: [{ inicio: "22/07/2021", fim: "07/08/2021" }],
+    periodos_inativos: [
+      { inicio: "16/10/2018", fim: "16/10/2018" },
+      { inicio: "22/07/2021", fim: "07/08/2021" },
+    ],
     titulosIndividuais: [
       {
         nome: "Revelação do Campeonato Brasileiro",
@@ -10136,7 +10349,7 @@ export const jogadores = [
       },
     ],
     tags: ["Lucas Paqueta", "Lucas Tolentino Coelho de Lima"],
-    ultimaAtualizacao: "31/01/2026",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Lucas Romero
@@ -11116,8 +11329,8 @@ export const jogadores = [
     pagina: "https://www.instagram.com/matheuscunha_01/",
     nacionalidade: "Brasil",
     imagem:
-      "https://conteudo.imguol.com.br/c/esporte/a0/2023/05/11/matheus-cunha-goleiro-do-flamengo-1683777425519_v2_1535x1920.jpg",
-    numero: "25",
+      "https://www.diarioceleste.com.br/wp-content/uploads/2026/03/MTAHEUS-CUNHA-ESTREIA-VITORIA-CRUZEIRO.jpg",
+    numero: "31",
     posicao: "Goleiro",
     dataNascimento: "24/05/2001",
     dataFalecimento: null,
@@ -11132,15 +11345,20 @@ export const jogadores = [
       ),
       createClub(
         "Flamengo",
-        { inicio: "12/04/2021", fim: "Presente" },
-        { jogos: 110, gols: 0, assistencias: 0 },
+        { inicio: "12/04/2021", fim: "31/12/2025" },
+        { jogos: 55, gols: 0, assistencias: 0 },
+      ),
+      createClub(
+        "Cruzeiro",
+        { inicio: "01/01/2026", fim: "Presente" },
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {},
     periodos_inativos: [],
     titulosIndividuais: [],
     tags: ["Matheus Cunha", "Matheus Cunha Queiroz"],
-    ultimaAtualizacao: "06/12/2025",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Matheus Gonçalves
@@ -11418,8 +11636,13 @@ export const jogadores = [
       ),
       createClub(
         "Flamengo",
-        { inicio: "01/08/2024", fim: "Presente" },
-        { jogos: 25, gols: 4, assistencias: 4 },
+        { inicio: "01/08/2024", fim: "30/01/2026" },
+        { jogos: 45, gols: 6, assistencias: 4 },
+      ),
+      createClub(
+        "Al-Ula",
+        { inicio: "01/02/2026", fim: "Presente" },
+        { jogos: 1, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: [],
@@ -15996,7 +16219,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/thiagosilva/",
     nacionalidade: "Brasil",
     imagem:
-      "https://img.band.com.br/image/2025/12/20/thiago-silva-e-anunciado-pelo-porto-1377.png",
+      "https://www.ogol.com.br/wimg/n1028037b/1420368-em-estreia-com-vitoria-no-classico-thiago-silva-se-torna-o-m.jpg",
     numero: "3",
     posicao: "Zagueiro / Zagueiro Central",
     dataNascimento: "22/09/1984",
@@ -16196,6 +16419,94 @@ export const jogadores = [
     ],
     tags: ["Thiago Silva", "Thiago Emiliano da Silva", "TS3", "O Monstro"],
     ultimaAtualizacao: "09/12/2025",
+  },
+
+  // Tiquinho
+  {
+    nome: "Tiquinho",
+    nomeCompleto: "Francisco das Chagas Soares dos Santos",
+    background: "Titanium",
+    descricao:
+      "Centroavante brasileiro de imposição física e faro de gol, com trajetória marcante no FC Porto e destaque recente no Botafogo, onde foi campeão da Libertadores e do Brasileirão em 2024. Atua pelo Mirassol em 2026, em empréstimo do Santos.",
+    pagina: "https://pt.wikipedia.org/wiki/Tiquinho_Soares",
+    nacionalidade: "Brasil",
+    imagem:
+      "https://s2-ge.glbimg.com/lPBjv7wZyG_UXBM7Iap9NWCulDs=/0x0:1200x1126/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/c/f/18rKIRR6eBaSDym4re2w/whatsapp-image-2026-02-20-at-10.36.38-1-.jpg",
+    numero: "29",
+    posicao: "Centroavante",
+    dataNascimento: "17/01/1991",
+    dataFalecimento: null,
+    status: "Ativo",
+    curiosidades:
+      "Subiu do futebol paraibano até a Liga dos Campeões, onde marcou gols decisivos pelo Porto. No Botafogo, foi artilheiro da Copa do Brasil de 2023 e eleito melhor jogador do Brasileirão nos meses de abril e maio de 2023. Sua contratação pelo Santos em 2025 buscou repetir o protagonismo ofensivo da carreira.",
+    clubes: [
+      createClub(
+        "Nacional",
+        { inicio: "21/12/2014", fim: "24/05/2016" },
+        { jogos: 49, gols: 16, assistencias: 1 },
+      ),
+      createClub(
+        "Vitória de Guimarães",
+        { inicio: "25/05/2016", fim: "31/08/2016" },
+        { jogos: 22, gols: 9, assistencias: 2 },
+      ),
+      createClub(
+        "Porto",
+        { inicio: "01/09/2016", fim: "24/09/2020" },
+        { jogos: 140, gols: 64, assistencias: 12 },
+      ),
+      createClub(
+        "Tianjin Jinmen Tiger",
+        { inicio: "25/09/2020", fim: "18/05/2021" },
+        { jogos: 7, gols: 2, assistencias: 0 },
+      ),
+      createClub(
+        "Olympiacos",
+        { inicio: "31/05/2021", fim: "11/08/2022" },
+        { jogos: 51, gols: 14, assistencias: 0 },
+      ),
+      createClub(
+        "Botafogo",
+        { inicio: "12/08/2022", fim: "23/01/2025" },
+        { jogos: 105, gols: 43, assistencias: 16 },
+      ),
+      createClub(
+        "Santos",
+        { inicio: "24/01/2025", fim: "19/02/2026" },
+        { jogos: 42, gols: 11, assistencias: 4 },
+      ),
+      createClub(
+        "Mirassol",
+        { inicio: "20/02/2026", fim: "Presente" },
+        { jogos: 6, gols: 2, assistencias: 1 },
+      ),
+    ],
+    selecao: {},
+    periodos_inativos: [],
+    titulosIndividuais: [
+      {
+        nome: "Revelação do Campeonato Paraibano",
+        logo: "Campeonato Paraibano",
+        anos: ["2013"],
+      },
+      {
+        nome: "Jogador do Mês do Campeonato Brasileiro",
+        logo: "Campeonato Brasileiro",
+        anos: ["2023"],
+      },
+      {
+        nome: "Artilheiro da Copa do Brasil",
+        logo: "Copa do Brasil",
+        anos: ["2023"],
+      },
+    ],
+    tags: [
+      "Tiquinho Soares",
+      "Tiquinho",
+      "Francisco das Chagas Soares dos Santos",
+      "Chagas Soares",
+    ],
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Vitinho
@@ -17579,7 +17890,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/choupomoting/",
     nacionalidade: "Camarões",
     imagem:
-      "https://www.frontrowsoccer.com/wp-content/uploads/2025/04/Choupo-Moting-40525a-scaled.jpg",
+      "https://substackcdn.com/image/fetch/$s_!Sqi8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3584a9bf-ae73-46c6-9043-1e1504d1e387_1638x1291.jpeg",
     numero: "13",
     posicao: "Atacante / Centroavante",
     dataNascimento: "23/03/1989",
@@ -18325,6 +18636,83 @@ export const jogadores = [
     ],
     tags: ["Carlos Valderrama Palacio", "Carlos Valderrama", "El Pibe"],
     ultimaAtualizacao: "10/12/2025",
+  },
+
+  // Arias
+  {
+    nome: "Arias",
+    nomeCompleto: "Jhon Adolfo Arias Andrade",
+    background: "Diamond",
+    descricao:
+      "Meia e ponta colombiano de intensidade, drible e faro de assistência. Foi peça central do Fluminense na conquista da Copa Libertadores de 2023 e um dos líderes estatísticos do clube na década de 2020. Após breve passagem pelo Wolverhampton na Premier League, retornou ao Brasil em fevereiro de 2026 como reforço do Palmeiras, em negócio de destaque na janela.",
+    pagina: "https://pt.wikipedia.org/wiki/Jhon_Arias",
+    nacionalidade: "Colômbia",
+    imagem:
+      "https://lncimg.lance.com.br/cdn-cgi/image/width=1280,height=720,quality=75,background=white,fit=pad/uploads/2026/03/20260301-230356_2387519_3103-scaled-aspect-ratio-512-320.jpg",
+    numero: "11",
+    posicao: "Meia / Ponta",
+    dataNascimento: "21/09/1997",
+    status: "Ativo",
+    curiosidades:
+      "Em 7 de fevereiro de 2026, o Palmeiras anunciou sua contratação (cerca de €25 milhões segundo a imprensa), com vínculo até o fim de 2029 e camisa 11. No Flu, somou 230 jogos, 47 gols e 55 assistências, além da Bola de Bronze do Mundial de Clubes de 2023.",
+    clubes: [
+      createClub(
+        "Llaneros",
+        { inicio: "01/02/2018", fim: "31/01/2019" },
+        { jogos: 35, gols: 6, assistencias: 2 },
+      ),
+      createClub(
+        "Patriotas",
+        { inicio: "01/02/2019", fim: "31/12/2019" },
+        { jogos: 38, gols: 4, assistencias: 1 },
+      ),
+      createClub(
+        "América de Cali",
+        { inicio: "01/01/2020", fim: "31/12/2020" },
+        { jogos: 29, gols: 1, assistencias: 3 },
+      ),
+      createClub(
+        "Independiente Santa Fe",
+        { inicio: "01/01/2021", fim: "25/08/2021" },
+        { jogos: 28, gols: 3, assistencias: 1 },
+      ),
+      createClub(
+        "Fluminense",
+        { inicio: "26/08/2021", fim: "16/07/2025" },
+        { jogos: 230, gols: 47, assistencias: 55 },
+      ),
+      createClub(
+        "Wolverhampton Wanderers",
+        { inicio: "17/07/2025", fim: "06/02/2026" },
+        { jogos: 26, gols: 2, assistencias: 1 },
+      ),
+      createClub(
+        "Palmeiras",
+        { inicio: "07/02/2026", fim: "Presente" },
+        { jogos: 20, gols: 2, assistencias: 5 },
+      ),
+    ],
+    selecao: {
+      nome: "Colômbia",
+      periodo: { inicio: "05/06/2022", fim: "Presente" },
+      estatisticas: { jogos: 35, gols: 4, assistencias: 6 },
+      destaque: "Vice-campeão da Copa América de 2024",
+    },
+    periodos_inativos: [],
+    titulosIndividuais: [
+      {
+        nome: "Bola de Bronze do Mundial de Clubes FIFA",
+        logo: "Bola de Bronze FIFA",
+        anos: ["2023"],
+      },
+      {
+        nome: "Seleção da Copa do Mundo de Clubes FIFA",
+        logo: "Copa do Mundo de Clubes FIFA",
+        anos: ["2025"],
+      },
+    ],
+    tags: ["Jhon Arias", "Arias", "Palmeiras", "Fluminense", "Colômbia"],
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Carrascal
@@ -23262,8 +23650,8 @@ export const jogadores = [
     pagina: "https://www.instagram.com/karimbenzema/",
     nacionalidade: "França",
     imagem:
-      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/12/benzema-al-ittihad-auckland-mundial.jpg?w=1200&h=1200&crop=1",
-    numero: "9",
+      "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/02/07/1770422811011_benzema2-png-1770323667-4518-1770323788.jpeg",
+    numero: "90",
     posicao: "Centroavante",
     dataNascimento: "19/12/1987",
     status: "Ativo",
@@ -23282,8 +23670,13 @@ export const jogadores = [
       ),
       createClub(
         "Al-Ittihad",
-        { inicio: "07/06/2023", fim: "Presente" },
-        { jogos: 60, gols: 35, assistencias: 10 },
+        { inicio: "07/06/2023", fim: "01/02/2026" },
+        { jogos: 83, gols: 54, assistencias: 14 },
+      ),
+      createClub(
+        "Al-Hilal",
+        { inicio: "02/02/2026", fim: "Presente" },
+        { jogos: 9, gols: 6, assistencias: 1 },
       ),
     ],
     selecao: {
@@ -23342,7 +23735,7 @@ export const jogadores = [
       },
     ],
     tags: ["Karim Benzema", "Benzema", "KB9"],
-    ultima_atualizacao: "12/12/2025",
+    ultima_atualizacao: "02/04/2026",
   },
 
   // Coman
@@ -23629,12 +24022,12 @@ export const jogadores = [
       createClub(
         "Atlético de Madrid",
         { inicio: "31/08/2021", fim: "Presente" },
-        { jogos: 163, gols: 52, assistencias: 25 },
+        { jogos: 195, gols: 70, assistencias: 29 },
       ),
     ],
     selecao: {
       nome: "França",
-      periodo: { inicio: "05/03/2014", fim: "Presente" },
+      periodo: { inicio: "05/03/2014", fim: "01/01/2024" },
       estatisticas: { jogos: 145, gols: 48, assistencias: 35 },
     },
     periodos_inativos: [],
@@ -23729,6 +24122,72 @@ export const jogadores = [
     ],
     tags: ["Antoine Griezmann", "Griezmann", "AG7", "Grizou"],
     ultima_atualizacao: "12/12/2025",
+  },
+
+  // Guendouzi
+  {
+    nome: "Guendouzi",
+    nomeCompleto: "Mattéo Elias Kenzo Guendouzi Olié",
+    background: "Diamond",
+    descricao:
+      "Meio-campista francês de passe vertical e intensidade, formado no futebol inglês pelo Arsenal e consolidado no Olympique de Marseille. Após a Lazio, em janeiro de 2026 acertou com o Fenerbahçe, um dos clubes mais competitivos da Turquia, em negócio avaliado na casa das dezenas de milhões de euros.",
+    pagina: "https://pt.wikipedia.org/wiki/Matt%C3%A9o_Guendouzi",
+    nacionalidade: "França",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lens_-_Marseille_%2822-01-2022%29_16.jpg/960px-Lens_-_Marseille_%2822-01-2022%29_16.jpg",
+    numero: "6",
+    posicao: "Meia Central",
+    dataNascimento: "14/04/1999",
+    status: "Ativo",
+    curiosidades:
+      "Integrou a seleção francesa campeã olímpica em Tóquio 2020 (atuação em 2021). Na Lazio foi peça recorrente de meio-campo antes da venda ao Fenerbahçe na janela de janeiro de 2026.",
+    clubes: [
+      createClub(
+        "Lorient",
+        { inicio: "01/07/2016", fim: "10/07/2018" },
+        { jogos: 60, gols: 2, assistencias: 3 },
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "11/07/2018", fim: "15/08/2019" },
+        { jogos: 3, gols: 0, assistencias: 0 },
+      ),
+      createClub(
+        "Hertha BSC",
+        { inicio: "16/08/2019", fim: "30/06/2020" },
+        { jogos: 24, gols: 0, assistencias: 4 },
+      ),
+      createClub(
+        "Arsenal",
+        { inicio: "01/07/2020", fim: "13/07/2022" },
+        { jogos: 54, gols: 1, assistencias: 3 },
+      ),
+      createClub(
+        "Olympique de Marseille",
+        { inicio: "14/07/2022", fim: "11/07/2023" },
+        { jogos: 40, gols: 2, assistencias: 6 },
+      ),
+      createClub(
+        "Lazio",
+        { inicio: "12/07/2023", fim: "07/01/2026" },
+        { jogos: 111, gols: 6, assistencias: 15 },
+      ),
+      createClub(
+        "Fenerbahçe",
+        { inicio: "08/01/2026", fim: "Presente" },
+        { jogos: 14, gols: 1, assistencias: 3 },
+      ),
+    ],
+    selecao: {
+      nome: "França",
+      periodo: { inicio: "01/09/2021", fim: "Presente" },
+      estatisticas: { jogos: 14, gols: 1, assistencias: 2 },
+      destaque: "Medalha de ouro olímpica (2021)",
+    },
+    periodos_inativos: [],
+    titulosIndividuais: [],
+    tags: ["Mattéo Guendouzi", "Guendouzi", "Fenerbahçe", "Lazio"],
+    ultima_atualizacao: "02/04/2026",
   },
 
   // Henry
@@ -25709,7 +26168,7 @@ export const jogadores = [
     nomeCompleto: "Memphis Depay",
     background: "Titanium",
     descricao:
-      "Atacante holandês, reconhecido por sua potência física, velocidade, habilidade no drible e precisão em chutes de longa distância. É um dos principais artilheiros da história da Seleção Holandesa e um jogador versátil, atuando tanto como ponta-esquerda quanto como centroavante ou segundo atacante.",
+      "Atacante holandês, reconhecido por sua potência física, velocidade, habilidade no drible e precisão em chutes de longa distância. É um dos principais artilheiros da história da Seleção Holandesa e um jogador versátil, atuando tanto como ponta-esquerda quanto como centroavante ou segundo atacante. Desde 2024 é peça de destaque no Corinthians, figurando entre os maiores goleadores do clube no Brasileirão na década de 2020.",
     pagina: "https://www.instagram.com/memphisdepay/",
     nacionalidade: "Holanda",
     imagem:
@@ -25750,7 +26209,7 @@ export const jogadores = [
       createClub(
         "Corinthians",
         { inicio: "15/08/2024", fim: "Presente" },
-        { jogos: 58, gols: 16, assistencias: 5 },
+        { jogos: 74, gols: 22, assistencias: 9 },
       ),
     ],
     selecao: {
@@ -25776,8 +26235,8 @@ export const jogadores = [
         anos: ["2017"],
       },
     ],
-    tags: ["Memphis Depay"],
-    ultimaAtualizacao: "13/12/2025",
+    tags: ["Memphis Depay", "Memphis", "Depay", "Memphis Depai"],
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Van Persie
@@ -26219,6 +26678,60 @@ export const jogadores = [
     ultimaAtualizacao: "17/12/2025",
   },
 
+  // GANA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Semenyo
+  {
+    nome: "Semenyo",
+    nomeCompleto: "Antoine Serlom Semenyo",
+    background: "Diamond",
+    descricao:
+      "Ponta de origem inglesa que defende a seleção de Gana. Combina velocidade, físico e finalização; despontou no Bristol City e no Bournemouth antes de ser contratado pelo Manchester City em janeiro de 2026, em um dos investimentos mais altos da janela europeia, com contrato longo até 2031.",
+    pagina: "https://pt.wikipedia.org/wiki/Antoine_Semenyo",
+    nacionalidade: "Gana",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/Antoine_Semenyo_2026.png",
+    numero: "42",
+    posicao: "Ponta Direita / Ponta Esquerda",
+    dataNascimento: "07/01/2000",
+    status: "Ativo",
+    curiosidades:
+      "Nascido em Londres, optou por Gana e disputou a Copa do Mundo FIFA de 2022. No City, herdou a camisa 42 — número que usou ao estrear como profissional no Bristol City e antes associado a Yaya Touré no clube de Manchester.",
+    clubes: [
+      createClub(
+        "Bristol City",
+        { inicio: "01/07/2018", fim: "28/01/2023" },
+        { jogos: 125, gols: 21, assistencias: 14 },
+      ),
+      createClub(
+        "Bournemouth",
+        { inicio: "29/01/2023", fim: "08/01/2026" },
+        { jogos: 110, gols: 32, assistencias: 16 },
+      ),
+      createClub(
+        "Manchester City",
+        { inicio: "09/01/2026", fim: "Presente" },
+        { jogos: 22, gols: 9, assistencias: 6 },
+      ),
+    ],
+    selecao: {
+      nome: "Gana",
+      periodo: { inicio: "08/06/2022", fim: "Presente" },
+      estatisticas: { jogos: 32, gols: 3, assistencias: 5 },
+      destaque: "Copa do Mundo FIFA de 2022",
+    },
+    periodos_inativos: [],
+    titulosIndividuais: [
+      {
+        nome: "Copa da Liga Inglesa",
+        logo: "Copa da Liga Inglesa",
+        anos: ["2026"],
+      },
+    ],
+    tags: ["Antoine Semenyo", "Semenyo", "Ghana", "Manchester City"],
+    ultimaAtualizacao: "02/04/2026",
+  },
+
   // HUNGRIA -------------------------------------------------------------------------------------------------------------------------------------------------------
 
   // Ferenc Puskás
@@ -26322,6 +26835,82 @@ export const jogadores = [
   },
 
   // INGLATERRA -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  // Abraham
+  {
+    nome: "Abraham",
+    nomeCompleto: "Kevin Oghenetega Tamaraebi Bakumo-Abraham",
+    background: "Diamond",
+    descricao:
+      "Centroavante inglês que se destacou no Chelsea e na Roma e retornou à Premier League em janeiro de 2026 pelo Aston Villa, após negociação envolvendo o Beşiktaş (clube que havia tornado definitiva a situação junto à Roma). Já brilhou em empréstimo pelo próprio Villa na Championship, época de acesso à elite inglesa.",
+    pagina: "https://pt.wikipedia.org/wiki/Tammy_Abraham",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/FC_Salzburg_gegen_AS_Roma_%28UEFA_Euroleague_play-off%2C_2023-02-16%29_39_%28cropped2%29.jpg/960px-FC_Salzburg_gegen_AS_Roma_%28UEFA_Euroleague_play-off%2C_2023-02-16%29_39_%28cropped2%29.jpg",
+    numero: "9",
+    posicao: "Centroavante",
+    dataNascimento: "02/10/1997",
+    status: "Ativo",
+    curiosidades:
+      "Em 27 de janeiro de 2026, o Villa anunciou sua contratação em definitivo após acordo com o Beşiktaş, num valor próximo a €21 milhões (cerca de £18 milhões), com vínculo até meados de 2030.",
+    clubes: [
+      createClub(
+        "Bristol City",
+        { inicio: "31/08/2016", fim: "31/05/2017" },
+        { jogos: 48, gols: 23, assistencias: 2 },
+      ),
+      createClub(
+        "Aston Villa",
+        { inicio: "01/08/2018", fim: "31/05/2019" },
+        { jogos: 41, gols: 26, assistencias: 3 },
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "01/06/2019", fim: "16/08/2021" },
+        { jogos: 82, gols: 30, assistencias: 10 },
+      ),
+      createClub(
+        "Roma",
+        { inicio: "17/08/2021", fim: "09/07/2023" },
+        { jogos: 80, gols: 27, assistencias: 8 },
+      ),
+      createClub(
+        "AC Milan",
+        { inicio: "10/07/2023", fim: "30/06/2024" },
+        { jogos: 17, gols: 2, assistencias: 1 },
+      ),
+      createClub(
+        "Roma",
+        { inicio: "01/07/2024", fim: "31/07/2025" },
+        { jogos: 28, gols: 7, assistencias: 2 },
+      ),
+      createClub(
+        "Beşiktaş",
+        { inicio: "01/08/2025", fim: "26/01/2026" },
+        { jogos: 24, gols: 12, assistencias: 2 },
+      ),
+      createClub(
+        "Aston Villa",
+        { inicio: "27/01/2026", fim: "Presente" },
+        { jogos: 12, gols: 4, assistencias: 1 },
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "10/11/2017", fim: "Presente" },
+      estatisticas: { jogos: 30, gols: 3, assistencias: 2 },
+    },
+    periodos_inativos: [],
+    titulosIndividuais: [
+      {
+        nome: "Liga Conferência da UEFA",
+        logo: "Liga Conferência da UEFA",
+        anos: ["2022"],
+      },
+    ],
+    tags: ["Tammy Abraham", "Abraham", "Aston Villa", "Chelsea", "Roma"],
+    ultimaAtualizacao: "02/04/2026",
+  },
 
   // Charlton
   {
@@ -27133,6 +27722,105 @@ export const jogadores = [
     ultimaAtualizacao: "14/12/2025",
   },
 
+  // Lingard
+  {
+    nome: "Lingard",
+    nomeCompleto: "Jesse Ellis Lingard",
+    background: "Plate",
+    descricao:
+      "Meia-atacante inglês formado no Manchester United, conhecido pela mobilidade, chegada à área e momentos decisivos em finais com os Red Devils. Integrou a seleção inglesa na Copa do Mundo de 2018 (4º lugar), brilhou em curto empréstimo ao West Ham em 2021 e, após passagens pelo Nottingham Forest e pelo FC Seoul, passou a defender o Corinthians em 2026.",
+    pagina: "https://pt.wikipedia.org/wiki/Jesse_Lingard",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://cdn.meutimao.com.br/fotos-do-corinthians/w941/2026/04/02/jesse_lingard_em_campo_pelo_corinthians_1ami.jpg",
+    numero: "77",
+    posicao: "Meia-Atacante / Ponta",
+    dataNascimento: "15/12/1992",
+    dataFalecimento: null,
+    status: "Ativo",
+    curiosidades:
+      "Recebeu o apelido de 'Lingardinho' pela estética e improviso com a bola, em referência a Ronaldinho Gaúcho. Marcou em três finais diferentes com o Manchester United (Copa da Inglaterra 2016, Supercopa da Inglaterra 2016 e Copa da Liga 2017). No Corinthians, a camisa 77 homenageia o título paulista de 1977, um dos mais simbólicos da história do clube.",
+    clubes: [
+      createClub(
+        "Leicester City",
+        { inicio: "06/11/2012", fim: "31/01/2013" },
+        { jogos: 5, gols: 0, assistencias: 0 },
+      ),
+      createClub(
+        "Birmingham City",
+        { inicio: "19/09/2013", fim: "31/12/2013" },
+        { jogos: 13, gols: 6, assistencias: 0 },
+      ),
+      createClub(
+        "Brighton & Hove Albion",
+        { inicio: "27/02/2014", fim: "30/06/2014" },
+        { jogos: 17, gols: 4, assistencias: 2 },
+      ),
+      createClub(
+        "Derby County",
+        { inicio: "01/08/2014", fim: "30/06/2015" },
+        { jogos: 14, gols: 2, assistencias: 0 },
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "01/07/2015", fim: "28/01/2021" },
+        { jogos: 200, gols: 33, assistencias: 12 },
+      ),
+      createClub(
+        "West Ham United",
+        { inicio: "29/01/2021", fim: "30/06/2021" },
+        { jogos: 16, gols: 9, assistencias: 5 },
+      ),
+      createClub(
+        "Manchester United",
+        { inicio: "01/07/2021", fim: "30/06/2022" },
+        { jogos: 32, gols: 2, assistencias: 2 },
+      ),
+      createClub(
+        "Nottingham Forest",
+        { inicio: "21/07/2022", fim: "30/06/2023" },
+        { jogos: 20, gols: 2, assistencias: 2 },
+      ),
+      createClub(
+        "FC Seoul",
+        { inicio: "08/02/2024", fim: "10/12/2025" },
+        { jogos: 70, gols: 18, assistencias: 7 },
+      ),
+      createClub(
+        "Corinthians",
+        { inicio: "06/03/2026", fim: "Presente" },
+        { jogos: 1, gols: 0, assistencias: 0 },
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "08/10/2016", fim: "05/09/2021" },
+      estatisticas: { jogos: 32, gols: 6, assistencias: 4 },
+    },
+    periodos_inativos: [],
+    titulosIndividuais: [
+      {
+        nome: "Jogador do Mês do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: ["2021"],
+      },
+      {
+        nome: "Gol do Mês do Campeonato Inglês",
+        logo: "Campeonato Inglês",
+        anos: ["2021"],
+      },
+    ],
+    tags: [
+      "Jesse Lingard",
+      "Jesse Ellis Lingard",
+      "Lingard",
+      "Lingardinho",
+      "JLingz",
+      "Jessie Lingard",
+    ],
+    ultimaAtualizacao: "02/04/2026",
+  },
+
   // Harry Kane
   {
     nome: "Kane",
@@ -27180,13 +27868,13 @@ export const jogadores = [
       createClub(
         "Bayern de Munique",
         { inicio: "12/08/2023", fim: "Presente" },
-        { jogos: 47, gols: 44, assistencias: 12 },
+        { jogos: 136, gols: 126, assistencias: 12 },
       ),
     ],
     selecao: {
       nome: "Inglaterra",
       periodo: { inicio: "27/03/2015", fim: "Presente" },
-      estatisticas: { jogos: 91, gols: 63, assistencias: 19 },
+      estatisticas: { jogos: 112, gols: 78, assistencias: 19 },
       destaque: "Capitão desde 2018; Maior artilheiro da história.",
     },
     periodos_inativos: [],
@@ -27253,7 +27941,7 @@ export const jogadores = [
       },
     ],
     tags: ["Kane", "Harry Kane", "Hurricane", "HK10", "HK9"],
-    ultimaAtualizacao: "14/12/2025",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Grealish
@@ -28146,6 +28834,71 @@ export const jogadores = [
       "Mago do Drible",
     ],
     ultimaAtualizacao: "14/12/2025",
+  },
+
+  // Gallagher
+  {
+    nome: "Gallagher",
+    nomeCompleto: "Conor John Gallagher",
+    background: "Diamond",
+    descricao:
+      "Meio-campista inglês box-to-box, destaque nas categorias de base do Chelsea e em empréstimos na Championship e na Premier League. Após passagem pelo Atlético de Madrid, em janeiro de 2026 foi contratado pelo Tottenham Hotspur em negócio da ordem de £34–40 milhões, buscando protagonismo novamente na Inglaterra.",
+    pagina: "https://pt.wikipedia.org/wiki/Conor_Gallagher",
+    nacionalidade: "Inglaterra",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Conor_Gallagher_2024_%28cropped%29.jpg/960px-Conor_Gallagher_2024_%28cropped%29.jpg",
+    numero: "22",
+    posicao: "Meia Central",
+    dataNascimento: "06/02/2000",
+    status: "Ativo",
+    curiosidades:
+      "Assinou com os Spurs em 14 de janeiro de 2026; a camisa 22 antes era usada por Brennan Johnson, que no mesmo mês foi para o Crystal Palace.",
+    clubes: [
+      createClub(
+        "Charlton Athletic",
+        { inicio: "12/07/2019", fim: "31/01/2020" },
+        { jogos: 26, gols: 6, assistencias: 3 },
+      ),
+      createClub(
+        "Swansea City",
+        { inicio: "31/01/2020", fim: "20/07/2020" },
+        { jogos: 21, gols: 0, assistencias: 1 },
+      ),
+      createClub(
+        "West Bromwich Albion",
+        { inicio: "22/07/2020", fim: "30/06/2021" },
+        { jogos: 30, gols: 2, assistencias: 2 },
+      ),
+      createClub(
+        "Crystal Palace",
+        { inicio: "30/07/2021", fim: "22/05/2022" },
+        { jogos: 34, gols: 8, assistencias: 5 },
+      ),
+      createClub(
+        "Chelsea",
+        { inicio: "01/07/2022", fim: "10/08/2024" },
+        { jogos: 62, gols: 1, assistencias: 4 },
+      ),
+      createClub(
+        "Atlético de Madrid",
+        { inicio: "11/08/2024", fim: "13/01/2026" },
+        { jogos: 52, gols: 3, assistencias: 5 },
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "14/01/2026", fim: "Presente" },
+        { jogos: 14, gols: 1, assistencias: 2 },
+      ),
+    ],
+    selecao: {
+      nome: "Inglaterra",
+      periodo: { inicio: "17/11/2021", fim: "Presente" },
+      estatisticas: { jogos: 22, gols: 1, assistencias: 3 },
+    },
+    periodos_inativos: [],
+    titulosIndividuais: [],
+    tags: ["Conor Gallagher", "Gallagher", "Tottenham", "Chelsea"],
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Gerrard
@@ -31307,6 +32060,57 @@ export const jogadores = [
     ultima_atualizacao: "15/12/2025",
   },
 
+  // Johnson
+  {
+    nome: "Johnson",
+    nomeCompleto: "Brennan Price Johnson",
+    background: "Diamond",
+    descricao:
+      "Atacante/ponta galês veloz e finalizador, revelado pelo Nottingham Forest e consolidado no Tottenham Hotspur, onde marcou o gol da vitória na final da UEFA Europa League 2024–25. Em janeiro de 2026 transferiu-se ao Crystal Palace em acordo recorde para o clube, herdando a camisa 11.",
+    pagina: "https://pt.wikipedia.org/wiki/Brennan_Johnson",
+    nacionalidade: "País de Gales",
+    imagem:
+      "https://static01.nyt.com/athletic/uploads/wp/2026/03/04120148/GettyImages-2258157689-scaled.jpg",
+    numero: "11",
+    posicao: "Ponta Direita / Segundo Atacante",
+    dataNascimento: "23/05/2001",
+    status: "Ativo",
+    curiosidades:
+      "O Palace oficializou a contratação em 2 de janeiro de 2026 por cerca de £35 milhões, maior compra da história do clube até então.",
+    clubes: [
+      createClub(
+        "Nottingham Forest",
+        { inicio: "01/08/2017", fim: "31/08/2023" },
+        { jogos: 120, gols: 35, assistencias: 15 },
+      ),
+      createClub(
+        "Tottenham Hotspur",
+        { inicio: "01/09/2023", fim: "01/01/2026" },
+        { jogos: 107, gols: 27, assistencias: 14 },
+      ),
+      createClub(
+        "Crystal Palace",
+        { inicio: "02/01/2026", fim: "Presente" },
+        { jogos: 14, gols: 3, assistencias: 2 },
+      ),
+    ],
+    selecao: {
+      nome: "País de Gales",
+      periodo: { inicio: "05/09/2020", fim: "Presente" },
+      estatisticas: { jogos: 32, gols: 5, assistencias: 6 },
+    },
+    periodos_inativos: [],
+    titulosIndividuais: [],
+    tags: [
+      "Brennan Johnson",
+      "Johnson",
+      "Crystal Palace",
+      "Tottenham",
+      "Wales",
+    ],
+    ultima_atualizacao: "02/04/2026",
+  },
+
   // PARAGUAI -------------------------------------------------------------------------------------------------------------------------------
 
   // Romero
@@ -31978,7 +32782,7 @@ export const jogadores = [
       createClub(
         "Al-Nassr",
         { inicio: "30/12/2022", fim: "Presente" },
-        { jogos: 133, gols: 125, assistencias: 26 },
+        { jogos: 138, gols: 129, assistencias: 26 },
       ),
     ],
     selecao: {
@@ -32342,7 +33146,7 @@ export const jogadores = [
       "CR",
       "CRONALDO",
     ],
-    ultimaAtualizacao: "31/01/2026",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // Deco
@@ -32715,8 +33519,8 @@ export const jogadores = [
     pagina: "https://www.instagram.com/jpcancelo/",
     nacionalidade: "Portugal",
     imagem:
-      "https://lncimg.lance.com.br/cdn-cgi/image/width=850,quality=75,format=webp/uploads/2025/05/WhatsApp-Image-2025-05-02-at-11.32.38-1.jpeg",
-    numero: "20",
+      "https://ds-images.bolavip.com/news/image?src=https://images.somosfanaticos.fans/webp/br/full/SFBR_20251114_SFBR_660423_Cancelo-2_92f6a238.webp&width=2865&height=1909",
+    numero: "2",
     posicao: "Lateral Direito / Lateral Esquerdo",
     dataNascimento: "27/05/1994",
     dataFalecimento: null,
@@ -32761,8 +33565,13 @@ export const jogadores = [
       ),
       createClub(
         "Al-Hilal",
-        { inicio: "01/09/2024", fim: "Presente" },
-        { jogos: 40, gols: 2, assistencias: 2 },
+        { inicio: "01/09/2024", fim: "12/01/2026" },
+        { jogos: 45, gols: 3, assistencias: 2 },
+      ),
+      createClub(
+        "Barcelona",
+        { inicio: "13/01/2026", fim: "Presente" },
+        { jogos: 11, gols: 1, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -32793,7 +33602,7 @@ export const jogadores = [
       },
     ],
     tags: ["João Cancelo", "Cancelo", "Joao", "João Pedro Cavaco Cancelo"],
-    ultimaAtualizacao: "12/16/2025",
+    ultimaAtualizacao: "02/04/2026",
   },
 
   // João Neves
@@ -33688,7 +34497,7 @@ export const jogadores = [
     pagina: "https://www.instagram.com/mi_safonov/",
     nacionalidade: "Rússia",
     imagem:
-      "https://www.telecomasia.net/upload/iblock/c73/c735b5a6b7f60a712e71b03454b9d326.jpg",
+      "https://lncimg.lance.com.br/uploads/2025/12/safonov-psg-scaled-aspect-ratio-512-320.jpg",
     numero: "39",
     posicao: "Goleiro",
     dataNascimento: "25/02/1999",
@@ -34550,7 +35359,8 @@ export const jogadores = [
       "Lendário atacante uruguaio, conhecido como 'El Matador' pela sua capacidade goleadora, dedicação tática e potência de chute. É o segundo maior artilheiro da história da Seleção Uruguaia e foi o principal goleador da história do Paris Saint-Germain por muitos anos.",
     pagina: "https://pt.wikipedia.org/wiki/Edinson_Cavani",
     nacionalidade: "Uruguai",
-    imagem: "https://s.hs-data.com/picmon/b3/2dLP_99239i_l.jpg",
+    imagem:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e9/PALMEIRAS_X_BOCA_JUNIORS_-_COPA_LIBERTADORES_2023_%2853286889335%29.jpg",
     numero: "10",
     posicao: "Centroavante",
     dataNascimento: "14/02/1987",
@@ -34591,7 +35401,7 @@ export const jogadores = [
       createClub(
         "Boca Juniors",
         { inicio: "29/07/2023", fim: "Presente" },
-        { jogos: 60, gols: 25, assistencias: 6 },
+        { jogos: 79, gols: 28, assistencias: 7 },
       ),
     ],
     selecao: {
@@ -34672,7 +35482,7 @@ export const jogadores = [
       },
     ],
     tags: ["Edinson Cavani", "Cavani", "El Matador"],
-    ultima_atualizacao: "17/12/2025",
+    ultima_atualizacao: "02/04/2026",
   },
 
   // Giorgian De Arrascaeta
@@ -35129,8 +35939,8 @@ export const jogadores = [
     pagina: "https://www.instagram.com/mati.vina/",
     nacionalidade: "Uruguai",
     imagem:
-      "https://www.365scores.com/pt-br/news/magazine/wp-content/uploads/2024/02/Flamengo-x-Boa-Vista-Campeonato-Carioca-Estadio-do-Maracana-20-02-2024-MarceloCortes_NWS5911--scaled.jpg",
-    numero: "17",
+      "https://media.somosfanaticos.fans/wp-content/uploads/sites/17/2026/02/13205219/Matias-Vina-ainda-nao-desencantou-no-River-Plate.-Marcelo-Endelli_Getty-Images-740x416.webp",
+    numero: "18",
     posicao: "Lateral-esquerdo / Ala",
     dataNascimento: "11/09/1997",
     status: "Ativo",
@@ -35164,8 +35974,13 @@ export const jogadores = [
       ),
       createClub(
         "Flamengo",
-        { inicio: "26/01/2024", fim: "Presente" },
+        { inicio: "26/01/2024", fim: "06/01/2026" },
         { jogos: 32, gols: 2, assistencias: 6 },
+      ),
+      createClub(
+        "River Plate",
+        { inicio: "07/01/2026", fim: "Presente" },
+        { jogos: 1, gols: 0, assistencias: 0 },
       ),
     ],
     selecao: {
@@ -35201,7 +36016,7 @@ export const jogadores = [
       },
     ],
     tags: ["Matias Vina"],
-    ultima_atualizacao: "17/12/2025",
+    ultima_atualizacao: "02/04/2026",
   },
 
   // De La Cruz

@@ -3244,6 +3244,10 @@ export const clubes = [
         datas: [{ inicio: "01/01/1991", fim: "27/01/1991" }],
       },
       {
+        nome: "Supercopa Rei",
+        datas: [{ inicio: "01/02/2026", fim: "01/02/2026" }],
+      },
+      {
         nome: "Campeonato Brasileiro Série B",
         datas: [{ inicio: "01/05/2008", fim: "08/11/2008" }],
       },
@@ -3304,7 +3308,7 @@ export const clubes = [
       "libertadores",
       "fiel",
     ],
-    ultima_atualizacao: "01/12/2025",
+    ultima_atualizacao: "02/04/2026",
   },
 
   // Coritiba
@@ -3508,6 +3512,7 @@ export const clubes = [
           { inicio: "17/01/2018", fim: "08/04/2018" },
           { inicio: "20/01/2019", fim: "20/04/2019" },
           { inicio: "24/01/2024", fim: "07/04/2024" },
+          { inicio: "10/01/2026", fim: "08/03/2026" },
         ],
       },
       {
@@ -3742,6 +3747,7 @@ export const clubes = [
           { inicio: "02/03/2021", fim: "22/05/2021" },
           { inicio: "17/01/2024", fim: "07/04/2024" },
           { inicio: "17/01/2025", fim: "06/04/2025" },
+          { inicio: "11/01/2026", fim: "08/03/2026" },
         ],
       },
       {
