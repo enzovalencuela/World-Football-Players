@@ -62,6 +62,7 @@ export default function HomePage() {
     useState(initialPagination);
   const [erroBusca, setErroBusca] = useState("");
   const loadingTimeoutRef = useRef(null);
+  const currentPage = paginacaoPorCategoria[categoriaAtiva]?.page || 1;
 
   useEffect(() => {
     return () => {
@@ -254,7 +255,6 @@ export default function HomePage() {
     [categoriaAtiva, sugestoesPorCategoria]
   );
 
-  const currentPage = paginacaoPorCategoria[categoriaAtiva]?.page || 1;
   const resultadosFinais = useMemo(
     () => resultadosPorCategoria[categoriaAtiva] || [],
     [categoriaAtiva, resultadosPorCategoria]
