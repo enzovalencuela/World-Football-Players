@@ -27,25 +27,39 @@ const endpoints = {
   [FILTRO_SELECOES]: "/api/selecoes",
 };
 
+const initialResults = {
+  [FILTRO_PADRAO]: [],
+  [FILTRO_TECNICOS]: [],
+  [FILTRO_CLUBES]: [],
+  [FILTRO_SELECOES]: [],
+};
+
+const initialSuggestions = {
+  [FILTRO_PADRAO]: [],
+  [FILTRO_TECNICOS]: [],
+  [FILTRO_CLUBES]: [],
+  [FILTRO_SELECOES]: [],
+};
+
+const initialPagination = {
+  [FILTRO_PADRAO]: { page: 1, hasMore: false },
+  [FILTRO_TECNICOS]: { page: 1, hasMore: false },
+  [FILTRO_CLUBES]: { page: 1, hasMore: false },
+  [FILTRO_SELECOES]: { page: 1, hasMore: false },
+};
+
 export default function HomePage() {
   const [termoPesquisa, setTermoPesquisa] = useState("");
   const [textoInput, setTextoInput] = useState("");
   const [categoriaAtiva, setCategoriaAtiva] = useState(FILTRO_PADRAO);
   const [buscaAcionada, setBuscaAcionada] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [itensVisiveis, setItensVisiveis] = useState(ITENS_POR_CARGA);
-  const [resultadosPorCategoria, setResultadosPorCategoria] = useState({
-    [FILTRO_PADRAO]: [],
-    [FILTRO_TECNICOS]: [],
-    [FILTRO_CLUBES]: [],
-    [FILTRO_SELECOES]: [],
-  });
-  const [sugestoesPorCategoria, setSugestoesPorCategoria] = useState({
-    [FILTRO_PADRAO]: [],
-    [FILTRO_TECNICOS]: [],
-    [FILTRO_CLUBES]: [],
-    [FILTRO_SELECOES]: [],
-  });
+  const [resultadosPorCategoria, setResultadosPorCategoria] = useState(initialResults);
+  const [sugestoesPorCategoria, setSugestoesPorCategoria] = useState(
+    initialSuggestions
+  );
+  const [paginacaoPorCategoria, setPaginacaoPorCategoria] =
+    useState(initialPagination);
   const [erroBusca, setErroBusca] = useState("");
   const loadingTimeoutRef = useRef(null);
 
@@ -69,19 +83,28 @@ export default function HomePage() {
     categoria,
     termo,
     mode,
+    page = 1,
     signal,
   }) => {
-    const response = await fetch(
-      `${endpoints[categoria]}?mode=${mode}&q=${encodeURIComponent(termo)}`,
-      { signal }
-    );
+    const params = new URLSearchParams({
+      mode,
+      q: termo,
+    });
+
+    if (mode === "search") {
+      params.set("page", String(page));
+      params.set("limit", String(ITENS_POR_CARGA));
+    }
+
+    const response = await fetch(`${endpoints[categoria]}?${params.toString()}`, {
+      signal,
+    });
 
     if (!response.ok) {
       throw new Error("Falha ao carregar dados.");
     }
 
-    const data = await response.json();
-    return data.items || [];
+    return response.json();
   };
 
   useEffect(() => {
@@ -100,7 +123,7 @@ export default function HomePage() {
         setLoading(true);
         setErroBusca("");
 
-        const items = await fetchCategoria({
+        const data = await fetchCategoria({
           categoria: categoriaAtiva,
           termo: textoInput,
           mode: "suggestions",
@@ -109,7 +132,7 @@ export default function HomePage() {
 
         setSugestoesPorCategoria((current) => ({
           ...current,
-          [categoriaAtiva]: items,
+          [categoriaAtiva]: data.items || [],
         }));
       } catch (error) {
         if (error.name !== "AbortError") {
@@ -145,16 +168,28 @@ export default function HomePage() {
         setLoading(true);
         setErroBusca("");
 
-        const items = await fetchCategoria({
+        const data = await fetchCategoria({
           categoria: categoriaAtiva,
           termo: termoPesquisa,
           mode: "search",
+          page: currentPage,
           signal: controller.signal,
         });
 
         setResultadosPorCategoria((current) => ({
           ...current,
-          [categoriaAtiva]: items,
+          [categoriaAtiva]:
+            currentPage === 1
+              ? data.items || []
+              : [...(current[categoriaAtiva] || []), ...(data.items || [])],
+        }));
+
+        setPaginacaoPorCategoria((current) => ({
+          ...current,
+          [categoriaAtiva]: {
+            ...current[categoriaAtiva],
+            hasMore: Boolean(data.hasMore),
+          },
         }));
       } catch (error) {
         if (error.name !== "AbortError") {
@@ -162,6 +197,13 @@ export default function HomePage() {
           setResultadosPorCategoria((current) => ({
             ...current,
             [categoriaAtiva]: [],
+          }));
+          setPaginacaoPorCategoria((current) => ({
+            ...current,
+            [categoriaAtiva]: {
+              ...current[categoriaAtiva],
+              hasMore: false,
+            },
           }));
         }
       } finally {
@@ -176,20 +218,35 @@ export default function HomePage() {
     return () => {
       controller.abort();
     };
-  }, [buscaAcionada, categoriaAtiva, termoPesquisa]);
+  }, [buscaAcionada, categoriaAtiva, currentPage, termoPesquisa]);
 
   const handleInputTextChange = (e) => {
     setTextoInput(e.target.value);
     setBuscaAcionada(false);
-    setItensVisiveis(ITENS_POR_CARGA);
+    setPaginacaoPorCategoria((current) => ({
+      ...current,
+      [categoriaAtiva]: { page: 1, hasMore: false },
+    }));
+  };
+
+  const iniciarBusca = (termo, categoria = categoriaAtiva) => {
+    setErroBusca("");
+    setBuscaAcionada(true);
+    setTermoPesquisa(termo);
+    setResultadosPorCategoria((current) => ({
+      ...current,
+      [categoria]: [],
+    }));
+    setPaginacaoPorCategoria((current) => ({
+      ...current,
+      [categoria]: { page: 1, hasMore: false },
+    }));
+    setLoading(true);
   };
 
   const handleSuggestionClick = (nomeDoItem) => {
     setTextoInput(nomeDoItem);
-    setTermoPesquisa(nomeDoItem);
-    setBuscaAcionada(true);
-    setItensVisiveis(ITENS_POR_CARGA);
-    setLoading(true);
+    iniciarBusca(nomeDoItem);
   };
 
   const sugestoes = useMemo(
@@ -197,27 +254,30 @@ export default function HomePage() {
     [categoriaAtiva, sugestoesPorCategoria]
   );
 
+  const currentPage = paginacaoPorCategoria[categoriaAtiva]?.page || 1;
   const resultadosFinais = useMemo(
     () => resultadosPorCategoria[categoriaAtiva] || [],
     [categoriaAtiva, resultadosPorCategoria]
   );
 
+  const hasMore = paginacaoPorCategoria[categoriaAtiva]?.hasMore || false;
+
   const handleMostrarMais = () => {
-    setLoading(true);
-    setTimeout(() => {
-      setItensVisiveis((prev) => prev + ITENS_POR_CARGA);
-      setLoading(false);
-    }, 300);
+    setPaginacaoPorCategoria((current) => ({
+      ...current,
+      [categoriaAtiva]: {
+        ...current[categoriaAtiva],
+        page: current[categoriaAtiva].page + 1,
+      },
+    }));
   };
 
   const renderizarCards = () => {
-    const dadosParaRenderizar = resultadosFinais.slice(0, itensVisiveis);
-
     if (erroBusca) {
       return <p className="sem-resultados">{erroBusca}</p>;
     }
 
-    if (resultadosFinais.length === 0 && buscaAcionada) {
+    if (resultadosFinais.length === 0 && buscaAcionada && !loading) {
       return (
         <p className="sem-resultados">
           Nenhum resultado encontrado para "{termoPesquisa}".
@@ -235,27 +295,20 @@ export default function HomePage() {
     const { component: Card, prop } =
       config[categoriaAtiva] || config[FILTRO_PADRAO];
 
-    return dadosParaRenderizar.map((item) => (
+    return resultadosFinais.map((item) => (
       <Card key={item.nomeCompleto || item.nome} {...{ [prop]: item }} />
     ));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setBuscaAcionada(true);
-    setItensVisiveis(ITENS_POR_CARGA);
-    setTermoPesquisa(textoInput);
-    setLoading(true);
+    iniciarBusca(textoInput);
   };
 
   const handleFiltroClick = (termoFiltro) => {
     setCategoriaAtiva(termoFiltro);
-    setBuscaAcionada(true);
-    setTermoPesquisa("");
     setTextoInput("");
-    setItensVisiveis(ITENS_POR_CARGA);
-    setErroBusca("");
-    setLoading(true);
+    iniciarBusca("", termoFiltro);
   };
 
   return (
@@ -313,6 +366,7 @@ export default function HomePage() {
               {filtros.map((filtro) => (
                 <li key={filtro.termo}>
                   <button
+                    type="button"
                     className={`btn-nav ${
                       categoriaAtiva === filtro.termo ? "active" : ""
                     }`}
@@ -331,7 +385,7 @@ export default function HomePage() {
           {buscaAcionada ? (
             <>
               {renderizarCards()}
-              {itensVisiveis < resultadosFinais.length && (
+              {hasMore && (
                 <button
                   className="btn-mostrar-mais"
                   onClick={handleMostrarMais}
