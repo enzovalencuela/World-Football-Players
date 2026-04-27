@@ -1,29 +1,31 @@
 "use client";
 
-import React, { useMemo, useState } from "react";
-import { jogadores } from "../data/jogadores";
-//import { tecnicos } from "../data/tecnicos";
-import { selecoes } from "../data/selecoes";
-import { clubes } from "../data/clubes";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import CardJogador from "../components/CardJogador";
-import CardTecnico from "../components/CardTecnico";
 import CardClubes from "../components/CardClubes";
 import CardSelecao from "../components/CardSelecao";
+import CardTecnico from "../components/CardTecnico";
 import Loading from "../components/Loading";
-import { processarTitulosDoJogador } from "../utils/ProcessarTitulos";
 
 const FILTRO_PADRAO = "JOGADORES";
-//const FILTRO_TECNICOS = "TECNICOS";
+const FILTRO_TECNICOS = "TECNICOS";
 const FILTRO_CLUBES = "CLUBES";
 const FILTRO_SELECOES = "SELECOES";
 const ITENS_POR_CARGA = 20;
 
 const filtros = [
   { nome: "Jogadores", termo: FILTRO_PADRAO },
-  //{ nome: "Técnicos", termo: FILTRO_TECNICOS },
+  { nome: "Tecnicos", termo: FILTRO_TECNICOS },
   { nome: "Clubes", termo: FILTRO_CLUBES },
-  { nome: "Seleções", termo: FILTRO_SELECOES },
+  { nome: "Selecoes", termo: FILTRO_SELECOES },
 ];
+
+const endpoints = {
+  [FILTRO_PADRAO]: "/api/jogadores",
+  [FILTRO_TECNICOS]: "/api/tecnicos",
+  [FILTRO_CLUBES]: "/api/clubes",
+  [FILTRO_SELECOES]: "/api/selecoes",
+};
 
 export default function HomePage() {
   const [termoPesquisa, setTermoPesquisa] = useState("");
@@ -32,34 +34,149 @@ export default function HomePage() {
   const [buscaAcionada, setBuscaAcionada] = useState(false);
   const [loading, setLoading] = useState(false);
   const [itensVisiveis, setItensVisiveis] = useState(ITENS_POR_CARGA);
+  const [resultadosPorCategoria, setResultadosPorCategoria] = useState({
+    [FILTRO_PADRAO]: [],
+    [FILTRO_TECNICOS]: [],
+    [FILTRO_CLUBES]: [],
+    [FILTRO_SELECOES]: [],
+  });
+  const [sugestoesPorCategoria, setSugestoesPorCategoria] = useState({
+    [FILTRO_PADRAO]: [],
+    [FILTRO_TECNICOS]: [],
+    [FILTRO_CLUBES]: [],
+    [FILTRO_SELECOES]: [],
+  });
+  const [erroBusca, setErroBusca] = useState("");
+  const loadingTimeoutRef = useRef(null);
 
-  if (loading) {
-    setTimeout(() => setLoading(false), 500);
-  }
+  useEffect(() => {
+    return () => {
+      if (loadingTimeoutRef.current) {
+        clearTimeout(loadingTimeoutRef.current);
+      }
+    };
+  }, []);
 
-  const dadosAtivos = useMemo(() => {
-    switch (categoriaAtiva) {
-      /*
-      case FILTRO_TECNICOS:
-        return tecnicos;
-      */
-      case FILTRO_CLUBES:
-        return clubes;
-      case FILTRO_SELECOES:
-        return selecoes;
-      case FILTRO_PADRAO:
-      default:
-        return jogadores.map((jogador) => ({
-          ...jogador,
-          nomesTitulosCompletos: [
-            ...(jogador.titulosIndividuais || []).map((t) => t.nome),
-            ...(processarTitulosDoJogador(jogador) || []).map((t) => t.nome),
-          ]
-            .join(" ")
-            .toLowerCase(),
-        }));
+  const pararLoading = () => {
+    if (loadingTimeoutRef.current) {
+      clearTimeout(loadingTimeoutRef.current);
     }
-  }, [categoriaAtiva]);
+
+    setLoading(false);
+  };
+
+  const fetchCategoria = async ({
+    categoria,
+    termo,
+    mode,
+    signal,
+  }) => {
+    const response = await fetch(
+      `${endpoints[categoria]}?mode=${mode}&q=${encodeURIComponent(termo)}`,
+      { signal }
+    );
+
+    if (!response.ok) {
+      throw new Error("Falha ao carregar dados.");
+    }
+
+    const data = await response.json();
+    return data.items || [];
+  };
+
+  useEffect(() => {
+    if (!textoInput || textoInput.length < 2 || buscaAcionada) {
+      setSugestoesPorCategoria((current) => ({
+        ...current,
+        [categoriaAtiva]: [],
+      }));
+      return;
+    }
+
+    const controller = new AbortController();
+
+    async function carregarSugestoes() {
+      try {
+        setLoading(true);
+        setErroBusca("");
+
+        const items = await fetchCategoria({
+          categoria: categoriaAtiva,
+          termo: textoInput,
+          mode: "suggestions",
+          signal: controller.signal,
+        });
+
+        setSugestoesPorCategoria((current) => ({
+          ...current,
+          [categoriaAtiva]: items,
+        }));
+      } catch (error) {
+        if (error.name !== "AbortError") {
+          setErroBusca("Nao foi possivel carregar as sugestoes.");
+          setSugestoesPorCategoria((current) => ({
+            ...current,
+            [categoriaAtiva]: [],
+          }));
+        }
+      } finally {
+        if (!controller.signal.aborted) {
+          pararLoading();
+        }
+      }
+    }
+
+    carregarSugestoes();
+
+    return () => {
+      controller.abort();
+    };
+  }, [buscaAcionada, categoriaAtiva, textoInput]);
+
+  useEffect(() => {
+    if (!buscaAcionada) {
+      return;
+    }
+
+    const controller = new AbortController();
+
+    async function carregarResultados() {
+      try {
+        setLoading(true);
+        setErroBusca("");
+
+        const items = await fetchCategoria({
+          categoria: categoriaAtiva,
+          termo: termoPesquisa,
+          mode: "search",
+          signal: controller.signal,
+        });
+
+        setResultadosPorCategoria((current) => ({
+          ...current,
+          [categoriaAtiva]: items,
+        }));
+      } catch (error) {
+        if (error.name !== "AbortError") {
+          setErroBusca("Nao foi possivel carregar os dados.");
+          setResultadosPorCategoria((current) => ({
+            ...current,
+            [categoriaAtiva]: [],
+          }));
+        }
+      } finally {
+        if (!controller.signal.aborted) {
+          pararLoading();
+        }
+      }
+    }
+
+    carregarResultados();
+
+    return () => {
+      controller.abort();
+    };
+  }, [buscaAcionada, categoriaAtiva, termoPesquisa]);
 
   const handleInputTextChange = (e) => {
     setTextoInput(e.target.value);
@@ -70,122 +187,20 @@ export default function HomePage() {
   const handleSuggestionClick = (nomeDoItem) => {
     setTextoInput(nomeDoItem);
     setTermoPesquisa(nomeDoItem);
-    setLoading(true);
     setBuscaAcionada(true);
     setItensVisiveis(ITENS_POR_CARGA);
+    setLoading(true);
   };
 
-  const sugestoes = useMemo(() => {
-    if (!textoInput || textoInput.length < 2 || buscaAcionada) return [];
-    const termo = textoInput.toLowerCase();
+  const sugestoes = useMemo(
+    () => sugestoesPorCategoria[categoriaAtiva] || [],
+    [categoriaAtiva, sugestoesPorCategoria]
+  );
 
-    const clubesComTag = clubes
-      .filter((c) => c.tags?.some((t) => t.toLowerCase().includes(termo)))
-      .map((c) => c.nome);
-    const selecoesComTag = selecoes
-      .filter((s) => s.tags?.some((t) => t.toLowerCase().includes(termo)))
-      .map((s) => s.nome);
-
-    return dadosAtivos
-      .filter((item) => {
-        const termoMatch = (field) => field?.toLowerCase().includes(termo);
-
-        if (
-          termoMatch(item.nome) ||
-          termoMatch(item.nomeCompleto) ||
-          termoMatch(item.nacionalidade)
-        )
-          return true;
-        if (item.tags?.some((tag) => tag.toLowerCase().includes(termo)))
-          return true;
-
-        if (categoriaAtiva === FILTRO_PADRAO) {
-          if (item.clubes?.some((c) => clubesComTag.includes(c.nome)))
-            return true;
-          if (item.selecao && selecoesComTag.includes(item.selecao.nome))
-            return true;
-        }
-
-        if (item.clubes?.some((c) => termoMatch(c.nome))) return true;
-        if (item.selecao && termoMatch(item.selecao.nome)) return true;
-
-        return false;
-      })
-      .slice(0, 5);
-  }, [textoInput, dadosAtivos, buscaAcionada, categoriaAtiva]);
-
-  const resultadosFinais = useMemo(() => {
-    if (!buscaAcionada) return [];
-    const termo = termoPesquisa.toLowerCase();
-
-    const clubesComTag = clubes
-      .filter((c) => c.tags?.some((t) => t.toLowerCase().includes(termo)))
-      .map((c) => c.nome);
-    const selecoesComTag = selecoes
-      .filter((s) => s.tags?.some((t) => t.toLowerCase().includes(termo)))
-      .map((s) => s.nome);
-
-    const filtrados = dadosAtivos.filter((item) => {
-      const termoMatch = (field) => field?.toLowerCase().includes(termo);
-
-      if (
-        termoMatch(item.nome) ||
-        termoMatch(item.nomeCompleto) ||
-        termoMatch(item.nacionalidade) ||
-        termoMatch(item.posicao)
-      )
-        return true;
-      if (item.tags?.some((tag) => tag.toLowerCase().includes(termo)))
-        return true;
-
-      if (categoriaAtiva === FILTRO_PADRAO) {
-        if (item.clubes?.some((c) => clubesComTag.includes(c.nome)))
-          return true;
-        if (item.selecao && selecoesComTag.includes(item.selecao.nome))
-          return true;
-        if (item.nomesTitulosCompletos?.includes(termo)) return true;
-      }
-
-      if (item.clubes?.some((c) => termoMatch(c.nome))) return true;
-      if (item.selecao && termoMatch(item.selecao.nome)) return true;
-
-      const titulos = [
-        ...(item.titulosIndividuais || []),
-        ...(item.titulos || []),
-      ];
-      if (titulos.some((t) => termoMatch(t.nome))) return true;
-
-      return false;
-    });
-
-    if (categoriaAtiva === FILTRO_PADRAO) {
-      return filtrados.sort((a, b) => {
-        const nomeA = a.nome.toLowerCase();
-        const nomeB = b.nome.toLowerCase();
-
-        if (nomeA === termo && nomeB !== termo) return -1;
-        if (nomeB === termo && nomeA !== termo) return 1;
-
-        const isPresente = (jogador) =>
-          jogador.clubes?.some(
-            (c) =>
-              (c.nome.toLowerCase().includes(termo) ||
-                clubesComTag.includes(c.nome)) &&
-              c.periodo.fim === "Presente"
-          );
-
-        const playingA = isPresente(a);
-        const playingB = isPresente(b);
-
-        if (playingA && !playingB) return -1;
-        if (!playingA && playingB) return 1;
-
-        return a.nome.localeCompare(b.nome);
-      });
-    }
-
-    return filtrados;
-  }, [termoPesquisa, dadosAtivos, categoriaAtiva, buscaAcionada]);
+  const resultadosFinais = useMemo(
+    () => resultadosPorCategoria[categoriaAtiva] || [],
+    [categoriaAtiva, resultadosPorCategoria]
+  );
 
   const handleMostrarMais = () => {
     setLoading(true);
@@ -197,6 +212,11 @@ export default function HomePage() {
 
   const renderizarCards = () => {
     const dadosParaRenderizar = resultadosFinais.slice(0, itensVisiveis);
+
+    if (erroBusca) {
+      return <p className="sem-resultados">{erroBusca}</p>;
+    }
+
     if (resultadosFinais.length === 0 && buscaAcionada) {
       return (
         <p className="sem-resultados">
@@ -206,7 +226,7 @@ export default function HomePage() {
     }
 
     const config = {
-      //[FILTRO_TECNICOS]: { component: CardTecnico, prop: "tecnico" },
+      [FILTRO_TECNICOS]: { component: CardTecnico, prop: "tecnico" },
       [FILTRO_CLUBES]: { component: CardClubes, prop: "clube" },
       [FILTRO_SELECOES]: { component: CardSelecao, prop: "selecao" },
       [FILTRO_PADRAO]: { component: CardJogador, prop: "jogador" },
@@ -216,16 +236,26 @@ export default function HomePage() {
       config[categoriaAtiva] || config[FILTRO_PADRAO];
 
     return dadosParaRenderizar.map((item) => (
-      <Card key={item.nome} {...{ [prop]: item }} />
+      <Card key={item.nomeCompleto || item.nome} {...{ [prop]: item }} />
     ));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
     setBuscaAcionada(true);
     setItensVisiveis(ITENS_POR_CARGA);
     setTermoPesquisa(textoInput);
+    setLoading(true);
+  };
+
+  const handleFiltroClick = (termoFiltro) => {
+    setCategoriaAtiva(termoFiltro);
+    setBuscaAcionada(true);
+    setTermoPesquisa("");
+    setTextoInput("");
+    setItensVisiveis(ITENS_POR_CARGA);
+    setErroBusca("");
+    setLoading(true);
   };
 
   return (
@@ -237,7 +267,7 @@ export default function HomePage() {
             <div className="search-input-wrapper">
               <input
                 type="text"
-                placeholder="digite o atleta, equipe ou país"
+                placeholder="digite o atleta, equipe ou pais"
                 className="search-input-field"
                 value={textoInput}
                 onChange={handleInputTextChange}
@@ -249,13 +279,14 @@ export default function HomePage() {
                   <ul className="suggestion-dropdown">
                     {sugestoes.map((item) => (
                       <li
-                        key={item.nome}
+                        key={item.nomeCompleto || item.nome}
                         onClick={() => handleSuggestionClick(item.nome)}
                         className="suggestion-item"
                       >
                         <img
                           src={
                             item.imagem ||
+                            item.img ||
                             item.logo ||
                             "/img__fundos/default.png"
                           }
@@ -279,20 +310,15 @@ export default function HomePage() {
           </form>
           <div className="btn-filtros">
             <ul className="ul-filtros">
-              {filtros.map((f, i) => (
-                <li key={i}>
+              {filtros.map((filtro) => (
+                <li key={filtro.termo}>
                   <button
                     className={`btn-nav ${
-                      categoriaAtiva === f.termo ? "active" : ""
+                      categoriaAtiva === filtro.termo ? "active" : ""
                     }`}
-                    onClick={() => {
-                      setLoading(true);
-                      setCategoriaAtiva(f.termo);
-                      setBuscaAcionada(true);
-                      setTermoPesquisa("");
-                    }}
+                    onClick={() => handleFiltroClick(filtro.termo)}
                   >
-                    {f.nome}
+                    {filtro.nome}
                   </button>
                 </li>
               ))}
@@ -311,8 +337,7 @@ export default function HomePage() {
                   onClick={handleMostrarMais}
                   disabled={loading}
                 >
-                  Mostrar mais{" "}
-                  <span className="fa-solid fa-chevron-down"></span>
+                  Mostrar mais <span className="fa-solid fa-chevron-down"></span>
                 </button>
               )}
             </>

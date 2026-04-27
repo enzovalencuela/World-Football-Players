@@ -5,7 +5,6 @@ import { calcularIdade, calcularPeriodoAtividade } from "../utils/JogadorUtils";
 import TabelaTitulosIndiividuais from "./TabelaTitulosIndividuais";
 import TabelaTitulosPorEquipe from "./TabelaTitulosPorEquipe";
 import CardSuperior from "./CardSuperior";
-import { clubes } from "../data/clubes";
 
 function CardJogador({ jogador }) {
   const [mostrarDetalhes, setMostrarDetalhes] = useState(false);

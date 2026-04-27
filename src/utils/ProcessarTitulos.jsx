@@ -1,6 +1,3 @@
-import { clubes } from "../data/clubes";
-import { selecoes } from "../data/selecoes";
-
 function converterParaDataUTC(dataStr) {
   if (!dataStr) return null;
   const partes = dataStr.split("/");
@@ -29,10 +26,12 @@ function verificarPeriodoInativo(dataTitulo, periodosInativos) {
   return false;
 }
 
-export function processarTitulosDoJogador(jogador) {
+export function processarTitulosDoJogador(
+  jogador,
+  listaClubesGlobais = [],
+  listaSelecoesGlobais = []
+) {
   let titulosFinais = [];
-  const listaClubesGlobais = clubes;
-  const listaSelecoesGlobais = selecoes;
 
   const periodosInativosDoJogador = jogador.periodos_inativos || [];
 

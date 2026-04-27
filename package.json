@@ -6,11 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push"
   },
   "dependencies": {
+    "@prisma/client": "^6.18.0",
     "ldrs": "^1.1.7",
     "next": "15.5.9",
+    "prisma": "^6.18.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },

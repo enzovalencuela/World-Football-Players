@@ -1,0 +1,107 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Player {
+  id                 Int      @id @default(autoincrement())
+  nome               String
+  nomeCompleto       String   @unique
+  background         String
+  descricao          String
+  pagina             String?
+  nacionalidade      String
+  imagem             String
+  numero             String?
+  posicao            String
+  dataNascimento     String
+  dataFalecimento    String?
+  status             String
+  curiosidades       String?
+  clubes             Json
+  selecao            Json?
+  periodosInativos   Json     @map("periodos_inativos")
+  titulosIndividuais Json
+  tags               Json
+  ultimaAtualizacao  String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@map("players")
+  @@index([nacionalidade])
+  @@index([nome])
+}
+
+model Club {
+  id                Int      @id @default(autoincrement())
+  nome              String   @unique
+  background        String
+  descricao         String
+  fundacao          String?
+  localizacao       String?
+  curiosidades      String?
+  pagina            String?
+  titulos           Json
+  tags              Json?
+  ultimaAtualizacao String?  @map("ultima_atualizacao")
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@map("clubs")
+  @@index([nome])
+}
+
+model Selection {
+  id                Int      @id @default(autoincrement())
+  nome              String   @unique
+  background        String
+  descricao         String
+  confederacao      String?
+  fundacao          String?
+  imagem            String?
+  localizacao       String?
+  pagina            String?
+  titulos           Json
+  mascote           String?
+  cores             String?
+  curiosidades      String?
+  tags              Json?
+  ultimaAtualizacao String?  @map("ultima_atualizacao")
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@map("selections")
+  @@index([nome])
+}
+
+model Coach {
+  id                Int      @id @default(autoincrement())
+  nome              String
+  nomeCompleto      String   @unique
+  background        String
+  nacionalidade     String
+  dataNascimento    String
+  dataFalecimento   String?
+  status            String
+  pagina            String?
+  descricao         String
+  curiosidades      String?
+  imagem            String
+  influencias       Json?
+  clubes            Json
+  esquemasTaticos   Json?    @map("esquemas_taticos")
+  filosofiaDeJogo   String?  @map("filosofia_de_jogo")
+  titulos           Json
+  tags              Json?
+  ultimaAtualizacao String?  @map("ultima_atualizacao")
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@map("coaches")
+  @@index([nome])
+  @@index([nacionalidade])
+}

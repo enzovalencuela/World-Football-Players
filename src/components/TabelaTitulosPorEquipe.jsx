@@ -71,7 +71,8 @@ const formatarDatasParaAnos = (datasString, descompactado) => {
 };
 
 function TabelaTitulosPorEquipe({ jogador }) {
-  const clubesQueJogou = processarTitulosDoJogador(jogador);
+  const clubesQueJogou =
+    jogador.titulosProcessados || processarTitulosDoJogador(jogador);
   const titulosParaExibir = descompactarTitulosVariaveis(clubesQueJogou);
   const titulosOrdenados = [...titulosParaExibir].sort((a, b) => {
     const dataMaisAntigaA = extrairPrimeiraDataParaOrdenacao(a.datas);
@@ -148,6 +149,8 @@ function TabelaTitulosPorEquipe({ jogador }) {
       </table>
     );
   }
+
+  return null;
 }
 
 export default TabelaTitulosPorEquipe;
